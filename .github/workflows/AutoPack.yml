@@ -1,0 +1,203 @@
+name: AutoPack
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+    - main
+    paths:
+    - Resourcepack/**
+
+    env:
+      panel_domain: ${{ secrets.DOMAIN }}
+      server_uuid: ${{ secrets.SERVERUUID }}
+      sftp_user: ${{ secrets.SFTP_USER }}
+      sftp_pass: ${{ secrets.SFTP_PASS }}
+      sftp_host: ${{ secrets.SFTP_HOST }}
+      sftp_port: ${{ secrets.SFTP_PORT }}
+      token: ${{ secrets.APIToken }}
+      # Temporary Permission User
+      server_uuid_full: ${{ secrets.SERVERFULLUUID }}
+      cli_user: ${{ secrets.CLIUSERNAME }}
+      cli_key: ${{ secrets.CLIKEY }}
+      cli_port: ${{ secrets.CLIPORT }}
+      cli_ip: ${{ secrets.CLIIP }}
+
+jobs:
+  Upload-Git-IAPack:
+    runs-on: ubuntu-latest
+    if: |
+      contains(github.event.head_commit.message, '[ci skip]') == false
+
+    steps:
+      - name: 📄 Checking Repostiory
+        uses: actions/checkout@v2.0.0
+      
+      - name: 🗜 ZIP IAPack
+        run: |
+          mkdir workdir
+          cp -r Resourcepack/items_packs workdir
+          cp -r Resourcepack/resource_pack workdir
+          tar --owner=pterodactyl --group=pterodactyl -cjf IAUpdate.tar.bz2 -C ./workdir .
+
+      - name: ⚡ Upload IAPack to Server
+        run: |
+          curl -u "${{ env.sftp_user }}.${{ env.server_uuid }}:${{ env.sftp_pass }}" \
+          -T IAUpdate.tar.bz2 \
+          -k "sftp://${{ env.sftp_host }}:${{ env.sftp_port }}/plugins/ItemsAdder/data/IAUpdate.tar.bz2"
+
+      - name: ♻️ Delete Old IA Files
+        run: |
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.server_uuid }}/files/delete" \
+          -H 'Accept: application/json' \
+          -H 'Content-Type: application/json' \
+          -H 'Authorization: Bearer ${{ env.token }}' \
+          -X POST \
+          -d '{
+          "root": "/plugins/ItemsAdder/data/",
+          "files": [
+            "items_packs",
+            "resource_pack"
+            ]
+          }'
+
+      - name: 📤 UnArchive New IA Files
+        run: |
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.server_uuid }}/files/decompress" \
+          -H 'Accept: application/json' \
+          -H 'Content-Type: application/json' \
+          -H 'Authorization: Bearer ${{ env.token }}' \
+          -X POST \
+          -d '{
+          "root": "/plugins/ItemsAdder/data/",
+          "file": "IAUpdate.tar.bz2"
+          }'
+
+      - name: ♻️ Cleanup Archive File
+        run: |
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.server_uuid }}/files/delete" \
+          -H 'Accept: application/json' \
+          -H 'Content-Type: application/json' \
+          -H 'Authorization: Bearer ${{ env.token }}' \
+          -X POST \
+          -d '{
+          "root": "/plugins/ItemsAdder/data/",
+          "files": [
+            "IAUpdate.tar.bz2"
+            ]
+          }'
+
+      # Issues Link: https://github.com/pterodactyl/panel/issues/3689
+      - name: 📁 Temporary using remote to fix folder permission
+        uses: xMikux/ssh-action@master
+        with:
+          host: ${{ env.cli_ip }}
+          username: ${{ env.cli_user }}
+          key: ${{ env.cli_key }}
+          port: ${{ env.cli_port }}
+          script: |
+            sudo chown -R pterodactyl:pterodactyl /var/lib/pterodactyl/volumes/${{ env.server_uuid_full }}/plugins/ItemsAdder/data/
+
+      - name: 💤 Sleep for 3 seconds
+        run: sleep 3s
+
+      - name: ⌘ IAReload Resourcepack
+        run: |
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.server_uuid }}/command" \
+          -H 'Accept: application/json' \
+          -H 'Content-Type: application/json' \
+          -H 'Authorization: Bearer ${{ env.token }}' \
+          -X POST \
+          -d '{
+          "command": "iareload"
+          }'
+
+      - name: 💤 Sleep for 6 seconds
+        run: sleep 6s
+
+      - name: ⌘ IAZip Resourcepack
+        run: |
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.server_uuid }}/command" \
+          -H 'Accept: application/json' \
+          -H 'Content-Type: application/json' \
+          -H 'Authorization: Bearer ${{ env.token }}' \
+          -X POST \
+          -d '{
+          "command": "iazip"
+          }'
+
+  Download-Server-Pack:
+    needs: Upload-Git-IAPack
+    runs-on: self-hosted
+    env:
+      working-directory: ./.pack
+
+    steps:
+      - name: 📄 Checking Repostiory
+        uses: actions/checkout@v2.0.0
+
+      - name: 💤 Sleep for 5 seconds
+        run: sleep 5s
+
+      - name: 📥 Download ZIP Pack
+        run: |
+          curl -u "${{ env.sftp_user }}.b5dffa66:${{ env.sftp_pass }}" \
+          -k "sftp://${{ env.sftp_host }}:${{ env.port }}/plugins/ItemsAdder/data/resource_pack/pack.zip" \
+          -o pack.zip
+        working-directory: ${{ env.working-directory }}
+
+      - name: 🔧 Replace Pack files
+        run: |
+          rm -r assets
+          rm pack.mcmeta
+          rm pack.png
+          unzip pack.zip
+          ls -alh
+          rm pack.zip
+        working-directory: ${{ env.working-directory }}
+
+      - name: 💤 Sleep for 2 seconds
+        run: sleep 2s
+
+      - name: 🧰 Setup git config
+        run: |
+          git config user.name "Actions Bot"
+          git config user.email "<>"
+
+      - name: 🎉 Commit and Push Pack
+        run: |
+          export CURRENTTIME=$( TZ=":Asia/Taipei" date '+%Y-%m-%d %R %Z' )
+          git add assets
+          git add pack.mcmeta
+          git add pack.png
+          git commit -m "⭐ New Texturepack Upload $CURRENTTIME"
+          git push origin main
+        working-directory: ${{ env.working-directory }}
+
+  Pack-Resourcepack:
+    needs: Download-Server-Pack
+    runs-on: ubuntu-latest
+    # if: |
+    #   contains(github.event.head_commit.message, '[ci noupload]') == false
+
+    steps:
+      - name: 📄 Checking Repostiory
+        uses: actions/checkout@v2.0.0
+        with:
+          fetch-depth: 0
+
+      - name: 📥 Package & Optimize Resourcepack
+        uses: ComunidadAylas/PackSquash-action@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: ./.pack
+
+      - name: ☁ DownloadArtifact
+        uses: actions/download-artifact@v2
+        with:
+          name: Optimized pack
+          path: ./
+
+      - name: 📝 Rename Resourcepack
+        run: |
+          mv ./pack.zip Slimefun-Resourcepack.zip
