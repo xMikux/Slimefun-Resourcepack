@@ -128,7 +128,7 @@ jobs:
 
   Download-Server-Pack:
     needs: Upload-Git-IAPack
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     env:
       working-directory: ./.pack
 
@@ -153,16 +153,27 @@ jobs:
           rm pack.png
           unzip pack.zip
           ls -alh
-          rm pack.zip
+          mv pack.zip Slimefun-ResourcePack-Original.zip
         working-directory: ${{ env.working-directory }}
 
+      - name: Upload Original pack
+        uses: actions/upload-artifact@v2
+        with:
+          name: Slimefun-ResourcePack-Original
+          path: ./.pack/Slimefun-ResourcePack-Original.zip
+
       - name: 💤 Sleep for 2 seconds
-        run: sleep 2s
+        run: |
+          rm ./.pack/Slimefun-ResourcePack-Original.zip
+          sleep 2s
 
       - name: 🧰 Setup git config
-        run: |
-          git config user.name "Actions Bot"
-          git config user.email "<>"
+        uses: crazy-max/ghaction-import-gpg@v4
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
 
       - name: 🎉 Commit and Push Pack
         run: |
@@ -170,7 +181,7 @@ jobs:
           git add assets
           git add pack.mcmeta
           git add pack.png
-          git commit -m "⭐ New Texturepack Upload $CURRENTTIME"
+          git commit -S -m "⭐ New Texturepack Upload $CURRENTTIME"
           git push origin main
         working-directory: ${{ env.working-directory }}
 
@@ -200,4 +211,16 @@ jobs:
 
       - name: 📝 Rename Resourcepack
         run: |
-          mv ./pack.zip Slimefun-Resourcepack.zip
+          mv ./pack.zip Slimefun-ResourcePack-Optimized.zip
+
+      - name: Upload Optimized pack
+        uses: actions/upload-artifact@v2
+        with:
+          name: Slimefun-ResourcePack-Optimized
+          path: ./Slimefun-ResourcePack-Optimized.zip
+
+      - name: Rename Optimized pack
+        uses: geekyeggo/delete-artifact@v1
+        with:
+          name: |
+            Optimized pack

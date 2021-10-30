@@ -313,38 +313,38 @@ items:
       generate: false
       model_id: 2200036
       model_path: "slimefun/magical_gadgets/backpack_ender"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200037
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200038
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200039
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200040
-      model_path: "slimefun/none"
+  # ender_helmet:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200037
+  #     model_path: "slimefun/none"
+  # ender_chestplate:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200038
+  #     model_path: "slimefun/none"
+  # ender_leggings:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200039
+  #     model_path: "slimefun/none"
+  # ender_boots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200040
+  #     model_path: "slimefun/none"
   magic_ender_eye:
     display_name: slimefun
     permission: slimefun
@@ -369,38 +369,38 @@ items:
       generate: false
       model_id: 2200043
       model_path: "slimefun/food/monster_jerky"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200044
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200045
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200046
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200047
-      model_path: "slimefun/none"
+  # slime_helmet:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200044
+  #     model_path: "slimefun/none"
+  # slime_chestplate:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200045
+  #     model_path: "slimefun/none"
+  # slime_leggings:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200046
+  #     model_path: "slimefun/none"
+  # slime_boots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200047
+  #     model_path: "slimefun/none"
   sword_of_beheading:
     display_name: slimefun
     permission: slimefun
@@ -465,14 +465,14 @@ items:
       generate: false
       model_id: 2200055
       model_path: "slimefun/miscellaneous/sifted_ore"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: BLAST_FURNACE
-      generate: false
-      model_id: 2200056
-      model_path: "slimefun/none"
+  # makeshift_smeltery:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: BLAST_FURNACE
+  #     generate: false
+  #     model_id: 2200056
+  #     model_path: "slimefun/none"
   smeltery:
     display_name: slimefun
     permission: slimefun
@@ -505,134 +505,134 @@ items:
       generate: false
       model_id: 2200060
       model_path: "slimefun/technical_components/battery"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200061
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200062
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200063
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200064
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200065
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200066
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200067
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200068
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200069
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200070
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200071
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200072
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200073
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200074
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200075
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200076
-      model_path: "slimefun/none"
+  # glowstone_helmet:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200061
+  #     model_path: "slimefun/none"
+  # glowstone_chestplate:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200062
+  #     model_path: "slimefun/none"
+  # glowstone_leggings:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200063
+  #     model_path: "slimefun/none"
+  # glowstone_boots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200064
+  #     model_path: "slimefun/none"
+  # damascus_steel_helmet:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200065
+  #     model_path: "slimefun/none"
+  # damascus_steel_chestplate:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200066
+  #     model_path: "slimefun/none"
+  # damascus_steel_leggings:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200067
+  #     model_path: "slimefun/none"
+  # damascus_steel_boots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200068
+  #     model_path: "slimefun/none"
+  # reinforced_alloy_helmet:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200069
+  #     model_path: "slimefun/none"
+  # reinforced_alloy_chestplate:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200070
+  #     model_path: "slimefun/none"
+  # reinforced_alloy_leggings:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200071
+  #     model_path: "slimefun/none"
+  # reinforced_alloy_boots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200072
+  #     model_path: "slimefun/none"
+  # cactus_helmet:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200073
+  #     model_path: "slimefun/none"
+  # cactus_chestplate:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200074
+  #     model_path: "slimefun/none"
+  # cactus_leggings:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200075
+  #     model_path: "slimefun/none"
+  # cactus_boots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200076
+  #     model_path: "slimefun/none"
   reinforced_alloy:
     display_name: slimefun
     permission: slimefun
@@ -977,78 +977,78 @@ items:
       generate: false
       model_id: 2200119
       model_path: "slimefun/technical_components/powered_crystal"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200120
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200121
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200122
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200123
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200124
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200125
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200126
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200127
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200128
-      model_path: "slimefun/none"
+  # duralumin_jetpack:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200120
+  #     model_path: "slimefun/none"
+  # solder_jetpack:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200121
+  #     model_path: "slimefun/none"
+  # billon_jetpack:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200122
+  #     model_path: "slimefun/none"
+  # steel_jetpack:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200123
+  #     model_path: "slimefun/none"
+  # damascus_steel_jetpack:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200124
+  #     model_path: "slimefun/none"
+  # reinforced_alloy_jetpack:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200125
+  #     model_path: "slimefun/none"
+  # carbonado_jetpack:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200126
+  #     model_path: "slimefun/none"
+  # parachute:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200127
+  #     model_path: "slimefun/none"
+  # hologram_projector:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200128
+  #     model_path: "slimefun/none"
   chain:
     display_name: slimefun
     permission: slimefun
@@ -1105,62 +1105,62 @@ items:
       generate: false
       model_id: 2200135
       model_path: "slimefun/magical_gadgets/water_staff"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200136
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200137
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200138
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200139
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200140
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200141
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200142
-      model_path: "slimefun/none"
+  # duralumin_multi_tool:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200136
+  #     model_path: "slimefun/none"
+  # solder_multi_tool:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200137
+  #     model_path: "slimefun/none"
+  # billon_multi_tool:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200138
+  #     model_path: "slimefun/none"
+  # steel_multi_tool:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200139
+  #     model_path: "slimefun/none"
+  # damascus_steel_multi_tool:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200140
+  #     model_path: "slimefun/none"
+  # reinforced_alloy_multi_tool:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200141
+  #     model_path: "slimefun/none"
+  # carbonado_multi_tool:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200142
+  #     model_path: "slimefun/none"
   ore_washer:
     display_name: slimefun
     permission: slimefun
@@ -1273,22 +1273,22 @@ items:
       generate: false
       model_id: 2200156
       model_path: "slimefun/resources/valuables/silicon"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: DAYLIGHT_DETECTOR
-      generate: false
-      model_id: 2200157
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200158
-      model_path: "slimefun/none"
+  # solar_panel:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: DAYLIGHT_DETECTOR
+  #     generate: false
+  #     model_id: 2200157
+  #     model_path: "slimefun/none"
+  # solar_helmet:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200158
+  #     model_path: "slimefun/none"
   lava_crystal:
     display_name: slimefun
     permission: slimefun
@@ -1529,38 +1529,38 @@ items:
       generate: false
       model_id: 2200188
       model_path: "slimefun/resources/valuables/synthetic_emerald"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200189
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200190
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200191
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200192
-      model_path: "slimefun/none"
+  # chain_helmet:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200189
+  #     model_path: "slimefun/none"
+  # chain_chestplate:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200190
+  #     model_path: "slimefun/none"
+  # chain_leggings:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200191
+  #     model_path: "slimefun/none"
+  # chain_boots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200192
+  #     model_path: "slimefun/none"
   whirlwind1:
     display_name: slimefun
     permission: slimefun
@@ -1569,6 +1569,7 @@ items:
       generate: false
       model_id: 2200193
       model_path: "slimefun/talisman1/whirlwind"
+# This need to check
   whirlwind2:
     display_name: slimefun
     permission: slimefun
@@ -1633,38 +1634,38 @@ items:
       generate: false
       model_id: 2200201
       model_path: "slimefun/miscellaneous/butter"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200202
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200203
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200204
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200205
-      model_path: "slimefun/none"
+  # gilded_iron_helmet:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200202
+  #     model_path: "slimefun/none"
+  # gilded_iron_chestplate:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200203
+  #     model_path: "slimefun/none"
+  # gilded_iron_leggings:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200204
+  #     model_path: "slimefun/none"
+  # gilded_iron_boots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200205
+  #     model_path: "slimefun/none"
   reinforced_cloth:
     display_name: slimefun
     permission: slimefun
@@ -1673,38 +1674,38 @@ items:
       generate: false
       model_id: 2200206
       model_path: "slimefun/technical_components/reinforced_cloth"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200207
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200208
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200209
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200210
-      model_path: "slimefun/none"
+  # scuba_helmet:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200207
+  #     model_path: "slimefun/none"
+  # hazmat_chestplate:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200208
+  #     model_path: "slimefun/none"
+  # hazmat_leggings:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200209
+  #     model_path: "slimefun/none"
+  # rubber_boots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200210
+  #     model_path: "slimefun/none"
   crushed_ore:
     display_name: slimefun
     permission: slimefun
@@ -1761,38 +1762,38 @@ items:
       generate: false
       model_id: 2200217
       model_path: "slimefun/resources/ingots/redstone_alloy_ingot"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200218
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200219
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200220
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200221
-      model_path: "slimefun/none"
+  # gold_12k_helmet:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200218
+  #     model_path: "slimefun/none"
+  # gold_12k_chestplate:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200219
+  #     model_path: "slimefun/none"
+  # gold_12k_leggings:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200220
+  #     model_path: "slimefun/none"
+  # gold_12k_boots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200221
+  #     model_path: "slimefun/none"
   cloth:
     display_name: slimefun
     permission: slimefun
@@ -1849,14 +1850,14 @@ items:
       generate: false
       model_id: 2200228
       model_path: "slimefun/items/medicine"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200229
-      model_path: "slimefun/none"
+  # night_vision_goggles:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200229
+  #     model_path: "slimefun/none"
   pickaxe_of_containment:
     display_name: slimefun
     permission: slimefun
@@ -1881,38 +1882,38 @@ items:
       generate: false
       model_id: 2200232
       model_path: "slimefun/basic_machines/table_saw"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200233
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200234
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200235
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200236
-      model_path: "slimefun/none"
+  # slime_steel_helmet:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200233
+  #     model_path: "slimefun/none"
+  # slime_steel_chestplate:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200234
+  #     model_path: "slimefun/none"
+  # slime_steel_leggings:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200235
+  #     model_path: "slimefun/none"
+  # slime_steel_boots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200236
+  #     model_path: "slimefun/none"
   gold_block_carat_24:
     display_name: slimefun
     permission: slimefun
@@ -1929,14 +1930,14 @@ items:
       generate: false
       model_id: 2200239
       model_path: "slimefun/basic_machines/composter"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200240
-      model_path: "slimefun/none"
+  # farmer_shoes:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200240
+  #     model_path: "slimefun/none"
   explosive_pickaxe:
     display_name: slimefun
     permission: slimefun
@@ -1977,14 +1978,14 @@ items:
       generate: false
       model_id: 2200245
       model_path: "slimefun/basic_machines/advanced_industrial_miner"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200246
-      model_path: "slimefun/none"
+  # boots_of_the_stomper:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200246
+  #     model_path: "slimefun/none"
   seeker_pickaxe:
     display_name: slimefun
     permission: slimefun
@@ -2097,70 +2098,70 @@ items:
       generate: false
       model_id: 2200261
       model_path: "slimefun/magical_gadgets/backpack_soulbound"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200262
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200263
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200264
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200265
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200266
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200267
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200268
-      model_path: "slimefun/none"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_id: 2200269
-      model_path: "slimefun/none"
+  # duralumin_jetboots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200262
+  #     model_path: "slimefun/none"
+  # solder_jetboots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200263
+  #     model_path: "slimefun/none"
+  # billon_jetboots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200264
+  #     model_path: "slimefun/none"
+  # steel_jetboots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200265
+  #     model_path: "slimefun/none"
+  # damascus_steel_jetboots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200266
+  #     model_path: "slimefun/none"
+  # reinforced_alloy_jetboots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200267
+  #     model_path: "slimefun/none"
+  # carbonado_jetboots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200268
+  #     model_path: "slimefun/none"
+  # armored_jetboots:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: PLAYER_HEAD
+  #     generate: false
+  #     model_id: 2200269
+  #     model_path: "slimefun/none"
   seismic_axe:
     display_name: slimefun
     permission: slimefun
@@ -2321,14 +2322,14 @@ items:
       generate: false
       model_id: 2200289
       model_path: "slimefun/food/golden_apple_juice"
-  none:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: SPAWNER
-      generate: false
-      model_id: 2200290
-      model_path: "slimefun/none"
+  # broken_spawner:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: SPAWNER
+  #     generate: false
+  #     model_id: 2200290
+  #     model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
