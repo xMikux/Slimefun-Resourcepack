@@ -112,8 +112,8 @@ jobs:
           "command": "iareload"
           }'
 
-      - name: 💤 Sleep for 6 seconds
-        run: sleep 6s
+      - name: 💤 Sleep for 12 seconds
+        run: sleep 12s
 
       - name: ⌘ IAZip Resourcepack
         run: |
