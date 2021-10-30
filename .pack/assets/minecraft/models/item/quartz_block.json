@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/quartz_block","overrides":[{"predicate":{"custom_model_data":2200635},"model":"infinityexpansion:item/materials/materials2/quartz_singularity"},{"predicate":{"custom_model_data":2200636},"model":"minecraft:item/quartz_block"}]}

@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/diamond_block","overrides":[{"predicate":{"custom_model_data":2200623},"model":"infinityexpansion:item/materials/materials2/diamond_singularity"},{"predicate":{"custom_model_data":2200624},"model":"minecraft:item/diamond_block"}]}

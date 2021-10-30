@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/netherite_chestplate"},"overrides":[{"predicate":{"custom_model_data":2200646},"model":"infinityexpansion:item/armor/infinity_chestplate"},{"predicate":{"custom_model_data":2200647},"model":"minecraft:item/netherite_chestplate"}]}

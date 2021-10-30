@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/white_glazed_terracotta","overrides":[{"predicate":{"custom_model_data":2200430},"model":"slimefun:slimefun/magical_gadgets/rainbow_glazed_terracotta"},{"predicate":{"custom_model_data":2200431},"model":"minecraft:item/white_glazed_terracotta"}]}

@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/gold_block","overrides":[{"predicate":{"custom_model_data":2200238},"model":"slimefun:slimefun/miscellaneous/gold_block_carat_24"},{"predicate":{"custom_model_data":2200626},"model":"infinityexpansion:item/materials/materials2/gold_singularity"},{"predicate":{"custom_model_data":2200627},"model":"minecraft:item/gold_block"}]}

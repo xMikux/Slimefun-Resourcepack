@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/glass","overrides":[{"predicate":{"custom_model_data":2200059},"model":"slimefun:slimefun/basic_machines/pressure_chamber"},{"predicate":{"custom_model_data":2200060},"model":"minecraft:item/glass"}]}

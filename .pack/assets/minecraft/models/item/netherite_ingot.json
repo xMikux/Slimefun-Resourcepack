@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/netherite_ingot"},"overrides":[{"predicate":{"custom_model_data":2200619},"model":"infinityexpansion:item/materials/void_ingot"},{"predicate":{"custom_model_data":2200620},"model":"minecraft:item/netherite_ingot"}]}

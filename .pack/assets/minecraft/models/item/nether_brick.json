@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/nether_brick"},"overrides":[{"predicate":{"custom_model_data":2200611},"model":"infinityexpansion:item/materials/magnonium"},{"predicate":{"custom_model_data":2200612},"model":"minecraft:item/nether_brick"}]}

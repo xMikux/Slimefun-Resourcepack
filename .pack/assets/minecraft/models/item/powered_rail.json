@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:block/powered_rail"},"overrides":[{"predicate":{"custom_model_data":2200052},"model":"slimefun:slimefun/technical_components/advanced_board"},{"predicate":{"custom_model_data":2200053},"model":"minecraft:item/powered_rail"}]}

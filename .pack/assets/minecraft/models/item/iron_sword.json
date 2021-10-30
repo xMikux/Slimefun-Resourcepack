@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/iron_sword"},"overrides":[{"predicate":{"custom_model_data":2200048},"model":"slimefun:slimefun/weapons/sword_of_beheading"},{"predicate":{"custom_model_data":2200049},"model":"minecraft:item/iron_sword"}]}

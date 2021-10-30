@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/emerald_block","overrides":[{"predicate":{"custom_model_data":2200625},"model":"infinityexpansion:item/materials/materials2/emerald_singularity"},{"predicate":{"custom_model_data":2200626},"model":"minecraft:item/emerald_block"}]}

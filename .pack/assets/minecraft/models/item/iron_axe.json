@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/iron_axe"},"overrides":[{"predicate":{"custom_model_data":2200270},"model":"slimefun:slimefun/weapons/seismic_axe"},{"predicate":{"custom_model_data":2200271},"model":"minecraft:item/iron_axe"}]}

@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/brown_dye"},"overrides":[{"predicate":{"custom_model_data":2200803},"model":"slimy_tree_taps:item/materials/sticky_resin"},{"predicate":{"custom_model_data":2200804},"model":"minecraft:item/brown_dye"}]}

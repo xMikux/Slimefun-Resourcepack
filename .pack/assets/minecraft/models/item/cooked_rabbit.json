@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/cooked_rabbit"},"overrides":[{"predicate":{"custom_model_data":2200023},"model":"slimefun:slimefun/food/rabbit_jerky"},{"predicate":{"custom_model_data":2200024},"model":"minecraft:item/cooked_rabbit"}]}
