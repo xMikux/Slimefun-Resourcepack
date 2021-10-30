@@ -142,7 +142,7 @@ jobs:
       - name: 📥 Download ZIP Pack
         run: |
           curl -u "${{ env.sftp_user }}.${{ env.server_uuid }}:${{ env.sftp_pass }}" \
-          -k "sftp://${{ env.sftp_host }}:${{ env.port }}/plugins/ItemsAdder/data/resource_pack/pack.zip" \
+          -k "sftp://${{ env.sftp_host }}:${{ env.sftp_port }}/plugins/ItemsAdder/data/resource_pack/pack.zip" \
           -o pack.zip
         working-directory: ${{ env.working-directory }}
 
