@@ -1,0 +1,67 @@
+info:
+  namespace: slimy_tree_taps
+items:
+  amber:
+    display_name: slimy_tree_taps
+    permission: slimy_tree_taps
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200800
+      model_path: "item/materials/amber"
+  raw_plastic:
+    display_name: slimy_tree_taps
+    permission: slimy_tree_taps
+    resource:
+      material: PAPER
+      generate: false
+      model_id: 2200801
+      model_path: "item/materials/raw_plastic"
+  rubber:
+    display_name: slimy_tree_taps
+    permission: slimy_tree_taps
+    resource:
+      material: FIREWORK_STAR
+      generate: false
+      model_id: 2200802
+      model_path: "item/materials/rubber"
+  sticky_resin:
+    display_name: slimy_tree_taps
+    permission: slimy_tree_taps
+    resource:
+      material: BROWN_DYE
+      generate: false
+      model_id: 2200803
+      model_path: "item/materials/sticky_resin"
+  diamond_tree_tap:
+    display_name: slimy_tree_taps
+    permission: slimy_tree_taps
+    resource:
+      material: DIAMOND_HOE
+      generate: false
+      model_id: 2200804
+      model_path: "item/treetap/diamond_tree_tap"
+  reinforced_tree_tap:
+    display_name: slimy_tree_taps
+    permission: slimy_tree_taps
+    resource:
+      material: IRON_HOE
+      generate: false
+      model_id: 2200805
+      model_path: "item/treetap/reinforced_tree_tap"
+  tree_tap:
+    display_name: slimy_tree_taps
+    permission: slimy_tree_taps
+    resource:
+      material: WOODEN_HOE
+      generate: false
+      model_id: 2200806
+      model_path: "item/treetap/tree_tap"
+
+# AMBER: 2200800
+# RAW_PLASTIC: 2200801
+# RUBBER: 2200802
+# STICKY_RESIN: 2200803
+# DIAMOND_TREE_TAP: 2200804
+# REINFORCED_TREE_TAP: 2200805
+# TREE_TAP: 2200806

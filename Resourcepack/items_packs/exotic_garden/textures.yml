@@ -1,0 +1,2192 @@
+info:
+  namespace: exotic_garden
+items:
+  blackberry_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200830
+      model_path: "drinks/blackberry_juice"
+  blackberry_smoothie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200831
+      model_path: "drinks/blackberry_smoothie"
+  blueberry_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200832
+      model_path: "drinks/blueberry_juice"
+  blueberry_smoothie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200833
+      model_path: "drinks/blueberry_smoothie"
+  cherry_iced_tea:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200834
+      model_path: "drinks/cherry_iced_tea"
+  cherry_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200835
+      model_path: "drinks/cherry_juice"
+  coconut_milk:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200836
+      model_path: "drinks/coconut_milk"
+  cowberry_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200837
+      model_path: "drinks/cowberry_juice"
+  cowberry_smoothie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200838
+      model_path: "drinks/cowberry_smoothie"
+  cranberry_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200839
+      model_path: "drinks/cranberry_juice"
+  cranberry_smoothie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200840
+      model_path: "drinks/cranberry_smoothie"
+  dragon_fruit_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200841
+      model_path: "drinks/dragon_fruit_juice"
+  elderberry_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200842
+      model_path: "drinks/elderberry_juice"
+  elderberry_smoothie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200843
+      model_path: "drinks/elderberry_smoothie"
+  grape_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200844
+      model_path: "drinks/grape_juice"
+  grape_smoothie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200845
+      model_path: "drinks/grape_smoothie"
+  hot_chocolate:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200846
+      model_path: "drinks/hot_chocolate"
+  lemon_ice_tea:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200847
+      model_path: "drinks/lemon_ice_tea"
+  lemon_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200848
+      model_path: "drinks/lemon_juice"
+  lemonade:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200849
+      model_path: "drinks/lemonade"
+  lime_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200850
+      model_path: "drinks/lime_juice"
+  lime_smoothie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200851
+      model_path: "drinks/lime_smoothie"
+  oak_apple_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200852
+      model_path: "drinks/oak_apple_juice"
+  orange_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200853
+      model_path: "drinks/orange_juice"
+  peach_iced_tea:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200854
+      model_path: "drinks/peach_iced_tea"
+  peach_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200855
+      model_path: "drinks/peach_juice"
+  pear_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200856
+      model_path: "drinks/pear_juice"
+  pinacolada:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200857
+      model_path: "drinks/pinacolada"
+  pineapple_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200858
+      model_path: "drinks/pineapple_juice"
+  pineapple_smoothie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200859
+      model_path: "drinks/pineapple_smoothie"
+  plum_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200860
+      model_path: "drinks/plum_juice"
+  pomegranate_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200861
+      model_path: "drinks/pomegranate_juice"
+  raspberry_iced_tea:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200862
+      model_path: "drinks/raspberry_iced_tea"
+  raspberry_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200863
+      model_path: "drinks/raspberry_juice"
+  raspberry_smoothie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200864
+      model_path: "drinks/raspberry_smoothie"
+  strawberry_iced_tea:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200865
+      model_path: "drinks/strawberry_iced_tea"
+  strawberry_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200866
+      model_path: "drinks/strawberry_juice"
+  strawberry_smoothie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200867
+      model_path: "drinks/strawberry_smoothie"
+  sweetened_tea:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200868
+      model_path: "drinks/sweetened_tea"
+  thai_tea:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200869
+      model_path: "drinks/thai_tea"
+  tomato_juice:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200870
+      model_path: "drinks/tomato_juice"
+  wine:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200871
+      model_path: "drinks/wine"
+  apple_pear_cake:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200872
+      model_path: "foods/apple_pear_cake"
+  apple_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200873
+      model_path: "foods/apple_pie"
+  bacon:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200874
+      model_path: "foods/bacon"
+  bacon_burger:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200875
+      model_path: "foods/bacon_burger"
+  bacon_cheeseburger:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200876
+      model_path: "foods/bacon_cheeseburger"
+  bacon_sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200877
+      model_path: "foods/bacon_sandwich"
+  bagel:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200878
+      model_path: "foods/bagel"
+  biscuit:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200879
+      model_path: "foods/biscuit"
+  biscuits_and_country_gravy:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200880
+      model_path: "foods/biscuits_and_country_gravy"
+  blackberry_cobbler:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200881
+      model_path: "foods/blackberry_cobbler"
+  blackberry_jelly_sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200882
+      model_path: "foods/blackberry_jelly_sandwich"
+  blackberry_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200883
+      model_path: "foods/blackberry_pie"
+  blt_sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200884
+      model_path: "foods/blt_sandwich"
+  blueberry_cheesecake:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200885
+      model_path: "foods/blueberry_cheesecake"
+  blueberry_jelly_sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200886
+      model_path: "foods/blueberry_jelly_sandwich"
+  blueberry_muffin:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200887
+      model_path: "foods/blueberry_muffin"
+  blueberry_pancakes:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200888
+      model_path: "foods/blueberry_pancakes"
+  blueberry_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200889
+      model_path: "foods/blueberry_pie"
+  boston_cream_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200890
+      model_path: "foods/boston_cream_pie"
+  burrito:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200891
+      model_path: "foods/burrito"
+  carrot_cake:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200892
+      model_path: "foods/carrot_cake"
+  cheeseburger:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200893
+      model_path: "foods/cheeseburger"
+  cheesecake:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200894
+      model_path: "foods/cheesecake"
+  cherry_cheesecake:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200895
+      model_path: "foods/cherry_cheesecake"
+  cherry_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200896
+      model_path: "foods/cherry_pie"
+  chicken_burrito:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200897
+      model_path: "foods/chicken_burrito"
+  chicken_cheeseburger:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200898
+      model_path: "foods/chicken_cheeseburger"
+  chicken_curry:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200899
+      model_path: "foods/chicken_curry"
+  chicken_pot_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200900
+      model_path: "foods/chicken_pot_pie"
+  chicken_sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200901
+      model_path: "foods/chicken_sandwich"
+  chickenburger:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200902
+      model_path: "foods/chickenburger"
+  chocolate_bar:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200903
+      model_path: "foods/chocolate_bar"
+  chocolate_cake:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200904
+      model_path: "foods/chocolate_cake"
+  chocolate_chip_muffin:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200905
+      model_path: "foods/chocolate_chip_muffin"
+  chocolate_pear_cake:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200906
+      model_path: "foods/chocolate_pear_cake"
+  chocolate_strawberry:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200907
+      model_path: "foods/chocolate_strawberry"
+  club_sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200908
+      model_path: "foods/club_sandwich"
+  coconut_chicken_curry:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200909
+      model_path: "foods/coconut_chicken_curry"
+  corn_on_the_cob:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: GOLDEN_CARROT
+      generate: false
+      model_id: 2200910
+      model_path: "foods/corn_on_the_cob"
+  cowberry_jelly_sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200911
+      model_path: "foods/cowberry_jelly_sandwich"
+  cowberry_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200912
+      model_path: "foods/cowberry_pie"
+  cranberry_jelly_sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200913
+      model_path: "foods/cranberry_jelly_sandwich"
+  cranberry_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200914
+      model_path: "foods/cranberry_pie"
+  cream_cookie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200915
+      model_path: "foods/cream_cookie"
+  creamed_corn:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200916
+      model_path: "foods/creamed_corn"
+  deluxe_cheeseburger:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200917
+      model_path: "foods/deluxe_cheeseburger"
+  dragon_fruit_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200918
+      model_path: "foods/dragon_fruit_pie"
+  egg_salad:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200919
+      model_path: "foods/egg_salad"
+  elderberry_sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200920
+      model_path: "foods/elderberry_sandwich"
+  elderbery_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200921
+      model_path: "foods/elderbery_pie"
+  fish_sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200922
+      model_path: "foods/fish_sandwich"
+  fish_taco:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200923
+      model_path: "foods/fish_taco"
+  fries:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200924
+      model_path: "foods/fries"
+  garlic_bread:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200925
+      model_path: "foods/garlic_bread"
+  garlic_cheese_bread:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200926
+      model_path: "foods/garlic_cheese_bread"
+  grape_jelly_sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200927
+      model_path: "foods/grape_jelly_sandwich"
+  grape_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200928
+      model_path: "foods/grape_pie"
+  grape_salad:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200929
+      model_path: "foods/grape_salad"
+  grilled_sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200930
+      model_path: "foods/grilled_sandwich"
+  hamburger:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200931
+      model_path: "foods/hamburger"
+  hot_dog:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200932
+      model_path: "foods/hot_dog"
+  hot_dog_bacon_wrapped_cheese_filled:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200933
+      model_path: "foods/hot_dog_bacon_wrapped_cheese_filled"
+  hot_dog_bbq_bacon_wrapped:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200934
+      model_path: "foods/hot_dog_bbq_bacon_wrapped"
+  hot_dog_bbq_double_bacon_wrapped_in_a_tortilla_with_cheese:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200935
+      model_path: "foods/hot_dog_bbq_double_bacon_wrapped_in_a_tortilla_with_cheese"
+  ice_cream:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200936
+      model_path: "foods/ice_cream"
+  jammy_dodger:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200937
+      model_path: "foods/jammy_dodger"
+  lamington:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200938
+      model_path: "foods/lamington"
+  lasagna:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200939
+      model_path: "foods/lasagna"
+  leafy_chicken_sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200940
+      model_path: "foods/leafy_chicken_sandwich"
+  leafy_fish_sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200941
+      model_path: "foods/leafy_fish_sandwich"
+  lemon_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200942
+      model_path: "foods/lemon_pie"
+  lime_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200943
+      model_path: "foods/lime_pie"
+  orange_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200944
+      model_path: "foods/orange_pie"
+  pancakes:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200945
+      model_path: "foods/pancakes"
+  pavlova:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200946
+      model_path: "foods/pavlova"
+  peach_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200947
+      model_path: "foods/peach_pie"
+  pear_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200948
+      model_path: "foods/pear_pie"
+  plum_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200949
+      model_path: "foods/plum_pie"
+  pomegranate_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200950
+      model_path: "foods/pomegranate_pie"
+  popcorn:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200951
+      model_path: "foods/popcorn"
+  popcorn_salty:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200952
+      model_path: "foods/popcorn_salty"
+  popcorn_sweet:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200953
+      model_path: "foods/popcorn_sweet"
+  potato_salad:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200954
+      model_path: "foods/potato_salad"
+  pumpkin_bread:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200955
+      model_path: "foods/pumpkin_bread"
+  pumpkin_cheesecake:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200956
+      model_path: "foods/pumpkin_cheesecake"
+  pumpkin_muffin:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200957
+      model_path: "foods/pumpkin_muffin"
+  raspberry_jelly_sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200958
+      model_path: "foods/raspberry_jelly_sandwich"
+  raspberry_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200959
+      model_path: "foods/raspberry_pie"
+  sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200960
+      model_path: "foods/sandwich"
+  shepards_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200961
+      model_path: "foods/shepards_pie"
+  strawberry_jelly_sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200962
+      model_path: "foods/strawberry_jelly_sandwich"
+  strawberry_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200963
+      model_path: "foods/strawberry_pie"
+  strawberry_salad:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200964
+      model_path: "foods/strawberry_salad"
+  sweet_berry_pancakes:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200965
+      model_path: "foods/sweet_berry_pancakes"
+  sweetened_pear_cheesecake:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200966
+      model_path: "foods/sweetened_pear_cheesecake"
+  taco:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200967
+      model_path: "foods/taco"
+  tiramisu:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200968
+      model_path: "foods/tiramisu"
+  tiramisu_with_blackberries:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200969
+      model_path: "foods/tiramisu_with_blackberries"
+  tiramisu_with_raspberries:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200970
+      model_path: "foods/tiramisu_with_raspberries"
+  tiramisu_with_strawberries:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200971
+      model_path: "foods/tiramisu_with_strawberries"
+  tomato_soup:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200972
+      model_path: "foods/tomato_soup"
+  waffles:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200973
+      model_path: "foods/waffles"
+  apple:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200974
+      model_path: "fruits/apple"
+  apple_oak_sapling:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2200975
+      model_path: "fruits/apple_oak_sapling"
+  black_pepper:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200976
+      model_path: "fruits/black_pepper"
+  black_pepper_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2200977
+      model_path: "fruits/black_pepper_plant"
+  blackberry:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200978
+      model_path: "fruits/blackberry"
+  blackberry_bush:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2200979
+      model_path: "fruits/blackberry_bush"
+  blueberry:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200980
+      model_path: "fruits/blueberry"
+  blueberry_bush:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2200981
+      model_path: "fruits/blueberry_bush"
+  cabbage:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200982
+      model_path: "fruits/cabbage"
+  cabbage_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2200983
+      model_path: "fruits/cabbage_plant"
+  cherry:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200984
+      model_path: "fruits/cherry"
+  cherry_sapling:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2200985
+      model_path: "fruits/cherry_sapling"
+  cilantro:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200986
+      model_path: "fruits/cilantro"
+  cilantro_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2200987
+      model_path: "fruits/cilantro_plant"
+  coconut:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200988
+      model_path: "fruits/coconut"
+  coconut_sapling:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2200989
+      model_path: "fruits/coconut_sapling"
+  corn:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200990
+      model_path: "fruits/corn"
+  corn_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2200991
+      model_path: "fruits/corn_plant"
+  cowberry:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200992
+      model_path: "fruits/cowberry"
+  cowberry_bush:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2200993
+      model_path: "fruits/cowberry_bush"
+  cranberry:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200994
+      model_path: "fruits/cranberry"
+  cranberry_bush:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2200995
+      model_path: "fruits/cranberry_bush"
+  curry_leaf:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200996
+      model_path: "fruits/curry_leaf"
+  curry_leaf_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2200997
+      model_path: "fruits/curry_leaf_plant"
+  dragon_fruit:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200998
+      model_path: "fruits/dragon_fruit"
+  dragon_fruit_sappling:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2200999
+      model_path: "fruits/dragon_fruit_sappling"
+  elderberry:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201000
+      model_path: "fruits/elderberry"
+  elderberry_bush:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201001
+      model_path: "fruits/elderberry_bush"
+  garlic:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201002
+      model_path: "fruits/garlic"
+  garlic_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201003
+      model_path: "fruits/garlic_plant"
+  grape:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201004
+      model_path: "fruits/grape"
+  grape_bush:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201005
+      model_path: "fruits/grape_bush"
+  grass_seeds:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201006
+      model_path: "fruits/grass_seeds"
+  lemon:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201007
+      model_path: "fruits/lemon"
+  lemon_sapling:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201008
+      model_path: "fruits/lemon_sapling"
+  lettuce:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201009
+      model_path: "fruits/lettuce"
+  lettuce_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201010
+      model_path: "fruits/lettuce_plant"
+  lime:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201011
+      model_path: "fruits/lime"
+  lime_sapling:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201012
+      model_path: "fruits/lime_sapling"
+  mustard_seed:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201013
+      model_path: "fruits/mustard_seed"
+  mustard_seed_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201014
+      model_path: "fruits/mustard_seed_plant"
+  onion:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201015
+      model_path: "fruits/onion"
+  onion_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201016
+      model_path: "fruits/onion_plant"
+  orange:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201017
+      model_path: "fruits/orange"
+  orange_sapling:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201018
+      model_path: "fruits/orange_sapling"
+  peach:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201019
+      model_path: "fruits/peach"
+  peach_sapling:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201020
+      model_path: "fruits/peach_sapling"
+  pear:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201021
+      model_path: "fruits/pear"
+  pear_sapling:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201022
+      model_path: "fruits/pear_sapling"
+  pineapple:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201023
+      model_path: "fruits/pineapple"
+  pineapple_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201024
+      model_path: "fruits/pineapple_plant"
+  plum:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201025
+      model_path: "fruits/plum"
+  plum_sapling:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201026
+      model_path: "fruits/plum_sapling"
+  pomegranate:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201027
+      model_path: "fruits/pomegranate"
+  pomegranate_sapling:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201028
+      model_path: "fruits/pomegranate_sapling"
+  raspberry:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201029
+      model_path: "fruits/raspberry"
+  raspberry_bush:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201030
+      model_path: "fruits/raspberry_bush"
+  strawberry:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201031
+      model_path: "fruits/strawberry"
+  strawberry_bush:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201032
+      model_path: "fruits/strawberry_bush"
+  sweet_potato:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201033
+      model_path: "fruits/sweet_potato"
+  sweet_potato_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201034
+      model_path: "fruits/sweet_potato_plant"
+  tea_leaf:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201035
+      model_path: "fruits/tea_leaf"
+  tea_leaf_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201036
+      model_path: "fruits/tea_leaf_plant"
+  tomato:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201037
+      model_path: "fruits/tomato"
+  tomato_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201038
+      model_path: "fruits/tomato_plant"
+  coal_essence:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201039
+      model_path: "plants/coal_essence"
+  coal_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201040
+      model_path: "plants/coal_plant"
+  diamond_essence:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201041
+      model_path: "plants/diamond_essence"
+  diamond_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201042
+      model_path: "plants/diamond_plant"
+  emerald_essence:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201043
+      model_path: "plants/emerald_essence"
+  emerald_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201044
+      model_path: "plants/emerald_plant"
+  ender_essence:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201045
+      model_path: "plants/ender_essence"
+  ender_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201046
+      model_path: "plants/ender_plant"
+  essence_aluminum:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201047
+      model_path: "plants/essence_aluminum"
+  essence_copper:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201048
+      model_path: "plants/essence_copper"
+  essence_lead:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201049
+      model_path: "plants/essence_lead"
+  essence_silver:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201050
+      model_path: "plants/essence_silver"
+  essence_tin:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201051
+      model_path: "plants/essence_tin"
+  glowstone_essence:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201052
+      model_path: "plants/glowstone_essence"
+  glowstone_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201053
+      model_path: "plants/glowstone_plant"
+  gold_essence:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201054
+      model_path: "plants/gold_essence"
+  gold_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201055
+      model_path: "plants/gold_plant"
+  iron_essence:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201056
+      model_path: "plants/iron_essence"
+  iron_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201057
+      model_path: "plants/iron_plant"
+  lapis_essence:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201058
+      model_path: "plants/lapis_essence"
+  lapis_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201059
+      model_path: "plants/lapis_plant"
+  obsidian_essence:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201060
+      model_path: "plants/obsidian_essence"
+  obsidian_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201061
+      model_path: "plants/obsidian_plant"
+  plant_aluminum:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201062
+      model_path: "plants/plant_aluminum"
+  plant_copper:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201063
+      model_path: "plants/plant_copper"
+  plant_lead:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201064
+      model_path: "plants/plant_lead"
+  plant_silver:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201065
+      model_path: "plants/plant_silver"
+  plant_tin:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201066
+      model_path: "plants/plant_tin"
+  quartz_essence:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201067
+      model_path: "plants/quartz_essence"
+  quartz_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201068
+      model_path: "plants/quartz_plant"
+  redstone_essence:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201069
+      model_path: "plants/redstone_essence"
+  redstone_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201070
+      model_path: "plants/redstone_plant"
+  slime_essence:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201071
+      model_path: "plants/slime_essence"
+  slime_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201072
+      model_path: "plants/slime_plant"
+
+
+# BLACKBERRY_JUICE: 2200830
+# BLACKBERRY_SMOOTHIE: 2200831
+# BLUEBERRY_JUICE: 2200832
+# BLUEBERRY_SMOOTHIE: 2200833
+# CHERRY_ICED_TEA: 2200834
+# 櫻桃汁: 2200835
+# 椰奶: 2200836
+# COWBERRY_JUICE: 2200837
+# COWBERRY_SMOOTHIE: 2200838
+# CRANBERRY_JUICE: 2200839
+# CRANBERRY_SMOOTHIE: 2200840
+# 火龍果汁: 2200841
+# ELDERBERRY_JUICE: 2200842
+# ELDERBERRY_SMOOTHIE: 2200843
+# GRAPE_JUICE: 2200844
+# GRAPE_SMOOTHIE: 2200845
+# HOT_CHOCOLATE: 2200846
+# LEMON_ICED_TEA: 2200847
+# 檸檬汁: 2200848
+# LEMONADE: 2200849
+# 萊姆汁: 2200850
+# LIME_SMOOTHIE: 2200851
+# 橡樹蘋果汁: 2200852
+# 柳橙汁: 2200853
+# PEACH_ICED_TEA: 2200854
+# 桃子汁: 2200855
+# 梨子汁: 2200856
+# PINACOLADA: 2200857
+# PINEAPPLE_JUICE: 2200858
+# PINEAPPLE_SMOOTHIE: 2200859
+# 梅子汁: 2200860
+# 石榴汁: 2200861
+# RASPBERRY_ICED_TEA: 2200862
+# RASPBERRY_JUICE: 2200863
+# RASPBERRY_SMOOTHIE: 2200864
+# STRAWBERRY_ICED_TEA: 2200865
+# STRAWBERRY_JUICE: 2200866
+# STRAWBERRY_SMOOTHIE: 2200867
+# SWEETENED_TEA: 2200868
+# THAI_TEA: 2200869
+# TOMATO_JUICE: 2200870
+# WINE: 2200871
+# APPLE_PEAR_CAKE: 2200872
+# APPLE_PIE: 2200873
+# BACON: 2200874
+# BACON_BURGER: 2200875
+# BACON_CHEESEBURGER: 2200876
+# BACON_SANDWICH: 2200877
+# BAGEL: 2200878
+# BISCUIT: 2200879
+# BISCUITS_AND_COUNTRY_GRAVY: 2200880
+# BLACKBERRY_COBBLER: 2200881
+# BLACKBERRY_JELLY_SANDWICH: 2200882
+# BLACKBERRY_PIE: 2200883
+# BLT_SANDWICH: 2200884
+# BLUEBERRY_CHEESECAKE: 2200885
+# BLUEBERRY_JELLY_SANDWICH: 2200886
+# BLUEBERRY_MUFFIN: 2200887
+# BLUEBERRY_PANCAKES: 2200888
+# BLUEBERRY_PIE: 2200889
+# BOSTON_CREAM_PIE: 2200890
+# BURRITO: 2200891
+# CARROT_CAKE: 2200892
+# CHEESEBURGER: 2200893
+# CHEESECAKE: 2200894
+# CHERRY_CHEESECAKE: 2200895
+# CHERRY_PIE: 2200896
+# CHICKEN_BURRITO: 2200897
+# CHICKEN_CHEESEBURGER: 2200898
+# CHICKEN_CURRY: 2200899
+# CHICKEN_POT_PIE: 2200900
+# CHICKEN_SANDWICH: 2200901
+# CHICKEN_BURGER: 2200902
+# CHOCOLATE_BAR: 2200903
+# CHOCOLATE_CAKE: 2200904
+# CHOCOLATE_CHIP_MUFFIN: 2200905
+# CHOCOLATE_PEAR_CAKE: 2200906
+# CHOCOLATE_STRAWBERRY: 2200907
+# CLUB_SANDWICH: 2200908
+# COCONUT_CHICKEN_CURRY: 2200909
+# CORN_ON_THE_COB: 2200910
+# COWBERRY_JELLY_SANDWICH: 2200911
+# COWBERRY_PIE: 2200912
+# CRANBERRY_JELLY_SANDWICH: 2200913
+# CRANBERRY_PIE: 2200914
+# CREAM_COOKIE: 2200915
+# CREAMED_CORN: 2200916
+# DELUXE_CHEESEBURGER: 2200917
+# DRAGON_FRUIT_PIE: 2200918
+# EGG_SALAD: 2200919
+# ELDERBERRY_SANDWICH: 2200920
+# ELDERBERY_PIE: 2200921
+# FISH_SANDWICH: 2200922
+# FISH_TACO: 2200923
+# FRIES: 2200924
+# GARLIC_BREAD: 2200925
+# GARLIC_CHEESE_BREAD: 2200926
+# GRAPE_JELLY_SANDWICH: 2200927
+# GRAPE_PIE: 2200928
+# GRAPE_SALAD: 2200929
+# GRILLED_SANDWICH: 2200930
+# HAMBURGER: 2200931
+# HOT_DOG: 2200932
+# BACON_WRAPPED_CHEESE_FILLED_HOT_DOG: 2200933
+# BBQ_BACON_WRAPPED_HOT_DOG: 2200934
+# BBQ_DOUBLE_BACON_WRAPPED_HOT_DOG_IN_A_TORTILLA_WITH_CHEESE: 2200935
+# ICE_CREAM: 2200936
+# JAMMY_DODGER: 2200937
+# LAMINGTON: 2200938
+# LASAGNA: 2200939
+# LEAFY_CHICKEN_SANDWICH: 2200940
+# LEAFY_FISH_SANDWICH: 2200941
+# LEMON_PIE: 2200942
+# LIME_PIE: 2200943
+# ORANGE_PIE: 2200944
+# PANCAKES: 2200945
+# PAVLOVA: 2200946
+# PEACH_PIE: 2200947
+# PEAR_PIE: 2200948
+# PLUM_PIE: 2200949
+# POMEGRANATE_PIE: 2200950
+# POPCORN: 2200951
+# POPCORN_SALTY: 2200952
+# POPCORN_SWEET: 2200953
+# POTATO_SALAD: 2200954
+# PUMPKIN_BREAD: 2200955
+# PUMPKIN_CHEESECAKE: 2200956
+# PUMPKIN_MUFFIN: 2200957
+# RASPBERRY_JELLY_SANDWICH: 2200958
+# RASPBERRY_PIE: 2200959
+# SANDWICH: 2200960
+# SHEPARDS_PIE: 2200961
+# STRAWBERRY_JELLY_SANDWICH: 2200962
+# STRAWBERRY_PIE: 2200963
+# STRAWBERRY_SALAD: 2200964
+# SWEET_BERRY_PANCAKES: 2200965
+# SWEETENED_PEAR_CHEESECAKE: 2200966
+# TACO: 2200967
+# TIRAMISU: 2200968
+# TIRAMISU_WITH_BLACKBERRIES: 2200969
+# TIRAMISU_WITH_RASPBERRIES: 2200970
+# TIRAMISU_WITH_STRAWBERRIES: 2200971
+# TOMATO_SOUP: 2200972
+# WAFFLES: 2200973
+# OAK_APPLE: 2200974
+# OAK_APPLE_SAPLING: 2200975
+# BLACK_PEPPER: 2200976
+# BLACK_PEPPER_BUSH: 2200977
+# BLACKBERRY: 2200978
+# BLACKBERRY_BUSH: 2200979
+# BLUEBERRY: 2200980
+# BLUEBERRY_BUSH: 2200981
+# CABBAGE: 2200982
+# CABBAGE_BUSH: 2200983
+# CHERRY: 2200984
+# CHERRY_SAPLING: 2200985
+# CILANTRO: 2200986
+# CILANTRO_BUSH: 2200987
+# COCONUT: 2200988
+# COCONUT_SAPLING: 2200989
+# CORN: 2200990
+# CORN_BUSH: 2200991
+# COWBERRY: 2200992
+# COWBERRY_BUSH: 2200993
+# CRANBERRY: 2200994
+# CRANBERRY_BUSH: 2200995
+# CURRY_LEAF: 2200996
+# CURRY_LEAF_BUSH: 2200997
+# DRAGON_FRUIT: 2200998
+# DRAGON_FRUIT_SAPLING: 2200999
+# ELDERBERRY: 2201000
+# ELDERBERRY_BUSH: 2201001
+# GARLIC: 2201002
+# GARLIC_BUSH: 2201003
+# GRAPE: 2201004
+# GRAPE_BUSH: 2201005
+# GRASS_SEEDS: 2201006
+# LEMON: 2201007
+# LEMON_SAPLING: 2201008
+# LETTUCE: 2201009
+# LETTUCE_BUSH: 2201010
+# LIME: 2201011
+# LIME_SAPLING: 2201012
+# MUSTARD_SEED: 2201013
+# MUSTARD_SEED_BUSH: 2201014
+# ONION: 2201015
+# ONION_BUSH: 2201016
+# ORANGE: 2201017
+# ORANGE_SAPLING: 2201018
+# PEACH: 2201019
+# PEACH_SAPLING: 2201020
+# PEAR: 2201021
+# PEAR_SAPLING: 2201022
+# PINEAPPLE: 2201023
+# PINEAPPLE_BUSH: 2201024
+# PLUM: 2201025
+# PLUM_SAPLING: 2201026
+# POMEGRANATE: 2201027
+# POMEGRANATE_SAPLING: 2201028
+# RASPBERRY: 2201029
+# RASPBERRY_BUSH: 2201030
+# STRAWBERRY: 2201031
+# STRAWBERRY_BUSH: 2201032
+# SWEET_POTATO: 2201033
+# SWEET_POTATO_BUSH: 2201034
+# TEA_LEAF: 2201035
+# TEA_LEAF_BUSH: 2201036
+# TOMATO: 2201037
+# TOMATO_BUSH: 2201038
+# COAL_ESSENCE: 2201039
+# COAL_PLANT: 2201040
+# DIAMOND_ESSENCE: 2201041
+# DIAMOND_PLANT: 2201042
+# EMERALD_ESSENCE: 2201043
+# EMERALD_PLANT: 2201044
+# ENDER_ESSENCE: 2201045
+# ENDER_PLANT: 2201046
+# ALUMINUM_ESSENCE: 2201047
+# COPPER_ESSENCE: 2201048
+# LEAD_ESSENCE: 2201049
+# SILVER_ESSENCE: 2201050
+# TIN_ESSENCE: 2201051
+# GLOWSTONE_ESSENCE: 2201052
+# GLOWSTONE_PLANT: 2201053
+# GOLD_ESSENCE: 2201054
+# GOLD_PLANT: 2201055
+# IRON_ESSENCE: 2201056
+# IRON_PLANT: 2201057
+# LAPIS_ESSENCE: 2201058
+# LAPIS_PLANT: 2201059
+# OBSIDIAN_ESSENCE: 2201060
+# OBSIDIAN_PLANT: 2201061
+# ALUMINUM_PLANT: 2201062
+# COPPER_PLANT: 2201063
+# LEAD_PLANT: 2201064
+# SILVER_PLANT: 2201065
+# TIN_PLANT: 2201066
+# QUARTZ_ESSENCE: 2201067
+# QUARTZ_PLANT: 2201068
+# REDSTONE_ESSENCE: 2201069
+# REDSTONE_PLANT: 2201070
+# SLIME_ESSENCE: 2201071
+# SLIME_PLANT: 2201072

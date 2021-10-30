@@ -1,0 +1,11 @@
+{
+   "pack":{
+      "pack_format":7,
+      "description":"§bSlimefun Resourcepack"
+   },
+   "Credits":{
+      "Raulh22":"https://www.planetminecraft.com/texture-pack/slimefun-texture-by-raulh22/",
+      "LoneDev":"https://www.spigotmc.org/resources/addon-slimefun4-textures-for-itemsadder.83877/",
+      "Den4enko":"https://github.com/Den4enko/Slimefun-Resourcepack"
+   }
+}

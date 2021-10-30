@@ -1,0 +1,166 @@
+info:
+  namespace: litexpansion
+items:
+  advanced_alloy:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: PAPER
+      generate: false
+      model_id: 2200810
+      model_path: "item/materials/advanced_alloy"
+  advanced_circuit:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: COBWEB
+      generate: false
+      model_id: 2200811
+      model_path: "item/materials/advanced_circuit"
+  coal_dust:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: BLACK_DYE
+      generate: false
+      model_id: 2200812
+      model_path: "item/materials/coal_dust"
+  copper_cable:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: STRING
+      generate: false
+      model_id: 2200813
+      model_path: "item/materials/copper_cable"
+  electronic_circuit:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: COBWEB
+      generate: false
+      model_id: 2200814
+      model_path: "item/materials/electronic_circuit"
+  iridium:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: WHITE_DYE
+      generate: false
+      model_id: 2200815
+      model_path: "item/materials/iridium"
+  iridium_plate:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: PAPER
+      generate: false
+      model_id: 2200816
+      model_path: "item/materials/iridium_plate"
+  mag-thor:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2200817
+      model_path: "item/materials/mag-thor"
+  mixed_metal_ingot:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2200818
+      model_path: "item/materials/mixed_metal_ingot"
+  raw_carbon_fibre:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: BLACK_DYE
+      generate: false
+      model_id: 2200819
+      model_path: "item/materials/raw_carbon_fibre"
+  raw_carbon_mesh:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: BLACK_DYE
+      generate: false
+      model_id: 2200820
+      model_path: "item/materials/raw_carbon_mesh"
+  refined_iron:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2200821
+      model_path: "item/materials/refined_iron"
+  scrap:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: DEAD_BUSH
+      generate: false
+      model_id: 2200822
+      model_path: "item/materials/scrap"
+  thorium:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200823
+      model_path: "item/materials/thorium"
+  uninsulated_copper_cable:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: STRING
+      generate: false
+      model_id: 2200824
+      model_path: "item/materials/uninsulated_copper_cable"
+  uu_matter:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: PURPLE_DYE
+      generate: false
+      model_id: 2200825
+      model_path: "item/materials/uu_matter"
+  cargo_configurator:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: COMPASS
+      generate: false
+      model_id: 2200826
+      model_path: "item/tools/cargo_configurator"
+  nano_blade:
+    display_name: litexpansion
+    permission: litexpansion
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_id: 2200827
+      model_path: "item/tools/nano_blade"
+
+# ADVANCED_ALLOY: 2200810
+# ADVANCED_CIRCUIT: 2200811
+# COAL_DUST: 2200812
+# COPPER_CABLE: 2200813
+# ELECTRONIC_CIRCUIT: 2200814
+# IRIDIUM: 2200815
+# IRIDIUM_PLATE: 2200816
+# MAG_THOR: 2200817
+# MIXED_METAL_INGOT: 2200818
+# RAW_CARBON_FIBRE: 2200819
+# RAW_CARBON_MESH: 2200820
+# REFINED_IRON: 2200821
+# SCRAP: 2200822
+# THORIUM: 2200823
+# UNINSULATED_COPPER_CABLE: 2200824
+# UU_MATTER: 2200825
+# CARGO_CONFIGURATOR: 2200826
+# NANO_BLADE: 2200827
