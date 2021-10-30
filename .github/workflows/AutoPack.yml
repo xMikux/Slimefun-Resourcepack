@@ -8,20 +8,20 @@ on:
     paths:
     - Resourcepack/**
 
-    env:
-      panel_domain: ${{ secrets.DOMAIN }}
-      server_uuid: ${{ secrets.SERVERUUID }}
-      sftp_user: ${{ secrets.SFTP_USER }}
-      sftp_pass: ${{ secrets.SFTP_PASS }}
-      sftp_host: ${{ secrets.SFTP_HOST }}
-      sftp_port: ${{ secrets.SFTP_PORT }}
-      token: ${{ secrets.APIToken }}
-      # Temporary Permission User
-      server_uuid_full: ${{ secrets.SERVERFULLUUID }}
-      cli_user: ${{ secrets.CLIUSERNAME }}
-      cli_key: ${{ secrets.CLIKEY }}
-      cli_port: ${{ secrets.CLIPORT }}
-      cli_ip: ${{ secrets.CLIIP }}
+  env:
+    panel_domain: ${{ secrets.DOMAIN }}
+    server_uuid: ${{ secrets.SERVERUUID }}
+    sftp_user: ${{ secrets.SFTP_USER }}
+    sftp_pass: ${{ secrets.SFTP_PASS }}
+    sftp_host: ${{ secrets.SFTP_HOST }}
+    sftp_port: ${{ secrets.SFTP_PORT }}
+    token: ${{ secrets.APIToken }}
+    # Temporary Permission User
+    server_uuid_full: ${{ secrets.SERVERFULLUUID }}
+    cli_user: ${{ secrets.CLIUSERNAME }}
+    cli_key: ${{ secrets.CLIKEY }}
+    cli_port: ${{ secrets.CLIPORT }}
+    cli_ip: ${{ secrets.CLIIP }}
 
 jobs:
   Upload-Git-IAPack:
