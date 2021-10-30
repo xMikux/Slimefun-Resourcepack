@@ -2,7 +2,7 @@
     "parent": "item/handheld",
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/energy/charging_bench"
+        "layer0": "slimefun:slimefun/energy/charging_bench"
     },
 	"display": {
 		"thirdperson_righthand": {

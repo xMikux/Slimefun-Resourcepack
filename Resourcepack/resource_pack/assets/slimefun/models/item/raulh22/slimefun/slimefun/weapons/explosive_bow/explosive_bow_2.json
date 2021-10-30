@@ -2,7 +2,7 @@
     "parent": "item/handheld",	
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/weapons/explosive_bow/explosive_bow_pulling_2"
+        "layer0": "slimefun:slimefun/weapons/explosive_bow/explosive_bow_pulling_2"
     },
     "display": {
         "thirdperson_righthand": {

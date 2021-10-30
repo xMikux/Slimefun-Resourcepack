@@ -2,7 +2,7 @@
     "parent": "item/handheld",
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/miscellaneous/tin_can"
+        "layer0": "slimefun:slimefun/miscellaneous/tin_can"
     },
 	"display": {
 		"thirdperson_righthand": {

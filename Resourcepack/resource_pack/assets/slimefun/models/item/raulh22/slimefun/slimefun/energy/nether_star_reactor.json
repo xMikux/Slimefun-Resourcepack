@@ -2,7 +2,7 @@
     "parent": "item/handheld",
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/energy/nether_star_reactor"
+        "layer0": "slimefun:slimefun/energy/nether_star_reactor"
     },
 	"display": {
 		"thirdperson_righthand": {

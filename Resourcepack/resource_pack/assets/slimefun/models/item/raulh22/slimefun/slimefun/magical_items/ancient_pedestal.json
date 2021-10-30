@@ -2,7 +2,7 @@
     "parent": "item/handheld",	
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/magical_items/ancient_pedestal"
+        "layer0": "slimefun:slimefun/magical_items/ancient_pedestal"
     },
 	"display": {
 		"thirdperson_righthand": {

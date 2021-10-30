@@ -2,7 +2,7 @@
     "parent": "item/handheld",
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/gps/gps_control_panel"
+        "layer0": "slimefun:slimefun/gps/gps_control_panel"
     },
 	"display": {
 		"thirdperson_righthand": {

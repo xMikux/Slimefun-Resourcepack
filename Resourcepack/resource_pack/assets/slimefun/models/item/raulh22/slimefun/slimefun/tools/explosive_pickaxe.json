@@ -2,6 +2,6 @@
     "parent": "item/handheld",
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/tools/explosive_pickaxe"
+        "layer0": "slimefun:slimefun/tools/explosive_pickaxe"
     }
 }

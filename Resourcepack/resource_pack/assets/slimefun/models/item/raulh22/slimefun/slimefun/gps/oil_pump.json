@@ -2,7 +2,7 @@
     "parent": "item/handheld",
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/gps/oil_pump"
+        "layer0": "slimefun:slimefun/gps/oil_pump"
     },
 	"display": {
 		"thirdperson_righthand": {

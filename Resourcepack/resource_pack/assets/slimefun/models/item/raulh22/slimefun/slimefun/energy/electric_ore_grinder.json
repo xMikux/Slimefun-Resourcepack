@@ -2,7 +2,7 @@
     "parent": "item/handheld",
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/energy/electric_ore_grinder"
+        "layer0": "slimefun:slimefun/energy/electric_ore_grinder"
     },
 	"display": {
 		"thirdperson_righthand": {

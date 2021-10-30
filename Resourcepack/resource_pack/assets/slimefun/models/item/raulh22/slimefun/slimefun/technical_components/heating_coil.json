@@ -2,7 +2,7 @@
     "parent": "item/handheld",
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/technical_components/heating_coil"
+        "layer0": "slimefun:slimefun/technical_components/heating_coil"
     },
 	"display": {
 		"thirdperson_righthand": {

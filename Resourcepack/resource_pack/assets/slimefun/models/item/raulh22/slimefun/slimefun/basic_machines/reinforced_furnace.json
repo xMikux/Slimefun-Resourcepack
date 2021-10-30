@@ -2,7 +2,7 @@
     "parent": "item/handheld",
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/basic_machines/reinforced_furnace"
+        "layer0": "slimefun:slimefun/basic_machines/reinforced_furnace"
     },
 	"display": {
 		"thirdperson_righthand": {

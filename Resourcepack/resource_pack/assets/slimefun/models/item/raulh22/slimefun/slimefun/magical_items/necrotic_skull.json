@@ -1,8 +1,8 @@
 {
 	"__comment": "By: RaulH22",
 	"textures": {
-		"particle": "slimefun:item/raulh22/slimefun/slimefun/magical_items/necrotic_skull",
-		"texture": "slimefun:item/raulh22/slimefun/slimefun/magical_items/necrotic_skull"
+		"particle": "slimefun:slimefun/magical_items/necrotic_skull",
+		"texture": "slimefun:slimefun/magical_items/necrotic_skull"
 	},
 	"elements": [
 		{

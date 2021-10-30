@@ -2,7 +2,7 @@
     "parent": "item/handheld",	
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/weapons/icy_bow/icy_bow"
+        "layer0": "slimefun:slimefun/weapons/icy_bow/icy_bow"
     },
     "display": {
         "thirdperson_righthand": {

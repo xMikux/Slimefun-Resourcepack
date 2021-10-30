@@ -2,7 +2,7 @@
     "parent": "item/handheld",
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/talisman1/water_breather"
+        "layer0": "slimefun:slimefun/talisman1/water_breather"
     },
 	"display": {
 		"thirdperson_righthand": {

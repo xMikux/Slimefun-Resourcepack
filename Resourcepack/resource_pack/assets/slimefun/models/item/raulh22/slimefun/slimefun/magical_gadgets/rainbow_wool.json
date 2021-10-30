@@ -2,8 +2,8 @@
     "parent": "minecraft:block/obsidian",
 	"author": "RaulH22",
     "textures": {
-        "particle": "slimefun:item/raulh22/slimefun/slimefun/magical_gadgets/rainbow_wool",
-        "texture": "slimefun:item/raulh22/slimefun/slimefun/magical_gadgets/rainbow_wool"
+        "particle": "slimefun:slimefun/magical_gadgets/rainbow_wool",
+        "texture": "slimefun:slimefun/magical_gadgets/rainbow_wool"
     },
 	"elements": [
 		{

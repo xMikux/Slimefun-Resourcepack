@@ -2,8 +2,8 @@
     "parent": "minecraft:block/obsidian",
 	"author": "RaulH22",
     "textures": {
-        "particle": "slimefun:item/raulh22/slimefun/slimefun/magical_gadgets/rainbow_glazed_terracotta",
-        "texture": "slimefun:item/raulh22/slimefun/slimefun/magical_gadgets/rainbow_glazed_terracotta"
+        "particle": "slimefun:slimefun/magical_gadgets/rainbow_glazed_terracotta",
+        "texture": "slimefun:slimefun/magical_gadgets/rainbow_glazed_terracotta"
     },
 	"elements": [
 		{

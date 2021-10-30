@@ -2,7 +2,7 @@
     "parent": "item/handheld",
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/miscellaneous/stone_chunk"
+        "layer0": "slimefun:slimefun/miscellaneous/stone_chunk"
     },
 	"display": {
 		"thirdperson_righthand": {

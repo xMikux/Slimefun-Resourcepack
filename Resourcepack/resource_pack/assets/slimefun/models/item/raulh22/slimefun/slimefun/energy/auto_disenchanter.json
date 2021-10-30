@@ -2,7 +2,7 @@
     "parent": "item/handheld",
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/energy/auto_disenchanter"
+        "layer0": "slimefun:slimefun/energy/auto_disenchanter"
     },
 	"display": {
 		"thirdperson_righthand": {

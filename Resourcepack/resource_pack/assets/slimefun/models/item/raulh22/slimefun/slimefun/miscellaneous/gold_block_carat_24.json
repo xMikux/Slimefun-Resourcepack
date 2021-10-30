@@ -2,7 +2,7 @@
     "parent": "item/handheld",
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/miscellaneous/gold_block_carat_24"
+        "layer0": "slimefun:slimefun/miscellaneous/gold_block_carat_24"
     },
 	"display": {
 		"thirdperson_righthand": {

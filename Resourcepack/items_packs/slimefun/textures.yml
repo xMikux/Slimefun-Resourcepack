@@ -8,7 +8,7 @@ items:
       material: GRAY_STAINED_GLASS_PANE
       generate: false
       model_id: 2200002
-      model_path: "item/raulh22/slimefun/slimefun/gui/background"
+      model_path: "slimefun/gui/background"
   slimefun_guide:
     display_name: slimefun
     permission: slimefun
@@ -16,7 +16,7 @@ items:
       material: GOLDEN_SWORD
       generate: false
       model_id: 2200001
-      model_path: "item/raulh22/slimefun/slimefun/gui/slimefun_guide"
+      model_path: "slimefun/gui/slimefun_guide"
   slimefun_guide_icon:
     display_name: slimefun
     permission: slimefun
@@ -24,7 +24,7 @@ items:
       material: ENCHANTED_BOOK
       generate: false
       model_id: 2200001
-      model_path: "item/raulh22/slimefun/slimefun/gui/slimefun_guide"
+      model_path: "slimefun/gui/slimefun_guide"
   back:
     display_name: slimefun
     permission: slimefun
@@ -32,7 +32,7 @@ items:
       material: ENCHANTED_BOOK
       generate: false
       model_id: 2200003
-      model_path: "item/raulh22/slimefun/slimefun/gui/back"
+      model_path: "slimefun/gui/back"
   menu:
     display_name: slimefun
     permission: slimefun
@@ -40,7 +40,7 @@ items:
       material: COMPARATOR
       generate: false
       model_id: 2200004
-      model_path: "item/raulh22/slimefun/slimefun/gui/menu"
+      model_path: "slimefun/gui/menu"
   search:
     display_name: slimefun
     permission: slimefun
@@ -48,7 +48,7 @@ items:
       material: NAME_TAG
       generate: false
       model_id: 2200005
-      model_path: "item/raulh22/slimefun/slimefun/gui/search"
+      model_path: "slimefun/gui/search"
   previous_active:
     display_name: slimefun
     permission: slimefun
@@ -56,7 +56,7 @@ items:
       material: LIME_STAINED_GLASS_PANE
       generate: false
       model_id: 2200007
-      model_path: "item/raulh22/slimefun/slimefun/gui/previous_active"
+      model_path: "slimefun/gui/previous_active"
   previous_inactive:
     display_name: slimefun
     permission: slimefun
@@ -64,7 +64,7 @@ items:
       material: BLACK_STAINED_GLASS_PANE
       generate: false
       model_id: 2200008
-      model_path: "item/raulh22/slimefun/slimefun/gui/previous_inactive"
+      model_path: "slimefun/gui/previous_inactive"
   next_active:
     display_name: slimefun
     permission: slimefun
@@ -72,7 +72,7 @@ items:
       material: LIME_STAINED_GLASS_PANE
       generate: false
       model_id: 2200009
-      model_path: "item/raulh22/slimefun/slimefun/gui/next_active"
+      model_path: "slimefun/gui/next_active"
   next_inactive:
     display_name: slimefun
     permission: slimefun
@@ -80,7 +80,7 @@ items:
       material: BLACK_STAINED_GLASS_PANE
       generate: false
       model_id: 2200010
-      model_path: "item/raulh22/slimefun/slimefun/gui/next_inactive"
+      model_path: "slimefun/gui/next_inactive"
   blade_of_vampires:
     display_name: slimefun
     permission: slimefun
@@ -88,7 +88,7 @@ items:
       material: GOLDEN_SWORD
       generate: false
       model_id: 2200237
-      model_path: "item/raulh22/slimefun/slimefun/weapons/blade_of_vampires"
+      model_path: "slimefun/weapons/blade_of_vampires"
   backpack:
     display_name: slimefun
     permission: slimefun
@@ -96,7 +96,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200249
-      model_path: "item/raulh22/slimefun/slimefun/items/backpack"
+      model_path: "slimefun/items/backpack"
   wiki:
     display_name: slimefun
     permission: slimefun
@@ -104,7 +104,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200006
-      model_path: "item/raulh22/slimefun/slimefun/gui/slimefun_guide"
+      model_path: "slimefun/gui/slimefun_guide"
   grandmas_walking_stick:
     display_name: slimefun
     permission: slimefun
@@ -112,7 +112,7 @@ items:
       material: STICK
       generate: false
       model_id: 2200011
-      model_path: "item/raulh22/slimefun/slimefun/weapons/grandmas_walking_stick"
+      model_path: "slimefun/weapons/grandmas_walking_stick"
   grandpas_walking_stick:
     display_name: slimefun
     permission: slimefun
@@ -120,7 +120,7 @@ items:
       material: STICK
       generate: false
       model_id: 2200012
-      model_path: "item/raulh22/slimefun/slimefun/weapons/grandpas_walking_stick"
+      model_path: "slimefun/weapons/grandpas_walking_stick"
   portable_craftingtabble:
     display_name: slimefun
     permission: slimefun
@@ -128,7 +128,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200013
-      model_path: "item/raulh22/slimefun/slimefun/items/portable_craftingtabble"
+      model_path: "slimefun/items/portable_craftingtabble"
   fortune_cookie:
     display_name: slimefun
     permission: slimefun
@@ -136,7 +136,7 @@ items:
       material: COOKIE
       generate: false
       model_id: 2200014
-      model_path: "item/raulh22/slimefun/slimefun/food/fortune_cookie"
+      model_path: "slimefun/food/fortune_cookie"
   diet_cookie:
     display_name: slimefun
     permission: slimefun
@@ -144,7 +144,7 @@ items:
       material: COOKIE
       generate: false
       model_id: 2200015
-      model_path: "item/raulh22/slimefun/slimefun/food/diet_cookie"
+      model_path: "slimefun/food/diet_cookie"
   output_chest:
     display_name: slimefun
     permission: slimefun
@@ -152,7 +152,7 @@ items:
       material: CHEST
       generate: false
       model_id: 2200016
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/output_chest"
+      model_path: "slimefun/basic_machines/output_chest"
   enchanced_crafting_table:
     display_name: slimefun
     permission: slimefun
@@ -160,7 +160,7 @@ items:
       material: CRAFTING_TABLE
       generate: false
       model_id: 2200017
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/enchanced_crafting_table"
+      model_path: "slimefun/basic_machines/enchanced_crafting_table"
   portable_dustbin:
     display_name: slimefun
     permission: slimefun
@@ -168,7 +168,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200018
-      model_path: "item/raulh22/slimefun/slimefun/items/portable_dustbin"
+      model_path: "slimefun/items/portable_dustbin"
   beef_jerky:
     display_name: slimefun
     permission: slimefun
@@ -176,7 +176,7 @@ items:
       material: COOKED_BEEF
       generate: false
       model_id: 2200019
-      model_path: "item/raulh22/slimefun/slimefun/food/beef_jerky"
+      model_path: "slimefun/food/beef_jerky"
   pork_jerky:
     display_name: slimefun
     permission: slimefun
@@ -184,7 +184,7 @@ items:
       material: COOKED_PORKCHOP
       generate: false
       model_id: 2200020
-      model_path: "item/raulh22/slimefun/slimefun/food/pork_jerky"
+      model_path: "slimefun/food/pork_jerky"
   chicken_jerky:
     display_name: slimefun
     permission: slimefun
@@ -192,7 +192,7 @@ items:
       material: COOKED_CHICKEN
       generate: false
       model_id: 2200021
-      model_path: "item/raulh22/slimefun/slimefun/food/chicken_jerky"
+      model_path: "slimefun/food/chicken_jerky"
   mutton_jerky:
     display_name: slimefun
     permission: slimefun
@@ -200,7 +200,7 @@ items:
       material: COOKED_MUTTON
       generate: false
       model_id: 2200022
-      model_path: "item/raulh22/slimefun/slimefun/food/mutton_jerky"
+      model_path: "slimefun/food/mutton_jerky"
   rabbit_jerky:
     display_name: slimefun
     permission: slimefun
@@ -208,7 +208,7 @@ items:
       material: COOKED_RABBIT
       generate: false
       model_id: 2200023
-      model_path: "item/raulh22/slimefun/slimefun/food/rabbit_jerky"
+      model_path: "slimefun/food/rabbit_jerky"
   fish_jerky:
     display_name: slimefun
     permission: slimefun
@@ -216,7 +216,7 @@ items:
       material: COOKED_COD
       generate: false
       model_id: 2200024
-      model_path: "item/raulh22/slimefun/slimefun/food/fish_jerky"
+      model_path: "slimefun/food/fish_jerky"
   kelp_cookie:
     display_name: slimefun
     permission: slimefun
@@ -224,7 +224,7 @@ items:
       material: COOKIE
       generate: false
       model_id: 2200025
-      model_path: "item/raulh22/slimefun/slimefun/food/kelp_cookie"
+      model_path: "slimefun/food/kelp_cookie"
   grind_stone:
     display_name: slimefun
     permission: slimefun
@@ -232,7 +232,7 @@ items:
       material: DISPENSER
       generate: false
       model_id: 2200026
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/grind_stone"
+      model_path: "slimefun/basic_machines/grind_stone"
   armor_forge:
     display_name: slimefun
     permission: slimefun
@@ -240,7 +240,7 @@ items:
       material: ANVIL
       generate: false
       model_id: 2200027
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/armor_forge"
+      model_path: "slimefun/basic_machines/armor_forge"
   ore_crusher:
     display_name: slimefun
     permission: slimefun
@@ -248,7 +248,7 @@ items:
       material: DISPENSER
       generate: false
       model_id: 2200028
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/ore_crusher"
+      model_path: "slimefun/basic_machines/ore_crusher"
   compressor:
     display_name: slimefun
     permission: slimefun
@@ -256,7 +256,7 @@ items:
       material: PISTON
       generate: false
       model_id: 2200029
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/compressor"
+      model_path: "slimefun/basic_machines/compressor"
   magical_lump:
     display_name: slimefun
     permission: slimefun
@@ -264,7 +264,7 @@ items:
       material: GOLD_NUGGET
       generate: false
       model_id: 2200030
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/magical_lump"
+      model_path: "slimefun/magical_items/magical_lump"
   magical_lump2:
     display_name: slimefun
     permission: slimefun
@@ -272,7 +272,7 @@ items:
       material: GOLD_NUGGET
       generate: false
       model_id: 2200031
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/magical_lump2"
+      model_path: "slimefun/magical_items/magical_lump2"
   magical_lump3:
     display_name: slimefun
     permission: slimefun
@@ -280,7 +280,7 @@ items:
       material: GOLD_NUGGET
       generate: false
       model_id: 2200032
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/magical_lump3"
+      model_path: "slimefun/magical_items/magical_lump3"
   ender_lump:
     display_name: slimefun
     permission: slimefun
@@ -288,7 +288,7 @@ items:
       material: GOLD_NUGGET
       generate: false
       model_id: 2200033
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/ender_lump"
+      model_path: "slimefun/magical_items/ender_lump"
   ender_lump2:
     display_name: slimefun
     permission: slimefun
@@ -296,7 +296,7 @@ items:
       material: GOLD_NUGGET
       generate: false
       model_id: 2200034
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/ender_lump2"
+      model_path: "slimefun/magical_items/ender_lump2"
   ender_lump3:
     display_name: slimefun
     permission: slimefun
@@ -304,7 +304,7 @@ items:
       material: GOLD_NUGGET
       generate: false
       model_id: 2200035
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/ender_lump3"
+      model_path: "slimefun/magical_items/ender_lump3"
   backpack_ender:
     display_name: slimefun
     permission: slimefun
@@ -312,7 +312,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200036
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/backpack_ender"
+      model_path: "slimefun/magical_gadgets/backpack_ender"
   none:
     display_name: slimefun
     permission: slimefun
@@ -320,7 +320,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200037
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -328,7 +328,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200038
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -336,7 +336,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200039
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -344,7 +344,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200040
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   magic_ender_eye:
     display_name: slimefun
     permission: slimefun
@@ -352,7 +352,7 @@ items:
       material: ENDER_EYE
       generate: false
       model_id: 2200041
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/magic_ender_eye"
+      model_path: "slimefun/magical_gadgets/magic_ender_eye"
   magic_sugar:
     display_name: slimefun
     permission: slimefun
@@ -360,7 +360,7 @@ items:
       material: SUGAR
       generate: false
       model_id: 2200042
-      model_path: "item/raulh22/slimefun/slimefun/food/magic_sugar"
+      model_path: "slimefun/food/magic_sugar"
   monster_jerky:
     display_name: slimefun
     permission: slimefun
@@ -368,7 +368,7 @@ items:
       material: ROTTEN_FLESH
       generate: false
       model_id: 2200043
-      model_path: "item/raulh22/slimefun/slimefun/food/monster_jerky"
+      model_path: "slimefun/food/monster_jerky"
   none:
     display_name: slimefun
     permission: slimefun
@@ -376,7 +376,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200044
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -384,7 +384,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200045
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -392,7 +392,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200046
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -400,7 +400,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200047
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   sword_of_beheading:
     display_name: slimefun
     permission: slimefun
@@ -408,7 +408,7 @@ items:
       material: IRON_SWORD
       generate: false
       model_id: 2200048
-      model_path: "item/raulh22/slimefun/slimefun/weapons/sword_of_beheading"
+      model_path: "slimefun/weapons/sword_of_beheading"
   magical_book_cover:
     display_name: slimefun
     permission: slimefun
@@ -416,7 +416,7 @@ items:
       material: PAPER
       generate: false
       model_id: 2200049
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/magical_book_cover"
+      model_path: "slimefun/magical_items/magical_book_cover"
   magical_glass:
     display_name: slimefun
     permission: slimefun
@@ -424,7 +424,7 @@ items:
       material: GLASS_PANE
       generate: false
       model_id: 2200050
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/magical_glass"
+      model_path: "slimefun/magical_items/magical_glass"
   basic_board:
     display_name: slimefun
     permission: slimefun
@@ -432,7 +432,7 @@ items:
       material: ACTIVATOR_RAIL
       generate: false
       model_id: 2200051
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/basic_board"
+      model_path: "slimefun/technical_components/basic_board"
   advanced_board:
     display_name: slimefun
     permission: slimefun
@@ -440,7 +440,7 @@ items:
       material: POWERED_RAIL
       generate: false
       model_id: 2200052
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/advanced_board"
+      model_path: "slimefun/technical_components/advanced_board"
   gold_pan:
     display_name: slimefun
     permission: slimefun
@@ -448,7 +448,7 @@ items:
       material: BOWL
       generate: false
       model_id: 2200053
-      model_path: "item/raulh22/slimefun/slimefun/tools/gold_pan"
+      model_path: "slimefun/tools/gold_pan"
   nether_gold_pan:
     display_name: slimefun
     permission: slimefun
@@ -456,7 +456,7 @@ items:
       material: BOWL
       generate: false
       model_id: 2200054
-      model_path: "item/raulh22/slimefun/slimefun/tools/nether_gold_pan"
+      model_path: "slimefun/tools/nether_gold_pan"
   sifted_ore:
     display_name: slimefun
     permission: slimefun
@@ -464,7 +464,7 @@ items:
       material: GUNPOWDER
       generate: false
       model_id: 2200055
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/sifted_ore"
+      model_path: "slimefun/miscellaneous/sifted_ore"
   none:
     display_name: slimefun
     permission: slimefun
@@ -472,7 +472,7 @@ items:
       material: BLAST_FURNACE
       generate: false
       model_id: 2200056
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   smeltery:
     display_name: slimefun
     permission: slimefun
@@ -480,7 +480,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200057
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/smeltery"
+      model_path: "slimefun/basic_machines/smeltery"
   automatic_ignition_chamber:
     display_name: slimefun
     permission: slimefun
@@ -488,7 +488,7 @@ items:
       material: DROPPER
       generate: false
       model_id: 2200058
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/automatic_ignition_chamber"
+      model_path: "slimefun/basic_machines/automatic_ignition_chamber"
   pressure_chamber:
     display_name: slimefun
     permission: slimefun
@@ -496,7 +496,7 @@ items:
       material: GLASS
       generate: false
       model_id: 2200059
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/pressure_chamber"
+      model_path: "slimefun/basic_machines/pressure_chamber"
   battery:
     display_name: slimefun
     permission: slimefun
@@ -504,7 +504,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200060
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/battery"
+      model_path: "slimefun/technical_components/battery"
   none:
     display_name: slimefun
     permission: slimefun
@@ -512,7 +512,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200061
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -520,7 +520,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200062
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -528,7 +528,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200063
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -536,7 +536,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200064
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -544,7 +544,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200065
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -552,7 +552,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200066
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -560,7 +560,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200067
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -568,7 +568,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200068
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -576,7 +576,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200069
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -584,7 +584,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200070
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -592,7 +592,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200071
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -600,7 +600,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200072
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -608,7 +608,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200073
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -616,7 +616,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200074
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -624,7 +624,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200075
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -632,7 +632,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200076
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   reinforced_alloy:
     display_name: slimefun
     permission: slimefun
@@ -640,7 +640,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200077
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/reinforced_alloy"
+      model_path: "slimefun/resources/ingots/reinforced_alloy"
   hardened_metal:
     display_name: slimefun
     permission: slimefun
@@ -648,7 +648,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200078
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/hardened_metal"
+      model_path: "slimefun/resources/ingots/hardened_metal"
   damascus_steel_ingot:
     display_name: slimefun
     permission: slimefun
@@ -656,7 +656,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200079
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/damascus_steel_ingot"
+      model_path: "slimefun/resources/ingots/damascus_steel_ingot"
   steel_ingot:
     display_name: slimefun
     permission: slimefun
@@ -664,7 +664,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200080
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/steel_ingot"
+      model_path: "slimefun/resources/ingots/steel_ingot"
   bronze_ingot:
     display_name: slimefun
     permission: slimefun
@@ -672,7 +672,7 @@ items:
       material: BRICK
       generate: false
       model_id: 2200081
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/bronze_ingot"
+      model_path: "slimefun/resources/ingots/bronze_ingot"
   duralumin_ingot:
     display_name: slimefun
     permission: slimefun
@@ -680,7 +680,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200082
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/duralumin_ingot"
+      model_path: "slimefun/resources/ingots/duralumin_ingot"
   billon_ingot:
     display_name: slimefun
     permission: slimefun
@@ -688,7 +688,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200083
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/billon_ingot"
+      model_path: "slimefun/resources/ingots/billon_ingot"
   brass_ingot:
     display_name: slimefun
     permission: slimefun
@@ -696,7 +696,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200084
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/brass_ingot"
+      model_path: "slimefun/resources/ingots/brass_ingot"
   aluminum_brass_ingot:
     display_name: slimefun
     permission: slimefun
@@ -704,7 +704,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200085
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/aluminum_brass_ingot"
+      model_path: "slimefun/resources/ingots/aluminum_brass_ingot"
   aluminum_bronze_ingot:
     display_name: slimefun
     permission: slimefun
@@ -712,7 +712,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200086
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/aluminum_bronze_ingot"
+      model_path: "slimefun/resources/ingots/aluminum_bronze_ingot"
   corinthian_bronze_ingot:
     display_name: slimefun
     permission: slimefun
@@ -720,7 +720,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200087
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/corinthian_bronze_ingot"
+      model_path: "slimefun/resources/ingots/corinthian_bronze_ingot"
   solder_ingot:
     display_name: slimefun
     permission: slimefun
@@ -728,7 +728,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200088
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/solder_ingot"
+      model_path: "slimefun/resources/ingots/solder_ingot"
   synthetic_sapphire:
     display_name: slimefun
     permission: slimefun
@@ -736,7 +736,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200089
-      model_path: "item/raulh22/slimefun/slimefun/resources/valuables/synthetic_sapphire"
+      model_path: "slimefun/resources/valuables/synthetic_sapphire"
   synthetic_diamond:
     display_name: slimefun
     permission: slimefun
@@ -744,7 +744,7 @@ items:
       material: DIAMOND
       generate: false
       model_id: 2200090
-      model_path: "item/raulh22/slimefun/slimefun/resources/valuables/synthetic_diamond"
+      model_path: "slimefun/resources/valuables/synthetic_diamond"
   raw_carbon:
     display_name: slimefun
     permission: slimefun
@@ -752,7 +752,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200091
-      model_path: "item/raulh22/slimefun/slimefun/resources/valuables/raw_carbon"
+      model_path: "slimefun/resources/valuables/raw_carbon"
   nickel_ingot:
     display_name: slimefun
     permission: slimefun
@@ -760,7 +760,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200092
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/nickel_ingot"
+      model_path: "slimefun/resources/ingots/nickel_ingot"
   cobalt_ingot:
     display_name: slimefun
     permission: slimefun
@@ -768,7 +768,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200093
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/cobalt_ingot"
+      model_path: "slimefun/resources/ingots/cobalt_ingot"
   carbonado:
     display_name: slimefun
     permission: slimefun
@@ -776,7 +776,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200094
-      model_path: "item/raulh22/slimefun/slimefun/resources/valuables/carbonado"
+      model_path: "slimefun/resources/valuables/carbonado"
   ferrosilicon:
     display_name: slimefun
     permission: slimefun
@@ -784,7 +784,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200095
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/ferrosilicon"
+      model_path: "slimefun/resources/ingots/ferrosilicon"
   iron_dust:
     display_name: slimefun
     permission: slimefun
@@ -792,7 +792,7 @@ items:
       material: GUNPOWDER
       generate: false
       model_id: 2200096
-      model_path: "item/raulh22/slimefun/slimefun/resources/dusts/iron_dust"
+      model_path: "slimefun/resources/dusts/iron_dust"
   gold_dust:
     display_name: slimefun
     permission: slimefun
@@ -800,7 +800,7 @@ items:
       material: GLOWSTONE_DUST
       generate: false
       model_id: 2200097
-      model_path: "item/raulh22/slimefun/slimefun/resources/dusts/gold_dust"
+      model_path: "slimefun/resources/dusts/gold_dust"
   copper_dust:
     display_name: slimefun
     permission: slimefun
@@ -808,7 +808,7 @@ items:
       material: GLOWSTONE_DUST
       generate: false
       model_id: 2200098
-      model_path: "item/raulh22/slimefun/slimefun/resources/dusts/copper_dust"
+      model_path: "slimefun/resources/dusts/copper_dust"
   tin_dust:
     display_name: slimefun
     permission: slimefun
@@ -816,7 +816,7 @@ items:
       material: SUGAR
       generate: false
       model_id: 2200099
-      model_path: "item/raulh22/slimefun/slimefun/resources/dusts/tin_dust"
+      model_path: "slimefun/resources/dusts/tin_dust"
   lead_dust:
     display_name: slimefun
     permission: slimefun
@@ -824,7 +824,7 @@ items:
       material: GUNPOWDER
       generate: false
       model_id: 2200100
-      model_path: "item/raulh22/slimefun/slimefun/resources/dusts/lead_dust"
+      model_path: "slimefun/resources/dusts/lead_dust"
   silver_dust:
     display_name: slimefun
     permission: slimefun
@@ -832,7 +832,7 @@ items:
       material: SUGAR
       generate: false
       model_id: 2200101
-      model_path: "item/raulh22/slimefun/slimefun/resources/dusts/silver_dust"
+      model_path: "slimefun/resources/dusts/silver_dust"
   aluminum_dust:
     display_name: slimefun
     permission: slimefun
@@ -840,7 +840,7 @@ items:
       material: SUGAR
       generate: false
       model_id: 2200102
-      model_path: "item/raulh22/slimefun/slimefun/resources/dusts/aluminum_dust"
+      model_path: "slimefun/resources/dusts/aluminum_dust"
   zinc_dust:
     display_name: slimefun
     permission: slimefun
@@ -848,7 +848,7 @@ items:
       material: SUGAR
       generate: false
       model_id: 2200103
-      model_path: "item/raulh22/slimefun/slimefun/resources/dusts/zinc_dust"
+      model_path: "slimefun/resources/dusts/zinc_dust"
   magnesium_dust:
     display_name: slimefun
     permission: slimefun
@@ -856,7 +856,7 @@ items:
       material: SUGAR
       generate: false
       model_id: 2200104
-      model_path: "item/raulh22/slimefun/slimefun/resources/dusts/magnesium_dust"
+      model_path: "slimefun/resources/dusts/magnesium_dust"
   copper_ingot:
     display_name: slimefun
     permission: slimefun
@@ -864,7 +864,7 @@ items:
       material: BRICK
       generate: false
       model_id: 2200105
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/copper_ingot"
+      model_path: "slimefun/resources/ingots/copper_ingot"
   tin_ingot:
     display_name: slimefun
     permission: slimefun
@@ -872,7 +872,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200106
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/tin_ingot"
+      model_path: "slimefun/resources/ingots/tin_ingot"
   silver_ingot:
     display_name: slimefun
     permission: slimefun
@@ -880,7 +880,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200107
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/silver_ingot"
+      model_path: "slimefun/resources/ingots/silver_ingot"
   lead_ingot:
     display_name: slimefun
     permission: slimefun
@@ -888,7 +888,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200108
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/lead_ingot"
+      model_path: "slimefun/resources/ingots/lead_ingot"
   aluminum_ingot:
     display_name: slimefun
     permission: slimefun
@@ -896,7 +896,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200109
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/aluminum_ingot"
+      model_path: "slimefun/resources/ingots/aluminum_ingot"
   zinc_ingot:
     display_name: slimefun
     permission: slimefun
@@ -904,7 +904,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200110
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/zinc_ingot"
+      model_path: "slimefun/resources/ingots/zinc_ingot"
   magnesium_ingot:
     display_name: slimefun
     permission: slimefun
@@ -912,7 +912,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200111
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/magnesium_ingot"
+      model_path: "slimefun/resources/ingots/magnesium_ingot"
   sulfate:
     display_name: slimefun
     permission: slimefun
@@ -920,7 +920,7 @@ items:
       material: GLOWSTONE_DUST
       generate: false
       model_id: 2200112
-      model_path: "item/raulh22/slimefun/slimefun/resources/valuables/sulfate"
+      model_path: "slimefun/resources/valuables/sulfate"
   carbon:
     display_name: slimefun
     permission: slimefun
@@ -928,7 +928,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200113
-      model_path: "item/raulh22/slimefun/slimefun/resources/valuables/carbon"
+      model_path: "slimefun/resources/valuables/carbon"
   wheat_flour:
     display_name: slimefun
     permission: slimefun
@@ -936,7 +936,7 @@ items:
       material: SUGAR
       generate: false
       model_id: 2200114
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/wheat_flour"
+      model_path: "slimefun/miscellaneous/wheat_flour"
   steel_plate:
     display_name: slimefun
     permission: slimefun
@@ -944,7 +944,7 @@ items:
       material: PAPER
       generate: false
       model_id: 2200115
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/steel_plate"
+      model_path: "slimefun/miscellaneous/steel_plate"
   compressed_carbon:
     display_name: slimefun
     permission: slimefun
@@ -952,7 +952,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200116
-      model_path: "item/raulh22/slimefun/slimefun/resources/valuables/compressed_carbon"
+      model_path: "slimefun/resources/valuables/compressed_carbon"
   carbon_chunk:
     display_name: slimefun
     permission: slimefun
@@ -960,7 +960,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200117
-      model_path: "item/raulh22/slimefun/slimefun/resources/valuables/carbon_chunk"
+      model_path: "slimefun/resources/valuables/carbon_chunk"
   steel_thruster:
     display_name: slimefun
     permission: slimefun
@@ -968,7 +968,7 @@ items:
       material: BUCKET
       generate: false
       model_id: 2200118
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/steel_thruster"
+      model_path: "slimefun/technical_components/steel_thruster"
   powered_crystal:
     display_name: slimefun
     permission: slimefun
@@ -976,7 +976,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200119
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/powered_crystal"
+      model_path: "slimefun/technical_components/powered_crystal"
   none:
     display_name: slimefun
     permission: slimefun
@@ -984,7 +984,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200120
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -992,7 +992,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200121
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1000,7 +1000,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200122
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1008,7 +1008,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200123
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1016,7 +1016,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200124
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1024,7 +1024,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200125
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1032,7 +1032,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200126
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1040,7 +1040,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200127
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1048,7 +1048,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200128
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   chain:
     display_name: slimefun
     permission: slimefun
@@ -1056,7 +1056,7 @@ items:
       material: STRING
       generate: false
       model_id: 2200129
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/chain"
+      model_path: "slimefun/miscellaneous/chain"
   hook:
     display_name: slimefun
     permission: slimefun
@@ -1064,7 +1064,7 @@ items:
       material: FLINT
       generate: false
       model_id: 2200130
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/hook"
+      model_path: "slimefun/miscellaneous/hook"
   grappling_hook:
     display_name: slimefun
     permission: slimefun
@@ -1072,7 +1072,7 @@ items:
       material: LEAD
       generate: false
       model_id: 2200131
-      model_path: "item/raulh22/slimefun/slimefun/tools/grappling_hook"
+      model_path: "slimefun/tools/grappling_hook"
   magic_workbench:
     display_name: slimefun
     permission: slimefun
@@ -1080,7 +1080,7 @@ items:
       material: CRAFTING_TABLE
       generate: false
       model_id: 2200132
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/magic_workbench"
+      model_path: "slimefun/basic_machines/magic_workbench"
   elemental_staff:
     display_name: slimefun
     permission: slimefun
@@ -1088,7 +1088,7 @@ items:
       material: STICK
       generate: false
       model_id: 2200133
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/elemental_staff"
+      model_path: "slimefun/magical_gadgets/elemental_staff"
   wind_staff:
     display_name: slimefun
     permission: slimefun
@@ -1096,7 +1096,7 @@ items:
       material: STICK
       generate: false
       model_id: 2200134
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/wind_staff"
+      model_path: "slimefun/magical_gadgets/wind_staff"
   water_staff:
     display_name: slimefun
     permission: slimefun
@@ -1104,7 +1104,7 @@ items:
       material: STICK
       generate: false
       model_id: 2200135
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/water_staff"
+      model_path: "slimefun/magical_gadgets/water_staff"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1112,7 +1112,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200136
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1120,7 +1120,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200137
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1128,7 +1128,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200138
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1136,7 +1136,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200139
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1144,7 +1144,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200140
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1152,7 +1152,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200141
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1160,7 +1160,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200142
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   ore_washer:
     display_name: slimefun
     permission: slimefun
@@ -1168,7 +1168,7 @@ items:
       material: CAULDRON
       generate: false
       model_id: 2200143
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/ore_washer"
+      model_path: "slimefun/basic_machines/ore_washer"
   gold_ingot_24:
     display_name: slimefun
     permission: slimefun
@@ -1176,7 +1176,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200144
-      model_path: "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_24"
+      model_path: "slimefun/resources/gold_ingots/gold_ingot_24"
   gold_ingot_22:
     display_name: slimefun
     permission: slimefun
@@ -1184,7 +1184,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200145
-      model_path: "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_22"
+      model_path: "slimefun/resources/gold_ingots/gold_ingot_22"
   gold_ingot_20:
     display_name: slimefun
     permission: slimefun
@@ -1192,7 +1192,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200146
-      model_path: "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_20"
+      model_path: "slimefun/resources/gold_ingots/gold_ingot_20"
   gold_ingot_18:
     display_name: slimefun
     permission: slimefun
@@ -1200,7 +1200,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200147
-      model_path: "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_18"
+      model_path: "slimefun/resources/gold_ingots/gold_ingot_18"
   gold_ingot_16:
     display_name: slimefun
     permission: slimefun
@@ -1208,7 +1208,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200148
-      model_path: "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_16"
+      model_path: "slimefun/resources/gold_ingots/gold_ingot_16"
   gold_ingot_14:
     display_name: slimefun
     permission: slimefun
@@ -1216,7 +1216,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200149
-      model_path: "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_14"
+      model_path: "slimefun/resources/gold_ingots/gold_ingot_14"
   gold_ingot_12:
     display_name: slimefun
     permission: slimefun
@@ -1224,7 +1224,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200150
-      model_path: "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_12"
+      model_path: "slimefun/resources/gold_ingots/gold_ingot_12"
   gold_ingot_10:
     display_name: slimefun
     permission: slimefun
@@ -1232,7 +1232,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200151
-      model_path: "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_10"
+      model_path: "slimefun/resources/gold_ingots/gold_ingot_10"
   gold_ingot_8:
     display_name: slimefun
     permission: slimefun
@@ -1240,7 +1240,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200152
-      model_path: "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_8"
+      model_path: "slimefun/resources/gold_ingots/gold_ingot_8"
   gold_ingot_6:
     display_name: slimefun
     permission: slimefun
@@ -1248,7 +1248,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200153
-      model_path: "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_6"
+      model_path: "slimefun/resources/gold_ingots/gold_ingot_6"
   gold_ingot_4:
     display_name: slimefun
     permission: slimefun
@@ -1256,7 +1256,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200154
-      model_path: "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_4"
+      model_path: "slimefun/resources/gold_ingots/gold_ingot_4"
   stone_chunk:
     display_name: slimefun
     permission: slimefun
@@ -1264,7 +1264,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200155
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/stone_chunk"
+      model_path: "slimefun/miscellaneous/stone_chunk"
   silicon:
     display_name: slimefun
     permission: slimefun
@@ -1272,7 +1272,7 @@ items:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200156
-      model_path: "item/raulh22/slimefun/slimefun/resources/valuables/silicon"
+      model_path: "slimefun/resources/valuables/silicon"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1280,7 +1280,7 @@ items:
       material: DAYLIGHT_DETECTOR
       generate: false
       model_id: 2200157
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1288,7 +1288,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200158
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   lava_crystal:
     display_name: slimefun
     permission: slimefun
@@ -1296,7 +1296,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200159
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/lava_crystal"
+      model_path: "slimefun/magical_items/lava_crystal"
   fire_staff:
     display_name: slimefun
     permission: slimefun
@@ -1304,7 +1304,7 @@ items:
       material: STICK
       generate: false
       model_id: 2200160
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/fire_staff"
+      model_path: "slimefun/magical_gadgets/fire_staff"
   storm_staff:
     display_name: slimefun
     permission: slimefun
@@ -1312,7 +1312,7 @@ items:
       material: STICK
       generate: false
       model_id: 2200161
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/storm_staff"
+      model_path: "slimefun/magical_gadgets/storm_staff"
   magical_zombie_pills:
     display_name: slimefun
     permission: slimefun
@@ -1320,7 +1320,7 @@ items:
       material: NETHER_WART
       generate: false
       model_id: 2200162
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/magical_zombie_pills"
+      model_path: "slimefun/magical_gadgets/magical_zombie_pills"
   smelter_pickaxe:
     display_name: slimefun
     permission: slimefun
@@ -1328,7 +1328,7 @@ items:
       material: DIAMOND_PICKAXE
       generate: false
       model_id: 2200163
-      model_path: "item/raulh22/slimefun/slimefun/tools/smelter_pickaxe"
+      model_path: "slimefun/tools/smelter_pickaxe"
   common_talisman:
     display_name: slimefun
     permission: slimefun
@@ -1336,7 +1336,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200164
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/common_talisman"
+      model_path: "slimefun/magical_items/common_talisman"
   anvil1:
     display_name: slimefun
     permission: slimefun
@@ -1344,7 +1344,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200165
-      model_path: "item/raulh22/slimefun/slimefun/talisman1/anvil"
+      model_path: "slimefun/talisman1/anvil"
   anvil2:
     display_name: slimefun
     permission: slimefun
@@ -1352,7 +1352,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200166
-      model_path: "item/raulh22/slimefun/slimefun/talisman2/anvil"
+      model_path: "slimefun/talisman2/anvil"
   miner1:
     display_name: slimefun
     permission: slimefun
@@ -1360,7 +1360,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200167
-      model_path: "item/raulh22/slimefun/slimefun/talisman1/miner"
+      model_path: "slimefun/talisman1/miner"
   miner2:
     display_name: slimefun
     permission: slimefun
@@ -1368,7 +1368,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200168
-      model_path: "item/raulh22/slimefun/slimefun/talisman2/miner"
+      model_path: "slimefun/talisman2/miner"
   hunter1:
     display_name: slimefun
     permission: slimefun
@@ -1376,7 +1376,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200169
-      model_path: "item/raulh22/slimefun/slimefun/talisman1/hunter"
+      model_path: "slimefun/talisman1/hunter"
   hunter2:
     display_name: slimefun
     permission: slimefun
@@ -1384,7 +1384,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200170
-      model_path: "item/raulh22/slimefun/slimefun/talisman2/hunter"
+      model_path: "slimefun/talisman2/hunter"
   lava_walker1:
     display_name: slimefun
     permission: slimefun
@@ -1392,7 +1392,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200171
-      model_path: "item/raulh22/slimefun/slimefun/talisman1/lava_walker"
+      model_path: "slimefun/talisman1/lava_walker"
   lava_walker2:
     display_name: slimefun
     permission: slimefun
@@ -1400,7 +1400,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200172
-      model_path: "item/raulh22/slimefun/slimefun/talisman2/lava_walker"
+      model_path: "slimefun/talisman2/lava_walker"
   water_breather1:
     display_name: slimefun
     permission: slimefun
@@ -1408,7 +1408,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200173
-      model_path: "item/raulh22/slimefun/slimefun/talisman1/water_breather"
+      model_path: "slimefun/talisman1/water_breather"
   water_breather2:
     display_name: slimefun
     permission: slimefun
@@ -1416,7 +1416,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200174
-      model_path: "item/raulh22/slimefun/slimefun/talisman2/water_breather"
+      model_path: "slimefun/talisman2/water_breather"
   angel1:
     display_name: slimefun
     permission: slimefun
@@ -1424,7 +1424,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200175
-      model_path: "item/raulh22/slimefun/slimefun/talisman1/angel"
+      model_path: "slimefun/talisman1/angel"
   angel2:
     display_name: slimefun
     permission: slimefun
@@ -1432,7 +1432,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200176
-      model_path: "item/raulh22/slimefun/slimefun/talisman2/angel"
+      model_path: "slimefun/talisman2/angel"
   firefighter1:
     display_name: slimefun
     permission: slimefun
@@ -1440,7 +1440,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200177
-      model_path: "item/raulh22/slimefun/slimefun/talisman1/firefighter"
+      model_path: "slimefun/talisman1/firefighter"
   firefighter2:
     display_name: slimefun
     permission: slimefun
@@ -1448,7 +1448,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200178
-      model_path: "item/raulh22/slimefun/slimefun/talisman2/firefighter"
+      model_path: "slimefun/talisman2/firefighter"
   magican1:
     display_name: slimefun
     permission: slimefun
@@ -1456,7 +1456,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200179
-      model_path: "item/raulh22/slimefun/slimefun/talisman1/magican"
+      model_path: "slimefun/talisman1/magican"
   magican2:
     display_name: slimefun
     permission: slimefun
@@ -1464,7 +1464,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200180
-      model_path: "item/raulh22/slimefun/slimefun/talisman2/magican"
+      model_path: "slimefun/talisman2/magican"
   traveller1:
     display_name: slimefun
     permission: slimefun
@@ -1472,7 +1472,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200181
-      model_path: "item/raulh22/slimefun/slimefun/talisman1/traveller"
+      model_path: "slimefun/talisman1/traveller"
   traveller2:
     display_name: slimefun
     permission: slimefun
@@ -1480,7 +1480,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200182
-      model_path: "item/raulh22/slimefun/slimefun/talisman2/traveller"
+      model_path: "slimefun/talisman2/traveller"
   warrior1:
     display_name: slimefun
     permission: slimefun
@@ -1488,7 +1488,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200183
-      model_path: "item/raulh22/slimefun/slimefun/talisman1/warrior"
+      model_path: "slimefun/talisman1/warrior"
   warrior2:
     display_name: slimefun
     permission: slimefun
@@ -1496,7 +1496,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200184
-      model_path: "item/raulh22/slimefun/slimefun/talisman2/warrior"
+      model_path: "slimefun/talisman2/warrior"
   knight1:
     display_name: slimefun
     permission: slimefun
@@ -1504,7 +1504,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200185
-      model_path: "item/raulh22/slimefun/slimefun/talisman1/knight"
+      model_path: "slimefun/talisman1/knight"
   knight2:
     display_name: slimefun
     permission: slimefun
@@ -1512,7 +1512,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200186
-      model_path: "item/raulh22/slimefun/slimefun/talisman2/knight"
+      model_path: "slimefun/talisman2/knight"
   gilded_iron:
     display_name: slimefun
     permission: slimefun
@@ -1520,7 +1520,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200187
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/gilded_iron"
+      model_path: "slimefun/resources/ingots/gilded_iron"
   synthetic_emerald:
     display_name: slimefun
     permission: slimefun
@@ -1528,7 +1528,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200188
-      model_path: "item/raulh22/slimefun/slimefun/resources/valuables/synthetic_emerald"
+      model_path: "slimefun/resources/valuables/synthetic_emerald"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1536,7 +1536,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200189
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1544,7 +1544,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200190
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1552,7 +1552,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200191
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1560,7 +1560,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200192
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   whirlwind1:
     display_name: slimefun
     permission: slimefun
@@ -1568,7 +1568,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200193
-      model_path: "item/raulh22/slimefun/slimefun/talisman1/whirlwind"
+      model_path: "slimefun/talisman1/whirlwind"
   whirlwind2:
     display_name: slimefun
     permission: slimefun
@@ -1576,7 +1576,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200194
-      model_path: "item/raulh22/slimefun/slimefun/talisman2/whirlwind"
+      model_path: "slimefun/talisman2/whirlwind"
   wizard1:
     display_name: slimefun
     permission: slimefun
@@ -1584,7 +1584,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200195
-      model_path: "item/raulh22/slimefun/slimefun/talisman1/wizard"
+      model_path: "slimefun/talisman1/wizard"
   wizard2:
     display_name: slimefun
     permission: slimefun
@@ -1592,7 +1592,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200196
-      model_path: "item/raulh22/slimefun/slimefun/talisman2/wizard"
+      model_path: "slimefun/talisman2/wizard"
   lumber_axe:
     display_name: slimefun
     permission: slimefun
@@ -1600,7 +1600,7 @@ items:
       material: DIAMOND_AXE
       generate: false
       model_id: 2200197
-      model_path: "item/raulh22/slimefun/slimefun/tools/lumber_axe"
+      model_path: "slimefun/tools/lumber_axe"
   salt:
     display_name: slimefun
     permission: slimefun
@@ -1608,7 +1608,7 @@ items:
       material: SUGAR
       generate: false
       model_id: 2200198
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/salt"
+      model_path: "slimefun/miscellaneous/salt"
   heavy_cream:
     display_name: slimefun
     permission: slimefun
@@ -1616,7 +1616,7 @@ items:
       material: SNOWBALL
       generate: false
       model_id: 2200199
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/heavy_cream"
+      model_path: "slimefun/miscellaneous/heavy_cream"
   cheese:
     display_name: slimefun
     permission: slimefun
@@ -1624,7 +1624,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200200
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/cheese"
+      model_path: "slimefun/miscellaneous/cheese"
   butter:
     display_name: slimefun
     permission: slimefun
@@ -1632,7 +1632,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200201
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/butter"
+      model_path: "slimefun/miscellaneous/butter"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1640,7 +1640,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200202
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1648,7 +1648,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200203
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1656,7 +1656,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200204
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1664,7 +1664,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200205
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   reinforced_cloth:
     display_name: slimefun
     permission: slimefun
@@ -1672,7 +1672,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200206
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/reinforced_cloth"
+      model_path: "slimefun/technical_components/reinforced_cloth"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1680,7 +1680,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200207
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1688,7 +1688,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200208
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1696,7 +1696,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200209
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1704,7 +1704,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200210
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   crushed_ore:
     display_name: slimefun
     permission: slimefun
@@ -1712,7 +1712,7 @@ items:
       material: GUNPOWDER
       generate: false
       model_id: 2200211
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/crushed_ore"
+      model_path: "slimefun/miscellaneous/crushed_ore"
   pulverized_ore:
     display_name: slimefun
     permission: slimefun
@@ -1720,7 +1720,7 @@ items:
       material: GUNPOWDER
       generate: false
       model_id: 2200212
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/pulverized_ore"
+      model_path: "slimefun/miscellaneous/pulverized_ore"
   pure_ore_cluster:
     display_name: slimefun
     permission: slimefun
@@ -1728,7 +1728,7 @@ items:
       material: GUNPOWDER
       generate: false
       model_id: 2200213
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/pure_ore_cluster"
+      model_path: "slimefun/miscellaneous/pure_ore_cluster"
   tiny_pile_of_uranium:
     display_name: slimefun
     permission: slimefun
@@ -1736,7 +1736,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200214
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/tiny_pile_of_uranium"
+      model_path: "slimefun/miscellaneous/tiny_pile_of_uranium"
   small_chunk_of_uranium:
     display_name: slimefun
     permission: slimefun
@@ -1744,7 +1744,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200215
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/small_chunk_of_uranium"
+      model_path: "slimefun/miscellaneous/small_chunk_of_uranium"
   uranium:
     display_name: slimefun
     permission: slimefun
@@ -1752,7 +1752,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200216
-      model_path: "item/raulh22/slimefun/slimefun/resources/radioactive_materials/uranium"
+      model_path: "slimefun/resources/radioactive_materials/uranium"
   redstone_alloy_ingot:
     display_name: slimefun
     permission: slimefun
@@ -1760,7 +1760,7 @@ items:
       material: BRICK
       generate: false
       model_id: 2200217
-      model_path: "item/raulh22/slimefun/slimefun/resources/ingots/redstone_alloy_ingot"
+      model_path: "slimefun/resources/ingots/redstone_alloy_ingot"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1768,7 +1768,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200218
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1776,7 +1776,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200219
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1784,7 +1784,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200220
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1792,7 +1792,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200221
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   cloth:
     display_name: slimefun
     permission: slimefun
@@ -1800,7 +1800,7 @@ items:
       material: PAPER
       generate: false
       model_id: 2200222
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/cloth"
+      model_path: "slimefun/miscellaneous/cloth"
   rag:
     display_name: slimefun
     permission: slimefun
@@ -1808,7 +1808,7 @@ items:
       material: PAPER
       generate: false
       model_id: 2200223
-      model_path: "item/raulh22/slimefun/slimefun/items/rag"
+      model_path: "slimefun/items/rag"
   bandage:
     display_name: slimefun
     permission: slimefun
@@ -1816,7 +1816,7 @@ items:
       material: PAPER
       generate: false
       model_id: 2200224
-      model_path: "item/raulh22/slimefun/slimefun/items/bandage"
+      model_path: "slimefun/items/bandage"
   splint:
     display_name: slimefun
     permission: slimefun
@@ -1824,7 +1824,7 @@ items:
       material: STICK
       generate: false
       model_id: 2200225
-      model_path: "item/raulh22/slimefun/slimefun/items/splint"
+      model_path: "slimefun/items/splint"
   tin_can:
     display_name: slimefun
     permission: slimefun
@@ -1832,7 +1832,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200226
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/tin_can"
+      model_path: "slimefun/miscellaneous/tin_can"
   vitamins:
     display_name: slimefun
     permission: slimefun
@@ -1840,7 +1840,7 @@ items:
       material: NETHER_WART
       generate: false
       model_id: 2200227
-      model_path: "item/raulh22/slimefun/slimefun/items/vitamins"
+      model_path: "slimefun/items/vitamins"
   medicine:
     display_name: slimefun
     permission: slimefun
@@ -1848,7 +1848,7 @@ items:
       material: POTION
       generate: false
       model_id: 2200228
-      model_path: "item/raulh22/slimefun/slimefun/items/medicine"
+      model_path: "slimefun/items/medicine"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1856,7 +1856,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200229
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   pickaxe_of_containment:
     display_name: slimefun
     permission: slimefun
@@ -1864,7 +1864,7 @@ items:
       material: IRON_PICKAXE
       generate: false
       model_id: 2200230
-      model_path: "item/raulh22/slimefun/slimefun/tools/pickaxe_of_containment"
+      model_path: "slimefun/tools/pickaxe_of_containment"
   hercules_pickaxe:
     display_name: slimefun
     permission: slimefun
@@ -1872,7 +1872,7 @@ items:
       material: IRON_PICKAXE
       generate: false
       model_id: 2200231
-      model_path: "item/raulh22/slimefun/slimefun/tools/hercules_pickaxe"
+      model_path: "slimefun/tools/hercules_pickaxe"
   table_saw:
     display_name: slimefun
     permission: slimefun
@@ -1880,7 +1880,7 @@ items:
       material: STONECUTTER
       generate: false
       model_id: 2200232
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/table_saw"
+      model_path: "slimefun/basic_machines/table_saw"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1888,7 +1888,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200233
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1896,7 +1896,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200234
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1904,7 +1904,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200235
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1912,7 +1912,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200236
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   gold_block_carat_24:
     display_name: slimefun
     permission: slimefun
@@ -1920,7 +1920,7 @@ items:
       material: GOLD_BLOCK
       generate: false
       model_id: 2200238
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/gold_block_carat_24"
+      model_path: "slimefun/miscellaneous/gold_block_carat_24"
   composter:
     display_name: slimefun
     permission: slimefun
@@ -1928,7 +1928,7 @@ items:
       material: CAULDRON
       generate: false
       model_id: 2200239
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/composter"
+      model_path: "slimefun/basic_machines/composter"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1936,7 +1936,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200240
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   explosive_pickaxe:
     display_name: slimefun
     permission: slimefun
@@ -1944,7 +1944,7 @@ items:
       material: DIAMOND_PICKAXE
       generate: false
       model_id: 2200241
-      model_path: "item/raulh22/slimefun/slimefun/tools/explosive_pickaxe"
+      model_path: "slimefun/tools/explosive_pickaxe"
   explosive_shovel:
     display_name: slimefun
     permission: slimefun
@@ -1952,7 +1952,7 @@ items:
       material: DIAMOND_SHOVEL
       generate: false
       model_id: 2200242
-      model_path: "item/raulh22/slimefun/slimefun/tools/explosive_shovel"
+      model_path: "slimefun/tools/explosive_shovel"
   automated_panning_machine:
     display_name: slimefun
     permission: slimefun
@@ -1960,7 +1960,7 @@ items:
       material: BOWL
       generate: false
       model_id: 2200243
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/automated_panning_machine"
+      model_path: "slimefun/basic_machines/automated_panning_machine"
   industrial_miner:
     display_name: slimefun
     permission: slimefun
@@ -1968,7 +1968,7 @@ items:
       material: GOLDEN_PICKAXE
       generate: false
       model_id: 2200244
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/industrial_miner"
+      model_path: "slimefun/basic_machines/industrial_miner"
   advanced_industrial_miner:
     display_name: slimefun
     permission: slimefun
@@ -1976,7 +1976,7 @@ items:
       material: DIAMOND_PICKAXE
       generate: false
       model_id: 2200245
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/advanced_industrial_miner"
+      model_path: "slimefun/basic_machines/advanced_industrial_miner"
   none:
     display_name: slimefun
     permission: slimefun
@@ -1984,7 +1984,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200246
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   seeker_pickaxe:
     display_name: slimefun
     permission: slimefun
@@ -1992,7 +1992,7 @@ items:
       material: DIAMOND_PICKAXE
       generate: false
       model_id: 2200247
-      model_path: "item/raulh22/slimefun/slimefun/tools/seeker_pickaxe"
+      model_path: "slimefun/tools/seeker_pickaxe"
   backpack_small:
     display_name: slimefun
     permission: slimefun
@@ -2000,7 +2000,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200248
-      model_path: "item/raulh22/slimefun/slimefun/items/backpack_small"
+      model_path: "slimefun/items/backpack_small"
   backpack_large:
     display_name: slimefun
     permission: slimefun
@@ -2008,7 +2008,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200250
-      model_path: "item/raulh22/slimefun/slimefun/items/backpack_large"
+      model_path: "slimefun/items/backpack_large"
   backpack_woven:
     display_name: slimefun
     permission: slimefun
@@ -2016,7 +2016,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200251
-      model_path: "item/raulh22/slimefun/slimefun/items/backpack_woven"
+      model_path: "slimefun/items/backpack_woven"
   crucible:
     display_name: slimefun
     permission: slimefun
@@ -2024,7 +2024,7 @@ items:
       material: CAULDRON
       generate: false
       model_id: 2200252
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/crucible"
+      model_path: "slimefun/basic_machines/crucible"
   backpack_gilded:
     display_name: slimefun
     permission: slimefun
@@ -2032,7 +2032,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200253
-      model_path: "item/raulh22/slimefun/slimefun/items/backpack_gilded"
+      model_path: "slimefun/items/backpack_gilded"
   backpack_radiant:
     display_name: slimefun
     permission: slimefun
@@ -2040,7 +2040,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200254
-      model_path: "item/raulh22/slimefun/slimefun/items/backpack_radiant"
+      model_path: "slimefun/items/backpack_radiant"
   restored_backpack:
     display_name: slimefun
     permission: slimefun
@@ -2048,7 +2048,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200255
-      model_path: "item/raulh22/slimefun/slimefun/items/restored_backpack"
+      model_path: "slimefun/items/restored_backpack"
   magnet:
     display_name: slimefun
     permission: slimefun
@@ -2056,7 +2056,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200256
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/magnet"
+      model_path: "slimefun/technical_components/magnet"
   infused_magnet:
     display_name: slimefun
     permission: slimefun
@@ -2064,7 +2064,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200257
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/infused_magnet"
+      model_path: "slimefun/magical_gadgets/infused_magnet"
   cobalt_pickaxe:
     display_name: slimefun
     permission: slimefun
@@ -2072,7 +2072,7 @@ items:
       material: IRON_PICKAXE
       generate: false
       model_id: 2200258
-      model_path: "item/raulh22/slimefun/slimefun/tools/cobalt_pickaxe"
+      model_path: "slimefun/tools/cobalt_pickaxe"
   necrotic_skull:
     display_name: slimefun
     permission: slimefun
@@ -2080,7 +2080,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200259
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/necrotic_skull"
+      model_path: "slimefun/magical_items/necrotic_skull"
   essence_of_afterlife:
     display_name: slimefun
     permission: slimefun
@@ -2088,7 +2088,7 @@ items:
       material: GUNPOWDER
       generate: false
       model_id: 2200260
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/essence_of_afterlife"
+      model_path: "slimefun/magical_items/essence_of_afterlife"
   backpack_soulbound:
     display_name: slimefun
     permission: slimefun
@@ -2096,7 +2096,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200261
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/backpack_soulbound"
+      model_path: "slimefun/magical_gadgets/backpack_soulbound"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2104,7 +2104,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200262
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2112,7 +2112,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200263
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2120,7 +2120,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200264
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2128,7 +2128,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200265
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2136,7 +2136,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200266
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2144,7 +2144,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200267
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2152,7 +2152,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200268
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2160,7 +2160,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200269
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   seismic_axe:
     display_name: slimefun
     permission: slimefun
@@ -2168,7 +2168,7 @@ items:
       material: IRON_AXE
       generate: false
       model_id: 2200270
-      model_path: "item/raulh22/slimefun/slimefun/weapons/seismic_axe"
+      model_path: "slimefun/weapons/seismic_axe"
   vein_pickaxe:
     display_name: slimefun
     permission: slimefun
@@ -2176,7 +2176,7 @@ items:
       material: DIAMOND_PICKAXE
       generate: false
       model_id: 2200271
-      model_path: "item/raulh22/slimefun/slimefun/tools/vein_pickaxe"
+      model_path: "slimefun/tools/vein_pickaxe"
   soulbound_sword:
     display_name: slimefun
     permission: slimefun
@@ -2184,7 +2184,7 @@ items:
       material: DIAMOND_SWORD
       generate: false
       model_id: 2200272
-      model_path: "item/raulh22/slimefun/slimefun/weapons/soulbound_sword"
+      model_path: "slimefun/weapons/soulbound_sword"
   soulbound_trident:
     display_name: slimefun
     permission: slimefun
@@ -2192,7 +2192,7 @@ items:
       material: TRIDENT
       generate: false
       model_id: 2200273
-      model_path: "item/raulh22/slimefun/slimefun/weapons/soulbound_trident"
+      model_path: "slimefun/weapons/soulbound_trident"
   soulbound_bow:
     display_name: slimefun
     permission: slimefun
@@ -2200,7 +2200,7 @@ items:
       material: BOW
       generate: false
       model_id: 2200274
-      model_path: "item/raulh22/slimefun/slimefun/weapons/soulbound_bow/soulbound_bow"
+      model_path: "slimefun/weapons/soulbound_bow/soulbound_bow"
   soulbound_pickaxe:
     display_name: slimefun
     permission: slimefun
@@ -2208,7 +2208,7 @@ items:
       material: DIAMOND_PICKAXE
       generate: false
       model_id: 2200275
-      model_path: "item/raulh22/slimefun/slimefun/tools/soulbound_pickaxe"
+      model_path: "slimefun/tools/soulbound_pickaxe"
   soulbound_axe:
     display_name: slimefun
     permission: slimefun
@@ -2216,7 +2216,7 @@ items:
       material: DIAMOND_AXE
       generate: false
       model_id: 2200276
-      model_path: "item/raulh22/slimefun/slimefun/tools/soulbound_axe"
+      model_path: "slimefun/tools/soulbound_axe"
   soulbound_shovel:
     display_name: slimefun
     permission: slimefun
@@ -2224,7 +2224,7 @@ items:
       material: DIAMOND_SHOVEL
       generate: false
       model_id: 2200277
-      model_path: "item/raulh22/slimefun/slimefun/tools/soulbound_shovel"
+      model_path: "slimefun/tools/soulbound_shovel"
   soulbound_hoe:
     display_name: slimefun
     permission: slimefun
@@ -2232,7 +2232,7 @@ items:
       material: DIAMOND_HOE
       generate: false
       model_id: 2200278
-      model_path: "item/raulh22/slimefun/slimefun/tools/soulbound_hoe"
+      model_path: "slimefun/tools/soulbound_hoe"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2240,7 +2240,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200279
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2248,7 +2248,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200280
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2256,7 +2256,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200281
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2264,7 +2264,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200282
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   juicer:
     display_name: slimefun
     permission: slimefun
@@ -2272,7 +2272,7 @@ items:
       material: GLASS_BOTTLE
       generate: false
       model_id: 2200283
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/juicer"
+      model_path: "slimefun/basic_machines/juicer"
   apple_juice:
     display_name: slimefun
     permission: slimefun
@@ -2280,7 +2280,7 @@ items:
       material: POTION
       generate: false
       model_id: 2200284
-      model_path: "item/raulh22/slimefun/slimefun/food/apple_juice"
+      model_path: "slimefun/food/apple_juice"
   carrot_juice:
     display_name: slimefun
     permission: slimefun
@@ -2288,7 +2288,7 @@ items:
       material: POTION
       generate: false
       model_id: 2200285
-      model_path: "item/raulh22/slimefun/slimefun/food/carrot_juice"
+      model_path: "slimefun/food/carrot_juice"
   melon_juice:
     display_name: slimefun
     permission: slimefun
@@ -2296,7 +2296,7 @@ items:
       material: POTION
       generate: false
       model_id: 2200286
-      model_path: "item/raulh22/slimefun/slimefun/food/melon_juice"
+      model_path: "slimefun/food/melon_juice"
   pumpkin_juice:
     display_name: slimefun
     permission: slimefun
@@ -2304,7 +2304,7 @@ items:
       material: POTION
       generate: false
       model_id: 2200287
-      model_path: "item/raulh22/slimefun/slimefun/food/pumpkin_juice"
+      model_path: "slimefun/food/pumpkin_juice"
   sweet_berry_juice:
     display_name: slimefun
     permission: slimefun
@@ -2312,7 +2312,7 @@ items:
       material: POTION
       generate: false
       model_id: 2200288
-      model_path: "item/raulh22/slimefun/slimefun/food/sweet_berry_juice"
+      model_path: "slimefun/food/sweet_berry_juice"
   golden_apple_juice:
     display_name: slimefun
     permission: slimefun
@@ -2320,7 +2320,7 @@ items:
       material: POTION
       generate: false
       model_id: 2200289
-      model_path: "item/raulh22/slimefun/slimefun/food/golden_apple_juice"
+      model_path: "slimefun/food/golden_apple_juice"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2328,7 +2328,7 @@ items:
       material: SPAWNER
       generate: false
       model_id: 2200290
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2336,7 +2336,7 @@ items:
       material: SPAWNER
       generate: false
       model_id: 2200291
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   enhanced_furnace_1:
     display_name: slimefun
     permission: slimefun
@@ -2344,7 +2344,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200292
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_1"
+      model_path: "slimefun/basic_machines/enhanced_furnace_1"
   enhanced_furnace_2:
     display_name: slimefun
     permission: slimefun
@@ -2352,7 +2352,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200293
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_2"
+      model_path: "slimefun/basic_machines/enhanced_furnace_2"
   enhanced_furnace_3:
     display_name: slimefun
     permission: slimefun
@@ -2360,7 +2360,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200294
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_3"
+      model_path: "slimefun/basic_machines/enhanced_furnace_3"
   enhanced_furnace_4:
     display_name: slimefun
     permission: slimefun
@@ -2368,7 +2368,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200295
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_4"
+      model_path: "slimefun/basic_machines/enhanced_furnace_4"
   enhanced_furnace_5:
     display_name: slimefun
     permission: slimefun
@@ -2376,7 +2376,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200296
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_5"
+      model_path: "slimefun/basic_machines/enhanced_furnace_5"
   enhanced_furnace_6:
     display_name: slimefun
     permission: slimefun
@@ -2384,7 +2384,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200297
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_6"
+      model_path: "slimefun/basic_machines/enhanced_furnace_6"
   enhanced_furnace_7:
     display_name: slimefun
     permission: slimefun
@@ -2392,7 +2392,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200298
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_7"
+      model_path: "slimefun/basic_machines/enhanced_furnace_7"
   enhanced_furnace_8:
     display_name: slimefun
     permission: slimefun
@@ -2400,7 +2400,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200299
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_8"
+      model_path: "slimefun/basic_machines/enhanced_furnace_8"
   enhanced_furnace_9:
     display_name: slimefun
     permission: slimefun
@@ -2408,7 +2408,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200300
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_9"
+      model_path: "slimefun/basic_machines/enhanced_furnace_9"
   enhanced_furnace_10:
     display_name: slimefun
     permission: slimefun
@@ -2416,7 +2416,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200301
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_10"
+      model_path: "slimefun/basic_machines/enhanced_furnace_10"
   enhanced_furnace_11:
     display_name: slimefun
     permission: slimefun
@@ -2424,7 +2424,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200302
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_11"
+      model_path: "slimefun/basic_machines/enhanced_furnace_11"
   reinforced_furnace:
     display_name: slimefun
     permission: slimefun
@@ -2432,7 +2432,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200303
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/reinforced_furnace"
+      model_path: "slimefun/basic_machines/reinforced_furnace"
   carbonado_edged_furnace:
     display_name: slimefun
     permission: slimefun
@@ -2440,7 +2440,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200304
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/carbonado_edged_furnace"
+      model_path: "slimefun/basic_machines/carbonado_edged_furnace"
   electromagnet:
     display_name: slimefun
     permission: slimefun
@@ -2448,7 +2448,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200305
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/electromagnet"
+      model_path: "slimefun/technical_components/electromagnet"
   electric_motor:
     display_name: slimefun
     permission: slimefun
@@ -2456,7 +2456,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200306
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/electric_motor"
+      model_path: "slimefun/technical_components/electric_motor"
   heating_coil:
     display_name: slimefun
     permission: slimefun
@@ -2464,7 +2464,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200307
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/heating_coil"
+      model_path: "slimefun/technical_components/heating_coil"
   copper_wire:
     display_name: slimefun
     permission: slimefun
@@ -2472,7 +2472,7 @@ items:
       material: STRING
       generate: false
       model_id: 2200308
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/copper_wire"
+      model_path: "slimefun/technical_components/copper_wire"
   block_placer:
     display_name: slimefun
     permission: slimefun
@@ -2480,7 +2480,7 @@ items:
       material: DISPENSER
       generate: false
       model_id: 2200309
-      model_path: "item/raulh22/slimefun/slimefun/basic_machines/block_placer"
+      model_path: "slimefun/basic_machines/block_placer"
   dimensional_scroll:
     display_name: slimefun
     permission: slimefun
@@ -2488,7 +2488,7 @@ items:
       material: PAPER
       generate: false
       model_id: 2200310
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/dimensional_scroll"
+      model_path: "slimefun/magical_gadgets/dimensional_scroll"
   explosive_bow:
     display_name: slimefun
     permission: slimefun
@@ -2496,7 +2496,7 @@ items:
       material: BOW
       generate: false
       model_id: 2200311
-      model_path: "item/raulh22/slimefun/slimefun/weapons/explosive_bow/explosive_bow"
+      model_path: "slimefun/weapons/explosive_bow/explosive_bow"
   icy_bow:
     display_name: slimefun
     permission: slimefun
@@ -2504,7 +2504,7 @@ items:
       material: BOW
       generate: false
       model_id: 2200312
-      model_path: "item/raulh22/slimefun/slimefun/weapons/icy_bow/icy_bow"
+      model_path: "slimefun/weapons/icy_bow/icy_bow"
   knowledge_tome:
     display_name: slimefun
     permission: slimefun
@@ -2512,7 +2512,7 @@ items:
       material: ENCHANTED_BOOK
       generate: false
       model_id: 2200313
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/knowledge_tome"
+      model_path: "slimefun/magical_gadgets/knowledge_tome"
   knowledge_flask:
     display_name: slimefun
     permission: slimefun
@@ -2520,7 +2520,7 @@ items:
       material: GLASS_BOTTLE
       generate: false
       model_id: 2200314
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/knowledge_flask"
+      model_path: "slimefun/magical_gadgets/knowledge_flask"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2528,7 +2528,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200315
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2536,7 +2536,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200316
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2544,7 +2544,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200317
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2552,7 +2552,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200318
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2560,7 +2560,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200319
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2568,7 +2568,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200320
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2576,7 +2576,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200321
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2584,7 +2584,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200322
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2592,7 +2592,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200323
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2600,7 +2600,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200324
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2608,7 +2608,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200325
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2616,7 +2616,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200326
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2624,7 +2624,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200327
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2632,7 +2632,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200328
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2640,7 +2640,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200329
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2648,7 +2648,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200330
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2656,7 +2656,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200331
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   reinforced_plate:
     display_name: slimefun
     permission: slimefun
@@ -2664,7 +2664,7 @@ items:
       material: PAPER
       generate: false
       model_id: 2200332
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/reinforced_plate"
+      model_path: "slimefun/miscellaneous/reinforced_plate"
   hardened_glass:
     display_name: slimefun
     permission: slimefun
@@ -2672,7 +2672,7 @@ items:
       material: LIGHT_GRAY_STAINED_GLASS
       generate: false
       model_id: 2200333
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/hardened_glass"
+      model_path: "slimefun/technical_components/hardened_glass"
   cooling_unit:
     display_name: slimefun
     permission: slimefun
@@ -2680,7 +2680,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200334
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/cooling_unit"
+      model_path: "slimefun/technical_components/cooling_unit"
   cooler:
     display_name: slimefun
     permission: slimefun
@@ -2688,7 +2688,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200335
-      model_path: "item/raulh22/slimefun/slimefun/items/cooler"
+      model_path: "slimefun/items/cooler"
   wither_proof_obsidian:
     display_name: slimefun
     permission: slimefun
@@ -2696,7 +2696,7 @@ items:
       material: OBSIDIAN
       generate: false
       model_id: 2200336
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/wither_proof_obsidian"
+      model_path: "slimefun/technical_components/wither_proof_obsidian"
   ancient_pedestal:
     display_name: slimefun
     permission: slimefun
@@ -2704,7 +2704,7 @@ items:
       material: DISPENSER
       generate: false
       model_id: 2200337
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/ancient_pedestal"
+      model_path: "slimefun/magical_items/ancient_pedestal"
   ancient_altar:
     display_name: slimefun
     permission: slimefun
@@ -2712,7 +2712,7 @@ items:
       material: ENCHANTING_TABLE
       generate: false
       model_id: 2200338
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/ancient_altar"
+      model_path: "slimefun/magical_gadgets/ancient_altar"
   energy_regulator:
     display_name: slimefun
     permission: slimefun
@@ -2720,7 +2720,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200339
-      model_path: "item/raulh22/slimefun/slimefun/energy/energy_regulator"
+      model_path: "slimefun/energy/energy_regulator"
   duct_tape:
     display_name: slimefun
     permission: slimefun
@@ -2728,7 +2728,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200340
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/duct_tape"
+      model_path: "slimefun/miscellaneous/duct_tape"
   small_energy_capacitor:
     display_name: slimefun
     permission: slimefun
@@ -2736,7 +2736,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200341
-      model_path: "item/raulh22/slimefun/slimefun/energy/small_energy_capacitor"
+      model_path: "slimefun/energy/small_energy_capacitor"
   medium_energy_capacitor:
     display_name: slimefun
     permission: slimefun
@@ -2744,7 +2744,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200342
-      model_path: "item/raulh22/slimefun/slimefun/energy/medium_energy_capacitor"
+      model_path: "slimefun/energy/medium_energy_capacitor"
   big_energy_capacitor:
     display_name: slimefun
     permission: slimefun
@@ -2752,7 +2752,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200343
-      model_path: "item/raulh22/slimefun/slimefun/energy/big_energy_capacitor"
+      model_path: "slimefun/energy/big_energy_capacitor"
   large_energy_capacitor:
     display_name: slimefun
     permission: slimefun
@@ -2760,7 +2760,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200344
-      model_path: "item/raulh22/slimefun/slimefun/energy/large_energy_capacitor"
+      model_path: "slimefun/energy/large_energy_capacitor"
   carbonado_edged_energy_capacitor:
     display_name: slimefun
     permission: slimefun
@@ -2768,7 +2768,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200345
-      model_path: "item/raulh22/slimefun/slimefun/energy/carbonado_edged_energy_capacitor"
+      model_path: "slimefun/energy/carbonado_edged_energy_capacitor"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2776,7 +2776,7 @@ items:
       material: DAYLIGHT_DETECTOR
       generate: false
       model_id: 2200346
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2784,7 +2784,7 @@ items:
       material: DAYLIGHT_DETECTOR
       generate: false
       model_id: 2200347
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2792,7 +2792,7 @@ items:
       material: DAYLIGHT_DETECTOR
       generate: false
       model_id: 2200348
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2800,7 +2800,7 @@ items:
       material: DAYLIGHT_DETECTOR
       generate: false
       model_id: 2200349
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   charging_bench:
     display_name: slimefun
     permission: slimefun
@@ -2808,7 +2808,7 @@ items:
       material: CRAFTING_TABLE
       generate: false
       model_id: 2200350
-      model_path: "item/raulh22/slimefun/slimefun/energy/charging_bench"
+      model_path: "slimefun/energy/charging_bench"
   electric_furnace:
     display_name: slimefun
     permission: slimefun
@@ -2816,7 +2816,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200351
-      model_path: "item/raulh22/slimefun/slimefun/energy/electric_furnace"
+      model_path: "slimefun/energy/electric_furnace"
   electric_furnace2:
     display_name: slimefun
     permission: slimefun
@@ -2824,7 +2824,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200352
-      model_path: "item/raulh22/slimefun/slimefun/energy/electric_furnace2"
+      model_path: "slimefun/energy/electric_furnace2"
   electric_furnace3:
     display_name: slimefun
     permission: slimefun
@@ -2832,7 +2832,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200353
-      model_path: "item/raulh22/slimefun/slimefun/energy/electric_furnace3"
+      model_path: "slimefun/energy/electric_furnace3"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2840,7 +2840,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200354
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2848,7 +2848,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200355
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2856,7 +2856,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200356
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2864,7 +2864,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200357
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2872,7 +2872,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200358
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2880,7 +2880,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200359
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2888,7 +2888,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200360
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2896,7 +2896,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200361
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2904,7 +2904,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200362
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2912,7 +2912,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200363
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2920,7 +2920,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200364
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2928,7 +2928,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200365
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   electric_ore_grinder:
     display_name: slimefun
     permission: slimefun
@@ -2936,7 +2936,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200366
-      model_path: "item/raulh22/slimefun/slimefun/energy/electric_ore_grinder"
+      model_path: "slimefun/energy/electric_ore_grinder"
   electric_ore_grinder2:
     display_name: slimefun
     permission: slimefun
@@ -2944,7 +2944,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200367
-      model_path: "item/raulh22/slimefun/slimefun/energy/electric_ore_grinder2"
+      model_path: "slimefun/energy/electric_ore_grinder2"
   heated_pressure_chamber:
     display_name: slimefun
     permission: slimefun
@@ -2952,7 +2952,7 @@ items:
       material: LIGHT_GRAY_STAINED_GLASS
       generate: false
       model_id: 2200368
-      model_path: "item/raulh22/slimefun/slimefun/energy/heated_pressure_chamber"
+      model_path: "slimefun/energy/heated_pressure_chamber"
   heated_pressure_chamber2:
     display_name: slimefun
     permission: slimefun
@@ -2960,7 +2960,7 @@ items:
       material: LIGHT_GRAY_STAINED_GLASS
       generate: false
       model_id: 2200369
-      model_path: "item/raulh22/slimefun/slimefun/energy/heated_pressure_chamber2"
+      model_path: "slimefun/energy/heated_pressure_chamber2"
   electric_ingot_pulverizer:
     display_name: slimefun
     permission: slimefun
@@ -2968,7 +2968,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200370
-      model_path: "item/raulh22/slimefun/slimefun/energy/electric_ingot_pulverizer"
+      model_path: "slimefun/energy/electric_ingot_pulverizer"
   coal_generator:
     display_name: slimefun
     permission: slimefun
@@ -2976,7 +2976,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200371
-      model_path: "item/raulh22/slimefun/slimefun/energy/coal_generator"
+      model_path: "slimefun/energy/coal_generator"
   coal_generator2:
     display_name: slimefun
     permission: slimefun
@@ -2984,7 +2984,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200372
-      model_path: "item/raulh22/slimefun/slimefun/energy/coal_generator2"
+      model_path: "slimefun/energy/coal_generator2"
   none:
     display_name: slimefun
     permission: slimefun
@@ -2992,7 +2992,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200373
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3000,7 +3000,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200374
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3008,7 +3008,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200375
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   electric_press:
     display_name: slimefun
     permission: slimefun
@@ -3016,7 +3016,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200376
-      model_path: "item/raulh22/slimefun/slimefun/energy/electric_press"
+      model_path: "slimefun/energy/electric_press"
   electric_press2:
     display_name: slimefun
     permission: slimefun
@@ -3024,7 +3024,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200377
-      model_path: "item/raulh22/slimefun/slimefun/energy/electric_press2"
+      model_path: "slimefun/energy/electric_press2"
   magnesium_salt:
     display_name: slimefun
     permission: slimefun
@@ -3032,7 +3032,7 @@ items:
       material: SUGAR
       generate: false
       model_id: 2200378
-      model_path: "item/raulh22/slimefun/slimefun/resources/valuables/magnesium_salt"
+      model_path: "slimefun/resources/valuables/magnesium_salt"
   magnesium_generator:
     display_name: slimefun
     permission: slimefun
@@ -3040,7 +3040,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200379
-      model_path: "item/raulh22/slimefun/slimefun/energy/magnesium_generator"
+      model_path: "slimefun/energy/magnesium_generator"
   auto_enchanter:
     display_name: slimefun
     permission: slimefun
@@ -3048,7 +3048,7 @@ items:
       material: ENCHANTING_TABLE
       generate: false
       model_id: 2200380
-      model_path: "item/raulh22/slimefun/slimefun/energy/auto_enchanter"
+      model_path: "slimefun/energy/auto_enchanter"
   auto_disenchanter:
     display_name: slimefun
     permission: slimefun
@@ -3056,7 +3056,7 @@ items:
       material: ENCHANTING_TABLE
       generate: false
       model_id: 2200381
-      model_path: "item/raulh22/slimefun/slimefun/energy/auto_disenchanter"
+      model_path: "slimefun/energy/auto_disenchanter"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3064,7 +3064,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200382
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3072,7 +3072,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200383
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3080,7 +3080,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200384
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   plastic_sheet:
     display_name: slimefun
     permission: slimefun
@@ -3088,7 +3088,7 @@ items:
       material: PAPER
       generate: false
       model_id: 2200385
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/plastic_sheet"
+      model_path: "slimefun/technical_components/plastic_sheet"
   android_memory_core:
     display_name: slimefun
     permission: slimefun
@@ -3096,7 +3096,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200386
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/android_memory_core"
+      model_path: "slimefun/technical_components/android_memory_core"
   gps_transmitter:
     display_name: slimefun
     permission: slimefun
@@ -3104,7 +3104,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200387
-      model_path: "item/raulh22/slimefun/slimefun/gps/gps_transmitter"
+      model_path: "slimefun/gps/gps_transmitter"
   gps_transmitter_advanced:
     display_name: slimefun
     permission: slimefun
@@ -3112,7 +3112,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200388
-      model_path: "item/raulh22/slimefun/slimefun/gps/gps_transmitter_advanced"
+      model_path: "slimefun/gps/gps_transmitter_advanced"
   gps_transmitter_carbonado:
     display_name: slimefun
     permission: slimefun
@@ -3120,7 +3120,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200389
-      model_path: "item/raulh22/slimefun/slimefun/gps/gps_transmitter_carbonado"
+      model_path: "slimefun/gps/gps_transmitter_carbonado"
   gps_transmitter_energized:
     display_name: slimefun
     permission: slimefun
@@ -3128,7 +3128,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200390
-      model_path: "item/raulh22/slimefun/slimefun/gps/gps_transmitter_energized"
+      model_path: "slimefun/gps/gps_transmitter_energized"
   gps_control_panel:
     display_name: slimefun
     permission: slimefun
@@ -3136,7 +3136,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200391
-      model_path: "item/raulh22/slimefun/slimefun/gps/gps_control_panel"
+      model_path: "slimefun/gps/gps_control_panel"
   gps_marker:
     display_name: slimefun
     permission: slimefun
@@ -3144,7 +3144,7 @@ items:
       material: REDSTONE_TORCH
       generate: false
       model_id: 2200392
-      model_path: "item/raulh22/slimefun/slimefun/gps/gps_marker"
+      model_path: "slimefun/gps/gps_marker"
   gps_emergency_transmitter:
     display_name: slimefun
     permission: slimefun
@@ -3152,7 +3152,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200393
-      model_path: "item/raulh22/slimefun/slimefun/gps/gps_emergency_transmitter"
+      model_path: "slimefun/gps/gps_emergency_transmitter"
   interface_items:
     display_name: slimefun
     permission: slimefun
@@ -3160,7 +3160,7 @@ items:
       material: DISPENSER
       generate: false
       model_id: 2200394
-      model_path: "item/raulh22/slimefun/slimefun/android/interface_items"
+      model_path: "slimefun/android/interface_items"
   interface_fuel:
     display_name: slimefun
     permission: slimefun
@@ -3168,7 +3168,7 @@ items:
       material: DISPENSER
       generate: false
       model_id: 2200395
-      model_path: "item/raulh22/slimefun/slimefun/android/interface_fuel"
+      model_path: "slimefun/android/interface_fuel"
   normal1:
     display_name: slimefun
     permission: slimefun
@@ -3176,7 +3176,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200396
-      model_path: "item/raulh22/slimefun/slimefun/android/normal"
+      model_path: "slimefun/android/normal"
   miner:
     display_name: slimefun
     permission: slimefun
@@ -3184,7 +3184,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200397
-      model_path: "item/raulh22/slimefun/slimefun/android/miner"
+      model_path: "slimefun/android/miner"
   farmer1:
     display_name: slimefun
     permission: slimefun
@@ -3192,7 +3192,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200398
-      model_path: "item/raulh22/slimefun/slimefun/android/farmer"
+      model_path: "slimefun/android/farmer"
   woodcutter:
     display_name: slimefun
     permission: slimefun
@@ -3200,7 +3200,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200399
-      model_path: "item/raulh22/slimefun/slimefun/android/woodcutter"
+      model_path: "slimefun/android/woodcutter"
   fisherman1:
     display_name: slimefun
     permission: slimefun
@@ -3208,7 +3208,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200400
-      model_path: "item/raulh22/slimefun/slimefun/android/fisherman"
+      model_path: "slimefun/android/fisherman"
   butcher1:
     display_name: slimefun
     permission: slimefun
@@ -3216,7 +3216,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200401
-      model_path: "item/raulh22/slimefun/slimefun/android/butcher"
+      model_path: "slimefun/android/butcher"
   normal2:
     display_name: slimefun
     permission: slimefun
@@ -3224,7 +3224,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200402
-      model_path: "item/raulh22/slimefun/slimefun/android2/normal"
+      model_path: "slimefun/android2/normal"
   fisherman2:
     display_name: slimefun
     permission: slimefun
@@ -3232,7 +3232,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200403
-      model_path: "item/raulh22/slimefun/slimefun/android2/fisherman"
+      model_path: "slimefun/android2/fisherman"
   butcher2:
     display_name: slimefun
     permission: slimefun
@@ -3240,7 +3240,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200404
-      model_path: "item/raulh22/slimefun/slimefun/android2/butcher"
+      model_path: "slimefun/android2/butcher"
   farmer2:
     display_name: slimefun
     permission: slimefun
@@ -3248,7 +3248,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200405
-      model_path: "item/raulh22/slimefun/slimefun/android2/farmer"
+      model_path: "slimefun/android2/farmer"
   normal3:
     display_name: slimefun
     permission: slimefun
@@ -3256,7 +3256,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200406
-      model_path: "item/raulh22/slimefun/slimefun/android3/normal"
+      model_path: "slimefun/android3/normal"
   fisherman3:
     display_name: slimefun
     permission: slimefun
@@ -3264,7 +3264,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200407
-      model_path: "item/raulh22/slimefun/slimefun/android3/fisherman"
+      model_path: "slimefun/android3/fisherman"
   butcher3:
     display_name: slimefun
     permission: slimefun
@@ -3272,7 +3272,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200408
-      model_path: "item/raulh22/slimefun/slimefun/android3/butcher"
+      model_path: "slimefun/android3/butcher"
   rune_blank:
     display_name: slimefun
     permission: slimefun
@@ -3280,7 +3280,7 @@ items:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200409
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/rune_blank"
+      model_path: "slimefun/magical_items/rune_blank"
   rune_air:
     display_name: slimefun
     permission: slimefun
@@ -3288,7 +3288,7 @@ items:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200410
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/rune_air"
+      model_path: "slimefun/magical_items/rune_air"
   rune_earth:
     display_name: slimefun
     permission: slimefun
@@ -3296,7 +3296,7 @@ items:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200411
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/rune_earth"
+      model_path: "slimefun/magical_items/rune_earth"
   rune_fire:
     display_name: slimefun
     permission: slimefun
@@ -3304,7 +3304,7 @@ items:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200412
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/rune_fire"
+      model_path: "slimefun/magical_items/rune_fire"
   rune_water:
     display_name: slimefun
     permission: slimefun
@@ -3312,7 +3312,7 @@ items:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200413
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/rune_water"
+      model_path: "slimefun/magical_items/rune_water"
   rune_ender:
     display_name: slimefun
     permission: slimefun
@@ -3320,7 +3320,7 @@ items:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200414
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/rune_ender"
+      model_path: "slimefun/magical_items/rune_ender"
   rune_lightning:
     display_name: slimefun
     permission: slimefun
@@ -3328,7 +3328,7 @@ items:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200415
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/rune_lightning"
+      model_path: "slimefun/magical_items/rune_lightning"
   rune_rainbow:
     display_name: slimefun
     permission: slimefun
@@ -3336,7 +3336,7 @@ items:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200416
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/rune_rainbow"
+      model_path: "slimefun/magical_items/rune_rainbow"
   rune_soulbound:
     display_name: slimefun
     permission: slimefun
@@ -3344,7 +3344,7 @@ items:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200417
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/rune_soulbound"
+      model_path: "slimefun/magical_items/rune_soulbound"
   rune_enchantment:
     display_name: slimefun
     permission: slimefun
@@ -3352,7 +3352,7 @@ items:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200418
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/rune_enchantment"
+      model_path: "slimefun/magical_items/rune_enchantment"
   infernal_bonemeal:
     display_name: slimefun
     permission: slimefun
@@ -3360,7 +3360,7 @@ items:
       material: BONE_MEAL
       generate: false
       model_id: 2200419
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/infernal_bonemeal"
+      model_path: "slimefun/magical_gadgets/infernal_bonemeal"
   elytra_scale:
     display_name: slimefun
     permission: slimefun
@@ -3368,7 +3368,7 @@ items:
       material: FEATHER
       generate: false
       model_id: 2200420
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/elytra_scale"
+      model_path: "slimefun/magical_gadgets/elytra_scale"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3376,7 +3376,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200421
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   infused_elytra:
     display_name: slimefun
     permission: slimefun
@@ -3384,7 +3384,7 @@ items:
       material: ELYTRA
       generate: false
       model_id: 2200422
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/elytra/infused_elytra"
+      model_path: "slimefun/magical_gadgets/elytra/infused_elytra"
   soulbound_elytra:
     display_name: slimefun
     permission: slimefun
@@ -3392,7 +3392,7 @@ items:
       material: ELYTRA
       generate: false
       model_id: 2200423
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/elytra/soulbound_elytra"
+      model_path: "slimefun/magical_gadgets/elytra/soulbound_elytra"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3400,7 +3400,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200424
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   rainbow_wool:
     display_name: slimefun
     permission: slimefun
@@ -3408,7 +3408,7 @@ items:
       material: WHITE_WOOL
       generate: false
       model_id: 2200425
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/rainbow_wool"
+      model_path: "slimefun/magical_gadgets/rainbow_wool"
   rainbow_glass:
     display_name: slimefun
     permission: slimefun
@@ -3416,7 +3416,7 @@ items:
       material: WHITE_STAINED_GLASS
       generate: false
       model_id: 2200426
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/rainbow_glass"
+      model_path: "slimefun/magical_gadgets/rainbow_glass"
   rainbow_glass_pane:
     display_name: slimefun
     permission: slimefun
@@ -3424,7 +3424,7 @@ items:
       material: WHITE_STAINED_GLASS_PANE
       generate: false
       model_id: 2200427
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/rainbow_glass_pane"
+      model_path: "slimefun/magical_gadgets/rainbow_glass_pane"
   rainbow_clay:
     display_name: slimefun
     permission: slimefun
@@ -3432,7 +3432,7 @@ items:
       material: WHITE_TERRACOTTA
       generate: false
       model_id: 2200428
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/rainbow_clay"
+      model_path: "slimefun/magical_gadgets/rainbow_clay"
   rainbow_concrete:
     display_name: slimefun
     permission: slimefun
@@ -3440,7 +3440,7 @@ items:
       material: WHITE_CONCRETE
       generate: false
       model_id: 2200429
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/rainbow_concrete"
+      model_path: "slimefun/magical_gadgets/rainbow_concrete"
   rainbow_glazed_terracotta:
     display_name: slimefun
     permission: slimefun
@@ -3448,7 +3448,7 @@ items:
       material: WHITE_GLAZED_TERRACOTTA
       generate: false
       model_id: 2200430
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/rainbow_glazed_terracotta"
+      model_path: "slimefun/magical_gadgets/rainbow_glazed_terracotta"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3456,7 +3456,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200431
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3464,7 +3464,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200432
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3472,7 +3472,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200433
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3480,7 +3480,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200434
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3488,7 +3488,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200435
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3496,7 +3496,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200436
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3504,7 +3504,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200437
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3512,7 +3512,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200438
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3520,7 +3520,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200439
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3528,7 +3528,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200440
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3536,7 +3536,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200441
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3544,7 +3544,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200442
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3552,7 +3552,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200443
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3560,7 +3560,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200444
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3568,7 +3568,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200445
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3576,7 +3576,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200446
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3584,7 +3584,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200447
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3592,7 +3592,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200448
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   wither_proof_glass:
     display_name: slimefun
     permission: slimefun
@@ -3600,7 +3600,7 @@ items:
       material: PURPLE_STAINED_GLASS
       generate: false
       model_id: 2200449
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/wither_proof_glass"
+      model_path: "slimefun/technical_components/wither_proof_glass"
   gps_geo_scanner:
     display_name: slimefun
     permission: slimefun
@@ -3608,7 +3608,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200450
-      model_path: "item/raulh22/slimefun/slimefun/gps/gps_geo_scanner"
+      model_path: "slimefun/gps/gps_geo_scanner"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3616,7 +3616,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200451
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   oil_pump:
     display_name: slimefun
     permission: slimefun
@@ -3624,7 +3624,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200452
-      model_path: "item/raulh22/slimefun/slimefun/gps/oil_pump"
+      model_path: "slimefun/gps/oil_pump"
   geo_miner:
     display_name: slimefun
     permission: slimefun
@@ -3632,7 +3632,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200453
-      model_path: "item/raulh22/slimefun/slimefun/gps/geo_miner"
+      model_path: "slimefun/gps/geo_miner"
   oil:
     display_name: slimefun
     permission: slimefun
@@ -3640,7 +3640,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200454
-      model_path: "item/raulh22/slimefun/slimefun/resources/fuel/oil"
+      model_path: "slimefun/resources/fuel/oil"
   fuel:
     display_name: slimefun
     permission: slimefun
@@ -3648,7 +3648,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200455
-      model_path: "item/raulh22/slimefun/slimefun/resources/fuel/fuel"
+      model_path: "slimefun/resources/fuel/fuel"
   nether_ice:
     display_name: slimefun
     permission: slimefun
@@ -3656,7 +3656,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200456
-      model_path: "item/raulh22/slimefun/slimefun/resources/valuables/nether_ice"
+      model_path: "slimefun/resources/valuables/nether_ice"
   refinery:
     display_name: slimefun
     permission: slimefun
@@ -3664,7 +3664,7 @@ items:
       material: PISTON
       generate: false
       model_id: 2200457
-      model_path: "item/raulh22/slimefun/slimefun/energy/refinery"
+      model_path: "slimefun/energy/refinery"
   lava_generator:
     display_name: slimefun
     permission: slimefun
@@ -3672,7 +3672,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200458
-      model_path: "item/raulh22/slimefun/slimefun/energy/lava_generator"
+      model_path: "slimefun/energy/lava_generator"
   lava_generator2:
     display_name: slimefun
     permission: slimefun
@@ -3680,7 +3680,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200459
-      model_path: "item/raulh22/slimefun/slimefun/energy/lava_generator2"
+      model_path: "slimefun/energy/lava_generator2"
   combustion_reactor:
     display_name: slimefun
     permission: slimefun
@@ -3688,7 +3688,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200460
-      model_path: "item/raulh22/slimefun/slimefun/energy/combustion_reactor"
+      model_path: "slimefun/energy/combustion_reactor"
   teleporter_pylon:
     display_name: slimefun
     permission: slimefun
@@ -3696,7 +3696,7 @@ items:
       material: PURPLE_STAINED_GLASS
       generate: false
       model_id: 2200461
-      model_path: "item/raulh22/slimefun/slimefun/gps/teleporter_pylon"
+      model_path: "slimefun/gps/teleporter_pylon"
   teleporter_matrix:
     display_name: slimefun
     permission: slimefun
@@ -3704,7 +3704,7 @@ items:
       material: IRON_BLOCK
       generate: false
       model_id: 2200462
-      model_path: "item/raulh22/slimefun/slimefun/gps/teleporter_matrix"
+      model_path: "slimefun/gps/teleporter_matrix"
   gps_activation_device_shared:
     display_name: slimefun
     permission: slimefun
@@ -3712,7 +3712,7 @@ items:
       material: STONE_PRESSURE_PLATE
       generate: false
       model_id: 2200463
-      model_path: "item/raulh22/slimefun/slimefun/gps/gps_activation_device_shared"
+      model_path: "slimefun/gps/gps_activation_device_shared"
   gps_activation_device_personal:
     display_name: slimefun
     permission: slimefun
@@ -3720,7 +3720,7 @@ items:
       material: STONE_PRESSURE_PLATE
       generate: false
       model_id: 2200464
-      model_path: "item/raulh22/slimefun/slimefun/gps/gps_activation_device_personal"
+      model_path: "slimefun/gps/gps_activation_device_personal"
   infused_hopper:
     display_name: slimefun
     permission: slimefun
@@ -3728,7 +3728,7 @@ items:
       material: HOPPER
       generate: false
       model_id: 2200465
-      model_path: "item/raulh22/slimefun/slimefun/magical_gadgets/infused_hopper"
+      model_path: "slimefun/magical_gadgets/infused_hopper"
   blistering_ingot_33:
     display_name: slimefun
     permission: slimefun
@@ -3736,7 +3736,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200466
-      model_path: "item/raulh22/slimefun/slimefun/resources/radioactive_materials/blistering_ingot_33"
+      model_path: "slimefun/resources/radioactive_materials/blistering_ingot_33"
   blistering_ingot_66:
     display_name: slimefun
     permission: slimefun
@@ -3744,7 +3744,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200467
-      model_path: "item/raulh22/slimefun/slimefun/resources/radioactive_materials/blistering_ingot_66"
+      model_path: "slimefun/resources/radioactive_materials/blistering_ingot_66"
   blistering_ingot_100:
     display_name: slimefun
     permission: slimefun
@@ -3752,7 +3752,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200468
-      model_path: "item/raulh22/slimefun/slimefun/resources/radioactive_materials/blistering_ingot_100"
+      model_path: "slimefun/resources/radioactive_materials/blistering_ingot_100"
   enriched_nether_ice:
     display_name: slimefun
     permission: slimefun
@@ -3760,7 +3760,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200469
-      model_path: "item/raulh22/slimefun/slimefun/resources/valuables/enriched_nether_ice"
+      model_path: "slimefun/resources/valuables/enriched_nether_ice"
   elevator_plate:
     display_name: slimefun
     permission: slimefun
@@ -3768,7 +3768,7 @@ items:
       material: STONE_PRESSURE_PLATE
       generate: false
       model_id: 2200470
-      model_path: "item/raulh22/slimefun/slimefun/gps/elevator_plate"
+      model_path: "slimefun/gps/elevator_plate"
   # none:
   #   display_name: slimefun
   #   permission: slimefun
@@ -3776,7 +3776,7 @@ items:
   #     material: PLAYER_HEAD
   #     generate: false
   #     model_id: 2200471
-  #     model_path: "item/raulh22/slimefun/slimefun/none"
+  #     model_path: "slimefun/none"
   # none:
   #   display_name: slimefun
   #   permission: slimefun
@@ -3784,7 +3784,7 @@ items:
   #     material: PLAYER_HEAD
   #     generate: false
   #     model_id: 2200472
-  #     model_path: "item/raulh22/slimefun/slimefun/none"
+  #     model_path: "slimefun/none"
   wheat:
     display_name: slimefun
     permission: slimefun
@@ -3792,7 +3792,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200473
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_food/wheat"
+      model_path: "slimefun/miscellaneous/organic_food/wheat"
   carrots:
     display_name: slimefun
     permission: slimefun
@@ -3800,7 +3800,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200474
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_food/carrots"
+      model_path: "slimefun/miscellaneous/organic_food/carrots"
   potatoes:
     display_name: slimefun
     permission: slimefun
@@ -3808,7 +3808,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200475
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_food/potatoes"
+      model_path: "slimefun/miscellaneous/organic_food/potatoes"
   seeds:
     display_name: slimefun
     permission: slimefun
@@ -3816,7 +3816,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200476
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_food/seeds"
+      model_path: "slimefun/miscellaneous/organic_food/seeds"
   beetroot:
     display_name: slimefun
     permission: slimefun
@@ -3824,7 +3824,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200477
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_food/beetroot"
+      model_path: "slimefun/miscellaneous/organic_food/beetroot"
   melon:
     display_name: slimefun
     permission: slimefun
@@ -3832,7 +3832,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200478
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_food/melon"
+      model_path: "slimefun/miscellaneous/organic_food/melon"
   apple:
     display_name: slimefun
     permission: slimefun
@@ -3840,7 +3840,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200479
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_food/apple"
+      model_path: "slimefun/miscellaneous/organic_food/apple"
   sweet_berries:
     display_name: slimefun
     permission: slimefun
@@ -3848,7 +3848,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200480
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_food/sweet_berries"
+      model_path: "slimefun/miscellaneous/organic_food/sweet_berries"
   dried_kelp:
     display_name: slimefun
     permission: slimefun
@@ -3856,7 +3856,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200481
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_food/dried_kelp"
+      model_path: "slimefun/miscellaneous/organic_food/dried_kelp"
   cocoa_beans:
     display_name: slimefun
     permission: slimefun
@@ -3864,7 +3864,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200482
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_food/cocoa_beans"
+      model_path: "slimefun/miscellaneous/organic_food/cocoa_beans"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3872,7 +3872,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200483
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3880,7 +3880,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200484
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3888,7 +3888,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200485
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   exp_collector:
     display_name: slimefun
     permission: slimefun
@@ -3896,7 +3896,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200486
-      model_path: "item/raulh22/slimefun/slimefun/energy/exp_collector"
+      model_path: "slimefun/energy/exp_collector"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3904,7 +3904,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200487
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -3912,7 +3912,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200488
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   wheat1:
     display_name: slimefun
     permission: slimefun
@@ -3920,7 +3920,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200489
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_fertilizer/wheat"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/wheat"
   carrots1:
     display_name: slimefun
     permission: slimefun
@@ -3928,7 +3928,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200490
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_fertilizer/carrots"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/carrots"
   potatoes1:
     display_name: slimefun
     permission: slimefun
@@ -3936,7 +3936,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200491
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_fertilizer/potatoes"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/potatoes"
   seeds1:
     display_name: slimefun
     permission: slimefun
@@ -3944,7 +3944,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200492
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_fertilizer/seeds"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/seeds"
   beetroot1:
     display_name: slimefun
     permission: slimefun
@@ -3952,7 +3952,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200493
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_fertilizer/beetroot"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/beetroot"
   melon1:
     display_name: slimefun
     permission: slimefun
@@ -3960,7 +3960,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200494
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_fertilizer/melon"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/melon"
   apple1:
     display_name: slimefun
     permission: slimefun
@@ -3968,7 +3968,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200495
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_fertilizer/apple"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/apple"
   sweet_berries1:
     display_name: slimefun
     permission: slimefun
@@ -3976,7 +3976,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200496
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_fertilizer/sweet_berries"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/sweet_berries"
   dried_kelp1:
     display_name: slimefun
     permission: slimefun
@@ -3984,7 +3984,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200497
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_fertilizer/dried_kelp"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/dried_kelp"
   cocoa_beans1:
     display_name: slimefun
     permission: slimefun
@@ -3992,7 +3992,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200498
-      model_path: "item/raulh22/slimefun/slimefun/miscellaneous/organic_fertilizer/cocoa_beans"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/cocoa_beans"
   # none:
   #   display_name: slimefun
   #   permission: slimefun
@@ -4000,7 +4000,7 @@ items:
   #     material: PLAYER_HEAD
   #     generate: false
   #     model_id: 2200499
-  #     model_path: "item/raulh22/slimefun/slimefun/none"
+  #     model_path: "slimefun/none"
   # none:
   #   display_name: slimefun
   #   permission: slimefun
@@ -4008,7 +4008,7 @@ items:
   #     material: PLAYER_HEAD
   #     generate: false
   #     model_id: 2200500
-  #     model_path: "item/raulh22/slimefun/slimefun/none"
+  #     model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4016,7 +4016,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200501
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4024,7 +4024,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200502
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   reactor_coolant_cell:
     display_name: slimefun
     permission: slimefun
@@ -4032,7 +4032,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200503
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/reactor_coolant_cell"
+      model_path: "slimefun/technical_components/reactor_coolant_cell"
   nether_ice_coolant_cell:
     display_name: slimefun
     permission: slimefun
@@ -4040,7 +4040,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200504
-      model_path: "item/raulh22/slimefun/slimefun/technical_components/nether_ice_coolant_cell"
+      model_path: "slimefun/technical_components/nether_ice_coolant_cell"
   neptunium:
     display_name: slimefun
     permission: slimefun
@@ -4048,7 +4048,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200505
-      model_path: "item/raulh22/slimefun/slimefun/resources/radioactive_materials/neptunium"
+      model_path: "slimefun/resources/radioactive_materials/neptunium"
   plutonium:
     display_name: slimefun
     permission: slimefun
@@ -4056,7 +4056,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200506
-      model_path: "item/raulh22/slimefun/slimefun/resources/radioactive_materials/plutonium"
+      model_path: "slimefun/resources/radioactive_materials/plutonium"
   boosted_uranium:
     display_name: slimefun
     permission: slimefun
@@ -4064,7 +4064,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200507
-      model_path: "item/raulh22/slimefun/slimefun/resources/radioactive_materials/boosted_uranium"
+      model_path: "slimefun/resources/radioactive_materials/boosted_uranium"
   nuclear_reactor:
     display_name: slimefun
     permission: slimefun
@@ -4072,7 +4072,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200508
-      model_path: "item/raulh22/slimefun/slimefun/energy/nuclear_reactor"
+      model_path: "slimefun/energy/nuclear_reactor"
   nether_star_reactor:
     display_name: slimefun
     permission: slimefun
@@ -4080,7 +4080,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200509
-      model_path: "item/raulh22/slimefun/slimefun/energy/nether_star_reactor"
+      model_path: "slimefun/energy/nether_star_reactor"
   motor:
     display_name: slimefun
     permission: slimefun
@@ -4088,7 +4088,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200510
-      model_path: "item/raulh22/slimefun/slimefun/cargo/motor"
+      model_path: "slimefun/cargo/motor"
   manager:
     display_name: slimefun
     permission: slimefun
@@ -4096,7 +4096,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200511
-      model_path: "item/raulh22/slimefun/slimefun/cargo/manager"
+      model_path: "slimefun/cargo/manager"
   connector:
     display_name: slimefun
     permission: slimefun
@@ -4104,7 +4104,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200512
-      model_path: "item/raulh22/slimefun/slimefun/cargo/connector"
+      model_path: "slimefun/cargo/connector"
   input:
     display_name: slimefun
     permission: slimefun
@@ -4112,7 +4112,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200513
-      model_path: "item/raulh22/slimefun/slimefun/cargo/input"
+      model_path: "slimefun/cargo/input"
   output:
     display_name: slimefun
     permission: slimefun
@@ -4120,7 +4120,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200514
-      model_path: "item/raulh22/slimefun/slimefun/cargo/output"
+      model_path: "slimefun/cargo/output"
   output2:
     display_name: slimefun
     permission: slimefun
@@ -4128,7 +4128,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200515
-      model_path: "item/raulh22/slimefun/slimefun/cargo/output2"
+      model_path: "slimefun/cargo/output2"
   automated_crafting_chamber:
     display_name: slimefun
     permission: slimefun
@@ -4136,7 +4136,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200516
-      model_path: "item/raulh22/slimefun/slimefun/energy/automated_crafting_chamber"
+      model_path: "slimefun/energy/automated_crafting_chamber"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4144,7 +4144,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200517
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4152,7 +4152,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200518
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   trash:
     display_name: slimefun
     permission: slimefun
@@ -4160,7 +4160,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200519
-      model_path: "item/raulh22/slimefun/slimefun/cargo/trash"
+      model_path: "slimefun/cargo/trash"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4168,7 +4168,7 @@ items:
       material: BLACK_STAINED_GLASS
       generate: false
       model_id: 2200520
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4176,7 +4176,7 @@ items:
       material: BLACK_STAINED_GLASS
       generate: false
       model_id: 2200521
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4184,7 +4184,7 @@ items:
       material: BLACK_STAINED_GLASS
       generate: false
       model_id: 2200522
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   electric_smeltery:
     display_name: slimefun
     permission: slimefun
@@ -4192,7 +4192,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200523
-      model_path: "item/raulh22/slimefun/slimefun/energy/electric_smeltery"
+      model_path: "slimefun/energy/electric_smeltery"
   electric_smeltery2:
     display_name: slimefun
     permission: slimefun
@@ -4200,7 +4200,7 @@ items:
       material: FURNACE
       generate: false
       model_id: 2200524
-      model_path: "item/raulh22/slimefun/slimefun/energy/electric_smeltery2"
+      model_path: "slimefun/energy/electric_smeltery2"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4208,7 +4208,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200525
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   wither_assembler:
     display_name: slimefun
     permission: slimefun
@@ -4216,7 +4216,7 @@ items:
       material: OBSIDIAN
       generate: false
       model_id: 2200526
-      model_path: "item/raulh22/slimefun/slimefun/energy/wither_assembler"
+      model_path: "slimefun/energy/wither_assembler"
   tape_measure:
     display_name: slimefun
     permission: slimefun
@@ -4224,7 +4224,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200527
-      model_path: "item/raulh22/slimefun/slimefun/items/tape_measure"
+      model_path: "slimefun/items/tape_measure"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4232,7 +4232,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200528
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4240,7 +4240,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200529
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4248,7 +4248,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200530
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4256,7 +4256,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200531
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4264,7 +4264,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200532
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4272,7 +4272,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200533
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4280,7 +4280,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200534
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4288,7 +4288,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200535
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4296,7 +4296,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200536
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4304,7 +4304,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200537
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4312,7 +4312,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200538
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4320,7 +4320,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200539
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4328,7 +4328,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200540
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4336,7 +4336,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200541
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4344,7 +4344,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200542
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4352,7 +4352,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200543
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4360,7 +4360,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200544
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4368,7 +4368,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200545
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4376,7 +4376,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200546
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4384,7 +4384,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200547
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4392,7 +4392,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200548
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4400,7 +4400,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200549
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4408,7 +4408,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200550
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4416,7 +4416,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200551
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4424,7 +4424,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200552
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4432,7 +4432,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200553
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4440,7 +4440,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200554
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4448,7 +4448,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200555
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4456,7 +4456,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200556
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4464,7 +4464,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200557
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4472,7 +4472,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200558
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4480,7 +4480,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200559
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4488,7 +4488,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200560
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4496,7 +4496,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200561
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4504,7 +4504,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200562
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4512,7 +4512,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200563
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4520,7 +4520,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200564
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4528,7 +4528,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200565
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4536,7 +4536,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200566
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4544,7 +4544,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200567
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4552,7 +4552,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200568
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4560,7 +4560,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200569
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4568,7 +4568,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200570
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4576,7 +4576,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200571
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4584,7 +4584,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200572
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4592,7 +4592,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200573
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4600,7 +4600,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200574
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4608,7 +4608,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200575
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4616,7 +4616,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200576
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4624,7 +4624,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200577
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4632,7 +4632,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200578
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4640,7 +4640,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200579
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4648,7 +4648,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200580
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4656,7 +4656,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200581
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4664,7 +4664,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200582
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4672,7 +4672,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200583
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4680,7 +4680,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200584
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4688,7 +4688,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200585
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4696,7 +4696,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200586
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4704,7 +4704,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200587
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4712,7 +4712,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200588
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4720,7 +4720,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200589
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4728,7 +4728,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200590
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4736,7 +4736,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200591
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4744,7 +4744,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200592
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4752,7 +4752,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200593
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4760,7 +4760,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200594
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4768,7 +4768,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200595
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4776,7 +4776,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200596
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4784,7 +4784,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200597
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4792,7 +4792,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200598
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4800,7 +4800,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200599
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
   none:
     display_name: slimefun
     permission: slimefun
@@ -4808,7 +4808,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200600
-      model_path: "item/raulh22/slimefun/slimefun/none"
+      model_path: "slimefun/none"
 # Add from other Project
   rune_villagers:
     display_name: slimefun
@@ -4817,7 +4817,7 @@ items:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200628
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/rune_villagers"
+      model_path: "slimefun/magical_items/rune_villagers"
   synthetic_shulker:
     display_name: slimefun
     permission: slimefun
@@ -4825,7 +4825,7 @@ items:
       material: SHULKER_SHELL
       generate: false
       model_id: 2200629
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/synthetic_shulker"
+      model_path: "slimefun/magical_items/synthetic_shulker"
   # electric_ore_grinder3:
   #   display_name: slimefun
   #   permission: slimefun
@@ -4833,7 +4833,7 @@ items:
   #     material: FURNACE
   #     generate: false
   #     model_id: 2200603
-  #     model_path: "item/raulh22/slimefun/slimefun/energy/electric_ore_grinder3"
+  #     model_path: "slimefun/energy/electric_ore_grinder3"
   caveman1:
     display_name: slimefun
     permission: slimefun
@@ -4841,7 +4841,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200613
-      model_path: "item/raulh22/slimefun/slimefun/talisman1/caveman"
+      model_path: "slimefun/talisman1/caveman"
   caveman2:
     display_name: slimefun
     permission: slimefun
@@ -4849,7 +4849,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200614
-      model_path: "item/raulh22/slimefun/slimefun/talisman2/caveman"
+      model_path: "slimefun/talisman2/caveman"
   wise1:
     display_name: slimefun
     permission: slimefun
@@ -4857,7 +4857,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200615
-      model_path: "item/raulh22/slimefun/slimefun/talisman1/wise"
+      model_path: "slimefun/talisman1/wise"
   wise2:
     display_name: slimefun
     permission: slimefun
@@ -4865,7 +4865,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200616
-      model_path: "item/raulh22/slimefun/slimefun/talisman2/wise"
+      model_path: "slimefun/talisman2/wise"
   ender_talisman:
     display_name: slimefun
     permission: slimefun
@@ -4873,7 +4873,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200617
-      model_path: "item/raulh22/slimefun/slimefun/talisman2/0_default"
+      model_path: "slimefun/talisman2/0_default"
   strange_nether_goo:
     display_name: slimefun
     permission: slimefun
@@ -4881,7 +4881,7 @@ items:
       material: PURPLE_DYE
       generate: false
       model_id: 2200618
-      model_path: "item/raulh22/slimefun/slimefun/magical_items/strange_nether_goo"
+      model_path: "slimefun/magical_items/strange_nether_goo"
   # auto_enchanter_2:
   #   display_name: slimefun
   #   permission: slimefun
@@ -4889,7 +4889,7 @@ items:
   #     material: ENCHANTING_TABLE
   #     generate: false
   #     model_id: 2200619
-  #     model_path: "item/raulh22/slimefun/slimefun/energy/auto_enchanter_2"
+  #     model_path: "slimefun/energy/auto_enchanter_2"
   # auto_disenchanter_2:
   #   display_name: slimefun
   #   permission: slimefun
@@ -4897,7 +4897,7 @@ items:
   #     material: ENCHANTING_TABLE
   #     generate: false
   #     model_id: 2200620
-  #     model_path: "item/raulh22/slimefun/slimefun/energy/auto_disenchanter_2"
+  #     model_path: "slimefun/energy/auto_disenchanter_2"
   energized_capacitor:
     display_name: slimefun
     permission: slimefun
@@ -4905,7 +4905,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200621
-      model_path: "item/raulh22/slimefun/slimefun/energy/energized_capacitor"
+      model_path: "slimefun/energy/energized_capacitor"
   energy_connector:
     display_name: slimefun
     permission: slimefun
@@ -4913,4 +4913,4 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200622
-      model_path: "item/raulh22/slimefun/slimefun/energy/energy_connector"
+      model_path: "slimefun/energy/energy_connector"

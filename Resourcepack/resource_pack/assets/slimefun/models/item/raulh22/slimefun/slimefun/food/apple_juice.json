@@ -2,8 +2,8 @@
     "parent": "item/handheld",
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/food/apple_juice",
-        "layer1": "slimefun:item/raulh22/slimefun/slimefun/food/apple_juice"
+        "layer0": "slimefun:slimefun/food/apple_juice",
+        "layer1": "slimefun:slimefun/food/apple_juice"
     },
 	"display": {
 		"thirdperson_righthand": {

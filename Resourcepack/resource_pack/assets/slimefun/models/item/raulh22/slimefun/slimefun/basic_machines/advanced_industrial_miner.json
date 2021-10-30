@@ -2,7 +2,7 @@
     "parent": "item/handheld",
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/basic_machines/advanced_industrial_miner"
+        "layer0": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
     },
 	"display": {
 		"thirdperson_righthand": {

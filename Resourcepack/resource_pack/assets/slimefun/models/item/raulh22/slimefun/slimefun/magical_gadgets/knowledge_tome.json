@@ -2,7 +2,7 @@
     "parent": "item/handheld",	
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/magical_gadgets/knowledge_tome"
+        "layer0": "slimefun:slimefun/magical_gadgets/knowledge_tome"
     },
 	"display": {
 		"thirdperson_righthand": {

@@ -2,8 +2,8 @@
     "parent": "minecraft:block/obsidian",
 	"author": "RaulH22",
     "textures": {
-        "particle": "slimefun:item/raulh22/slimefun/slimefun/gps/teleporter_pylon",
-        "texture": "slimefun:item/raulh22/slimefun/slimefun/gps/teleporter_pylon"
+        "particle": "slimefun:slimefun/gps/teleporter_pylon",
+        "texture": "slimefun:slimefun/gps/teleporter_pylon"
     },
 	"elements": [
 		{

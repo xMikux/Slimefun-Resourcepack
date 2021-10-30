@@ -2,7 +2,7 @@
     "parent": "item/handheld",
 	"author": "RaulH22",
     "textures": {
-        "layer0": "slimefun:item/raulh22/slimefun/slimefun/energy/electric_press"
+        "layer0": "slimefun:slimefun/energy/electric_press"
     },
 	"display": {
 		"thirdperson_righthand": {
