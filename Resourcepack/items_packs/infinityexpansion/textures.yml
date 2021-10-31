@@ -8,7 +8,7 @@ items:
       material: BRICK
       generate: false
       model_id: 2200601
-      model_path: "item/materials/adamantite"
+      model_path: "materials/adamantite"
   earth_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -16,7 +16,7 @@ items:
       material: NETHER_STAR
       generate: false
       model_id: 2200602
-      model_path: "item/materials/earth_singularity"
+      model_path: "materials/earth_singularity"
   ender_essence:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -24,7 +24,7 @@ items:
       material: BLAZE_POWDER
       generate: false
       model_id: 2200603
-      model_path: "item/materials/ender_essence"
+      model_path: "materials/ender_essence"
   ender_flame:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -32,7 +32,7 @@ items:
       material: ENCHANTED_BOOK
       generate: false
       model_id: 2200604
-      model_path: "item/materials/ender_flame"
+      model_path: "materials/ender_flame"
   fortune_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -40,7 +40,7 @@ items:
       material: NETHER_STAR
       generate: false
       model_id: 2200605
-      model_path: "item/materials/fortune_singularity"
+      model_path: "materials/fortune_singularity"
   infinity_ingot:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -48,7 +48,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200606
-      model_path: "item/materials/infinity_ingot"
+      model_path: "materials/infinity_ingot"
   infinity_matrix:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -56,7 +56,7 @@ items:
       material: NETHER_STAR
       generate: false
       model_id: 2200607
-      model_path: "item/materials/infinity_matrix"
+      model_path: "materials/infinity_matrix"
   machine_circuit:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -64,7 +64,7 @@ items:
       material: GOLD_INGOT
       generate: false
       model_id: 2200608
-      model_path: "item/materials/machine_circuit"
+      model_path: "materials/machine_circuit"
   machine_plate:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -72,7 +72,7 @@ items:
       material: PAPER
       generate: false
       model_id: 2200609
-      model_path: "item/materials/machine_plate"
+      model_path: "materials/machine_plate"
   magic_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -80,7 +80,7 @@ items:
       material: NETHER_STAR
       generate: false
       model_id: 2200610
-      model_path: "item/materials/magic_singularity"
+      model_path: "materials/magic_singularity"
   magnonium:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -88,7 +88,7 @@ items:
       material: NETHER_BRICK
       generate: false
       model_id: 2200611
-      model_path: "item/materials/magnonium"
+      model_path: "materials/magnonium"
   magsteel:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -96,7 +96,7 @@ items:
       material: BRICK
       generate: false
       model_id: 2200612
-      model_path: "item/materials/magsteel"
+      model_path: "materials/magsteel"
   magsteel_plate:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -104,7 +104,7 @@ items:
       material: NETHERITE_SCRAP
       generate: false
       model_id: 2200613
-      model_path: "item/materials/magsteel_plate"
+      model_path: "materials/magsteel_plate"
   metal_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -112,7 +112,7 @@ items:
       material: NETHER_STAR
       generate: false
       model_id: 2200614
-      model_path: "item/materials/metal_singularity"
+      model_path: "materials/metal_singularity"
   mythril:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -120,7 +120,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200615
-      model_path: "item/materials/mythril"
+      model_path: "materials/mythril"
   titanium:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -128,7 +128,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200616
-      model_path: "item/materials/titanium"
+      model_path: "materials/titanium"
   void_bit:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -136,7 +136,7 @@ items:
       material: IRON_NUGGET
       generate: false
       model_id: 2200617
-      model_path: "item/materials/void_bit"
+      model_path: "materials/void_bit"
   void_dust:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -144,7 +144,7 @@ items:
       material: GUNPOWDER
       generate: false
       model_id: 2200618
-      model_path: "item/materials/void_dust"
+      model_path: "materials/void_dust"
   void_ingot:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -152,7 +152,7 @@ items:
       material: NETHERITE_INGOT
       generate: false
       model_id: 2200619
-      model_path: "item/materials/void_ingot"
+      model_path: "materials/void_ingot"
   aluminum_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -160,7 +160,7 @@ items:
       material: IRON_BLOCK
       generate: false
       model_id: 2200620
-      model_path: "item/materials/materials2/aluminum_singularity"
+      model_path: "materials/materials2/aluminum_singularity"
   coal_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -168,7 +168,7 @@ items:
       material: COAL_BLOCK
       generate: false
       model_id: 2200621
-      model_path: "item/materials/materials2/coal_singularity"
+      model_path: "materials/materials2/coal_singularity"
   copper_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -176,7 +176,7 @@ items:
       material: BRICKS
       generate: false
       model_id: 2200622
-      model_path: "item/materials/materials2/copper_singularity"
+      model_path: "materials/materials2/copper_singularity"
   diamond_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -184,7 +184,7 @@ items:
       material: DIAMOND_BLOCK
       generate: false
       model_id: 2200623
-      model_path: "item/materials/materials2/diamond_singularity"
+      model_path: "materials/materials2/diamond_singularity"
   double_compressed_cobblestone:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -192,7 +192,7 @@ items:
       material: ANDESITE
       generate: false
       model_id: 2200624
-      model_path: "item/materials/materials2/double_compressed_cobblestone"
+      model_path: "materials/materials2/double_compressed_cobblestone"
   emerald_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -200,7 +200,7 @@ items:
       material: EMERALD_BLOCK
       generate: false
       model_id: 2200625
-      model_path: "item/materials/materials2/emerald_singularity"
+      model_path: "materials/materials2/emerald_singularity"
   gold_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -208,7 +208,7 @@ items:
       material: GOLD_BLOCK
       generate: false
       model_id: 2200626
-      model_path: "item/materials/materials2/gold_singularity"
+      model_path: "materials/materials2/gold_singularity"
   infinity_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -216,7 +216,7 @@ items:
       material: SMOOTH_QUARTZ
       generate: false
       model_id: 2200627
-      model_path: "item/materials/materials2/infinity_singularity"
+      model_path: "materials/materials2/infinity_singularity"
   iron_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -224,7 +224,7 @@ items:
       material: IRON_BLOCK
       generate: false
       model_id: 2200628
-      model_path: "item/materials/materials2/iron_singularity"
+      model_path: "materials/materials2/iron_singularity"
   lapis_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -232,7 +232,7 @@ items:
       material: LAPIS_BLOCK
       generate: false
       model_id: 2200629
-      model_path: "item/materials/materials2/lapis_singularity"
+      model_path: "materials/materials2/lapis_singularity"
   lead_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -240,7 +240,7 @@ items:
       material: IRON_BLOCK
       generate: false
       model_id: 2200630
-      model_path: "item/materials/materials2/lead_singularity"
+      model_path: "materials/materials2/lead_singularity"
   machine_core:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -248,7 +248,7 @@ items:
       material: IRON_BLOCK
       generate: false
       model_id: 2200631
-      model_path: "item/materials/materials2/machine_core"
+      model_path: "materials/materials2/machine_core"
   magnesium_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -256,7 +256,7 @@ items:
       material: NETHER_BRICKS
       generate: false
       model_id: 2200632
-      model_path: "item/materials/materials2/magnesium_singularity"
+      model_path: "materials/materials2/magnesium_singularity"
   netherite_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -264,7 +264,7 @@ items:
       material: NETHERITE_BLOCK
       generate: false
       model_id: 2200633
-      model_path: "item/materials/materials2/netherite_singularity"
+      model_path: "materials/materials2/netherite_singularity"
   quadruple_compressed_cobblestone:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -272,7 +272,7 @@ items:
       material: STONE
       generate: false
       model_id: 2200634
-      model_path: "item/materials/materials2/quadruple_compressed_cobblestone"
+      model_path: "materials/materials2/quadruple_compressed_cobblestone"
   quartz_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -280,7 +280,7 @@ items:
       material: QUARTZ_BLOCK
       generate: false
       model_id: 2200635
-      model_path: "item/materials/materials2/quartz_singularity"
+      model_path: "materials/materials2/quartz_singularity"
   quintuple_compressed_cobblestone:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -288,7 +288,7 @@ items:
       material: POLISHED_ANDESITE
       generate: false
       model_id: 2200636
-      model_path: "item/materials/materials2/quintuple_compressed_cobblestone"
+      model_path: "materials/materials2/quintuple_compressed_cobblestone"
   redstone_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -296,7 +296,7 @@ items:
       material: REDSTONE_BLOCK
       generate: false
       model_id: 2200637
-      model_path: "item/materials/materials2/redstone_singularity"
+      model_path: "materials/materials2/redstone_singularity"
   silver_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -304,7 +304,7 @@ items:
       material: IRON_BLOCK
       generate: false
       model_id: 2200638
-      model_path: "item/materials/materials2/silver_singularity"
+      model_path: "materials/materials2/silver_singularity"
   single_compressed_cobblestone:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -312,7 +312,7 @@ items:
       material: ANDESITE
       generate: false
       model_id: 2200639
-      model_path: "item/materials/materials2/single_compressed_cobblestone"
+      model_path: "materials/materials2/single_compressed_cobblestone"
   tin_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -320,7 +320,7 @@ items:
       material: IRON_BLOCK
       generate: false
       model_id: 2200640
-      model_path: "item/materials/materials2/tin_singularity"
+      model_path: "materials/materials2/tin_singularity"
   triple_compressed_cobblestone:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -328,7 +328,7 @@ items:
       material: STONE
       generate: false
       model_id: 2200641
-      model_path: "item/materials/materials2/triple_compressed_cobblestone"
+      model_path: "materials/materials2/triple_compressed_cobblestone"
   zinc_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -336,7 +336,7 @@ items:
       material: IRON_BLOCK
       generate: false
       model_id: 2200642
-      model_path: "item/materials/materials2/zinc_singularity"
+      model_path: "materials/materials2/zinc_singularity"
   blade_of_the_cosmos:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -344,7 +344,7 @@ items:
       material: NETHERITE_SWORD
       generate: false
       model_id: 2200643
-      model_path: "item/tools/blade_of_the_cosmos"
+      model_path: "tools/blade_of_the_cosmos"
   infinity_bow:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -352,7 +352,7 @@ items:
       material: BOW
       generate: false
       model_id: 2200644
-      model_path: "item/tools/sky_piercer/sky_piercer"
+      model_path: "tools/sky_piercer/sky_piercer"
   infinity_crown:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -360,7 +360,7 @@ items:
       material: NETHERITE_HELMET
       generate: false
       model_id: 2200645
-      model_path: "item/armor/infinity_crown"
+      model_path: "armor/infinity_crown"
   infinity_chestplate:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -368,7 +368,7 @@ items:
       material: NETHERITE_CHESTPLATE
       generate: false
       model_id: 2200646
-      model_path: "item/armor/infinity_chestplate"
+      model_path: "armor/infinity_chestplate"
   infinity_leggings:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -376,7 +376,7 @@ items:
       material: NETHERITE_LEGGINGS
       generate: false
       model_id: 2200647
-      model_path: "item/armor/infinity_leggings"
+      model_path: "armor/infinity_leggings"
   infinity_boots:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -384,7 +384,7 @@ items:
       material: NETHERITE_BOOTS
       generate: false
       model_id: 2200648
-      model_path: "item/armor/infinity_boots"
+      model_path: "armor/infinity_boots"
   infinity_pickaxe:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -392,7 +392,7 @@ items:
       material: NETHERITE_PICKAXE
       generate: false
       model_id: 2200649
-      model_path: "item/tools/world_breaker"
+      model_path: "tools/world_breaker"
   infinity_axe:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -400,7 +400,7 @@ items:
       material: NETHERITE_AXE
       generate: false
       model_id: 2200650
-      model_path: "item/tools/nature_ruin"
+      model_path: "tools/nature_ruin"
   infinity_shovel:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -408,7 +408,7 @@ items:
       material: NETHERITE_SHOVEL
       generate: false
       model_id: 2200651
-      model_path: "item/tools/mountain_eater"
+      model_path: "tools/mountain_eater"
 
 # ADAMANTITE: 2200601
 # EARTH_SINGULARITY: 2200602
