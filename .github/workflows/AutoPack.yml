@@ -8,7 +8,8 @@ on:
     paths:
     - Resourcepack/**
   schedule:
-    - cron: "0 0 * * 1"
+    - cron: "0 0 * * *"
+  #  - cron: "0 0 * * 1"
 
 env:
   panel_domain: ${{ secrets.DOMAIN }}
@@ -73,7 +74,7 @@ jobs:
           jsons: |
             Resourcepack/resource_pack/assets/slimy_tree_taps/models/**/*.json
 
-  Week-Schedule:
+  Daily-Pack:
     needs: Validator
     runs-on: ubuntu-latest
     if: |
@@ -305,6 +306,7 @@ jobs:
         working-directory: ${{ env.working-directory }}
 
       - name: 🎉 Commit and Push Pack
+        continue-on-error: true
         run: |
           export CURRENTTIME=$( TZ=":Asia/Taipei" date '+%Y-%m-%d %R %Z' )
           git add assets
