@@ -178,6 +178,15 @@ jobs:
           git_user_signingkey: true
           git_commit_gpgsign: true
 
+      # Temporary Fix default.json
+      - name: Temporary Fix default.json
+        run: |
+          cat assets/minecraft/font/default.json
+          rm assets/minecraft/font/default.json
+          echo ${{ env.default_json }} > assets/minecraft/font/default.json
+          cat assets/minecraft/font/default.json
+        working-directory: ${{ env.working-directory }}
+
       - name: 🎉 Commit and Push Pack
         run: |
           export CURRENTTIME=$( TZ=":Asia/Taipei" date '+%Y-%m-%d %R %Z' )
@@ -202,14 +211,6 @@ jobs:
         uses: actions/checkout@v2.0.0
         with:
           fetch-depth: 0
-
-      # Temporary Fix default.json
-      - name: Temporary Fix default.json
-        run: |
-          cat ./.pack/assets/minecraft/font/default.json
-          rm ./.pack/assets/minecraft/font/default.json
-          echo ${{ env.default_json }} > ./.pack/assets/minecraft/font/default.json
-          cat ./.pack/assets/minecraft/font/default.json
 
       - name: 📥 Package & Optimize Resourcepack
         uses: ComunidadAylas/PackSquash-action@master

@@ -1,1 +1,7 @@
-{"parent":"item/handheld","textures":{"layer0":"infinityexpansion:item/materials/machine_circuit"},"display":{"thirdperson_righthand":{"rotation":[0,0,0],"translation":[0,1,0],"scale":[0.55,0.55,0.55]},"thirdperson_lefthand":{"rotation":[0,0,0],"translation":[0,1,0],"scale":[0.55,0.55,0.55]}}}
+{
+    "parent": "item/handheld",
+	"author": "Caribax",
+    "textures": {
+        "layer0": "infinityexpansion:item/materials/machine_circuit"
+    }
+}
