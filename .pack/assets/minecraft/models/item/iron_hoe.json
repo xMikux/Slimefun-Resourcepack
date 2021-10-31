@@ -1,1 +1,1 @@
-{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/iron_hoe"},"overrides":[{"predicate":{"custom_model_data":2200805},"model":"slimy_tree_taps:item/treetap/reinforced_tree_tap"},{"predicate":{"custom_model_data":2200806},"model":"minecraft:item/iron_hoe"}]}
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/iron_hoe"},"overrides":[{"predicate":{"custom_model_data":2200805},"model":"slimy_tree_taps:treetap/reinforced_tree_tap"},{"predicate":{"custom_model_data":2200806},"model":"minecraft:item/iron_hoe"}]}
