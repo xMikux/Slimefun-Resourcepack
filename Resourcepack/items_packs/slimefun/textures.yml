@@ -3161,7 +3161,7 @@ items:
       material: DISPENSER
       generate: false
       model_id: 2200394
-      model_path: "slimefun/androids/androids/interface_items"
+      model_path: "slimefun/androids/interface_items"
   interface_fuel:
     display_name: slimefun
     permission: slimefun
@@ -3169,7 +3169,7 @@ items:
       material: DISPENSER
       generate: false
       model_id: 2200395
-      model_path: "slimefun/androids/androids/interface_fuel"
+      model_path: "slimefun/androids/interface_fuel"
   normal1:
     display_name: slimefun
     permission: slimefun
