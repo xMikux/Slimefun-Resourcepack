@@ -206,8 +206,10 @@ jobs:
       # Temporary Fix default.json
       - name: Temporary Fix default.json
         run: |
+          cat ./.pack/assets/minecraft/font/default.json
           rm ./.pack/assets/minecraft/font/default.json
           echo ${{ env.default_json }} > ./.pack/assets/minecraft/font/default.json
+          cat ./.pack/assets/minecraft/font/default.json
 
       - name: 📥 Package & Optimize Resourcepack
         uses: ComunidadAylas/PackSquash-action@master
