@@ -1,6 +1,0 @@
-{
-    "parent":"item/handheld",
-    "textures":{
-       "layer0":"infinityexpansion:item/tools/blade_of_the_cosmos"
-    }
-}
