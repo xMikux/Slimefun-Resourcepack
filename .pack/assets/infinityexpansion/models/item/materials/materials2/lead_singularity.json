@@ -1,1 +1,1 @@
-{"parent":"block/base/block_real","textures":{"all":"infinityexpansion:item/materials/materials2/lead_singularity","particle":"infinityexpansion:item/materials/materials2/lead_singularity"}}
+{"parent":"item/handheld","author":"Caribax","textures":{"all":"infinityexpansion:item/materials/materials2/lead_singularity","particle":"infinityexpansion:item/materials/materials2/lead_singularity"}}
