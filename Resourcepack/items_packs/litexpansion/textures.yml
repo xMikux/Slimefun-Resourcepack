@@ -8,7 +8,7 @@ items:
       material: PAPER
       generate: false
       model_id: 2200810
-      model_path: "item/materials/advanced_alloy"
+      model_path: "materials/advanced_alloy"
   advanced_circuit:
     display_name: litexpansion
     permission: litexpansion
@@ -16,7 +16,7 @@ items:
       material: COBWEB
       generate: false
       model_id: 2200811
-      model_path: "item/materials/advanced_circuit"
+      model_path: "materials/advanced_circuit"
   coal_dust:
     display_name: litexpansion
     permission: litexpansion
@@ -24,7 +24,7 @@ items:
       material: BLACK_DYE
       generate: false
       model_id: 2200812
-      model_path: "item/materials/coal_dust"
+      model_path: "materials/coal_dust"
   copper_cable:
     display_name: litexpansion
     permission: litexpansion
@@ -32,7 +32,7 @@ items:
       material: STRING
       generate: false
       model_id: 2200813
-      model_path: "item/materials/copper_cable"
+      model_path: "materials/copper_cable"
   electronic_circuit:
     display_name: litexpansion
     permission: litexpansion
@@ -40,7 +40,7 @@ items:
       material: COBWEB
       generate: false
       model_id: 2200814
-      model_path: "item/materials/electronic_circuit"
+      model_path: "materials/electronic_circuit"
   iridium:
     display_name: litexpansion
     permission: litexpansion
@@ -48,7 +48,7 @@ items:
       material: WHITE_DYE
       generate: false
       model_id: 2200815
-      model_path: "item/materials/iridium"
+      model_path: "materials/iridium"
   iridium_plate:
     display_name: litexpansion
     permission: litexpansion
@@ -56,7 +56,7 @@ items:
       material: PAPER
       generate: false
       model_id: 2200816
-      model_path: "item/materials/iridium_plate"
+      model_path: "materials/iridium_plate"
   mag-thor:
     display_name: litexpansion
     permission: litexpansion
@@ -64,7 +64,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200817
-      model_path: "item/materials/mag-thor"
+      model_path: "materials/mag-thor"
   mixed_metal_ingot:
     display_name: litexpansion
     permission: litexpansion
@@ -72,7 +72,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200818
-      model_path: "item/materials/mixed_metal_ingot"
+      model_path: "materials/mixed_metal_ingot"
   raw_carbon_fibre:
     display_name: litexpansion
     permission: litexpansion
@@ -80,7 +80,7 @@ items:
       material: BLACK_DYE
       generate: false
       model_id: 2200819
-      model_path: "item/materials/raw_carbon_fibre"
+      model_path: "materials/raw_carbon_fibre"
   raw_carbon_mesh:
     display_name: litexpansion
     permission: litexpansion
@@ -88,7 +88,7 @@ items:
       material: BLACK_DYE
       generate: false
       model_id: 2200820
-      model_path: "item/materials/raw_carbon_mesh"
+      model_path: "materials/raw_carbon_mesh"
   refined_iron:
     display_name: litexpansion
     permission: litexpansion
@@ -96,7 +96,7 @@ items:
       material: IRON_INGOT
       generate: false
       model_id: 2200821
-      model_path: "item/materials/refined_iron"
+      model_path: "materials/refined_iron"
   scrap:
     display_name: litexpansion
     permission: litexpansion
@@ -104,7 +104,7 @@ items:
       material: DEAD_BUSH
       generate: false
       model_id: 2200822
-      model_path: "item/materials/scrap"
+      model_path: "materials/scrap"
   thorium:
     display_name: litexpansion
     permission: litexpansion
@@ -112,7 +112,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200823
-      model_path: "item/materials/thorium"
+      model_path: "materials/thorium"
   uninsulated_copper_cable:
     display_name: litexpansion
     permission: litexpansion
@@ -120,7 +120,7 @@ items:
       material: STRING
       generate: false
       model_id: 2200824
-      model_path: "item/materials/uninsulated_copper_cable"
+      model_path: "materials/uninsulated_copper_cable"
   uu_matter:
     display_name: litexpansion
     permission: litexpansion
@@ -128,7 +128,7 @@ items:
       material: PURPLE_DYE
       generate: false
       model_id: 2200825
-      model_path: "item/materials/uu_matter"
+      model_path: "materials/uu_matter"
   cargo_configurator:
     display_name: litexpansion
     permission: litexpansion
@@ -136,7 +136,7 @@ items:
       material: COMPASS
       generate: false
       model_id: 2200826
-      model_path: "item/tools/cargo_configurator"
+      model_path: "tools/cargo_configurator"
   nano_blade:
     display_name: litexpansion
     permission: litexpansion
@@ -144,7 +144,7 @@ items:
       material: DIAMOND_SWORD
       generate: false
       model_id: 2200827
-      model_path: "item/tools/nano_blade"
+      model_path: "tools/nano_blade"
 
 # ADVANCED_ALLOY: 2200810
 # ADVANCED_CIRCUIT: 2200811
