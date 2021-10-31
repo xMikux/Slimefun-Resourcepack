@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/lapis_block","overrides":[{"predicate":{"custom_model_data":2200629},"model":"infinityexpansion:item/materials/materials2/lapis_singularity"},{"predicate":{"custom_model_data":2200630},"model":"minecraft:item/lapis_block"}]}
+{"parent":"minecraft:block/lapis_block","overrides":[{"predicate":{"custom_model_data":2200629},"model":"infinityexpansion:materials/materials2/lapis_singularity"},{"predicate":{"custom_model_data":2200630},"model":"minecraft:item/lapis_block"}]}

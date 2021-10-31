@@ -1,1 +1,1 @@
-{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/netherite_axe"},"overrides":[{"predicate":{"custom_model_data":2200650},"model":"infinityexpansion:item/tools/nature_ruin"},{"predicate":{"custom_model_data":2200651},"model":"minecraft:item/netherite_axe"}]}
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/netherite_axe"},"overrides":[{"predicate":{"custom_model_data":2200650},"model":"infinityexpansion:tools/nature_ruin"},{"predicate":{"custom_model_data":2200651},"model":"minecraft:item/netherite_axe"}]}

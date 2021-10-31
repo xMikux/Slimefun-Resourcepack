@@ -1,7 +1,1 @@
-{
-  "parent": "item/handheld",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "infinityexpansion:tools/world_breaker"
-  }
-}
+{"parent":"item/handheld","author":"Caribax","textures":{"layer0":"infinityexpansion:tools/world_breaker"}}

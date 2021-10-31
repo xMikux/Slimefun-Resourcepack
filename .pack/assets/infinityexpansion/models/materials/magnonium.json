@@ -1,7 +1,1 @@
-{
-  "parent": "item/handheld",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "infinityexpansion:materials/magnonium"
-  }
-}
+{"parent":"item/handheld","author":"Caribax","textures":{"layer0":"infinityexpansion:materials/magnonium"}}

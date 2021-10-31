@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/nether_bricks","overrides":[{"predicate":{"custom_model_data":2200632},"model":"infinityexpansion:item/materials/materials2/magnesium_singularity"},{"predicate":{"custom_model_data":2200633},"model":"minecraft:item/nether_bricks"}]}
+{"parent":"minecraft:block/nether_bricks","overrides":[{"predicate":{"custom_model_data":2200632},"model":"infinityexpansion:materials/materials2/magnesium_singularity"},{"predicate":{"custom_model_data":2200633},"model":"minecraft:item/nether_bricks"}]}

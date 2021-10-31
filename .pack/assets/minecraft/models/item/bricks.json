@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/bricks","overrides":[{"predicate":{"custom_model_data":2200622},"model":"infinityexpansion:item/materials/materials2/copper_singularity"},{"predicate":{"custom_model_data":2200623},"model":"minecraft:item/bricks"}]}
+{"parent":"minecraft:block/bricks","overrides":[{"predicate":{"custom_model_data":2200622},"model":"infinityexpansion:materials/materials2/copper_singularity"},{"predicate":{"custom_model_data":2200623},"model":"minecraft:item/bricks"}]}

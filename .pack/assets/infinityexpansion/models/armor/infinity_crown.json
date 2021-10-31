@@ -1,7 +1,1 @@
-{
-  "parent": "item/handheld",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "infinityexpansion:armor/infinity_crown"
-  }
-}
+{"parent":"item/handheld","author":"Caribax","textures":{"layer0":"infinityexpansion:armor/infinity_crown"}}
