@@ -8,7 +8,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200800
-      model_path: "item/materials/amber"
+      model_path: "materials/amber"
   raw_plastic:
     display_name: slimy_tree_taps
     permission: slimy_tree_taps
@@ -16,7 +16,7 @@ items:
       material: PAPER
       generate: false
       model_id: 2200801
-      model_path: "item/materials/raw_plastic"
+      model_path: "materials/raw_plastic"
   rubber:
     display_name: slimy_tree_taps
     permission: slimy_tree_taps
@@ -24,7 +24,7 @@ items:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200802
-      model_path: "item/materials/rubber"
+      model_path: "materials/rubber"
   sticky_resin:
     display_name: slimy_tree_taps
     permission: slimy_tree_taps
@@ -32,7 +32,7 @@ items:
       material: BROWN_DYE
       generate: false
       model_id: 2200803
-      model_path: "item/materials/sticky_resin"
+      model_path: "materials/sticky_resin"
   diamond_tree_tap:
     display_name: slimy_tree_taps
     permission: slimy_tree_taps
@@ -40,7 +40,7 @@ items:
       material: DIAMOND_HOE
       generate: false
       model_id: 2200804
-      model_path: "item/treetap/diamond_tree_tap"
+      model_path: "treetap/diamond_tree_tap"
   reinforced_tree_tap:
     display_name: slimy_tree_taps
     permission: slimy_tree_taps
@@ -48,7 +48,7 @@ items:
       material: IRON_HOE
       generate: false
       model_id: 2200805
-      model_path: "item/treetap/reinforced_tree_tap"
+      model_path: "treetap/reinforced_tree_tap"
   tree_tap:
     display_name: slimy_tree_taps
     permission: slimy_tree_taps
@@ -56,7 +56,7 @@ items:
       material: WOODEN_HOE
       generate: false
       model_id: 2200806
-      model_path: "item/treetap/tree_tap"
+      model_path: "treetap/tree_tap"
 
 # AMBER: 2200800
 # RAW_PLASTIC: 2200801
