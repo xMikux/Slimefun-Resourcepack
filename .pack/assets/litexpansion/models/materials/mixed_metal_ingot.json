@@ -1,7 +1,1 @@
-{
-  "parent": "item/handheld",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "litexpansion:materials/mixed_metal_ingot"
-  }
-}
+{"parent":"item/handheld","author":"Caribax","textures":{"layer0":"litexpansion:materials/mixed_metal_ingot"}}

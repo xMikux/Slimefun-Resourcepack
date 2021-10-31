@@ -1,7 +1,1 @@
-{
-  "parent": "item/handheld",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "litexpansion:materials/coal_dust"
-  }
-}
+{"parent":"item/handheld","author":"Caribax","textures":{"layer0":"litexpansion:materials/coal_dust"}}

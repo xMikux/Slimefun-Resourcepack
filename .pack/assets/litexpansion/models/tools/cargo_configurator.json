@@ -1,7 +1,1 @@
-{
-  "parent": "item/handheld",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "litexpansion:tools/cargo_configurator"
-  }
-}
+{"parent":"item/handheld","author":"Caribax","textures":{"layer0":"litexpansion:tools/cargo_configurator"}}

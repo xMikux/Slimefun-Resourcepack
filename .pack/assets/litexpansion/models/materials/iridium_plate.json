@@ -1,7 +1,1 @@
-{
-  "parent": "item/handheld",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "litexpansion:materials/iridium_plate"
-  }
-}
+{"parent":"item/handheld","author":"Caribax","textures":{"layer0":"litexpansion:materials/iridium_plate"}}

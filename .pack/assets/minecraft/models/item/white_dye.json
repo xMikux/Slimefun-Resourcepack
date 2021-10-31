@@ -1,1 +1,1 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/white_dye"},"overrides":[{"predicate":{"custom_model_data":2200815},"model":"litexpansion:item/materials/iridium"},{"predicate":{"custom_model_data":2200816},"model":"minecraft:item/white_dye"}]}
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/white_dye"},"overrides":[{"predicate":{"custom_model_data":2200815},"model":"litexpansion:materials/iridium"},{"predicate":{"custom_model_data":2200816},"model":"minecraft:item/white_dye"}]}
