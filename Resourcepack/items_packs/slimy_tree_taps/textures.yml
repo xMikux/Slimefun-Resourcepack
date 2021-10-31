@@ -57,11 +57,3 @@ items:
       generate: false
       model_id: 2200806
       model_path: "treetap/tree_tap"
-
-# AMBER: 2200800
-# RAW_PLASTIC: 2200801
-# RUBBER: 2200802
-# STICKY_RESIN: 2200803
-# DIAMOND_TREE_TAP: 2200804
-# REINFORCED_TREE_TAP: 2200805
-# TREE_TAP: 2200806
