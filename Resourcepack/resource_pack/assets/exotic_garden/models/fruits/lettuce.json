@@ -1,1 +1,7 @@
-{"parent":"item/generated","textures":{"layer0":"exotic_garden:fruits/lettuce"}}
+{
+    "parent": "item/handheld",
+	"author": "Caribax",
+    "textures": {
+        "layer0": "exotic_garden:fruits/lettuce"
+    }
+}
