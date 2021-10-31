@@ -7,6 +7,8 @@ on:
     - main
     paths:
     - Resourcepack/**
+  schedule:
+    - cron: "0 0 * * 1"
 
 env:
   panel_domain: ${{ secrets.DOMAIN }}
@@ -27,10 +29,77 @@ env:
   #   {"providers":[]}
 
 jobs:
+  Week-Schedule:
+    runs-on: ubuntu-latest
+    if: |
+      github.event_name == 'schedule'
+
+    steps:
+      - name: 📄 Checking Repostiory
+        uses: actions/checkout@v2.0.0
+        with:
+          fetch-depth: 0
+
+      - name: Checking Repo Again
+        run: |
+          git fetch 
+          git pull
+
+      - name: 📥 Package & Optimize Resourcepack
+        uses: ComunidadAylas/PackSquash-action@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: ./.pack
+
+      - name: ☁ DownloadArtifact
+        uses: actions/download-artifact@v2
+        with:
+          name: Optimized pack
+          path: ./
+
+      - name: 📝 Rename Resourcepack
+        run: |
+          mv ./pack.zip Slimefun-ResourcePack-Optimized.zip
+
+      - name: Upload Optimized pack
+        uses: actions/upload-artifact@v2
+        with:
+          name: Slimefun-ResourcePack-Optimized
+          path: ./Slimefun-ResourcePack-Optimized.zip
+
+      - name: Delete Optimized pack
+        uses: geekyeggo/delete-artifact@v1
+        with:
+          name: |
+            Optimized pack
+
+      - name: 📥 Download Original Pack
+        run: |
+          curl -u "${{ env.sftp_user }}.${{ env.server_uuid }}:${{ env.sftp_pass }}" \
+          -k "sftp://${{ env.sftp_host }}:${{ env.sftp_port }}/plugins/ItemsAdder/data/resource_pack/pack.zip" \
+          -o pack.zip
+
+      - name: 🔧 Rename Original File Name
+        run: |
+          mv pack.zip Slimefun-ResourcePack-Original.zip
+
+      - name: Upload Original pack
+        uses: actions/upload-artifact@v2
+        with:
+          name: Slimefun-ResourcePack-Original
+          path: Slimefun-ResourcePack-Original.zip
+
+      - name: Upload Item Models
+        uses: actions/upload-artifact@v2
+        with:
+          name: item-models.yml
+          path: ./Resourcepack/item-models.yml
+
   Upload-Git-IAPack:
     runs-on: ubuntu-latest
     if: |
       contains(github.event.head_commit.message, '[ci skip]') == false
+      github.event_name != 'schedule'
 
     steps:
       - name: 📄 Checking Repostiory
