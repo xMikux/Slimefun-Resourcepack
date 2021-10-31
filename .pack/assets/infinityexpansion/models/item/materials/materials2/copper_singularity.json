@@ -1,1 +1,1 @@
-{"parent":"item/handheld","author":"Caribax","textures":{"all":"infinityexpansion:item/materials/materials2/copper_singularity","particle":"infinityexpansion:item/materials/materials2/copper_singularity"}}
+{"parent":"block/cube_all","author":"Caribax","textures":{"all":"infinityexpansion:item/materials/materials2/copper_singularity"}}
