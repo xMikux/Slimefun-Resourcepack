@@ -1945,3 +1945,11 @@ items:
       generate: false
       model_id: 2201072
       model_path: "plants/slime_plant"
+  crook:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: WOODEN_HOE
+      generate: false
+      model_id: 2201073
+      model_path: "misc/crook"

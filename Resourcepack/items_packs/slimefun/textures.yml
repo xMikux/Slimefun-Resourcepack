@@ -3161,7 +3161,7 @@ items:
       material: DISPENSER
       generate: false
       model_id: 2200394
-      model_path: "slimefun/android/interface_items"
+      model_path: "slimefun/androids/androids/interface_items"
   interface_fuel:
     display_name: slimefun
     permission: slimefun
@@ -3169,7 +3169,7 @@ items:
       material: DISPENSER
       generate: false
       model_id: 2200395
-      model_path: "slimefun/android/interface_fuel"
+      model_path: "slimefun/androids/androids/interface_fuel"
   normal1:
     display_name: slimefun
     permission: slimefun
@@ -3177,7 +3177,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200396
-      model_path: "slimefun/android/normal"
+      model_path: "slimefun/androids/android/normal"
   miner:
     display_name: slimefun
     permission: slimefun
@@ -3185,7 +3185,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200397
-      model_path: "slimefun/android/miner"
+      model_path: "slimefun/androids/android/miner"
   farmer1:
     display_name: slimefun
     permission: slimefun
@@ -3193,7 +3193,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200398
-      model_path: "slimefun/android/farmer"
+      model_path: "slimefun/androids/android/farmer"
   woodcutter:
     display_name: slimefun
     permission: slimefun
@@ -3201,7 +3201,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200399
-      model_path: "slimefun/android/woodcutter"
+      model_path: "slimefun/androids/android/woodcutter"
   fisherman1:
     display_name: slimefun
     permission: slimefun
@@ -3209,7 +3209,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200400
-      model_path: "slimefun/android/fisherman"
+      model_path: "slimefun/androids/android/fisherman"
   butcher1:
     display_name: slimefun
     permission: slimefun
@@ -3217,7 +3217,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200401
-      model_path: "slimefun/android/butcher"
+      model_path: "slimefun/androids/android/butcher"
   normal2:
     display_name: slimefun
     permission: slimefun
@@ -3225,7 +3225,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200402
-      model_path: "slimefun/android2/normal"
+      model_path: "slimefun/androids/android2/normal"
   fisherman2:
     display_name: slimefun
     permission: slimefun
@@ -3233,7 +3233,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200403
-      model_path: "slimefun/android2/fisherman"
+      model_path: "slimefun/androids/android2/fisherman"
   butcher2:
     display_name: slimefun
     permission: slimefun
@@ -3241,7 +3241,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200404
-      model_path: "slimefun/android2/butcher"
+      model_path: "slimefun/androids/android2/butcher"
   farmer2:
     display_name: slimefun
     permission: slimefun
@@ -3249,7 +3249,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200405
-      model_path: "slimefun/android2/farmer"
+      model_path: "slimefun/androids/android2/farmer"
   normal3:
     display_name: slimefun
     permission: slimefun
@@ -3257,7 +3257,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200406
-      model_path: "slimefun/android3/normal"
+      model_path: "slimefun/androids/android3/normal"
   fisherman3:
     display_name: slimefun
     permission: slimefun
@@ -3265,7 +3265,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200407
-      model_path: "slimefun/android3/fisherman"
+      model_path: "slimefun/androids/android3/fisherman"
   butcher3:
     display_name: slimefun
     permission: slimefun
@@ -3273,7 +3273,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200408
-      model_path: "slimefun/android3/butcher"
+      model_path: "slimefun/androids/android3/butcher"
   rune_blank:
     display_name: slimefun
     permission: slimefun
