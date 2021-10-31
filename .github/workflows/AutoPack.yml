@@ -201,13 +201,15 @@ jobs:
     #   contains(github.event.head_commit.message, '[ci noupload]') == false
 
     steps:
-      - name: 💤 Sleep for 3 seconds
-        run: sleep 3s
-
       - name: 📄 Checking Repostiory
         uses: actions/checkout@v2.0.0
         with:
           fetch-depth: 0
+
+      - name: Checking Repo Again
+        run: |
+          git fetch 
+          git pull
 
       - name: 📥 Package & Optimize Resourcepack
         uses: ComunidadAylas/PackSquash-action@master

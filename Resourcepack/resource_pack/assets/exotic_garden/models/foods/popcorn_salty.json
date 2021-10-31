@@ -1,7 +1,7 @@
 {
-    "parent": "item/handheld",
-	"author": "Caribax",
-    "textures": {
-        "layer0": "exotic_garden:foods/popcorn_salty"
-    }
+  "parent": "item/handheld",
+  "author": "Caribax",
+  "textures": {
+    "layer0": "exotic_garden:foods/popcorn_salty"
+  }
 }

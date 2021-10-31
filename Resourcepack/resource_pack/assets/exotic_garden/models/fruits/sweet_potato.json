@@ -1,7 +1,7 @@
 {
-    "parent": "item/handheld",
-	"author": "Caribax",
-    "textures": {
-        "layer0": "exotic_garden:fruits/sweet_potato"
-    }
+  "parent": "item/handheld",
+  "author": "Caribax",
+  "textures": {
+    "layer0": "exotic_garden:fruits/sweet_potato"
+  }
 }
