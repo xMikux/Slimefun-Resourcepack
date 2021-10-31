@@ -1,1 +1,7 @@
-{"parent":"item/generated","textures":{"layer0":"exotic_garden:foods/hot_dog_bacon_wrapped_cheese_filled"}}
+{
+    "parent": "item/handheld",
+	"author": "Caribax",
+    "textures": {
+        "layer0": "exotic_garden:foods/hot_dog_bacon_wrapped_cheese_filled"
+    }
+}

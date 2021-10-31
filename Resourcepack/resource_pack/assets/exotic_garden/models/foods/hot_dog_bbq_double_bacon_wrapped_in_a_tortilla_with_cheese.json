@@ -1,1 +1,7 @@
-{"parent":"item/generated","textures":{"layer0":"exotic_garden:foods/hot_dog_bbq_double_bacon_wrapped_in_a_tortilla_with_cheese"}}
+{
+    "parent": "item/handheld",
+	"author": "Caribax",
+    "textures": {
+        "layer0": "exotic_garden:foods/hot_dog_bbq_double_bacon_wrapped_in_a_tortilla_with_cheese"
+    }
+}
