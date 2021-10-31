@@ -1,7 +1,7 @@
 {
-    "parent": "item/handheld",
-	"author": "Caribax",
-    "textures": {
-        "layer0": "infinityexpansion:item/materials/infinity_matrix"
-    }
+  "parent": "item/handheld",
+  "author": "Caribax",
+  "textures": {
+    "layer0": "infinityexpansion:item/materials/infinity_matrix"
+  }
 }

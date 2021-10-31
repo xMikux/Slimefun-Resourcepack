@@ -23,8 +23,9 @@ env:
   cli_port: ${{ secrets.CLIPORT }}
   cli_ip: ${{ secrets.CLIIP }}
   # Temporary Fix default.json
-   default_json: |
-      {"providers":[]}
+  default_json: |
+    {"providers":[]}
+
 jobs:
   Upload-Git-IAPack:
     runs-on: ubuntu-latest
