@@ -1,8 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "block/cube_all",
   "author": "Caribax",
   "textures": {
-    "all": "infinityexpansion:item/materials/materials2/double_compressed_cobblestone",
-    "particle": "infinityexpansion:item/materials/materials2/double_compressed_cobblestone"
+    "all": "infinityexpansion:item/materials/materials2/double_compressed_cobblestone"
   }
 }

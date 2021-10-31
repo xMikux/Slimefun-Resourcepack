@@ -1,8 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "block/cube_all",
   "author": "Caribax",
   "textures": {
-    "all": "infinityexpansion:item/materials/materials2/quartz_singularity",
-    "particle": "infinityexpansion:item/materials/materials2/quartz_singularity"
+    "all": "infinityexpansion:item/materials/materials2/quartz_singularity"
   }
 }
