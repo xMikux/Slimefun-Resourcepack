@@ -165,6 +165,12 @@ jobs:
           name: Slimefun-ResourcePack-Original
           path: ./.pack/Slimefun-ResourcePack-Original.zip
 
+      - name: Upload Item Models
+        uses: actions/upload-artifact@v2
+        with:
+          name: item-models.yml
+          path: ./Resourcepack/item-models.yml
+
       - name: 💤 Sleep for 2 seconds
         run: |
           rm ./.pack/Slimefun-ResourcePack-Original.zip
