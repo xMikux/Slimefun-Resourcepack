@@ -2234,38 +2234,38 @@ items:
       generate: false
       model_id: 2200278
       model_path: "slimefun/tools/soulbound_hoe"
-  # soulbound_helmet:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200279
-  #     model_path: "slimefun/none"
-  # soulbound_chestplate:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200280
-  #     model_path: "slimefun/none"
-  # soulbound_leggings:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200281
-  #     model_path: "slimefun/none"
-  # soulbound_boots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200282
-  #     model_path: "slimefun/none"
+  soulbound_helmet:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: DIAMOND_HELMET
+      generate: false
+      model_id: 2200279
+      model_path: "slimefun/magical_armor/soulbound_helmet"
+  soulbound_chestplate:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: DIAMOND_CHESTPLATE
+      generate: false
+      model_id: 2200280
+      model_path: "slimefun/magical_armor/soulbound_chestplate"
+  soulbound_leggings:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: DIAMOND_LEGGINGS
+      generate: false
+      model_id: 2200281
+      model_path: "slimefun/magical_armor/soulbound_leggings"
+  soulbound_boots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: DIAMOND_BOOTS
+      generate: false
+      model_id: 2200282
+      model_path: "slimefun/magical_armor/soulbound_boots"
   juicer:
     display_name: slimefun
     permission: slimefun
@@ -2322,22 +2322,22 @@ items:
       generate: false
       model_id: 2200289
       model_path: "slimefun/food/golden_apple_juice"
-  # broken_spawner:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: SPAWNER
-  #     generate: false
-  #     model_id: 2200290
-  #     model_path: "slimefun/none"
-  # reinforced_spawner:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: SPAWNER
-  #     generate: false
-  #     model_id: 2200291
-  #     model_path: "slimefun/none"
+  broken_spawner:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: SPAWNER
+      generate: false
+      model_id: 2200290
+      model_path: "slimefun/magical_items/broken_spawner"
+  reinforced_spawner:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: SPAWNER
+      generate: false
+      model_id: 2200291
+      model_path: "slimefun/magical_items/reinforced_spawner"
   enhanced_furnace_1:
     display_name: slimefun
     permission: slimefun
@@ -3074,14 +3074,14 @@ items:
   #     generate: false
   #     model_id: 2200383
   #     model_path: "slimefun/none"
-  # multimeter:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200384
-  #     model_path: "slimefun/none"
+  multimeter:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: CLOCK
+      generate: false
+      model_id: 2200384
+      model_path: "slimefun/technical_components/multimeter"
   plastic_sheet:
     display_name: slimefun
     permission: slimefun
