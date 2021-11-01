@@ -8,9 +8,20 @@ Still working on remake.
 
 ## Download
 
-You can download on [Releases](https://github.com/xMikux/Slimefun-Resourcepack/releases).
+You can download on [Releases](https://github.com/xMikux/Slimefun-Resourcepack/releases). (Still under remake)
 
 Or you can download from [Action Artifacts](https://github.com/xMikux/Slimefun-Resourcepack/actions) to test latest change. (Still under remake)
+
+There have two type of Resourcepack
+
+* Original
+* Optifine
+
+Original don't have optifine thing
+
+Optifine contain some custom armor, like elytra or armor.
+
+Require Optifine to see this texture.
 
 ## Content
 
