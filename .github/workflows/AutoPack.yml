@@ -165,11 +165,11 @@ jobs:
       matrix:
        include:
          - name: "Original"
-           server_uuid: ${{ env.SERVERUUID }}
-           server_uuid_full: ${{ env.SERVERUUIDFULL }}
+           server_uuid: SERVERUUID
+           server_uuid_full: SERVERUUIDFULL
          - name: "Optifine"
-           server_uuid: ${{ env.SERVERUUID_02 }}
-           server_uuid_full: ${{ env.SERVERFULLUUID_02 }}
+           server_uuid: SERVERUUID_02
+           server_uuid_full: SERVERFULLUUID_02
 
     steps:
       - name: 📄 Checking Repostiory
