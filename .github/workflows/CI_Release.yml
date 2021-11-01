@@ -21,11 +21,12 @@ jobs:
         run: |
           TAGNAME=${TAG:10}
           sed -i 's/Beta/Release/1' .pack/pack.mcmeta
-          sed -i 's/v[0-9].[0-9]/$TAGNAME/1' .pack/pack.mcmeta
+          sed -i 's/v[0-9].[0-9]/'$TAGNAME'/1' .pack/pack.mcmeta
 
-      - name: Make Original Pack & move item-models
+      - name: Make Original Pack & Move item-models
         run: |
-          zip -r Slimefun-ResourcePack-Original ./.pack/*
+          cd /.pack
+          zip -r Slimefun-ResourcePack-Original assets/* pack.mcmeta pack.png
           mv Resourcepack/item-models.yml .
       
       - name: Make Original Optimized Pack
