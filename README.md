@@ -43,3 +43,11 @@ Welcome to contribute it!
 * [Den4enko](https://github.com/Den4enko/Slimefun-Resourcepack) Other Slimefun Texture
 * [LoneDev](https://www.spigotmc.org/resources/addon-slimefun4-textures-for-itemsadder.83877/) Using on generate this resourcepack
 * [Caribax](https://github.com/Mooy1/InfinityExpansion/releases/tag/v1) From InfinityExpansion Releases
+
+## Disclaimer
+
+> I do not own any textures.
+
+> I just remake, combined the textures belong to their respective creator.
+
+> All texture own by their credits!
