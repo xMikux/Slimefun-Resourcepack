@@ -92,6 +92,9 @@ jobs:
     runs-on: ubuntu-latest
     if: |
       github.event_name == 'schedule'
+    strategy:
+      matrix:
+        name: [Original, Optifine]
 
     steps:
       - name: 📄 Checking Repostiory
@@ -103,6 +106,13 @@ jobs:
         run: |
           git fetch 
           git pull
+
+      - name: Add Optifine Version Pack
+        if: |
+          matrix.name == 'Optifine'
+        run: |
+          cp -r Default/minecraft/optifine assets/minecraft
+        working-directory: ./.pack
 
       - name: 📥 Package & Optimize Resourcepack
         uses: ComunidadAylas/PackSquash-action@master
@@ -118,13 +128,13 @@ jobs:
 
       - name: 📝 Rename Resourcepack
         run: |
-          mv ./pack.zip Slimefun-ResourcePack-Optimized.zip
+          mv ./pack.zip Slimefun-ResourcePack-Optimized-${{ matrix.name }}.zip
 
       - name: Upload Optimized pack
         uses: actions/upload-artifact@v2
         with:
           name: Slimefun-ResourcePack-Optimized
-          path: ./Slimefun-ResourcePack-Optimized.zip
+          path: ./Slimefun-ResourcePack-Optimized-${{ matrix.name }}.zip
 
       - name: Delete Optimized pack
         uses: geekyeggo/delete-artifact@v1
@@ -134,13 +144,13 @@ jobs:
 
       - name: 📥 Zip Original Pack
         run: |
-          zip -r Slimefun-ResourcePack-Original ./.pack/*
+          zip -r Slimefun-ResourcePack-${{ matrix.name }} ./.pack/*
 
       - name: Upload Original pack
         uses: actions/upload-artifact@v2
         with:
-          name: Slimefun-ResourcePack-Original
-          path: Slimefun-ResourcePack-Original.zip
+          name: Slimefun-ResourcePack-${{ matrix.name }}
+          path: Slimefun-ResourcePack-${{ matrix.name }}.zip
 
       - name: Upload Item Models
         uses: actions/upload-artifact@v2
@@ -402,7 +412,7 @@ jobs:
           -o pack.zip
           unzip pack.zip
           ls -alh
-          ls -alh .pack\assets\minecraft
+          ls -alh assets/minecraft
           rm pack.zip
           rm assets/minecraft/font/default.json
         working-directory: ./.pack
