@@ -156,11 +156,11 @@ jobs:
       github.event_name != 'schedule'
     env:
       # Builder-01
-      SERVERUUID: ${{secrets[matrix.SERVERUUID]}}
-      SERVERUUIDFULL: ${{secrets[matrix.SERVERFULLUUID]}}
+      SERVERUUID: ${{secrets[matrix.server_uuid]}}
+      SERVERUUIDFULL: ${{secrets[matrix.server_uuid_full]}}
       # Builder-02
-      SERVERUUID_02: ${{secrets[matrix.SERVERUUID_02]}}
-      SERVERFULLUUID_02: ${{secrets[matrix.SERVERFULLUUID_02]}}
+      SERVERUUID_02: ${{secrets[matrix.server_uuid]}}
+      SERVERFULLUUID_02: ${{secrets[matrix.server_uuid_full]}}
     strategy:
       matrix:
        include:
@@ -285,11 +285,11 @@ jobs:
     env:
       working-directory: ./.pack
       # Builder-01
-      SERVERUUID: ${{secrets[matrix.SERVERUUID]}}
-      SERVERUUIDFULL: ${{secrets[matrix.SERVERFULLUUID]}}
+      SERVERUUID: ${{secrets[matrix.server_uuid]}}
+      SERVERUUIDFULL: ${{secrets[matrix.server_uuid_full]}}
       # Builder-02
-      SERVERUUID_02: ${{secrets[matrix.SERVERUUID_02]}}
-      SERVERFULLUUID_02: ${{secrets[matrix.SERVERFULLUUID_02]}}
+      SERVERUUID_02: ${{secrets[matrix.server_uuid]}}
+      SERVERFULLUUID_02: ${{secrets[matrix.server_uuid_full]}}
     strategy:
       matrix:
        include:
@@ -376,11 +376,11 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # Builder-01
-      SERVERUUID: ${{secrets[matrix.SERVERUUID]}}
-      SERVERUUIDFULL: ${{secrets[matrix.SERVERFULLUUID]}}
+      SERVERUUID: ${{secrets[matrix.server_uuid]}}
+      SERVERUUIDFULL: ${{secrets[matrix.server_uuid_full]}}
       # Builder-02
-      SERVERUUID_02: ${{secrets[matrix.SERVERUUID_02]}}
-      SERVERFULLUUID_02: ${{secrets[matrix.SERVERFULLUUID_02]}}
+      SERVERUUID_02: ${{secrets[matrix.server_uuid]}}
+      SERVERFULLUUID_02: ${{secrets[matrix.server_uuid_full]}}
     strategy:
       matrix:
        include:
