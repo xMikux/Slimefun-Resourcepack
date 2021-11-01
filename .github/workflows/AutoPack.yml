@@ -14,12 +14,6 @@ on:
 
 env:
   panel_domain: ${{ secrets.DOMAIN }}
-  # Builder-01
-  server_uuid: ${{secrets[matrix.SERVERUUID]}}
-  server_uuid_full: ${{secrets[matrix.SERVERFULLUUID]}}
-  # Builder-02
-  server_uuid_02: ${{secrets[matrix.SERVERUUID_02]}}
-  server_uuid_full_02: ${{secrets[matrix.SERVERFULLUUID_02]}}
   # Sftp Info
   sftp_user: ${{ secrets.SFTP_USER }}
   sftp_pass: ${{ secrets.SFTP_PASS }}
@@ -160,6 +154,13 @@ jobs:
     runs-on: ubuntu-latest
     if: |
       github.event_name != 'schedule'
+    env:
+      # Builder-01
+      server_uuid: ${{secrets[matrix.SERVERUUID]}}
+      server_uuid_full: ${{secrets[matrix.SERVERFULLUUID]}}
+      # Builder-02
+      server_uuid_02: ${{secrets[matrix.SERVERUUID_02]}}
+      server_uuid_full_02: ${{secrets[matrix.SERVERFULLUUID_02]}}
     strategy:
       matrix:
        include:
@@ -283,6 +284,12 @@ jobs:
     runs-on: ubuntu-latest
     env:
       working-directory: ./.pack
+      # Builder-01
+      server_uuid: ${{secrets[matrix.SERVERUUID]}}
+      server_uuid_full: ${{secrets[matrix.SERVERFULLUUID]}}
+      # Builder-02
+      server_uuid_02: ${{secrets[matrix.SERVERUUID_02]}}
+      server_uuid_full_02: ${{secrets[matrix.SERVERFULLUUID_02]}}
     strategy:
       matrix:
        include:
@@ -367,6 +374,13 @@ jobs:
     name: "Pack-Resourcepack (${{ matrix.name }})"
     needs: Download-Server-Pack
     runs-on: ubuntu-latest
+    env:
+      # Builder-01
+      server_uuid: ${{secrets[matrix.SERVERUUID]}}
+      server_uuid_full: ${{secrets[matrix.SERVERFULLUUID]}}
+      # Builder-02
+      server_uuid_02: ${{secrets[matrix.SERVERUUID_02]}}
+      server_uuid_full_02: ${{secrets[matrix.SERVERFULLUUID_02]}}
     strategy:
       matrix:
        include:
