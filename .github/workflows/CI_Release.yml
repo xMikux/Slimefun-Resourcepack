@@ -25,9 +25,10 @@ jobs:
 
       - name: Make Original Pack & Move item-models
         run: |
-          cd /.pack
+          cd .pack
           zip -r Slimefun-ResourcePack-Original assets/* pack.mcmeta pack.png
-          mv Resourcepack/item-models.yml .
+          mv Resourcepack/item-models.yml ..
+          mv Slimefun-ResourcePack-Original.zip ..
       
       - name: Make Original Optimized Pack
         uses: ComunidadAylas/PackSquash-action@master
