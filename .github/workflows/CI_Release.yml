@@ -22,13 +22,17 @@ jobs:
           TAGNAME=${TAG:10}
           sed -i 's/Beta/Release/1' .pack/pack.mcmeta
           sed -i 's/v[0-9].[0-9]/'$TAGNAME'/1' .pack/pack.mcmeta
+          cat .pack/pack.mcmeta
 
-      - name: Make Original Pack & Move item-models
+      - name: Make Original Pack
         run: |
           cd .pack
           zip -r Slimefun-ResourcePack-Original assets/* pack.mcmeta pack.png
-          mv Resourcepack/item-models.yml ..
-          mv Slimefun-ResourcePack-Original.zip ..
+
+      - name: Move Original Pack & Item models
+        run: |
+          mv Resourcepack/item-models.yml .
+          mv .pack/Slimefun-ResourcePack-Original.zip .
       
       - name: Make Original Optimized Pack
         uses: ComunidadAylas/PackSquash-action@master
