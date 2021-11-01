@@ -182,7 +182,7 @@ jobs:
 
       - name: 🗜 ZIP IAPack with "Optifine"
         if: |
-          matrix.name == "Optifine"
+          matrix.name == 'Optifine'
         run: |
           rm IAUpdate.tar.bz2
           cp -r Default/minecraft workdir/resource_pack/assets
@@ -335,7 +335,7 @@ jobs:
 
       - name: 🧰 Setup git config
         if: |
-          matrix.name != "Optifine"
+          matrix.name != 'Optifine'
         uses: crazy-max/ghaction-import-gpg@v4
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
@@ -352,7 +352,7 @@ jobs:
       - name: 🎉 Commit and Push Pack
         continue-on-error: true
         if: |
-          matrix.name != "Optifine"
+          matrix.name != 'Optifine'
         run: |
           export CURRENTTIME=$( TZ=":Asia/Taipei" date '+%Y-%m-%d %R %Z' )
           git add assets
@@ -392,7 +392,7 @@ jobs:
 
       - name: Download Optifine Version Pack
         if: |
-          matrix.name == "Optifine"
+          matrix.name == 'Optifine'
         run: |
           rm -r assets
           rm pack.mcmeta
