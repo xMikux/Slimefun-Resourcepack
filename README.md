@@ -1,6 +1,8 @@
 # Slimefun Resourcepack
 
-[![AutoPack](https://github.com/xMikux/Slimefun-Resourcepack/actions/workflows/AutoPack.yml/badge.svg?branch=main)](https://github.com/xMikux/Slimefun-Resourcepack/actions/workflows/AutoPack.yml)
+[![Release](https://img.shields.io/github/v/release/xMikux/Slimefun-Resourcepack?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/releases)
+[![AutoPack](https://img.shields.io/github/workflow/status/xMikux/Slimefun-Resourcepack/AutoPack?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/actions/workflows/AutoPack.yml)
+
 
 A simple remix & remake version Slimefun Resourcepack
 
