@@ -15,11 +15,11 @@ on:
 env:
   panel_domain: ${{ secrets.DOMAIN }}
   # Builder-01
-  server_uuid: ${{ secrets.SERVERUUID }}
-  server_uuid_full: ${{ secrets.SERVERFULLUUID }}
+  server_uuid: SERVERUUID
+  server_uuid_full: SERVERFULLUUID
   # Builder-02
-  server_uuid_02: ${{ secrets.SERVERUUID_02 }}
-  server_uuid_full_02: ${{ secrets.SERVERFULLUUID_02 }}
+  server_uuid_02: SERVERUUID_02
+  server_uuid_full_02: SERVERFULLUUID_02
   # Sftp Info
   sftp_user: ${{ secrets.SFTP_USER }}
   sftp_pass: ${{ secrets.SFTP_PASS }}
