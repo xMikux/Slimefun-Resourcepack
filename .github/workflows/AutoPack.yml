@@ -132,15 +132,9 @@ jobs:
           name: |
             Optimized pack
 
-      - name: 📥 Download Original Pack
+      - name: 📥 Zip Original Pack
         run: |
-          curl -u "${{ env.sftp_user }}.${{ env.server_uuid }}:${{ env.sftp_pass }}" \
-          -k "sftp://${{ env.sftp_host }}:${{ env.sftp_port }}/plugins/ItemsAdder/data/resource_pack/pack.zip" \
-          -o pack.zip
-
-      - name: 🔧 Rename Original File Name
-        run: |
-          mv pack.zip Slimefun-ResourcePack-Original.zip
+          zip -r Slimefun-ResourcePack-Original ./.pack/*
 
       - name: Upload Original pack
         uses: actions/upload-artifact@v2
@@ -188,7 +182,7 @@ jobs:
 
       - name: 🗜 ZIP IAPack with "Optifine"
         if: |
-          ${{ matrix.name }} == "Optifine"
+          matrix.name == "Optifine"
         run: |
           rm IAUpdate.tar.bz2
           cp -r Default/minecraft workdir/resource_pack/assets
@@ -341,7 +335,7 @@ jobs:
 
       - name: 🧰 Setup git config
         if: |
-          ${{ matrix.name }} != "Optifine"
+          matrix.name != "Optifine"
         uses: crazy-max/ghaction-import-gpg@v4
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
@@ -358,7 +352,7 @@ jobs:
       - name: 🎉 Commit and Push Pack
         continue-on-error: true
         if: |
-          ${{ matrix.name }} != "Optifine"
+          matrix.name != "Optifine"
         run: |
           export CURRENTTIME=$( TZ=":Asia/Taipei" date '+%Y-%m-%d %R %Z' )
           git add assets
@@ -398,7 +392,7 @@ jobs:
 
       - name: Download Optifine Version Pack
         if: |
-          ${{ matrix.name }} == "Optifine"
+          matrix.name == "Optifine"
         run: |
           rm -r assets
           rm pack.mcmeta
