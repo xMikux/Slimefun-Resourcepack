@@ -156,20 +156,20 @@ jobs:
       github.event_name != 'schedule'
     env:
       # Builder-01
-      server_uuid: ${{secrets[matrix.SERVERUUID]}}
-      server_uuid_full: ${{secrets[matrix.SERVERFULLUUID]}}
+      SERVERUUID: ${{secrets[matrix.SERVERUUID]}}
+      SERVERUUIDFULL: ${{secrets[matrix.SERVERFULLUUID]}}
       # Builder-02
-      server_uuid_02: ${{secrets[matrix.SERVERUUID_02]}}
-      server_uuid_full_02: ${{secrets[matrix.SERVERFULLUUID_02]}}
+      SERVERUUID_02: ${{secrets[matrix.SERVERUUID_02]}}
+      SERVERFULLUUID_02: ${{secrets[matrix.SERVERFULLUUID_02]}}
     strategy:
       matrix:
        include:
          - name: "Original"
-           server_uuid: ${{ env.server_uuid }}
-           server_uuid_full: ${{ env.server_uuid_full }}
+           server_uuid: ${{ env.SERVERUUID }}
+           server_uuid_full: ${{ env.SERVERUUIDFULL }}
          - name: "Optifine"
-           server_uuid: ${{ env.server_uuid_02 }}
-           server_uuid_full: ${{ env.server_uuid_full_02 }}
+           server_uuid: ${{ env.SERVERUUID_02 }}
+           server_uuid_full: ${{ env.SERVERFULLUUID_02 }}
 
     steps:
       - name: 📄 Checking Repostiory
