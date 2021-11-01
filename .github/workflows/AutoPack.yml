@@ -160,15 +160,18 @@ jobs:
     runs-on: ubuntu-latest
     if: |
       github.event_name != 'schedule'
+    env:
+      sv_uuid: ${{secrets[matrix.server_uuid]}}
+      sv_uuid_full: ${{secrets[matrix.server_uuid_full]}}
     strategy:
       matrix:
        include:
          - name: "Original"
-           server_uuid: ${{ env.server_uuid }}
-           server_uuid_full: ${{ env.server_uuid_full }}
+           server_uuid: SERVERUUID
+           server_uuid_full: SERVERFULLUUID
          - name: "Optifine"
-           server_uuid: ${{ env.server_uuid_02 }}
-           server_uuid_full: ${{ env.server_uuid_full_02 }}
+           server_uuid: SERVERUUID_02
+           server_uuid_full: SERVERFULLUUID_02
 
     steps:
       - name: 📄 Checking Repostiory
@@ -180,7 +183,7 @@ jobs:
           cp -r Resourcepack/items_packs workdir
           cp -r Resourcepack/resource_pack workdir
           cp -r Default/minecraft workdir/resource_pack/assets
-          rm -r workdir/resource_pack/assets/optifine
+          rm -r workdir/resource_pack/assets/minecraft/optifine
           tar --owner=pterodactyl --group=pterodactyl -cjf IAUpdate.tar.bz2 -C ./workdir .
 
       - name: 🗜 ZIP IAPack with "Optifine"
@@ -193,13 +196,13 @@ jobs:
 
       - name: ⚡ Upload IAPack to Server
         run: |
-          curl -u "${{ env.sftp_user }}.${{ matrix.server_uuid }}:${{ env.sftp_pass }}" \
+          curl -u "${{ env.sftp_user }}.${{ env.sv_uuid }}:${{ env.sftp_pass }}" \
           -T IAUpdate.tar.bz2 \
           -k "sftp://${{ env.sftp_host }}:${{ env.sftp_port }}/plugins/ItemsAdder/data/IAUpdate.tar.bz2"
 
       - name: ♻️ Delete Old IA Files
         run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ matrix.server_uuid }}/files/delete" \
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.sv_uuid }}/files/delete" \
           -H 'Accept: application/json' \
           -H 'Content-Type: application/json' \
           -H 'Authorization: Bearer ${{ env.token }}' \
@@ -214,7 +217,7 @@ jobs:
 
       - name: 📤 UnArchive New IA Files
         run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ matrix.server_uuid }}/files/decompress" \
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.sv_uuid }}/files/decompress" \
           -H 'Accept: application/json' \
           -H 'Content-Type: application/json' \
           -H 'Authorization: Bearer ${{ env.token }}' \
@@ -226,7 +229,7 @@ jobs:
 
       - name: ♻️ Cleanup Archive File
         run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ matrix.server_uuid }}/files/delete" \
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.sv_uuid }}/files/delete" \
           -H 'Accept: application/json' \
           -H 'Content-Type: application/json' \
           -H 'Authorization: Bearer ${{ env.token }}' \
@@ -247,14 +250,14 @@ jobs:
           key: ${{ env.cli_key }}
           port: ${{ env.cli_port }}
           script: |
-            sudo chown -R pterodactyl:pterodactyl /var/lib/pterodactyl/volumes/${{ matrix.server_uuid_full }}/plugins/ItemsAdder/data/
+            sudo chown -R pterodactyl:pterodactyl /var/lib/pterodactyl/volumes/${{ env.sv_uuid_full }}/plugins/ItemsAdder/data/
 
       - name: 💤 Sleep for 3 seconds
         run: sleep 3s
 
       - name: ⌘ IAReload Resourcepack
         run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ matrix.server_uuid }}/command" \
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.sv_uuid }}/command" \
           -H 'Accept: application/json' \
           -H 'Content-Type: application/json' \
           -H 'Authorization: Bearer ${{ env.token }}' \
@@ -268,7 +271,7 @@ jobs:
 
       - name: ⌘ IAZip Resourcepack
         run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ matrix.server_uuid }}/command" \
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.sv_uuid }}/command" \
           -H 'Accept: application/json' \
           -H 'Content-Type: application/json' \
           -H 'Authorization: Bearer ${{ env.token }}' \
@@ -283,15 +286,17 @@ jobs:
     runs-on: ubuntu-latest
     env:
       working-directory: ./.pack
+      sv_uuid: ${{secrets[matrix.server_uuid]}}
+      sv_uuid_full: ${{secrets[matrix.server_uuid_full]}}
     strategy:
       matrix:
        include:
          - name: "Original"
-           server_uuid: ${{ env.server_uuid }}
-           server_uuid_full: ${{ env.server_uuid_full }}
+           server_uuid: SERVERUUID
+           server_uuid_full: SERVERFULLUUID
          - name: "Optifine"
-           server_uuid: ${{ env.server_uuid_02 }}
-           server_uuid_full: ${{ env.server_uuid_full_02 }}
+           server_uuid: SERVERUUID_02
+           server_uuid_full: SERVERFULLUUID_02
 
     steps:
       - name: 📄 Checking Repostiory
@@ -302,7 +307,7 @@ jobs:
 
       - name: 📥 Download ZIP Pack
         run: |
-          curl -u "${{ env.sftp_user }}.${{ matrix.server_uuid }}:${{ env.sftp_pass }}" \
+          curl -u "${{ env.sftp_user }}.${{ env.sv_uuid }}:${{ env.sftp_pass }}" \
           -k "sftp://${{ env.sftp_host }}:${{ env.sftp_port }}/plugins/ItemsAdder/data/resource_pack/pack.zip" \
           -o pack.zip
         working-directory: ${{ env.working-directory }}
@@ -336,7 +341,7 @@ jobs:
 
       - name: 🧰 Setup git config
         if: |
-          ${{ $matrix.name }} != "Optifine"
+          ${{ matrix.name }} != "Optifine"
         uses: crazy-max/ghaction-import-gpg@v4
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
@@ -353,7 +358,7 @@ jobs:
       - name: 🎉 Commit and Push Pack
         continue-on-error: true
         if: |
-          ${{ $matrix.name }} != "Optifine"
+          ${{ matrix.name }} != "Optifine"
         run: |
           export CURRENTTIME=$( TZ=":Asia/Taipei" date '+%Y-%m-%d %R %Z' )
           git add assets
@@ -367,15 +372,18 @@ jobs:
     name: "Pack-Resourcepack (${{ matrix.name }})"
     needs: Download-Server-Pack
     runs-on: ubuntu-latest
+    env:
+      sv_uuid: ${{secrets[matrix.server_uuid]}}
+      sv_uuid_full: ${{secrets[matrix.server_uuid_full]}}
     strategy:
       matrix:
        include:
          - name: "Original"
-           server_uuid: ${{ env.server_uuid }}
-           server_uuid_full: ${{ env.server_uuid_full }}
+           server_uuid: SERVERUUID
+           server_uuid_full: SERVERFULLUUID
          - name: "Optifine"
-           server_uuid: ${{ env.server_uuid_02 }}
-           server_uuid_full: ${{ env.server_uuid_full_02 }}
+           server_uuid: SERVERUUID_02
+           server_uuid_full: SERVERFULLUUID_02
 
     steps:
       - name: 📄 Checking Repostiory
@@ -395,7 +403,7 @@ jobs:
           rm -r assets
           rm pack.mcmeta
           rm pack.png
-          curl -u "${{ env.sftp_user }}.${{ matrix.server_uuid }}:${{ env.sftp_pass }}" \
+          curl -u "${{ env.sftp_user }}.${{ env.sv_uuid }}:${{ env.sftp_pass }}" \
           -k "sftp://${{ env.sftp_host }}:${{ env.sftp_port }}/plugins/ItemsAdder/data/resource_pack/pack.zip" \
           -o pack.zip
           unzip pack.zip
