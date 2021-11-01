@@ -181,7 +181,7 @@ jobs:
           cp -r Resourcepack/items_packs workdir
           cp -r Resourcepack/resource_pack workdir
           cp -r Default/minecraft workdir/resource_pack/assets
-          rm -r workdir/resource_pack/assets/optifine
+          rm -r workdir/resource_pack/assets/minecraft/optifine
           tar --owner=pterodactyl --group=pterodactyl -cjf IAUpdate.tar.bz2 -C ./workdir .
 
       - name: 🗜 ZIP IAPack with "Optifine"
