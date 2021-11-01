@@ -21,7 +21,7 @@ jobs:
         run: |
           TAGNAME=${TAG:10}
           sed -i 's/Beta/Release/1' .pack/pack.mcmeta
-          sed -i 's/v[0-9].[0-9]/'$TAGNAME'/1' .pack/pack.mcmeta
+          sed -i 's/v[0-9].[0-9].[0-9]/'$TAGNAME'/1' .pack/pack.mcmeta
           cat .pack/pack.mcmeta
 
       - name: Make Original Pack
