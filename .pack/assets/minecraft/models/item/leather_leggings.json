@@ -1,0 +1,1 @@
+{"parent":"item/generated","textures":{"layer0":"item/leather_leggings","layer1":"item/leather_leggings_overlay"},"overrides":[{"predicate":{"custom_model_data":2200075},"model":"slimefun:slimefun/armor/cactus_armor/leggings"},{"predicate":{"custom_model_data":2200076},"model":"minecraft:item/leather_leggings"}]}

@@ -1,0 +1,1 @@
+{"parent":"item/generated","textures":{"layer0":"item/leather_helmet","layer1":"item/leather_helmet_overlay"},"overrides":[{"predicate":{"custom_model_data":2200073},"model":"slimefun:slimefun/armor/cactus_armor/helmet"},{"predicate":{"custom_model_data":2200074},"model":"minecraft:item/leather_helmet"}]}
