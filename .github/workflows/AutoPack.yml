@@ -146,6 +146,20 @@ jobs:
             ]
           }'
 
+      - name: ♻️ Clean IA Cache
+        run: |
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.sv_uuid }}/files/delete" \
+          -H 'Accept: application/json' \
+          -H 'Content-Type: application/json' \
+          -H 'Authorization: Bearer ${{ env.token }}' \
+          -X POST \
+          -d '{
+          "root": "/plugins/ItemsAdder/",
+          "files": [
+            "storage"
+            ]
+          }'
+
       - name: 📤 UnArchive New IA Files
         run: |
           curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.sv_uuid }}/files/decompress" \
@@ -197,8 +211,8 @@ jobs:
           "command": "iareload"
           }'
 
-      - name: 💤 Sleep for 3 seconds
-        run: sleep 3s
+      - name: 💤 Sleep for 8 seconds
+        run: sleep 8s
 
       - name: ⌘ IAZip Resourcepack
         run: |
@@ -383,7 +397,6 @@ jobs:
 
       - name: Make Checksum
         run: |
-          ls -alh
           mv Slimefun-ResourcePack-Original/Slimefun-ResourcePack-Original.zip .
           mv Slimefun-ResourcePack-Optimized-Original/Slimefun-ResourcePack-Optimized-Original.zip .
           mv Slimefun-ResourcePack-Optifine/Slimefun-ResourcePack-Optifine.zip .
