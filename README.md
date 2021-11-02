@@ -10,11 +10,14 @@ Using ItemAdder to generate item model id.
 ## Download
 
 [![Releases Downloads Original](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack-Original.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+
 [![Releases Downloads Optimized](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack-Optimized-Original.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+
+[![Releases Item models](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
 
 You can download on [Releases](https://github.com/xMikux/Slimefun-Resourcepack/releases).
 
-Or you can download from [Action Artifacts](https://github.com/xMikux/Slimefun-Resourcepack/actions) to test latest change.
+Or you can download from [Pre-Release](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest) / [Action Artifacts](https://github.com/xMikux/Slimefun-Resourcepack/actions) specific commit artifacts files.
 
 There have two type of Resourcepack
 
