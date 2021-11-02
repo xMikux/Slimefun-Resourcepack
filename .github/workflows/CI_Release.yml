@@ -61,7 +61,7 @@ jobs:
           SUM=$(sha256sum Slimefun-ResourcePack-Original.zip)
           SUM1=$(sha256sum Slimefun-ResourcePack-Optimized-Original.zip)
           SUM2=$(sha256sum item-models.yml)
-          echo -e "$SUM\n$SUM1\n$SUM2" > checksum.txt
+          echo -e "$SUM\n$SUM1\n$SUM2" > checksums.txt
 
       - name: Create & Upload Releases 
         uses: marvinpinto/action-automatic-releases@latest
@@ -72,4 +72,4 @@ jobs:
             Slimefun-ResourcePack-Original.zip
             Slimefun-ResourcePack-Optimized-Original.zip
             item-models.yml
-            checksum.txt
+            checksums.txt
