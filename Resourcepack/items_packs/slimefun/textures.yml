@@ -537,102 +537,102 @@ items:
   #     generate: false
   #     model_id: 2200064
   #     model_path: "slimefun/none"
-  # damascus_steel_helmet:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200065
-  #     model_path: "slimefun/none"
-  # damascus_steel_chestplate:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200066
-  #     model_path: "slimefun/none"
-  # damascus_steel_leggings:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200067
-  #     model_path: "slimefun/none"
-  # damascus_steel_boots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200068
-  #     model_path: "slimefun/none"
-  # reinforced_alloy_helmet:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200069
-  #     model_path: "slimefun/none"
-  # reinforced_alloy_chestplate:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200070
-  #     model_path: "slimefun/none"
-  # reinforced_alloy_leggings:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200071
-  #     model_path: "slimefun/none"
-  # reinforced_alloy_boots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200072
-  #     model_path: "slimefun/none"
-  # cactus_helmet:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200073
-  #     model_path: "slimefun/none"
-  # cactus_chestplate:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200074
-  #     model_path: "slimefun/none"
-  # cactus_leggings:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200075
-  #     model_path: "slimefun/none"
-  # cactus_boots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200076
-  #     model_path: "slimefun/none"
+  damascus_steel_helmet:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_HELMET
+      generate: false
+      model_id: 2200065
+      model_path: "slimefun/armor/reinforced_armor/helmet"
+  damascus_steel_chestplate:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200066
+      model_path: "slimefun/armor/reinforced_armor/chestplate"
+  damascus_steel_leggings:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_LEGGINGS
+      generate: false
+      model_id: 2200067
+      model_path: "slimefun/armor/reinforced_armor/leggings"
+  damascus_steel_boots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_BOOTS
+      generate: false
+      model_id: 2200068
+      model_path: "slimefun/armor/reinforced_armor/boots"
+  reinforced_alloy_helmet:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_HELMET
+      generate: false
+      model_id: 2200069
+      model_path: "slimefun/armor/reinforced_armor/helmet"
+  reinforced_alloy_chestplate:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200070
+      model_path: "slimefun/armor/reinforced_armor/chestplate"
+  reinforced_alloy_leggings:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_LEGGINGS
+      generate: false
+      model_id: 2200071
+      model_path: "slimefun/armor/reinforced_armor/leggings"
+  reinforced_alloy_boots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_BOOTS
+      generate: false
+      model_id: 2200072
+      model_path: "slimefun/armor/reinforced_armor/boots"
+  cactus_helmet:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_HELMET
+      generate: false
+      model_id: 2200073
+      model_path: "slimefun/armor/cactus_armor/helmet"
+  cactus_chestplate:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200074
+      model_path: "slimefun/armor/cactus_armor/chestplate"
+  cactus_leggings:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_LEGGINGS
+      generate: false
+      model_id: 2200075
+      model_path: "slimefun/armor/cactus_armor/leggings"
+  cactus_boots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_BOOTS
+      generate: false
+      model_id: 2200076
+      model_path: "slimefun/armor/cactus_armor/boots"
   reinforced_alloy:
     display_name: slimefun
     permission: slimefun
@@ -1041,14 +1041,14 @@ items:
   #     generate: false
   #     model_id: 2200127
   #     model_path: "slimefun/none"
-  # hologram_projector:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LEATHER_CHESTPLATE
-  #     generate: false
-  #     model_id: 2200128
-  #     model_path: "slimefun/none"
+  hologram_projector:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: QUARTZ_SLAB
+      generate: false
+      model_id: 2200128
+      model_path: "slimefun/technical_gadgets/hologram_projector"
   chain:
     display_name: slimefun
     permission: slimefun
@@ -1633,38 +1633,38 @@ items:
       generate: false
       model_id: 2200201
       model_path: "slimefun/miscellaneous/butter"
-  # gilded_iron_helmet:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200202
-  #     model_path: "slimefun/none"
-  # gilded_iron_chestplate:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200203
-  #     model_path: "slimefun/none"
-  # gilded_iron_leggings:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200204
-  #     model_path: "slimefun/none"
-  # gilded_iron_boots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200205
-  #     model_path: "slimefun/none"
+  gilded_iron_helmet:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: GOLDEN_HELMET
+      generate: false
+      model_id: 2200202
+      model_path: "slimefun/armor/gilded_iron_armor/helmet"
+  gilded_iron_chestplate:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: GOLDEN_CHESTPLATE
+      generate: false
+      model_id: 2200203
+      model_path: "slimefun/armor/gilded_iron_armor/chestplate"
+  gilded_iron_leggings:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: GOLDEN_LEGGINGS
+      generate: false
+      model_id: 2200204
+      model_path: "slimefun/armor/gilded_iron_armor/leggings"
+  gilded_iron_boots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: GOLDEN_BOOTS
+      generate: false
+      model_id: 2200205
+      model_path: "slimefun/armor/gilded_iron_armor/boots"
   reinforced_cloth:
     display_name: slimefun
     permission: slimefun
