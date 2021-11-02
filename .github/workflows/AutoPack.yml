@@ -359,14 +359,14 @@ jobs:
           name: Slimefun-ResourcePack-Optimized-${{ matrix.name }}
           path: ./Slimefun-ResourcePack-Optimized-${{ matrix.name }}.zip
 
-      - name: Rename Optimized pack
-        continue-on-error: true
-        if: |
-          matrix.name == 'Optifine'
-        uses: geekyeggo/delete-artifact@v1
-        with:
-          name: |
-            Optimized pack
+      # - name: Rename Optimized pack
+      #   continue-on-error: true
+      #   if: |
+      #     matrix.name == 'Optifine'
+      #   uses: geekyeggo/delete-artifact@v1
+      #   with:
+      #     name: |
+      #       Optimized pack
 
   Per-Release:
     needs: Pack-Resourcepack
