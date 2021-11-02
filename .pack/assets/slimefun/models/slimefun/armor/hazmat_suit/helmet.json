@@ -1,7 +1,1 @@
-{
-  "parent": "item/handheld",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "slimefun:slimefun/armor/hazmat_suit/helmet"
-  }
-}
+{"parent":"item/handheld","author":"Caribax","textures":{"layer0":"slimefun:slimefun/armor/hazmat_suit/helmet"}}
