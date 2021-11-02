@@ -36,7 +36,7 @@ jobs:
   Validator:
     runs-on: ubuntu-latest
     if: |
-      contains(github.event.head_commit.message, '[ci skip]') == false &&
+      contains(github.event.head_commit.message, 'chore: Publish') == false &&
       github.repository == 'xMikux/Slimefun-Resourcepack'
 
     steps:
