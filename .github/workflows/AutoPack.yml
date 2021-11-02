@@ -112,8 +112,7 @@ jobs:
         if: |
           matrix.name == 'Optifine'
         run: |
-          cp -r Default/minecraft/optifine assets/minecraft
-        working-directory: ./.pack
+          cp -r Default/minecraft/optifine ./.pack/assets/minecraft
 
       - name: 📥 Package & Optimize Resourcepack
         uses: ComunidadAylas/PackSquash-action@master
