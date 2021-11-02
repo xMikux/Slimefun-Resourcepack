@@ -1569,12 +1569,11 @@ items:
       generate: false
       model_id: 2200193
       model_path: "slimefun/talisman1/whirlwind"
-# This need to check
   whirlwind2:
     display_name: slimefun
     permission: slimefun
     resource:
-      material: PLAYER_HEAD
+      material: EMERALD
       generate: false
       model_id: 2200194
       model_path: "slimefun/talisman2/whirlwind"
@@ -4348,3 +4347,19 @@ items:
   #     generate: false
   #     model_id: 2200542
   #     model_path: "slimefun/cargo/armor_auto_crafter"
+  rune_villagers:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: FIREWORK_STAR
+      generate: false
+      model_id: 2200543
+      model_path: "slimefun/magical_items/rune_villagers"
+  synthetic_shulker:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: SHULKER_SHELL
+      generate: false
+      model_id: 2200544
+      model_path: "slimefun/magical_items/synthetic_shulker"
