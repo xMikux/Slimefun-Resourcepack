@@ -3,6 +3,8 @@
 [![Release](https://img.shields.io/github/v/release/xMikux/Slimefun-Resourcepack?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases)
 [![AutoPack](https://img.shields.io/github/workflow/status/xMikux/Slimefun-Resourcepack/AutoPack?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/actions/workflows/AutoPack.yml)
 
+**Warning**: This Resourcepack still under remake, will have some weird issues on texture look.
+
 A simple remix & remake version Slimefun Resourcepack.
 
 Using ItemAdder to generate item model id.
