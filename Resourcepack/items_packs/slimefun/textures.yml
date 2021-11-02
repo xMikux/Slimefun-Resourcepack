@@ -977,14 +977,14 @@ items:
       generate: false
       model_id: 2200119
       model_path: "slimefun/technical_components/powered_crystal"
-  # duralumin_jetpack:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LEATHER_CHESTPLATE
-  #     generate: false
-  #     model_id: 2200120
-  #     model_path: "slimefun/none"
+  duralumin_jetpack:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200120
+      model_path: "slimefun/technical_gadgets/duralumin_jetpack"
   # solder_jetpack:
   #   display_name: slimefun
   #   permission: slimefun
@@ -4315,14 +4315,14 @@ items:
       generate: false
       model_id: 2200538
       model_path: "slimefun/energy/energy_connector"
-  # crafting_motor:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200539
-  #     model_path: "slimefun/cargo/crafting_motor"
+  crafting_motor:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200539
+      model_path: "slimefun/cargo/crafting_motor"
   # vanilla_auto_crafter:
   #   display_name: slimefun
   #   permission: slimefun
