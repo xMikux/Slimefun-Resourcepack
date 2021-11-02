@@ -88,76 +88,6 @@ jobs:
           jsons: |
             Resourcepack/resource_pack/assets/slimy_tree_taps/models/**/*.json
 
-  Daily-Pack:
-    needs: Validator
-    runs-on: ubuntu-latest
-    if: |
-      github.event_name == 'schedule'
-    strategy:
-      matrix:
-        name: [Original, Optifine]
-
-    steps:
-      - name: 📄 Checking Repostiory
-        uses: actions/checkout@v2.0.0
-        with:
-          fetch-depth: 0
-
-      - name: Checking Repo Again
-        run: |
-          git fetch 
-          git pull
-
-      - name: Add Optifine Version Pack
-        if: |
-          matrix.name == 'Optifine'
-        run: |
-          cp -r Default/minecraft/optifine ./.pack/assets/minecraft
-
-      - name: 📥 Package & Optimize Resourcepack
-        uses: ComunidadAylas/PackSquash-action@master
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          path: ./.pack
-
-      - name: ☁ DownloadArtifact
-        uses: actions/download-artifact@v2
-        with:
-          name: Optimized pack
-          path: ./
-
-      - name: 📝 Rename Resourcepack
-        run: |
-          mv ./pack.zip Slimefun-ResourcePack-Optimized-${{ matrix.name }}.zip
-
-      - name: Upload Optimized pack
-        uses: actions/upload-artifact@v2
-        with:
-          name: Slimefun-ResourcePack-Optimized
-          path: ./Slimefun-ResourcePack-Optimized-${{ matrix.name }}.zip
-
-      - name: Delete Optimized pack
-        uses: geekyeggo/delete-artifact@v1
-        with:
-          name: |
-            Optimized pack
-
-      - name: 📥 Zip Original Pack
-        run: |
-          zip -r Slimefun-ResourcePack-${{ matrix.name }} ./.pack/*
-
-      - name: Upload Original pack
-        uses: actions/upload-artifact@v2
-        with:
-          name: Slimefun-ResourcePack-${{ matrix.name }}
-          path: Slimefun-ResourcePack-${{ matrix.name }}.zip
-
-      - name: Upload Item Models
-        uses: actions/upload-artifact@v2
-        with:
-          name: item-models.yml
-          path: ./Resourcepack/item-models.yml
-
   Upload-Git-IAPack:
     name: "Upload-Git-IAPack (${{ matrix.name }})"
     needs: Validator
@@ -447,3 +377,47 @@ jobs:
         with:
           name: |
             Optimized pack
+
+  Per-Release:
+    needs: Pack-Resourcepack
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📄 Checking Repostiory
+        uses: actions/checkout@v2.0.0
+      
+      - name: ☁ DownloadArtifact
+        uses: actions/download-artifact@v2
+        with:
+          path: ./
+
+      - name: Make Checksum
+        run: |
+          ls -alh
+          mv Slimefun-ResourcePack-Original/Slimefun-ResourcePack-Original.zip .
+          mv Slimefun-ResourcePack-Optimized-Original/Slimefun-ResourcePack-Optimized-Original.zip .
+          mv Slimefun-ResourcePack-Optifine/Slimefun-ResourcePack-Optifine.zip .
+          mv Slimefun-ResourcePack-Optimized-Optifine/Slimefun-ResourcePack-Optimized-Optifine.zip .
+          mv item-models.yml item-model
+          mv item-model/item-models.yml .
+          SUM=$(sha256sum Slimefun-ResourcePack-Original.zip)
+          SUM1=$(sha256sum Slimefun-ResourcePack-Optimized-Original.zip)
+          SUM2=$(sha256sum Slimefun-ResourcePack-Optifine.zip)
+          SUM3=$(sha256sum Slimefun-ResourcePack-Optimized-Optifine.zip)
+          SUM4=$(sha256sum item-models.yml)
+          echo -e "$SUM\n$SUM1\n$SUM2\n$SUM3\n$SUM4" > checksum.txt
+
+      - name: Create & Upload Per Releases 
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: true
+          title: "Beta Pack"
+          files: |
+            Slimefun-ResourcePack-Original.zip
+            Slimefun-ResourcePack-Optimized-Original.zip
+            Slimefun-ResourcePack-Optifine.zip
+            Slimefun-ResourcePack-Optimized-Optifine.zip
+            item-models.yml
+            checksum.txt
