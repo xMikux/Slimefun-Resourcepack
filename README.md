@@ -1,18 +1,17 @@
 # Slimefun Resourcepack
 
-[![Release](https://img.shields.io/github/v/release/xMikux/Slimefun-Resourcepack?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/releases)
-[![AutoPack](https://img.shields.io/github/workflow/status/xMikux/Slimefun-Resourcepack/AutoPack?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/actions/workflows/AutoPack.yml)
+[![Release](https://img.shields.io/github/v/release/xMikux/Slimefun-Resourcepack?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases)
+[![AutoPack](https://img.shields.io/github/workflow/status/xMikux/Slimefun-Resourcepack/AutoPack?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/actions/workflows/AutoPack.yml)
 
+A simple remix & remake version Slimefun Resourcepack.
 
-A simple remix & remake version Slimefun Resourcepack
-
-Still working on remake.
+Using ItemAdder to generate item model id.
 
 ## Download
 
-You can download on [Releases](https://github.com/xMikux/Slimefun-Resourcepack/releases). (Still under remake)
+You can download on [Releases](https://github.com/xMikux/Slimefun-Resourcepack/releases).
 
-Or you can download from [Action Artifacts](https://github.com/xMikux/Slimefun-Resourcepack/actions) to test latest change. (Still under remake)
+Or you can download from [Action Artifacts](https://github.com/xMikux/Slimefun-Resourcepack/actions) to test latest change.
 
 There have two type of Resourcepack
 
@@ -49,7 +48,7 @@ Welcome to contribute it!
 ## Disclaimer
 
 > I do not own any textures.
-
+>
 > I just remake, combined the textures belong to their respective creator.
-
+>
 > All texture own by their credits!
