@@ -544,7 +544,7 @@ items:
       material: IRON_HELMET
       generate: false
       model_id: 2200065
-      model_path: "slimefun/armor/reinforced_armor/helmet"
+      model_path: "slimefun/armor/damascus_armor/helmet"
   damascus_steel_chestplate:
     display_name: slimefun
     permission: slimefun
@@ -552,7 +552,7 @@ items:
       material: IRON_CHESTPLATE
       generate: false
       model_id: 2200066
-      model_path: "slimefun/armor/reinforced_armor/chestplate"
+      model_path: "slimefun/armor/damascus_armor/chestplate"
   damascus_steel_leggings:
     display_name: slimefun
     permission: slimefun
@@ -560,7 +560,7 @@ items:
       material: IRON_LEGGINGS
       generate: false
       model_id: 2200067
-      model_path: "slimefun/armor/reinforced_armor/leggings"
+      model_path: "slimefun/armor/damascus_armor/leggings"
   damascus_steel_boots:
     display_name: slimefun
     permission: slimefun
@@ -568,7 +568,7 @@ items:
       material: IRON_BOOTS
       generate: false
       model_id: 2200068
-      model_path: "slimefun/armor/reinforced_armor/boots"
+      model_path: "slimefun/armor/damascus_armor/boots"
   reinforced_alloy_helmet:
     display_name: slimefun
     permission: slimefun
@@ -1673,38 +1673,38 @@ items:
       generate: false
       model_id: 2200206
       model_path: "slimefun/technical_components/reinforced_cloth"
-  # scuba_helmet:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200207
-  #     model_path: "slimefun/none"
-  # hazmat_chestplate:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200208
-  #     model_path: "slimefun/none"
-  # hazmat_leggings:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200209
-  #     model_path: "slimefun/none"
-  # rubber_boots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200210
-  #     model_path: "slimefun/none"
+  scuba_helmet:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_HELMET
+      generate: false
+      model_id: 2200207
+      model_path: "slimefun/armor/hazmat_suit/helmet"
+  hazmat_chestplate:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200208
+      model_path: "slimefun/armor/hazmat_suit/chestplate"
+  hazmat_leggings:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_LEGGINGS
+      generate: false
+      model_id: 2200209
+      model_path: "slimefun/armor/hazmat_suit/leggings"
+  rubber_boots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_BOOTS
+      generate: false
+      model_id: 2200210
+      model_path: "slimefun/armor/hazmat_suit/boots"
   crushed_ore:
     display_name: slimefun
     permission: slimefun
