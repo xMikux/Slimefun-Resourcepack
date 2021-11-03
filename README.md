@@ -21,6 +21,8 @@ You can download on [Releases](https://github.com/xMikux/Slimefun-Resourcepack/r
 
 Or you can download from [Pre-Release](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest) / [Action Artifacts](https://github.com/xMikux/Slimefun-Resourcepack/actions) specific commit artifacts files.
 
+## Resourcepack Type
+
 There have two type of Resourcepack
 
 * Original
@@ -30,7 +32,11 @@ Original don't have optifine thing
 
 Optifine contain some custom armor, like elytra or armor.
 
-Require Optifine to see this texture.
+Require Optifine to work! (Support English & Traditional Chinese)
+
+### Support List
+
+* InfinityExpansion Armor
 
 ## Content
 
