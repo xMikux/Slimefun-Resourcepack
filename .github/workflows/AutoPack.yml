@@ -309,7 +309,7 @@ jobs:
           git add assets
           git add pack.mcmeta
           git add pack.png
-          git commit -S -m "ci: Auto Texture Pack Update "${GITHUB_SHA::6}"
+          git commit -S -m "ci: Auto Texture Pack Update ${GITHUB_SHA::6}"
           git push origin main
         working-directory: ${{ env.working-directory }}
 
