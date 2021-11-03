@@ -58,8 +58,8 @@ jobs:
 
       - name: Make Optifine Pack
         run: |
+          cp -r Default/minecraft/optifine .pack/assets/minecraft
           cd .pack
-          cp -r ./Default/minecraft/optifine assets/minecraft
           zip -r Slimefun-ResourcePack-Optifine assets/* pack.mcmeta pack.png
 
       - name: Move Optifine Pack
