@@ -1,0 +1,14 @@
+extends: default
+rules:
+  line-length: disable
+  truthy:
+    allowed-values: ['true', 'false']
+    check-keys: false
+  indentation: disable
+  document-start: disable
+  trailing-spaces:
+    ignore: |
+      *.yml
+  # key-duplicates:
+  #   ignore: |
+  #     Resourcepack/items_packs/slimefun/textures.yml
