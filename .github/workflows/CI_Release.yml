@@ -50,12 +50,6 @@ jobs:
         run: |
           mv ./pack.zip Slimefun-ResourcePack-Original-Optimized.zip
 
-      - name: Delete Original Artifact
-        uses: geekyeggo/delete-artifact@v1
-        with:
-          name: |
-            Optimized pack
-
       - name: Make Optifine Pack
         run: |
           cp -r Default/minecraft/optifine .pack/assets/minecraft
@@ -82,7 +76,7 @@ jobs:
         run: |
           mv ./pack.zip Slimefun-ResourcePack-Optifine-Optimized.zip
 
-      - name: Delete Optifine Artifact
+      - name: Delete Artifact
         uses: geekyeggo/delete-artifact@v1
         with:
           name: |
