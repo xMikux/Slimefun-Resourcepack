@@ -1413,7 +1413,7 @@ items:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
-      material: PLAYER_HEAD
+      material: PUMPKIN_SEEDS
       generate: false
       model_id: 2201006
       model_path: "fruits/grass_seeds"
