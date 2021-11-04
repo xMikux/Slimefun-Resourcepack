@@ -375,7 +375,7 @@ jobs:
       - name: Upload Optimized pack
         uses: actions/upload-artifact@v2
         with:
-          name: Slimefun-ResourcePack-Optimized-${{ matrix.name }}
+          name: Slimefun-ResourcePack-${{ matrix.name }}-Optimized
           path: ./Slimefun-ResourcePack-${{ matrix.name }}-Optimized.zip
 
       # - name: Delete Optimized pack

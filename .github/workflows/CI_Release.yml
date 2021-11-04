@@ -38,6 +38,7 @@ jobs:
         uses: ComunidadAylas/PackSquash-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          allow_optifine_mod: true
           path: ./.pack
 
       - name: ☁ DownloadArtifact Original Optimized Pack
@@ -64,6 +65,7 @@ jobs:
         uses: ComunidadAylas/PackSquash-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          allow_optifine_mod: true
           path: ./.pack
 
       - name: ☁ DownloadArtifact Optifine Optimized Pack
