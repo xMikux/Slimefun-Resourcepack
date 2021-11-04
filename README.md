@@ -37,6 +37,7 @@ Require Optifine to work! (Support English & Traditional Chinese)
 ### Support List
 
 * InfinityExpansion Armor
+* Slimefun Armor
 
 ## Content
 
