@@ -2,6 +2,6 @@
   "parent": "item/handheld",
   "author": "Caribax",
   "textures": {
-    "layer0": "exotic_garden:foods/apple_pie"
+    "layer0": "exotic_garden:foods/elderberry_pie"
   }
 }

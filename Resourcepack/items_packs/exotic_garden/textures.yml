@@ -345,14 +345,14 @@ items:
       generate: false
       model_id: 2200872
       model_path: "foods/apple_pear_cake"
-  apple_pie:
+  oak_apple_pie:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200873
-      model_path: "foods/apple_pie"
+      model_path: "foods/oak_apple_pie"
   bacon:
     display_name: exotic_garden
     permission: exotic_garden
@@ -729,14 +729,14 @@ items:
       generate: false
       model_id: 2200920
       model_path: "foods/elderberry_sandwich"
-  elderbery_pie:
+  elderberry_pie:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200921
-      model_path: "foods/elderbery_pie"
+      model_path: "foods/elderberry_pie"
   fish_sandwich:
     display_name: exotic_garden
     permission: exotic_garden
