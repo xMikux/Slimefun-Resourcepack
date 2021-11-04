@@ -9,6 +9,3 @@ rules:
   trailing-spaces:
     ignore: |
       *.yml
-  # key-duplicates:
-  #   ignore: |
-  #     Resourcepack/items_packs/slimefun/textures.yml
