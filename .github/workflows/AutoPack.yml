@@ -98,7 +98,8 @@ jobs:
     runs-on: ubuntu-latest
     if: |
       github.event_name != 'schedule' &&
-      contains(github.event.head_commit.message, '*: [ci skip]') == false
+      contains(github.event.head_commit.message, '*: [ci skip]') == false &&
+      contains(github.event.head_commit.message, '*(*): [ci skip]') == false
     env:
       sv_uuid: ${{secrets[matrix.server_uuid]}}
       sv_uuid_full: ${{secrets[matrix.server_uuid_full]}}
