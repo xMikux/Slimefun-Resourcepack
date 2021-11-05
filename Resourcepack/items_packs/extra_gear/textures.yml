@@ -24,7 +24,7 @@ items:
       material: IRON_HELMET
       generate: false
       model_id: 2200818
-      model_path: "armor/aluminum/aluminum_boots"
+      model_path: "armor/aluminum/aluminum_helmet"
   aluminum_leggings:
     display_name: extra_gear
     permission: extra_gear
@@ -32,7 +32,7 @@ items:
       material: IRON_LEGGINGS
       generate: false
       model_id: 2200819
-      model_path: "armor/aluminum/aluminum_chestplate"
+      model_path: "armor/aluminum/aluminum_leggings"
   cobalt_boots:
     display_name: extra_gear
     permission: extra_gear
@@ -56,7 +56,7 @@ items:
       material: IRON_HELMET
       generate: false
       model_id: 2200822
-      model_path: "armor/cobalt/cobalt_boots"
+      model_path: "armor/cobalt/cobalt_helmet"
   cobalt_leggings:
     display_name: extra_gear
     permission: extra_gear
@@ -64,7 +64,7 @@ items:
       material: IRON_LEGGINGS
       generate: false
       model_id: 2200823
-      model_path: "armor/cobalt/cobalt_chestplate"
+      model_path: "armor/cobalt/cobalt_leggings"
   copper_boots:
     display_name: extra_gear
     permission: extra_gear
@@ -88,7 +88,7 @@ items:
       material: LEATHER_HELMET
       generate: false
       model_id: 2200826
-      model_path: "armor/copper/copper_boots"
+      model_path: "armor/copper/copper_helmet"
   copper_leggings:
     display_name: extra_gear
     permission: extra_gear
@@ -96,7 +96,7 @@ items:
       material: LEATHER_LEGGINGS
       generate: false
       model_id: 2200827
-      model_path: "armor/copper/copper_chestplate"
+      model_path: "armor/copper/copper_leggings"
   lead_boots:
     display_name: extra_gear
     permission: extra_gear
@@ -120,7 +120,7 @@ items:
       material: IRON_HELMET
       generate: false
       model_id: 2200830
-      model_path: "armor/lead/lead_boots"
+      model_path: "armor/lead/lead_helmet"
   lead_leggings:
     display_name: extra_gear
     permission: extra_gear
@@ -128,7 +128,7 @@ items:
       material: IRON_LEGGINGS
       generate: false
       model_id: 2200831
-      model_path: "armor/lead/lead_chestplate"
+      model_path: "armor/lead/lead_leggings"
   magnesium_boots:
     display_name: extra_gear
     permission: extra_gear
@@ -152,7 +152,7 @@ items:
       material: IRON_HELMET
       generate: false
       model_id: 2200834
-      model_path: "armor/magnesium/magnesium_boots"
+      model_path: "armor/magnesium/magnesium_helmet"
   magnesium_leggings:
     display_name: extra_gear
     permission: extra_gear
@@ -160,7 +160,7 @@ items:
       material: IRON_LEGGINGS
       generate: false
       model_id: 2200835
-      model_path: "armor/magnesium/magnesium_chestplate"
+      model_path: "armor/magnesium/magnesium_leggings"
   silver_boots:
     display_name: extra_gear
     permission: extra_gear
@@ -184,7 +184,7 @@ items:
       material: IRON_HELMET
       generate: false
       model_id: 2200838
-      model_path: "armor/silver/silver_boots"
+      model_path: "armor/silver/silver_helmet"
   silver_leggings:
     display_name: extra_gear
     permission: extra_gear
@@ -192,7 +192,7 @@ items:
       material: IRON_LEGGINGS
       generate: false
       model_id: 2200839
-      model_path: "armor/silver/silver_chestplate"
+      model_path: "armor/silver/silver_leggings"
   steel_boots:
     display_name: extra_gear
     permission: extra_gear
@@ -216,7 +216,7 @@ items:
       material: IRON_HELMET
       generate: false
       model_id: 2200842
-      model_path: "armor/steel/steel_boots"
+      model_path: "armor/steel/steel_helmet"
   steel_leggings:
     display_name: extra_gear
     permission: extra_gear
@@ -224,7 +224,7 @@ items:
       material: IRON_LEGGINGS
       generate: false
       model_id: 2200843
-      model_path: "armor/steel/steel_chestplate"
+      model_path: "armor/steel/steel_leggings"
   tin_boots:
     display_name: extra_gear
     permission: extra_gear
@@ -248,7 +248,7 @@ items:
       material: IRON_HELMET
       generate: false
       model_id: 2200846
-      model_path: "armor/tin/tin_boots"
+      model_path: "armor/tin/tin_helmet"
   tin_leggings:
     display_name: extra_gear
     permission: extra_gear
@@ -256,7 +256,7 @@ items:
       material: IRON_LEGGINGS
       generate: false
       model_id: 2200847
-      model_path: "armor/tin/tin_chestplate"
+      model_path: "armor/tin/tin_leggings"
   zinc_boots:
     display_name: extra_gear
     permission: extra_gear
@@ -280,7 +280,7 @@ items:
       material: IRON_HELMET
       generate: false
       model_id: 2200850
-      model_path: "armor/zinc/zinc_boots"
+      model_path: "armor/zinc/zinc_helmet"
   zinc_leggings:
     display_name: extra_gear
     permission: extra_gear
@@ -288,4 +288,4 @@ items:
       material: IRON_LEGGINGS
       generate: false
       model_id: 2200851
-      model_path: "armor/zinc/zinc_chestplate"
+      model_path: "armor/zinc/zinc_leggings"
