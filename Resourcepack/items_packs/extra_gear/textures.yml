@@ -1,0 +1,11 @@
+info:
+  namespace: extra_gear
+items:
+  aluminum_boots:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_BOOTS
+      generate: false
+      model_id: 2200816
+      model_path: "armor/aluminum/aluminum_boots"
