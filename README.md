@@ -47,7 +47,7 @@ Inside the brackets are item models range.
 * LiteXpansion (2200810~2200829)
 * ExoticGarden (2200830~2201200)
 * InfinityExpansion (2200601~2200679)
-* SlimyTreeTaps (2200800~2200810)
+* SlimyTreeTaps (2200800~2200815)
 
 There still have some missing texture.
 
