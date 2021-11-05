@@ -34,10 +34,11 @@ Optifine contain some custom armor, like elytra or armor.
 
 Require Optifine to work! (Support English & Traditional Chinese)
 
-### Support List
+### Optifine Support List
 
 * InfinityExpansion Armor
 * Slimefun Armor
+* ExtraGear Armor
 
 ## Content
 
@@ -48,6 +49,7 @@ Inside the brackets are item models range.
 * ExoticGarden (2200830~2201200)
 * InfinityExpansion (2200601~2200679)
 * SlimyTreeTaps (2200800~2200815)
+* ExtraGear (2200816~2200880)
 
 There still have some missing texture.
 
