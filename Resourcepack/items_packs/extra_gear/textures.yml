@@ -9,3 +9,59 @@ items:
       generate: false
       model_id: 2200816
       model_path: "armor/aluminum/aluminum_boots"
+  aluminum_chestplate:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200817
+      model_path: "armor/aluminum/aluminum_chestplate"
+  aluminum_helmet:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_HELMET
+      generate: false
+      model_id: 2200818
+      model_path: "armor/aluminum/aluminum_boots"
+  aluminum_leggings:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_LEGGINGS
+      generate: false
+      model_id: 2200819
+      model_path: "armor/aluminum/aluminum_chestplate"
+  cobalt_boots:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_BOOTS
+      generate: false
+      model_id: 2200820
+      model_path: "armor/cobalt/cobalt_boots"
+  cobalt_chestplate:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200821
+      model_path: "armor/cobalt/cobalt_chestplate"
+  cobalt_helmet:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_HELMET
+      generate: false
+      model_id: 2200822
+      model_path: "armor/cobalt/cobalt_boots"
+  cobalt_leggings:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_LEGGINGS
+      generate: false
+      model_id: 2200823
+      model_path: "armor/cobalt/cobalt_chestplate"
