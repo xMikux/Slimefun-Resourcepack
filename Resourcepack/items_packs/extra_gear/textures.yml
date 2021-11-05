@@ -289,3 +289,187 @@ items:
       generate: false
       model_id: 2200851
       model_path: "armor/zinc/zinc_leggings"
+  aluminum_brass_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200852
+      model_path: "swords/aluminum_brass_sword"
+  aluminum_bronze_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200853
+      model_path: "swords/aluminum_bronze_sword"
+  aluminum_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200854
+      model_path: "swords/aluminum_sword"
+  billon_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200855
+      model_path: "swords/billon_sword"
+  brass_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200856
+      model_path: "swords/brass_sword"
+  bronze_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200857
+      model_path: "swords/bronze_sword"
+  cobalt_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200858
+      model_path: "swords/cobalt_sword"
+  copper_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200859
+      model_path: "swords/copper_sword"
+  corinthian_bronze_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200860
+      model_path: "swords/corinthian_bronze_sword"
+  damascus_steel_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200861
+      model_path: "swords/damascus_steel_sword"
+  duralumin_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200862
+      model_path: "swords/duralumin_sword"
+  ferrosilicon_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200863
+      model_path: "swords/ferrosilicon_sword"
+  gilded_iron_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: GOLDEN_SWORD
+      generate: false
+      model_id: 2200864
+      model_path: "swords/gilded_iron_sword"
+  hardened_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200865
+      model_path: "swords/hardened_sword"
+  lead_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200866
+      model_path: "swords/lead_sword"
+  magnesium_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200867
+      model_path: "swords/magnesium_sword"
+  nickel_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200868
+      model_path: "swords/nickel_sword"
+  reinforced_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200869
+      model_path: "swords/reinforced_sword"
+  silver_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200870
+      model_path: "swords/silver_sword"
+  solder_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200871
+      model_path: "swords/solder_sword"
+  steel_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200872
+      model_path: "swords/steel_sword"
+  tin_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200873
+      model_path: "swords/tin_sword"
+  zinc_sword:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2200874
+      model_path: "swords/zinc_sword"
