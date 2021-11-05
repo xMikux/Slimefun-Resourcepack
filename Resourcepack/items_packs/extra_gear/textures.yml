@@ -65,3 +65,227 @@ items:
       generate: false
       model_id: 2200823
       model_path: "armor/cobalt/cobalt_chestplate"
+  copper_boots:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: LEATHER_BOOTS
+      generate: false
+      model_id: 2200824
+      model_path: "armor/copper/copper_boots"
+  copper_chestplate:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200825
+      model_path: "armor/copper/copper_chestplate"
+  copper_helmet:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: LEATHER_HELMET
+      generate: false
+      model_id: 2200826
+      model_path: "armor/copper/copper_boots"
+  copper_leggings:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: LEATHER_LEGGINGS
+      generate: false
+      model_id: 2200827
+      model_path: "armor/copper/copper_chestplate"
+  lead_boots:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_BOOTS
+      generate: false
+      model_id: 2200828
+      model_path: "armor/lead/lead_boots"
+  lead_chestplate:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200829
+      model_path: "armor/lead/lead_chestplate"
+  lead_helmet:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_HELMET
+      generate: false
+      model_id: 2200830
+      model_path: "armor/lead/lead_boots"
+  lead_leggings:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_LEGGINGS
+      generate: false
+      model_id: 2200831
+      model_path: "armor/lead/lead_chestplate"
+  magnesium_boots:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_BOOTS
+      generate: false
+      model_id: 2200832
+      model_path: "armor/magnesium/magnesium_boots"
+  magnesium_chestplate:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200833
+      model_path: "armor/magnesium/magnesium_chestplate"
+  magnesium_helmet:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_HELMET
+      generate: false
+      model_id: 2200834
+      model_path: "armor/magnesium/magnesium_boots"
+  magnesium_leggings:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_LEGGINGS
+      generate: false
+      model_id: 2200835
+      model_path: "armor/magnesium/magnesium_chestplate"
+  silver_boots:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_BOOTS
+      generate: false
+      model_id: 2200836
+      model_path: "armor/silver/silver_boots"
+  silver_chestplate:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200837
+      model_path: "armor/silver/silver_chestplate"
+  silver_helmet:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_HELMET
+      generate: false
+      model_id: 2200838
+      model_path: "armor/silver/silver_boots"
+  silver_leggings:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_LEGGINGS
+      generate: false
+      model_id: 2200839
+      model_path: "armor/silver/silver_chestplate"
+  steel_boots:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_BOOTS
+      generate: false
+      model_id: 2200840
+      model_path: "armor/steel/steel_boots"
+  steel_chestplate:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200841
+      model_path: "armor/steel/steel_chestplate"
+  steel_helmet:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_HELMET
+      generate: false
+      model_id: 2200842
+      model_path: "armor/steel/steel_boots"
+  steel_leggings:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_LEGGINGS
+      generate: false
+      model_id: 2200843
+      model_path: "armor/steel/steel_chestplate"
+  tin_boots:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_BOOTS
+      generate: false
+      model_id: 2200844
+      model_path: "armor/tin/tin_boots"
+  tin_chestplate:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200845
+      model_path: "armor/tin/tin_chestplate"
+  tin_helmet:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_HELMET
+      generate: false
+      model_id: 2200846
+      model_path: "armor/tin/tin_boots"
+  tin_leggings:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_LEGGINGS
+      generate: false
+      model_id: 2200847
+      model_path: "armor/tin/tin_chestplate"
+  zinc_boots:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_BOOTS
+      generate: false
+      model_id: 2200848
+      model_path: "armor/zinc/zinc_boots"
+  zinc_chestplate:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200849
+      model_path: "armor/zinc/zinc_chestplate"
+  zinc_helmet:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_HELMET
+      generate: false
+      model_id: 2200850
+      model_path: "armor/zinc/zinc_boots"
+  zinc_leggings:
+    display_name: extra_gear
+    permission: extra_gear
+    resource:
+      material: IRON_LEGGINGS
+      generate: false
+      model_id: 2200851
+      model_path: "armor/zinc/zinc_chestplate"
