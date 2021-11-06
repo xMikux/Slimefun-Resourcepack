@@ -1,7 +1,1 @@
-{
-  "parent": "item/handheld",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "slimefun:slimefun/magical_armor/soulbound_armor/chestplate"
-  }
-}
+{"parent":"item/handheld","author":"Caribax","textures":{"layer0":"slimefun:slimefun/magical_armor/soulbound_armor/chestplate"}}
