@@ -2240,7 +2240,7 @@ items:
       material: DIAMOND_HELMET
       generate: false
       model_id: 2200279
-      model_path: "slimefun/magical_armor/soulbound_helmet"
+      model_path: "slimefun/magical_armor/soulbound_armor/helmet"
   soulbound_chestplate:
     display_name: slimefun
     permission: slimefun
@@ -2248,7 +2248,7 @@ items:
       material: DIAMOND_CHESTPLATE
       generate: false
       model_id: 2200280
-      model_path: "slimefun/magical_armor/soulbound_chestplate"
+      model_path: "slimefun/magical_armor/soulbound_armor/chestplate"
   soulbound_leggings:
     display_name: slimefun
     permission: slimefun
@@ -2256,7 +2256,7 @@ items:
       material: DIAMOND_LEGGINGS
       generate: false
       model_id: 2200281
-      model_path: "slimefun/magical_armor/soulbound_leggings"
+      model_path: "slimefun/magical_armor/soulbound_armor/leggings"
   soulbound_boots:
     display_name: slimefun
     permission: slimefun
@@ -2264,7 +2264,7 @@ items:
       material: DIAMOND_BOOTS
       generate: false
       model_id: 2200282
-      model_path: "slimefun/magical_armor/soulbound_boots"
+      model_path: "slimefun/magical_armor/soulbound_armor/boots"
   juicer:
     display_name: slimefun
     permission: slimefun
