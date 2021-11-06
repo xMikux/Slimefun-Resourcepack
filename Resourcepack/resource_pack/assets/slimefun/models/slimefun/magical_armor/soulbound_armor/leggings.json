@@ -2,6 +2,6 @@
   "parent": "item/handheld",
   "author": "Caribax",
   "textures": {
-    "layer0": "slimefun:slimefun/magical_armor/soulbound_boots"
+    "layer0": "slimefun:slimefun/magical_armor/soulbound_armor/leggings"
   }
 }
