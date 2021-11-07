@@ -369,38 +369,38 @@ items:
       generate: false
       model_id: 2200043
       model_path: "slimefun/food/monster_jerky"
-  # slime_helmet:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200044
-  #     model_path: "slimefun/none"
-  # slime_chestplate:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200045
-  #     model_path: "slimefun/none"
-  # slime_leggings:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200046
-  #     model_path: "slimefun/none"
-  # slime_boots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200047
-  #     model_path: "slimefun/none"
+  slime_helmet:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_HELMET
+      generate: false
+      model_id: 2200044
+      model_path: "slimefun/magical_armor/slime_armor/helmet"
+  slime_chestplate:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200045
+      model_path: "slimefun/magical_armor/slime_armor/chestplate"
+  slime_leggings:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_LEGGINGS
+      generate: false
+      model_id: 2200046
+      model_path: "slimefun/magical_armor/slime_armor/leggings"
+  slime_boots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_BOOTS
+      generate: false
+      model_id: 2200047
+      model_path: "slimefun/magical_armor/slime_armor/boots"
   sword_of_beheading:
     display_name: slimefun
     permission: slimefun
