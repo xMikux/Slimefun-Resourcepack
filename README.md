@@ -32,7 +32,7 @@ Original don't have optifine thing
 
 Optifine contain some custom armor, like elytra or armor.
 
-Require Optifine to work! (Support English & Traditional Chinese)
+Require Optifine & Server Slimefun Item model to work!
 
 ### Optifine Support List
 
