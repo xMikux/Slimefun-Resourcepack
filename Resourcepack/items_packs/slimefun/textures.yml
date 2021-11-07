@@ -1033,14 +1033,14 @@ items:
   #     generate: false
   #     model_id: 2200126
   #     model_path: "slimefun/none"
-  # parachute:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LEATHER_CHESTPLATE
-  #     generate: false
-  #     model_id: 2200127
-  #     model_path: "slimefun/none"
+  parachute:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200127
+      model_path: "slimefun/technical_gadgets/parachute"
   hologram_projector:
     display_name: slimefun
     permission: slimefun
@@ -1281,14 +1281,14 @@ items:
   #     generate: false
   #     model_id: 2200157
   #     model_path: "slimefun/none"
-  # solar_helmet:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200158
-  #     model_path: "slimefun/none"
+  solar_helmet:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_HELMET
+      generate: false
+      model_id: 2200158
+      model_path: "slimefun/technical_gadgets/solar_helmet"
   lava_crystal:
     display_name: slimefun
     permission: slimefun
@@ -1849,14 +1849,14 @@ items:
       generate: false
       model_id: 2200228
       model_path: "slimefun/items/medicine"
-  # night_vision_goggles:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200229
-  #     model_path: "slimefun/none"
+  night_vision_goggles:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_HELMET
+      generate: false
+      model_id: 2200229
+      model_path: "slimefun/technical_gadgets/night_vision_goggles"
   pickaxe_of_containment:
     display_name: slimefun
     permission: slimefun
@@ -2153,14 +2153,14 @@ items:
   #     generate: false
   #     model_id: 2200268
   #     model_path: "slimefun/none"
-  # armored_jetboots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200269
-  #     model_path: "slimefun/none"
+  armored_jetboots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_BOOTS
+      generate: false
+      model_id: 2200269
+      model_path: "slimefun/technical_gadgets/armored_jetboots"
   seismic_axe:
     display_name: slimefun
     permission: slimefun
