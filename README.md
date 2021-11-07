@@ -32,7 +32,7 @@ Original don't have optifine thing
 
 Optifine contain some custom armor, like elytra or armor.
 
-Require Optifine & Server Slimefun Item model to work!
+Require Optifine (Or Fabric [CIT Resewn](https://modrinth.com/mod/cit-resewn)) & Server Slimefun Item model to work!
 
 ### Optifine Support List
 
