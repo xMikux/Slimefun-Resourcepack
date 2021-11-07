@@ -2097,14 +2097,14 @@ items:
       generate: false
       model_id: 2200261
       model_path: "slimefun/magical_gadgets/backpack_soulbound"
-  # duralumin_jetboots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200262
-  #     model_path: "slimefun/none"
+  duralumin_jetboots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200262
+      model_path: "slimefun/technical_gadgets/duralumin_jetboots"
   # solder_jetboots:
   #   display_name: slimefun
   #   permission: slimefun
@@ -2529,38 +2529,38 @@ items:
   #     generate: false
   #     model_id: 2200315
   #     model_path: "slimefun/none"
-  # christmas_milk:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200316
-  #     model_path: "slimefun/none"
-  # christmas_chocolate_milk:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200317
-  #     model_path: "slimefun/none"
-  # christmas_egg_nog:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200318
-  #     model_path: "slimefun/none"
-  # christmas_apple_cider:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200319
-  #     model_path: "slimefun/none"
+  christmas_milk:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200316
+      model_path: "slimefun/seasonal/christmas/christmas_milk"
+  christmas_chocolate_milk:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200317
+      model_path: "slimefun/seasonal/christmas/christmas_chocolate_milk"
+  christmas_egg_nog:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200318
+      model_path: "slimefun/seasonal/christmas/christmas_egg_nog"
+  christmas_apple_cider:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200319
+      model_path: "slimefun/seasonal/christmas/christmas_apple_cider"
   # christmas_cookie:
   #   display_name: slimefun
   #   permission: slimefun
@@ -2585,14 +2585,14 @@ items:
   #     generate: false
   #     model_id: 2200322
   #     model_path: "slimefun/none"
-  # christmas_hot_chocolate:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200323
-  #     model_path: "slimefun/none"
+  christmas_hot_chocolate:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200323
+      model_path: "slimefun/seasonal/christmas/christmas_hot_chocolate"
   # christmas_cake:
   #   display_name: slimefun
   #   permission: slimefun
@@ -2625,14 +2625,14 @@ items:
   #     generate: false
   #     model_id: 2200327
   #     model_path: "slimefun/none"
-  # christmas_present:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200328
-  #     model_path: "slimefun/none"
+  christmas_present:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200328
+      model_path: "slimefun/seasonal/christmas/christmas_present"
   # carrot_pie:
   #   display_name: slimefun
   #   permission: slimefun
@@ -2649,14 +2649,14 @@ items:
   #     generate: false
   #     model_id: 2200330
   #     model_path: "slimefun/none"
-  # easter_egg:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200331
-  #     model_path: "slimefun/none"
+  easter_egg:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200331
+      model_path: "slimefun/seasonal/easter/easter_egg"
   reinforced_plate:
     display_name: slimefun
     permission: slimefun
