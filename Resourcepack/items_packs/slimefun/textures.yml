@@ -313,38 +313,38 @@ items:
       generate: false
       model_id: 2200036
       model_path: "slimefun/magical_gadgets/backpack_ender"
-  # ender_helmet:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200037
-  #     model_path: "slimefun/none"
-  # ender_chestplate:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200038
-  #     model_path: "slimefun/none"
-  # ender_leggings:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200039
-  #     model_path: "slimefun/none"
-  # ender_boots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200040
-  #     model_path: "slimefun/none"
+  ender_helmet:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_HELMET
+      generate: false
+      model_id: 2200037
+      model_path: "slimefun/magical_armor/ender_amor/helmet"
+  ender_chestplate:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200038
+      model_path: "slimefun/magical_armor/ender_amor/chestplate"
+  ender_leggings:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_LEGGINGS
+      generate: false
+      model_id: 2200039
+      model_path: "slimefun/magical_armor/ender_amor/leggings"
+  ender_boots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_BOOTS
+      generate: false
+      model_id: 2200040
+      model_path: "slimefun/magical_armor/ender_amor/boots"
   magic_ender_eye:
     display_name: slimefun
     permission: slimefun
@@ -505,38 +505,38 @@ items:
       generate: false
       model_id: 2200060
       model_path: "slimefun/technical_components/battery"
-  # glowstone_helmet:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200061
-  #     model_path: "slimefun/none"
-  # glowstone_chestplate:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200062
-  #     model_path: "slimefun/none"
-  # glowstone_leggings:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200063
-  #     model_path: "slimefun/none"
-  # glowstone_boots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200064
-  #     model_path: "slimefun/none"
+  glowstone_helmet:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_HELMET
+      generate: false
+      model_id: 2200061
+      model_path: "slimefun/magical_armor/glowstone_armor/helmet"
+  glowstone_chestplate:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200062
+      model_path: "slimefun/magical_armor/glowstone_armor/chestplate"
+  glowstone_leggings:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_LEGGINGS
+      generate: false
+      model_id: 2200063
+      model_path: "slimefun/magical_armor/glowstone_armor/leggings"
+  glowstone_boots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_BOOTS
+      generate: false
+      model_id: 2200064
+      model_path: "slimefun/magical_armor/glowstone_armor/boots"
   damascus_steel_helmet:
     display_name: slimefun
     permission: slimefun
@@ -1881,38 +1881,38 @@ items:
       generate: false
       model_id: 2200232
       model_path: "slimefun/basic_machines/table_saw"
-  # slime_steel_helmet:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200233
-  #     model_path: "slimefun/none"
-  # slime_steel_chestplate:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200234
-  #     model_path: "slimefun/none"
-  # slime_steel_leggings:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200235
-  #     model_path: "slimefun/none"
-  # slime_steel_boots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200236
-  #     model_path: "slimefun/none"
+  slime_steel_helmet:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_HELMET
+      generate: false
+      model_id: 2200233
+      model_path: "slimefun/magical_armor/slime_armor_steel/helmet"
+  slime_steel_chestplate:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200234
+      model_path: "slimefun/magical_armor/slime_armor_steel/chestplate"
+  slime_steel_leggings:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_LEGGINGS
+      generate: false
+      model_id: 2200235
+      model_path: "slimefun/magical_armor/slime_armor_steel/leggings"
+  slime_steel_boots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_BOOTS
+      generate: false
+      model_id: 2200236
+      model_path: "slimefun/magical_armor/slime_armor_steel/boots"
   gold_block_carat_24:
     display_name: slimefun
     permission: slimefun
@@ -1929,14 +1929,14 @@ items:
       generate: false
       model_id: 2200239
       model_path: "slimefun/basic_machines/composter"
-  # farmer_shoes:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200240
-  #     model_path: "slimefun/none"
+  farmer_shoes:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_BOOTS
+      generate: false
+      model_id: 2200240
+      model_path: "slimefun/magical_armor/farmer_armor/boots"
   explosive_pickaxe:
     display_name: slimefun
     permission: slimefun
@@ -1977,14 +1977,14 @@ items:
       generate: false
       model_id: 2200245
       model_path: "slimefun/basic_machines/advanced_industrial_miner"
-  # boots_of_the_stomper:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200246
-  #     model_path: "slimefun/none"
+  boots_of_the_stomper:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_BOOTS
+      generate: false
+      model_id: 2200246
+      model_path: "slimefun/magical_armor/stomper_armor/boots"
   seeker_pickaxe:
     display_name: slimefun
     permission: slimefun
