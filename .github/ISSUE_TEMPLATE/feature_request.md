@@ -10,4 +10,4 @@ assignees: ''
 **Describe about this feature request.**
 A clear introduction to what you want (addons texture, some not implement items textures)
 
-**Please note this resourcepack only remake, so is hard to add new texture (because the author not the artist).**
+**Please note this resourcepack only remake & combined from other resourcepack, so is hard to add new texture (because the author not the artist).**
