@@ -154,19 +154,19 @@ jobs:
             ]
           }'
 
-      - name: ♻️ Clean IA Cache
-        run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.sv_uuid }}/files/delete" \
-          -H 'Accept: application/json' \
-          -H 'Content-Type: application/json' \
-          -H 'Authorization: Bearer ${{ env.token }}' \
-          -X POST \
-          -d '{
-          "root": "/plugins/ItemsAdder/",
-          "files": [
-            "storage"
-            ]
-          }'
+      # - name: ♻️ Clean IA Cache
+      #   run: |
+      #     curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.sv_uuid }}/files/delete" \
+      #     -H 'Accept: application/json' \
+      #     -H 'Content-Type: application/json' \
+      #     -H 'Authorization: Bearer ${{ env.token }}' \
+      #     -X POST \
+      #     -d '{
+      #     "root": "/plugins/ItemsAdder/",
+      #     "files": [
+      #       "storage"
+      #       ]
+      #     }'
 
       - name: 📤 UnArchive New IA Files
         run: |
@@ -220,8 +220,22 @@ jobs:
           "command": "iareload"
           }'
 
-      - name: 💤 Sleep for 8 seconds
-        run: sleep 8s
+      - name: 💤 Sleep for 6 seconds
+        run: sleep 6s
+
+      - name: ♻️ Clean IA Cache
+        run: |
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.sv_uuid }}/command" \
+          -H 'Accept: application/json' \
+          -H 'Content-Type: application/json' \
+          -H 'Authorization: Bearer ${{ env.token }}' \
+          -X POST \
+          -d '{
+          "command": "iacleancache items"
+          }'
+
+      - name: 💤 Sleep for 3 seconds
+        run: sleep 3s
 
       - name: ⌘ IAZip Resourcepack
         run: |
