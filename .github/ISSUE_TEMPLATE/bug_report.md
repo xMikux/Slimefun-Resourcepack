@@ -7,22 +7,34 @@ assignees: ''
 
 ---
 
-**Describe what the problem**
+**Describe what the problem:**
+
 A clear and concise description of what the bug is.
 
-**Where the bug**
-Steps to where the behavior:
+**Reproduction Steps:**
 
-**Expected behavior**
+Steps to reproduce the behavior
+
+**Expected behavior:**
+
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
+**Screenshots:**
+
 If applicable, add screenshots to help explain your problem.
 
-**Resourcepack Version Info:**
- - Version: 
- - Minecraft Version:
- - [ ] Optifine Installed
+**Version Info:**
 
-**Additional Info**
-Add any other context about the problem here.
+- Resourcepack Version:
+- Minecraft Version:
+  - [ ] 1.17
+  - [ ] 1.16
+  - [ ] 1.15
+  - [ ] 1.14
+- Optifine Install
+  - [ ] Installed
+  - [ ] Not Installed
+
+**Additional Info:**
+
+Add other describe about this bug.
