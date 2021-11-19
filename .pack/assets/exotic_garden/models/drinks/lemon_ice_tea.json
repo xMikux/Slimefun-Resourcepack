@@ -1,1 +1,7 @@
-{"parent":"item/handheld","author":"Caribax","textures":{"layer0":"exotic_garden:drinks/lemon_ice_tea"}}
+{
+  "parent": "item/handheld",
+  "author": "Caribax",
+  "textures": {
+    "layer0": "exotic_garden:drinks/lemon_ice_tea"
+  }
+}

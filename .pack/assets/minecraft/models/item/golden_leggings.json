@@ -1,1 +1,20 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/golden_leggings"},"overrides":[{"predicate":{"custom_model_data":2200204},"model":"slimefun:slimefun/armor/gilded_iron_armor/leggings"},{"predicate":{"custom_model_data":2200205},"model":"minecraft:item/golden_leggings"}]}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/golden_leggings"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200204
+      },
+      "model": "slimefun:slimefun/armor/gilded_iron_armor/leggings"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200205
+      },
+      "model": "minecraft:item/golden_leggings"
+    }
+  ]
+}

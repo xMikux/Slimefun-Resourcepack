@@ -1,1 +1,17 @@
-{"parent":"minecraft:block/dropper","overrides":[{"predicate":{"custom_model_data":2200058},"model":"slimefun:slimefun/basic_machines/automatic_ignition_chamber"},{"predicate":{"custom_model_data":2200059},"model":"minecraft:item/dropper"}]}
+{
+  "parent": "minecraft:block/dropper",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200058
+      },
+      "model": "slimefun:slimefun/basic_machines/automatic_ignition_chamber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200059
+      },
+      "model": "minecraft:item/dropper"
+    }
+  ]
+}

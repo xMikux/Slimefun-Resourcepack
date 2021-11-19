@@ -1,1 +1,17 @@
-{"parent":"minecraft:block/white_wool","overrides":[{"predicate":{"custom_model_data":2200425},"model":"slimefun:slimefun/magical_gadgets/rainbow_wool"},{"predicate":{"custom_model_data":2200426},"model":"minecraft:item/white_wool"}]}
+{
+  "parent": "minecraft:block/white_wool",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200425
+      },
+      "model": "slimefun:slimefun/magical_gadgets/rainbow_wool"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200426
+      },
+      "model": "minecraft:item/white_wool"
+    }
+  ]
+}

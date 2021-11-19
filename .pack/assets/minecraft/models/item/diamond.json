@@ -1,1 +1,20 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/diamond"},"overrides":[{"predicate":{"custom_model_data":2200090},"model":"slimefun:slimefun/resources/valuables/synthetic_diamond"},{"predicate":{"custom_model_data":2200091},"model":"minecraft:item/diamond"}]}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/diamond"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200090
+      },
+      "model": "slimefun:slimefun/resources/valuables/synthetic_diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200091
+      },
+      "model": "minecraft:item/diamond"
+    }
+  ]
+}

@@ -1,1 +1,86 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/paper"},"overrides":[{"predicate":{"custom_model_data":2200049},"model":"slimefun:slimefun/magical_items/magical_book_cover"},{"predicate":{"custom_model_data":2200115},"model":"slimefun:slimefun/miscellaneous/steel_plate"},{"predicate":{"custom_model_data":2200222},"model":"slimefun:slimefun/miscellaneous/cloth"},{"predicate":{"custom_model_data":2200223},"model":"slimefun:slimefun/items/rag"},{"predicate":{"custom_model_data":2200224},"model":"slimefun:slimefun/items/bandage"},{"predicate":{"custom_model_data":2200310},"model":"slimefun:slimefun/magical_gadgets/dimensional_scroll"},{"predicate":{"custom_model_data":2200332},"model":"slimefun:slimefun/miscellaneous/reinforced_plate"},{"predicate":{"custom_model_data":2200385},"model":"slimefun:slimefun/technical_components/plastic_sheet"},{"predicate":{"custom_model_data":2200609},"model":"infinityexpansion:materials/machine_plate"},{"predicate":{"custom_model_data":2200801},"model":"slimy_tree_taps:materials/raw_plastic"},{"predicate":{"custom_model_data":2200810},"model":"litexpansion:materials/advanced_alloy"},{"predicate":{"custom_model_data":2200816},"model":"litexpansion:materials/iridium_plate"},{"predicate":{"custom_model_data":2200817},"model":"minecraft:item/paper"}]}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200049
+      },
+      "model": "slimefun:slimefun/magical_items/magical_book_cover"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200115
+      },
+      "model": "slimefun:slimefun/miscellaneous/steel_plate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200222
+      },
+      "model": "slimefun:slimefun/miscellaneous/cloth"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200223
+      },
+      "model": "slimefun:slimefun/items/rag"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200224
+      },
+      "model": "slimefun:slimefun/items/bandage"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200310
+      },
+      "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200332
+      },
+      "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200385
+      },
+      "model": "slimefun:slimefun/technical_components/plastic_sheet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200609
+      },
+      "model": "infinityexpansion:materials/machine_plate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200801
+      },
+      "model": "slimy_tree_taps:materials/raw_plastic"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200810
+      },
+      "model": "litexpansion:materials/advanced_alloy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200816
+      },
+      "model": "litexpansion:materials/iridium_plate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200817
+      },
+      "model": "minecraft:item/paper"
+    }
+  ]
+}

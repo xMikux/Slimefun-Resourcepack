@@ -1,1 +1,17 @@
-{"parent":"minecraft:block/smooth_quartz","overrides":[{"predicate":{"custom_model_data":2200627},"model":"infinityexpansion:materials/materials2/infinity_singularity"},{"predicate":{"custom_model_data":2200628},"model":"minecraft:item/smooth_quartz"}]}
+{
+  "parent": "minecraft:block/smooth_quartz",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200627
+      },
+      "model": "infinityexpansion:materials/materials2/infinity_singularity"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200628
+      },
+      "model": "minecraft:item/smooth_quartz"
+    }
+  ]
+}

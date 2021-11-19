@@ -1,1 +1,308 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:block/oak_sapling"},"overrides":[{"predicate":{"custom_model_data":2200975},"model":"exotic_garden:fruits/apple_oak_sapling"},{"predicate":{"custom_model_data":2200977},"model":"exotic_garden:fruits/black_pepper_plant"},{"predicate":{"custom_model_data":2200979},"model":"exotic_garden:fruits/blackberry_bush"},{"predicate":{"custom_model_data":2200981},"model":"exotic_garden:fruits/blueberry_bush"},{"predicate":{"custom_model_data":2200983},"model":"exotic_garden:fruits/cabbage_plant"},{"predicate":{"custom_model_data":2200985},"model":"exotic_garden:fruits/cherry_sapling"},{"predicate":{"custom_model_data":2200987},"model":"exotic_garden:fruits/cilantro_plant"},{"predicate":{"custom_model_data":2200989},"model":"exotic_garden:fruits/coconut_sapling"},{"predicate":{"custom_model_data":2200991},"model":"exotic_garden:fruits/corn_plant"},{"predicate":{"custom_model_data":2200993},"model":"exotic_garden:fruits/cowberry_bush"},{"predicate":{"custom_model_data":2200995},"model":"exotic_garden:fruits/cranberry_bush"},{"predicate":{"custom_model_data":2200997},"model":"exotic_garden:fruits/curry_leaf_plant"},{"predicate":{"custom_model_data":2200999},"model":"exotic_garden:fruits/dragon_fruit_sappling"},{"predicate":{"custom_model_data":2201001},"model":"exotic_garden:fruits/elderberry_bush"},{"predicate":{"custom_model_data":2201003},"model":"exotic_garden:fruits/garlic_plant"},{"predicate":{"custom_model_data":2201005},"model":"exotic_garden:fruits/grape_bush"},{"predicate":{"custom_model_data":2201008},"model":"exotic_garden:fruits/lemon_sapling"},{"predicate":{"custom_model_data":2201010},"model":"exotic_garden:fruits/lettuce_plant"},{"predicate":{"custom_model_data":2201012},"model":"exotic_garden:fruits/lime_sapling"},{"predicate":{"custom_model_data":2201014},"model":"exotic_garden:fruits/mustard_seed_plant"},{"predicate":{"custom_model_data":2201016},"model":"exotic_garden:fruits/onion_plant"},{"predicate":{"custom_model_data":2201018},"model":"exotic_garden:fruits/orange_sapling"},{"predicate":{"custom_model_data":2201020},"model":"exotic_garden:fruits/peach_sapling"},{"predicate":{"custom_model_data":2201022},"model":"exotic_garden:fruits/pear_sapling"},{"predicate":{"custom_model_data":2201024},"model":"exotic_garden:fruits/pineapple_plant"},{"predicate":{"custom_model_data":2201026},"model":"exotic_garden:fruits/plum_sapling"},{"predicate":{"custom_model_data":2201028},"model":"exotic_garden:fruits/pomegranate_sapling"},{"predicate":{"custom_model_data":2201030},"model":"exotic_garden:fruits/raspberry_bush"},{"predicate":{"custom_model_data":2201032},"model":"exotic_garden:fruits/strawberry_bush"},{"predicate":{"custom_model_data":2201034},"model":"exotic_garden:fruits/sweet_potato_plant"},{"predicate":{"custom_model_data":2201036},"model":"exotic_garden:fruits/tea_leaf_plant"},{"predicate":{"custom_model_data":2201038},"model":"exotic_garden:fruits/tomato_plant"},{"predicate":{"custom_model_data":2201040},"model":"exotic_garden:plants/coal_plant"},{"predicate":{"custom_model_data":2201042},"model":"exotic_garden:plants/diamond_plant"},{"predicate":{"custom_model_data":2201044},"model":"exotic_garden:plants/emerald_plant"},{"predicate":{"custom_model_data":2201046},"model":"exotic_garden:plants/ender_plant"},{"predicate":{"custom_model_data":2201053},"model":"exotic_garden:plants/glowstone_plant"},{"predicate":{"custom_model_data":2201055},"model":"exotic_garden:plants/gold_plant"},{"predicate":{"custom_model_data":2201057},"model":"exotic_garden:plants/iron_plant"},{"predicate":{"custom_model_data":2201059},"model":"exotic_garden:plants/lapis_plant"},{"predicate":{"custom_model_data":2201061},"model":"exotic_garden:plants/obsidian_plant"},{"predicate":{"custom_model_data":2201062},"model":"exotic_garden:plants/plant_aluminum"},{"predicate":{"custom_model_data":2201063},"model":"exotic_garden:plants/plant_copper"},{"predicate":{"custom_model_data":2201064},"model":"exotic_garden:plants/plant_lead"},{"predicate":{"custom_model_data":2201065},"model":"exotic_garden:plants/plant_silver"},{"predicate":{"custom_model_data":2201066},"model":"exotic_garden:plants/plant_tin"},{"predicate":{"custom_model_data":2201068},"model":"exotic_garden:plants/quartz_plant"},{"predicate":{"custom_model_data":2201070},"model":"exotic_garden:plants/redstone_plant"},{"predicate":{"custom_model_data":2201072},"model":"exotic_garden:plants/slime_plant"},{"predicate":{"custom_model_data":2201073},"model":"minecraft:item/oak_sapling"}]}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:block/oak_sapling"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200975
+      },
+      "model": "exotic_garden:fruits/apple_oak_sapling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200977
+      },
+      "model": "exotic_garden:fruits/black_pepper_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200979
+      },
+      "model": "exotic_garden:fruits/blackberry_bush"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200981
+      },
+      "model": "exotic_garden:fruits/blueberry_bush"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200983
+      },
+      "model": "exotic_garden:fruits/cabbage_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200985
+      },
+      "model": "exotic_garden:fruits/cherry_sapling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200987
+      },
+      "model": "exotic_garden:fruits/cilantro_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200989
+      },
+      "model": "exotic_garden:fruits/coconut_sapling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200991
+      },
+      "model": "exotic_garden:fruits/corn_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200993
+      },
+      "model": "exotic_garden:fruits/cowberry_bush"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200995
+      },
+      "model": "exotic_garden:fruits/cranberry_bush"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200997
+      },
+      "model": "exotic_garden:fruits/curry_leaf_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200999
+      },
+      "model": "exotic_garden:fruits/dragon_fruit_sappling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201001
+      },
+      "model": "exotic_garden:fruits/elderberry_bush"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201003
+      },
+      "model": "exotic_garden:fruits/garlic_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201005
+      },
+      "model": "exotic_garden:fruits/grape_bush"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201008
+      },
+      "model": "exotic_garden:fruits/lemon_sapling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201010
+      },
+      "model": "exotic_garden:fruits/lettuce_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201012
+      },
+      "model": "exotic_garden:fruits/lime_sapling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201014
+      },
+      "model": "exotic_garden:fruits/mustard_seed_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201016
+      },
+      "model": "exotic_garden:fruits/onion_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201018
+      },
+      "model": "exotic_garden:fruits/orange_sapling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201020
+      },
+      "model": "exotic_garden:fruits/peach_sapling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201022
+      },
+      "model": "exotic_garden:fruits/pear_sapling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201024
+      },
+      "model": "exotic_garden:fruits/pineapple_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201026
+      },
+      "model": "exotic_garden:fruits/plum_sapling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201028
+      },
+      "model": "exotic_garden:fruits/pomegranate_sapling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201030
+      },
+      "model": "exotic_garden:fruits/raspberry_bush"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201032
+      },
+      "model": "exotic_garden:fruits/strawberry_bush"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201034
+      },
+      "model": "exotic_garden:fruits/sweet_potato_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201036
+      },
+      "model": "exotic_garden:fruits/tea_leaf_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201038
+      },
+      "model": "exotic_garden:fruits/tomato_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201040
+      },
+      "model": "exotic_garden:plants/coal_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201042
+      },
+      "model": "exotic_garden:plants/diamond_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201044
+      },
+      "model": "exotic_garden:plants/emerald_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201046
+      },
+      "model": "exotic_garden:plants/ender_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201053
+      },
+      "model": "exotic_garden:plants/glowstone_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201055
+      },
+      "model": "exotic_garden:plants/gold_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201057
+      },
+      "model": "exotic_garden:plants/iron_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201059
+      },
+      "model": "exotic_garden:plants/lapis_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201061
+      },
+      "model": "exotic_garden:plants/obsidian_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201062
+      },
+      "model": "exotic_garden:plants/plant_aluminum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201063
+      },
+      "model": "exotic_garden:plants/plant_copper"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201064
+      },
+      "model": "exotic_garden:plants/plant_lead"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201065
+      },
+      "model": "exotic_garden:plants/plant_silver"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201066
+      },
+      "model": "exotic_garden:plants/plant_tin"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201068
+      },
+      "model": "exotic_garden:plants/quartz_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201070
+      },
+      "model": "exotic_garden:plants/redstone_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201072
+      },
+      "model": "exotic_garden:plants/slime_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201073
+      },
+      "model": "minecraft:item/oak_sapling"
+    }
+  ]
+}

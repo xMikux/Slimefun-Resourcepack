@@ -1,1 +1,20 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/golden_helmet"},"overrides":[{"predicate":{"custom_model_data":2200202},"model":"slimefun:slimefun/armor/gilded_iron_armor/helmet"},{"predicate":{"custom_model_data":2200203},"model":"minecraft:item/golden_helmet"}]}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/golden_helmet"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200202
+      },
+      "model": "slimefun:slimefun/armor/gilded_iron_armor/helmet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200203
+      },
+      "model": "minecraft:item/golden_helmet"
+    }
+  ]
+}

@@ -1,1 +1,17 @@
-{"parent":"minecraft:block/anvil","overrides":[{"predicate":{"custom_model_data":2200027},"model":"slimefun:slimefun/basic_machines/armor_forge"},{"predicate":{"custom_model_data":2200028},"model":"minecraft:item/anvil"}]}
+{
+  "parent": "minecraft:block/anvil",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200027
+      },
+      "model": "slimefun:slimefun/basic_machines/armor_forge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200028
+      },
+      "model": "minecraft:item/anvil"
+    }
+  ]
+}

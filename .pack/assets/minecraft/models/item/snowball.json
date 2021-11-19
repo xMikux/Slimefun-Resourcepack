@@ -1,1 +1,20 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/snowball"},"overrides":[{"predicate":{"custom_model_data":2200199},"model":"slimefun:slimefun/miscellaneous/heavy_cream"},{"predicate":{"custom_model_data":2200200},"model":"minecraft:item/snowball"}]}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/snowball"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200199
+      },
+      "model": "slimefun:slimefun/miscellaneous/heavy_cream"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200200
+      },
+      "model": "minecraft:item/snowball"
+    }
+  ]
+}

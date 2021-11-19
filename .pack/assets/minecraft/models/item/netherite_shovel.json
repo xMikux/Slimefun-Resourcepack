@@ -1,1 +1,20 @@
-{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/netherite_shovel"},"overrides":[{"predicate":{"custom_model_data":2200651},"model":"infinityexpansion:tools/mountain_eater"},{"predicate":{"custom_model_data":2200652},"model":"minecraft:item/netherite_shovel"}]}
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_shovel"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200651
+      },
+      "model": "infinityexpansion:tools/mountain_eater"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200652
+      },
+      "model": "minecraft:item/netherite_shovel"
+    }
+  ]
+}

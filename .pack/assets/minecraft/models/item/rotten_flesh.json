@@ -1,1 +1,20 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/rotten_flesh"},"overrides":[{"predicate":{"custom_model_data":2200043},"model":"slimefun:slimefun/food/monster_jerky"},{"predicate":{"custom_model_data":2200044},"model":"minecraft:item/rotten_flesh"}]}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/rotten_flesh"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200043
+      },
+      "model": "slimefun:slimefun/food/monster_jerky"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200044
+      },
+      "model": "minecraft:item/rotten_flesh"
+    }
+  ]
+}

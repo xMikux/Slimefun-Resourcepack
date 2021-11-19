@@ -1,1 +1,26 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/nether_wart"},"overrides":[{"predicate":{"custom_model_data":2200162},"model":"slimefun:slimefun/magical_gadgets/magical_zombie_pills"},{"predicate":{"custom_model_data":2200227},"model":"slimefun:slimefun/items/vitamins"},{"predicate":{"custom_model_data":2200228},"model":"minecraft:item/nether_wart"}]}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/nether_wart"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200162
+      },
+      "model": "slimefun:slimefun/magical_gadgets/magical_zombie_pills"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200227
+      },
+      "model": "slimefun:slimefun/items/vitamins"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200228
+      },
+      "model": "minecraft:item/nether_wart"
+    }
+  ]
+}

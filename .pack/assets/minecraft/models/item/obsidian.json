@@ -1,1 +1,23 @@
-{"parent":"minecraft:block/obsidian","overrides":[{"predicate":{"custom_model_data":2200336},"model":"slimefun:slimefun/technical_components/wither_proof_obsidian"},{"predicate":{"custom_model_data":2200526},"model":"slimefun:slimefun/energy/wither_assembler"},{"predicate":{"custom_model_data":2200527},"model":"minecraft:item/obsidian"}]}
+{
+  "parent": "minecraft:block/obsidian",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200336
+      },
+      "model": "slimefun:slimefun/technical_components/wither_proof_obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200526
+      },
+      "model": "slimefun:slimefun/energy/wither_assembler"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200527
+      },
+      "model": "minecraft:item/obsidian"
+    }
+  ]
+}

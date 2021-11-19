@@ -1,1 +1,26 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/purple_dye"},"overrides":[{"predicate":{"custom_model_data":2200534},"model":"slimefun:slimefun/magical_items/strange_nether_goo"},{"predicate":{"custom_model_data":2200825},"model":"litexpansion:materials/uu_matter"},{"predicate":{"custom_model_data":2200826},"model":"minecraft:item/purple_dye"}]}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/purple_dye"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200534
+      },
+      "model": "slimefun:slimefun/magical_items/strange_nether_goo"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200825
+      },
+      "model": "litexpansion:materials/uu_matter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200826
+      },
+      "model": "minecraft:item/purple_dye"
+    }
+  ]
+}

@@ -1,1 +1,20 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/netherite_helmet"},"overrides":[{"predicate":{"custom_model_data":2200645},"model":"infinityexpansion:armor/infinity_crown"},{"predicate":{"custom_model_data":2200646},"model":"minecraft:item/netherite_helmet"}]}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/netherite_helmet"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200645
+      },
+      "model": "infinityexpansion:armor/infinity_crown"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200646
+      },
+      "model": "minecraft:item/netherite_helmet"
+    }
+  ]
+}

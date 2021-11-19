@@ -1,1 +1,26 @@
-{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/diamond_sword"},"overrides":[{"predicate":{"custom_model_data":2200272},"model":"slimefun:slimefun/weapons/soulbound_sword"},{"predicate":{"custom_model_data":2200827},"model":"litexpansion:tools/nano_blade"},{"predicate":{"custom_model_data":2200828},"model":"minecraft:item/diamond_sword"}]}
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/diamond_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200272
+      },
+      "model": "slimefun:slimefun/weapons/soulbound_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200827
+      },
+      "model": "litexpansion:tools/nano_blade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200828
+      },
+      "model": "minecraft:item/diamond_sword"
+    }
+  ]
+}

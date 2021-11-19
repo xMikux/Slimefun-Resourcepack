@@ -1,1 +1,7 @@
-{"parent":"item/handheld","author":"Caribax","textures":{"layer0":"exotic_garden:drinks/elderberry_smoothie"}}
+{
+  "parent": "item/handheld",
+  "author": "Caribax",
+  "textures": {
+    "layer0": "exotic_garden:drinks/elderberry_smoothie"
+  }
+}

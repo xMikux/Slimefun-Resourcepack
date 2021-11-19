@@ -1,1 +1,20 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/cooked_cod"},"overrides":[{"predicate":{"custom_model_data":2200024},"model":"slimefun:slimefun/food/fish_jerky"},{"predicate":{"custom_model_data":2200025},"model":"minecraft:item/cooked_cod"}]}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/cooked_cod"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200024
+      },
+      "model": "slimefun:slimefun/food/fish_jerky"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200025
+      },
+      "model": "minecraft:item/cooked_cod"
+    }
+  ]
+}

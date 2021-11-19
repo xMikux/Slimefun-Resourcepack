@@ -1,1 +1,20 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/name_tag"},"overrides":[{"predicate":{"custom_model_data":2200005},"model":"slimefun:slimefun/gui/search"},{"predicate":{"custom_model_data":2200006},"model":"minecraft:item/name_tag"}]}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/name_tag"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200005
+      },
+      "model": "slimefun:slimefun/gui/search"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200006
+      },
+      "model": "minecraft:item/name_tag"
+    }
+  ]
+}

@@ -1,1 +1,32 @@
-{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/golden_sword"},"overrides":[{"predicate":{"custom_model_data":2200001},"model":"slimefun:slimefun/gui/slimefun_guide"},{"predicate":{"custom_model_data":2200237},"model":"slimefun:slimefun/weapons/blade_of_vampires"},{"predicate":{"custom_model_data":2200864},"model":"extra_gear:swords/gilded_iron_sword"},{"predicate":{"custom_model_data":2200865},"model":"minecraft:item/golden_sword"}]}
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/golden_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200001
+      },
+      "model": "slimefun:slimefun/gui/slimefun_guide"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200237
+      },
+      "model": "slimefun:slimefun/weapons/blade_of_vampires"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200864
+      },
+      "model": "extra_gear:swords/gilded_iron_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200865
+      },
+      "model": "minecraft:item/golden_sword"
+    }
+  ]
+}

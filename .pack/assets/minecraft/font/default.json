@@ -1,1 +1,274 @@
-{"providers":[{"file":"font/base/black.png","chars":["\uF822"],"height":1,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF823"],"height":2,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF824"],"height":3,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF825"],"height":4,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF826"],"height":5,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF827"],"height":6,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF828"],"height":7,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF829"],"height":15,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF82A"],"height":31,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF82B"],"height":63,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF82C"],"height":127,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF82D"],"height":256,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF82E"],"height":512,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF82F"],"height":1024,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF82F"],"height":1023,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF801"],"height":-3,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF802"],"height":-4,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF803"],"height":-5,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF804"],"height":-6,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF805"],"height":-7,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF806"],"height":-8,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF807"],"height":-9,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF808"],"height":-10,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF809"],"height":-18,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF80A"],"height":-34,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF80B"],"height":-66,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF80C"],"height":-130,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF80D"],"height":-259,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF80E"],"height":-515,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF80F"],"height":-1027,"ascent":-5000,"type":"bitmap"}]}
+{
+  "providers": [
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF822"
+      ],
+      "height": 1,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF823"
+      ],
+      "height": 2,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF824"
+      ],
+      "height": 3,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF825"
+      ],
+      "height": 4,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF826"
+      ],
+      "height": 5,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF827"
+      ],
+      "height": 6,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF828"
+      ],
+      "height": 7,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF829"
+      ],
+      "height": 15,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF82A"
+      ],
+      "height": 31,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF82B"
+      ],
+      "height": 63,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF82C"
+      ],
+      "height": 127,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF82D"
+      ],
+      "height": 256,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF82E"
+      ],
+      "height": 512,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF82F"
+      ],
+      "height": 1024,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF82F"
+      ],
+      "height": 1023,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF801"
+      ],
+      "height": -3,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF802"
+      ],
+      "height": -4,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF803"
+      ],
+      "height": -5,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF804"
+      ],
+      "height": -6,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF805"
+      ],
+      "height": -7,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF806"
+      ],
+      "height": -8,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF807"
+      ],
+      "height": -9,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF808"
+      ],
+      "height": -10,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF809"
+      ],
+      "height": -18,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF80A"
+      ],
+      "height": -34,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF80B"
+      ],
+      "height": -66,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF80C"
+      ],
+      "height": -130,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF80D"
+      ],
+      "height": -259,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF80E"
+      ],
+      "height": -515,
+      "ascent": -5000,
+      "type": "bitmap"
+    },
+    {
+      "file": "font/base/black.png",
+      "chars": [
+        "\uF80F"
+      ],
+      "height": -1027,
+      "ascent": -5000,
+      "type": "bitmap"
+    }
+  ]
+}

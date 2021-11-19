@@ -1,1 +1,59 @@
-{"parent":"minecraft:block/iron_block","overrides":[{"predicate":{"custom_model_data":2200462},"model":"slimefun:slimefun/gps/teleporter_matrix"},{"predicate":{"custom_model_data":2200620},"model":"infinityexpansion:materials/materials2/aluminum_singularity"},{"predicate":{"custom_model_data":2200628},"model":"infinityexpansion:materials/materials2/iron_singularity"},{"predicate":{"custom_model_data":2200630},"model":"infinityexpansion:materials/materials2/lead_singularity"},{"predicate":{"custom_model_data":2200631},"model":"infinityexpansion:materials/materials2/machine_core"},{"predicate":{"custom_model_data":2200638},"model":"infinityexpansion:materials/materials2/silver_singularity"},{"predicate":{"custom_model_data":2200640},"model":"infinityexpansion:materials/materials2/tin_singularity"},{"predicate":{"custom_model_data":2200642},"model":"infinityexpansion:materials/materials2/zinc_singularity"},{"predicate":{"custom_model_data":2200643},"model":"minecraft:item/iron_block"}]}
+{
+  "parent": "minecraft:block/iron_block",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200462
+      },
+      "model": "slimefun:slimefun/gps/teleporter_matrix"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200620
+      },
+      "model": "infinityexpansion:materials/materials2/aluminum_singularity"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200628
+      },
+      "model": "infinityexpansion:materials/materials2/iron_singularity"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200630
+      },
+      "model": "infinityexpansion:materials/materials2/lead_singularity"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200631
+      },
+      "model": "infinityexpansion:materials/materials2/machine_core"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200638
+      },
+      "model": "infinityexpansion:materials/materials2/silver_singularity"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200640
+      },
+      "model": "infinityexpansion:materials/materials2/tin_singularity"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200642
+      },
+      "model": "infinityexpansion:materials/materials2/zinc_singularity"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200643
+      },
+      "model": "minecraft:item/iron_block"
+    }
+  ]
+}

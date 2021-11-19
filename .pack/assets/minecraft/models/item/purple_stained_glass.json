@@ -1,1 +1,23 @@
-{"parent":"minecraft:block/purple_stained_glass","overrides":[{"predicate":{"custom_model_data":2200449},"model":"slimefun:slimefun/technical_components/wither_proof_glass"},{"predicate":{"custom_model_data":2200461},"model":"slimefun:slimefun/gps/teleporter_pylon"},{"predicate":{"custom_model_data":2200462},"model":"minecraft:item/purple_stained_glass"}]}
+{
+  "parent": "minecraft:block/purple_stained_glass",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200449
+      },
+      "model": "slimefun:slimefun/technical_components/wither_proof_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200461
+      },
+      "model": "slimefun:slimefun/gps/teleporter_pylon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200462
+      },
+      "model": "minecraft:item/purple_stained_glass"
+    }
+  ]
+}

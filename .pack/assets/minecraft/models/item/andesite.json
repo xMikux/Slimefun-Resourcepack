@@ -1,1 +1,23 @@
-{"parent":"minecraft:block/andesite","overrides":[{"predicate":{"custom_model_data":2200624},"model":"infinityexpansion:materials/materials2/double_compressed_cobblestone"},{"predicate":{"custom_model_data":2200639},"model":"infinityexpansion:materials/materials2/single_compressed_cobblestone"},{"predicate":{"custom_model_data":2200640},"model":"minecraft:item/andesite"}]}
+{
+  "parent": "minecraft:block/andesite",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200624
+      },
+      "model": "infinityexpansion:materials/materials2/double_compressed_cobblestone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200639
+      },
+      "model": "infinityexpansion:materials/materials2/single_compressed_cobblestone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200640
+      },
+      "model": "minecraft:item/andesite"
+    }
+  ]
+}

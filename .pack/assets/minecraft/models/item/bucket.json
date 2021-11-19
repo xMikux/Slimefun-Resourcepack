@@ -1,1 +1,20 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/bucket"},"overrides":[{"predicate":{"custom_model_data":2200118},"model":"slimefun:slimefun/technical_components/steel_thruster"},{"predicate":{"custom_model_data":2200119},"model":"minecraft:item/bucket"}]}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/bucket"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200118
+      },
+      "model": "slimefun:slimefun/technical_components/steel_thruster"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200119
+      },
+      "model": "minecraft:item/bucket"
+    }
+  ]
+}

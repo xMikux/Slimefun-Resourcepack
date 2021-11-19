@@ -1,1 +1,17 @@
-{"parent":"minecraft:block/redstone_block","overrides":[{"predicate":{"custom_model_data":2200637},"model":"infinityexpansion:materials/materials2/redstone_singularity"},{"predicate":{"custom_model_data":2200638},"model":"minecraft:item/redstone_block"}]}
+{
+  "parent": "minecraft:block/redstone_block",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200637
+      },
+      "model": "infinityexpansion:materials/materials2/redstone_singularity"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200638
+      },
+      "model": "minecraft:item/redstone_block"
+    }
+  ]
+}

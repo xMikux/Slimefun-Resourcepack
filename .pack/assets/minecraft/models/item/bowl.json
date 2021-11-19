@@ -1,1 +1,32 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/bowl"},"overrides":[{"predicate":{"custom_model_data":2200053},"model":"slimefun:slimefun/tools/gold_pan"},{"predicate":{"custom_model_data":2200054},"model":"slimefun:slimefun/tools/nether_gold_pan"},{"predicate":{"custom_model_data":2200243},"model":"slimefun:slimefun/basic_machines/automated_panning_machine"},{"predicate":{"custom_model_data":2200244},"model":"minecraft:item/bowl"}]}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/bowl"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200053
+      },
+      "model": "slimefun:slimefun/tools/gold_pan"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200054
+      },
+      "model": "slimefun:slimefun/tools/nether_gold_pan"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200243
+      },
+      "model": "slimefun:slimefun/basic_machines/automated_panning_machine"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200244
+      },
+      "model": "minecraft:item/bowl"
+    }
+  ]
+}
