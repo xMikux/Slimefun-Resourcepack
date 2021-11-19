@@ -2,7 +2,7 @@
 name: Bug report
 about: Report about Slimefun-Resourcepack bug.
 title: ''
-labels: bug
+labels: "\U0001F41B Bug"
 assignees: ''
 
 ---
