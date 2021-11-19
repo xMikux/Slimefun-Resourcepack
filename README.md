@@ -3,7 +3,7 @@
 [![Release](https://img.shields.io/github/v/release/xMikux/Slimefun-Resourcepack?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases)
 [![AutoPack](https://img.shields.io/github/workflow/status/xMikux/Slimefun-Resourcepack/AutoPack?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/actions/workflows/AutoPack.yml)
 
-**Warning**: Beta Pack will have new texture, fix, or something still under beta, it could have weird issues on texture look.
+**Warning**: There have use modded texture from a lot of texture, so if anyone can help to contribute to your own, I will very thank to you!
 
 A simple remix & remake version Slimefun Resourcepack.
 
