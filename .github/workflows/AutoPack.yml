@@ -19,8 +19,8 @@ env:
   sftp_port: ${{ secrets.SFTP_PORT }}
   token: ${{ secrets.APIToken }}
   # Pterodactyl Builder
-  server_uuid: SERVERUUID
-  server_uuid_full: SERVERFULLUUID
+  server_uuid: ${{ secrets.SERVERUUID }}
+  server_uuid_full: ${{ secrets.SERVERFULLUUID }}
   # Fix folder permission without restart the server
   cli_user: ${{ secrets.CLIUSERNAME }}
   cli_key: ${{ secrets.CLIKEY }}
