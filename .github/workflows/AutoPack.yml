@@ -187,8 +187,8 @@ jobs:
           "command": "iareload"
           }'
 
-      - name: 💤 Sleep for 6 seconds
-        run: sleep 6s
+      - name: 💤 Sleep for 8 seconds
+        run: sleep 8s
 
       - name: ♻️ Clean IA Cache
         run: |
