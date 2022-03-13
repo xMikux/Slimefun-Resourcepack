@@ -242,14 +242,14 @@ jobs:
           rm pack.mcmeta
           rm pack.png
           unzip pack.zip
-          mv pack.zip Slimefun-ResourcePack.zip
+          mv pack.zip Slimefun-ResourcePack-Original.zip
         working-directory: ${{ env.working-directory }}
 
       - name: Upload Slimefun Resourcepack pack
         uses: actions/upload-artifact@v2
         with:
-          name: Slimefun-ResourcePack
-          path: ./.pack/Slimefun-ResourcePack.zip
+          name: Slimefun-ResourcePack-Original
+          path: ./.pack/Slimefun-ResourcePack-Original.zip
 
       - name: Upload Item Models
         uses: actions/upload-artifact@v2
@@ -259,7 +259,7 @@ jobs:
 
       - name: 💤 Sleep for 2 seconds
         run: |
-          rm ./.pack/Slimefun-ResourcePack.zip
+          rm ./.pack/Slimefun-ResourcePack-Original.zip
           sleep 2s
 
       - name: 🧰 Setup git config
@@ -323,11 +323,12 @@ jobs:
 
       - name: Make Checksum
         run: |
-          mv Slimefun-ResourcePack-Original/Slimefun-ResourcePack.zip .
-          mv Slimefun-ResourcePack-Original-Optimized/Slimefun-ResourcePack-Optimized.zip .
+          mv Slimefun-ResourcePack-Original/Slimefun-ResourcePack-Original.zip .
+          mv Slimefun-ResourcePack-Optimized/pack.zip Slimefun-ResourcePack-Optimized/Slimefun-ResourcePack-Optimized.zip
+          mv Slimefun-ResourcePack-Optimized/Slimefun-ResourcePack-Optimized.zip .
           mv item-models.yml item-model
           mv item-model/item-models.yml .
-          SUM1=$(sha256sum Slimefun-ResourcePack.zip)
+          SUM1=$(sha256sum Slimefun-ResourcePack-Original.zip)
           SUM2=$(sha256sum Slimefun-ResourcePack-Optimized.zip)
           SUM3=$(sha256sum item-models.yml)
           echo -e "$SUM1\n$SUM2\n$SUM3" > checksums.txt
@@ -340,7 +341,7 @@ jobs:
           prerelease: true
           title: "Beta Pack"
           files: |
-            Slimefun-ResourcePack.zip
+            Slimefun-ResourcePack-Original.zip
             Slimefun-ResourcePack-Optimized.zip
             item-models.yml
             checksums.txt
