@@ -18,10 +18,13 @@ env:
   sftp_host: ${{ secrets.SFTP_HOST }}
   sftp_port: ${{ secrets.SFTP_PORT }}
   token: ${{ secrets.APIToken }}
-  # Pterodactyl Builder
+  # Pterodactyl Builder-01
   server_uuid: SERVERUUID
   server_uuid_full: SERVERFULLUUID
-  # Fix folder permission without restart the server
+  # Pterodactyl Builder-02
+  server_uuid_02: SERVERUUID_02
+  server_uuid_full_02: SERVERFULLUUID_02
+  # Temporary Fix folder Permission
   cli_user: ${{ secrets.CLIUSERNAME }}
   cli_key: ${{ secrets.CLIKEY }}
   cli_port: ${{ secrets.CLIPORT }}
@@ -90,39 +93,55 @@ jobs:
             Resourcepack/resource_pack/assets/slimy_tree_taps/models/**/*.json
 
   Upload-Git-IAPack:
-    name: "Upload-Git-IAPack"
+    name: "Upload-Git-IAPack (${{ matrix.name }})"
     needs: Validator
     runs-on: ubuntu-latest
     if: |
+      github.event_name != 'schedule' &&
       contains(github.event.head_commit.message, '[ci skip]') == false
+    env:
+      sv_uuid: ${{secrets[matrix.server_uuid]}}
+      sv_uuid_full: ${{secrets[matrix.server_uuid_full]}}
+    strategy:
+      matrix:
+       include:
+         - name: "Original"
+           server_uuid: SERVERUUID
+           server_uuid_full: SERVERFULLUUID
+         - name: "Optifine"
+           server_uuid: SERVERUUID_02
+           server_uuid_full: SERVERFULLUUID_02
 
     steps:
       - name: 📄 Checking Repostiory
         uses: actions/checkout@v2.0.0
-
-      - name: 🗜 Setup Workdir IAPack
+      
+      - name: 🗜 ZIP IAPack
         run: |
-          echo "Make Workdir..."
           mkdir workdir
-          echo "Copy the setup..."
           cp -r Resourcepack/items_packs workdir
           cp -r Resourcepack/resource_pack workdir
           cp -r Default/minecraft workdir/resource_pack/assets
-      
-      - name: 🗜 Compress IAPack
+          rm -r workdir/resource_pack/assets/minecraft/optifine
+          tar --owner=pterodactyl --group=pterodactyl -cjf IAUpdate.tar.bz2 -C ./workdir .
+
+      - name: 🗜 ZIP IAPack with "Optifine"
+        if: |
+          matrix.name == 'Optifine'
         run: |
-          echo "Compress..."
+          rm IAUpdate.tar.bz2
+          cp -r Default/minecraft workdir/resource_pack/assets
           tar --owner=pterodactyl --group=pterodactyl -cjf IAUpdate.tar.bz2 -C ./workdir .
 
       - name: ⚡ Upload IAPack to Server
         run: |
-          curl -u "${{ env.sftp_user }}.${{ env.server_uuid }}:${{ env.sftp_pass }}" \
+          curl -u "${{ env.sftp_user }}.${{ env.sv_uuid }}:${{ env.sftp_pass }}" \
           -T IAUpdate.tar.bz2 \
           -k "sftp://${{ env.sftp_host }}:${{ env.sftp_port }}/plugins/ItemsAdder/data/IAUpdate.tar.bz2"
 
       - name: ♻️ Delete Old IA Files
         run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.server_uuid }}/files/delete" \
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.sv_uuid }}/files/delete" \
           -H 'Accept: application/json' \
           -H 'Content-Type: application/json' \
           -H 'Authorization: Bearer ${{ env.token }}' \
@@ -135,9 +154,23 @@ jobs:
             ]
           }'
 
+      # - name: ♻️ Clean IA Cache
+      #   run: |
+      #     curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.sv_uuid }}/files/delete" \
+      #     -H 'Accept: application/json' \
+      #     -H 'Content-Type: application/json' \
+      #     -H 'Authorization: Bearer ${{ env.token }}' \
+      #     -X POST \
+      #     -d '{
+      #     "root": "/plugins/ItemsAdder/",
+      #     "files": [
+      #       "storage"
+      #       ]
+      #     }'
+
       - name: 📤 UnArchive New IA Files
         run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.server_uuid }}/files/decompress" \
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.sv_uuid }}/files/decompress" \
           -H 'Accept: application/json' \
           -H 'Content-Type: application/json' \
           -H 'Authorization: Bearer ${{ env.token }}' \
@@ -149,7 +182,7 @@ jobs:
 
       - name: ♻️ Cleanup Archive File
         run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.server_uuid }}/files/delete" \
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.sv_uuid }}/files/delete" \
           -H 'Accept: application/json' \
           -H 'Content-Type: application/json' \
           -H 'Authorization: Bearer ${{ env.token }}' \
@@ -161,7 +194,7 @@ jobs:
             ]
           }'
 
-      # Fix folder Permission
+      # Temporary Fix folder Permission
       # Issues Link: https://github.com/pterodactyl/panel/issues/3689
       - name: 📁 Temporary using remote to fix folder permission
         uses: xMikux/ssh-action@master
@@ -171,14 +204,14 @@ jobs:
           key: ${{ env.cli_key }}
           port: ${{ env.cli_port }}
           script: |
-            sudo chown -R pterodactyl:pterodactyl /var/lib/pterodactyl/volumes/${{ env.server_uuid_full }}/plugins/ItemsAdder/data/
+            sudo chown -R pterodactyl:pterodactyl /var/lib/pterodactyl/volumes/${{ env.sv_uuid_full }}/plugins/ItemsAdder/data/
 
       - name: 💤 Sleep for 3 seconds
         run: sleep 3s
 
       - name: ⌘ IAReload Resourcepack
         run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.server_uuid }}/command" \
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.sv_uuid }}/command" \
           -H 'Accept: application/json' \
           -H 'Content-Type: application/json' \
           -H 'Authorization: Bearer ${{ env.token }}' \
@@ -192,7 +225,7 @@ jobs:
 
       - name: ♻️ Clean IA Cache
         run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.server_uuid }}/command" \
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.sv_uuid }}/command" \
           -H 'Accept: application/json' \
           -H 'Content-Type: application/json' \
           -H 'Authorization: Bearer ${{ env.token }}' \
@@ -206,7 +239,7 @@ jobs:
 
       - name: ⌘ IAZip Resourcepack
         run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.server_uuid }}/command" \
+          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.sv_uuid }}/command" \
           -H 'Accept: application/json' \
           -H 'Content-Type: application/json' \
           -H 'Authorization: Bearer ${{ env.token }}' \
@@ -216,11 +249,22 @@ jobs:
           }'
 
   Download-Server-Pack:
-    name: "Download-Server-Pack"
+    name: "Download-Server-Pack (${{ matrix.name }})"
     needs: Upload-Git-IAPack
     runs-on: ubuntu-latest
     env:
       working-directory: ./.pack
+      sv_uuid: ${{secrets[matrix.server_uuid]}}
+      sv_uuid_full: ${{secrets[matrix.server_uuid_full]}}
+    strategy:
+      matrix:
+       include:
+         - name: "Original"
+           server_uuid: SERVERUUID
+           server_uuid_full: SERVERFULLUUID
+         - name: "Optifine"
+           server_uuid: SERVERUUID_02
+           server_uuid_full: SERVERFULLUUID_02
 
     steps:
       - name: 📄 Checking Repostiory
@@ -231,7 +275,7 @@ jobs:
 
       - name: 📥 Download ZIP Pack
         run: |
-          curl -u "${{ env.sftp_user }}.${{ env.server_uuid }}:${{ env.sftp_pass }}" \
+          curl -u "${{ env.sftp_user }}.${{ env.sv_uuid }}:${{ env.sftp_pass }}" \
           -k "sftp://${{ env.sftp_host }}:${{ env.sftp_port }}/plugins/ItemsAdder/data/resource_pack/pack.zip" \
           -o pack.zip
         working-directory: ${{ env.working-directory }}
@@ -242,14 +286,14 @@ jobs:
           rm pack.mcmeta
           rm pack.png
           unzip pack.zip
-          mv pack.zip Slimefun-ResourcePack.zip
+          mv pack.zip Slimefun-ResourcePack-${{ matrix.name }}.zip
         working-directory: ${{ env.working-directory }}
 
-      - name: Upload Slimefun Resourcepack pack
+      - name: Upload ${{ matrix.name }} pack
         uses: actions/upload-artifact@v2
         with:
-          name: Slimefun-ResourcePack
-          path: ./.pack/Slimefun-ResourcePack.zip
+          name: Slimefun-ResourcePack-${{ matrix.name }}
+          path: ./.pack/Slimefun-ResourcePack-${{ matrix.name }}.zip
 
       - name: Upload Item Models
         uses: actions/upload-artifact@v2
@@ -259,7 +303,7 @@ jobs:
 
       - name: 💤 Sleep for 2 seconds
         run: |
-          rm ./.pack/Slimefun-ResourcePack.zip
+          rm ./.pack/Slimefun-ResourcePack-${{ matrix.name }}.zip
           sleep 2s
 
       - name: 🧰 Setup git config
@@ -285,9 +329,21 @@ jobs:
         working-directory: ${{ env.working-directory }}
 
   Pack-Resourcepack:
-    name: "Pack-Resourcepack"
+    name: "Pack-Resourcepack (${{ matrix.name }})"
     needs: Download-Server-Pack
     runs-on: ubuntu-latest
+    env:
+      sv_uuid: ${{secrets[matrix.server_uuid]}}
+      sv_uuid_full: ${{secrets[matrix.server_uuid_full]}}
+    strategy:
+      matrix:
+       include:
+         - name: "Original"
+           server_uuid: SERVERUUID
+           server_uuid_full: SERVERFULLUUID
+         - name: "Optifine"
+           server_uuid: SERVERUUID_02
+           server_uuid_full: SERVERFULLUUID_02
 
     steps:
       - name: 📄 Checking Repostiory
@@ -300,13 +356,50 @@ jobs:
           git fetch 
           git pull
 
+      - name: Download Optifine Version Pack
+        if: |
+          matrix.name == 'Optifine'
+        run: |
+          rm -r assets
+          rm pack.mcmeta
+          rm pack.png
+          curl -u "${{ env.sftp_user }}.${{ env.sv_uuid }}:${{ env.sftp_pass }}" \
+          -k "sftp://${{ env.sftp_host }}:${{ env.sftp_port }}/plugins/ItemsAdder/data/resource_pack/pack.zip" \
+          -o pack.zip
+          unzip pack.zip
+          rm pack.zip
+        working-directory: ./.pack
+
       - name: 📥 Package & Optimize Resourcepack
         uses: ComunidadAylas/PackSquash-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           allow_optifine_mod: true
-          artifact_name: Slimefun-ResourcePack-Optimized
           path: ./.pack
+
+      - name: ☁ DownloadArtifact
+        uses: actions/download-artifact@v2
+        with:
+          name: Optimized pack
+          path: ./
+
+      - name: 📝 Rename Resourcepack
+        run: |
+          mv ./pack.zip Slimefun-ResourcePack-${{ matrix.name }}-Optimized.zip
+
+      - name: Upload Optimized pack
+        uses: actions/upload-artifact@v2
+        with:
+          name: Slimefun-ResourcePack-${{ matrix.name }}-Optimized
+          path: ./Slimefun-ResourcePack-${{ matrix.name }}-Optimized.zip
+
+      # - name: Delete Optimized pack
+      #   if: |
+      #     matrix.name == 'Optifine'
+      #   uses: geekyeggo/delete-artifact@v1
+      #   with:
+      #     name: |
+      #       Optimized pack
 
   Per-Release:
     needs: Pack-Resourcepack
@@ -323,14 +416,18 @@ jobs:
 
       - name: Make Checksum
         run: |
-          mv Slimefun-ResourcePack-Original/Slimefun-ResourcePack.zip .
-          mv Slimefun-ResourcePack-Original-Optimized/Slimefun-ResourcePack-Optimized.zip .
+          mv Slimefun-ResourcePack-Original/Slimefun-ResourcePack-Original.zip .
+          mv Slimefun-ResourcePack-Original-Optimized/Slimefun-ResourcePack-Original-Optimized.zip .
+          mv Slimefun-ResourcePack-Optifine/Slimefun-ResourcePack-Optifine.zip .
+          mv Slimefun-ResourcePack-Optifine-Optimized/Slimefun-ResourcePack-Optifine-Optimized.zip .
           mv item-models.yml item-model
           mv item-model/item-models.yml .
-          SUM1=$(sha256sum Slimefun-ResourcePack.zip)
-          SUM2=$(sha256sum Slimefun-ResourcePack-Optimized.zip)
-          SUM3=$(sha256sum item-models.yml)
-          echo -e "$SUM1\n$SUM2\n$SUM3" > checksums.txt
+          SUM=$(sha256sum Slimefun-ResourcePack-Original.zip)
+          SUM1=$(sha256sum Slimefun-ResourcePack-Original-Optimized.zip)
+          SUM2=$(sha256sum Slimefun-ResourcePack-Optifine.zip)
+          SUM3=$(sha256sum Slimefun-ResourcePack-Optifine-Optimized.zip)
+          SUM4=$(sha256sum item-models.yml)
+          echo -e "$SUM\n$SUM1\n$SUM2\n$SUM3\n$SUM4" > checksums.txt
 
       - name: Create & Upload Per Releases 
         uses: "marvinpinto/action-automatic-releases@latest"
@@ -340,7 +437,9 @@ jobs:
           prerelease: true
           title: "Beta Pack"
           files: |
-            Slimefun-ResourcePack.zip
-            Slimefun-ResourcePack-Optimized.zip
+            Slimefun-ResourcePack-Original.zip
+            Slimefun-ResourcePack-Original-Optimized.zip
+            Slimefun-ResourcePack-Optifine.zip
+            Slimefun-ResourcePack-Optifine-Optimized.zip
             item-models.yml
             checksums.txt
