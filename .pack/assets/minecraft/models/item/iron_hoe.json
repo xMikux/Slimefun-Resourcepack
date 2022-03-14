@@ -12,7 +12,13 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2200806
+        "custom_model_data": 2200881
+      },
+      "model": "simpleutils:simple_wrench"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200882
       },
       "model": "minecraft:item/iron_hoe"
     }
