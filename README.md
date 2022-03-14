@@ -13,7 +13,7 @@ Using ItemAdder to generate item model id.
 
 [![Releases Downloads Original](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack-Original.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
 
-[![Releases Downloads Optimized](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack-Optimized-Original.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+[![Releases Downloads Optimized](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack-Optimized.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
 
 [![Releases Item models](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
 
@@ -26,11 +26,11 @@ Or you can download from [Pre-Release](https://github.com/xMikux/Slimefun-Resour
 There have two type of Resourcepack
 
 * Original
-* Optifine
+* Optimized
 
-Original don't have optifine thing
+Original and Optimized different is, the Optimized version compress a lot of image, with lossless quality.
 
-Optifine contain some custom armor, like elytra or armor.
+Some of armor need to using Optifine to show you equip armor render.
 
 Require Optifine (Or Fabric [CIT Resewn](https://modrinth.com/mod/cit-resewn)) & Server Slimefun Item model to work!
 
@@ -50,6 +50,8 @@ Inside the brackets are item models range.
 * InfinityExpansion (2200601~2200679)
 * SlimyTreeTaps (2200800~2200815)
 * ExtraGear (2200816~2200880)
+* SimpleUtils (2200881~2200890)
+* FluffyMachines (TBD)
 
 There still have some missing texture.
 
@@ -61,6 +63,9 @@ Welcome to contribute it!
 * [Den4enko](https://github.com/Den4enko/Slimefun-Resourcepack) Other Slimefun Texture
 * [LoneDev](https://www.spigotmc.org/resources/addon-slimefun4-textures-for-itemsadder.83877/) Using on generate this resourcepack
 * [Caribax](https://github.com/Mooy1/InfinityExpansion/releases/tag/v1) From InfinityExpansion Releases
+* [ybw0014](https://gzss.link/sf-texture) Another Repo collect a lot of texture
+
+**There have many texture collect from the internet.**
 
 ## Disclaimer
 
