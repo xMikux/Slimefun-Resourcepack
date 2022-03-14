@@ -1,0 +1,11 @@
+info:
+  namespace: simpleutils
+items:
+  simple_wrench:
+    display_name: simpleutils
+    permission: simpleutils
+    resource:
+      material: IRON_HOE
+      generate: false
+      model_id: 2200881
+      model_path: "simple_wrench"
