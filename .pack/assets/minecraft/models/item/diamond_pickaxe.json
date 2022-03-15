@@ -42,7 +42,13 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2200276
+        "custom_model_data": 2200913
+      },
+      "model": "fluffymachines:diamond_paxel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200914
       },
       "model": "minecraft:item/diamond_pickaxe"
     }

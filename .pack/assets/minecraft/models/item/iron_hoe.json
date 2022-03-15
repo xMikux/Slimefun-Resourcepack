@@ -18,7 +18,19 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2200882
+        "custom_model_data": 2200884
+      },
+      "model": "simpleutils:simple_wrench"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200906
+      },
+      "model": "fluffymachines:scythe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200907
       },
       "model": "minecraft:item/iron_hoe"
     }
