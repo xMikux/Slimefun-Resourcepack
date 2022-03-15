@@ -1,0 +1,27 @@
+info:
+  namespace: fluffymachines
+items:
+  watering_can:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200905
+      model_path: "watering_can"
+  scythe:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: IRON_HOE
+      generate: false
+      model_id: 2200906
+      model_path: "scythe"
+  paxel:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: false
+      model_id: 2200913
+      model_path: "diamond_paxel"

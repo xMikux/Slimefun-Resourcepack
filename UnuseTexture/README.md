@@ -8,7 +8,8 @@ A list of texture that in slimefun texture, but not used.
 * ~~*_broken_elytra.png~~ Only work with Optifine (Finish migrate to cit Optifine)
 * ~~*_elytra_armor.png~~ Only work with Optifine (Finish migrate to cit Optifine)
 * uu_matter.png Don't know why in slimefun texture folder
-* crook.png ExoticGraden missing texture (Already migrate)
+* ~~crook.png~~ ExoticGraden missing texture (Already migrate)
+* netherite_paxel.png FluffyMachines Paxel, after upgrade to netherite version
 
 ## InfinityExpansion Releases
 

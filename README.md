@@ -51,9 +51,9 @@ Inside the brackets are item models range.
 * SlimyTreeTaps (2200800~2200815)
 * ExtraGear (2200816~2200880)
 * SimpleUtils (2200881~2200890)
-* FluffyMachines (TBD)
+* FluffyMachines (2200891~2200950)
 
-There still have some missing texture.
+There still have a lot of missing texture.
 
 Welcome to contribute it!
 
