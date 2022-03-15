@@ -48,10 +48,10 @@ Inside the brackets are item models range.
 * LiteXpansion (2200810~2200829)
 * ExoticGarden (2200830~2201200)
 * InfinityExpansion (2200601~2200679)
-* SlimyTreeTaps (2200800~2200815)
+* SlimyTreeTaps (2200800~2200809)
 * ExtraGear (2200816~2200880)
-* SimpleUtils (2200881~2200890)
-* FluffyMachines (2200891~2200950)
+* SimpleUtils (2201100~2201109)
+* FluffyMachines (2201110~2201170)
 
 There still have a lot of missing texture.
 

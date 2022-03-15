@@ -7,7 +7,7 @@ items:
     resource:
       material: PLAYER_HEAD
       generate: false
-      model_id: 2200905
+      model_id: 2201124
       model_path: "watering_can"
   scythe:
     display_name: fluffymachines
@@ -15,7 +15,7 @@ items:
     resource:
       material: IRON_HOE
       generate: false
-      model_id: 2200906
+      model_id: 2201125
       model_path: "scythe"
   paxel:
     display_name: fluffymachines
@@ -23,5 +23,5 @@ items:
     resource:
       material: DIAMOND_PICKAXE
       generate: false
-      model_id: 2200913
+      model_id: 2201132
       model_path: "diamond_paxel"

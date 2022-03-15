@@ -7,5 +7,5 @@ items:
     resource:
       material: IRON_HOE
       generate: false
-      model_id: 2200884
+      model_id: 2201103
       model_path: "simple_wrench"
