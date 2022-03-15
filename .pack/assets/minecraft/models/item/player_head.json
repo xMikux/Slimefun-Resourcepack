@@ -3,12 +3,6 @@
   "overrides": [
     {
       "predicate": {
-        "custom_model_data": -1
-      },
-      "model": "fluffymachines:watering_can"
-    },
-    {
-      "predicate": {
         "custom_model_data": 2200006
       },
       "model": "slimefun:slimefun/gui/slimefun_guide"
@@ -1569,7 +1563,13 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2201038
+        "custom_model_data": 2201124
+      },
+      "model": "fluffymachines:watering_can"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201125
       },
       "model": "minecraft:item/player_head"
     }
