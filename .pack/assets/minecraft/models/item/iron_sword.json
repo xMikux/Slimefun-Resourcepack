@@ -147,6 +147,144 @@
         "custom_model_data": 2200875
       },
       "model": "minecraft:item/iron_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201237
+      },
+      "model": "extra_gear:swords/aluminum_brass_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201238
+      },
+      "model": "extra_gear:swords/aluminum_bronze_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201239
+      },
+      "model": "extra_gear:swords/aluminum_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201240
+      },
+      "model": "extra_gear:swords/billon_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201241
+      },
+      "model": "extra_gear:swords/brass_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201242
+      },
+      "model": "extra_gear:swords/bronze_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201243
+      },
+      "model": "extra_gear:swords/cobalt_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201244
+      },
+      "model": "extra_gear:swords/copper_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201245
+      },
+      "model": "extra_gear:swords/corinthian_bronze_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201246
+      },
+      "model": "extra_gear:swords/damascus_steel_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201247
+      },
+      "model": "extra_gear:swords/duralumin_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201248
+      },
+      "model": "extra_gear:swords/ferrosilicon_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201250
+      },
+      "model": "extra_gear:swords/hardened_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201251
+      },
+      "model": "extra_gear:swords/lead_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201252
+      },
+      "model": "extra_gear:swords/magnesium_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201253
+      },
+      "model": "extra_gear:swords/nickel_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201254
+      },
+      "model": "extra_gear:swords/reinforced_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201255
+      },
+      "model": "extra_gear:swords/silver_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201256
+      },
+      "model": "extra_gear:swords/solder_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201257
+      },
+      "model": "extra_gear:swords/steel_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201258
+      },
+      "model": "extra_gear:swords/tin_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201259
+      },
+      "model": "extra_gear:swords/zinc_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201260
+      },
+      "model": "minecraft:item/iron_sword"
     }
   ]
 }

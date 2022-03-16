@@ -42,18 +42,6 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2200913
-      },
-      "model": "fluffymachines:diamond_paxel"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2200914
-      },
-      "model": "minecraft:item/diamond_pickaxe"
-    },
-    {
-      "predicate": {
         "custom_model_data": 2201132
       },
       "model": "fluffymachines:diamond_paxel"
@@ -61,6 +49,18 @@
     {
       "predicate": {
         "custom_model_data": 2201133
+      },
+      "model": "minecraft:item/diamond_pickaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201281
+      },
+      "model": "fluffymachines:diamond_paxel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201282
       },
       "model": "minecraft:item/diamond_pickaxe"
     }

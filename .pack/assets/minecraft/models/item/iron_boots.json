@@ -81,6 +81,60 @@
         "custom_model_data": 2200849
       },
       "model": "minecraft:item/iron_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201201
+      },
+      "model": "extra_gear:armor/aluminum/aluminum_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201205
+      },
+      "model": "extra_gear:armor/cobalt/cobalt_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201213
+      },
+      "model": "extra_gear:armor/lead/lead_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201217
+      },
+      "model": "extra_gear:armor/magnesium/magnesium_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201221
+      },
+      "model": "extra_gear:armor/silver/silver_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201225
+      },
+      "model": "extra_gear:armor/steel/steel_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201229
+      },
+      "model": "extra_gear:armor/tin/tin_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201233
+      },
+      "model": "extra_gear:armor/zinc/zinc_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201234
+      },
+      "model": "minecraft:item/iron_boots"
     }
   ]
 }

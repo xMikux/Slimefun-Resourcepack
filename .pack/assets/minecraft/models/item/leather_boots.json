@@ -58,6 +58,18 @@
         "custom_model_data": 2200825
       },
       "model": "minecraft:item/leather_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201209
+      },
+      "model": "extra_gear:armor/copper/copper_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201210
+      },
+      "model": "minecraft:item/leather_boots"
     }
   ]
 }

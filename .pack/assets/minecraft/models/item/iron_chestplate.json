@@ -75,6 +75,60 @@
         "custom_model_data": 2200850
       },
       "model": "minecraft:item/iron_chestplate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201202
+      },
+      "model": "extra_gear:armor/aluminum/aluminum_chestplate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201206
+      },
+      "model": "extra_gear:armor/cobalt/cobalt_chestplate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201214
+      },
+      "model": "extra_gear:armor/lead/lead_chestplate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201218
+      },
+      "model": "extra_gear:armor/magnesium/magnesium_chestplate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201222
+      },
+      "model": "extra_gear:armor/silver/silver_chestplate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201226
+      },
+      "model": "extra_gear:armor/steel/steel_chestplate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201230
+      },
+      "model": "extra_gear:armor/tin/tin_chestplate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201234
+      },
+      "model": "extra_gear:armor/zinc/zinc_chestplate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2201235
+      },
+      "model": "minecraft:item/iron_chestplate"
     }
   ]
 }
