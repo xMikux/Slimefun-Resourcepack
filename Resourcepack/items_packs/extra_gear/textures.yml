@@ -7,7 +7,7 @@ items:
     resource:
       material: IRON_BOOTS
       generate: false
-      model_id: 2200816
+      model_id: 2201201
       model_path: "armor/aluminum/aluminum_boots"
   aluminum_chestplate:
     display_name: extra_gear
@@ -15,7 +15,7 @@ items:
     resource:
       material: IRON_CHESTPLATE
       generate: false
-      model_id: 2200817
+      model_id: 2201202
       model_path: "armor/aluminum/aluminum_chestplate"
   aluminum_helmet:
     display_name: extra_gear
@@ -23,7 +23,7 @@ items:
     resource:
       material: IRON_HELMET
       generate: false
-      model_id: 2200818
+      model_id: 2201203
       model_path: "armor/aluminum/aluminum_helmet"
   aluminum_leggings:
     display_name: extra_gear
@@ -31,7 +31,7 @@ items:
     resource:
       material: IRON_LEGGINGS
       generate: false
-      model_id: 2200819
+      model_id: 2201204
       model_path: "armor/aluminum/aluminum_leggings"
   cobalt_boots:
     display_name: extra_gear
@@ -39,7 +39,7 @@ items:
     resource:
       material: IRON_BOOTS
       generate: false
-      model_id: 2200820
+      model_id: 2201205
       model_path: "armor/cobalt/cobalt_boots"
   cobalt_chestplate:
     display_name: extra_gear
@@ -47,7 +47,7 @@ items:
     resource:
       material: IRON_CHESTPLATE
       generate: false
-      model_id: 2200821
+      model_id: 2201206
       model_path: "armor/cobalt/cobalt_chestplate"
   cobalt_helmet:
     display_name: extra_gear
@@ -55,7 +55,7 @@ items:
     resource:
       material: IRON_HELMET
       generate: false
-      model_id: 2200822
+      model_id: 2201207
       model_path: "armor/cobalt/cobalt_helmet"
   cobalt_leggings:
     display_name: extra_gear
@@ -63,7 +63,7 @@ items:
     resource:
       material: IRON_LEGGINGS
       generate: false
-      model_id: 2200823
+      model_id: 2201208
       model_path: "armor/cobalt/cobalt_leggings"
   copper_boots:
     display_name: extra_gear
@@ -71,7 +71,7 @@ items:
     resource:
       material: LEATHER_BOOTS
       generate: false
-      model_id: 2200824
+      model_id: 2201209
       model_path: "armor/copper/copper_boots"
   copper_chestplate:
     display_name: extra_gear
@@ -79,7 +79,7 @@ items:
     resource:
       material: LEATHER_CHESTPLATE
       generate: false
-      model_id: 2200825
+      model_id: 2201210
       model_path: "armor/copper/copper_chestplate"
   copper_helmet:
     display_name: extra_gear
@@ -87,7 +87,7 @@ items:
     resource:
       material: LEATHER_HELMET
       generate: false
-      model_id: 2200826
+      model_id: 2201211
       model_path: "armor/copper/copper_helmet"
   copper_leggings:
     display_name: extra_gear
@@ -95,7 +95,7 @@ items:
     resource:
       material: LEATHER_LEGGINGS
       generate: false
-      model_id: 2200827
+      model_id: 2201212
       model_path: "armor/copper/copper_leggings"
   lead_boots:
     display_name: extra_gear
@@ -103,7 +103,7 @@ items:
     resource:
       material: IRON_BOOTS
       generate: false
-      model_id: 2200828
+      model_id: 2201213
       model_path: "armor/lead/lead_boots"
   lead_chestplate:
     display_name: extra_gear
@@ -111,7 +111,7 @@ items:
     resource:
       material: IRON_CHESTPLATE
       generate: false
-      model_id: 2200829
+      model_id: 2201214
       model_path: "armor/lead/lead_chestplate"
   lead_helmet:
     display_name: extra_gear
@@ -119,7 +119,7 @@ items:
     resource:
       material: IRON_HELMET
       generate: false
-      model_id: 2200830
+      model_id: 2201215
       model_path: "armor/lead/lead_helmet"
   lead_leggings:
     display_name: extra_gear
@@ -127,7 +127,7 @@ items:
     resource:
       material: IRON_LEGGINGS
       generate: false
-      model_id: 2200831
+      model_id: 2201216
       model_path: "armor/lead/lead_leggings"
   magnesium_boots:
     display_name: extra_gear
@@ -135,7 +135,7 @@ items:
     resource:
       material: IRON_BOOTS
       generate: false
-      model_id: 2200832
+      model_id: 2201217
       model_path: "armor/magnesium/magnesium_boots"
   magnesium_chestplate:
     display_name: extra_gear
@@ -143,7 +143,7 @@ items:
     resource:
       material: IRON_CHESTPLATE
       generate: false
-      model_id: 2200833
+      model_id: 2201218
       model_path: "armor/magnesium/magnesium_chestplate"
   magnesium_helmet:
     display_name: extra_gear
@@ -151,7 +151,7 @@ items:
     resource:
       material: IRON_HELMET
       generate: false
-      model_id: 2200834
+      model_id: 2201219
       model_path: "armor/magnesium/magnesium_helmet"
   magnesium_leggings:
     display_name: extra_gear
@@ -159,7 +159,7 @@ items:
     resource:
       material: IRON_LEGGINGS
       generate: false
-      model_id: 2200835
+      model_id: 2201220
       model_path: "armor/magnesium/magnesium_leggings"
   silver_boots:
     display_name: extra_gear
@@ -167,7 +167,7 @@ items:
     resource:
       material: IRON_BOOTS
       generate: false
-      model_id: 2200836
+      model_id: 2201221
       model_path: "armor/silver/silver_boots"
   silver_chestplate:
     display_name: extra_gear
@@ -175,7 +175,7 @@ items:
     resource:
       material: IRON_CHESTPLATE
       generate: false
-      model_id: 2200837
+      model_id: 2201222
       model_path: "armor/silver/silver_chestplate"
   silver_helmet:
     display_name: extra_gear
@@ -183,7 +183,7 @@ items:
     resource:
       material: IRON_HELMET
       generate: false
-      model_id: 2200838
+      model_id: 2201223
       model_path: "armor/silver/silver_helmet"
   silver_leggings:
     display_name: extra_gear
@@ -191,7 +191,7 @@ items:
     resource:
       material: IRON_LEGGINGS
       generate: false
-      model_id: 2200839
+      model_id: 2201224
       model_path: "armor/silver/silver_leggings"
   steel_boots:
     display_name: extra_gear
@@ -199,7 +199,7 @@ items:
     resource:
       material: IRON_BOOTS
       generate: false
-      model_id: 2200840
+      model_id: 2201225
       model_path: "armor/steel/steel_boots"
   steel_chestplate:
     display_name: extra_gear
@@ -207,7 +207,7 @@ items:
     resource:
       material: IRON_CHESTPLATE
       generate: false
-      model_id: 2200841
+      model_id: 2201226
       model_path: "armor/steel/steel_chestplate"
   steel_helmet:
     display_name: extra_gear
@@ -215,7 +215,7 @@ items:
     resource:
       material: IRON_HELMET
       generate: false
-      model_id: 2200842
+      model_id: 2201227
       model_path: "armor/steel/steel_helmet"
   steel_leggings:
     display_name: extra_gear
@@ -223,7 +223,7 @@ items:
     resource:
       material: IRON_LEGGINGS
       generate: false
-      model_id: 2200843
+      model_id: 2201228
       model_path: "armor/steel/steel_leggings"
   tin_boots:
     display_name: extra_gear
@@ -231,7 +231,7 @@ items:
     resource:
       material: IRON_BOOTS
       generate: false
-      model_id: 2200844
+      model_id: 2201229
       model_path: "armor/tin/tin_boots"
   tin_chestplate:
     display_name: extra_gear
@@ -239,7 +239,7 @@ items:
     resource:
       material: IRON_CHESTPLATE
       generate: false
-      model_id: 2200845
+      model_id: 2201230
       model_path: "armor/tin/tin_chestplate"
   tin_helmet:
     display_name: extra_gear
@@ -247,7 +247,7 @@ items:
     resource:
       material: IRON_HELMET
       generate: false
-      model_id: 2200846
+      model_id: 2201231
       model_path: "armor/tin/tin_helmet"
   tin_leggings:
     display_name: extra_gear
@@ -255,7 +255,7 @@ items:
     resource:
       material: IRON_LEGGINGS
       generate: false
-      model_id: 2200847
+      model_id: 2201232
       model_path: "armor/tin/tin_leggings"
   zinc_boots:
     display_name: extra_gear
@@ -263,7 +263,7 @@ items:
     resource:
       material: IRON_BOOTS
       generate: false
-      model_id: 2200848
+      model_id: 2201233
       model_path: "armor/zinc/zinc_boots"
   zinc_chestplate:
     display_name: extra_gear
@@ -271,7 +271,7 @@ items:
     resource:
       material: IRON_CHESTPLATE
       generate: false
-      model_id: 2200849
+      model_id: 2201234
       model_path: "armor/zinc/zinc_chestplate"
   zinc_helmet:
     display_name: extra_gear
@@ -279,7 +279,7 @@ items:
     resource:
       material: IRON_HELMET
       generate: false
-      model_id: 2200850
+      model_id: 2201235
       model_path: "armor/zinc/zinc_helmet"
   zinc_leggings:
     display_name: extra_gear
@@ -287,7 +287,7 @@ items:
     resource:
       material: IRON_LEGGINGS
       generate: false
-      model_id: 2200851
+      model_id: 2201236
       model_path: "armor/zinc/zinc_leggings"
   aluminum_brass_sword:
     display_name: extra_gear
@@ -295,7 +295,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200852
+      model_id: 2201237
       model_path: "swords/aluminum_brass_sword"
   aluminum_bronze_sword:
     display_name: extra_gear
@@ -303,7 +303,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200853
+      model_id: 2201238
       model_path: "swords/aluminum_bronze_sword"
   aluminum_sword:
     display_name: extra_gear
@@ -311,7 +311,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200854
+      model_id: 2201239
       model_path: "swords/aluminum_sword"
   billon_sword:
     display_name: extra_gear
@@ -319,7 +319,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200855
+      model_id: 2201240
       model_path: "swords/billon_sword"
   brass_sword:
     display_name: extra_gear
@@ -327,7 +327,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200856
+      model_id: 2201241
       model_path: "swords/brass_sword"
   bronze_sword:
     display_name: extra_gear
@@ -335,7 +335,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200857
+      model_id: 2201242
       model_path: "swords/bronze_sword"
   cobalt_sword:
     display_name: extra_gear
@@ -343,7 +343,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200858
+      model_id: 2201243
       model_path: "swords/cobalt_sword"
   copper_sword:
     display_name: extra_gear
@@ -351,7 +351,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200859
+      model_id: 2201244
       model_path: "swords/copper_sword"
   corinthian_bronze_sword:
     display_name: extra_gear
@@ -359,7 +359,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200860
+      model_id: 2201245
       model_path: "swords/corinthian_bronze_sword"
   damascus_steel_sword:
     display_name: extra_gear
@@ -367,7 +367,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200861
+      model_id: 2201246
       model_path: "swords/damascus_steel_sword"
   duralumin_sword:
     display_name: extra_gear
@@ -375,7 +375,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200862
+      model_id: 2201247
       model_path: "swords/duralumin_sword"
   ferrosilicon_sword:
     display_name: extra_gear
@@ -383,7 +383,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200863
+      model_id: 2201248
       model_path: "swords/ferrosilicon_sword"
   gilded_iron_sword:
     display_name: extra_gear
@@ -391,7 +391,7 @@ items:
     resource:
       material: GOLDEN_SWORD
       generate: false
-      model_id: 2200864
+      model_id: 2201249
       model_path: "swords/gilded_iron_sword"
   hardened_sword:
     display_name: extra_gear
@@ -399,7 +399,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200865
+      model_id: 2201250
       model_path: "swords/hardened_sword"
   lead_sword:
     display_name: extra_gear
@@ -407,7 +407,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200866
+      model_id: 2201251
       model_path: "swords/lead_sword"
   magnesium_sword:
     display_name: extra_gear
@@ -415,7 +415,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200867
+      model_id: 2201252
       model_path: "swords/magnesium_sword"
   nickel_sword:
     display_name: extra_gear
@@ -423,7 +423,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200868
+      model_id: 2201253
       model_path: "swords/nickel_sword"
   reinforced_sword:
     display_name: extra_gear
@@ -431,7 +431,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200869
+      model_id: 2201254
       model_path: "swords/reinforced_sword"
   silver_sword:
     display_name: extra_gear
@@ -439,7 +439,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200870
+      model_id: 2201255
       model_path: "swords/silver_sword"
   solder_sword:
     display_name: extra_gear
@@ -447,7 +447,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200871
+      model_id: 2201256
       model_path: "swords/solder_sword"
   steel_sword:
     display_name: extra_gear
@@ -455,7 +455,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200872
+      model_id: 2201257
       model_path: "swords/steel_sword"
   tin_sword:
     display_name: extra_gear
@@ -463,7 +463,7 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200873
+      model_id: 2201258
       model_path: "swords/tin_sword"
   zinc_sword:
     display_name: extra_gear
@@ -471,5 +471,5 @@ items:
     resource:
       material: IRON_SWORD
       generate: false
-      model_id: 2200874
+      model_id: 2201259
       model_path: "swords/zinc_sword"

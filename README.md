@@ -45,13 +45,13 @@ Require Optifine (Or Fabric [CIT Resewn](https://modrinth.com/mod/cit-resewn)) &
 Inside the brackets are item models range.
 
 * Slimefun (2200001~2200600)
-* LiteXpansion (2200810~2200829)
-* ExoticGarden (2200830~2201200)
 * InfinityExpansion (2200601~2200679)
 * SlimyTreeTaps (2200800~2200809)
-* ExtraGear (2200816~2200880)
-* SimpleUtils (2201100~2201109)
-* FluffyMachines (2201110~2201170)
+* LiteXpansion (2200810~2200829)
+* ExoticGarden (2200830~2201200)
+* ExtraGear (2201201~2201270)
+* SimpleUtils (2201270~2201279)
+* FluffyMachines (2201280~2201300)
 
 There still have a lot of missing texture.
 
