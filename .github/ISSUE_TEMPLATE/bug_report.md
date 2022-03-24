@@ -7,17 +7,9 @@ assignees: ''
 
 ---
 
-**Describe what the problem:**
+**Describe the problem:**
 
-A clear and concise description of what the bug is.
-
-**Reproduction Steps:**
-
-Steps to reproduce the behavior
-
-**Expected behavior:**
-
-A clear and concise description of what you expected to happen.
+Some info about this problem.
 
 **Screenshots:**
 
@@ -25,16 +17,16 @@ If applicable, add screenshots to help explain your problem.
 
 **Version Info:**
 
+(Please click after you create the issues)
+
 - Resourcepack Version:
+  (Pleases write the verison)
 - Minecraft Version:
+  - [ ] 1.18
   - [ ] 1.17
   - [ ] 1.16
   - [ ] 1.15
   - [ ] 1.14
-- Optifine Install
-  - [ ] Installed
-  - [ ] Not Installed
-
-**Additional Info:**
-
-Add other describe about this bug.
+- CIT Mod:
+  - [ ] Optifine
+  - [ ] CIT Resewn
