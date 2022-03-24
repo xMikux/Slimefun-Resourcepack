@@ -49,18 +49,6 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2200825
-      },
-      "model": "extra_gear:armor/copper/copper_chestplate"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2200826
-      },
-      "model": "minecraft:item/leather_chestplate"
-    },
-    {
-      "predicate": {
         "custom_model_data": 2201210
       },
       "model": "extra_gear:armor/copper/copper_chestplate"

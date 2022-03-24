@@ -43,18 +43,6 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2200826
-      },
-      "model": "extra_gear:armor/copper/copper_helmet"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2200827
-      },
-      "model": "minecraft:item/leather_helmet"
-    },
-    {
-      "predicate": {
         "custom_model_data": 2201211
       },
       "model": "extra_gear:armor/copper/copper_helmet"

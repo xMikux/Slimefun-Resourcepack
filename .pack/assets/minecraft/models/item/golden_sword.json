@@ -18,18 +18,6 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2200864
-      },
-      "model": "extra_gear:swords/gilded_iron_sword"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2200865
-      },
-      "model": "minecraft:item/golden_sword"
-    },
-    {
-      "predicate": {
         "custom_model_data": 2201249
       },
       "model": "extra_gear:swords/gilded_iron_sword"

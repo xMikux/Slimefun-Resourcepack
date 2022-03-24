@@ -30,60 +30,6 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2200818
-      },
-      "model": "extra_gear:armor/aluminum/aluminum_helmet"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2200822
-      },
-      "model": "extra_gear:armor/cobalt/cobalt_helmet"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2200830
-      },
-      "model": "extra_gear:armor/lead/lead_helmet"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2200834
-      },
-      "model": "extra_gear:armor/magnesium/magnesium_helmet"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2200838
-      },
-      "model": "extra_gear:armor/silver/silver_helmet"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2200842
-      },
-      "model": "extra_gear:armor/steel/steel_helmet"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2200846
-      },
-      "model": "extra_gear:armor/tin/tin_helmet"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2200850
-      },
-      "model": "extra_gear:armor/zinc/zinc_helmet"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2200851
-      },
-      "model": "minecraft:item/iron_helmet"
-    },
-    {
-      "predicate": {
         "custom_model_data": 2201203
       },
       "model": "extra_gear:armor/aluminum/aluminum_helmet"

@@ -1563,18 +1563,6 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2201124
-      },
-      "model": "fluffymachines:watering_can"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2201125
-      },
-      "model": "minecraft:item/player_head"
-    },
-    {
-      "predicate": {
         "custom_model_data": 2201294
       },
       "model": "fluffymachines:watering_can"

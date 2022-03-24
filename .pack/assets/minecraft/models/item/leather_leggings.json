@@ -37,18 +37,6 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2200827
-      },
-      "model": "extra_gear:armor/copper/copper_leggings"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2200828
-      },
-      "model": "minecraft:item/leather_leggings"
-    },
-    {
-      "predicate": {
         "custom_model_data": 2201212
       },
       "model": "extra_gear:armor/copper/copper_leggings"
