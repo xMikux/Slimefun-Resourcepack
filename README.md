@@ -3,7 +3,7 @@
 [![Release](https://img.shields.io/github/v/release/xMikux/Slimefun-Resourcepack?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases)
 [![AutoPack](https://img.shields.io/github/workflow/status/xMikux/Slimefun-Resourcepack/AutoPack?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/actions/workflows/AutoPack.yml)
 
-**Warning**: The texture some from modded, so if anyone can help to contribute to your own, I will very thank to you!
+**Warning**: There are a lot of textures from mods, so if anyone could contribute their own textures, I would really appreciate it!
 
 A simple remix & remake version Slimefun Resourcepack.
 
@@ -11,15 +11,33 @@ Using ItemAdder to generate item model id.
 
 ## Download
 
-[![Releases Downloads Original](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack-Original.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+### Total Downloads
 
-[![Releases Downloads Optimized](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack-Optimized.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+[![Total Downloads](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/total?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/releases/)
 
-[![Releases Item models](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+### Beta Version
 
-You can download on [Releases](https://github.com/xMikux/Slimefun-Resourcepack/releases).
+Beta Pack contains the latest new textures and bug fixes!
 
-Or you can download from [Pre-Release](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest) / [Action Artifacts](https://github.com/xMikux/Slimefun-Resourcepack/actions) specific commit artifacts files.
+Click the below badage to go to the download page.
+
+[![Beta Downloads Original](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack-Original.zip?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+
+[![Beta Downloads Optimized](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack-Optimized.zip?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+
+[![Beta Item models](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+
+### Release Version
+
+Stable, will not change after release, but will not include the latest textures, and some new bugs have only been fixed in the beta pack.
+
+Click the below badage to go to the download page.
+
+[![Release Downloads Original](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack-Original.zip?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+
+[![Release Downloads Optimized](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack-Optimized.zip?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+
+[![Release Item models](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
 
 ## Resourcepack Type
 
@@ -30,11 +48,11 @@ There have two type of Resourcepack
 
 Original and Optimized different is, the Optimized version compress a lot of image, with lossless quality.
 
-Some of armor need to using Optifine to show you equip armor render.
+The armor render requires using support the cit armor render mod.
 
-Require Optifine (Or Fabric [CIT Resewn](https://modrinth.com/mod/cit-resewn)) & Server Slimefun Item model to work!
+You can use Fabric [CIT Resewn](https://modrinth.com/mod/cit-resewn) or Forge Optifine, and the server needs to use item model id to see!
 
-### Optifine Support List
+### CIT Armor Support List
 
 * InfinityExpansion Armor
 * Slimefun Armor
@@ -42,7 +60,7 @@ Require Optifine (Or Fabric [CIT Resewn](https://modrinth.com/mod/cit-resewn)) &
 
 ## Content
 
-Inside the brackets are item models range.
+Inside the brackets are item models ranges.
 
 * Slimefun (2200001~2200600)
 * InfinityExpansion (2200601~2200679)
@@ -65,7 +83,7 @@ Welcome to contribute it!
 * [Caribax](https://github.com/Mooy1/InfinityExpansion/releases/tag/v1) From InfinityExpansion Releases
 * [ybw0014](https://gzss.link/sf-texture) Another Repo collect a lot of texture
 
-**There have many texture collect from the internet.**
+**There are many textures collected from the internet.**
 
 ## Disclaimer
 
