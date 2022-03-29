@@ -34,49 +34,22 @@ jobs:
           mv Resourcepack/item-models.yml .
           mv .pack/Slimefun-ResourcePack-Original.zip .
       
-      - name: Make Original Optimized Pack
+      - name: Make Optimized Pack
         uses: ComunidadAylas/PackSquash-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           allow_optifine_mod: true
           path: ./.pack
 
-      - name: ☁ DownloadArtifact Original Optimized Pack
+      - name: ☁ DownloadArtifact Optimized Pack
         uses: actions/download-artifact@v2
         with:
           name: Optimized pack
           path: ./
 
-      - name: 📝 Rename Original Optimized Pack
+      - name: 📝 Rename Optimized Pack
         run: |
-          mv ./pack.zip Slimefun-ResourcePack-Original-Optimized.zip
-
-      - name: Make Optifine Pack
-        run: |
-          cp -r Default/minecraft/optifine .pack/assets/minecraft
-          cd .pack
-          zip -r Slimefun-ResourcePack-Optifine assets/* pack.mcmeta pack.png
-
-      - name: Move Optifine Pack
-        run: |
-          mv .pack/Slimefun-ResourcePack-Optifine.zip .
-
-      - name: Make Optifine Optimized Pack
-        uses: ComunidadAylas/PackSquash-action@master
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          allow_optifine_mod: true
-          path: ./.pack
-
-      - name: ☁ DownloadArtifact Optifine Optimized Pack
-        uses: actions/download-artifact@v2
-        with:
-          name: Optimized pack
-          path: ./
-
-      - name: 📝 Rename Optifine Optimized Pack
-        run: |
-          mv ./pack.zip Slimefun-ResourcePack-Optifine-Optimized.zip
+          mv ./pack.zip Slimefun-ResourcePack-Optimized.zip
 
       - name: Delete Artifact
         uses: geekyeggo/delete-artifact@v1
@@ -86,12 +59,10 @@ jobs:
 
       - name: Make Checksum
         run: |
-          SUM=$(sha256sum Slimefun-ResourcePack-Original.zip)
-          SUM1=$(sha256sum Slimefun-ResourcePack-Original-Optimized.zip)
-          SUM2=$(sha256sum Slimefun-ResourcePack-Optifine.zip)
-          SUM3=$(sha256sum Slimefun-ResourcePack-Optifine-Optimized.zip)
-          SUM4=$(sha256sum item-models.yml)
-          echo -e "$SUM\n$SUM1\n$SUM2\n$SUM3\n$SUM4" > checksums.txt
+          SUM0=$(sha256sum Slimefun-ResourcePack-Original.zip)
+          SUM1=$(sha256sum Slimefun-ResourcePack-Optimized.zip)
+          SUM2=$(sha256sum item-models.yml)
+          echo -e "$SUM0\n$SUM1\n$SUM2" > checksums.txt
 
       - name: Create & Upload Releases 
         uses: marvinpinto/action-automatic-releases@latest
@@ -100,8 +71,6 @@ jobs:
           prerelease: false
           files: |
             Slimefun-ResourcePack-Original.zip
-            Slimefun-ResourcePack-Original-Optimized.zip
-            Slimefun-ResourcePack-Optifine.zip
-            Slimefun-ResourcePack-Optifine-Optimized.zip
+            Slimefun-ResourcePack-Optimized.zip
             item-models.yml
             checksums.txt

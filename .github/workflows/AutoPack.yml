@@ -328,10 +328,10 @@ jobs:
           mv Slimefun-ResourcePack-Optimized/Slimefun-ResourcePack-Optimized.zip .
           mv item-models.yml item-model
           mv item-model/item-models.yml .
-          SUM1=$(sha256sum Slimefun-ResourcePack-Original.zip)
-          SUM2=$(sha256sum Slimefun-ResourcePack-Optimized.zip)
-          SUM3=$(sha256sum item-models.yml)
-          echo -e "$SUM1\n$SUM2\n$SUM3" > checksums.txt
+          SUM0=$(sha256sum Slimefun-ResourcePack-Original.zip)
+          SUM1=$(sha256sum Slimefun-ResourcePack-Optimized.zip)
+          SUM2=$(sha256sum item-models.yml)
+          echo -e "$SUM0\n$SUM1\n$SUM2" > checksums.txt
 
       - name: Create & Upload Per Releases 
         uses: "marvinpinto/action-automatic-releases@latest"
