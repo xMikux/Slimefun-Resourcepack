@@ -1280,7 +1280,7 @@ items:
       material: DAYLIGHT_DETECTOR
       generate: false
       model_id: 2200157
-      model_path: "slimefun/technical_gadgets/solar_panel"
+      model_path: "slimefun/technical_components/solar_panel"
   solar_helmet:
     display_name: slimefun
     permission: slimefun
