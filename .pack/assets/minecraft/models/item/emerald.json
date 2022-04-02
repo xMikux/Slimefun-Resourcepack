@@ -204,7 +204,19 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2200534
+        "custom_model_data": 2200545
+      },
+      "model": "slimefun:slimefun/talisman1/farmer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200546
+      },
+      "model": "slimefun:slimefun/talisman2/farmer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200547
       },
       "model": "minecraft:item/emerald"
     }

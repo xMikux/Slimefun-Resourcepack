@@ -1,0 +1,56 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/shears"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200136
+      },
+      "model": "slimefun:slimefun/technical_gadgets/duralumin_multi_tool"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200137
+      },
+      "model": "slimefun:slimefun/technical_gadgets/solder_multi_tool"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200138
+      },
+      "model": "slimefun:slimefun/technical_gadgets/billon_multi_tool"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200139
+      },
+      "model": "slimefun:slimefun/technical_gadgets/steel_multi_tool"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200140
+      },
+      "model": "slimefun:slimefun/technical_gadgets/damascus_steel_multi_tool"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200141
+      },
+      "model": "slimefun:slimefun/technical_gadgets/reinforced_alloy_multi_tool"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200142
+      },
+      "model": "slimefun:slimefun/technical_gadgets/carbonado_multi_tool"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200143
+      },
+      "model": "minecraft:item/shears"
+    }
+  ]
+}

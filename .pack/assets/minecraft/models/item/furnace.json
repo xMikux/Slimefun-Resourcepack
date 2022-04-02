@@ -135,7 +135,13 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2200525
+        "custom_model_data": 2200528
+      },
+      "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200529
       },
       "model": "minecraft:item/furnace"
     }
