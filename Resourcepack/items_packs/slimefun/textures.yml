@@ -1105,62 +1105,62 @@ items:
       generate: false
       model_id: 2200135
       model_path: "slimefun/magical_gadgets/water_staff"
-  # duralumin_multi_tool:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200136
-  #     model_path: "slimefun/none"
-  # solder_multi_tool:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200137
-  #     model_path: "slimefun/none"
-  # billon_multi_tool:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200138
-  #     model_path: "slimefun/none"
-  # steel_multi_tool:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200139
-  #     model_path: "slimefun/none"
-  # damascus_steel_multi_tool:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200140
-  #     model_path: "slimefun/none"
-  # reinforced_alloy_multi_tool:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200141
-  #     model_path: "slimefun/none"
-  # carbonado_multi_tool:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200142
-  #     model_path: "slimefun/none"
+  duralumin_multi_tool:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: SHEARS
+      generate: false
+      model_id: 2200136
+      model_path: "slimefun/technical_gadgets/duralumin_multi_tool"
+  solder_multi_tool:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: SHEARS
+      generate: false
+      model_id: 2200137
+      model_path: "slimefun/technical_gadgets/solder_multi_tool"
+  billon_multi_tool:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: SHEARS
+      generate: false
+      model_id: 2200138
+      model_path: "slimefun/technical_gadgets/billon_multi_tool"
+  steel_multi_tool:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: SHEARS
+      generate: false
+      model_id: 2200139
+      model_path: "slimefun/technical_gadgets/steel_multi_tool"
+  damascus_steel_multi_tool:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: SHEARS
+      generate: false
+      model_id: 2200140
+      model_path: "slimefun/technical_gadgets/damascus_steel_multi_tool"
+  reinforced_alloy_multi_tool:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: SHEARS
+      generate: false
+      model_id: 2200141
+      model_path: "slimefun/technical_gadgets/reinforced_alloy_multi_tool"
+  carbonado_multi_tool:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: SHEARS
+      generate: false
+      model_id: 2200142
+      model_path: "slimefun/technical_gadgets/carbonado_multi_tool"
   ore_washer:
     display_name: slimefun
     permission: slimefun
@@ -1273,14 +1273,14 @@ items:
       generate: false
       model_id: 2200156
       model_path: "slimefun/resources/valuables/silicon"
-  # solar_panel:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: DAYLIGHT_DETECTOR
-  #     generate: false
-  #     model_id: 2200157
-  #     model_path: "slimefun/none"
+  solar_panel:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: DAYLIGHT_DETECTOR
+      generate: false
+      model_id: 2200157
+      model_path: "slimefun/technical_gadgets/solar_panel"
   solar_helmet:
     display_name: slimefun
     permission: slimefun
@@ -4227,14 +4227,14 @@ items:
       model_path: "slimefun/items/tape_measure"
 
 # New Slimefun Textures
-  # electric_ore_grinder3:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: FURNACE
-  #     generate: false
-  #     model_id: 2200528
-  #     model_path: "slimefun/energy/electric_ore_grinder3"
+  electric_ore_grinder3:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: FURNACE
+      generate: false
+      model_id: 2200528
+      model_path: "slimefun/energy/electric_ore_grinder3"
   caveman1:
     display_name: slimefun
     permission: slimefun
@@ -4363,3 +4363,19 @@ items:
       generate: false
       model_id: 2200544
       model_path: "slimefun/magical_items/synthetic_shulker"
+  farmer_talisman:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: EMERALD
+      generate: false
+      model_id: 2200545
+      model_path: "slimefun/talisman1/farmer"
+  ender_farmer_talisman:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: EMERALD
+      generate: false
+      model_id: 2200546
+      model_path: "slimefun/talisman2/farmer"
