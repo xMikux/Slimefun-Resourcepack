@@ -1,7 +1,1 @@
-{
-  "parent": "item/handheld",
-  "author": "AnsonYK",
-  "textures": {
-    "layer0": "slimefun:slimefun/technical_components/solar_panel"
-  }
-}
+{"parent":"item/handheld","author":"AnsonYK","textures":{"layer0":"slimefun:slimefun/technical_components/solar_panel"}}
