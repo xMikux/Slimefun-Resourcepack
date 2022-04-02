@@ -735,6 +735,12 @@
     },
     {
       "predicate": {
+        "custom_model_data": 2200652
+      },
+      "model": "infinityexpansion:machines/infinity_capacitor"
+    },
+    {
+      "predicate": {
         "custom_model_data": 2200800
       },
       "model": "slimy_tree_taps:materials/amber"
