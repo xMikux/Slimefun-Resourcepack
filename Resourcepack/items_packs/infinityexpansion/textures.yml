@@ -409,3 +409,11 @@ items:
       generate: false
       model_id: 2200651
       model_path: "tools/mountain_eater"
+  infinity_capacitor:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200652
+      model_path: "machines/infinity_capacitor"
