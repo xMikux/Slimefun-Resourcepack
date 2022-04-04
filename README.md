@@ -82,6 +82,8 @@ Welcome to contribute it!
 * [LoneDev](https://www.spigotmc.org/resources/addon-slimefun4-textures-for-itemsadder.83877/) Using on generate this resourcepack
 * [Caribax](https://github.com/Mooy1/InfinityExpansion/releases/tag/v1) From InfinityExpansion Releases
 * [ybw0014](https://gzss.link/sf-texture) Another Repo collect a lot of texture
+* DragonMysterious Contribute Multi Tool Texturs
+* AnsonYK Contribute Solar Panel, Electric Ore Grinder 3, Famer Talisman, Infinity Capacitor
 
 **There are many textures collected from the internet.**
 
