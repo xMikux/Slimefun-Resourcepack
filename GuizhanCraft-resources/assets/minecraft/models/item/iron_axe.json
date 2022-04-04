@@ -1,0 +1,10 @@
+{
+    "parent": "item/generated",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "item/iron_axe"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200270}, "model": "item/raulh22/slimefun/slimefun/weapons/seismic_axe"}
+    ]
+}

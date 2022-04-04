@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+	"author": "ybw0014",
+    "textures": {
+        "layer0": "item/clock_00"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200384}, "model": "item/ybw0014/slimefun/technical_gadgets/multimeter"},
+        { "predicate": { "custom_model_data": 2200451}, "model": "item/ybw0014/slimefun/gps/portable_geo_scanner"}
+    ]
+}

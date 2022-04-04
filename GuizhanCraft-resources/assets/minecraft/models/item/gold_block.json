@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/gold_block",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200238}, "model": "item/raulh22/slimefun/slimefun/miscellaneous/gold_block_carat_24"},
+        { "predicate": { "custom_model_data": 2500058}, "model": "item/ybw0014/infinityexpansion/singularities/gold_singularity"}
+    ]
+}

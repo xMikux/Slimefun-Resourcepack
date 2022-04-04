@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/dropper",
+    "author": "RaulH22",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200058}, "model": "item/raulh22/slimefun/slimefun/basic_machines/automatic_ignition_chamber"}
+    ]
+}

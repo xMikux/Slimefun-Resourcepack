@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/wooden_hoe"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2300012}, "model": "item/raulh22/slimefun/slimefun/miscellaneous/hook"},
+        { "predicate": { "custom_model_data": 2800001}, "model": "item/ybw0014/slimetreetap/treetap"}
+    ]
+}

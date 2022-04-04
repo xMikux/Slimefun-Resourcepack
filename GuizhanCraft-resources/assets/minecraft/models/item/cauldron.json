@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:item/generated",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "minecraft:item/cauldron"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200143}, "model": "item/raulh22/slimefun/slimefun/basic_machines/ore_washer"},
+        { "predicate": { "custom_model_data": 2200239}, "model": "item/raulh22/slimefun/slimefun/basic_machines/composter"},
+        { "predicate": { "custom_model_data": 2200252}, "model": "item/raulh22/slimefun/slimefun/basic_machines/crucible"}
+    ]
+}

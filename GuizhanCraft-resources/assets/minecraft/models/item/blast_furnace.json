@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/blast_furnace",
+    "author": "RaulH22",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200057}, "model": "item/raulh22/slimefun/slimefun/basic_machines/makeshift_smeltery"}
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "parent": "item/handheld",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/diamond_shovel"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200242}, "model": "item/raulh22/slimefun/slimefun/tools/explosive_shovel"},
+        { "predicate": { "custom_model_data": 2200277}, "model": "item/raulh22/slimefun/slimefun/tools/soulbound_shovel"},
+        { "predicate": { "custom_model_data": 2400004}, "model": "item/ybw0014/litexpansion/diamond_drill_head"},
+        { "predicate": { "custom_model_data": 2600023}, "model": "item/ybw0014/fluffymachines/diamond_paxel"}
+    ]
+}

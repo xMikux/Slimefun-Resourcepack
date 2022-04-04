@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/bricks",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2500051}, "model": "item/ybw0014/infinityexpansion/singularities/copper_singularity"}
+    ]
+}

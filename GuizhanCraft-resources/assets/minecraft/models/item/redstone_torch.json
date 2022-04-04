@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/generated",
+  "author": "ybw0014",
+  "textures": {
+    "layer0": "minecraft:block/redstone_torch"
+  },
+  "overrides": [
+      { "predicate": { "custom_model_data": 2200392}, "model": "item/ybw0014/slimefun/gps/gps_marker_tool"}
+  ]
+}

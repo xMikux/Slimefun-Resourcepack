@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/gravel",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2700001}, "model": "item/ybw0014/slimetinker/materials/blocks/grout"}
+    ]
+}

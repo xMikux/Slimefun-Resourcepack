@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/polished_blackstone_bricks",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2700006}, "model": "item/ybw0014/slimetinker/materials/blocks/seared_brick_block"}
+    ]
+}

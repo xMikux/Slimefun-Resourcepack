@@ -1,0 +1,10 @@
+{
+    "parent": "block/cross",
+    "author": "ybw0014",
+    "textures": {
+        "cross": "block/dead_bush"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2400046}, "model": "item/ybw0014/litexpansion/scrap"}
+    ]
+}

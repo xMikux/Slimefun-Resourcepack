@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "author": "ybw0014",
+  "textures": {
+    "layer0": "minecraft:item/item_frame"
+  },
+  "overrides": [
+      { "predicate": { "custom_model_data": 2420006}, "model": "item/ybw0014/chestterminal/ct_wireless_access_terminal_16"},
+      { "predicate": { "custom_model_data": 2420007}, "model": "item/ybw0014/chestterminal/ct_wireless_access_terminal_64"},
+      { "predicate": { "custom_model_data": 2420008}, "model": "item/ybw0014/chestterminal/ct_wireless_access_terminal_128"},
+      { "predicate": { "custom_model_data": 2420009}, "model": "item/ybw0014/chestterminal/ct_wireless_access_terminal_transdimensional"}
+  ]
+}

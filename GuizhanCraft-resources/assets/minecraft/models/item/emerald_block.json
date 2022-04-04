@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/emerald_block",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2500061}, "model": "item/ybw0014/infinityexpansion/singularities/emerald_singularity"}
+    ]
+}

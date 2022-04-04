@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "item/cookie"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200014}, "model": "item/raulh22/slimefun/slimefun/food/fortune_cookie"},
+		{ "predicate": { "custom_model_data": 2200015}, "model": "item/raulh22/slimefun/slimefun/food/diet_cookie"},
+		{ "predicate": { "custom_model_data": 2200025}, "model": "item/raulh22/slimefun/slimefun/food/kelp_cookie"}
+    ]
+}

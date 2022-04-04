@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "item/nether_wart"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200162}, "model": "item/raulh22/slimefun/slimefun/magical_gadgets/magical_zombie_pills"},
+        { "predicate": { "custom_model_data": 2200227}, "model": "item/raulh22/slimefun/slimefun/items/vitamins"}
+    ]
+}

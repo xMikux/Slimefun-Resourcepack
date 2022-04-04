@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/white_stained_glass",
+    "author": "RaulH22",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200426}, "model": "item/raulh22/slimefun/slimefun/magical_gadgets/rainbow_glass"}
+    ]
+}

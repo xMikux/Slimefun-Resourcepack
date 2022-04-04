@@ -1,0 +1,11 @@
+{
+    "parent": "block/cross",
+    "author": "ybw0014",
+    "textures": {
+        "cross": "block/cobweb"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2400039}, "model": "item/ybw0014/litexpansion/electronic_circuit"},
+        { "predicate": { "custom_model_data": 2400040}, "model": "item/ybw0014/litexpansion/advanced_circuit"}
+    ]
+}

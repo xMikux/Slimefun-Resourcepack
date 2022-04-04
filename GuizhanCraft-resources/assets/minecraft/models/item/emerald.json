@@ -1,0 +1,40 @@
+{
+    "parent": "item/generated",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "item/emerald"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200164}, "model": "item/ryhn12/slimefun/talisman/default"},
+        { "predicate": { "custom_model_data": 2200165}, "model": "item/ryhn12/slimefun/talisman/anvil"},
+		{ "predicate": { "custom_model_data": 2200166}, "model": "item/ryhn12/slimefun/ender_talisman/anvil"},
+		{ "predicate": { "custom_model_data": 2200167}, "model": "item/ryhn12/slimefun/talisman/miner"},
+		{ "predicate": { "custom_model_data": 2200168}, "model": "item/ryhn12/slimefun/ender_talisman/miner"},
+		{ "predicate": { "custom_model_data": 2200169}, "model": "item/ryhn12/slimefun/talisman/hunter"},
+		{ "predicate": { "custom_model_data": 2200170}, "model": "item/ryhn12/slimefun/ender_talisman/hunter"},
+		{ "predicate": { "custom_model_data": 2200171}, "model": "item/ryhn12/slimefun/talisman/lava_walker"},
+		{ "predicate": { "custom_model_data": 2200172}, "model": "item/ryhn12/slimefun/ender_talisman/lava_walker"},
+		{ "predicate": { "custom_model_data": 2200173}, "model": "item/ryhn12/slimefun/talisman/water_breather"},
+		{ "predicate": { "custom_model_data": 2200174}, "model": "item/ryhn12/slimefun/ender_talisman/water_breather"},
+		{ "predicate": { "custom_model_data": 2200175}, "model": "item/ryhn12/slimefun/talisman/angel"},
+		{ "predicate": { "custom_model_data": 2200176}, "model": "item/ryhn12/slimefun/ender_talisman/angel"},
+		{ "predicate": { "custom_model_data": 2200177}, "model": "item/ryhn12/slimefun/talisman/firefighter"},
+		{ "predicate": { "custom_model_data": 2200178}, "model": "item/ryhn12/slimefun/ender_talisman/firefighter"},
+		{ "predicate": { "custom_model_data": 2200179}, "model": "item/ryhn12/slimefun/talisman/magician"},
+		{ "predicate": { "custom_model_data": 2200180}, "model": "item/ryhn12/slimefun/ender_talisman/magician"},
+		{ "predicate": { "custom_model_data": 2200181}, "model": "item/ryhn12/slimefun/talisman/traveller"},
+		{ "predicate": { "custom_model_data": 2200182}, "model": "item/ryhn12/slimefun/ender_talisman/traveller"},
+		{ "predicate": { "custom_model_data": 2200183}, "model": "item/ryhn12/slimefun/talisman/warrior"},
+		{ "predicate": { "custom_model_data": 2200184}, "model": "item/ryhn12/slimefun/ender_talisman/warrior"},
+		{ "predicate": { "custom_model_data": 2200185}, "model": "item/ryhn12/slimefun/talisman/knight"},
+		{ "predicate": { "custom_model_data": 2200186}, "model": "item/ryhn12/slimefun/ender_talisman/knight"},
+        { "predicate": { "custom_model_data": 2200188}, "model": "item/raulh22/slimefun/slimefun/resources/valuables/synthetic_emerald"},
+        { "predicate": { "custom_model_data": 2200193}, "model": "item/ryhn12/slimefun/talisman/whirlwind"},
+		{ "predicate": { "custom_model_data": 2200194}, "model": "item/ryhn12/slimefun/ender_talisman/whirlwind"},
+		{ "predicate": { "custom_model_data": 2200195}, "model": "item/ryhn12/slimefun/talisman/wizard"},
+		{ "predicate": { "custom_model_data": 2200196}, "model": "item/ryhn12/slimefun/ender_talisman/wizard"},
+        { "predicate": { "custom_model_data": 2200600}, "model": "item/ryhn12/slimefun/ender_talisman/default"},
+		{ "predicate": { "custom_model_data": 2200601}, "model": "item/ryhn12/slimefun/talisman/caveman"},
+		{ "predicate": { "custom_model_data": 2200602}, "model": "item/ryhn12/slimefun/ender_talisman/caveman"}
+    ]
+}

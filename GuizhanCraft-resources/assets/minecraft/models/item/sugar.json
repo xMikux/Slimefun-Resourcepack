@@ -1,0 +1,18 @@
+{
+    "parent": "item/generated",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "item/sugar"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200042}, "model": "item/raulh22/slimefun/slimefun/food/magic_sugar"},
+        { "predicate": { "custom_model_data": 2200099}, "model": "item/raulh22/slimefun/slimefun/resources/dusts/tin_dust"},
+        { "predicate": { "custom_model_data": 2200101}, "model": "item/raulh22/slimefun/slimefun/resources/dusts/silver_dust"},
+		{ "predicate": { "custom_model_data": 2200102}, "model": "item/raulh22/slimefun/slimefun/resources/dusts/aluminum_dust"},
+		{ "predicate": { "custom_model_data": 2200103}, "model": "item/raulh22/slimefun/slimefun/resources/dusts/zinc_dust"},
+		{ "predicate": { "custom_model_data": 2200104}, "model": "item/raulh22/slimefun/slimefun/resources/dusts/magnesium_dust"},
+        { "predicate": { "custom_model_data": 2200114}, "model": "item/raulh22/slimefun/slimefun/miscellaneous/wheat_flour"},
+        { "predicate": { "custom_model_data": 2200198}, "model": "item/raulh22/slimefun/slimefun/miscellaneous/salt"},
+        { "predicate": { "custom_model_data": 2200378}, "model": "item/raulh22/slimefun/slimefun/resources/valuables/magnesium_salt"}
+    ]
+}

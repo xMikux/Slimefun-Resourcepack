@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:block/iron_block",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200462}, "model": "item/ybw0014/slimefun/gps/gps_teleporter_matrix"},
+        { "predicate": { "custom_model_data": 2400020}, "model": "item/ybw0014/litexpansion/blocks/machine_block"},
+        { "predicate": { "custom_model_data": 2500047}, "model": "item/ybw0014/infinityexpansion/materials/machine_core"},
+        { "predicate": { "custom_model_data": 2500052}, "model": "item/ybw0014/infinityexpansion/singularities/zinc_singularity"},
+        { "predicate": { "custom_model_data": 2500053}, "model": "item/ybw0014/infinityexpansion/singularities/tin_singularity"},
+        { "predicate": { "custom_model_data": 2500054}, "model": "item/ybw0014/infinityexpansion/singularities/aluminum_singularity"},
+        { "predicate": { "custom_model_data": 2500055}, "model": "item/ybw0014/infinityexpansion/singularities/silver_singularity"},
+        { "predicate": { "custom_model_data": 2500057}, "model": "item/ybw0014/infinityexpansion/singularities/lead_singularity"},
+        { "predicate": { "custom_model_data": 2500059}, "model": "item/ybw0014/infinityexpansion/singularities/iron_singularity"}
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/glass_bottle"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200283}, "model": "item/raulh22/slimefun/slimefun/basic_machines/juicer"},
+        { "predicate": { "custom_model_data": 2200314}, "model": "item/raulh22/slimefun/slimefun/magical_gadgets/knowledge_flask"},
+        { "predicate": { "custom_model_data": 2400030}, "model": "item/ybw0014/litexpansion/re_battery"}
+    ]
+}

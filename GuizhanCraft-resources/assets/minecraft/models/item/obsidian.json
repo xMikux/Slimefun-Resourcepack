@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/obsidian",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "block/obsidian"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200336}, "model": "item/raulh22/slimefun/slimefun/technical_components/wither_proof_obsidian"},
+        { "predicate": { "custom_model_data": 2200526}, "model": "item/raulh22/slimefun/slimefun/energy/wither_assembler"},
+        { "predicate": { "custom_model_data": 2700007}, "model": "item/raulh22/slimefun/slimefun/miscellaneous/reinforced_plate"}
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/netherite_block",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2500062}, "model": "item/ybw0014/infinityexpansion/singularities/netherite_singularity"}
+    ]
+}

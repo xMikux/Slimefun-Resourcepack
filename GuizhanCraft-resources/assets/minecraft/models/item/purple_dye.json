@@ -1,0 +1,10 @@
+{
+    "parent": "item/generated",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/purple_dye"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2400047}, "model": "item/ybw0014/litexpansion/uu_matter"}
+    ]
+}

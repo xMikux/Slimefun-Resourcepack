@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/enchanting_table",
+    "author": "RaulH22",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200338}, "model": "item/raulh22/slimefun/slimefun/magical_gadgets/ancient_altar"},
+        { "predicate": { "custom_model_data": 2200380}, "model": "item/raulh22/slimefun/slimefun/energy/auto_enchanter"},
+		{ "predicate": { "custom_model_data": 2200381}, "model": "item/raulh22/slimefun/slimefun/energy/auto_disenchanter"}
+    ]
+}

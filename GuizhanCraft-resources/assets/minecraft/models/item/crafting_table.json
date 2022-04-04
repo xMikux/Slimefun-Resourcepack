@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/crafting_table",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "block/crafting_table"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200017}, "model": "item/raulh22/slimefun/slimefun/basic_machines/enchanced_crafting_table"},
+        { "predicate": { "custom_model_data": 2200132}, "model": "item/raulh22/slimefun/slimefun/basic_machines/magic_workbench"},
+        { "predicate": { "custom_model_data": 2200350}, "model": "item/raulh22/slimefun/slimefun/energy/charging_bench"}
+    ]
+}

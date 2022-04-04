@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/diamond"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200090}, "model": "item/raulh22/slimefun/slimefun/resources/valuables/synthetic_diamond"},
+        { "predicate": { "custom_model_data": 2400041}, "model": "item/ybw0014/litexpansion/lapotron_crystal"}
+    ]
+}

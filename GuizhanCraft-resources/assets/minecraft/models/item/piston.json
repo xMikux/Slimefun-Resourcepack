@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/piston_inventory",
+    "author": "RaulH22",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200029}, "model": "item/raulh22/slimefun/slimefun/basic_machines/compressor"},
+        { "predicate": { "custom_model_data": 2200457}, "model": "item/raulh22/slimefun/slimefun/energy/refinery"}
+    ]
+}

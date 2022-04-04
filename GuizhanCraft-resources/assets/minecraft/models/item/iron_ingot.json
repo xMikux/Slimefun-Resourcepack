@@ -1,0 +1,31 @@
+{
+    "parent": "item/generated",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "item/iron_ingot"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200077}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/reinforced_alloy"},
+        { "predicate": { "custom_model_data": 2200078}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/hardened_metal"},
+		{ "predicate": { "custom_model_data": 2200079}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/damascus_steel_ingot"},
+		{ "predicate": { "custom_model_data": 2200080}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/steel_ingot"},
+        { "predicate": { "custom_model_data": 2200082}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/duralumin_ingot"},
+		{ "predicate": { "custom_model_data": 2200083}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/billon_ingot"},
+        { "predicate": { "custom_model_data": 2200088}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/solder_ingot"},
+        { "predicate": { "custom_model_data": 2200092}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/nickel_ingot"},
+		{ "predicate": { "custom_model_data": 2200093}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/cobalt_ingot"},
+        { "predicate": { "custom_model_data": 2200095}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/ferrosilicon"},
+        { "predicate": { "custom_model_data": 2200106}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/tin_ingot"},
+		{ "predicate": { "custom_model_data": 2200107}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/silver_ingot"},
+		{ "predicate": { "custom_model_data": 2200108}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/lead_ingot"},
+		{ "predicate": { "custom_model_data": 2200109}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/aluminum_ingot"},
+		{ "predicate": { "custom_model_data": 2200110}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/zinc_ingot"},
+		{ "predicate": { "custom_model_data": 2200111}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/magnesium_ingot"},
+        { "predicate": { "custom_model_data": 2400018}, "model": "item/ybw0014/litexpansion/mixed_metal_ingot"},
+        { "predicate": { "custom_model_data": 2400043}, "model": "item/ybw0014/litexpansion/refined_iron"},
+        { "predicate": { "custom_model_data": 2400044}, "model": "item/ybw0014/litexpansion/mag_thor"},
+        { "predicate": { "custom_model_data": 2500031}, "model": "item/ybw0014/infinityexpansion/materials/infinity_ingot"},
+        { "predicate": { "custom_model_data": 2500037}, "model": "item/ybw0014/infinityexpansion/materials/titanium"},
+        { "predicate": { "custom_model_data": 2500038}, "model": "item/ybw0014/infinityexpansion/materials/mythril"}
+    ]
+}

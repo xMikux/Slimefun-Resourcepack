@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "item/iron_pickaxe"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200230}, "model": "item/raulh22/slimefun/slimefun/tools/pickaxe_of_containment"},
+        { "predicate": { "custom_model_data": 2200231}, "model": "item/raulh22/slimefun/slimefun/tools/hercules_pickaxe"},
+        { "predicate": { "custom_model_data": 2200258}, "model": "item/raulh22/slimefun/slimefun/tools/cobalt_pickaxe"}
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/white_glazed_terracotta",
+    "author": "RaulH22",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200430}, "model": "item/raulh22/slimefun/slimefun/magical_gadgets/rainbow_glazed_terracotta"}
+    ]
+}

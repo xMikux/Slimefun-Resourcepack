@@ -1,0 +1,21 @@
+{
+    "parent": "item/generated",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/paper"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200049}, "model": "item/raulh22/slimefun/slimefun/magical_items/magical_book_cover"},
+        { "predicate": { "custom_model_data": 2200115}, "model": "item/raulh22/slimefun/slimefun/miscellaneous/steel_plate"},
+        { "predicate": { "custom_model_data": 2200206}, "model": "item/raulh22/slimefun/slimefun/technical_components/reinforced_cloth"},
+        { "predicate": { "custom_model_data": 2200222}, "model": "item/raulh22/slimefun/slimefun/miscellaneous/cloth"},
+        { "predicate": { "custom_model_data": 2200223}, "model": "item/raulh22/slimefun/slimefun/items/rag"},
+		{ "predicate": { "custom_model_data": 2200224}, "model": "item/raulh22/slimefun/slimefun/items/bandage"},
+        { "predicate": { "custom_model_data": 2200310}, "model": "item/raulh22/slimefun/slimefun/magical_gadgets/dimensional_scroll"},
+        { "predicate": { "custom_model_data": 2200332}, "model": "item/raulh22/slimefun/slimefun/miscellaneous/reinforced_plate"},
+        { "predicate": { "custom_model_data": 2200385}, "model": "item/raulh22/slimefun/slimefun/technical_components/plastic_sheet"},
+        { "predicate": { "custom_model_data": 2400017}, "model": "item/ybw0014/litexpansion/advanced_alloy"},
+        { "predicate": { "custom_model_data": 2400049}, "model": "item/ybw0014/litexpansion/iridium_plate"},
+        { "predicate": { "custom_model_data": 2500048}, "model": "item/ybw0014/infinityexpansion/materials/machine_plate"}
+    ]
+}

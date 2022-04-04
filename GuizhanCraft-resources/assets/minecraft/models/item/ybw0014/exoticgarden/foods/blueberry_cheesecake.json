@@ -1,0 +1,20 @@
+{
+    "parent": "item/handheld",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "items/ybw0014/exoticgarden/foods/blueberry_cheesecake",
+        "layer1": "items/ybw0014/exoticgarden/foods/blueberry_cheesecake"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 1, 0 ],
+            "scale": [ 0.55, 0.55, 0.55 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 1, 0 ],
+            "scale": [ 0.55, 0.55, 0.55 ]
+        }
+    }
+}

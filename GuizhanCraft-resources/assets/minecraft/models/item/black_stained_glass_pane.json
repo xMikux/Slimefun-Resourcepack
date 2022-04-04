@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "minecraft:block/black_stained_glass"
+    },
+    "overrides": [
+		{ "predicate": { "custom_model_data": 2200008}, "model": "item/raulh22/slimefun/slimefun/gui/previous_inactive"},
+		{ "predicate": { "custom_model_data": 2200010}, "model": "item/raulh22/slimefun/slimefun/gui/next_inactive"}
+    ]
+}

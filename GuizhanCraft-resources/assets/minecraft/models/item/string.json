@@ -1,0 +1,17 @@
+{
+    "parent": "item/generated",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/string"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200129}, "model": "item/raulh22/slimefun/slimefun/miscellaneous/chain"},
+        { "predicate": { "custom_model_data": 2200308}, "model": "item/raulh22/slimefun/slimefun/technical_components/copper_wire"},
+        { "predicate": { "custom_model_data": 2400024}, "model": "item/ybw0014/litexpansion/uninsulated_tin_cable"},
+        { "predicate": { "custom_model_data": 2400025}, "model": "item/ybw0014/litexpansion/tin_cable"},
+        { "predicate": { "custom_model_data": 2400028}, "model": "item/ybw0014/litexpansion/uninsulated_copper_cable"},
+        { "predicate": { "custom_model_data": 2400029}, "model": "item/ybw0014/litexpansion/copper_cable"},
+        { "predicate": { "custom_model_data": 2400033}, "model": "item/ybw0014/litexpansion/uninsulated_gold_cable"},
+        { "predicate": { "custom_model_data": 2400034}, "model": "item/ybw0014/litexpansion/gold_cable"}
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/black_dye"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2400052}, "model": "item/ybw0014/litexpansion/coal_dust"},
+        { "predicate": { "custom_model_data": 2400053}, "model": "item/ybw0014/litexpansion/raw_carbon_fibre"},
+        { "predicate": { "custom_model_data": 2400054}, "model": "item/ybw0014/litexpansion/raw_carbon_mesh"}
+    ]
+}

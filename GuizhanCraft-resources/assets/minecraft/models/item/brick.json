@@ -1,0 +1,15 @@
+{
+    "parent": "item/generated",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "item/brick"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200081}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/bronze_ingot"},
+        { "predicate": { "custom_model_data": 2200105}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/copper_ingot"},
+        { "predicate": { "custom_model_data": 2200217}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/redstone_alloy_ingot"},
+        { "predicate": { "custom_model_data": 2500036}, "model": "item/ybw0014/infinityexpansion/materials/magsteel"},
+        { "predicate": { "custom_model_data": 2500039}, "model": "item/ybw0014/infinityexpansion/materials/adamantite"},
+        { "predicate": { "custom_model_data": 2700002}, "model": "item/ybw0014/slimetinker/materials/seared_brick"}
+    ]
+}

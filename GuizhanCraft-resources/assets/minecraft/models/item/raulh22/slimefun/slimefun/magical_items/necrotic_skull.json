@@ -1,0 +1,54 @@
+{
+	"__comment": "By: RaulH22",
+	"textures": {
+		"particle": "items/raulh22/slimefun/slimefun/magical_items/necrotic_skull",
+		"texture": "items/raulh22/slimefun/slimefun/magical_items/necrotic_skull"
+	},
+	"elements": [
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 8, 0, 12, 4 ], "texture": "#texture" },
+				"up": { "uv": [ 4, 0, 8, 4 ], "texture": "#texture" },
+				"north": { "uv": [ 4, 4, 8, 8 ], "texture": "#texture" },
+				"south": { "uv": [ 12, 4, 16, 8 ], "texture": "#texture" },
+				"west": { "uv": [ 8, 4, 12, 8 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 4, 4, 8 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 100, 0 ],
+			"translation":  [ 0, 3, 0 ],
+			"scale":  [ 0.3, 0.3, 0.3 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 100, 0 ],
+			"translation":  [ 0, 3, 0 ],
+			"scale":  [ 0.3, 0.3, 0.3 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 225, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"ground": {
+			"translation":  [ 0, 3, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"fixed": {
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

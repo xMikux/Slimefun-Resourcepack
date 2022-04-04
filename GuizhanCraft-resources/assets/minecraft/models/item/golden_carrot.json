@@ -1,0 +1,10 @@
+{
+    "parent": "item/generated",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/golden_carrot"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2300159}, "model": "item/ybw0014/exoticgarden/foods/corn_on_the_cob"}
+    ]
+}

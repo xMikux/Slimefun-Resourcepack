@@ -1,0 +1,19 @@
+{
+    "parent": "item/handheld",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/netherite_pickaxe"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200163}, "model": "item/raulh22/slimefun/slimefun/tools/smelter_pickaxe"},
+        { "predicate": { "custom_model_data": 2200230}, "model": "item/raulh22/slimefun/slimefun/tools/pickaxe_of_containment"},
+        { "predicate": { "custom_model_data": 2200231}, "model": "item/raulh22/slimefun/slimefun/tools/hercules_pickaxe"},
+        { "predicate": { "custom_model_data": 2200241}, "model": "item/raulh22/slimefun/slimefun/tools/explosive_pickaxe"},
+        { "predicate": { "custom_model_data": 2200247}, "model": "item/raulh22/slimefun/slimefun/tools/seeker_pickaxe"},
+        { "predicate": { "custom_model_data": 2200258}, "model": "item/raulh22/slimefun/slimefun/tools/cobalt_pickaxe"},
+        { "predicate": { "custom_model_data": 2200271}, "model": "item/raulh22/slimefun/slimefun/tools/vein_pickaxe"},
+        { "predicate": { "custom_model_data": 2200275}, "model": "item/raulh22/slimefun/slimefun/tools/soulbound_pickaxe"},
+        { "predicate": { "custom_model_data": 2500114}, "model": "item/ybw0014/infinityexpansion/infinity_items/world_breaker"},
+        { "predicate": { "custom_model_data": 2600023}, "model": "item/ybw0014/fluffymachines/netherite_paxel"}
+    ]
+}

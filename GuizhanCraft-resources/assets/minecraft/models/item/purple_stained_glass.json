@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:block/purple_stained_glass",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "block/purple_stained_glass"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200449}, "model": "item/raulh22/slimefun/slimefun/technical_components/wither_proof_glass"},
+        { "predicate": { "custom_model_data": 2200461}, "model": "item/raulh22/slimefun/slimefun/gps/teleporter_pylon"}
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "items/ryhn12/slimefun/ender_talisman/water_breather"
+    }
+}

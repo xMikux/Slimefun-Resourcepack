@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/stone",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2500026}, "model": "item/ybw0014/infinityexpansion/materials/triple_compressed_cobblestone"},
+        { "predicate": { "custom_model_data": 2500027}, "model": "item/ybw0014/infinityexpansion/materials/quadruple_compressed_cobblestone"}
+    ]
+}

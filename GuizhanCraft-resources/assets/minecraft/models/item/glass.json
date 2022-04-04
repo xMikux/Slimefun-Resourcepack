@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/glass",
+    "author": "RaulH22",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200059}, "model": "item/raulh22/slimefun/slimefun/basic_machines/pressure_chamber"}
+    ]
+}

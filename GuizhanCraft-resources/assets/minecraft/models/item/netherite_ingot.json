@@ -1,0 +1,10 @@
+{
+    "parent": "item/generated",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/netherite_ingot"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2500030}, "model": "item/ybw0014/infinityexpansion/materials/void_ingot"}
+    ]
+}

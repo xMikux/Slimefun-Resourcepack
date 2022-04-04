@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/redstone_block",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2500064}, "model": "item/ybw0014/infinityexpansion/singularities/redstone_singularity"}
+    ]
+}

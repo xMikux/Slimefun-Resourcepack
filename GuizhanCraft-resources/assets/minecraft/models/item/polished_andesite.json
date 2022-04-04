@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/polished_andesite",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2500028}, "model": "item/ybw0014/infinityexpansion/materials/quintuple_compressed_cobblestone"}
+    ]
+}

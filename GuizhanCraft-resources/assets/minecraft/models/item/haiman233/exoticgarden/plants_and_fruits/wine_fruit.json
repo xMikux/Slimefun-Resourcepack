@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "items/haiman233/exoticgarden/plants_and_fruits/wine_fruit"
+    }
+}

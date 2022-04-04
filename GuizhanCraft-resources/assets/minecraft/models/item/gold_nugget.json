@@ -1,0 +1,15 @@
+{
+    "parent": "item/generated",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "item/gold_nugget"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200030}, "model": "item/raulh22/slimefun/slimefun/magical_items/magical_lump"},
+		{ "predicate": { "custom_model_data": 2200031}, "model": "item/raulh22/slimefun/slimefun/magical_items/magical_lump2"},
+		{ "predicate": { "custom_model_data": 2200032}, "model": "item/raulh22/slimefun/slimefun/magical_items/magical_lump3"},
+		{ "predicate": { "custom_model_data": 2200033}, "model": "item/raulh22/slimefun/slimefun/magical_items/ender_lump"},
+		{ "predicate": { "custom_model_data": 2200034}, "model": "item/raulh22/slimefun/slimefun/magical_items/ender_lump2"},
+		{ "predicate": { "custom_model_data": 2200035}, "model": "item/raulh22/slimefun/slimefun/magical_items/ender_lump3"}
+    ]
+}

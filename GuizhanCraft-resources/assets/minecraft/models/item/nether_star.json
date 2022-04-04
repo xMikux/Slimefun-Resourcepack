@@ -1,0 +1,14 @@
+{
+    "parent": "item/generated",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/nether_star"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2500032}, "model": "item/ybw0014/infinityexpansion/materials/fortune_singularity"},
+        { "predicate": { "custom_model_data": 2500033}, "model": "item/ybw0014/infinityexpansion/materials/magic_singularity"},
+        { "predicate": { "custom_model_data": 2500034}, "model": "item/ybw0014/infinityexpansion/materials/earth_singularity"},
+        { "predicate": { "custom_model_data": 2500035}, "model": "item/ybw0014/infinityexpansion/materials/metal_singularity"},
+        { "predicate": { "custom_model_data": 2500115}, "model": "item/ybw0014/infinityexpansion/infinity_items/infinity_matrix"}
+    ]
+}

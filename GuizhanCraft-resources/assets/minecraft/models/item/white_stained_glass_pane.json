@@ -1,0 +1,10 @@
+{
+    "parent": "item/generated",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "minecraft:block/white_stained_glass"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200427}, "model": "item/raulh22/slimefun/slimefun/magical_gadgets/rainbow_glass_pane"}
+    ]
+}

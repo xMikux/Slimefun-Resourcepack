@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:block/dispenser",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "block/dispenser"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200026}, "model": "item/raulh22/slimefun/slimefun/basic_machines/grind_stone"},
+        { "predicate": { "custom_model_data": 2200028}, "model": "item/raulh22/slimefun/slimefun/basic_machines/ore_crusher"},
+        { "predicate": { "custom_model_data": 2200309}, "model": "item/raulh22/slimefun/slimefun/basic_machines/block_placer"},
+        { "predicate": { "custom_model_data": 2200337}, "model": "item/raulh22/slimefun/slimefun/magical_items/ancient_pedestal"},
+        { "predicate": { "custom_model_data": 2200394}, "model": "item/raulh22/slimefun/slimefun/android/interface_items"},
+		{ "predicate": { "custom_model_data": 2200395}, "model": "item/raulh22/slimefun/slimefun/android/interface_fuel"}
+    ]
+}

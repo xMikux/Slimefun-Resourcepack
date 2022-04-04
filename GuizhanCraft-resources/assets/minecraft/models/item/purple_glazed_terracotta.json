@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/purple_glazed_terracotta",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2400058}, "model": "item/ybw0014/litexpansion/blocks/ultimate_solar_panel"}
+    ]
+}

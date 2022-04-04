@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:block/gray_glazed_terracotta",
+	"author": "ybw0014",
+    "textures": {
+        "side": "items/ybw0014/litexpansion/blocks/hybrid_solar_panel_side",
+		"top": "items/ybw0014/litexpansion/blocks/hybrid_solar_panel_top",
+		"bottom": "block/gray_glazed_terracotta"
+    },
+    "elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		}
+    ]
+}

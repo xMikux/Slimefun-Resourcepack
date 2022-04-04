@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/lapis_block",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2500065}, "model": "item/ybw0014/infinityexpansion/singularities/lapis_singularity"}
+    ]
+}

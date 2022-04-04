@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/coal_block",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2500063}, "model": "item/ybw0014/infinityexpansion/singularities/coal_singularity"}
+    ]
+}

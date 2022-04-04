@@ -1,0 +1,10 @@
+{
+    "parent": "minecraft:block/carpet",
+    "author": "ybw0014",
+    "textures": {
+        "wool": "minecraft:block/yellow_wool"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2400031}, "model": "item/ybw0014/litexpansion/gold_plate"}
+    ]
+}

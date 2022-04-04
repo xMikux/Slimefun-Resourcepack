@@ -1,0 +1,10 @@
+{
+    "parent": "item/generated",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/nether_brick"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2500040}, "model": "item/ybw0014/infinityexpansion/materials/magnonium"}
+    ]
+}

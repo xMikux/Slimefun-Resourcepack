@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+	"author": "ybw0014",
+    "textures": {
+        "layer0": "items/ybw0014/litexpansion/gold_cable"
+    }
+}

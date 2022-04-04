@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/netherite_shovel"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2500113}, "model": "item/ybw0014/infinityexpansion/infinity_items/mountain_eater"},
+        { "predicate": { "custom_model_data": 2600023}, "model": "item/ybw0014/fluffymachines/netherite_paxel"}
+    ]
+}

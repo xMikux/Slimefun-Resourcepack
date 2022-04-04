@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "item/bowl"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200053}, "model": "item/raulh22/slimefun/slimefun/tools/gold_pan"},
+        { "predicate": { "custom_model_data": 2200054}, "model": "item/raulh22/slimefun/slimefun/tools/nether_gold_pan"},
+        { "predicate": { "custom_model_data": 2200243}, "model": "item/raulh22/slimefun/slimefun/basic_machines/automated_panning_machine"}
+    ]
+}

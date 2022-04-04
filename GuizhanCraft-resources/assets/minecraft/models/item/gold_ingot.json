@@ -1,0 +1,29 @@
+{
+    "parent": "item/generated",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/gold_ingot"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200084}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/brass_ingot"},
+		{ "predicate": { "custom_model_data": 2200085}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/aluminum_brass_ingot"},
+		{ "predicate": { "custom_model_data": 2200086}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/aluminum_bronze_ingot"},
+		{ "predicate": { "custom_model_data": 2200087}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/corinthian_bronze_ingot"},
+        { "predicate": { "custom_model_data": 2200144}, "model": "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_24"},
+		{ "predicate": { "custom_model_data": 2200145}, "model": "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_22"},
+		{ "predicate": { "custom_model_data": 2200146}, "model": "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_20"},
+		{ "predicate": { "custom_model_data": 2200147}, "model": "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_18"},
+		{ "predicate": { "custom_model_data": 2200148}, "model": "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_16"},
+		{ "predicate": { "custom_model_data": 2200149}, "model": "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_14"},
+		{ "predicate": { "custom_model_data": 2200150}, "model": "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_12"},
+		{ "predicate": { "custom_model_data": 2200151}, "model": "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_10"},
+		{ "predicate": { "custom_model_data": 2200152}, "model": "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_8"},
+		{ "predicate": { "custom_model_data": 2200153}, "model": "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_6"},
+		{ "predicate": { "custom_model_data": 2200154}, "model": "item/raulh22/slimefun/slimefun/resources/gold_ingots/gold_ingot_4"},
+        { "predicate": { "custom_model_data": 2200187}, "model": "item/raulh22/slimefun/slimefun/resources/ingots/gilded_iron"},
+		{ "predicate": { "custom_model_data": 2200466}, "model": "item/raulh22/slimefun/slimefun/resources/radioactive_materials/blistering_ingot_33"},
+		{ "predicate": { "custom_model_data": 2200467}, "model": "item/raulh22/slimefun/slimefun/resources/radioactive_materials/blistering_ingot_66"},
+		{ "predicate": { "custom_model_data": 2200468}, "model": "item/raulh22/slimefun/slimefun/resources/radioactive_materials/blistering_ingot_100"},
+		{ "predicate": { "custom_model_data": 2500043}, "model": "item/ybw0014/infinityexpansion/materials/machine_circuit"}
+    ]
+}

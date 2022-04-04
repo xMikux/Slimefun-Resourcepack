@@ -1,0 +1,16 @@
+{
+    "parent": "item/handheld",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/shears"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200136}, "model": "item/ybw0014/slimefun/technical_gadgets/multi_tool"},
+        { "predicate": { "custom_model_data": 2200137}, "model": "item/ybw0014/slimefun/technical_gadgets/multi_tool"},
+        { "predicate": { "custom_model_data": 2200138}, "model": "item/ybw0014/slimefun/technical_gadgets/multi_tool"},
+        { "predicate": { "custom_model_data": 2200139}, "model": "item/ybw0014/slimefun/technical_gadgets/multi_tool"},
+        { "predicate": { "custom_model_data": 2200140}, "model": "item/ybw0014/slimefun/technical_gadgets/multi_tool"},
+        { "predicate": { "custom_model_data": 2200141}, "model": "item/ybw0014/slimefun/technical_gadgets/multi_tool"},
+        { "predicate": { "custom_model_data": 2200142}, "model": "item/ybw0014/slimefun/technical_gadgets/multi_tool"}
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "parent": "item/generated",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/blaze_powder"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2500023}, "model": "item/ybw0014/infinityexpansion/materials/ender_essence"}
+    ]
+}

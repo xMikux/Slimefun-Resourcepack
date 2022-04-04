@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/netherite_axe"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200270}, "model": "item/raulh22/slimefun/slimefun/weapons/seismic_axe"},
+        { "predicate": { "custom_model_data": 2200197}, "model": "item/raulh22/slimefun/slimefun/tools/lumber_axe"},
+        { "predicate": { "custom_model_data": 2200276}, "model": "item/raulh22/slimefun/slimefun/tools/soulbound_axe"},
+        { "predicate": { "custom_model_data": 2500111}, "model": "item/ybw0014/infinityexpansion/infinity_items/nature_ruin"},
+        { "predicate": { "custom_model_data": 2600023}, "model": "item/ybw0014/fluffymachines/netherite_paxel"}
+    ]
+}

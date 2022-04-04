@@ -1,0 +1,29 @@
+{
+    "parent": "minecraft:block/furnace",
+    "author": "RaulH22",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200057}, "model": "item/raulh22/slimefun/slimefun/basic_machines/smeltery"},
+        { "predicate": { "custom_model_data": 2200292}, "model": "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_1"},
+		{ "predicate": { "custom_model_data": 2200293}, "model": "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_2"},
+		{ "predicate": { "custom_model_data": 2200294}, "model": "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_3"},
+		{ "predicate": { "custom_model_data": 2200295}, "model": "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_4"},
+		{ "predicate": { "custom_model_data": 2200296}, "model": "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_5"},
+		{ "predicate": { "custom_model_data": 2200297}, "model": "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_6"},
+		{ "predicate": { "custom_model_data": 2200298}, "model": "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_7"},
+		{ "predicate": { "custom_model_data": 2200299}, "model": "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_8"},
+		{ "predicate": { "custom_model_data": 2200300}, "model": "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_9"},
+		{ "predicate": { "custom_model_data": 2200301}, "model": "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_10"},
+		{ "predicate": { "custom_model_data": 2200302}, "model": "item/raulh22/slimefun/slimefun/basic_machines/enhanced_furnace_11"},
+		{ "predicate": { "custom_model_data": 2200303}, "model": "item/raulh22/slimefun/slimefun/basic_machines/reinforced_furnace"},
+		{ "predicate": { "custom_model_data": 2200304}, "model": "item/raulh22/slimefun/slimefun/basic_machines/carbonado_edged_furnace"},
+        { "predicate": { "custom_model_data": 2200351}, "model": "item/raulh22/slimefun/slimefun/energy/electric_furnace"},
+		{ "predicate": { "custom_model_data": 2200352}, "model": "item/raulh22/slimefun/slimefun/energy/electric_furnace2"},
+		{ "predicate": { "custom_model_data": 2200353}, "model": "item/raulh22/slimefun/slimefun/energy/electric_furnace3"},
+        { "predicate": { "custom_model_data": 2200366}, "model": "item/raulh22/slimefun/slimefun/energy/electric_ore_grinder"},
+		{ "predicate": { "custom_model_data": 2200367}, "model": "item/raulh22/slimefun/slimefun/energy/electric_ore_grinder2"},
+        { "predicate": { "custom_model_data": 2200370}, "model": "item/raulh22/slimefun/slimefun/energy/electric_ingot_pulverizer"},
+		{ "predicate": { "custom_model_data": 2200523}, "model": "item/raulh22/slimefun/slimefun/energy/electric_smeltery"},
+		{ "predicate": { "custom_model_data": 2200524}, "model": "item/raulh22/slimefun/slimefun/energy/electric_smeltery2"},
+		{ "predicate": { "custom_model_data": 2200529}, "model": "item/raulh22/slimefun/slimefun/energy/electric_ore_grinder3"}
+    ]
+}

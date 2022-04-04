@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/nether_bricks",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2500056}, "model": "item/ybw0014/infinityexpansion/singularities/magnesium_singularity"}
+    ]
+}

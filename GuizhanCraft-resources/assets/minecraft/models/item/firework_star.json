@@ -1,0 +1,21 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/firework_star",
+        "layer1": "item/firework_star_overlay"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200156}, "model": "item/raulh22/slimefun/slimefun/resources/valuables/silicon"},
+        { "predicate": { "custom_model_data": 2200409}, "model": "item/raulh22/slimefun/slimefun/magical_items/rune_blank"},
+		{ "predicate": { "custom_model_data": 2200410}, "model": "item/raulh22/slimefun/slimefun/magical_items/rune_air"},
+		{ "predicate": { "custom_model_data": 2200411}, "model": "item/raulh22/slimefun/slimefun/magical_items/rune_earth"},
+		{ "predicate": { "custom_model_data": 2200412}, "model": "item/raulh22/slimefun/slimefun/magical_items/rune_fire"},
+		{ "predicate": { "custom_model_data": 2200413}, "model": "item/raulh22/slimefun/slimefun/magical_items/rune_water"},
+		{ "predicate": { "custom_model_data": 2200414}, "model": "item/raulh22/slimefun/slimefun/magical_items/rune_ender"},
+		{ "predicate": { "custom_model_data": 2200415}, "model": "item/raulh22/slimefun/slimefun/magical_items/rune_lightning"},
+		{ "predicate": { "custom_model_data": 2200416}, "model": "item/raulh22/slimefun/slimefun/magical_items/rune_rainbow"},
+		{ "predicate": { "custom_model_data": 2200417}, "model": "item/raulh22/slimefun/slimefun/magical_items/rune_soulbound"},
+		{ "predicate": { "custom_model_data": 2200418}, "model": "item/raulh22/slimefun/slimefun/magical_items/rune_enchantment"},
+		{ "predicate": { "custom_model_data": 2400015}, "model": "item/ybw0014/litexpansion/rubber"}
+    ]
+}

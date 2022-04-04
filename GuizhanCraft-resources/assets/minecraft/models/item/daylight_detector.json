@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/daylight_detector",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200157}, "model": "item/ybw0014/slimefun/technical_components/solar_panel"}
+    ]
+}

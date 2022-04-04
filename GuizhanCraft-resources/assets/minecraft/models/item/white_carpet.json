@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:block/carpet",
+    "author": "ybw0014",
+    "textures": {
+        "wool": "minecraft:block/white_wool"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2400022}, "model": "item/ybw0014/litexpansion/tin_plate"},
+        { "predicate": { "custom_model_data": 2400035}, "model": "item/ybw0014/litexpansion/iron_plate"}
+    ]
+}

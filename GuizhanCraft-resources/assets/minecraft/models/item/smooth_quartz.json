@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/smooth_quartz",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2500067}, "model": "item/ybw0014/infinityexpansion/singularities/infinity_singularity"}
+    ]
+}

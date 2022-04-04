@@ -1,0 +1,10 @@
+{
+    "parent": "item/generated",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/iron_helmet"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200158}, "model": "item/ybw0014/slimefun/technical_gadgets/solar_helmet"}
+    ]
+}

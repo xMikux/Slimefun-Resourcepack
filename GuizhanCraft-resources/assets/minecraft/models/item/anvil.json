@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/anvil",
+    "author": "RaulH22",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200027}, "model": "item/raulh22/slimefun/slimefun/basic_machines/armor_forge"}
+    ]
+}

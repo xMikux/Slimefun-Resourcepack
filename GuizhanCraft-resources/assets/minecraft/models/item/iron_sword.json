@@ -1,0 +1,32 @@
+{
+    "parent": "item/generated",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/iron_sword"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200048}, "model": "item/raulh22/slimefun/slimefun/weapons/sword_of_beheading"},
+        { "predicate": { "custom_model_data": 2410001}, "model": "item/ybw0014/extragear/copper_sword"},
+        { "predicate": { "custom_model_data": 2410006}, "model": "item/ybw0014/extragear/tin_sword"},
+        { "predicate": { "custom_model_data": 2410011}, "model": "item/ybw0014/extragear/silver_sword"},
+        { "predicate": { "custom_model_data": 2410016}, "model": "item/ybw0014/extragear/aluminum_sword"},
+        { "predicate": { "custom_model_data": 2410021}, "model": "item/ybw0014/extragear/lead_sword"},
+        { "predicate": { "custom_model_data": 2410026}, "model": "item/ybw0014/extragear/zinc_sword"},
+        { "predicate": { "custom_model_data": 2410031}, "model": "item/ybw0014/extragear/magnesium_sword"},
+        { "predicate": { "custom_model_data": 2410036}, "model": "item/ybw0014/extragear/steel_sword"},
+        { "predicate": { "custom_model_data": 2410041}, "model": "item/ybw0014/extragear/bronze_sword"},
+        { "predicate": { "custom_model_data": 2410042}, "model": "item/ybw0014/extragear/duralumin_sword"},
+        { "predicate": { "custom_model_data": 2410043}, "model": "item/ybw0014/extragear/billon_sword"},
+        { "predicate": { "custom_model_data": 2410044}, "model": "item/ybw0014/extragear/brass_sword"},
+        { "predicate": { "custom_model_data": 2410045}, "model": "item/ybw0014/extragear/aluminum_brass_sword"},
+        { "predicate": { "custom_model_data": 2410046}, "model": "item/ybw0014/extragear/aluminum_bronze_sword"},
+        { "predicate": { "custom_model_data": 2410047}, "model": "item/ybw0014/extragear/corinthian_bronze_sword"},
+        { "predicate": { "custom_model_data": 2410048}, "model": "item/ybw0014/extragear/solder_sword"},
+        { "predicate": { "custom_model_data": 2410049}, "model": "item/ybw0014/extragear/damascus_steel_sword"},
+        { "predicate": { "custom_model_data": 2410050}, "model": "item/ybw0014/extragear/hardened_sword"},
+        { "predicate": { "custom_model_data": 2410051}, "model": "item/ybw0014/extragear/reinforced_sword"},
+        { "predicate": { "custom_model_data": 2410052}, "model": "item/ybw0014/extragear/ferrosilicon_sword"},
+        { "predicate": { "custom_model_data": 2410054}, "model": "item/ybw0014/extragear/nickel_sword"},
+        { "predicate": { "custom_model_data": 2410055}, "model": "item/ybw0014/extragear/cobalt_sword"}
+    ]
+}

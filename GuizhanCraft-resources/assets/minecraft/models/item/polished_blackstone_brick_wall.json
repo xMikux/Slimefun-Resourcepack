@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/polished_blackstone_brick_wall_inventory",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2700005}, "model": "item/ybw0014/slimetinker/materials/blocks/faucet"}
+    ]
+}

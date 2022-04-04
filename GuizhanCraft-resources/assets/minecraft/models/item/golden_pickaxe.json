@@ -1,0 +1,13 @@
+{
+    "parent": "item/handheld",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "item/golden_pickaxe"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200230}, "model": "item/raulh22/slimefun/slimefun/tools/pickaxe_of_containment"},
+        { "predicate": { "custom_model_data": 2200231}, "model": "item/raulh22/slimefun/slimefun/tools/hercules_pickaxe"},
+        { "predicate": { "custom_model_data": 2200244}, "model": "item/raulh22/slimefun/slimefun/basic_machines/industrial_miner"},
+        { "predicate": { "custom_model_data": 2200258}, "model": "item/raulh22/slimefun/slimefun/tools/cobalt_pickaxe"}
+    ]
+}

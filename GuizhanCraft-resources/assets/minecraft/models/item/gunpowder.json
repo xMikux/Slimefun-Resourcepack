@@ -1,0 +1,17 @@
+{
+    "parent": "item/generated",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "item/gunpowder"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200055}, "model": "item/raulh22/slimefun/slimefun/miscellaneous/sifted_ore"},
+        { "predicate": { "custom_model_data": 2200096}, "model": "item/raulh22/slimefun/slimefun/resources/dusts/iron_dust"},
+        { "predicate": { "custom_model_data": 2200100}, "model": "item/raulh22/slimefun/slimefun/resources/dusts/lead_dust"},
+        { "predicate": { "custom_model_data": 2200211}, "model": "item/raulh22/slimefun/slimefun/miscellaneous/crushed_ore"},
+		{ "predicate": { "custom_model_data": 2200212}, "model": "item/raulh22/slimefun/slimefun/miscellaneous/pulverized_ore"},
+		{ "predicate": { "custom_model_data": 2200213}, "model": "item/raulh22/slimefun/slimefun/miscellaneous/pure_ore_cluster"},
+        { "predicate": { "custom_model_data": 2200260}, "model": "item/raulh22/slimefun/slimefun/magical_items/essence_of_afterlife"},
+        { "predicate": { "custom_model_data": 2500029}, "model": "item/ybw0014/infinityexpansion/materials/void_dust"}
+    ]
+}

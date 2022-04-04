@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/chiseled_polished_blackstone",
+    "author": "ybw0014",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2700003}, "model": "item/ybw0014/slimetinker/materials/blocks/smeltery_controller"}
+    ]
+}

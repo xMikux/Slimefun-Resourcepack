@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "item/glowstone_dust"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200097}, "model": "item/raulh22/slimefun/slimefun/resources/dusts/gold_dust"},
+		{ "predicate": { "custom_model_data": 2200098}, "model": "item/raulh22/slimefun/slimefun/resources/dusts/copper_dust"},
+        { "predicate": { "custom_model_data": 2200112}, "model": "item/raulh22/slimefun/slimefun/resources/valuables/sulfate"}
+    ]
+}

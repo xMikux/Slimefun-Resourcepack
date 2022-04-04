@@ -1,0 +1,12 @@
+{
+    "parent": "item/handheld",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/iron_hoe"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2400003}, "model": "item/ybw0014/simpleutils/simple_wrench"},
+        { "predicate": { "custom_model_data": 2600016}, "model": "item/ybw0014/fluffymachines/scythe"},
+        { "predicate": { "custom_model_data": 2800002}, "model": "item/ybw0014/slimetreetap/reinforced_treetap"}
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "parent": "item/generated",
+    "author": "RaulH22",
+    "textures": {
+        "layer0": "item/ender_eye"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200041}, "model": "item/raulh22/slimefun/slimefun/magical_gadgets/magic_ender_eye"}
+    ]
+}

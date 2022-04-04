@@ -1,0 +1,20 @@
+{
+    "parent": "minecraft:item/generated",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/enchanted_book"
+    },
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 0, 1, 0 ],
+			"scale": [ 0.55, 0.55, 0.55 ]
+		}
+	},
+    "overrides": [
+		{ "predicate": { "custom_model_data": 2200001}, "model": "item/raulh22/slimefun/slimefun/gui/slimefun_guide"},
+        { "predicate": { "custom_model_data": 2200003}, "model": "item/raulh22/slimefun/slimefun/gui/back"},
+        { "predicate": { "custom_model_data": 2200313}, "model": "item/raulh22/slimefun/slimefun/magical_gadgets/knowledge_tome"},
+        { "predicate": { "custom_model_data": 2500104}, "model": "item/ybw0014/infinityexpansion/materials/ender_flame"}
+    ]
+}

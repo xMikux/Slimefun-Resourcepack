@@ -1,0 +1,10 @@
+{
+    "parent": "item/handheld",
+    "author": "ybw0014",
+    "textures": {
+        "layer0": "item/shulker_shell"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2200610}, "model": "item/rythn12/slimefun/magical_items/synthetic_shulker_shell"}
+    ]
+}
