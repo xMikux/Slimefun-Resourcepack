@@ -2837,7 +2837,7 @@ items:
     display_name: slimefun
     permission: slimefun
     resource:
-      material: BROWN_TERRACOTA
+      material: BROWN_TERRACOTTA
       generate: false
       model_id: 2200354
       model_path: "slimefun/energy/electric_gold_pan"
@@ -2845,7 +2845,7 @@ items:
     display_name: slimefun
     permission: slimefun
     resource:
-      material: BROWN_TERRACOTA
+      material: BROWN_TERRACOTTA
       generate: false
       model_id: 2200355
       model_path: "slimefun/energy/electric_gold_pan2"
@@ -2853,7 +2853,7 @@ items:
     display_name: slimefun
     permission: slimefun
     resource:
-      material: BROWN_TERRACOTA
+      material: BROWN_TERRACOTTA
       generate: false
       model_id: 2200356
       model_path: "slimefun/energy/electric_gold_pan3"
@@ -2885,7 +2885,7 @@ items:
     display_name: slimefun
     permission: slimefun
     resource:
-      material: RED_TERRACOTA
+      material: RED_TERRACOTTA
       generate: false
       model_id: 2200360
       model_path: "slimefun/energy/electric_ingot_factory"
@@ -2893,7 +2893,7 @@ items:
     display_name: slimefun
     permission: slimefun
     resource:
-      material: RED_TERRACOTA
+      material: RED_TERRACOTTA
       generate: false
       model_id: 2200361
       model_path: "slimefun/energy/electric_ingot_factory_2"
@@ -2901,7 +2901,7 @@ items:
     display_name: slimefun
     permission: slimefun
     resource:
-      material: RED_TERRACOTA
+      material: RED_TERRACOTTA
       generate: false
       model_id: 2200362
       model_path: "slimefun/energy/electric_ingot_factory_3"
