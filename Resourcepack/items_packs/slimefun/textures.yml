@@ -2834,29 +2834,29 @@ items:
       model_id: 2200353
       model_path: "slimefun/energy/electric_furnace3"
   electric_gold_pan:
-   display_name: slimefun
-   permission: slimefun
-   resource:
-     material: BROWN_TERRACOTA
-     generate: false
-     model_id: 2200354
-     model_path: "slimefun/energy/electric_gold_pan"
- electric_gold_pan_2:
-   display_name: slimefun
-   permission: slimefun
-   resource:
-     material: BROWN_TERRACOTA
-     generate: false
-     model_id: 2200355
-     model_path: "slimefun/energy/electric_gold_pan2"
- electric_gold_pan_3:
-   display_name: slimefun
-   permission: slimefun
-   resource:
-     material: BROWN_TERRACOTA
-     generate: false
-     model_id: 2200356
-     model_path: "slimefun/energy/electric_gold_pan3"
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: BROWN_TERRACOTA
+      generate: false
+      model_id: 2200354
+      model_path: "slimefun/energy/electric_gold_pan"
+  electric_gold_pan_2:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: BROWN_TERRACOTA
+      generate: false
+      model_id: 2200355
+      model_path: "slimefun/energy/electric_gold_pan2"
+  electric_gold_pan_3:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: BROWN_TERRACOTA
+      generate: false
+      model_id: 2200356
+      model_path: "slimefun/energy/electric_gold_pan3"
   # electric_dust_washer:
   #   display_name: slimefun
   #   permission: slimefun
