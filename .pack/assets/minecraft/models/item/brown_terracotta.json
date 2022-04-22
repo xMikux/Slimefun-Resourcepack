@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:block/brown_terracotta",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200354
+      },
+      "model": "slimefun:slimefun/energy/electric_gold_pan"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200355
+      },
+      "model": "slimefun:slimefun/energy/electric_gold_pan2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200356
+      },
+      "model": "slimefun:slimefun/energy/electric_gold_pan3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200357
+      },
+      "model": "minecraft:item/brown_terracotta"
+    }
+  ]
+}

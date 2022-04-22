@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:block/red_terracotta",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200360
+      },
+      "model": "slimefun:slimefun/energy/electric_ingot_factory"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200361
+      },
+      "model": "slimefun:slimefun/energy/electric_ingot_factory_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200362
+      },
+      "model": "slimefun:slimefun/energy/electric_ingot_factory_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200363
+      },
+      "model": "minecraft:item/red_terracotta"
+    }
+  ]
+}
