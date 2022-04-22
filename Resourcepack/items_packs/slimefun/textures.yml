@@ -2896,7 +2896,7 @@ items:
       material: RED_TERRACOTTA
       generate: false
       model_id: 2200361
-      model_path: "slimefun/energy/electric_ingot_factory_2"
+      model_path: "slimefun/energy/electric_ingot_factory2"
   electric_ingot_factory_3:
     display_name: slimefun
     permission: slimefun
@@ -2904,7 +2904,7 @@ items:
       material: RED_TERRACOTTA
       generate: false
       model_id: 2200362
-      model_path: "slimefun/energy/electric_ingot_factory_3"
+      model_path: "slimefun/energy/electric_ingot_factory3"
   # electrified_crucible:
   #   display_name: slimefun
   #   permission: slimefun
