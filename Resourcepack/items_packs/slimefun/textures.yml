@@ -2881,30 +2881,30 @@ items:
   #     generate: false
   #     model_id: 2200359
   #     model_path: "slimefun/none"
-   electric_ingot_factory:
-     display_name: slimefun
-     permission: slimefun
-     resource:
+  electric_ingot_factory:
+    display_name: slimefun
+    permission: slimefun
+    resource:
       material: RED_TERRACOTA
-       generate: false
-       model_id: 2200360
-       model_path: "slimefun/energy/electric_ingot_factory"
-   electric_ingot_factory_2:
-     display_name: slimefun
-     permission: slimefun
-     resource:
-       material: RED_TERRACOTA
-       generate: false
-       model_id: 2200361
-       model_path: "slimefun/energy/electric_ingot_factory_2"
-   electric_ingot_factory_3:
-     display_name: slimefun
-     permission: slimefun
-     resource:
-       material: RED_TERRACOTA
-       generate: false
-       model_id: 2200362
-       model_path: "slimefun/energy/electric_ingot_factory_3"
+      generate: false
+      model_id: 2200360
+      model_path: "slimefun/energy/electric_ingot_factory"
+  electric_ingot_factory_2:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: RED_TERRACOTA
+      generate: false
+      model_id: 2200361
+      model_path: "slimefun/energy/electric_ingot_factory_2"
+  electric_ingot_factory_3:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: RED_TERRACOTA
+      generate: false
+      model_id: 2200362
+      model_path: "slimefun/energy/electric_ingot_factory_3"
   # electrified_crucible:
   #   display_name: slimefun
   #   permission: slimefun
