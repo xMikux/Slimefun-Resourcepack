@@ -6,6 +6,11 @@ on:
     - Resourcepack/**
     - Default/minecraft/**
 
+env:
+  # Validator Config Path
+  config_json: .github/configs/schema.json
+  config_yaml: .github/configs/yaml-linter.yml
+
 jobs:
   Validator:
     runs-on: ubuntu-latest
