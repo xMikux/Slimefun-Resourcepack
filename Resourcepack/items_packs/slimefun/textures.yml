@@ -2905,30 +2905,30 @@ items:
       generate: false
       model_id: 2200362
       model_path: "slimefun/energy/electric_ingot_factory3"
-  # electrified_crucible:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200363
-  #     model_path: "slimefun/none"
-  # electrified_crucible_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200364
-  #     model_path: "slimefun/none"
-  # electrified_crucible_3:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200365
-  #     model_path: "slimefun/none"
+  electrified_crucible:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: RED_TERRACOTTA
+      generate: false
+      model_id: 2200363
+      model_path: "slimefun/energy/electrified_crucible"
+  electrified_crucible_2:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: RED_TERRACOTTA
+      generate: false
+      model_id: 2200364
+      model_path: "slimefun/energy/electrified_crucible2"
+  electrified_crucible_3:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: RED_TERRACOTTA
+      generate: false
+      model_id: 2200365
+      model_path: "slimefun/energy/electrified_crucible3"
   electric_ore_grinder:
     display_name: slimefun
     permission: slimefun
