@@ -84,7 +84,7 @@ Welcome to contribute it!
 * [ybw0014](https://gzss.link/sf-texture) Another Repo collect a lot of texture
 * DragonMysterious Contribute Multi Tool Texturs
 * AnsonYK Contribute Solar Panel, Electric Ore Grinder 3, Famer Talisman, Infinity Capacitor
-* [SofiaRedmond](https://github.com/SofiaRedmond) I am the sexiest girl in this repository.
+* [Sofia Redmond](https://github.com/SofiaRedmond), the sexiest girl in this repository
 
 **There are many textures collected from the internet.**
 
