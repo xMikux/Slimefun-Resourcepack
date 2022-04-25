@@ -23,6 +23,24 @@
       "predicate": {
         "custom_model_data": 2200363
       },
+      "model": "slimefun:slimefun/energy/electrified_crucible"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200364
+      },
+      "model": "slimefun:slimefun/energy/electrified_crucible2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200365
+      },
+      "model": "slimefun:slimefun/energy/electrified_crucible3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200366
+      },
       "model": "minecraft:item/red_terracotta"
     }
   ]
