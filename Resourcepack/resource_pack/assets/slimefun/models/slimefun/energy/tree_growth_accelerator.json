@@ -2,7 +2,7 @@
     "parent": "item/handheld",
 	"author": "Sofia_Redmond",
     "textures": {
-        "layer0": "slimefun:slimefun/basic_machines/makeshift_smeltery"
+        "layer0": "slimefun:slimefun/energy/tree_growth_accelerator"
     },
 	"display": {
 		"thirdperson_righthand": {

@@ -465,14 +465,14 @@ items:
       generate: false
       model_id: 2200055
       model_path: "slimefun/miscellaneous/sifted_ore"
-  # makeshift_smeltery:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: BLAST_FURNACE
-  #     generate: false
-  #     model_id: 2200056
-  #     model_path: "slimefun/none"
+  makeshift_smeltery:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: BLAST_FURNACE
+      generate: false
+      model_id: 2200056
+      model_path: "slimefun/basic_machines/makeshift_smeltery"
   smeltery:
     display_name: slimefun
     permission: slimefun
@@ -3881,14 +3881,14 @@ items:
   #     generate: false
   #     model_id: 2200484
   #     model_path: "slimefun/none"
-  # tree_growth_accelerator:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200485
-  #     model_path: "slimefun/none"
+  tree_growth_accelerator:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: BROWN_TERRACOTTA
+      generate: false
+      model_id: 2200485
+      model_path: "slimefun/energy/tree_growth_accelerator"
   exp_collector:
     display_name: slimefun
     permission: slimefun
@@ -4379,3 +4379,11 @@ items:
       generate: false
       model_id: 2200546
       model_path: "slimefun/talisman2/farmer"
+  climbing_pick:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_PICKAXE
+      generate: false
+      model_id: 2200547
+      model_path: "slimefun/tools/climbing_pick"
