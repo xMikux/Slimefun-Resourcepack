@@ -2079,7 +2079,7 @@ items:
     resource:
       material: IRON_PICKAXE
       generate: false
-      model_id: 2200258
+      model_id: 2200882
       model_path: "slimefun/tools/climbing_pick"
   necrotic_skull:
     display_name: slimefun
