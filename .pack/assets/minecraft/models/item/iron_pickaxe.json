@@ -24,7 +24,13 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2200259
+        "custom_model_data": 2200547
+      },
+      "model": "slimefun:slimefun/tools/climbing_pick"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200548
       },
       "model": "minecraft:item/iron_pickaxe"
     }

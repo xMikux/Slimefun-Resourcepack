@@ -21,7 +21,13 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2200357
+        "custom_model_data": 2200485
+      },
+      "model": "slimefun:slimefun/energy/tree_growth_accelerator"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200486
       },
       "model": "minecraft:item/brown_terracotta"
     }
