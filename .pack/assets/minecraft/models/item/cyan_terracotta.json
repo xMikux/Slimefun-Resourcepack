@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:block/cyan_terracotta",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200517
+      },
+      "model": "slimefun:slimefun/cargo/reactor_access_port"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200518
+      },
+      "model": "minecraft:item/cyan_terracotta"
+    }
+  ]
+}

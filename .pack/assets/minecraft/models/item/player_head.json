@@ -735,6 +735,24 @@
     },
     {
       "predicate": {
+        "custom_model_data": 2200540
+      },
+      "model": "slimefun:slimefun/cargo/vanilla_auto_crafter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200541
+      },
+      "model": "slimefun:slimefun/cargo/enhanced_auto_crafter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200542
+      },
+      "model": "slimefun:slimefun/cargo/armor_auto_crafter"
+    },
+    {
+      "predicate": {
         "custom_model_data": 2200652
       },
       "model": "infinityexpansion:machines/infinity_capacitor"

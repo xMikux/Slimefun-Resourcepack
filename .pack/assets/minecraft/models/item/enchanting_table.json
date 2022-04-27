@@ -21,7 +21,19 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2200382
+        "custom_model_data": 2200535
+      },
+      "model": "slimefun:slimefun/energy/auto_enchanter_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200536
+      },
+      "model": "slimefun:slimefun/energy/auto_disenchanter_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200537
       },
       "model": "minecraft:item/enchanting_table"
     }

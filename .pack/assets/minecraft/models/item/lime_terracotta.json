@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:block/lime_terracotta",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2200499
+      },
+      "model": "slimefun:slimefun/energy/crop_growth_accelerator"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200500
+      },
+      "model": "slimefun:slimefun/energy/crop_growth_accelerator_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2200501
+      },
+      "model": "minecraft:item/lime_terracotta"
+    }
+  ]
+}
