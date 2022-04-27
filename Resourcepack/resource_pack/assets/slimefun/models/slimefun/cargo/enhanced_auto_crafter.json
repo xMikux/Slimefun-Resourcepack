@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "author": "Jerry",
   "textures": {
-    "layer0": "slimefun:item/raulh22/slimefun/slimefun/cargo/enhanced_auto_crafter"
+    "layer0": "slimefun:slimefun/cargo/enhanced_auto_crafter"
   }
 }

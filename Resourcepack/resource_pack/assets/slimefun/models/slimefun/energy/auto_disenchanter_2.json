@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "author": "Jerry",
   "textures": {
-    "layer0": "slimefun:item/raulh22/slimefun/slimefun/energy/auto_disenchanter_2"
+    "layer0": "slimefun:slimefun/energy/auto_disenchanter_2"
   }
 }

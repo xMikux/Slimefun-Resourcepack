@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "author": "Jerry",
   "textures": {
-    "layer0": "slimefun:item/raulh22/slimefun/slimefun/technical_gadgets/damascus_steel_jetpack"
+    "layer0": "slimefun:slimefun/technical_gadgets/damascus_steel_jetpack"
   }
 }
