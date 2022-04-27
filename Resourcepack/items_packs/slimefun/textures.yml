@@ -3993,22 +3993,22 @@ items:
       generate: false
       model_id: 2200498
       model_path: "slimefun/miscellaneous/organic_fertilizer/cocoa_beans"
-  # crop_growth_accelerator:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LIME_TERRACOTTA
-  #     generate: false
-  #     model_id: 2200499
-  #     model_path: "slimefun/none"
-  # crop_growth_accelerator_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LIME_TERRACOTTA
-  #     generate: false
-  #     model_id: 2200500
-  #     model_path: "slimefun/none"
+  crop_growth_accelerator:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LIME_TERRACOTTA
+      generate: false
+      model_id: 2200499
+      model_path: "slimefun/energy/crop_growth_accelerator"
+  crop_growth_accelerator_2:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LIME_TERRACOTTA
+      generate: false
+      model_id: 2200500
+      model_path: "slimefun/energy/crop_growth_accelerator_2"
   # freezer:
   #   display_name: slimefun
   #   permission: slimefun
