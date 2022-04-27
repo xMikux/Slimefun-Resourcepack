@@ -4137,14 +4137,14 @@ items:
       generate: false
       model_id: 2200516
       model_path: "slimefun/energy/automated_crafting_chamber"
-  # reactor_access_port:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: CYAN_TERRACOTTA
-  #     generate: false
-  #     model_id: 2200517
-  #     model_path: "slimefun/none"
+  reactor_access_port:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: CYAN_TERRACOTTA
+      generate: false
+      model_id: 2200517
+      model_path: "slimefun/cargo/reactor_access_port"
   # fluid_pump:
   #   display_name: slimefun
   #   permission: slimefun
@@ -4323,30 +4323,30 @@ items:
       generate: false
       model_id: 2200539
       model_path: "slimefun/cargo/crafting_motor"
-  # vanilla_auto_crafter:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200540
-  #     model_path: "slimefun/cargo/vanilla_auto_crafter"
-  # enhanced_auto_crafter:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200541
-  #     model_path: "slimefun/cargo/enhanced_auto_crafter"
-  # armor_auto_crafter:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200542
-  #     model_path: "slimefun/cargo/armor_auto_crafter"
+  vanilla_auto_crafter:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200540
+      model_path: "slimefun/cargo/vanilla_auto_crafter"
+  enhanced_auto_crafter:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200541
+      model_path: "slimefun/cargo/enhanced_auto_crafter"
+  armor_auto_crafter:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200542
+      model_path: "slimefun/cargo/armor_auto_crafter"
   rune_villagers:
     display_name: slimefun
     permission: slimefun
