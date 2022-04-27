@@ -985,54 +985,54 @@ items:
       generate: false
       model_id: 2200120
       model_path: "slimefun/technical_gadgets/duralumin_jetpack"
-  # solder_jetpack:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LEATHER_CHESTPLATE
-  #     generate: false
-  #     model_id: 2200121
-  #     model_path: "slimefun/none"
-  # billon_jetpack:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LEATHER_CHESTPLATE
-  #     generate: false
-  #     model_id: 2200122
-  #     model_path: "slimefun/none"
-  # steel_jetpack:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LEATHER_CHESTPLATE
-  #     generate: false
-  #     model_id: 2200123
-  #     model_path: "slimefun/none"
-  # damascus_steel_jetpack:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LEATHER_CHESTPLATE
-  #     generate: false
-  #     model_id: 2200124
-  #     model_path: "slimefun/none"
-  # reinforced_alloy_jetpack:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LEATHER_CHESTPLATE
-  #     generate: false
-  #     model_id: 2200125
-  #     model_path: "slimefun/none"
-  # carbonado_jetpack:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LEATHER_CHESTPLATE
-  #     generate: false
-  #     model_id: 2200126
-  #     model_path: "slimefun/none"
+  solder_jetpack:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200121
+      model_path: "slimefun/technical_gadgets/solder_jetpack"
+  billon_jetpack:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200122
+      model_path: "slimefun/technical_gadgets/billon_jetpack"
+  steel_jetpack:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200123
+      model_path: "slimefun/technical_gadgets/steel_jetpack"
+  damascus_steel_jetpack:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200124
+      model_path: "slimefun/technical_gadgets/damascus_steel_jetpack"
+  reinforced_alloy_jetpack:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200125
+      model_path: "slimefun/technical_gadgets/reinforced_alloy_jetpack"
+  carbonado_jetpack:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200126
+      model_path: "slimefun/technical_gadgets/carbonado_jetpack"
   parachute:
     display_name: slimefun
     permission: slimefun
