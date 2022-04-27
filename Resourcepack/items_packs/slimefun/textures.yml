@@ -3769,22 +3769,22 @@ items:
       generate: false
       model_id: 2200470
       model_path: "slimefun/gps/elevator_plate"
-  # food_fabricator:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: GREEN_STAINED_GLASS
-  #     generate: false
-  #     model_id: 2200471
-  #     model_path: "slimefun/none"
-  # food_fabricator_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: GREEN_STAINED_GLASS
-  #     generate: false
-  #     model_id: 2200472
-  #     model_path: "slimefun/none"
+  food_fabricator:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: GREEN_STAINED_GLASS
+      generate: false
+      model_id: 2200471
+      model_path: "slimefun/energy/food_fabricator"
+  food_fabricator_2:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: GREEN_STAINED_GLASS
+      generate: false
+      model_id: 2200472
+      model_path: "slimefun/energy/food_fabricator_2"
   wheat:
     display_name: slimefun
     permission: slimefun

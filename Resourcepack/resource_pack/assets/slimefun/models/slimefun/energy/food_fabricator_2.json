@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "author": "Jerry",
+  "textures": {
+    "layer0": "slimefun:item/raulh22/slimefun/slimefun/energy/food_fabricator_2"
+  }
+}
