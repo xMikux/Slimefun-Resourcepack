@@ -1,5 +1,5 @@
 {
-  "parent": "item/generated",	
+  "parent": "item/generated",
   "author": "Jerry",
   "textures": {
     "layer0": "slimefun:item/raulh22/slimefun/slimefun/technical_gadgets/solder_jetpack"
