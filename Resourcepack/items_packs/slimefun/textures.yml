@@ -4283,22 +4283,22 @@ items:
       generate: false
       model_id: 2200534
       model_path: "slimefun/magical_items/strange_nether_goo"
-  # auto_enchanter_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: ENCHANTING_TABLE
-  #     generate: false
-  #     model_id: 2200535
-  #     model_path: "slimefun/energy/auto_enchanter_2"
-  # auto_disenchanter_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: ENCHANTING_TABLE
-  #     generate: false
-  #     model_id: 2200536
-  #     model_path: "slimefun/energy/auto_disenchanter_2"
+  auto_enchanter_2:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: ENCHANTING_TABLE
+      generate: false
+      model_id: 2200535
+      model_path: "slimefun/energy/auto_enchanter_2"
+  auto_disenchanter_2:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: ENCHANTING_TABLE
+      generate: false
+      model_id: 2200536
+      model_path: "slimefun/energy/auto_disenchanter_2"
   energized_capacitor:
     display_name: slimefun
     permission: slimefun
