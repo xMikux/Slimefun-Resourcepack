@@ -85,6 +85,7 @@ Welcome to contribute it!
 * DragonMysterious Contribute Multi Tool Texturs
 * AnsonYK Contribute Solar Panel, Electric Ore Grinder 3, Famer Talisman, Infinity Capacitor
 * [Sofia Redmond](https://github.com/SofiaRedmond), the sexiest girl in this repository
+* [Jerry](https://github.com/Keeywe) the laziest tall(?) guy
 
 **There are many textures collected from the internet.**
 

@@ -985,54 +985,54 @@ items:
       generate: false
       model_id: 2200120
       model_path: "slimefun/technical_gadgets/duralumin_jetpack"
-  # solder_jetpack:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LEATHER_CHESTPLATE
-  #     generate: false
-  #     model_id: 2200121
-  #     model_path: "slimefun/none"
-  # billon_jetpack:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LEATHER_CHESTPLATE
-  #     generate: false
-  #     model_id: 2200122
-  #     model_path: "slimefun/none"
-  # steel_jetpack:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LEATHER_CHESTPLATE
-  #     generate: false
-  #     model_id: 2200123
-  #     model_path: "slimefun/none"
-  # damascus_steel_jetpack:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LEATHER_CHESTPLATE
-  #     generate: false
-  #     model_id: 2200124
-  #     model_path: "slimefun/none"
-  # reinforced_alloy_jetpack:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LEATHER_CHESTPLATE
-  #     generate: false
-  #     model_id: 2200125
-  #     model_path: "slimefun/none"
-  # carbonado_jetpack:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LEATHER_CHESTPLATE
-  #     generate: false
-  #     model_id: 2200126
-  #     model_path: "slimefun/none"
+  solder_jetpack:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200121
+      model_path: "slimefun/technical_gadgets/solder_jetpack"
+  billon_jetpack:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200122
+      model_path: "slimefun/technical_gadgets/billon_jetpack"
+  steel_jetpack:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200123
+      model_path: "slimefun/technical_gadgets/steel_jetpack"
+  damascus_steel_jetpack:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200124
+      model_path: "slimefun/technical_gadgets/damascus_steel_jetpack"
+  reinforced_alloy_jetpack:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200125
+      model_path: "slimefun/technical_gadgets/reinforced_alloy_jetpack"
+  carbonado_jetpack:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200126
+      model_path: "slimefun/technical_gadgets/carbonado_jetpack"
   parachute:
     display_name: slimefun
     permission: slimefun
@@ -3769,22 +3769,22 @@ items:
       generate: false
       model_id: 2200470
       model_path: "slimefun/gps/elevator_plate"
-  # food_fabricator:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: GREEN_STAINED_GLASS
-  #     generate: false
-  #     model_id: 2200471
-  #     model_path: "slimefun/none"
-  # food_fabricator_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: GREEN_STAINED_GLASS
-  #     generate: false
-  #     model_id: 2200472
-  #     model_path: "slimefun/none"
+  food_fabricator:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: GREEN_STAINED_GLASS
+      generate: false
+      model_id: 2200471
+      model_path: "slimefun/energy/food_fabricator"
+  food_fabricator_2:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: GREEN_STAINED_GLASS
+      generate: false
+      model_id: 2200472
+      model_path: "slimefun/energy/food_fabricator_2"
   wheat:
     display_name: slimefun
     permission: slimefun
@@ -3993,22 +3993,22 @@ items:
       generate: false
       model_id: 2200498
       model_path: "slimefun/miscellaneous/organic_fertilizer/cocoa_beans"
-  # crop_growth_accelerator:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LIME_TERRACOTTA
-  #     generate: false
-  #     model_id: 2200499
-  #     model_path: "slimefun/none"
-  # crop_growth_accelerator_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: LIME_TERRACOTTA
-  #     generate: false
-  #     model_id: 2200500
-  #     model_path: "slimefun/none"
+  crop_growth_accelerator:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LIME_TERRACOTTA
+      generate: false
+      model_id: 2200499
+      model_path: "slimefun/energy/crop_growth_accelerator"
+  crop_growth_accelerator_2:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LIME_TERRACOTTA
+      generate: false
+      model_id: 2200500
+      model_path: "slimefun/energy/crop_growth_accelerator_2"
   # freezer:
   #   display_name: slimefun
   #   permission: slimefun
@@ -4137,14 +4137,14 @@ items:
       generate: false
       model_id: 2200516
       model_path: "slimefun/energy/automated_crafting_chamber"
-  # reactor_access_port:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: CYAN_TERRACOTTA
-  #     generate: false
-  #     model_id: 2200517
-  #     model_path: "slimefun/none"
+  reactor_access_port:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: CYAN_TERRACOTTA
+      generate: false
+      model_id: 2200517
+      model_path: "slimefun/cargo/reactor_access_port"
   # fluid_pump:
   #   display_name: slimefun
   #   permission: slimefun
@@ -4283,22 +4283,22 @@ items:
       generate: false
       model_id: 2200534
       model_path: "slimefun/magical_items/strange_nether_goo"
-  # auto_enchanter_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: ENCHANTING_TABLE
-  #     generate: false
-  #     model_id: 2200535
-  #     model_path: "slimefun/energy/auto_enchanter_2"
-  # auto_disenchanter_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: ENCHANTING_TABLE
-  #     generate: false
-  #     model_id: 2200536
-  #     model_path: "slimefun/energy/auto_disenchanter_2"
+  auto_enchanter_2:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: ENCHANTING_TABLE
+      generate: false
+      model_id: 2200535
+      model_path: "slimefun/energy/auto_enchanter_2"
+  auto_disenchanter_2:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: ENCHANTING_TABLE
+      generate: false
+      model_id: 2200536
+      model_path: "slimefun/energy/auto_disenchanter_2"
   energized_capacitor:
     display_name: slimefun
     permission: slimefun
@@ -4323,30 +4323,30 @@ items:
       generate: false
       model_id: 2200539
       model_path: "slimefun/cargo/crafting_motor"
-  # vanilla_auto_crafter:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200540
-  #     model_path: "slimefun/cargo/vanilla_auto_crafter"
-  # enhanced_auto_crafter:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200541
-  #     model_path: "slimefun/cargo/enhanced_auto_crafter"
-  # armor_auto_crafter:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200542
-  #     model_path: "slimefun/cargo/armor_auto_crafter"
+  vanilla_auto_crafter:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200540
+      model_path: "slimefun/cargo/vanilla_auto_crafter"
+  enhanced_auto_crafter:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200541
+      model_path: "slimefun/cargo/enhanced_auto_crafter"
+  armor_auto_crafter:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200542
+      model_path: "slimefun/cargo/armor_auto_crafter"
   rune_villagers:
     display_name: slimefun
     permission: slimefun
