@@ -1,5 +1,5 @@
 {
-  "parent": "item/generated",
+  "parent": "item/handheld",
   "author": "ybw0014",
   "textures": {
     "layer0": "fluffymachines:diamond_paxel"
