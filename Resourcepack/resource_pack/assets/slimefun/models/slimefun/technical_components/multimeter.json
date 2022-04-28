@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
-  "author": "Caribax",
+  "author": "RaulH22",
   "textures": {
     "layer0": "slimefun:slimefun/technical_components/multimeter"
   }
