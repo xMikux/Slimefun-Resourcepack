@@ -1,5 +1,5 @@
 {
-  "parent": "item/handheld",
+  "parent": "item/generated",
   "author": "Caribax",
   "textures": {
     "layer0": "exotic_garden:drinks/lemonade"
