@@ -13,6 +13,7 @@ jobs:
       - name: 📄 Checking Repostiory
         uses: actions/checkout@v2.0.0
         with:
+          ref: pack
           fetch-depth: 0
 
       - name: Bump Up Version
@@ -20,26 +21,26 @@ jobs:
           TAG: ${{ github.ref }}
         run: |
           TAGNAME=${TAG:10}
-          sed -i 's/Beta/Release/1' .pack/pack.mcmeta
-          sed -i 's/v[0-9].[0-9].[0-9]/'$TAGNAME'/1' .pack/pack.mcmeta
-          cat .pack/pack.mcmeta
+          sed -i 's/Beta/Release/1' pack.mcmeta
+          sed -i 's/v[0-9].[0-9].[0-9]/'$TAGNAME'/1' pack.mcmeta
 
       - name: Make Original Pack
         run: |
-          cd .pack
           zip -r Slimefun-ResourcePack-Original assets/* pack.mcmeta pack.png
 
-      - name: Move Original Pack & Item models
+      - name: Download Item models
+        env:
+          TAG: ${{ github.ref }}
         run: |
-          mv Resourcepack/item-models.yml .
-          mv .pack/Slimefun-ResourcePack-Original.zip .
-      
+          TAGNAME=${TAG:10}
+          curl https://raw.githubusercontent.com/xMikux/Slimefun-Resourcepack/v$TAGNAME/Resourcepack/item-models.yml --output item-models.yml
+
       - name: Make Optimized Pack
         uses: ComunidadAylas/PackSquash-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           allow_optifine_mod: true
-          path: ./.pack
+          path: ./
 
       - name: ☁ DownloadArtifact Optimized Pack
         uses: actions/download-artifact@v2
