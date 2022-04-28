@@ -37,57 +37,51 @@ jobs:
       contains(github.event.head_commit.message, 'chore: Publish') == false &&
       github.repository == 'xMikux/Slimefun-Resourcepack'
 
+    strategy:
+      matrix:
+        include:
+          - PackName: Minecraft
+            Path_Models: Default/minecraft/models/**/*.json
+          - PackName: ExoticGarden
+            Path_Models: Resourcepack/resource_pack/assets/exotic_garden/models/**/*.json
+            Path_Pack: Resourcepack/items_packs/exotic_garden/textures.yml
+          - PackName: ExtraGear
+            Path_Models: Resourcepack/resource_pack/assets/extra_gear/models/**/*.json
+            Path_Pack: Resourcepack/items_packs/extra_gear/textures.yml
+          - PackName: FluffyMachines
+            Path_Models: Resourcepack/resource_pack/assets/fluffymachines/models/**/*.json
+            Path_Pack: Resourcepack/items_packs/fluffymachines/textures.yml
+          - PackName: InfinityExpansion
+            Path_Models: Resourcepack/resource_pack/assets/infinityexpansion/models/**/*.json
+            Path_Pack: Resourcepack/items_packs/infinityexpansion/textures.yml
+          - PackName: Litexpansion
+            Path_Models: Resourcepack/resource_pack/assets/litexpansion/models/**/*.json
+            Path_Pack: Resourcepack/items_packs/litexpansion/textures.yml
+          - PackName: SimpleUtils
+            Path_Models: Resourcepack/resource_pack/assets/simpleutils/models/**/*.json
+            Path_Pack: Resourcepack/items_packs/simpleutils/textures.yml
+          - PackName: Slimefun
+            Path_Models: Resourcepack/resource_pack/assets/slimefun/models/**/*.json
+            Path_Pack: Resourcepack/items_packs/slimefun/textures.yml
+          - PackName: SlimyTreeTaps
+            Path_Models: Resourcepack/resource_pack/assets/slimy_tree_taps/models/**/*.json
+            Path_Pack: Resourcepack/items_packs/slimy_tree_taps/textures.yml
+
     steps:
       - name: 📄 Checking Repostiory
         uses: actions/checkout@v2.0.0
 
-      - name: ⚙ Validate YAML Files
+      - name: ⚙ Validate YAML Files (${{ matrix.PackName }})
         uses: ibiqlik/action-yamllint@v3
         with:
-          file_or_dir: Resourcepack/items_packs/**/*.yml
+          file_or_dir: ${{ matrix.Path_Pack }}
           config_file: ${{ env.config_yaml }}
 
-      - name: ⚙ Validate JSON Files (minecraft)
+      - name: ⚙ Validate JSON Files (${{ matrix.PackName }})
         uses: nhalstead/validate-json-action@0.1.3
         with:
           schema: ${{ env.config_json }}
-          jsons: |
-            Default/minecraft/**/*.json
-
-      - name: ⚙ Validate JSON Files (ExoticGarden)
-        uses: nhalstead/validate-json-action@0.1.3
-        with:
-          schema: ${{ env.config_json }}
-          jsons: |
-            Resourcepack/resource_pack/assets/exotic_garden/models/**/*.json
-
-      - name: ⚙ Validate JSON Files (InfinityExpansion)
-        uses: nhalstead/validate-json-action@0.1.3
-        with:
-          schema: ${{ env.config_json }}
-          jsons: |
-            Resourcepack/resource_pack/assets/infinityexpansion/models/**/*.json
-
-      - name: ⚙ Validate JSON Files (LiteXpansion)
-        uses: nhalstead/validate-json-action@0.1.3
-        with:
-          schema: ${{ env.config_json }}
-          jsons: |
-            Resourcepack/resource_pack/assets/litexpansion/models/**/*.json
-
-      - name: ⚙ Validate JSON Files (Slimefun)
-        uses: nhalstead/validate-json-action@0.1.3
-        with:
-          schema: ${{ env.config_json }}
-          jsons: |
-            Resourcepack/resource_pack/assets/slimefun/models/slimefun/**/*.json
-
-      - name: ⚙ Validate JSON Files (SlimyTreeTaps)
-        uses: nhalstead/validate-json-action@0.1.3
-        with:
-          schema: ${{ env.config_json }}
-          jsons: |
-            Resourcepack/resource_pack/assets/slimy_tree_taps/models/**/*.json
+          jsons: ${{ matrix.Path_Models }}
 
   Upload-Git-IAPack:
     name: "Upload-Git-IAPack"
