@@ -32,7 +32,7 @@ env:
 
 jobs:
   Validator:
-    name: ${{ matrix.PackName }}
+    name: Validator ${{ matrix.PackName }}
     runs-on: ubuntu-latest
     if: |
       contains(github.event.head_commit.message, 'chore: Publish') == false &&
@@ -212,16 +212,24 @@ jobs:
           "command": "iazip"
           }'
 
+      - name: Upload Item Models
+        uses: actions/upload-artifact@v2
+        with:
+          name: item-models.yml
+          path: ./Resourcepack/item-models.yml
+
   Download-Server-Pack:
     name: "Download-Server-Pack"
     needs: Upload-Git-IAPack
     runs-on: ubuntu-latest
     env:
-      working-directory: ./.pack
+      working-directory: ./
 
     steps:
       - name: 📄 Checking Repostiory
         uses: actions/checkout@v2.0.0
+        with:
+          ref: pack
 
       - name: 💤 Sleep for 5 seconds
         run: sleep 5s
@@ -246,17 +254,11 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: Slimefun-ResourcePack-Original
-          path: ./.pack/Slimefun-ResourcePack-Original.zip
-
-      - name: Upload Item Models
-        uses: actions/upload-artifact@v2
-        with:
-          name: item-models.yml
-          path: ./Resourcepack/item-models.yml
+          path: ${{ env.working-directory }}Slimefun-ResourcePack-Original.zip
 
       - name: 💤 Sleep for 2 seconds
         run: |
-          rm ./.pack/Slimefun-ResourcePack-Original.zip
+          rm ${{ env.working-directory }}Slimefun-ResourcePack-Original.zip
           sleep 2s
 
       - name: 🧰 Setup git config
@@ -271,14 +273,12 @@ jobs:
 
       - name: 🎉 Commit and Push Pack
         continue-on-error: true
-        if: |
-          matrix.name != 'Optifine'
         run: |
           git add assets
           git add pack.mcmeta
           git add pack.png
           git commit -S -m "ci: Auto Texture Pack Update (${GITHUB_SHA::7})"
-          git push origin main
+          git push origin pack
         working-directory: ${{ env.working-directory }}
 
   Pack-Resourcepack:
@@ -291,6 +291,7 @@ jobs:
         uses: actions/checkout@v2.0.0
         with:
           fetch-depth: 0
+          ref: pack
 
       - name: Checking Repo Again
         run: |
@@ -303,7 +304,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           allow_optifine_mod: true
           artifact_name: Slimefun-ResourcePack-Optimized
-          path: ./.pack
+          path: ./
 
   Per-Release:
     needs: Pack-Resourcepack
