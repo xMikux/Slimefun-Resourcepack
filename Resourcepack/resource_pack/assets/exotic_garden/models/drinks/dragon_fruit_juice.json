@@ -2,6 +2,7 @@
   "parent": "item/generated",
   "author": "Caribax",
   "textures": {
-    "layer0": "exotic_garden:drinks/dragon_fruit_juice"
+    "layer0": "exotic_garden:drinks/dragon_fruit_juice",
+    "layer1": "exotic_garden:drinks/dragon_fruit_juice"
   }
 }

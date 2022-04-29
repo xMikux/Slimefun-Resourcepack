@@ -2,6 +2,7 @@
   "parent": "item/generated",
   "author": "Caribax",
   "textures": {
-    "layer0": "exotic_garden:drinks/coconut_milk"
+    "layer0": "exotic_garden:drinks/coconut_milk",
+    "layer1": "exotic_garden:drinks/coconut_milk"
   }
 }

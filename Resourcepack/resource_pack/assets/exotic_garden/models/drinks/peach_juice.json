@@ -2,6 +2,7 @@
   "parent": "item/generated",
   "author": "Caribax",
   "textures": {
-    "layer0": "exotic_garden:drinks/peach_juice"
+    "layer0": "exotic_garden:drinks/peach_juice",
+    "layer1": "exotic_garden:drinks/peach_juice"
   }
 }
