@@ -14,7 +14,8 @@ A list of texture that in slimefun texture, but not used.
 * energized_capacitor From Jerry add, but it already added.
 * Android Advanced and Empowered, RaulH22 drawn, but the upgrade version not exist. (path: Resourcepack/resource_pack/assets/slimefun/textures/slimefun/androids)
 * Nether Drill, RaulH22 drawn, but not exist. (path: Resourcepack/resource_pack/assets/slimefun/textures/slimefun/gps/nether_drill.png)
-* Ketchup, for Slimefun miscellaneous, but no this item
+* Ketchup, from Slimefun miscellaneous, but there is no this item
+* cargo_motor.png, from Slimefun technical_components, but there is no this item
 
 ## InfinityExpansion Releases
 
