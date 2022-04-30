@@ -1,7 +1,7 @@
 {
-    "parent": "item/handheld",
-	"author": "RaulH22",
-    "textures": {
-        "layer0": "slimefun:slimefun/weapons/sword_of_beheading"
-    }
+  "parent": "item/handheld",
+  "author": "RaulH22",
+  "textures": {
+    "layer0": "slimefun:slimefun/weapons/sword_of_beheading"
+  }
 }
