@@ -1953,3 +1953,35 @@ items:
       generate: false
       model_id: 2201073
       model_path: "misc/crook"
+  cornmeal:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: SUGAR
+      generate: false
+      model_id: 2201074
+      model_path: "misc/cornmeal"
+  ice_cube:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201075
+      model_path: "misc/ice_cube"
+  mayo:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201076
+      model_path: "misc/mayo"
+  mustard:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201077
+      model_path: "misc/mustard"

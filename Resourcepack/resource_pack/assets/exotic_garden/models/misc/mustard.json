@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "author": "RaulH22",
   "textures": {
-    "layer0": "slimefun:slimefun/miscellaneous/android_memory_core"
+    "layer0": "exotic_garden:misc/mustard"
   }
 }
