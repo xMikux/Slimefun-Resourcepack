@@ -1,7 +1,7 @@
 {
-    "parent": "item/handheld",
-    "author": "Sofia_Redmond",
-    "textures": {
-        "layer0": "slimefun:slimefun/tools/climbing_pick"
-    }
+  "parent": "item/handheld",
+  "author": "Sofia_Redmond",
+  "textures": {
+    "layer0": "slimefun:slimefun/tools/climbing_pick"
+  }
 }

@@ -1,7 +1,7 @@
 {
-    "parent": "item/handheld",
-	"author": "RaulH22",
-    "textures": {
-        "layer0": "slimefun:slimefun/tools/grappling_hook"
-    }
+  "parent": "item/generated",
+  "author": "RaulH22",
+  "textures": {
+    "layer0": "slimefun:slimefun/tools/grappling_hook"
+  }
 }
