@@ -1,7 +1,7 @@
 {
-    "parent": "item/handheld",
-	"author": "RaulH22",
-    "textures": {
-        "layer0": "slimefun:slimefun/none"
-    }
+  "parent": "item/handheld",
+  "author": "RaulH22",
+  "textures": {
+    "layer0": "slimefun:slimefun/none"
+  }
 }
