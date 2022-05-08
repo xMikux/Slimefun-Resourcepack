@@ -1,0 +1,19 @@
+info:
+  namespace: foxymachines
+items:
+  acri_arcum:
+    display_name: foxymachines
+    permission: foxymachines
+    resource:
+      material: BOW
+      generate: false
+      model_id: 2201352
+      model_path: "weapons/acri_arcum/acri_arcum"
+  elucidator: 
+    display_name: foxymachines
+    permission: foxymachines
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_id: 2201355
+      model_path: "weapons/elucidator"

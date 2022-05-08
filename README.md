@@ -70,6 +70,7 @@ Inside the brackets are item models ranges.
 * ExtraGear (2201201~2201270)
 * SimpleUtils (2201270~2201279)
 * FluffyMachines (2201280~2201300)
+* FoxyMachines (2201301~2201400)
 
 There still have a lot of missing texture.
 

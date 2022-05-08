@@ -52,6 +52,9 @@ jobs:
           - PackName: FluffyMachines
             Path_Models: Resourcepack/resource_pack/assets/fluffymachines/models/**/*.json
             Path_Pack: Resourcepack/items_packs/fluffymachines/textures.yml
+          - PackName: FoxyMachines
+            Path_Models: Resourcepack/resource_pack/assets/foxymachines/models/**/*.json
+            Path_Pack: Resourcepack/items_packs/foxymachines/textures.yml
           - PackName: InfinityExpansion
             Path_Models: Resourcepack/resource_pack/assets/infinityexpansion/models/**/*.json
             Path_Pack: Resourcepack/items_packs/infinityexpansion/textures.yml
