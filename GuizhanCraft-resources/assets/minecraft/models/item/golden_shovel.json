@@ -1,0 +1,9 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/golden_shovel"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2900019}, "model": "item/haiman233/bump/getgold_spade"}
+    ]
+}

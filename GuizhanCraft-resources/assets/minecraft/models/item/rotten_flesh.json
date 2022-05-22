@@ -1,10 +1,10 @@
 {
     "parent": "item/generated",
-    "author": "RaulH22",
     "textures": {
         "layer0": "item/rotten_flesh"
     },
     "overrides": [
-        { "predicate": { "custom_model_data": 2200043}, "model": "item/raulh22/slimefun/slimefun/food/monster_jerky"}
+        { "predicate": { "custom_model_data": 2200043}, "model": "item/raulh22/slimefun/slimefun/food/monster_jerky"},
+        { "predicate": { "custom_model_data": 2900005}, "model": "item/haiman233/bump/latiao"}
     ]
 }

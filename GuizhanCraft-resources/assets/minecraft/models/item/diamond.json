@@ -6,6 +6,9 @@
     },
     "overrides": [
         { "predicate": { "custom_model_data": 2200090}, "model": "item/raulh22/slimefun/slimefun/resources/valuables/synthetic_diamond"},
-        { "predicate": { "custom_model_data": 2400041}, "model": "item/ybw0014/litexpansion/lapotron_crystal"}
+        { "predicate": { "custom_model_data": 2400041}, "model": "item/ybw0014/litexpansion/lapotron_crystal"},
+        { "predicate": { "custom_model_data": 2900011}, "model": "item/haiman233/bump/make"},
+        { "predicate": { "custom_model_data": 2900013}, "model": "item/haiman233/bump/cpu"},
+        { "predicate": { "custom_model_data": 2900014}, "model": "item/haiman233/bump/soul_paper"}
     ]
 }

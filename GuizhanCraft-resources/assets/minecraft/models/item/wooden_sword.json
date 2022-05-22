@@ -1,0 +1,10 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/wooden_sword"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2900025}, "model": "item/haiman233/bump/bone_sword"},
+        { "predicate": { "custom_model_data": 2900028}, "model": "item/haiman233/bump/peach_sword"}
+    ]
+}

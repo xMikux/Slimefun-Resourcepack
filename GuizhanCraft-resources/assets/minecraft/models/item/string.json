@@ -1,6 +1,5 @@
 {
     "parent": "item/generated",
-    "author": "ybw0014",
     "textures": {
         "layer0": "item/string"
     },
@@ -12,6 +11,7 @@
         { "predicate": { "custom_model_data": 2400028}, "model": "item/ybw0014/litexpansion/uninsulated_copper_cable"},
         { "predicate": { "custom_model_data": 2400029}, "model": "item/ybw0014/litexpansion/copper_cable"},
         { "predicate": { "custom_model_data": 2400033}, "model": "item/ybw0014/litexpansion/uninsulated_gold_cable"},
-        { "predicate": { "custom_model_data": 2400034}, "model": "item/ybw0014/litexpansion/gold_cable"}
+        { "predicate": { "custom_model_data": 2400034}, "model": "item/ybw0014/litexpansion/gold_cable"},
+        { "predicate": { "custom_model_data": 2900004}, "model": "item/haiman233/bump/fangbianmian"}
     ]
 }

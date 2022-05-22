@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/template_skull",
+    "overrides": [
+        { "predicate": { "custom_model_data": 2900018}, "model": "item/haiman233/bump/update_power"}
+    ]
+}

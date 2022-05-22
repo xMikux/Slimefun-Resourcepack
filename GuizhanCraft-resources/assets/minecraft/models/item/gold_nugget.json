@@ -1,6 +1,5 @@
 {
     "parent": "item/generated",
-    "author": "RaulH22",
     "textures": {
         "layer0": "item/gold_nugget"
     },
@@ -10,6 +9,7 @@
 		{ "predicate": { "custom_model_data": 2200032}, "model": "item/raulh22/slimefun/slimefun/magical_items/magical_lump3"},
 		{ "predicate": { "custom_model_data": 2200033}, "model": "item/raulh22/slimefun/slimefun/magical_items/ender_lump"},
 		{ "predicate": { "custom_model_data": 2200034}, "model": "item/raulh22/slimefun/slimefun/magical_items/ender_lump2"},
-		{ "predicate": { "custom_model_data": 2200035}, "model": "item/raulh22/slimefun/slimefun/magical_items/ender_lump3"}
+		{ "predicate": { "custom_model_data": 2200035}, "model": "item/raulh22/slimefun/slimefun/magical_items/ender_lump3"},
+        { "predicate": { "custom_model_data": 2900010}, "model": "item/haiman233/bump/old_coin"}
     ]
 }

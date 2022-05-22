@@ -1,0 +1,10 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/bell"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2900007}, "model": "item/haiman233/bump/appraisal"},
+        { "predicate": { "custom_model_data": 2900008}, "model": "item/haiman233/bump/sun_energy"}
+    ]
+}

@@ -1,11 +1,12 @@
 {
     "parent": "item/handheld",
-    "author": "ybw0014",
     "textures": {
         "layer0": "item/golden_sword"
     },
     "overrides": [
         { "predicate": { "custom_model_data": 2200237}, "model": "item/raulh22/slimefun/slimefun/weapons/blade_of_vampires"},
-        { "predicate": { "custom_model_data": 2410053}, "model": "item/ybw0014/extragear/gilded_iron_sword"}
+        { "predicate": { "custom_model_data": 2410053}, "model": "item/ybw0014/extragear/gilded_iron_sword"},
+        { "predicate": { "custom_model_data": 2900027}, "model": "item/haiman233/bump/guard_sword"},
+        { "predicate": { "custom_model_data": 2900030}, "model": "item/haiman233/bump/sky_sword"}
     ]
 }

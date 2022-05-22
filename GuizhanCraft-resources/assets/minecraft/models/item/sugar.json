@@ -1,6 +1,5 @@
 {
     "parent": "item/generated",
-    "author": "RaulH22",
     "textures": {
         "layer0": "item/sugar"
     },
@@ -13,6 +12,8 @@
 		{ "predicate": { "custom_model_data": 2200104}, "model": "item/raulh22/slimefun/slimefun/resources/dusts/magnesium_dust"},
         { "predicate": { "custom_model_data": 2200114}, "model": "item/raulh22/slimefun/slimefun/miscellaneous/wheat_flour"},
         { "predicate": { "custom_model_data": 2200198}, "model": "item/raulh22/slimefun/slimefun/miscellaneous/salt"},
-        { "predicate": { "custom_model_data": 2200378}, "model": "item/raulh22/slimefun/slimefun/resources/valuables/magnesium_salt"}
+        { "predicate": { "custom_model_data": 2200378}, "model": "item/raulh22/slimefun/slimefun/resources/valuables/magnesium_salt"},
+        { "predicate": { "custom_model_data": 2900006}, "model": "item/haiman233/bump/kouxiangtang"},
+        { "predicate": { "custom_model_data": 2900016}, "model": "item/haiman233/bump/water_sugar"}
     ]
 }

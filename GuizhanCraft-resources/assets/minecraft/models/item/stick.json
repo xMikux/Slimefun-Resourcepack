@@ -1,6 +1,5 @@
 {
     "parent": "item/generated",
-    "author": "RaulH22",
     "textures": {
         "layer0": "item/stick"
     },
@@ -12,6 +11,7 @@
 		{ "predicate": { "custom_model_data": 2200135}, "model": "item/raulh22/slimefun/slimefun/magical_gadgets/water_staff"},
         { "predicate": { "custom_model_data": 2200160}, "model": "item/raulh22/slimefun/slimefun/magical_gadgets/fire_staff"},
 		{ "predicate": { "custom_model_data": 2200161}, "model": "item/raulh22/slimefun/slimefun/magical_gadgets/storm_staff"},
-        { "predicate": { "custom_model_data": 2200225}, "model": "item/raulh22/slimefun/slimefun/items/splint"}
+        { "predicate": { "custom_model_data": 2200225}, "model": "item/raulh22/slimefun/slimefun/items/splint"},
+        { "predicate": { "custom_model_data": 2900017}, "model": "item/haiman233/bump/peach_wood"}
     ]
 }

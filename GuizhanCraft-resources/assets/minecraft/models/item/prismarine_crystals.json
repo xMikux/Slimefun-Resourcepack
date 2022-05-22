@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/prismarine_crystals"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2900012}, "model": "item/haiman233/bump/old_cpu"}
+    ]
+}

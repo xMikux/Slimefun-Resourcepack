@@ -1,6 +1,5 @@
 {
     "parent": "item/generated",
-    "author": "ybw0014",
     "textures": {
         "layer0": "item/potion_overlay",
         "layer1": "item/potion"
@@ -51,6 +50,8 @@
         { "predicate": { "custom_model_data": 2300204}, "model": "item/ybw0014/exoticgarden/drinks/lemonade"},
         { "predicate": { "custom_model_data": 2300214}, "model": "item/ybw0014/exoticgarden/drinks/pineapple_juice"},
         { "predicate": { "custom_model_data": 2300215}, "model": "item/ybw0014/exoticgarden/drinks/pineapple_smoothie"},
-        { "predicate": { "custom_model_data": 2300222}, "model": "item/ybw0014/exoticgarden/drinks/cola"}
+        { "predicate": { "custom_model_data": 2300222}, "model": "item/ybw0014/exoticgarden/drinks/cola"},
+        { "predicate": { "custom_model_data": 2900002}, "model": "item/haiman233/bump/xuebi"},
+        { "predicate": { "custom_model_data": 2900003}, "model": "item/haiman233/bump/kele"}
     ]
 }

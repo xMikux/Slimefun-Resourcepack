@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/ender_pearl"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2900009}, "model": "item/haiman233/bump/mecha_gear"}
+    ]
+}

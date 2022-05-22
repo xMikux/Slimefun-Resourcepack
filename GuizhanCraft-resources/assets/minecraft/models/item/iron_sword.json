@@ -27,6 +27,8 @@
         { "predicate": { "custom_model_data": 2410051}, "model": "item/ybw0014/extragear/reinforced_sword"},
         { "predicate": { "custom_model_data": 2410052}, "model": "item/ybw0014/extragear/ferrosilicon_sword"},
         { "predicate": { "custom_model_data": 2410054}, "model": "item/ybw0014/extragear/nickel_sword"},
-        { "predicate": { "custom_model_data": 2410055}, "model": "item/ybw0014/extragear/cobalt_sword"}
+        { "predicate": { "custom_model_data": 2410055}, "model": "item/ybw0014/extragear/cobalt_sword"},
+        { "predicate": { "custom_model_data": 2900029}, "model": "item/haiman233/bump/soul_sword"},
+        { "predicate": { "custom_model_data": 2900031}, "model": "item/haiman233/bump/devil_sword"}
     ]
 }

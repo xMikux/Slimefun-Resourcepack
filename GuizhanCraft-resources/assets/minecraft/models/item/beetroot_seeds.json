@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/beetroot_seeds"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2900015}, "model": "item/haiman233/bump/ksf_stuff"}
+    ]
+}

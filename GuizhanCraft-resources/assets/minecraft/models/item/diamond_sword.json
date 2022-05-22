@@ -6,6 +6,9 @@
     },
     "overrides": [
         { "predicate": { "custom_model_data": 2200272}, "model": "item/raulh22/slimefun/slimefun/weapons/soulbound_sword"},
-        { "predicate": { "custom_model_data": 2400050}, "model": "item/ybw0014/litexpansion/nano_blade"}
+        { "predicate": { "custom_model_data": 2400050}, "model": "item/ybw0014/litexpansion/nano_blade"},
+        { "predicate": { "custom_model_data": 2900024}, "model": "item/haiman233/bump/emer_sword"},
+        { "predicate": { "custom_model_data": 2900026}, "model": "item/haiman233/bump/random_sword"},
+        { "predicate": { "custom_model_data": 2900032}, "model": "item/haiman233/bump/sky_devil_sword"}
     ]
 }
