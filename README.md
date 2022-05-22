@@ -5,6 +5,8 @@
 
 **Warning**: There are a lot of textures from mods, so if anyone could contribute their own textures, I would really appreciate it!
 
+**Info**: Looking for Bedrock Slimefun Resourcepack? You can checkout [Slimefun-Geyser](https://github.com/SofiaRedmond/Slimefun-Geyser)!
+
 A simple remix & remake version Slimefun Resourcepack.
 
 Using ItemAdder to generate item model id.
