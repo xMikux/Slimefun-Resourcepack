@@ -43,6 +43,9 @@ jobs:
         include:
           - PackName: Minecraft
             Path_Models: Default/minecraft/models/**/*.json
+          - PackName: Bump
+            Path_Models: Resourcepack/resource_pack/assets/bump/models/**/*.json
+            Path_Pack: Resourcepack/items_packs/bump/textures.yml
           - PackName: ExoticGarden
             Path_Models: Resourcepack/resource_pack/assets/exotic_garden/models/**/*.json
             Path_Pack: Resourcepack/items_packs/exotic_garden/textures.yml

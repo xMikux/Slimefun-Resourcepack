@@ -1,0 +1,259 @@
+info:
+  namespace: bump
+items:
+  random_helmet:
+    display_name: bump
+    permission: bump
+    resource:
+      material: DIAMOND_HELMET
+      generate: false
+      model_id: 2201401
+      model_path: "armors/random_helmet"
+  xuebi:
+    display_name: bump
+    permission: bump
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2201402
+      model_path: "foods/xuebi"
+  kele:
+    display_name: bump
+    permission: bump
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2201403
+      model_path: "foods/kele"
+  fangbianmian:
+    display_name: bump
+    permission: bump
+    resource:
+      material: STRING
+      generate: false
+      model_id: 2201404
+      model_path: "foods/fangbianmian"
+  latiao:
+    display_name: bump
+    permission: bump
+    resource:
+      material: ROTTEN_FLESH
+      generate: false
+      model_id: 2201405
+      model_path: "foods/latiao"
+  kouxiangtang:
+    display_name: bump
+    permission: bump
+    resource:
+      material: SUGAR
+      generate: false
+      model_id: 2201406
+      model_path: "foods/kouxiangtang"
+  appraisal:
+    display_name: bump
+    permission: bump
+    resource:
+      material: BELL
+      generate: false
+      model_id: 2201407
+      model_path: "machines/appraisal"
+  sun_energy:
+    display_name: bump
+    permission: bump
+    resource:
+      material: BELL
+      generate: false
+      model_id: 2201408
+      model_path: "magical_items/sun_energy"
+  mecha_gear:
+    display_name: bump
+    permission: bump
+    resource:
+      material: ENDER_PEARL
+      generate: false
+      model_id: 2201409
+      model_path: "magical_items/mecha_gear"
+  old_coin:
+    display_name: bump
+    permission: bump
+    resource:
+      material: GOLD_NUGGET
+      generate: false
+      model_id: 2201410
+      model_path: "magical_items/old_coin"
+  make:
+    display_name: bump
+    permission: bump
+    resource:
+      material: DIAMOND
+      generate: false
+      model_id: 2201411
+      model_path: "magical_items/make"
+  old_cpu:
+    display_name: bump
+    permission: bump
+    resource:
+      material: PRISMARINE_CRYSTALS
+      generate: false
+      model_id: 2201412
+      model_path: "magical_items/old_cpu"
+  cpu:
+    display_name: bump
+    permission: bump
+    resource:
+      material: DIAMOND
+      generate: false
+      model_id: 2201413
+      model_path: "magical_items/cpu"
+  soul_paper:
+    display_name: bump
+    permission: bump
+    resource:
+      material: PAPER
+      generate: false
+      model_id: 2201414
+      model_path: "magical_items/soul_paper"
+  ksf_stuff:
+    display_name: bump
+    permission: bump
+    resource:
+      material: BEETROOT_SEEDS
+      generate: false
+      model_id: 2201415
+      model_path: "magical_items/ksf_stuff"
+  water_sugar:
+    display_name: bump
+    permission: bump
+    resource:
+      material: SUGAR
+      generate: false
+      model_id: 2201416
+      model_path: "magical_items/water_sugar"
+  peach_wood:
+    display_name: bump
+    permission: bump
+    resource:
+      material: STICK
+      generate: false
+      model_id: 2201417
+      model_path: "magical_items/peach_wood"
+  update_power:
+    display_name: bump
+    permission: bump
+    resource:
+      material: ZOMBIE_HEAD
+      generate: false
+      model_id: 2201418
+      model_path: "magical_items/update_power"
+  getgold_spade:
+    display_name: bump
+    permission: bump
+    resource:
+      material: GOLDEN_SHOVEL
+      generate: false
+      model_id: 2201419
+      model_path: "tools/getgold_spade"
+  appraisal_paper_armor:
+    display_name: bump
+    permission: bump
+    resource:
+      material: PAPER
+      generate: false
+      model_id: 2201420
+      model_path: "tools/appraisal_paper_armor"
+  appraisal_paper_damage:
+    display_name: bump
+    permission: bump
+    resource:
+      material: PAPER
+      generate: false
+      model_id: 2201421
+      model_path: "tools/appraisal_paper_damage"
+  light_bow:
+    display_name: bump
+    permission: bump
+    resource:
+      material: BOW
+      generate: false
+      model_id: 2201422
+      model_path: "magical_weapons/light_bow"
+  witherskull_row:
+    display_name: bump
+    permission: bump
+    resource:
+      material: BOW
+      generate: false
+      model_id: 2201423
+      model_path: "magical_weapons/witherskull_row"
+  emer_sword:
+    display_name: bump
+    permission: bump
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_id: 2201424
+      model_path: "magical_weapons/emer_sword"
+  bone_sword:
+    display_name: bump
+    permission: bump
+    resource:
+      material: WOODEN_SWORD
+      generate: false
+      model_id: 2201425
+      model_path: "magical_weapons/bone_sword"
+  random_sword:
+    display_name: bump
+    permission: bump
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_id: 2201426
+      model_path: "magical_weapons/random_sword"
+  guard_sword:
+    display_name: bump
+    permission: bump
+    resource:
+      material: GOLDEN_SWORD
+      generate: false
+      model_id: 2201427
+      model_path: "magical_weapons/guard_sword"
+  peach_sword:
+    display_name: bump
+    permission: bump
+    resource:
+      material: WOODEN_SWORD
+      generate: false
+      model_id: 2201428
+      model_path: "magical_weapons/peach_sword"
+  soul_sword:
+    display_name: bump
+    permission: bump
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2201429
+      model_path: "magical_weapons/soul_sword"
+  sky_sword:
+    display_name: bump
+    permission: bump
+    resource:
+      material: GOLDEN_SWORD
+      generate: false
+      model_id: 2201430
+      model_path: "magical_weapons/sky_sword"
+  devil_sword:
+    display_name: bump
+    permission: bump
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2201431
+      model_path: "magical_weapons/devil_sword"
+  sky_devil_sword:
+    display_name: bump
+    permission: bump
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_id: 2201432
+      model_path: "magical_weapons/sky_devil_sword"

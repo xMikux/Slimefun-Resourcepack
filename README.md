@@ -73,6 +73,7 @@ Inside the brackets are item models ranges.
 * SimpleUtils (2201270~2201279)
 * FluffyMachines (2201280~2201300)
 * FoxyMachines (2201301~2201400)
+* Bump (2201401~2201470)
 
 There still have a lot of missing texture.
 

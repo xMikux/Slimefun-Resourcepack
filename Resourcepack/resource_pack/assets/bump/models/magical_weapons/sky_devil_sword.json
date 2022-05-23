@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "author": "Haiman",
+  "textures": {
+    "layer0": "bump:magical_weapons/sky_devil_sword"
+  }
+}

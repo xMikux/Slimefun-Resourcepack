@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "author": "Haiman",
+  "textures": {
+    "layer0": "bump:foods/kele",
+    "layer1": "bump:foods/kele"
+  }
+}

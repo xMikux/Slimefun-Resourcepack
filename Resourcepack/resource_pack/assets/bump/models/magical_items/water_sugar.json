@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "author": "Haiman",
+  "textures": {
+    "layer0": "bump:magical_items/water_sugar"
+  }
+}
