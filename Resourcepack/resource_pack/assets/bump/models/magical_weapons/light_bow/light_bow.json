@@ -2,6 +2,6 @@
   "parent": "item/handheld",
   "author": "Haiman",
   "textures": {
-    "layer0": "bump:magical_weapons/light_bow"
+    "layer0": "bump:magical_weapons/light_bow/light_bow"
   }
 }
