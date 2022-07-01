@@ -1,836 +1,196 @@
 {
-  "multipart": [
-    {
-      "when": {
-        "down": true,
-        "east": true,
-        "north": true,
-        "south": true,
-        "up": true,
-        "west": true
-      },
-      "apply": {
-        "model": "block/original/brown_mushroom_block_true"
-      }
+  "variants":{
+    "west=true,up=true,south=true,north=true,east=true,down=true":{
+      "model":"block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": false,
-        "south": false,
-        "north": false,
-        "east": false,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=false,north=false,south=false,up=false,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": false,
-        "south": false,
-        "north": false,
-        "east": false,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=false,north=false,south=false,up=false,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": true,
-        "south": false,
-        "north": false,
-        "east": false,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=false,north=false,south=false,up=true,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": true,
-        "south": false,
-        "north": false,
-        "east": false,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=false,north=false,south=false,up=true,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": false,
-        "south": true,
-        "north": false,
-        "east": false,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=false,north=false,south=true,up=false,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": false,
-        "south": true,
-        "north": false,
-        "east": false,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=false,north=false,south=true,up=false,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": true,
-        "south": true,
-        "north": false,
-        "east": false,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=false,north=false,south=true,up=true,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": true,
-        "south": true,
-        "north": false,
-        "east": false,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=false,north=false,south=true,up=true,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": false,
-        "south": false,
-        "north": true,
-        "east": false,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=false,north=true,south=false,up=false,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": false,
-        "south": false,
-        "north": true,
-        "east": false,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=false,north=true,south=false,up=false,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": true,
-        "south": false,
-        "north": true,
-        "east": false,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=false,north=true,south=false,up=true,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": true,
-        "south": false,
-        "north": true,
-        "east": false,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=false,north=true,south=false,up=true,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": false,
-        "south": true,
-        "north": true,
-        "east": false,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=false,north=true,south=true,up=false,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": false,
-        "south": true,
-        "north": true,
-        "east": false,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=false,north=true,south=true,up=false,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": true,
-        "south": true,
-        "north": true,
-        "east": false,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=false,north=true,south=true,up=true,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": true,
-        "south": true,
-        "north": true,
-        "east": false,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=false,north=true,south=true,up=true,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": false,
-        "south": false,
-        "north": false,
-        "east": true,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=true,north=false,south=false,up=false,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": false,
-        "south": false,
-        "north": false,
-        "east": true,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=true,north=false,south=false,up=false,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": true,
-        "south": false,
-        "north": false,
-        "east": true,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=true,north=false,south=false,up=true,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": true,
-        "south": false,
-        "north": false,
-        "east": true,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=true,north=false,south=false,up=true,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": false,
-        "south": true,
-        "north": false,
-        "east": true,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=true,north=false,south=true,up=false,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": false,
-        "south": true,
-        "north": false,
-        "east": true,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=true,north=false,south=true,up=false,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": true,
-        "south": true,
-        "north": false,
-        "east": true,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=true,north=false,south=true,up=true,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": true,
-        "south": true,
-        "north": false,
-        "east": true,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=true,north=false,south=true,up=true,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": false,
-        "south": false,
-        "north": true,
-        "east": true,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=true,north=true,south=false,up=false,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": false,
-        "south": false,
-        "north": true,
-        "east": true,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=true,north=true,south=false,up=false,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": true,
-        "south": false,
-        "north": true,
-        "east": true,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=true,north=true,south=false,up=true,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": true,
-        "south": false,
-        "north": true,
-        "east": true,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=true,north=true,south=false,up=true,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": false,
-        "south": true,
-        "north": true,
-        "east": true,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=true,north=true,south=true,up=false,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": false,
-        "south": true,
-        "north": true,
-        "east": true,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=true,north=true,south=true,up=false,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": true,
-        "south": true,
-        "north": true,
-        "east": true,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=true,north=true,south=true,up=true,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": true,
-        "south": true,
-        "north": true,
-        "east": true,
-        "down": false
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=false,east=true,north=true,south=true,up=true,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": false,
-        "south": false,
-        "north": false,
-        "east": false,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=false,north=false,south=false,up=false,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": false,
-        "south": false,
-        "north": false,
-        "east": false,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=false,north=false,south=false,up=false,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": true,
-        "south": false,
-        "north": false,
-        "east": false,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=false,north=false,south=false,up=true,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": true,
-        "south": false,
-        "north": false,
-        "east": false,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=false,north=false,south=false,up=true,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": false,
-        "south": true,
-        "north": false,
-        "east": false,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=false,north=false,south=true,up=false,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": false,
-        "south": true,
-        "north": false,
-        "east": false,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=false,north=false,south=true,up=false,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": true,
-        "south": true,
-        "north": false,
-        "east": false,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=false,north=false,south=true,up=true,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": true,
-        "south": true,
-        "north": false,
-        "east": false,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=false,north=false,south=true,up=true,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": false,
-        "south": false,
-        "north": true,
-        "east": false,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=false,north=true,south=false,up=false,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": false,
-        "south": false,
-        "north": true,
-        "east": false,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=false,north=true,south=false,up=false,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": true,
-        "south": false,
-        "north": true,
-        "east": false,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=false,north=true,south=false,up=true,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": true,
-        "south": false,
-        "north": true,
-        "east": false,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=false,north=true,south=false,up=true,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": false,
-        "south": true,
-        "north": true,
-        "east": false,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=false,north=true,south=true,up=false,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": false,
-        "south": true,
-        "north": true,
-        "east": false,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=false,north=true,south=true,up=false,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": true,
-        "south": true,
-        "north": true,
-        "east": false,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=false,north=true,south=true,up=true,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": true,
-        "south": true,
-        "north": true,
-        "east": false,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=false,north=true,south=true,up=true,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": false,
-        "south": false,
-        "north": false,
-        "east": true,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=true,north=false,south=false,up=false,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": false,
-        "south": false,
-        "north": false,
-        "east": true,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=true,north=false,south=false,up=false,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": true,
-        "south": false,
-        "north": false,
-        "east": true,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=true,north=false,south=false,up=true,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": true,
-        "south": false,
-        "north": false,
-        "east": true,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=true,north=false,south=false,up=true,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": false,
-        "south": true,
-        "north": false,
-        "east": true,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=true,north=false,south=true,up=false,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": false,
-        "south": true,
-        "north": false,
-        "east": true,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=true,north=false,south=true,up=false,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": true,
-        "south": true,
-        "north": false,
-        "east": true,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=true,north=false,south=true,up=true,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": true,
-        "south": true,
-        "north": false,
-        "east": true,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=true,north=false,south=true,up=true,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": false,
-        "south": false,
-        "north": true,
-        "east": true,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=true,north=true,south=false,up=false,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": false,
-        "south": false,
-        "north": true,
-        "east": true,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=true,north=true,south=false,up=false,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": true,
-        "south": false,
-        "north": true,
-        "east": true,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=true,north=true,south=false,up=true,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": true,
-        "south": false,
-        "north": true,
-        "east": true,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=true,north=true,south=false,up=true,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": false,
-        "south": true,
-        "north": true,
-        "east": true,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=true,north=true,south=true,up=false,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": true,
-        "up": false,
-        "south": true,
-        "north": true,
-        "east": true,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=true,north=true,south=true,up=false,west=true":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     },
-    {
-      "when": {
-        "west": false,
-        "up": true,
-        "south": true,
-        "north": true,
-        "east": true,
-        "down": true
-      },
-      "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
-      }
+    "down=true,east=true,north=true,south=true,up=true,west=false":{
+      "model":"minecraft:block/original/brown_mushroom_block_true"
     }
-  ]
+  }
 }

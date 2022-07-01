@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "block/cube_all",
   "textures": {
-    "all": "minecraft:block/note_block",
-    "particle": "item/base/blank"
+    "all": "block/note_block",
+    "particle": "block/note_block"
   }
 }
