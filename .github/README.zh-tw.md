@@ -43,6 +43,7 @@
 </h3>
 
 <p align="center">
+  <!-- Country Flags https://www.phoca.cz/cssflags/ -->
   <a href="https://github.com/xMikux/Slimefun-Resourcepack/blob/main/.github/README.zh-tw.md">
     <img alt="Language-Traditional_Chinese" src="https://img.shields.io/badge/-Traditional%20Chinese-346ed1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTAwIiBoZWlnaHQ9IjYwMCIgdmlld0JveD0iLTYwIC00MCAyNDAgMTYwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgIDxyZWN0IHg9Ii02MCIgeT0iLTQwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmUwMDAwIi8+DQogICA8cmVjdCB4PSItNjAiIHk9Ii00MCIgd2lkdGg9IjUwJSIgaGVpZ2h0PSI1MCUiIGZpbGw9IiMwMDAwOTUiLz4NCiAgIDxwYXRoIGlkPSJmb3VyX3JheXMiIGQ9Ik0gOCwwIEwgMCwzMCBMIC04LDAgTCAwLC0zMCBNIDAsOCBMIDMwLDAgTCAwLC04IEwgLTMwLDAiIGZpbGw9IiNmZmYiLz4NCiAgIDx1c2UgeGxpbms6aHJlZj0iI2ZvdXJfcmF5cyIgdHJhbnNmb3JtPSJyb3RhdGUoMzApIi8+DQogICA8dXNlIHhsaW5rOmhyZWY9IiNmb3VyX3JheXMiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPg0KICAgPGNpcmNsZSByPSIxNyIgZmlsbD0iIzAwMDA5NSIvPg0KICAgPGNpcmNsZSByPSIxNSIgZmlsbD0iI2ZmZiIvPg0KPC9zdmc+">
   </a>
