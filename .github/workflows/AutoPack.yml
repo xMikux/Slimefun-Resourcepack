@@ -268,8 +268,6 @@ jobs:
           sleep 2s
 
       - name: 🧰 Setup git config
-        if: |
-          matrix.name != 'Optifine'
         uses: crazy-max/ghaction-import-gpg@v4
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
