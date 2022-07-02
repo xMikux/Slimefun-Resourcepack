@@ -1,102 +1,259 @@
-# Slimefun Resourcepack
+<!-- markdownlint-configure-file {
+  "MD033": false
+} -->
 
-[![Release](https://img.shields.io/github/v/release/xMikux/Slimefun-Resourcepack?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases)
-[![AutoPack](https://img.shields.io/github/workflow/status/xMikux/Slimefun-Resourcepack/AutoPack?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/actions/workflows/AutoPack.yml)
+<h1 align="center" style="margin-top: 0px;">
+  Slimefun Resourcepack
+</h1>
 
-**Warning**: There are a lot of textures from mods, so if anyone could contribute their own textures, I would really appreciate it!
+<p align="center">
 
-**Info**: Looking for Bedrock Slimefun Resourcepack? You can checkout [Slimefun-Geyser](https://github.com/SofiaRedmond/Slimefun-Geyser)!
+  <img alt="LatestRelease" src="https://img.shields.io/github/v/release/xMikux/Slimefun-Resourcepack?style=for-the-badge" />
+  
+  <img alt="TotalDownloads" src="https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/total?style=for-the-badge" />
 
-A simple remix & remake version Slimefun Resourcepack.
+  <img alt="Stars" src="https://img.shields.io/github/stars/xMikux/Slimefun-Resourcepack?style=for-the-badge" />
 
-Using ItemAdder to generate item model id.
+</p>
 
-## Download
+<h3 align="center">
+  A simple remix & remake Slimefun Resourcepack <br />
+</h3>
 
-### Total Downloads
+<h4 align="center">
+  Using ItemAdder to generate item models and IDs！
+</h4>
 
-[![Total Downloads](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/total?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/releases/)
+<h4 align="center">
+  Looking for Slimefun resourcepack for Bedrock edition? </br>
+  You can view
+  <a href="https://github.com/SofiaRedmond/Slimefun-Geyser">Slimefun-Geyser</a>!
+</h4>
 
-### Beta Version
+<h4 align="center">
+  <b>
+    Warning: Most of the textures are from the internet, all right reserved to the original author.
+  </b>
+</h4>
 
-Beta Pack contains the latest new textures and bug fixes!
+------
 
-Click the below badage to go to the download page.
+<h3 align="center">
+  🌎 Language
+</h3>
 
-[![Beta Downloads Original](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack-Original.zip?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+<p align="center">
+  <!-- Country Flags https://www.phoca.cz/cssflags/ -->
+  <a href="https://github.com/xMikux/Slimefun-Resourcepack/blob/main/.github/README.zh-tw.md">
+    <img alt="Language-Traditional_Chinese" src="https://img.shields.io/badge/-Traditional%20Chinese-346ed1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTAwIiBoZWlnaHQ9IjYwMCIgdmlld0JveD0iLTYwIC00MCAyNDAgMTYwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgIDxyZWN0IHg9Ii02MCIgeT0iLTQwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmUwMDAwIi8+DQogICA8cmVjdCB4PSItNjAiIHk9Ii00MCIgd2lkdGg9IjUwJSIgaGVpZ2h0PSI1MCUiIGZpbGw9IiMwMDAwOTUiLz4NCiAgIDxwYXRoIGlkPSJmb3VyX3JheXMiIGQ9Ik0gOCwwIEwgMCwzMCBMIC04LDAgTCAwLC0zMCBNIDAsOCBMIDMwLDAgTCAwLC04IEwgLTMwLDAiIGZpbGw9IiNmZmYiLz4NCiAgIDx1c2UgeGxpbms6aHJlZj0iI2ZvdXJfcmF5cyIgdHJhbnNmb3JtPSJyb3RhdGUoMzApIi8+DQogICA8dXNlIHhsaW5rOmhyZWY9IiNmb3VyX3JheXMiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPg0KICAgPGNpcmNsZSByPSIxNyIgZmlsbD0iIzAwMDA5NSIvPg0KICAgPGNpcmNsZSByPSIxNSIgZmlsbD0iI2ZmZiIvPg0KPC9zdmc+">
+  </a>
+  <a href="https://github.com/xMikux/Slimefun-Resourcepack/blob/main/.github/README.md">
+    <img alt="Language-English" src="https://img.shields.io/badge/-English-346ed1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjM1IDY1MCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KPGRlZnM+DQo8ZyBpZD0idW5pb24iPg0KPHVzZSB5PSItLjIxNiIgeGxpbms6aHJlZj0iI3g0Ii8+DQo8dXNlIHhsaW5rOmhyZWY9IiN4NCIvPg0KPHVzZSB5PSIuMjE2IiB4bGluazpocmVmPSIjczYiLz4NCjwvZz4NCjxnIGlkPSJ4NCI+DQo8dXNlIHhsaW5rOmhyZWY9IiNzNiIvPg0KPHVzZSB5PSIuMDU0IiB4bGluazpocmVmPSIjczUiLz4NCjx1c2UgeT0iLjEwOCIgeGxpbms6aHJlZj0iI3M2Ii8+DQo8dXNlIHk9Ii4xNjIiIHhsaW5rOmhyZWY9IiNzNSIvPg0KPC9nPg0KPGcgaWQ9InM1Ij4NCjx1c2UgeD0iLS4yNTIiIHhsaW5rOmhyZWY9IiNzdGFyIi8+DQo8dXNlIHg9Ii0uMTI2IiB4bGluazpocmVmPSIjc3RhciIvPg0KPHVzZSB4bGluazpocmVmPSIjc3RhciIvPg0KPHVzZSB4PSIuMTI2IiB4bGluazpocmVmPSIjc3RhciIvPg0KPHVzZSB4PSIuMjUyIiB4bGluazpocmVmPSIjc3RhciIvPg0KPC9nPg0KPGcgaWQ9InM2Ij4NCjx1c2UgeD0iLS4wNjMiIHhsaW5rOmhyZWY9IiNzNSIvPg0KPHVzZSB4PSIuMzE1IiB4bGluazpocmVmPSIjc3RhciIvPg0KPC9nPg0KPGcgaWQ9InN0YXIiPg0KPHVzZSB4bGluazpocmVmPSIjcHQiIHRyYW5zZm9ybT0ibWF0cml4KC0uODA5MDIgLS41ODc3OSAuNTg3NzkgLS44MDkwMiAwIDApIi8+DQo8dXNlIHhsaW5rOmhyZWY9IiNwdCIgdHJhbnNmb3JtPSJtYXRyaXgoLjMwOTAyIC0uOTUxMDYgLjk1MTA2IC4zMDkwMiAwIDApIi8+DQo8dXNlIHhsaW5rOmhyZWY9IiNwdCIvPg0KPHVzZSB4bGluazpocmVmPSIjcHQiIHRyYW5zZm9ybT0icm90YXRlKDcyKSIvPg0KPHVzZSB4bGluazpocmVmPSIjcHQiIHRyYW5zZm9ybT0icm90YXRlKDE0NCkiLz4NCjwvZz4NCjxwYXRoIGZpbGw9IiNmZmYiIGlkPSJwdCIgZD0iTS0uMTYyNSwwIDAtLjUgLjE2MjUsMHoiIHRyYW5zZm9ybT0ic2NhbGUoLjA2MTYpIi8+DQo8cGF0aCBmaWxsPSIjYmYwYTMwIiBpZD0ic3RyaXBlIiBkPSJtMCwwaDEyMzV2NTBoLTEyMzV6Ii8+DQo8L2RlZnM+DQo8cGF0aCBmaWxsPSIjZmZmIiBkPSJtMCwwaDEyMzV2NjUwaC0xMjM1eiIvPg0KPHVzZSB4bGluazpocmVmPSIjc3RyaXBlIi8+DQo8dXNlIHk9IjEwMCIgeGxpbms6aHJlZj0iI3N0cmlwZSIvPg0KPHVzZSB5PSIyMDAiIHhsaW5rOmhyZWY9IiNzdHJpcGUiLz4NCjx1c2UgeT0iMzAwIiB4bGluazpocmVmPSIjc3RyaXBlIi8+DQo8dXNlIHk9IjQwMCIgeGxpbms6aHJlZj0iI3N0cmlwZSIvPg0KPHVzZSB5PSI1MDAiIHhsaW5rOmhyZWY9IiNzdHJpcGUiLz4NCjx1c2UgeT0iNjAwIiB4bGluazpocmVmPSIjc3RyaXBlIi8+DQo8cGF0aCBmaWxsPSIjMDAyODY4IiBkPSJtMCwwaDQ5NHYzNTBoLTQ5NHoiLz4NCjx1c2UgeGxpbms6aHJlZj0iI3VuaW9uIiB0cmFuc2Zvcm09Im1hdHJpeCg2NTAgMCAwIDY1MCAyNDcgMTc1KSIvPg0KPC9zdmc+DQo=">
+  </a>
+</p>
 
-[![Beta Downloads Optimized](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack-Optimized.zip?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+------
 
-[![Beta Item models](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+## ⚙️ Installation
 
-### Release Version
+### 🎮 Player
 
-Stable, will not change after release, but will not include the latest textures, and some new bugs have only been fixed in the beta pack.
+First, download the resourcepack ``Slimefun-ResourcePack.zip`` from the release, resourcepack supports 1.14~1.19
 
-Click the below badage to go to the download page.
+Just saying that pack.mcmeta doesn't support multiple versions, you can also make the red warning disappear by modifying the ``pack.mcmeta`` of this file.
 
-[![Release Downloads Original](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack-Original.zip?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+Recommanded to install Fabric [CIT Resewn](https://modrinth.com/mod/cit-resewn) or Forge Optifine for the best experience!
 
-[![Release Downloads Optimized](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack-Optimized.zip?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+(Some textures require mod to display correctly, such as custom armor render, etc...)
 
-[![Release Item models](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=for-the-badge)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+Version:
 
-## Resourcepack Type
+- [Latest](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest) • Include the latest fixs and new textures
+- [Stable](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest) • After release, it will not change
 
-There have two type of Resourcepack
-
-* Original
-* Optimized
-
-Original and Optimized different is, the Optimized version compress a lot of image, with lossless quality.
-
-The armor render requires using support the cit armor render mod.
-
-You can use Fabric [CIT Resewn](https://modrinth.com/mod/cit-resewn) or Forge Optifine, and the server needs to use item model id to see!
-
-### CIT Armor Support List
-
-* InfinityExpansion Armor
-* Slimefun Armor
-* ExtraGear Armor
-
-## Content
-
-Inside the brackets are item models ranges.
-
-* Slimefun (2200001~2200600)
-* InfinityExpansion (2200601~2200679)
-* SlimyTreeTaps (2200800~2200809)
-* LiteXpansion (2200810~2200829)
-* ExoticGarden (2200830~2201200)
-* ExtraGear (2201201~2201270)
-* SimpleUtils (2201270~2201279)
-* FluffyMachines (2201280~2201300)
-* FoxyMachines (2201301~2201400)
-* Bump (2201401~2201470)
-
-There still have a lot of missing texture.
-
-Welcome to contribute it!
-
-## Credits
-
-* [RaulH22](https://www.planetminecraft.com/texture-pack/slimefun-texture-by-raulh22/) Base Slimefun Texture
-* [Den4enko](https://github.com/Den4enko/Slimefun-Resourcepack) Other Slimefun Texture
-* [LoneDev](https://www.spigotmc.org/resources/addon-slimefun4-textures-for-itemsadder.83877/) Using on generate this resourcepack
-* [Caribax](https://github.com/Mooy1/InfinityExpansion/releases/tag/v1) From InfinityExpansion Releases
-* [ybw0014](https://gzss.link/sf-texture) Another Repo collect a lot of texture
-* DragonMysterious Contribute Multi Tool Texturs
-* AnsonYK Contribute Solar Panel, Electric Ore Grinder 3, Famer Talisman, Infinity Capacitor
-* [Sofia Redmond](https://github.com/SofiaRedmond), the sexiest girl in this repository
-* [Jerry](https://github.com/Keeywe) the laziest tall(?) guy
-
-**There are many textures collected from the internet.**
-
-## Disclaimer
-
-> I do not own any textures.
+Please note!
+> Server need to installed same item-models.yml to work
 >
-> I just remake, combined the textures belong to their respective creator.
+> If you join server, and can't display texutes
 >
-> All texture own by their credits!
+> Please contact the admin to inquire about using resourcepack
+
+### 🖥️ Admin
+
+Please click the version link above, and download ``item-models.yml``, put it in the Slimefun plugins folder ``plugins/Slimefun/``. If you do not upload this file, this resourcepack will not work.
+
+## 📝 Content and Information
+
+CIT Support List:
+
+- InfinityExpansion Armor
+- Slimefun Armor
+- ExtraGear Armor
+
+Slimefun & Addons Models ID Range List
+
+| Name | Range |
+| --- | --- |
+| Slimefun | 2200001~2200600 |
+| InfinityExpansion | 2200601~2200679 |
+| SlimyTreeTaps | 2200800~2200809 |
+| LiteXpansion | 2200810~2200829 |
+| ExoticGarden | 2200830~2201200 |
+| ExtraGear | 2201201~2201270 |
+| SimpleUtils | 2201270~2201279 |
+| FluffyMachines | 2201280~2201300 |
+| FoxyMachines | 2201301~2201400 |
+| Bump | 2201401~2201470 |
+
+There is still a lot of texutes missing! Welcome to contribute more texture!
+
+## ⭐ Credits
+
+<table>
+  <tr>
+    <!-- RaulH22 -->
+    <td align="center">
+      <a href="https://www.planetminecraft.com/member/raulh22/"
+        ><img
+          src="https://static.planetminecraft.com/files/avatar/889296_5.png"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>RaulH22</b></sub></a
+      ><br />
+      <p>
+        The base of all Slimefun Textures <br />
+        <a href="https://www.planetminecraft.com/texture-pack/slimefun-texture-by-raulh22/"
+        >Original Link</a>
+      </p>
+      </a>
+    </td>
+    <!-- Den4enko -->
+    <td align="center">
+      <a href="https://github.com/Den4enko"
+        ><img
+          src="https://avatars.githubusercontent.com/u/60628208?v=4?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>Den4enko</b></sub></a
+      ><br />
+      <p>
+        Other Sleimfun Textures <br />
+        <a href="https://github.com/Den4enko/Slimefun-Resourcepack"
+        >Original Repo</a>
+      </p>
+      </a>
+    </td>
+    <!-- LoneDev6 -->
+    <td align="center">
+      <a href="https://github.com/LoneDev6"
+        ><img
+          src="https://avatars.githubusercontent.com/u/27242001?v=4?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>LoneDev6</b></sub></a
+      ><br />
+      <p>
+        IA Addons Slimefun Resourcepack <br />
+        Also author of ItemAdders <br />
+        <a href="https://www.spigotmc.org/resources/83877/"
+        >This project prtotype</a>
+      </p>
+      </a>
+    </td>
+    <!-- Caribax -->
+    <td align="center">
+      <a href="https://github.com/Mooy1/InfinityExpansion/releases/tag/v1"
+        ><img
+          src="https://github.com/identicons/jasonlong.png?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>Caribax</b></sub></a
+      ><br />
+      <p>
+        InfinityExpansion Addon Textures <br />
+        <a href="https://github.com/Mooy1/InfinityExpansion/releases/tag/v1"
+        >Original Link</a>
+      </p>
+      </a>
+    </td>
+    <!-- ybw0014 -->
+    <td align="center">
+      <a href="https://github.com/ybw0014"
+        ><img
+          src="https://avatars.githubusercontent.com/u/7105953?v=4?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>ybw0014</b></sub></a
+      ><br />
+      <p>
+        Bump and other textures part <br />
+        <a href="https://github.com/ybw0014/GuizhanCraft-resources"
+        >Original Repo</a>
+      </p>
+      </a>
+    </td>
+    <!-- DragonMysterious -->
+    <td align="center">
+      <a href=""
+        ><img
+          src="https://github.com/identicons/jasonlong.png?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>DragonMysterious</b></sub></a
+      ><br />
+      <p>
+        Mysterious Contributor <br />
+      </p>
+      </a>
+    </td>
+  </tr>
+  <!-- Next Line -->
+  <tr>
+    <!-- AnsonYK -->
+    <td align="center">
+      <a href=""
+        ><img
+          src="https://github.com/identicons/jasonlong.png?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>AnsonYK</b></sub></a
+      ><br />
+      <p>
+        Mysterious Contributor <br />
+      </p>
+      </a>
+    </td>
+    <!-- Sofia Redmond -->
+    <td align="center">
+      <a href="https://github.com/SofiaRedmond"
+        ><img
+          src="https://avatars.githubusercontent.com/u/86848962?v=4?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>Sofia Redmond</b></sub></a
+      ><br />
+      <p>
+        The sexiest girl in this repo <br />
+        Slimefun Bedrock Resourcepack that she made  
+        <a href="https://github.com/SofiaRedmond/Slimefun-Geyser"
+        >Repo</a>
+      </p>
+      </a>
+    </td>
+    <!-- Jerry -->
+    <td align="center">
+      <a href="https://github.com/Keeywe"
+        ><img
+          src="https://avatars.githubusercontent.com/u/92014243?v=4?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>Jerry</b></sub></a
+      ><br />
+      <p>
+        The laziest tall(?) Jerry <br />
+      </p>
+      </a>
+    </td>
+  <!-- The End Of Line -->
+  </tr>
+</table>

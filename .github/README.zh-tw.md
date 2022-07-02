@@ -17,7 +17,7 @@
 </p>
 
 <h3 align="center">
-  一個簡單的重新混和 & 重新製作的黏液科技材質包 <br />
+  一個簡單的重新混合 & 重新製作的黏液科技材質包 <br />
 </h3>
 
 <h4 align="center">
@@ -71,10 +71,10 @@
 - [最新版](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest) • 包括了最新的修正與新材質
 - [穩定版](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest) • 固定而不再變動
 
-請注意!
+請注意！
 > 伺服器需要安裝相同的 item-models.yml 才能運作
 >
-> 如果加入伺服器無顯示材質
+> 如果加入伺服器無法顯示材質
 >
 > 請聯繫該伺服器的管理詢問材質包使用
 
@@ -123,7 +123,7 @@ CIT 支持列表：
       <p>
         所有黏液材質的基礎 <br />
         <a href="https://www.planetminecraft.com/texture-pack/slimefun-texture-by-raulh22/"
-        >原始材質位置</a>
+        >原始連結</a>
       </p>
       </a>
     </td>
@@ -139,7 +139,7 @@ CIT 支持列表：
       <p>
         其他黏液材質 <br />
         <a href="https://github.com/Den4enko/Slimefun-Resourcepack"
-        >原始材質位置</a>
+        >原始專案</a>
       </p>
       </a>
     </td>
@@ -172,7 +172,7 @@ CIT 支持列表：
       <p>
         無限附加的材質 <br />
         <a href="https://github.com/Mooy1/InfinityExpansion/releases/tag/v1"
-        >原始材質位置</a>
+        >原始連結</a>
       </p>
       </a>
     </td>
@@ -188,7 +188,7 @@ CIT 支持列表：
       <p>
         Bump 與其他部分材質 <br />
         <a href="https://github.com/ybw0014/GuizhanCraft-resources"
-        >原始材質位置</a>
+        >原始專案</a>
       </p>
       </a>
     </td>
