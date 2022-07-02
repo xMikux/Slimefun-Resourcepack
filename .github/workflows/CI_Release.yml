@@ -24,10 +24,6 @@ jobs:
           sed -i 's/Beta/Release/1' pack.mcmeta
           sed -i 's/v[0-9].[0-9].[0-9]/'$TAGNAME'/1' pack.mcmeta
 
-      - name: Make Original Pack
-        run: |
-          zip -r Slimefun-ResourcePack-Original assets/* pack.mcmeta pack.png
-
       - name: Download Item models
         env:
           TAG: ${{ github.ref }}
@@ -50,7 +46,7 @@ jobs:
 
       - name: 📝 Rename Optimized Pack
         run: |
-          mv ./pack.zip Slimefun-ResourcePack-Optimized.zip
+          mv ./pack.zip Slimefun-ResourcePack.zip
 
       - name: Delete Artifact
         uses: geekyeggo/delete-artifact@v1
@@ -60,10 +56,9 @@ jobs:
 
       - name: Make Checksum
         run: |
-          SUM0=$(sha256sum Slimefun-ResourcePack-Original.zip)
-          SUM1=$(sha256sum Slimefun-ResourcePack-Optimized.zip)
-          SUM2=$(sha256sum item-models.yml)
-          echo -e "$SUM0\n$SUM1\n$SUM2" > checksums.txt
+          SUM0=$(sha256sum Slimefun-ResourcePack.zip)
+          SUM1=$(sha256sum item-models.yml)
+          echo -e "$SUM0\n$SUM1" > checksums.txt
 
       - name: Create & Upload Releases 
         uses: marvinpinto/action-automatic-releases@latest
@@ -71,7 +66,6 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
           files: |
-            Slimefun-ResourcePack-Original.zip
-            Slimefun-ResourcePack-Optimized.zip
+            Slimefun-ResourcePack.zip
             item-models.yml
             checksums.txt
