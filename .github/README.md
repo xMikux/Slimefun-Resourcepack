@@ -7,13 +7,9 @@
 </h1>
 
 <p align="center">
-
-  <img alt="LatestRelease" src="https://img.shields.io/github/v/release/xMikux/Slimefun-Resourcepack?style=for-the-badge" />
-  
+  <a href="https://github.com/xMikux/Slimefun-Resourcepack/releases/latest"><img alt="LatestRelease" src="https://img.shields.io/github/v/release/xMikux/Slimefun-Resourcepack?style=for-the-badge" /></a>
   <img alt="TotalDownloads" src="https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/total?style=for-the-badge" />
-
   <img alt="Stars" src="https://img.shields.io/github/stars/xMikux/Slimefun-Resourcepack?style=for-the-badge" />
-
 </p>
 
 <h3 align="center">
@@ -68,8 +64,13 @@ Recommanded to install Fabric [CIT Resewn](https://modrinth.com/mod/cit-resewn) 
 
 Version:
 
-- [Latest](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest) • Include the latest fixs and new textures
-- [Stable](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest) • After release, it will not change
+- [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+
+  Include the latest fixs and new textures
+
+- [![Realease](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+
+  After release, it will not change
 
 Please note!
 > Server need to installed same item-models.yml to work
@@ -80,7 +81,17 @@ Please note!
 
 ### 🖥️ Admin
 
-Please click the version link above, and download ``item-models.yml``, put it in the Slimefun plugins folder ``plugins/Slimefun/``. If you do not upload this file, this resourcepack will not work.
+Please click version list below and download ``item-models.yml``
+
+put it in Slimefun plugins folder ``plugins/Slimefun/``
+
+The resourcepack will not display the correct textures if this file is not installed.
+
+Version:
+
+- Latest [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+
+- Stable [![Realease](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
 
 ## 📝 Content and Information
 

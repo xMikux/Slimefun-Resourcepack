@@ -7,13 +7,9 @@
 </h1>
 
 <p align="center">
-
-  <img alt="LatestRelease" src="https://img.shields.io/github/v/release/xMikux/Slimefun-Resourcepack?style=for-the-badge" />
-  
+  <a href="https://github.com/xMikux/Slimefun-Resourcepack/releases/latest"><img alt="LatestRelease" src="https://img.shields.io/github/v/release/xMikux/Slimefun-Resourcepack?style=for-the-badge" /></a>
   <img alt="TotalDownloads" src="https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/total?style=for-the-badge" />
-
   <img alt="Stars" src="https://img.shields.io/github/stars/xMikux/Slimefun-Resourcepack?style=for-the-badge" />
-
 </p>
 
 <h3 align="center">
@@ -68,8 +64,13 @@
 
 版本：
 
-- [最新版](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest) • 包括了最新的修正與新材質
-- [穩定版](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest) • 固定而不再變動
+- [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+
+  包括了最新的修正與新材質
+
+- [![Realease](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+
+  固定而不再變動
 
 請注意！
 > 伺服器需要安裝相同的 item-models.yml 才能運作
@@ -80,7 +81,17 @@
 
 ### 🖥️ 管理者
 
-請點選上方的版本連結，並下載 ``item-models.yml`` 放入到黏液科技的設定資料夾內 ``plugins/Slimefun/`` 如果沒有上傳此檔案將導致此材質包無法使用。
+請點選下方版本列表，並下載 ``item-models.yml``
+
+放入到黏液科技的設定資料夾 ``plugins/Slimefun/``
+
+如果沒有安裝此檔案將導致材質包無法顯示材質。
+
+版本：
+
+- 最新版 [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+
+- 穩定版 [![Realease](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
 
 ## 📝 內容與資訊
 
