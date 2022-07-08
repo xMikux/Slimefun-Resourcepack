@@ -17,7 +17,7 @@
 </h3>
 
 <h4 align="center">
-  Using ItemAdder to generate item models and IDs！
+  Using ItemAdder to generate item models and IDs!
 </h4>
 
 <h4 align="center">
