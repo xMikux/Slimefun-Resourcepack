@@ -213,7 +213,7 @@ There is still a lot of texutes missing! Welcome to contribute more texture!
         /><br /><sub><b>DragonMysterious</b></sub></a
       ><br />
       <p>
-        Mysterious Contributor <br />
+        Mysterious Contributor
       </p>
       </a>
     </td>
@@ -230,7 +230,7 @@ There is still a lot of texutes missing! Welcome to contribute more texture!
         /><br /><sub><b>AnsonYK</b></sub></a
       ><br />
       <p>
-        Mysterious Contributor <br />
+        Mysterious Contributor
       </p>
       </a>
     </td>
@@ -261,7 +261,20 @@ There is still a lot of texutes missing! Welcome to contribute more texture!
         /><br /><sub><b>Jerry</b></sub></a
       ><br />
       <p>
-        The laziest tall(?) Jerry <br />
+        The laziest tall(?) Jerry
+      </p>
+      </a>
+    <!-- haiman -->
+    <td align="center">
+      <a href="https://github.com/haiman233"
+        ><img
+          src="https://avatars.githubusercontent.com/u/83174104?v=4?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>haiman</b></sub></a
+      ><br />
+      <p>
+        Credit of Bump Addon Textrues
       </p>
       </a>
     </td>

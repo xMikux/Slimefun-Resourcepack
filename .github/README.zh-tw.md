@@ -213,7 +213,7 @@ CIT 支持列表：
         /><br /><sub><b>DragonMysterious</b></sub></a
       ><br />
       <p>
-        神秘的貢獻者 <br />
+        神秘的貢獻者
       </p>
       </a>
     </td>
@@ -230,7 +230,7 @@ CIT 支持列表：
         /><br /><sub><b>AnsonYK</b></sub></a
       ><br />
       <p>
-        神秘的貢獻者 <br />
+        神秘的貢獻者
       </p>
       </a>
     </td>
@@ -261,7 +261,20 @@ CIT 支持列表：
         /><br /><sub><b>Jerry</b></sub></a
       ><br />
       <p>
-        最懶的高(?) Jerry <br />
+        最懶的高(?) Jerry
+      </p>
+      </a>
+    <!-- haiman -->
+    <td align="center">
+      <a href="https://github.com/haiman233"
+        ><img
+          src="https://avatars.githubusercontent.com/u/83174104?v=4?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>haiman</b></sub></a
+      ><br />
+      <p>
+        Bump 附加材質的貢獻者
       </p>
       </a>
     </td>
