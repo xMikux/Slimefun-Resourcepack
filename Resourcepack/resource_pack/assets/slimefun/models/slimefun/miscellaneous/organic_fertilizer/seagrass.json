@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "author": "Sofia_Redmond",
+  "textures": {
+    "layer0": "slimefun:slimefun/miscellaneous/organic_fertilizer/seagrass"
+  }
+}

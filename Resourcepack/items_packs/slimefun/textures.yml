@@ -3865,6 +3865,14 @@ items:
       generate: false
       model_id: 2200482
       model_path: "slimefun/miscellaneous/organic_food/cocoa_beans"
+  seagrass:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2200482
+      model_path: "slimefun/miscellaneous/organic_food/seagrass"
   # auto_breeder:
   #   display_name: slimefun
   #   permission: slimefun

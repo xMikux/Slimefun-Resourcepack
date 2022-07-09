@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "author": "Seagrass",
+  "textures": {
+    "layer0": "slimefun:slimefun/miscellaneous/organic_food/seagrass"
+  }
+}
