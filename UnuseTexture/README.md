@@ -16,6 +16,7 @@ A list of texture that in slimefun texture, but not used.
 * Nether Drill, RaulH22 drawn, but not exist. (path: Resourcepack/resource_pack/assets/slimefun/textures/slimefun/gps/nether_drill.png)
 * Ketchup, from Slimefun miscellaneous, but there is no this item
 * cargo_motor.png, from Slimefun technical_components, but there is no this item
+* ingredient/ folder from Slimefun miscellaneous/organic_food, look like is original organic fertilizer/food type.
 
 ## InfinityExpansion Releases
 
