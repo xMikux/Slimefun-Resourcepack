@@ -255,6 +255,13 @@ jobs:
           unzip pack.zip
         working-directory: ${{ env.working-directory }}
 
+      - name: 🔧 Remove unnecessary files
+        run: |
+          rm -r assets/z_iainternal
+          rm -r assets/minecraft/optifine/cit/ia_generated_armors
+          rm -r assets/minecraft/shaders
+        working-directory: ${{ env.working-directory }}
+
       - name: 💤 Sleep for 2 seconds
         run: |
           rm ${{ env.working-directory }}pack.zip
