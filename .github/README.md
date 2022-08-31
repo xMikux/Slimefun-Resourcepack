@@ -93,6 +93,18 @@ Version:
 
 - Stable [![Realease](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
 
+#### ItemsAdder Installation Guide
+
+ItemsAdder must use install via this guide
+
+Download the zip that is already build done, and unarchive to plugins/ItemsAdder **Will cause error**
+
+1. First, download this project, you can download it on GitHub main project page Code button, and click ``Download ZIP`` to download
+
+2. Just like normal you install ItemAdder with other Addons, extract ``items_packs`` and ``resource_pack`` folder from ``Resourcepack`` to ``plugins/ItemsAdder/data/``
+
+3. And type command ``/iareload`` ``/iazip`` in game or on console, nstallation will be completed!
+
 ## 📝 Content and Information
 
 CIT Support List:
