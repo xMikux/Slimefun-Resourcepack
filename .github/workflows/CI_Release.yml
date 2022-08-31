@@ -36,6 +36,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           allow_optifine_mod: true
+          never_store_squash_times: true
           path: ./
 
       - name: ☁ DownloadArtifact Optimized Pack

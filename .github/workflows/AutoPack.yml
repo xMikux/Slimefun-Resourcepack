@@ -307,6 +307,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           allow_optifine_mod: true
+          never_store_squash_times: true
           artifact_name: Slimefun-ResourcePack
           path: ./
 
