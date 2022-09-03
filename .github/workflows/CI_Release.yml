@@ -29,7 +29,7 @@ jobs:
           TAG: ${{ github.ref }}
         run: |
           TAGNAME=${TAG:10}
-          curl https://raw.githubusercontent.com/xMikux/Slimefun-Resourcepack/v$TAGNAME/Resourcepack/item-models.yml --output item-models.yml
+          curl https://raw.githubusercontent.com/xMikux/Slimefun-Resourcepack/$TAGNAME/Resourcepack/item-models.yml --output item-models.yml
 
       - name: Make Optimized Pack
         uses: ComunidadAylas/PackSquash-action@master
