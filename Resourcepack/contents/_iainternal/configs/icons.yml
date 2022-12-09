@@ -1,0 +1,59 @@
+info:
+  namespace: _iainternal
+# items:
+#   icon_left_blue:
+#     enabled: true
+#     display_name: display-name-icon_left_blue
+#     resource:
+#       material: PAPER
+#       generate: true
+#       textures:
+#         - icons/icon_left_blue
+#   icon_right_blue:
+#     enabled: true
+#     display_name: display-name-icon_right_blue
+#     resource:
+#       material: PAPER
+#       generate: true
+#       textures:
+#         - icons/icon_right_blue
+#   icon_search:
+#     enabled: true
+#     display_name: display-name-icon_search
+#     resource:
+#       material: PAPER
+#       generate: true
+#       textures:
+#         - icons/icon_search
+#   icon_cancel:
+#     enabled: true
+#     display_name: display-name-icon_cancel
+#     resource:
+#       material: PAPER
+#       generate: true
+#       textures:
+#         - icons/icon_cancel
+#   icon_arrow_chest:
+#     enabled: true
+#     display_name: display-name-icon_arrow_chest
+#     resource:
+#       material: PAPER
+#       generate: true
+#       textures:
+#         - icons/icon_arrow_chest
+#   icon_back_orange:
+#     enabled: true
+#     display_name: display-name-icon_back_orange
+#     resource:
+#       material: PAPER
+#       generate: true
+#       textures:
+#         - icons/icon_back_orange
+#   icon_next_orange:
+#     enabled: true
+#     display_name: display-name-icon_next_orange
+#     resource:
+#       material: PAPER
+#       generate: true
+#       textures:
+#         - icons/icon_next_orange

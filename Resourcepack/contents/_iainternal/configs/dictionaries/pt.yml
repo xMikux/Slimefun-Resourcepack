@@ -1,0 +1,115 @@
+info:
+  namespace: _common
+  dictionary-lang: "pt"
+dictionary:
+  lore-blocked-enchants: "&4Blocked Enchants:"
+  lore-enchantment-all: "&7All"
+  lore-enchantment-sharpness: "&7Sharpness"
+  lore-enchantment-smite: "&7Smite"
+  lore-enchantment-bane_of_arthropods: "&7Bane of Arthropods"
+  lore-enchantment-knockback: "&7Knockback"
+  lore-enchantment-fire_aspect: "&7Fire Aspect"
+  lore-enchantment-sweeping: "&7Sweeping Edge"
+  lore-enchantment-protection: "&7Protection"
+  lore-enchantment-fire_protection: "&7Fire Protection"
+  lore-enchantment-feather_falling: "&7Feather Falling"
+  lore-enchantment-blast_protection: "&7Blast Protection"
+  lore-enchantment-projectile_protection: "&7Projectile Protection"
+  lore-enchantment-respiration: "&7Respiration"
+  lore-enchantment-aqua_affinity: "&7Aqua Affinity"
+  lore-enchantment-depth_strider: "&7Depth Strider"
+  lore-enchantment-frost_walker: "&7Frost Walker"
+  lore-enchantment-soul_speed: "&7Soul Speed"
+  lore-enchantment-efficiency: "&7Efficiency"
+  lore-enchantment-silk_touch: "&7Silk Touch"
+  lore-enchantment-unbreaking: "&7Unbreaking"
+  lore-enchantment-looting: "&7Looting"
+  lore-enchantment-fortune: "&7Fortune"
+  lore-enchantment-luck_of_the_sea: "&7Luck of the Sea"
+  lore-enchantment-lure: "&7Lure"
+  lore-enchantment-power: "&7Power"
+  lore-enchantment-flame: "&7Flame"
+  lore-enchantment-punch: "&7Punch"
+  lore-enchantment-infinity: "&7Infinity"
+  lore-enchantment-thorns: "&7Thorns"
+  lore-enchantment-mending: "&7Mending"
+  lore-enchantment-binding_curse: "&7Curse of Binding"
+  lore-enchantment-vanishing_curse: "&7Curse of Vanishing"
+  lore-enchantment-loyalty: "&7Loyalty"
+  lore-enchantment-impaling: "&7Impaling"
+  lore-enchantment-riptide: "&7Riptide"
+  lore-enchantment-channeling: "&7Channeling"
+  lore-enchantment-multishot: "&7Multishot"
+  lore-enchantment-quick_charge: "&7Quick Charge"
+  lore-enchantment-piercing: "&7Piercing"
+  display-category-all: Tudo
+  display-category-armors: Armaduras
+  display-category-swords: Espadas
+  display-category-pickaxes: Picaretas
+  display-category-axes: Machados
+  display-category-hoes: Enxadas
+  display-category-shovels: Pás
+  display-category-fishing_rods: Canas de Pesca
+  display-category-shears: Tesouras
+  display-category-weapons: Armas
+  display-category-shields: Escudos
+  display-category-bows: Arcos
+  display-category-eatables: Comida
+  display-category-thirst: Bebida
+  display-category-vegetables: Fruta & Vegetais
+  display-category-seeds: Sementes
+  display-category-fishes: Peixes
+  display-category-potions: Poções
+  display-category-furnitures: Mobilia
+  display-category-paintings: Quadros
+  display-category-chairs: Cadeiras
+  display-category-hats: Chapeus
+  display-category-wearables: Vestuario
+  display-category-machines: Maquinas
+  display-category-blocks: Blocos
+  display-category-ores: Minérios
+  display-category-minerals: Minerais
+  display-category-instruments: Instrumentos
+  display-category-various: Artigos & Ingredientes
+  display-category-alchemy: Artigos de Alquimia
+  display-category-musicdiscs: Discos Musicas
+  display-category-throwables: Jogáveis
+  display-category-books: Livros
+  display-category-vehicles: Veiculos
+  display-category-icons: Ícones
+  display-category-generic_items: Artigos Genéricos
+  display-category-halloween: Artigos de Halloween
+  display-category-christmas: Artigos de Natal
+  display-category-special: Especial
+  display-name-icon_left_gray: < Recuar
+  display-name-icon_left_blue: < Recuar
+  display-name-icon_right_gray: Próximo >
+  display-name-icon_right_blue: Próximo >
+  display-name-icon_up_gray: Cima
+  display-name-icon_up_blue: Cima
+  display-name-icon_down_gray: Baixo
+  display-name-icon_down_blue: Baixo
+  display-name-icon_next_white: Próximo >
+  display-name-icon_next_orange: Próximo >
+  display-name-icon_back_white: < Recuar
+  display-name-icon_back_orange: < Recuar
+  display-name-icon_cancel: Cancelar
+  display-name-icon_confirm: Confirmar
+  display-name-icon_lock: Bloquear
+  display-name-icon_unlock: Desbloquear
+  display-name-icon_web: Web
+  display-name-icon_ender_chest: EnderChest
+  display-name-icon_refresh: Refrescar
+  display-name-icon_time_day: Dia
+  display-name-icon_time_midnight: Meia-noite
+  display-name-icon_time_night: Noite
+  display-name-icon_time_noon: Meio-Dia
+  display-name-icon_time_sunrise: Nascer-do-Sol
+  display-name-icon_time_sunset: Pôr-do-Sol
+  display-name-icon_toggle_off: Desativar
+  display-name-icon_toggle_on: Ativar
+  display-name-icon_arrow_chest: Báu com Seta
+  display-name-icon_plus: Mais
+  display-name-icon_color_picker: Palete de Cores
+  display-name-icon_comment: Comentário
+  display-name-icon_search: Pesquisa

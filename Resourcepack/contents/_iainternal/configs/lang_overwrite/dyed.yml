@@ -1,0 +1,9 @@
+info:
+  namespace: _iainternal
+minecraft_lang_overwrite:
+  disable_dyed_text:
+    entries:
+      "item.dyed": ""
+      "item.color": ""
+    languages:
+      - ALL

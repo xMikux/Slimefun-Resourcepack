@@ -1,7 +1,0 @@
-{
-  "variants":{
-    "west=true,up=true,south=true,north=true,east=true,down=true":{
-      "model":"block/original/red_mushroom_block_true"
-    }
-  }
-}

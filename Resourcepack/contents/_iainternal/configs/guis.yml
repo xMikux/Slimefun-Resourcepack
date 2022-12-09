@@ -1,0 +1,27 @@
+info:
+  namespace: _iainternal
+# font_images:
+#   no_recipe:
+#     path: gui/no_recipe
+#     suggest_in_command: false
+#     y_position: 47
+#   crafting:
+#     path: gui/crafting
+#     suggest_in_command: false
+#     y_position: 47
+#   cooking:
+#     path: gui/cooking
+#     suggest_in_command: false
+#     y_position: 47
+#   blank_menu:
+#     path: gui/blank_menu
+#     suggest_in_command: false
+#     y_position: 47
+#   anvil_repair:
+#     path: gui/anvil_repair
+#     suggest_in_command: false
+#     y_position: 47
+#   smithing:
+#     path: gui/smithing
+#     suggest_in_command: false
+#     y_position: 47

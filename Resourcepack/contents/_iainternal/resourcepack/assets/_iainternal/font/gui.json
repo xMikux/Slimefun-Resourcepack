@@ -1,0 +1,5 @@
+{"providers":[
+    {"type":"bitmap","file":"_iainternal:gui/no_craft_permission_notification.png","height":37,"ascent":37,"chars":["A"]},
+    {"type":"bitmap","file":"base/black.png","height":-6,"ascent":-5000,"chars":["!"]},
+    {"type":"bitmap","file":"base/black.png","height":-104,"ascent":-5000,"chars":["@"]}
+]}

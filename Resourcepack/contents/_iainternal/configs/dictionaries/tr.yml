@@ -1,0 +1,115 @@
+info:
+  namespace: _common
+  dictionary-lang: "tr"
+dictionary:
+  lore-blocked-enchants: "&4Blocked Enchants:"
+  lore-enchantment-all: "&7All"
+  lore-enchantment-sharpness: "&7Sharpness"
+  lore-enchantment-smite: "&7Smite"
+  lore-enchantment-bane_of_arthropods: "&7Bane of Arthropods"
+  lore-enchantment-knockback: "&7Knockback"
+  lore-enchantment-fire_aspect: "&7Fire Aspect"
+  lore-enchantment-sweeping: "&7Sweeping Edge"
+  lore-enchantment-protection: "&7Protection"
+  lore-enchantment-fire_protection: "&7Fire Protection"
+  lore-enchantment-feather_falling: "&7Feather Falling"
+  lore-enchantment-blast_protection: "&7Blast Protection"
+  lore-enchantment-projectile_protection: "&7Projectile Protection"
+  lore-enchantment-respiration: "&7Respiration"
+  lore-enchantment-aqua_affinity: "&7Aqua Affinity"
+  lore-enchantment-depth_strider: "&7Depth Strider"
+  lore-enchantment-frost_walker: "&7Frost Walker"
+  lore-enchantment-soul_speed: "&7Soul Speed"
+  lore-enchantment-efficiency: "&7Efficiency"
+  lore-enchantment-silk_touch: "&7Silk Touch"
+  lore-enchantment-unbreaking: "&7Unbreaking"
+  lore-enchantment-looting: "&7Looting"
+  lore-enchantment-fortune: "&7Fortune"
+  lore-enchantment-luck_of_the_sea: "&7Luck of the Sea"
+  lore-enchantment-lure: "&7Lure"
+  lore-enchantment-power: "&7Power"
+  lore-enchantment-flame: "&7Flame"
+  lore-enchantment-punch: "&7Punch"
+  lore-enchantment-infinity: "&7Infinity"
+  lore-enchantment-thorns: "&7Thorns"
+  lore-enchantment-mending: "&7Mending"
+  lore-enchantment-binding_curse: "&7Curse of Binding"
+  lore-enchantment-vanishing_curse: "&7Curse of Vanishing"
+  lore-enchantment-loyalty: "&7Loyalty"
+  lore-enchantment-impaling: "&7Impaling"
+  lore-enchantment-riptide: "&7Riptide"
+  lore-enchantment-channeling: "&7Channeling"
+  lore-enchantment-multishot: "&7Multishot"
+  lore-enchantment-quick_charge: "&7Quick Charge"
+  lore-enchantment-piercing: "&7Piercing"
+  display-category-all: Herşey
+  display-category-armors: Zırhlar
+  display-category-swords: Kılıçlar
+  display-category-pickaxes: Kazmalar
+  display-category-axes: Baltalar
+  display-category-hoes: Çapalar
+  display-category-shovels: Kürekler
+  display-category-fishing_rods: Oltalar
+  display-category-shears: Makaslar
+  display-category-weapons: Silahlar
+  display-category-shields: Kalkanlar
+  display-category-bows: Yaylar
+  display-category-eatables: Yemek
+  display-category-thirst: İçecekler
+  display-category-vegetables: Sebze ve Meyve
+  display-category-seeds: Tohumlar
+  display-category-fishes: Balıklar
+  display-category-potions: İksirler
+  display-category-furnitures: Mobilyalar
+  display-category-paintings: Resimler
+  display-category-chairs: Sandalyeler
+  display-category-hats: Şapka
+  display-category-wearables: Giyilebilir cihazlar
+  display-category-machines: Makineler
+  display-category-blocks: Bloklar
+  display-category-ores: Cevher
+  display-category-minerals: Mineraller
+  display-category-instruments: Enstrümanlar
+  display-category-various: Öğeler ve malzemeler
+  display-category-alchemy: Simya eşyaları
+  display-category-musicdiscs: Müzik Diskleri
+  display-category-throwables: Fırlatılabilirler
+  display-category-books: Kitablar
+  display-category-vehicles: Araçlar
+  display-category-icons: Simgeler
+  display-category-generic_items: Genel Öğeler
+  display-category-halloween: Cadılar Bayramı Öğeleri
+  display-category-christmas: Noel Öğeleri
+  display-category-special: Özel
+  display-name-icon_left_gray: < Geri
+  display-name-icon_left_blue: < Geri
+  display-name-icon_right_gray: Sonraki >
+  display-name-icon_right_blue: Sonraki >
+  display-name-icon_up_gray: Yukarı
+  display-name-icon_up_blue: Yukarı
+  display-name-icon_down_gray: Aşağı
+  display-name-icon_down_blue: Aşağı
+  display-name-icon_next_white: Sonraki >
+  display-name-icon_next_orange: Sonraki >
+  display-name-icon_back_white: < Geri
+  display-name-icon_back_orange: < Geri
+  display-name-icon_cancel: İptal etmek
+  display-name-icon_confirm: Onaylamak
+  display-name-icon_lock: Kilit
+  display-name-icon_unlock: Kilidini aç
+  display-name-icon_web: ağ
+  display-name-icon_ender_chest: Ender Sandığı
+  display-name-icon_refresh: Yenile
+  display-name-icon_time_day: Gün saati
+  display-name-icon_time_midnight: Zaman Gece yarısı
+  display-name-icon_time_night: Zaman Gece
+  display-name-icon_time_noon: Öğlen vakti
+  display-name-icon_time_sunrise: Zaman Gün Doğumu
+  display-name-icon_time_sunset: Zaman Gün Batımı
+  display-name-icon_toggle_off: Kapat
+  display-name-icon_toggle_on: Aç
+  display-name-icon_arrow_chest: Ok Sandığı
+  display-name-icon_plus: Plus
+  display-name-icon_color_picker: Renk seçici
+  display-name-icon_comment: Yorum Yap
+  display-name-icon_search: Arama
