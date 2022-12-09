@@ -42,37 +42,37 @@ jobs:
       matrix:
         include:
           - PackName: Minecraft
-            Path_Models: Default/minecraft/models/**/*.json
+            Path_Models: Resourcepack/contents/_iainternal/resourcepack/assets/minecraft/**/*.json
           - PackName: Bump
-            Path_Models: Resourcepack/resource_pack/assets/bump/models/**/*.json
-            Path_Pack: Resourcepack/items_packs/bump/textures.yml
+            Path_Models: Resourcepack/contents/bump/resourcepack/bump/models/**/*.json
+            Path_Pack: Resourcepack/contents/bump/configs/textures.yml
           - PackName: ExoticGarden
-            Path_Models: Resourcepack/resource_pack/assets/exotic_garden/models/**/*.json
-            Path_Pack: Resourcepack/items_packs/exotic_garden/textures.yml
+            Path_Models: Resourcepack/contents/exotic_garden/resourcepack/exotic_garden/models/**/*.json
+            Path_Pack: Resourcepack/contents/exotic_garden/configs/textures.yml
           - PackName: ExtraGear
-            Path_Models: Resourcepack/resource_pack/assets/extra_gear/models/**/*.json
-            Path_Pack: Resourcepack/items_packs/extra_gear/textures.yml
+            Path_Models: Resourcepack/contents/extra_gear/resourcepack/extra_gear/models/**/*.json
+            Path_Pack: Resourcepack/contents/extra_gear/configs/textures.yml
           - PackName: FluffyMachines
-            Path_Models: Resourcepack/resource_pack/assets/fluffymachines/models/**/*.json
-            Path_Pack: Resourcepack/items_packs/fluffymachines/textures.yml
+            Path_Models: Resourcepack/contents/fluffymachines/resourcepack/fluffymachines/models/**/*.json
+            Path_Pack: Resourcepack/contents/fluffymachines/configs/textures.yml
           - PackName: FoxyMachines
-            Path_Models: Resourcepack/resource_pack/assets/foxymachines/models/**/*.json
-            Path_Pack: Resourcepack/items_packs/foxymachines/textures.yml
+            Path_Models: Resourcepack/contents/foxymachines/resourcepack/foxymachines/models/**/*.json
+            Path_Pack: Resourcepack/contents/foxymachines/configs/textures.yml
           - PackName: InfinityExpansion
-            Path_Models: Resourcepack/resource_pack/assets/infinityexpansion/models/**/*.json
-            Path_Pack: Resourcepack/items_packs/infinityexpansion/textures.yml
+            Path_Models: Resourcepack/contents/infinityexpansion/resourcepack/infinityexpansion/models/**/*.json
+            Path_Pack: Resourcepack/contents/infinityexpansion/configs/textures.yml
           - PackName: Litexpansion
-            Path_Models: Resourcepack/resource_pack/assets/litexpansion/models/**/*.json
-            Path_Pack: Resourcepack/items_packs/litexpansion/textures.yml
+            Path_Models: Resourcepack/contents/litexpansion/resourcepack/litexpansion/models/**/*.json
+            Path_Pack: Resourcepack/contents/litexpansion/configs/textures.yml
           - PackName: SimpleUtils
-            Path_Models: Resourcepack/resource_pack/assets/simpleutils/models/**/*.json
-            Path_Pack: Resourcepack/items_packs/simpleutils/textures.yml
+            Path_Models: Resourcepack/contents/simpleutils/resourcepack/simpleutils/models/**/*.json
+            Path_Pack: Resourcepack/contents/simpleutils/configs/textures.yml
           - PackName: Slimefun
-            Path_Models: Resourcepack/resource_pack/assets/slimefun/models/**/*.json
-            Path_Pack: Resourcepack/items_packs/slimefun/textures.yml
+            Path_Models: Resourcepack/contents/slimefun/resourcepack/slimefun/models/**/*.json
+            Path_Pack: Resourcepack/contents/slimefun/configs/textures.yml
           - PackName: SlimyTreeTaps
-            Path_Models: Resourcepack/resource_pack/assets/slimy_tree_taps/models/**/*.json
-            Path_Pack: Resourcepack/items_packs/slimy_tree_taps/textures.yml
+            Path_Models: Resourcepack/contents/slimy_tree_taps/resourcepack/slimy_tree_taps/models/**/*.json
+            Path_Pack: Resourcepack/contents/slimy_tree_taps/configs/textures.yml
 
     steps:
       - name: 📄 Checking Repostiory
@@ -108,9 +108,7 @@ jobs:
           echo "Make Workdir..."
           mkdir workdir
           echo "Copy the setup..."
-          cp -r Resourcepack/items_packs workdir
-          cp -r Resourcepack/resource_pack workdir
-          cp -r Default/minecraft workdir/resource_pack/assets
+          cp -r Resourcepack/contents workdir
       
       - name: 🗜 Compress IAPack
         run: |
@@ -121,7 +119,7 @@ jobs:
         run: |
           curl -u "${{ env.sftp_user }}.${{ env.server_uuid }}:${{ env.sftp_pass }}" \
           -T IAUpdate.tar.bz2 \
-          -k "sftp://${{ env.sftp_host }}:${{ env.sftp_port }}/plugins/ItemsAdder/data/IAUpdate.tar.bz2"
+          -k "sftp://${{ env.sftp_host }}:${{ env.sftp_port }}/plugins/ItemsAdder/IAUpdate.tar.bz2"
 
       - name: ♻️ Delete Old IA Files
         run: |
@@ -131,10 +129,9 @@ jobs:
           -H 'Authorization: Bearer ${{ env.token }}' \
           -X POST \
           -d '{
-          "root": "/plugins/ItemsAdder/data/",
+          "root": "/plugins/ItemsAdder/",
           "files": [
-            "items_packs",
-            "resource_pack"
+            "contents"
             ]
           }'
 
@@ -146,7 +143,7 @@ jobs:
           -H 'Authorization: Bearer ${{ env.token }}' \
           -X POST \
           -d '{
-          "root": "/plugins/ItemsAdder/data/",
+          "root": "/plugins/ItemsAdder/",
           "file": "IAUpdate.tar.bz2"
           }'
 
@@ -158,7 +155,7 @@ jobs:
           -H 'Authorization: Bearer ${{ env.token }}' \
           -X POST \
           -d '{
-          "root": "/plugins/ItemsAdder/data/",
+          "root": "/plugins/ItemsAdder/",
           "files": [
             "IAUpdate.tar.bz2"
             ]
@@ -174,7 +171,7 @@ jobs:
           key: ${{ env.cli_key }}
           port: ${{ env.cli_port }}
           script: |
-            sudo chown -R pterodactyl:pterodactyl /var/lib/pterodactyl/volumes/${{ env.server_uuid_full }}/plugins/ItemsAdder/data/
+            sudo chown -R pterodactyl:pterodactyl /var/lib/pterodactyl/volumes/${{ env.server_uuid_full }}/plugins/ItemsAdder/contents/
 
       - name: 💤 Sleep for 3 seconds
         run: sleep 3s
@@ -243,8 +240,8 @@ jobs:
       - name: 📥 Download ZIP Pack
         run: |
           curl -u "${{ env.sftp_user }}.${{ env.server_uuid }}:${{ env.sftp_pass }}" \
-          -k "sftp://${{ env.sftp_host }}:${{ env.sftp_port }}/plugins/ItemsAdder/data/resource_pack/pack.zip" \
-          -o pack.zip
+          -k "sftp://${{ env.sftp_host }}:${{ env.sftp_port }}/plugins/ItemsAdder/output/generated.zip" \
+          -o generated.zip
         working-directory: ${{ env.working-directory }}
 
       - name: 🔧 Replace Pack files
@@ -252,19 +249,19 @@ jobs:
           rm -r assets
           rm pack.mcmeta
           rm pack.png
-          unzip pack.zip
+          unzip generated.zip
         working-directory: ${{ env.working-directory }}
 
       - name: 🔧 Remove unnecessary files
         run: |
-          rm -r assets/z_iainternal
+          rm -r assets/_iainternal
           rm -r assets/minecraft/optifine/cit/ia_generated_armors
           rm -r assets/minecraft/shaders
         working-directory: ${{ env.working-directory }}
 
       - name: 💤 Sleep for 2 seconds
         run: |
-          rm ${{ env.working-directory }}pack.zip
+          rm ${{ env.working-directory }}generated.zip
           sleep 2s
 
       - name: 🧰 Setup git config
