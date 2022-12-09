@@ -257,6 +257,12 @@ jobs:
           rm -r assets/_iainternal
           rm -r assets/minecraft/optifine/cit/ia_generated_armors
           rm -r assets/minecraft/shaders
+          rm -r assets/minecraft/blockstates
+          rm -r assets/minecraft/font
+          rm -r assets/minecraft/lang
+          rm -r assets/minecraft/models/block
+          rm -r assets/minecraft/models/item/base
+          rm -r assets/minecraft/textures
         working-directory: ${{ env.working-directory }}
 
       - name: 💤 Sleep for 2 seconds
