@@ -22,7 +22,7 @@ jobs:
         run: |
           TAGNAME=${TAG:10}
           sed -i 's/Beta/Release/1' pack.mcmeta
-          sed -i 's/v[0-9].[0-9].[0-9]/'$TAGNAME'/1' pack.mcmeta
+          sed -i '4s+v[[:digit:]]*.[[:digit:]]*.[[:digit:]]*+'$TAGNAME'+1' pack.mcmeta
 
       - name: Download Item models
         env:
