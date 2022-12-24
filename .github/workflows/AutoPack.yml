@@ -252,6 +252,10 @@ jobs:
           unzip generated.zip
         working-directory: ${{ env.working-directory }}
 
+      - name: Temporary fix Pack Format
+        run: |
+          sed -i '3s/9/12/1' pack.mcmeta
+
       - name: 🔧 Remove unnecessary files
         run: |
           rm -r assets/_iainternal
