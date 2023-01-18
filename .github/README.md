@@ -64,13 +64,17 @@ Recommanded to install Fabric [CIT Resewn](https://modrinth.com/mod/cit-resewn) 
 
 Version:
 
-- [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+- Beta Pack
 
   Include the latest fixs and new textures
 
-- [![Realease](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+  [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+
+- Release Pack
 
   After release, it will not change
+
+  [![Realease](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
 
 Please note!
 > Server need to installed same item-models.yml to work

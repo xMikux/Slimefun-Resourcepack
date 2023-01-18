@@ -64,13 +64,17 @@
 
 版本：
 
-- [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+- 測試版資源包
 
   包括了最新的修正與新材質
 
-- [![Realease](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+  [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+
+- 發布版資源包
 
   固定而不再變動
+
+  [![Realease](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
 
 請注意！
 > 伺服器需要安裝相同的 item-models.yml 才能運作
