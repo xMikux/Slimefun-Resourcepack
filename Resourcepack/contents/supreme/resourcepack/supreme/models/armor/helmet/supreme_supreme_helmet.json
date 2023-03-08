@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "author": "RelativoBR",
+  "textures": {
+    "layer0": "supreme:armor/helmet/supreme_supreme_helmet"
+  }
+}

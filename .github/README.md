@@ -131,6 +131,7 @@ Slimefun & Addons Models ID Range List
 | FluffyMachines | 2201280~2201300 |
 | FoxyMachines | 2201301~2201400 |
 | Bump | 2201401~2201470 |
+| Supreme | 2201471~2202000 |
 
 There is still a lot of texutes missing! Welcome to contribute more texture!
 

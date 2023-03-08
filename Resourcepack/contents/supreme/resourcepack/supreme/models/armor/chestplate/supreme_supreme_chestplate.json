@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "author": "RelativoBR",
+  "textures": {
+    "layer0": "supreme:armor/chestplate/supreme_supreme_chestplate"
+  }
+}

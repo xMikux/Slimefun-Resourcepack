@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "author": "RelativoBR",
+  "textures": {
+    "all": "supreme:components/supreme_carriage_machine"
+  }
+}
