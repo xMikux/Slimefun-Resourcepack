@@ -164,7 +164,7 @@ jobs:
       # Fix folder Permission
       # Issues Link: https://github.com/pterodactyl/panel/issues/3689
       - name: 📁 Temporary using remote to fix folder permission
-        uses: xMikux/ssh-action@master
+        uses: appleboy/ssh-action@v0.1.8
         with:
           host: ${{ env.cli_ip }}
           username: ${{ env.cli_user }}
