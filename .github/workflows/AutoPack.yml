@@ -73,6 +73,9 @@ jobs:
           - PackName: SlimyTreeTaps
             Path_Models: Resourcepack/contents/slimy_tree_taps/resourcepack/slimy_tree_taps/models/**/*.json
             Path_Pack: Resourcepack/contents/slimy_tree_taps/configs/textures.yml
+          - PackName: Supreme
+            Path_Models: Resourcepack/contents/supreme/resourcepack/supreme/models/**/*.json
+            Path_Pack: Resourcepack/contents/supreme/configs/textures.yml
 
     steps:
       - name: 📄 Checking Repostiory
