@@ -68,7 +68,7 @@
 
   包括了最新的修正與新材質
 
-  [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+  [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest-build/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest-build)
 
 - 發布版資源包
 
@@ -93,7 +93,7 @@
 
 版本：
 
-- 最新版 [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+- 最新版 [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest-build/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest-build)
 
 - 穩定版 [![Realease](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
 
@@ -131,6 +131,7 @@ CIT 支持列表：
 | FluffyMachines | 2201280~2201300 |
 | FoxyMachines | 2201301~2201400 |
 | Bump | 2201401~2201470 |
+| Supreme | 2201471~2202000 |
 
 仍然有非常多材質缺失！歡迎貢獻缺失材質！
 
@@ -293,6 +294,20 @@ CIT 支持列表：
         Bump 附加材質的貢獻者
       </p>
       </a>
+    <!-- RelativoBR -->
+    <td align="center">
+      <a href="https://github.com/RelativoBR"
+        ><img
+          src="https://avatars.githubusercontent.com/u/36118424?v=4s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>RelativoBR</b></sub></a
+      ><br />
+      <p>
+        Supreme 附加材質的貢獻者
+      </p>
+      </a>
+    </td>
     </td>
   <!-- The End Of Line -->
   </tr>

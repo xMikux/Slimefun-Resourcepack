@@ -68,7 +68,7 @@ Version:
 
   Include the latest fixs and new textures
 
-  [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+  [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest-build/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest-build)
 
 - Release Pack
 
@@ -93,7 +93,7 @@ The resourcepack will not display the correct textures if this file is not insta
 
 Version:
 
-- Latest [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest)
+- Latest [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest-build/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest-build)
 
 - Stable [![Realease](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
 
@@ -292,6 +292,19 @@ There is still a lot of texutes missing! Welcome to contribute more texture!
       ><br />
       <p>
         Credit of Bump Addon Textrues
+      </p>
+      </a>
+    <!-- RelativoBR -->
+    <td align="center">
+      <a href="https://github.com/RelativoBR"
+        ><img
+          src="https://avatars.githubusercontent.com/u/36118424?v=4s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>RelativoBR</b></sub></a
+      ><br />
+      <p>
+        Supreme addon texture contributor
       </p>
       </a>
     </td>
