@@ -132,6 +132,7 @@ CIT 支持列表：
 | FoxyMachines | 2201301~2201400 |
 | Bump | 2201401~2201470 |
 | Supreme | 2201471~2202000 |
+| SlimefunWarfare | 2202001~2202200 |
 
 仍然有非常多材質缺失！歡迎貢獻缺失材質！
 
@@ -305,6 +306,19 @@ CIT 支持列表：
       ><br />
       <p>
         Supreme 附加材質的貢獻者
+      </p>
+      </a>
+    <!-- Filosofas154 -->
+    <td align="center">
+      <a href="https://github.com/Filosofas154"
+        ><img
+          src="https://avatars.githubusercontent.com/u/60323197?v=4s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>Filosofas154</b></sub></a
+      ><br />
+      <p>
+        SlimefunWarfare 附加材質的貢獻者
       </p>
       </a>
     </td>

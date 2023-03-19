@@ -132,6 +132,7 @@ Slimefun & Addons Models ID Range List
 | FoxyMachines | 2201301~2201400 |
 | Bump | 2201401~2201470 |
 | Supreme | 2201471~2202000 |
+| SlimefunWarfare | 2202001~2202200 |
 
 There is still a lot of texutes missing! Welcome to contribute more texture!
 
@@ -305,6 +306,19 @@ There is still a lot of texutes missing! Welcome to contribute more texture!
       ><br />
       <p>
         Supreme addon texture contributor
+      </p>
+      </a>
+    <!-- Filosofas154 -->
+    <td align="center">
+      <a href="https://github.com/Filosofas154"
+        ><img
+          src="https://avatars.githubusercontent.com/u/60323197?v=4s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>Filosofas154</b></sub></a
+      ><br />
+      <p>
+        SlimefunWarfare addon texture contributor
       </p>
       </a>
     </td>

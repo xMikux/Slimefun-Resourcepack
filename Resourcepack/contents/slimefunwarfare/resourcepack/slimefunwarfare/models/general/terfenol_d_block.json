@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "author": "Filosofas154",
+  "textures": {
+    "all": "slimefunwarfare:general/terfenol_d_block"
+  }
+}

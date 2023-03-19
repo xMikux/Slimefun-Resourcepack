@@ -1,0 +1,343 @@
+info:
+  namespace: slimefunwarfare
+items:
+  # General
+  dummy:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: HUSK_SPAWN_EGG
+      generate: false
+      model_id: 2202020
+      model_path: "general/dummy"
+  fiber_optic_cable:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: STRING
+      generate: false
+      model_id: 2202011
+      model_path: "general/fiber_optic_cable"
+  fiber_optic_glass:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: BLUE_STAINED_GLASS
+      generate: false
+      model_id: 2202010
+      model_path: "general/fiber_optic_glass"
+  ndfeb_alloy:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: NETHERITE_INGOT
+      generate: false
+      model_id: 2202076
+      model_path: "general/ndfeb_alloy"
+  ndfeb_alloy_block:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: NETHERITE_BLOCK
+      generate: false
+      model_id: 2202077
+      model_path: "general/ndfeb_alloy_block"
+  osmium_superalloy:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2202017
+      model_path: "general/osmium_superalloy"
+  radio:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: REDSTONE_TORCH
+      generate: false
+      model_id: 2202014
+      model_path: "general/radio"
+  terfenol_d:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2202074
+      model_path: "general/terfenol_d"
+  terfenol_d_block:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2202075
+      model_path: "general/terfenol_d_block"
+  # Melee Weapons
+  battle_axe:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_id: 2202015
+      model_path: "melee_weapons/battle_axe"
+  energy_blade:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_id: 2202019
+      model_path: "melee_weapons/energy_blade"
+  osmium_sword:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2202016
+      model_path: "melee_weapons/osmium_sword"
+  # Explosives
+  arsenic:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: GUNPOWDER
+      generate: false
+      model_id: 2202046
+      model_path: "explosives/arsenic"
+  arsenic_grenade:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: SNOWBALL
+      generate: false
+      model_id: 2202054
+      model_path: "explosives/arsenic_grenade"
+  grenade:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: SNOWBALL
+      generate: false
+      model_id: 2202051
+      model_path: "explosives/grenade"
+  nitrogen_triiodide:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: PURPLE_DYE
+      generate: false
+      model_id: 2202044
+      model_path: "explosives/nitrogen_triiodide"
+  nitrogen_triiodide_grenade:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: SNOWBALL
+      generate: false
+      model_id: 2202052
+      model_path: "explosives/nitrogen_triiodide_grenade"
+  nuclear_bomb:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: TNT
+      generate: false
+      model_id: 2202058
+      model_path: "explosives/nuclear_bomb"
+  osmium_dust_grenade:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: SNOWBALL
+      generate: false
+      model_id: 2202057
+      model_path: "explosives/osmium_dust_grenade"
+  pyro_powder:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: REDSTONE
+      generate: false
+      model_id: 2202049
+      model_path: "explosives/pyro_powder"
+  pyro_powder_grenade:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: SNOWBALL
+      generate: false
+      model_id: 2202055
+      model_path: "explosives/pyro_powder_grenade"
+  thioacetone:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: BROWN_DYE
+      generate: false
+      model_id: 2202047
+      model_path: "explosives/thioacetone"
+  thioacetone_grenade:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: SNOWBALL
+      generate: false
+      model_id: 2202056
+      model_path: "explosives/thioacetone_grenade"
+  # Resources
+  borax:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: QUARTZ
+      generate: false
+      model_id: 2202001
+      model_path: "resources/borax"
+  boron:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: CHARCOAL
+      generate: false
+      model_id: 2202002
+      model_path: "resources/boron"
+  dysprosium_ingot:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: NETHERITE_INGOT
+      generate: false
+      model_id: 2202070
+      model_path: "resources/dysprosium_ingot"
+  erbium_ingot:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2202072
+      model_path: "resources/erbium_ingot"
+  gadolinium_ingot:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2202068
+      model_path: "resources/gadolinium_ingot"
+  holmium_ingot:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 2202071
+      model_path: "resources/holmium_ingot"
+  lanthanum_ingot:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2202066
+      model_path: "resources/lanthanum_ingot"
+  monazite:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: ORANGE_DYE
+      generate: false
+      model_id: 2202065
+      model_path: "resources/monazite"
+  neodymium_ingot:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: NETHERITE_INGOT
+      generate: false
+      model_id: 2202067
+      model_path: "resources/neodymium_ingot"
+  osmium_dust:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: SUGAR
+      generate: false
+      model_id: 2202061
+      model_path: "resources/osmium_dust"
+  osmium_ingot:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2202062
+      model_path: "resources/osmium_ingot"
+  osmium_meteor:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: IRON_ORE
+      generate: false
+      model_id: 2202059
+      model_path: "resources/osmium_meteor"
+  reinforced_slimesteel_ingot:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2202004
+      model_path: "resources/reinforced_slimesteel_ingot"
+  segganesson:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: LIGHT_BLUE_DYE
+      generate: false
+      model_id: 2202063
+      model_path: "resources/segganesson"
+  segganesson_meteor:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: DIAMOND_ORE
+      generate: false
+      model_id: 2202060
+      model_path: "resources/segganesson_meteor"
+  slimesteel_ingot:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2202003
+      model_path: "resources/slimesteel_ingot"
+  terbium_ingot:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2202069
+      model_path: "resources/terbium_ingot"
+  unpatentablium:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: LIGHT_BLUE_DYE
+      generate: false
+      model_id: 2202080
+      model_path: "resources/unpatentablium"
+  ytterbium_ingot:
+    display_name: slimefunwarfare
+    permission: slimefunwarfare
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2202073
+      model_path: "resources/ytterbium_ingot"
