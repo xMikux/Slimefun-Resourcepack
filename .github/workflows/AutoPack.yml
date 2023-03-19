@@ -70,6 +70,9 @@ jobs:
           - PackName: Slimefun
             Path_Models: Resourcepack/contents/slimefun/resourcepack/slimefun/models/**/*.json
             Path_Pack: Resourcepack/contents/slimefun/configs/textures.yml
+          - PackName: SlimefunWarfare
+            Path_Models: Resourcepack/contents/slimefunwarfare/resourcepack/slimefunwarfare/models/**/*.json
+            Path_Pack: Resourcepack/contents/slimefunwarfare/configs/textures.yml
           - PackName: SlimyTreeTaps
             Path_Models: Resourcepack/contents/slimy_tree_taps/resourcepack/slimy_tree_taps/models/**/*.json
             Path_Pack: Resourcepack/contents/slimy_tree_taps/configs/textures.yml
