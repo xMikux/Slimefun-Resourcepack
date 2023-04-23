@@ -7,18 +7,19 @@ on:
 
 jobs:
   Create-Release:
+    name: "📢 Create Release"
     runs-on: ubuntu-latest
     if: |
       github.repository == 'xMikux/Slimefun-Resourcepack'
 
     steps:
       - name: 📄 Checking Repostiory
-        uses: actions/checkout@v2.0.0
+        uses: actions/checkout@v3
         with:
           ref: pack
           fetch-depth: 0
 
-      - name: Bump Up Version
+      - name: ⏏️ Bump Up Version
         env:
           TAG: ${{ github.ref }}
         run: |
@@ -26,14 +27,14 @@ jobs:
           sed -i 's/Beta/Release/1' pack.mcmeta
           sed -i '4s+v[[:digit:]]*.[[:digit:]]*.[[:digit:]]*+'$TAGNAME'+1' pack.mcmeta
 
-      - name: Download Item models
+      - name: 📥 Download Item models
         env:
           TAG: ${{ github.ref }}
         run: |
           TAGNAME=${TAG:10}
           curl https://raw.githubusercontent.com/xMikux/Slimefun-Resourcepack/$TAGNAME/Resourcepack/item-models.yml --output item-models.yml
 
-      - name: Make Optimized Pack
+      - name: 🔧 Make Optimized Pack
         uses: ComunidadAylas/PackSquash-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -41,8 +42,8 @@ jobs:
           never_store_squash_times: true
           path: ./
 
-      - name: ☁ DownloadArtifact Optimized Pack
-        uses: actions/download-artifact@v2
+      - name: ☁️ DownloadArtifact Optimized Pack
+        uses: actions/download-artifact@v3
         with:
           name: Optimized pack
           path: ./
@@ -51,19 +52,19 @@ jobs:
         run: |
           mv ./pack.zip Slimefun-ResourcePack.zip
 
-      - name: Delete Artifact
-        uses: geekyeggo/delete-artifact@v1
+      - name: 🗑️ Delete Artifact
+        uses: geekyeggo/delete-artifact@v2
         with:
           name: |
             Optimized pack
 
-      - name: Make Checksum
+      - name: ✅ Make Checksum
         run: |
           SUM0=$(sha256sum Slimefun-ResourcePack.zip)
           SUM1=$(sha256sum item-models.yml)
           echo -e "$SUM0\n$SUM1" > checksums.txt
 
-      - name: Create & Upload Releases 
+      - name: ✨ Create & Upload Releases 
         uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"

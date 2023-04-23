@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  builder:
+    image: ghcr.io/xmikux/itemsadder:latest
+    volumes:
+      - type: bind
+        source: ${PWD}/Resourcepack/contents
+        target: /app/plugins/ItemsAdder/contents
+      - type: bind
+        source: ${PWD}/output
+        target: /app/plugins/ItemsAdder/output

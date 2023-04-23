@@ -7,261 +7,92 @@ on:
     - main
     paths:
     - Resourcepack/**
-    - Default/minecraft/**
+
+concurrency: 
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 env:
-  # Pterodactyl Panel
-  panel_domain: ${{ secrets.DOMAIN }}
-  # Pterodactyl SFTP
-  sftp_user: ${{ secrets.SFTP_USER }}
-  sftp_pass: ${{ secrets.SFTP_PASS }}
-  sftp_host: ${{ secrets.SFTP_HOST }}
-  sftp_port: ${{ secrets.SFTP_PORT }}
-  token: ${{ secrets.APIToken }}
-  # Pterodactyl Builder
-  server_uuid: ${{ secrets.SERVERUUID }}
-  server_uuid_full: ${{ secrets.SERVERFULLUUID }}
-  # Fix folder permission without restart the server
-  cli_user: ${{ secrets.CLIUSERNAME }}
-  cli_key: ${{ secrets.CLIKEY }}
-  cli_port: ${{ secrets.CLIPORT }}
-  cli_ip: ${{ secrets.CLIIP }}
   # Validator Config Path
   config_json: .github/configs/schema.json
   config_yaml: .github/configs/yaml-linter.yml
 
 jobs:
-  Validator:
-    name: Validator ${{ matrix.PackName }}
-    runs-on: ubuntu-latest
-    if: |
-      contains(github.event.head_commit.message, 'chore: Publish') == false &&
-      github.repository == 'xMikux/Slimefun-Resourcepack'
-
-    strategy:
-      matrix:
-        include:
-          - PackName: Minecraft
-            Path_Models: Resourcepack/contents/_iainternal/resourcepack/assets/minecraft/**/*.json
-          - PackName: Bump
-            Path_Models: Resourcepack/contents/bump/resourcepack/bump/models/**/*.json
-            Path_Pack: Resourcepack/contents/bump/configs/textures.yml
-          - PackName: ExoticGarden
-            Path_Models: Resourcepack/contents/exotic_garden/resourcepack/exotic_garden/models/**/*.json
-            Path_Pack: Resourcepack/contents/exotic_garden/configs/textures.yml
-          - PackName: ExtraGear
-            Path_Models: Resourcepack/contents/extra_gear/resourcepack/extra_gear/models/**/*.json
-            Path_Pack: Resourcepack/contents/extra_gear/configs/textures.yml
-          - PackName: FluffyMachines
-            Path_Models: Resourcepack/contents/fluffymachines/resourcepack/fluffymachines/models/**/*.json
-            Path_Pack: Resourcepack/contents/fluffymachines/configs/textures.yml
-          - PackName: FoxyMachines
-            Path_Models: Resourcepack/contents/foxymachines/resourcepack/foxymachines/models/**/*.json
-            Path_Pack: Resourcepack/contents/foxymachines/configs/textures.yml
-          - PackName: InfinityExpansion
-            Path_Models: Resourcepack/contents/infinityexpansion/resourcepack/infinityexpansion/models/**/*.json
-            Path_Pack: Resourcepack/contents/infinityexpansion/configs/textures.yml
-          - PackName: Litexpansion
-            Path_Models: Resourcepack/contents/litexpansion/resourcepack/litexpansion/models/**/*.json
-            Path_Pack: Resourcepack/contents/litexpansion/configs/textures.yml
-          - PackName: SimpleUtils
-            Path_Models: Resourcepack/contents/simpleutils/resourcepack/simpleutils/models/**/*.json
-            Path_Pack: Resourcepack/contents/simpleutils/configs/textures.yml
-          - PackName: Slimefun
-            Path_Models: Resourcepack/contents/slimefun/resourcepack/slimefun/models/**/*.json
-            Path_Pack: Resourcepack/contents/slimefun/configs/textures.yml
-          - PackName: SlimefunWarfare
-            Path_Models: Resourcepack/contents/slimefunwarfare/resourcepack/slimefunwarfare/models/**/*.json
-            Path_Pack: Resourcepack/contents/slimefunwarfare/configs/textures.yml
-          - PackName: SlimyTreeTaps
-            Path_Models: Resourcepack/contents/slimy_tree_taps/resourcepack/slimy_tree_taps/models/**/*.json
-            Path_Pack: Resourcepack/contents/slimy_tree_taps/configs/textures.yml
-          - PackName: Supreme
-            Path_Models: Resourcepack/contents/supreme/resourcepack/supreme/models/**/*.json
-            Path_Pack: Resourcepack/contents/supreme/configs/textures.yml
-
-    steps:
-      - name: 📄 Checking Repostiory
-        uses: actions/checkout@v2.0.0
-
-      - name: ⚙ Validate YAML Files (${{ matrix.PackName }})
-        if: "${{ matrix.Path_Pack != '' }}"
-        uses: ibiqlik/action-yamllint@v3
-        with:
-          file_or_dir: ${{ matrix.Path_Pack }}
-          config_file: ${{ env.config_yaml }}
-
-      - name: ⚙ Validate JSON Files (${{ matrix.PackName }})
-        if: "${{ matrix.Path_Models != '' }}"
-        uses: nhalstead/validate-json-action@0.1.3
-        with:
-          schema: ${{ env.config_json }}
-          jsons: ${{ matrix.Path_Models }}
-
-  Upload-Git-IAPack:
-    name: "Upload-Git-IAPack"
-    needs: Validator
+  IAPack-Make:
+    name: "✨ IAPack Make"
     runs-on: ubuntu-latest
     if: |
       contains(github.event.head_commit.message, '[ci skip]') == false
 
     steps:
       - name: 📄 Checking Repostiory
-        uses: actions/checkout@v2.0.0
+        uses: actions/checkout@v3
 
-      - name: 🗜 Setup Workdir IAPack
+      - name: 🔒 Login to GitHub Container Registry
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GHCR_TOKEN }}
+
+      - name: ⚡ Making IAPack 
         run: |
-          echo "Make Workdir..."
-          mkdir workdir
-          echo "Copy the setup..."
-          cp -r Resourcepack/contents workdir
+          mkdir output
+          docker compose -f .github/compose/docker-compose.yml up
       
-      - name: 🗜 Compress IAPack
+      - name: ✏️ Rename generated file
         run: |
-          echo "Compress..."
-          tar --owner=pterodactyl --group=pterodactyl -cjf IAUpdate.tar.bz2 -C ./workdir .
+          if [ -f "output/generated.zip" ]; then
+            echo "Correctly generate resourcepack!"
+            mv output/generated.zip IAGenerated.zip
+          else
+            echo "Not correctly generated resourcepack"
+            exit 1
+          fi
 
-      - name: ⚡ Upload IAPack to Server
-        run: |
-          curl -u "${{ env.sftp_user }}.${{ env.server_uuid }}:${{ env.sftp_pass }}" \
-          -T IAUpdate.tar.bz2 \
-          -k "sftp://${{ env.sftp_host }}:${{ env.sftp_port }}/plugins/ItemsAdder/IAUpdate.tar.bz2"
-
-      - name: ♻️ Delete Old IA Files
-        run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.server_uuid }}/files/delete" \
-          -H 'Accept: application/json' \
-          -H 'Content-Type: application/json' \
-          -H 'Authorization: Bearer ${{ env.token }}' \
-          -X POST \
-          -d '{
-          "root": "/plugins/ItemsAdder/",
-          "files": [
-            "contents"
-            ]
-          }'
-
-      - name: 📤 UnArchive New IA Files
-        run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.server_uuid }}/files/decompress" \
-          -H 'Accept: application/json' \
-          -H 'Content-Type: application/json' \
-          -H 'Authorization: Bearer ${{ env.token }}' \
-          -X POST \
-          -d '{
-          "root": "/plugins/ItemsAdder/",
-          "file": "IAUpdate.tar.bz2"
-          }'
-
-      - name: ♻️ Cleanup Archive File
-        run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.server_uuid }}/files/delete" \
-          -H 'Accept: application/json' \
-          -H 'Content-Type: application/json' \
-          -H 'Authorization: Bearer ${{ env.token }}' \
-          -X POST \
-          -d '{
-          "root": "/plugins/ItemsAdder/",
-          "files": [
-            "IAUpdate.tar.bz2"
-            ]
-          }'
-
-      # Fix folder Permission
-      # Issues Link: https://github.com/pterodactyl/panel/issues/3689
-      - name: 📁 Temporary using remote to fix folder permission
-        uses: appleboy/ssh-action@v0.1.8
+      - name: 📦 Upload IAGenerated Zip
+        uses: actions/upload-artifact@v3
         with:
-          host: ${{ env.cli_ip }}
-          username: ${{ env.cli_user }}
-          key: ${{ env.cli_key }}
-          port: ${{ env.cli_port }}
-          script: |
-            sudo chown -R pterodactyl:pterodactyl /var/lib/pterodactyl/volumes/${{ env.server_uuid_full }}/plugins/ItemsAdder/contents/
+          name: IAGenerated
+          path: IAGenerated.zip
 
-      - name: 💤 Sleep for 3 seconds
-        run: sleep 3s
-
-      - name: ⌘ IAReload Resourcepack
-        run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.server_uuid }}/command" \
-          -H 'Accept: application/json' \
-          -H 'Content-Type: application/json' \
-          -H 'Authorization: Bearer ${{ env.token }}' \
-          -X POST \
-          -d '{
-          "command": "iareload"
-          }'
-
-      - name: 💤 Sleep for 8 seconds
-        run: sleep 8s
-
-      - name: ♻️ Clean IA Cache
-        run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.server_uuid }}/command" \
-          -H 'Accept: application/json' \
-          -H 'Content-Type: application/json' \
-          -H 'Authorization: Bearer ${{ env.token }}' \
-          -X POST \
-          -d '{
-          "command": "iacleancache items"
-          }'
-
-      - name: 💤 Sleep for 3 seconds
-        run: sleep 3s
-
-      - name: ⌘ IAZip Resourcepack
-        run: |
-          curl "https://${{ env.panel_domain }}/api/client/servers/${{ env.server_uuid }}/command" \
-          -H 'Accept: application/json' \
-          -H 'Content-Type: application/json' \
-          -H 'Authorization: Bearer ${{ env.token }}' \
-          -X POST \
-          -d '{
-          "command": "iazip"
-          }'
-
-      - name: Upload Item Models
-        uses: actions/upload-artifact@v2
+      - name: 📦 Upload Item Models
+        uses: actions/upload-artifact@v3
         with:
-          name: item-models.yml
-          path: ./Resourcepack/item-models.yml
+          name: Item-Models
+          path: Resourcepack/item-models.yml
 
-  Download-Server-Pack:
-    name: "Download-Server-Pack"
-    needs: Upload-Git-IAPack
+  IAPack-Place:
+    name: "📌 IAPack Place"
+    needs: IAPack-Make
     runs-on: ubuntu-latest
-    env:
-      working-directory: ./
 
     steps:
       - name: 📄 Checking Repostiory
-        uses: actions/checkout@v2.0.0
+        uses: actions/checkout@v3
         with:
           ref: pack
 
-      - name: 💤 Sleep for 5 seconds
-        run: sleep 5s
+      - name: ☁️ DownloadArtifact
+        uses: actions/download-artifact@v3
+        with:
+          name: IAGenerated
 
-      - name: 📥 Download ZIP Pack
-        run: |
-          curl -u "${{ env.sftp_user }}.${{ env.server_uuid }}:${{ env.sftp_pass }}" \
-          -k "sftp://${{ env.sftp_host }}:${{ env.sftp_port }}/plugins/ItemsAdder/output/generated.zip" \
-          -o generated.zip
-        working-directory: ${{ env.working-directory }}
+      - name: 🗑️ Delete Artifact
+        uses: geekyeggo/delete-artifact@v2
+        with:
+          name: IAGenerated
 
       - name: 🔧 Replace Pack files
         run: |
           rm -r assets
           rm pack.mcmeta
           rm pack.png
-          unzip generated.zip
-        working-directory: ${{ env.working-directory }}
+          unzip IAGenerated.zip
 
       - name: 🔧 Remove unnecessary files
         run: |
           rm -r assets/_iainternal
-          rm -r assets/minecraft/optifine/cit/ia_generated_armors
           rm -r assets/minecraft/shaders
           rm -r assets/minecraft/blockstates
           rm -r assets/minecraft/font
@@ -269,15 +100,13 @@ jobs:
           rm -r assets/minecraft/models/block
           rm -r assets/minecraft/models/item/base
           rm -r assets/minecraft/textures
-        working-directory: ${{ env.working-directory }}
 
-      - name: 💤 Sleep for 2 seconds
+      - name: 🧹 Cleanup IAGenerated
         run: |
-          rm ${{ env.working-directory }}generated.zip
-          sleep 2s
+          rm IAGenerated.zip
 
       - name: 🧰 Setup git config
-        uses: crazy-max/ghaction-import-gpg@v4
+        uses: crazy-max/ghaction-import-gpg@v5
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
@@ -292,24 +121,18 @@ jobs:
           git add pack.png
           git commit -S -m "ci: Auto Texture Pack Update (${GITHUB_SHA::7})"
           git push origin pack
-        working-directory: ${{ env.working-directory }}
 
-  Pack-Resourcepack:
-    name: "Pack-Resourcepack"
-    needs: Download-Server-Pack
+  Optimize-Pack:
+    name: "📊 Optimize Pack"
+    needs: IAPack-Place
     runs-on: ubuntu-latest
 
     steps:
       - name: 📄 Checking Repostiory
-        uses: actions/checkout@v2.0.0
+        uses: actions/checkout@v3
         with:
           ref: pack
           fetch-depth: 0
-
-      - name: Checking Repo Again
-        run: |
-          git fetch 
-          git pull
 
       - name: 📥 Package & Optimize Resourcepack
         uses: ComunidadAylas/PackSquash-action@master
@@ -321,29 +144,33 @@ jobs:
           path: ./
 
   Per-Release:
-    needs: Pack-Resourcepack
+    name: "📢 Per Release"
+    needs: Optimize-Pack
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📄 Checking Repostiory
-        uses: actions/checkout@v2.0.0
-      
-      - name: ☁ DownloadArtifact
-        uses: actions/download-artifact@v2
+      - name: ☁️ DownloadArtifact
+        uses: actions/download-artifact@v3
         with:
           path: ./
 
-      - name: Make Checksum
+      - name: 🗑️ Delete Artifact
+        uses: geekyeggo/delete-artifact@v2
+        with:
+          name: |
+            Slimefun-ResourcePack
+            Item-Models
+
+      - name: ✅ Make Checksum
         run: |
           mv Slimefun-ResourcePack/pack.zip Slimefun-ResourcePack/Slimefun-ResourcePack.zip
           mv Slimefun-ResourcePack/Slimefun-ResourcePack.zip .
-          mv item-models.yml item-model
-          mv item-model/item-models.yml .
+          mv Item-Models/item-models.yml .
           SUM0=$(sha256sum Slimefun-ResourcePack.zip)
           SUM1=$(sha256sum item-models.yml)
           echo -e "$SUM0\n$SUM1" > checksums.txt
 
-      - name: Create & Upload Per Releases 
+      - name: ✨ Create & Upload Per Releases 
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
