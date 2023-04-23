@@ -1,14 +1,14 @@
 info:
   namespace: slimefun
 items:
-  background:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: GRAY_STAINED_GLASS_PANE
-      generate: false
-      model_id: 2200002
-      model_path: "slimefun/gui/background"
+  # background:
+  #   display_name: slimefun
+  #   permission: slimefun
+  #   resource:
+  #     material: GRAY_STAINED_GLASS_PANE
+  #     generate: false
+  #     model_id: 2200002
+  #     model_path: "slimefun/gui/background"
   slimefun_guide:
     display_name: slimefun
     permission: slimefun
