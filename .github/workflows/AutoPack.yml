@@ -18,76 +18,8 @@ env:
   config_yaml: .github/configs/yaml-linter.yml
 
 jobs:
-  # Validator:
-  #   name: "🔎 Validator ${{ matrix.PackName }}"
-  #   runs-on: ubuntu-latest
-  #   if: |
-  #     contains(github.event.head_commit.message, 'chore: Publish') == false &&
-  #     github.repository == 'xMikux/Slimefun-Resourcepack'
-
-  #   strategy:
-  #     matrix:
-  #       include:
-  #         - PackName: Minecraft
-  #           Path_Models: Resourcepack/contents/_iainternal/resourcepack/assets/minecraft/**/*.json
-  #         - PackName: Bump
-  #           Path_Models: Resourcepack/contents/bump/resourcepack/bump/models/**/*.json
-  #           Path_Pack: Resourcepack/contents/bump/configs/textures.yml
-  #         - PackName: ExoticGarden
-  #           Path_Models: Resourcepack/contents/exotic_garden/resourcepack/exotic_garden/models/**/*.json
-  #           Path_Pack: Resourcepack/contents/exotic_garden/configs/textures.yml
-  #         - PackName: ExtraGear
-  #           Path_Models: Resourcepack/contents/extra_gear/resourcepack/extra_gear/models/**/*.json
-  #           Path_Pack: Resourcepack/contents/extra_gear/configs/textures.yml
-  #         - PackName: FluffyMachines
-  #           Path_Models: Resourcepack/contents/fluffymachines/resourcepack/fluffymachines/models/**/*.json
-  #           Path_Pack: Resourcepack/contents/fluffymachines/configs/textures.yml
-  #         - PackName: FoxyMachines
-  #           Path_Models: Resourcepack/contents/foxymachines/resourcepack/foxymachines/models/**/*.json
-  #           Path_Pack: Resourcepack/contents/foxymachines/configs/textures.yml
-  #         - PackName: InfinityExpansion
-  #           Path_Models: Resourcepack/contents/infinityexpansion/resourcepack/infinityexpansion/models/**/*.json
-  #           Path_Pack: Resourcepack/contents/infinityexpansion/configs/textures.yml
-  #         - PackName: Litexpansion
-  #           Path_Models: Resourcepack/contents/litexpansion/resourcepack/litexpansion/models/**/*.json
-  #           Path_Pack: Resourcepack/contents/litexpansion/configs/textures.yml
-  #         - PackName: SimpleUtils
-  #           Path_Models: Resourcepack/contents/simpleutils/resourcepack/simpleutils/models/**/*.json
-  #           Path_Pack: Resourcepack/contents/simpleutils/configs/textures.yml
-  #         - PackName: Slimefun
-  #           Path_Models: Resourcepack/contents/slimefun/resourcepack/slimefun/models/**/*.json
-  #           Path_Pack: Resourcepack/contents/slimefun/configs/textures.yml
-  #         - PackName: SlimefunWarfare
-  #           Path_Models: Resourcepack/contents/slimefunwarfare/resourcepack/slimefunwarfare/models/**/*.json
-  #           Path_Pack: Resourcepack/contents/slimefunwarfare/configs/textures.yml
-  #         - PackName: SlimyTreeTaps
-  #           Path_Models: Resourcepack/contents/slimy_tree_taps/resourcepack/slimy_tree_taps/models/**/*.json
-  #           Path_Pack: Resourcepack/contents/slimy_tree_taps/configs/textures.yml
-  #         - PackName: Supreme
-  #           Path_Models: Resourcepack/contents/supreme/resourcepack/supreme/models/**/*.json
-  #           Path_Pack: Resourcepack/contents/supreme/configs/textures.yml
-
-  #   steps:
-  #     - name: 📄 Checking Repostiory
-  #       uses: actions/checkout@v3
-
-  #     - name: ⚙ Validate YAML Files (${{ matrix.PackName }})
-  #       if: "${{ matrix.Path_Pack != '' }}"
-  #       uses: ibiqlik/action-yamllint@v3
-  #       with:
-  #         file_or_dir: ${{ matrix.Path_Pack }}
-  #         config_file: ${{ env.config_yaml }}
-
-  #     - name: ⚙ Validate JSON Files (${{ matrix.PackName }})
-  #       if: "${{ matrix.Path_Models != '' }}"
-  #       uses: nhalstead/validate-json-action@0.1.3
-  #       with:
-  #         schema: ${{ env.config_json }}
-  #         jsons: ${{ matrix.Path_Models }}
-
   IAPack-Make:
     name: "✨ Make IAPack"
-    # needs: Validator
     runs-on: ubuntu-latest
     if: |
       contains(github.event.head_commit.message, '[ci skip]') == false
@@ -222,6 +154,13 @@ jobs:
         with:
           path: ./
 
+      - name: 🗑️ Delete Artifact
+        uses: geekyeggo/delete-artifact@v2
+        with:
+          name: |
+            Slimefun-ResourcePack
+            Item-Models
+
       - name: ✅ Make Checksum
         run: |
           mv Slimefun-ResourcePack/pack.zip Slimefun-ResourcePack/Slimefun-ResourcePack.zip
@@ -231,7 +170,7 @@ jobs:
           SUM1=$(sha256sum item-models.yml)
           echo -e "$SUM0\n$SUM1" > checksums.txt
 
-      - name: Create & Upload Per Releases 
+      - name: ✨ Create & Upload Per Releases 
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
@@ -242,10 +181,3 @@ jobs:
             Slimefun-ResourcePack.zip
             item-models.yml
             checksums.txt
-
-      - name: 🗑️ Delete Artifact
-        uses: geekyeggo/delete-artifact@v2
-        with:
-          name: |
-            Slimefun-ResourcePack
-            Item-Models
