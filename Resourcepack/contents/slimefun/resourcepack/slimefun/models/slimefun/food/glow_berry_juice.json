@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "author": "Wei",
+  "textures": {
+    "layer0": "slimefun:slimefun/food/glow_berry_juice",
+    "layer1": "slimefun:slimefun/food/glow_berry_juice"
+  }
+}

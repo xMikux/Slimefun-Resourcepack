@@ -4403,3 +4403,11 @@ items:
       generate: false
       model_id: 2200549
       model_path: "slimefun/miscellaneous/organic_fertilizer/seagrass"
+  glow_berry_juice:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2200550
+      model_path: "slimefun/food/glow_berry_juice"
