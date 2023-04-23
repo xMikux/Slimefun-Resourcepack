@@ -2101,58 +2101,58 @@ items:
     display_name: slimefun
     permission: slimefun
     resource:
-      material: PLAYER_HEAD
+      material: LEATHER_BOOTS
       generate: false
       model_id: 2200262
-      model_path: "slimefun/technical_gadgets/duralumin_jetboots"
-  # solder_jetboots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200263
-  #     model_path: "slimefun/none"
-  # billon_jetboots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200264
-  #     model_path: "slimefun/none"
-  # steel_jetboots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200265
-  #     model_path: "slimefun/none"
-  # damascus_steel_jetboots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200266
-  #     model_path: "slimefun/none"
-  # reinforced_alloy_jetboots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200267
-  #     model_path: "slimefun/none"
-  # carbonado_jetboots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200268
-  #     model_path: "slimefun/none"
+      model_path: "slimefun/technical_gadgets/duralumin_jetboots" # NONE
+  solder_jetboots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_BOOTS
+      generate: false
+      model_id: 2200263
+      model_path: "slimefun/technical_gadgets/solder_jetboots" # NONE
+  billon_jetboots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_BOOTS
+      generate: false
+      model_id: 2200264
+      model_path: "slimefun/technical_gadgets/billon_jetboots" # NONE
+  steel_jetboots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_BOOTS
+      generate: false
+      model_id: 2200265
+      model_path: "slimefun/technical_gadgets/steel_jetboots" # NONE
+  damascus_steel_jetboots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_BOOTS
+      generate: false
+      model_id: 2200266
+      model_path: "slimefun/technical_gadgets/damascus_steel_jetboots" # NONE
+  reinforced_alloy_jetboots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_BOOTS
+      generate: false
+      model_id: 2200267
+      model_path: "slimefun/technical_gadgets/reinforced_alloy_jetboots" # NONE
+  carbonado_jetboots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_BOOTS
+      generate: false
+      model_id: 2200268
+      model_path: "slimefun/technical_gadgets/carbonado_jetboots" # NONE
   armored_jetboots:
     display_name: slimefun
     permission: slimefun
