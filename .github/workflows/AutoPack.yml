@@ -217,9 +217,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📄 Checking Repostiory
-        uses: actions/checkout@v3
-      
       - name: ☁️ DownloadArtifact
         uses: actions/download-artifact@v3
         with:
@@ -229,8 +226,7 @@ jobs:
         run: |
           mv Slimefun-ResourcePack/pack.zip Slimefun-ResourcePack/Slimefun-ResourcePack.zip
           mv Slimefun-ResourcePack/Slimefun-ResourcePack.zip .
-          mv item-models.yml item-model
-          mv item-model/item-models.yml .
+          mv Item-Models/item-models.yml .
           SUM0=$(sha256sum Slimefun-ResourcePack.zip)
           SUM1=$(sha256sum item-models.yml)
           echo -e "$SUM0\n$SUM1" > checksums.txt
