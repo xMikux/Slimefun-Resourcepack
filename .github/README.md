@@ -54,38 +54,38 @@
 
 ### 🎮 Player
 
-First, download the resourcepack ``Slimefun-ResourcePack.zip`` from the release, resourcepack supports 1.14~1.19
+First, download the resourcepack ``Slimefun-ResourcePack.zip`` from the release, which supports 1.14~1.19
 
 Just saying that pack.mcmeta doesn't support multiple versions, you can also make the red warning disappear by modifying the ``pack.mcmeta`` of this file.
 
-Recommanded to install Fabric [CIT Resewn](https://modrinth.com/mod/cit-resewn) or Forge Optifine for the best experience!
+It is recommended to install Fabric [CIT Resewn](https://modrinth.com/mod/cit-resewn) or Forge Optifine for the best experience!
 
-(Some textures require mod to display correctly, such as custom armor render, etc...)
+(Some textures require the mod to display correctly, such as custom armor render, etc...)
 
 Version:
 
 - Beta Pack
 
-  Include the latest fixs and new textures
+  Include the latest fixes and new textures
 
-  [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest-build/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest-build)
+  [![Pre-Release](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest-build/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest-build)
 
 - Release Pack
 
   After release, it will not change
 
-  [![Realease](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+  [![Release](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
 
 Please note!
-> Server need to installed same item-models.yml to work
+> The server needs to have the same item-models.yml installed for it to work.
 >
-> If you join server, and can't display texutes
+> If you join the server but the  textutes cannot be displayed normally,
 >
-> Please contact the admin to inquire about using resourcepack
+> Please contact the admin to inquire about using resourcepack.
 
 ### 🖥️ Admin
 
-Please click version list below and download ``item-models.yml``
+Please click on the version listed below and download ``item-models.yml``
 
 put it in Slimefun plugins folder ``plugins/Slimefun/``
 
@@ -93,21 +93,21 @@ The resourcepack will not display the correct textures if this file is not insta
 
 Version:
 
-- Latest [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest-build/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest-build)
+- Latest [![Pre-Release](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest-build/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest-build)
 
-- Stable [![Realease](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+- Stable [![Release](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
 
 #### ItemsAdder Installation Guide
 
-ItemsAdder must use install via this guide
+For ItemsAdder users, it must be installed as instructed below.
 
-Download the zip that is already build done, and unarchive to plugins/ItemsAdder **Will cause error**
+If you directly download and unzip the already built zip file to plugins/ItemsAdder, **it will cause an error**.
 
-1. First, download this project, you can download it on GitHub main project page Code button, and click ``Download ZIP`` to download
+1. First, download this project. You can download the project by clicking the Code button on the GitHub page and then clicking ``Download ZIP``.
 
-2. Just like normal you install ItemAdder with other Addons, extract ``items_packs`` and ``resource_pack`` folder from ``Resourcepack`` to ``plugins/ItemsAdder/data/``
+2. Just like installing other Addons for ItemsAdder, extract ``items_packs`` and ``resource_pack`` folder from ``Resourcepack`` to ``plugins/ItemsAdder/data/``.
 
-3. And type command ``/iareload`` ``/iazip`` in game or on console, nstallation will be completed!
+3. And then type the command ``/iareload`` ``/iazip`` in game or in the console, the installation will be completed!
 
 ## 📝 Content and Information
 
@@ -134,7 +134,7 @@ Slimefun & Addons Models ID Range List
 | Supreme | 2201471~2202000 |
 | SlimefunWarfare | 2202001~2202200 |
 
-There is still a lot of texutes missing! Welcome to contribute more texture!
+There are still a lot of textures missing! Welcome to contribute more textures!
 
 ## ⭐ Credits
 
