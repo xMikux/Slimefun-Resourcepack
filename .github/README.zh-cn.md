@@ -1,0 +1,331 @@
+<!-- markdownlint-configure-file {
+  "MD033": false
+} -->
+
+<h1 align="center" style="margin-top: 0px;">
+  粘液科技材质包
+</h1>
+
+<p align="center">
+  <a href="https://github.com/xMikux/Slimefun-Resourcepack/releases/latest"><img alt="LatestRelease" src="https://img.shields.io/github/v/release/xMikux/Slimefun-Resourcepack?style=for-the-badge" /></a>
+  <img alt="TotalDownloads" src="https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/total?style=for-the-badge" />
+  <img alt="Stars" src="https://img.shields.io/github/stars/xMikux/Slimefun-Resourcepack?style=for-the-badge" />
+</p>
+
+<h3 align="center">
+  一个简单的重新混合 & 重新制作的粘液科技材质包 <br />
+</h3>
+
+<h4 align="center">
+  使用 ItemsAdder 來生成物品模型与 ID！
+</h4>
+
+<h4 align="center">
+  正在寻找基岩版的粘液科技材质包？ </br>
+  可以查看
+  <a href="https://github.com/SofiaRedmond/Slimefun-Geyser">Slimefun-Geyser</a>！
+</h4>
+
+<h4 align="center">
+  <b>
+    警告：绝大多数材质来自互联网，版权均归属原作者所有！
+  </b>
+</h4>
+
+------
+
+<h3 align="center">
+  🌎 语言
+</h3>
+
+<p align="center">
+  <!-- Country Flags https://www.phoca.cz/cssflags/ -->
+  <a href="https://github.com/xMikux/Slimefun-Resourcepack/blob/main/.github/README.zh-tw.md">
+    <img alt="Language-Traditional_Chinese" src="https://img.shields.io/badge/-Traditional%20Chinese-346ed1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTAwIiBoZWlnaHQ9IjYwMCIgdmlld0JveD0iLTYwIC00MCAyNDAgMTYwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgIDxyZWN0IHg9Ii02MCIgeT0iLTQwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmUwMDAwIi8+DQogICA8cmVjdCB4PSItNjAiIHk9Ii00MCIgd2lkdGg9IjUwJSIgaGVpZ2h0PSI1MCUiIGZpbGw9IiMwMDAwOTUiLz4NCiAgIDxwYXRoIGlkPSJmb3VyX3JheXMiIGQ9Ik0gOCwwIEwgMCwzMCBMIC04LDAgTCAwLC0zMCBNIDAsOCBMIDMwLDAgTCAwLC04IEwgLTMwLDAiIGZpbGw9IiNmZmYiLz4NCiAgIDx1c2UgeGxpbms6aHJlZj0iI2ZvdXJfcmF5cyIgdHJhbnNmb3JtPSJyb3RhdGUoMzApIi8+DQogICA8dXNlIHhsaW5rOmhyZWY9IiNmb3VyX3JheXMiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPg0KICAgPGNpcmNsZSByPSIxNyIgZmlsbD0iIzAwMDA5NSIvPg0KICAgPGNpcmNsZSByPSIxNSIgZmlsbD0iI2ZmZiIvPg0KPC9zdmc+">
+  </a>
+  <a href="https://github.com/xMikux/Slimefun-Resourcepack/blob/main/.github/README.zh-cn.md">
+    <img alt="Language-Simplified_Chinese" src="https://img.shields.io/badge/-Simplified%20Chinese-346ed1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDgwMCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KPHBhdGggZmlsbD0iI2RlMjkxMCIgZD0ibTAsMGgxMjAwdjgwMGgtMTIwMHoiLz4NCjxwYXRoIGZpbGw9IiNmZmRlMDAiIGQ9Im0tMTYuNTc5Niw5OS42MDA3bDIuMzY4Ni04LjEwMzItNi45NTMtNC43ODgzIDguNDM4Ni0uMjUxNCAyLjQwNTMtOC4wOTI0IDIuODQ2Nyw3Ljk0NzkgOC40Mzk2LS4yMTMxLTYuNjc5Miw1LjE2MzQgMi44MTA2LDcuOTYwNy02Ljk3NDctNC43NTY3LTYuNzAyNSw1LjEzMzF6IiB0cmFuc2Zvcm09Im1hdHJpeCg5LjkzMzUyIC4yNzc0NyAtLjI3NzQ3IDkuOTMzNTIgMzI0LjI5MjUgLTY5NS4yNDE1KSIvPg0KPHBhdGggZmlsbD0iI2ZmZGUwMCIgaWQ9InN0YXIiIGQ9Im0zNjUuODU1MiwzMzIuNjg5NWwyOC4zMDY4LDExLjM3NTcgMTkuNjcyMi0yMy4zMTcxLTIuMDcxNiwzMC40MzY3IDI4LjI1NDksMTEuNTA0LTI5LjU4NzIsNy40MzUyLTIuMjA5NywzMC40MjY5LTE2LjIxNDItMjUuODQxNS0yOS42MjA2LDcuMzAwOSAxOS41NjYyLTIzLjQwNjEtMTYuMDk2OC0yNS45MTQ4eiIvPg0KPGcgZmlsbD0iI2ZmZGUwMCI+DQo8cGF0aCBkPSJtNTE5LjA3NzksMTc5LjMxMjlsLTMwLjA1MzQtNS4yNDE4LTE0LjM5NDUsMjYuODk3Ni00LjMwMTctMzAuMjAyMy0zMC4wMjkzLTUuMzc4MSAyNy4zOTQ4LTEzLjQyNDItNC4xNjQ3LTMwLjIyMTUgMjEuMjMyNiwyMS45MDU3IDI3LjQ1NTQtMTMuMjk5OC0xNC4yNzIzLDI2Ljk2MjcgMjEuMTMzMSwyMi4wMDE3eiIvPg0KPHBhdGggZD0ibTQ1NS4yNTkyLDMxNS45Nzk1bDkuMzczNC0yOS4wMzE0LTI0LjYzMjUtMTcuOTk3OCAzMC41MDctLjA1NjYgOS41MDUtMjguOTg4NiA5LjQ4MSwyOC45OTY0IDMwLjUwNywuMDgxOC0yNC42NDc0LDE3Ljk3NzQgOS4zNDkzLDI5LjAzOTItMjQuNzE0LTE3Ljg4NTgtMjQuNzI4OCwxNy44NjUzeiIvPg0KPC9nPg0KPHVzZSB4bGluazpocmVmPSIjc3RhciIgdHJhbnNmb3JtPSJtYXRyaXgoLjk5ODYzIC4wNTIzNCAtLjA1MjM0IC45OTg2MyAxOS40MDAwNSAtMzAwLjUzNjgxKSIvPg0KPC9zdmc+DQo=">
+  </a>
+  <a href="https://github.com/xMikux/Slimefun-Resourcepack/blob/main/.github/README.md">
+    <img alt="Language-English" src="https://img.shields.io/badge/-English-346ed1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjM1IDY1MCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KPGRlZnM+DQo8ZyBpZD0idW5pb24iPg0KPHVzZSB5PSItLjIxNiIgeGxpbms6aHJlZj0iI3g0Ii8+DQo8dXNlIHhsaW5rOmhyZWY9IiN4NCIvPg0KPHVzZSB5PSIuMjE2IiB4bGluazpocmVmPSIjczYiLz4NCjwvZz4NCjxnIGlkPSJ4NCI+DQo8dXNlIHhsaW5rOmhyZWY9IiNzNiIvPg0KPHVzZSB5PSIuMDU0IiB4bGluazpocmVmPSIjczUiLz4NCjx1c2UgeT0iLjEwOCIgeGxpbms6aHJlZj0iI3M2Ii8+DQo8dXNlIHk9Ii4xNjIiIHhsaW5rOmhyZWY9IiNzNSIvPg0KPC9nPg0KPGcgaWQ9InM1Ij4NCjx1c2UgeD0iLS4yNTIiIHhsaW5rOmhyZWY9IiNzdGFyIi8+DQo8dXNlIHg9Ii0uMTI2IiB4bGluazpocmVmPSIjc3RhciIvPg0KPHVzZSB4bGluazpocmVmPSIjc3RhciIvPg0KPHVzZSB4PSIuMTI2IiB4bGluazpocmVmPSIjc3RhciIvPg0KPHVzZSB4PSIuMjUyIiB4bGluazpocmVmPSIjc3RhciIvPg0KPC9nPg0KPGcgaWQ9InM2Ij4NCjx1c2UgeD0iLS4wNjMiIHhsaW5rOmhyZWY9IiNzNSIvPg0KPHVzZSB4PSIuMzE1IiB4bGluazpocmVmPSIjc3RhciIvPg0KPC9nPg0KPGcgaWQ9InN0YXIiPg0KPHVzZSB4bGluazpocmVmPSIjcHQiIHRyYW5zZm9ybT0ibWF0cml4KC0uODA5MDIgLS41ODc3OSAuNTg3NzkgLS44MDkwMiAwIDApIi8+DQo8dXNlIHhsaW5rOmhyZWY9IiNwdCIgdHJhbnNmb3JtPSJtYXRyaXgoLjMwOTAyIC0uOTUxMDYgLjk1MTA2IC4zMDkwMiAwIDApIi8+DQo8dXNlIHhsaW5rOmhyZWY9IiNwdCIvPg0KPHVzZSB4bGluazpocmVmPSIjcHQiIHRyYW5zZm9ybT0icm90YXRlKDcyKSIvPg0KPHVzZSB4bGluazpocmVmPSIjcHQiIHRyYW5zZm9ybT0icm90YXRlKDE0NCkiLz4NCjwvZz4NCjxwYXRoIGZpbGw9IiNmZmYiIGlkPSJwdCIgZD0iTS0uMTYyNSwwIDAtLjUgLjE2MjUsMHoiIHRyYW5zZm9ybT0ic2NhbGUoLjA2MTYpIi8+DQo8cGF0aCBmaWxsPSIjYmYwYTMwIiBpZD0ic3RyaXBlIiBkPSJtMCwwaDEyMzV2NTBoLTEyMzV6Ii8+DQo8L2RlZnM+DQo8cGF0aCBmaWxsPSIjZmZmIiBkPSJtMCwwaDEyMzV2NjUwaC0xMjM1eiIvPg0KPHVzZSB4bGluazpocmVmPSIjc3RyaXBlIi8+DQo8dXNlIHk9IjEwMCIgeGxpbms6aHJlZj0iI3N0cmlwZSIvPg0KPHVzZSB5PSIyMDAiIHhsaW5rOmhyZWY9IiNzdHJpcGUiLz4NCjx1c2UgeT0iMzAwIiB4bGluazpocmVmPSIjc3RyaXBlIi8+DQo8dXNlIHk9IjQwMCIgeGxpbms6aHJlZj0iI3N0cmlwZSIvPg0KPHVzZSB5PSI1MDAiIHhsaW5rOmhyZWY9IiNzdHJpcGUiLz4NCjx1c2UgeT0iNjAwIiB4bGluazpocmVmPSIjc3RyaXBlIi8+DQo8cGF0aCBmaWxsPSIjMDAyODY4IiBkPSJtMCwwaDQ5NHYzNTBoLTQ5NHoiLz4NCjx1c2UgeGxpbms6aHJlZj0iI3VuaW9uIiB0cmFuc2Zvcm09Im1hdHJpeCg2NTAgMCAwIDY1MCAyNDcgMTc1KSIvPg0KPC9zdmc+DQo=">
+  </a>
+</p>
+
+------
+
+## ⚙️ 安装方式
+
+### 🎮 玩家
+
+首先要从发布版本中下载材质包 ``Slimefun-ResourcePack.zip``，材质包支持 1.14~1.19
+
+只是说 pack.mcmeta 不支持多版本指定，你也可以通过修改此文件的 ``pack_format`` 來让红色警告消失
+
+建议安装 Fabric 的 [CIT Resewn](https://modrinth.com/mod/cit-resewn) 或是 Forge 的 Optifine 来获得最佳体验！
+
+（部分材质需要此模组才能正常显示，例如自定义盔甲外观等等。）
+
+版本：
+
+- 测试版资源包
+
+  包括了最新的修正与新材质
+
+  [![Pre-Release](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest-build/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest-build)
+
+- 发布版资源包
+
+  发布后不再改动
+
+  [![Realease](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+
+请注意！
+> 服务器需要安装相同的 item-models.yml 才能工作。
+>
+> 如果加入服务器后材质无法显示，
+>
+> 请联系该服务器的管理员询问材质包使用问题。
+
+### 🖥️ 管理员
+
+请点击下方版本列表，并下载 ``item-models.yml``
+
+放入到粘液科技的配置文件夹 ``plugins/Slimefun/``
+
+如果没有安装此文件将导致材质包无法正常显示。
+
+版本：
+
+- 最新版 [![Pre-Release](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest-build/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest-build)
+
+- 稳定版 [![Release](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+
+#### ItemsAdder 安装指南
+
+ItemsAdder 必須按照指南来安装
+
+直接下载已构建好的 zip 文件解压缩进 plugins/ItemsAdder **将会导致错误**
+
+1. 首先把本项目下载为 zip 文件，可以通过 GitHub 页面上的 Code 按钮选择 ``Download ZIP`` 来下载此项目。
+
+2. 就像是安装 ItemsAdder 的其他 Addons 一样，将 ``Resourcepack`` 文件夹中的 ``items_packs`` 和 ``resource_pack`` 文件夹解压缩到 ``plugins/ItemsAdder/data/`` 中
+
+3. 在游戏或控制台中输入指令 ``/iareload`` ``/iazip`` 就可以安装完成！
+
+## 📝 内容与信息
+
+CIT 支持列表：
+
+- InfinityExpansion Armor
+- Slimefun Armor
+- ExtraGear Armor
+
+粘液科技与其附属模组的模型 ID 范围表
+
+| 名称 | 范围 |
+| --- | --- |
+| Slimefun | 2200001~2200600 |
+| InfinityExpansion | 2200601~2200679 |
+| SlimyTreeTaps | 2200800~2200809 |
+| LiteXpansion | 2200810~2200829 |
+| ExoticGarden | 2200830~2201200 |
+| ExtraGear | 2201201~2201270 |
+| SimpleUtils | 2201270~2201279 |
+| FluffyMachines | 2201280~2201300 |
+| FoxyMachines | 2201301~2201400 |
+| Bump | 2201401~2201470 |
+| Supreme | 2201471~2202000 |
+| SlimefunWarfare | 2202001~2202200 |
+
+仍然有很多材质缺失！欢迎贡献补充缺失的材质！
+
+## ⭐ 贡献者
+
+<table>
+  <tr>
+    <!-- RaulH22 -->
+    <td align="center">
+      <a href="https://www.planetminecraft.com/member/raulh22/"
+        ><img
+          src="https://static.planetminecraft.com/files/avatar/889296_5.png"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>RaulH22</b></sub></a
+      ><br />
+      <p>
+        所有粘液科技材质的基础 <br />
+        <a href="https://www.planetminecraft.com/texture-pack/slimefun-texture-by-raulh22/"
+        >原链接</a>
+      </p>
+      </a>
+    </td>
+    <!-- Den4enko -->
+    <td align="center">
+      <a href="https://github.com/Den4enko"
+        ><img
+          src="https://avatars.githubusercontent.com/u/60628208?v=4?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>Den4enko</b></sub></a
+      ><br />
+      <p>
+        其他粘液科技材质 <br />
+        <a href="https://github.com/Den4enko/Slimefun-Resourcepack"
+        >原项目</a>
+      </p>
+      </a>
+    </td>
+    <!-- LoneDev6 -->
+    <td align="center">
+      <a href="https://github.com/LoneDev6"
+        ><img
+          src="https://avatars.githubusercontent.com/u/27242001?v=4?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>LoneDev6</b></sub></a
+      ><br />
+      <p>
+        IA 的粘液科技附加材质 <br />
+        同时也是 ItemsAdders 的作者 <br />
+        <a href="https://www.spigotmc.org/resources/83877/"
+        >此项目的原型</a>
+      </p>
+      </a>
+    </td>
+    <!-- Caribax -->
+    <td align="center">
+      <a href="https://github.com/Mooy1/InfinityExpansion/releases/tag/v1"
+        ><img
+          src="https://github.com/identicons/jasonlong.png?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>Caribax</b></sub></a
+      ><br />
+      <p>
+        无限扩展附属模组的材质 <br />
+        <a href="https://github.com/Mooy1/InfinityExpansion/releases/tag/v1"
+        >原链接</a>
+      </p>
+      </a>
+    </td>
+    <!-- ybw0014 -->
+    <td align="center">
+      <a href="https://github.com/ybw0014"
+        ><img
+          src="https://avatars.githubusercontent.com/u/7105953?v=4?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>ybw0014</b></sub></a
+      ><br />
+      <p>
+        Bump 与其他部分材质 <br />
+        <a href="https://github.com/ybw0014/GuizhanCraft-resources"
+        >原项目</a>
+      </p>
+      </a>
+    </td>
+    <!-- DragonMysterious -->
+    <td align="center">
+      <a href=""
+        ><img
+          src="https://github.com/identicons/jasonlong.png?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>DragonMysterious</b></sub></a
+      ><br />
+      <p>
+        神秘的贡献者
+      </p>
+      </a>
+    </td>
+  </tr>
+  <!-- Next Line -->
+  <tr>
+    <!-- AnsonYK -->
+    <td align="center">
+      <a href=""
+        ><img
+          src="https://github.com/identicons/jasonlong.png?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>AnsonYK</b></sub></a
+      ><br />
+      <p>
+        神秘的贡献者
+      </p>
+      </a>
+    </td>
+    <!-- Sofia Redmond -->
+    <td align="center">
+      <a href="https://github.com/SofiaRedmond"
+        ><img
+          src="https://avatars.githubusercontent.com/u/86848962?v=4?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>Sofia Redmond</b></sub></a
+      ><br />
+      <p>
+        这个项目中最性感的女孩 <br />
+        她所做的粘液科技基岩版材质包
+        <a href="https://github.com/SofiaRedmond/Slimefun-Geyser"
+        >项目</a>
+      </p>
+      </a>
+    </td>
+    <!-- Jerry -->
+    <td align="center">
+      <a href="https://github.com/Keeywe"
+        ><img
+          src="https://avatars.githubusercontent.com/u/92014243?v=4?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>Jerry</b></sub></a
+      ><br />
+      <p>
+        最懒的高(?) Jerry
+      </p>
+      </a>
+    <!-- haiman -->
+    <td align="center">
+      <a href="https://github.com/haiman233"
+        ><img
+          src="https://avatars.githubusercontent.com/u/83174104?v=4?s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>haiman</b></sub></a
+      ><br />
+      <p>
+        Bump 附属模组材质的贡献者
+      </p>
+      </a>
+    <!-- RelativoBR -->
+    <td align="center">
+      <a href="https://github.com/RelativoBR"
+        ><img
+          src="https://avatars.githubusercontent.com/u/36118424?v=4s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>RelativoBR</b></sub></a
+      ><br />
+      <p>
+        Supreme 附属模组材质的贡献者
+      </p>
+      </a>
+    <!-- Filosofas154 -->
+    <td align="center">
+      <a href="https://github.com/Filosofas154"
+        ><img
+          src="https://avatars.githubusercontent.com/u/60323197?v=4s=100"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>Filosofas154</b></sub></a
+      ><br />
+      <p>
+        SlimefunWarfare 附属模组材质的贡献者
+      </p>
+      </a>
+    </td>
+    </td>
+  <!-- The End Of Line -->
+  </tr>
+</table>
