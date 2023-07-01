@@ -3,7 +3,7 @@
 } -->
 
 <h1 align="center" style="margin-top: 0px;">
-  黏液科技材質包
+  粘液科技材质包
 </h1>
 
 <p align="center">
@@ -13,29 +13,29 @@
 </p>
 
 <h3 align="center">
-  一個簡單的重新混合 & 重新製作的黏液科技材質包 <br />
+  一个简单的重新混合 & 重新制作的粘液科技材质包 <br />
 </h3>
 
 <h4 align="center">
-  使用 ItemAdder 來生成物品模型與 ID！
+  使用 ItemsAdder 來生成物品模型与 ID！
 </h4>
 
 <h4 align="center">
-  正在尋找基岩版的黏液科技材質包？ </br>
+  正在寻找基岩版的粘液科技材质包？ </br>
   可以查看
   <a href="https://github.com/SofiaRedmond/Slimefun-Geyser">Slimefun-Geyser</a>！
 </h4>
 
 <h4 align="center">
   <b>
-    警告：絕大多數材質都來自網路上，版權所有都歸於原作者！
+    警告：绝大多数材质来自互联网，版权均归属原作者所有！
   </b>
 </h4>
 
 ------
 
 <h3 align="center">
-  🌎 語言
+  🌎 语言
 </h3>
 
 <p align="center">
@@ -53,66 +53,66 @@
 
 ------
 
-## ⚙️ 安裝方式
+## ⚙️ 安装方式
 
 ### 🎮 玩家
 
-首先要從發布版本中下載材質包 ``Slimefun-ResourcePack.zip``，材質包支持 1.14~1.19
+首先要从发布版本中下载材质包 ``Slimefun-ResourcePack.zip``，材质包支持 1.14~1.19
 
-只是說 pack.mcmeta 不支持多版本指定，你也可以通過修改此檔案的 ``pack_format`` 來讓紅色警告消失
+只是说 pack.mcmeta 不支持多版本指定，你也可以通过修改此文件的 ``pack_format`` 來让红色警告消失
 
-建議安裝 Fabric 的 [CIT Resewn](https://modrinth.com/mod/cit-resewn) 或是 Forge 的 Optifine 來獲得最佳體驗！
+建议安装 Fabric 的 [CIT Resewn](https://modrinth.com/mod/cit-resewn) 或是 Forge 的 Optifine 来获得最佳体验！
 
-（部分材質需要此模組才能正確顯示，例如自訂盔甲外層等等。）
+（部分材质需要此模组才能正常显示，例如自定义盔甲外观等等。）
 
 版本：
 
-- 測試版資源包
+- 测试版资源包
 
-  包括了最新的修正與新材質
+  包括了最新的修正与新材质
 
-  [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest-build/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest-build)
+  [![Pre-Release](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest-build/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest-build)
 
-- 發布版資源包
+- 发布版资源包
 
-  固定而不再變動
+  发布后不再改动
 
   [![Realease](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/Slimefun-ResourcePack.zip?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
 
-請注意！
-> 伺服器需要安裝相同的 item-models.yml 才能運作
+请注意！
+> 服务器需要安装相同的 item-models.yml 才能工作。
 >
-> 如果加入伺服器無法顯示材質
+> 如果加入服务器后材质无法显示，
 >
-> 請聯繫該伺服器的管理詢問材質包使用
+> 请联系该服务器的管理员询问材质包使用问题。
 
-### 🖥️ 管理者
+### 🖥️ 管理员
 
-請點選下方版本列表，並下載 ``item-models.yml``
+请点击下方版本列表，并下载 ``item-models.yml``
 
-放入到黏液科技的設定資料夾 ``plugins/Slimefun/``
+放入到粘液科技的配置文件夹 ``plugins/Slimefun/``
 
-如果沒有安裝此檔案將導致材質包無法顯示材質。
+如果没有安装此文件将导致材质包无法正常显示。
 
 版本：
 
-- 最新版 [![Per-Realease](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest-build/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest-build)
+- 最新版 [![Pre-Release](https://img.shields.io/github/downloads-pre/xMikux/Slimefun-Resourcepack/latest-build/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/tag/latest-build)
 
-- 穩定版 [![Realease](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
+- 稳定版 [![Release](https://img.shields.io/github/downloads/xMikux/Slimefun-Resourcepack/latest/item-models.yml?style=flat-square)](https://github.com/xMikux/Slimefun-Resourcepack/releases/latest)
 
-#### ItemsAdder 安裝指南
+#### ItemsAdder 安装指南
 
-ItemsAdder 必須透過指南來安裝
+ItemsAdder 必須按照指南来安装
 
-直接下載已建構好的 zip 解壓縮進 plugins/ItemsAdder **將會導致錯誤**
+直接下载已构建好的 zip 文件解压缩进 plugins/ItemsAdder **将会导致错误**
 
-1. 首先把本專案下載下來成 zip，可以透過 GitHub 的主頁面 Code 按鈕 ``Download ZIP`` 來下載此專案
+1. 首先把本项目下载为 zip 文件，可以通过 GitHub 页面上的 Code 按钮选择 ``Download ZIP`` 来下载此项目。
 
-2. 就像是安裝 ItemAdder 的其他 Addons 一樣，將 ``Resourcepack`` 資料夾中的 ``items_packs`` 和 ``resource_pack`` 資料夾解壓縮到 ``plugins/ItemsAdder/data/`` 中
+2. 就像是安装 ItemsAdder 的其他 Addons 一样，将 ``Resourcepack`` 文件夹中的 ``items_packs`` 和 ``resource_pack`` 文件夹解压缩到 ``plugins/ItemsAdder/data/`` 中
 
-3. 在遊戲或後台中輸入指令 ``/iareload`` ``/iazip`` 就可以安裝完成！
+3. 在游戏或控制台中输入指令 ``/iareload`` ``/iazip`` 就可以安装完成！
 
-## 📝 內容與資訊
+## 📝 内容与信息
 
 CIT 支持列表：
 
@@ -120,9 +120,9 @@ CIT 支持列表：
 - Slimefun Armor
 - ExtraGear Armor
 
-黏液與附加的模型 ID 範圍表
+粘液科技与其附属模组的模型 ID 范围表
 
-| 名稱 | 範圍 |
+| 名称 | 范围 |
 | --- | --- |
 | Slimefun | 2200001~2200600 |
 | InfinityExpansion | 2200601~2200679 |
@@ -137,9 +137,9 @@ CIT 支持列表：
 | Supreme | 2201471~2202000 |
 | SlimefunWarfare | 2202001~2202200 |
 
-仍然有非常多材質缺失！歡迎貢獻缺失材質！
+仍然有很多材质缺失！欢迎贡献补充缺失的材质！
 
-## ⭐ 貢獻者
+## ⭐ 贡献者
 
 <table>
   <tr>
@@ -153,9 +153,9 @@ CIT 支持列表：
         /><br /><sub><b>RaulH22</b></sub></a
       ><br />
       <p>
-        所有黏液材質的基礎 <br />
+        所有粘液科技材质的基础 <br />
         <a href="https://www.planetminecraft.com/texture-pack/slimefun-texture-by-raulh22/"
-        >原始連結</a>
+        >原链接</a>
       </p>
       </a>
     </td>
@@ -169,9 +169,9 @@ CIT 支持列表：
         /><br /><sub><b>Den4enko</b></sub></a
       ><br />
       <p>
-        其他黏液材質 <br />
+        其他粘液科技材质 <br />
         <a href="https://github.com/Den4enko/Slimefun-Resourcepack"
-        >原始專案</a>
+        >原项目</a>
       </p>
       </a>
     </td>
@@ -185,10 +185,10 @@ CIT 支持列表：
         /><br /><sub><b>LoneDev6</b></sub></a
       ><br />
       <p>
-        IA的黏液科技附加材質 <br />
-        也同時是 ItemAdders 的作者 <br />
+        IA 的粘液科技附加材质 <br />
+        同时也是 ItemsAdders 的作者 <br />
         <a href="https://www.spigotmc.org/resources/83877/"
-        >此專案的原型</a>
+        >此项目的原型</a>
       </p>
       </a>
     </td>
@@ -202,9 +202,9 @@ CIT 支持列表：
         /><br /><sub><b>Caribax</b></sub></a
       ><br />
       <p>
-        無限附加的材質 <br />
+        无限扩展附属模组的材质 <br />
         <a href="https://github.com/Mooy1/InfinityExpansion/releases/tag/v1"
-        >原始連結</a>
+        >原链接</a>
       </p>
       </a>
     </td>
@@ -218,9 +218,9 @@ CIT 支持列表：
         /><br /><sub><b>ybw0014</b></sub></a
       ><br />
       <p>
-        Bump 與其他部分材質 <br />
+        Bump 与其他部分材质 <br />
         <a href="https://github.com/ybw0014/GuizhanCraft-resources"
-        >原始專案</a>
+        >原项目</a>
       </p>
       </a>
     </td>
@@ -234,7 +234,7 @@ CIT 支持列表：
         /><br /><sub><b>DragonMysterious</b></sub></a
       ><br />
       <p>
-        神秘的貢獻者
+        神秘的贡献者
       </p>
       </a>
     </td>
@@ -251,7 +251,7 @@ CIT 支持列表：
         /><br /><sub><b>AnsonYK</b></sub></a
       ><br />
       <p>
-        神秘的貢獻者
+        神秘的贡献者
       </p>
       </a>
     </td>
@@ -265,10 +265,10 @@ CIT 支持列表：
         /><br /><sub><b>Sofia Redmond</b></sub></a
       ><br />
       <p>
-        這個專案中最性感的女孩 <br />
-        她所做的黏液科技基岩版材質包
+        这个项目中最性感的女孩 <br />
+        她所做的粘液科技基岩版材质包
         <a href="https://github.com/SofiaRedmond/Slimefun-Geyser"
-        >專案</a>
+        >项目</a>
       </p>
       </a>
     </td>
@@ -282,7 +282,7 @@ CIT 支持列表：
         /><br /><sub><b>Jerry</b></sub></a
       ><br />
       <p>
-        最懶的高(?) Jerry
+        最懒的高(?) Jerry
       </p>
       </a>
     <!-- haiman -->
@@ -295,7 +295,7 @@ CIT 支持列表：
         /><br /><sub><b>haiman</b></sub></a
       ><br />
       <p>
-        Bump 附加材質的貢獻者
+        Bump 附属模组材质的贡献者
       </p>
       </a>
     <!-- RelativoBR -->
@@ -308,7 +308,7 @@ CIT 支持列表：
         /><br /><sub><b>RelativoBR</b></sub></a
       ><br />
       <p>
-        Supreme 附加材質的貢獻者
+        Supreme 附属模组材质的贡献者
       </p>
       </a>
     <!-- Filosofas154 -->
@@ -321,7 +321,7 @@ CIT 支持列表：
         /><br /><sub><b>Filosofas154</b></sub></a
       ><br />
       <p>
-        SlimefunWarfare 附加材質的貢獻者
+        SlimefunWarfare 附属模组材质的贡献者
       </p>
       </a>
     </td>
