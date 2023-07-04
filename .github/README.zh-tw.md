@@ -57,7 +57,7 @@
 
 ### 🎮 玩家
 
-首先要從發布版本中下載材質包 ``Slimefun-ResourcePack.zip``，材質包支持 1.14~1.19
+首先要從發布版本中下載材質包 ``Slimefun-ResourcePack.zip``，材質包支持 1.14~1.20
 
 只是說 pack.mcmeta 不支持多版本指定，你也可以通過修改此檔案的 ``pack_format`` 來讓紅色警告消失
 
