@@ -90,6 +90,10 @@ jobs:
           rm pack.png
           unzip IAGenerated.zip
 
+      - name: Temporary fix pack format (1.20)
+        run: |
+          sed -i '3s/12/15/1' pack.mcmeta
+
       - name: 🔧 Remove unnecessary files
         run: |
           rm -r assets/_iainternal
