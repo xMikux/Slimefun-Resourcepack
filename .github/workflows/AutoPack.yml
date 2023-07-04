@@ -93,12 +93,12 @@ jobs:
       - name: 🔧 Remove unnecessary files
         run: |
           rm -r assets/_iainternal
-          rm -r assets/minecraft/shaders
           rm -r assets/minecraft/blockstates
           rm -r assets/minecraft/font
           rm -r assets/minecraft/lang
           rm -r assets/minecraft/models/block
           rm -r assets/minecraft/models/item/base
+          rm -r assets/minecraft/shaders
           rm -r assets/minecraft/textures
 
       - name: 🧹 Cleanup IAGenerated
@@ -135,13 +135,13 @@ jobs:
           fetch-depth: 0
 
       - name: 📥 Package & Optimize Resourcepack
-        uses: ComunidadAylas/PackSquash-action@master
+        uses: ComunidadAylas/PackSquash-action@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          allow_optifine_mod: true
-          never_store_squash_times: true
+          packsquash_version: latest
           artifact_name: Slimefun-ResourcePack
-          path: ./
+          options: |
+            pack_directory = '.'
+            allow_mods = ['OptiFine']
 
   Per-Release:
     name: "📢 Per Release"
