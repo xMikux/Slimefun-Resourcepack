@@ -1,7 +1,6 @@
 info:
   namespace: slimefunwarfare
 items:
-  # General
   dummy:
     display_name: slimefunwarfare
     permission: slimefunwarfare
@@ -74,7 +73,6 @@ items:
       generate: false
       model_id: 2202075
       model_path: "general/terfenol_d_block"
-  # Melee Weapons
   battle_axe:
     display_name: slimefunwarfare
     permission: slimefunwarfare
@@ -99,7 +97,6 @@ items:
       generate: false
       model_id: 2202016
       model_path: "melee_weapons/osmium_sword"
-  # Explosives
   arsenic:
     display_name: slimefunwarfare
     permission: slimefunwarfare
@@ -188,7 +185,6 @@ items:
       generate: false
       model_id: 2202056
       model_path: "explosives/thioacetone_grenade"
-  # Resources
   borax:
     display_name: slimefunwarfare
     permission: slimefunwarfare

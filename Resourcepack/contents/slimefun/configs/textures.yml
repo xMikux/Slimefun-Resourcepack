@@ -1,23 +1,7 @@
 info:
   namespace: slimefun
 items:
-  # background:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: GRAY_STAINED_GLASS_PANE
-  #     generate: false
-  #     model_id: 2200002
-  #     model_path: "slimefun/gui/background"
   slimefun_guide:
-    display_name: slimefun
-    permission: slimefun
-    resource:
-      material: GOLDEN_SWORD
-      generate: false
-      model_id: 2200001
-      model_path: "slimefun/gui/slimefun_guide"
-  slimefun_guide_icon:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -25,62 +9,62 @@ items:
       generate: false
       model_id: 2200001
       model_path: "slimefun/gui/slimefun_guide"
-  back:
+  _ui_back:
     display_name: slimefun
     permission: slimefun
     resource:
       material: ENCHANTED_BOOK
       generate: false
       model_id: 2200003
-      model_path: "slimefun/gui/back"
-  menu:
+      model_path: "slimefun/gui/_ui_back"
+  _ui_menu:
     display_name: slimefun
     permission: slimefun
     resource:
       material: COMPARATOR
       generate: false
       model_id: 2200004
-      model_path: "slimefun/gui/menu"
-  search:
+      model_path: "slimefun/gui/_ui_menu"
+  _ui_search:
     display_name: slimefun
     permission: slimefun
     resource:
       material: NAME_TAG
       generate: false
       model_id: 2200005
-      model_path: "slimefun/gui/search"
-  previous_active:
+      model_path: "slimefun/gui/_ui_search"
+  _ui_previous_active:
     display_name: slimefun
     permission: slimefun
     resource:
       material: LIME_STAINED_GLASS_PANE
       generate: false
       model_id: 2200007
-      model_path: "slimefun/gui/previous_active"
-  previous_inactive:
+      model_path: "slimefun/gui/_ui_previous_active"
+  _ui_previous_inactive:
     display_name: slimefun
     permission: slimefun
     resource:
       material: BLACK_STAINED_GLASS_PANE
       generate: false
       model_id: 2200008
-      model_path: "slimefun/gui/previous_inactive"
-  next_active:
+      model_path: "slimefun/gui/_ui_previous_inactive"
+  _ui_next_active:
     display_name: slimefun
     permission: slimefun
     resource:
       material: LIME_STAINED_GLASS_PANE
       generate: false
       model_id: 2200009
-      model_path: "slimefun/gui/next_active"
-  next_inactive:
+      model_path: "slimefun/gui/_ui_next_active"
+  _ui_next_inactive:
     display_name: slimefun
     permission: slimefun
     resource:
       material: BLACK_STAINED_GLASS_PANE
       generate: false
       model_id: 2200010
-      model_path: "slimefun/gui/next_inactive"
+      model_path: "slimefun/gui/_ui_next_inactive"
   blade_of_vampires:
     display_name: slimefun
     permission: slimefun
@@ -89,15 +73,15 @@ items:
       generate: false
       model_id: 2200237
       model_path: "slimefun/weapons/blade_of_vampires"
-  backpack:
+  medium_backpack:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200249
-      model_path: "slimefun/items/backpack"
-  wiki:
+      model_path: "slimefun/items/medium_backpack"
+  _ui_wiki:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -121,14 +105,14 @@ items:
       generate: false
       model_id: 2200012
       model_path: "slimefun/weapons/grandpas_walking_stick"
-  portable_craftingtabble:
+  portable_crafter:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200013
-      model_path: "slimefun/items/portable_craftingtabble"
+      model_path: "slimefun/items/portable_crafter"
   fortune_cookie:
     display_name: slimefun
     permission: slimefun
@@ -153,14 +137,14 @@ items:
       generate: false
       model_id: 2200016
       model_path: "slimefun/basic_machines/output_chest"
-  enchanced_crafting_table:
+  enhanced_crafting_table:
     display_name: slimefun
     permission: slimefun
     resource:
       material: CRAFTING_TABLE
       generate: false
       model_id: 2200017
-      model_path: "slimefun/basic_machines/enchanced_crafting_table"
+      model_path: "slimefun/basic_machines/enhanced_crafting_table"
   portable_dustbin:
     display_name: slimefun
     permission: slimefun
@@ -257,62 +241,62 @@ items:
       generate: false
       model_id: 2200029
       model_path: "slimefun/basic_machines/compressor"
-  magical_lump:
+  magic_lump_1:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_NUGGET
       generate: false
       model_id: 2200030
-      model_path: "slimefun/magical_items/magical_lump"
-  magical_lump2:
+      model_path: "slimefun/magical_items/magic_lump_1"
+  magic_lump_2:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_NUGGET
       generate: false
       model_id: 2200031
-      model_path: "slimefun/magical_items/magical_lump2"
-  magical_lump3:
+      model_path: "slimefun/magical_items/magic_lump_2"
+  magic_lump_3:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_NUGGET
       generate: false
       model_id: 2200032
-      model_path: "slimefun/magical_items/magical_lump3"
-  ender_lump:
+      model_path: "slimefun/magical_items/magic_lump_3"
+  ender_lump_1:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_NUGGET
       generate: false
       model_id: 2200033
-      model_path: "slimefun/magical_items/ender_lump"
-  ender_lump2:
+      model_path: "slimefun/magical_items/ender_lump_1"
+  ender_lump_2:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_NUGGET
       generate: false
       model_id: 2200034
-      model_path: "slimefun/magical_items/ender_lump2"
-  ender_lump3:
+      model_path: "slimefun/magical_items/ender_lump_2"
+  ender_lump_3:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_NUGGET
       generate: false
       model_id: 2200035
-      model_path: "slimefun/magical_items/ender_lump3"
-  backpack_ender:
+      model_path: "slimefun/magical_items/ender_lump_3"
+  ender_backpack:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200036
-      model_path: "slimefun/magical_gadgets/backpack_ender"
+      model_path: "slimefun/magical_gadgets/ender_backpack"
   ender_helmet:
     display_name: slimefun
     permission: slimefun
@@ -345,14 +329,14 @@ items:
       generate: false
       model_id: 2200040
       model_path: "slimefun/magical_armor/ender_amor/boots"
-  magic_ender_eye:
+  magic_eye_of_ender:
     display_name: slimefun
     permission: slimefun
     resource:
       material: ENDER_EYE
       generate: false
       model_id: 2200041
-      model_path: "slimefun/magical_gadgets/magic_ender_eye"
+      model_path: "slimefun/magical_gadgets/magic_eye_of_ender"
   magic_sugar:
     display_name: slimefun
     permission: slimefun
@@ -425,22 +409,22 @@ items:
       generate: false
       model_id: 2200050
       model_path: "slimefun/magical_items/magical_glass"
-  basic_board:
+  basic_circuit_board:
     display_name: slimefun
     permission: slimefun
     resource:
       material: ACTIVATOR_RAIL
       generate: false
       model_id: 2200051
-      model_path: "slimefun/technical_components/basic_board"
-  advanced_board:
+      model_path: "slimefun/technical_components/basic_circuit_board"
+  advanced_circuit_board:
     display_name: slimefun
     permission: slimefun
     resource:
       material: POWERED_RAIL
       generate: false
       model_id: 2200052
-      model_path: "slimefun/technical_components/advanced_board"
+      model_path: "slimefun/technical_components/advanced_circuit_board"
   gold_pan:
     display_name: slimefun
     permission: slimefun
@@ -481,14 +465,14 @@ items:
       generate: false
       model_id: 2200057
       model_path: "slimefun/basic_machines/smeltery"
-  automatic_ignition_chamber:
+  ignition_chamber:
     display_name: slimefun
     permission: slimefun
     resource:
       material: DROPPER
       generate: false
       model_id: 2200058
-      model_path: "slimefun/basic_machines/automatic_ignition_chamber"
+      model_path: "slimefun/basic_machines/ignition_chamber"
   pressure_chamber:
     display_name: slimefun
     permission: slimefun
@@ -633,22 +617,22 @@ items:
       generate: false
       model_id: 2200076
       model_path: "slimefun/armor/cactus_armor/boots"
-  reinforced_alloy:
+  reinforced_alloy_ingot:
     display_name: slimefun
     permission: slimefun
     resource:
       material: IRON_INGOT
       generate: false
       model_id: 2200077
-      model_path: "slimefun/resources/ingots/reinforced_alloy"
-  hardened_metal:
+      model_path: "slimefun/resources/ingots/reinforced_alloy_ingot"
+  hardened_metal_ingot:
     display_name: slimefun
     permission: slimefun
     resource:
       material: IRON_INGOT
       generate: false
       model_id: 2200078
-      model_path: "slimefun/resources/ingots/hardened_metal"
+      model_path: "slimefun/resources/ingots/hardened_metal_ingot"
   damascus_steel_ingot:
     display_name: slimefun
     permission: slimefun
@@ -745,14 +729,14 @@ items:
       generate: false
       model_id: 2200090
       model_path: "slimefun/resources/valuables/synthetic_diamond"
-  raw_carbon:
+  raw_carbonado:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200091
-      model_path: "slimefun/resources/valuables/raw_carbon"
+      model_path: "slimefun/resources/valuables/raw_carbonado"
   nickel_ingot:
     display_name: slimefun
     permission: slimefun
@@ -969,14 +953,14 @@ items:
       generate: false
       model_id: 2200118
       model_path: "slimefun/technical_components/steel_thruster"
-  powered_crystal:
+  power_crystal:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200119
-      model_path: "slimefun/technical_components/powered_crystal"
+      model_path: "slimefun/technical_components/power_crystal"
   duralumin_jetpack:
     display_name: slimefun
     permission: slimefun
@@ -1081,30 +1065,30 @@ items:
       generate: false
       model_id: 2200132
       model_path: "slimefun/basic_machines/magic_workbench"
-  elemental_staff:
+  staff_elemental:
     display_name: slimefun
     permission: slimefun
     resource:
       material: STICK
       generate: false
       model_id: 2200133
-      model_path: "slimefun/magical_gadgets/elemental_staff"
-  wind_staff:
+      model_path: "slimefun/magical_gadgets/staff_elemental"
+  staff_elemental_wind:
     display_name: slimefun
     permission: slimefun
     resource:
       material: STICK
       generate: false
       model_id: 2200134
-      model_path: "slimefun/magical_gadgets/wind_staff"
-  water_staff:
+      model_path: "slimefun/magical_gadgets/staff_elemental_wind"
+  staff_elemental_water:
     display_name: slimefun
     permission: slimefun
     resource:
       material: STICK
       generate: false
       model_id: 2200135
-      model_path: "slimefun/magical_gadgets/water_staff"
+      model_path: "slimefun/magical_gadgets/staff_elemental_water"
   duralumin_multi_tool:
     display_name: slimefun
     permission: slimefun
@@ -1169,94 +1153,94 @@ items:
       generate: false
       model_id: 2200143
       model_path: "slimefun/basic_machines/ore_washer"
-  gold_ingot_24:
+  gold_24k:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_INGOT
       generate: false
       model_id: 2200144
-      model_path: "slimefun/resources/gold_ingots/gold_ingot_24"
-  gold_ingot_22:
+      model_path: "slimefun/resources/gold_ingots/gold_24k"
+  gold_22k:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_INGOT
       generate: false
       model_id: 2200145
-      model_path: "slimefun/resources/gold_ingots/gold_ingot_22"
-  gold_ingot_20:
+      model_path: "slimefun/resources/gold_ingots/gold_22k"
+  gold_20k:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_INGOT
       generate: false
       model_id: 2200146
-      model_path: "slimefun/resources/gold_ingots/gold_ingot_20"
-  gold_ingot_18:
+      model_path: "slimefun/resources/gold_ingots/gold_20k"
+  gold_18k:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_INGOT
       generate: false
       model_id: 2200147
-      model_path: "slimefun/resources/gold_ingots/gold_ingot_18"
-  gold_ingot_16:
+      model_path: "slimefun/resources/gold_ingots/gold_18k"
+  gold_16k:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_INGOT
       generate: false
       model_id: 2200148
-      model_path: "slimefun/resources/gold_ingots/gold_ingot_16"
-  gold_ingot_14:
+      model_path: "slimefun/resources/gold_ingots/gold_16k"
+  gold_14k:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_INGOT
       generate: false
       model_id: 2200149
-      model_path: "slimefun/resources/gold_ingots/gold_ingot_14"
-  gold_ingot_12:
+      model_path: "slimefun/resources/gold_ingots/gold_14k"
+  gold_12k:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_INGOT
       generate: false
       model_id: 2200150
-      model_path: "slimefun/resources/gold_ingots/gold_ingot_12"
-  gold_ingot_10:
+      model_path: "slimefun/resources/gold_ingots/gold_12k"
+  gold_10k:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_INGOT
       generate: false
       model_id: 2200151
-      model_path: "slimefun/resources/gold_ingots/gold_ingot_10"
-  gold_ingot_8:
+      model_path: "slimefun/resources/gold_ingots/gold_10k"
+  gold_8k:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_INGOT
       generate: false
       model_id: 2200152
-      model_path: "slimefun/resources/gold_ingots/gold_ingot_8"
-  gold_ingot_6:
+      model_path: "slimefun/resources/gold_ingots/gold_8k"
+  gold_6k:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_INGOT
       generate: false
       model_id: 2200153
-      model_path: "slimefun/resources/gold_ingots/gold_ingot_6"
-  gold_ingot_4:
+      model_path: "slimefun/resources/gold_ingots/gold_6k"
+  gold_4k:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_INGOT
       generate: false
       model_id: 2200154
-      model_path: "slimefun/resources/gold_ingots/gold_ingot_4"
+      model_path: "slimefun/resources/gold_ingots/gold_4k"
   stone_chunk:
     display_name: slimefun
     permission: slimefun
@@ -1297,22 +1281,22 @@ items:
       generate: false
       model_id: 2200159
       model_path: "slimefun/magical_items/lava_crystal"
-  fire_staff:
+  staff_elemental_fire:
     display_name: slimefun
     permission: slimefun
     resource:
       material: STICK
       generate: false
       model_id: 2200160
-      model_path: "slimefun/magical_gadgets/fire_staff"
-  storm_staff:
+      model_path: "slimefun/magical_gadgets/staff_elemental_fire"
+  staff_elemental_storm:
     display_name: slimefun
     permission: slimefun
     resource:
       material: STICK
       generate: false
       model_id: 2200161
-      model_path: "slimefun/magical_gadgets/storm_staff"
+      model_path: "slimefun/magical_gadgets/staff_elemental_storm"
   magical_zombie_pills:
     display_name: slimefun
     permission: slimefun
@@ -1321,14 +1305,14 @@ items:
       generate: false
       model_id: 2200162
       model_path: "slimefun/magical_gadgets/magical_zombie_pills"
-  smelter_pickaxe:
+  smelters_pickaxe:
     display_name: slimefun
     permission: slimefun
     resource:
       material: DIAMOND_PICKAXE
       generate: false
       model_id: 2200163
-      model_path: "slimefun/tools/smelter_pickaxe"
+      model_path: "slimefun/tools/smelters_pickaxe"
   common_talisman:
     display_name: slimefun
     permission: slimefun
@@ -1337,7 +1321,7 @@ items:
       generate: false
       model_id: 2200164
       model_path: "slimefun/magical_items/common_talisman"
-  anvil1:
+  anvil_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1345,7 +1329,7 @@ items:
       generate: false
       model_id: 2200165
       model_path: "slimefun/talisman1/anvil"
-  anvil2:
+  ender_anvil_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1353,7 +1337,7 @@ items:
       generate: false
       model_id: 2200166
       model_path: "slimefun/talisman2/anvil"
-  miner1:
+  miner_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1361,7 +1345,7 @@ items:
       generate: false
       model_id: 2200167
       model_path: "slimefun/talisman1/miner"
-  miner2:
+  ender_miner_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1369,7 +1353,7 @@ items:
       generate: false
       model_id: 2200168
       model_path: "slimefun/talisman2/miner"
-  hunter1:
+  hunter_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1377,7 +1361,7 @@ items:
       generate: false
       model_id: 2200169
       model_path: "slimefun/talisman1/hunter"
-  hunter2:
+  ender_hunter_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1385,7 +1369,7 @@ items:
       generate: false
       model_id: 2200170
       model_path: "slimefun/talisman2/hunter"
-  lava_walker1:
+  lava_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1393,7 +1377,7 @@ items:
       generate: false
       model_id: 2200171
       model_path: "slimefun/talisman1/lava_walker"
-  lava_walker2:
+  ender_lava_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1401,7 +1385,7 @@ items:
       generate: false
       model_id: 2200172
       model_path: "slimefun/talisman2/lava_walker"
-  water_breather1:
+  water_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1409,7 +1393,7 @@ items:
       generate: false
       model_id: 2200173
       model_path: "slimefun/talisman1/water_breather"
-  water_breather2:
+  ender_water_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1417,7 +1401,7 @@ items:
       generate: false
       model_id: 2200174
       model_path: "slimefun/talisman2/water_breather"
-  angel1:
+  angel_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1425,7 +1409,7 @@ items:
       generate: false
       model_id: 2200175
       model_path: "slimefun/talisman1/angel"
-  angel2:
+  ender_angel_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1433,7 +1417,7 @@ items:
       generate: false
       model_id: 2200176
       model_path: "slimefun/talisman2/angel"
-  firefighter1:
+  fire_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1441,7 +1425,7 @@ items:
       generate: false
       model_id: 2200177
       model_path: "slimefun/talisman1/firefighter"
-  firefighter2:
+  ender_fire_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1449,7 +1433,7 @@ items:
       generate: false
       model_id: 2200178
       model_path: "slimefun/talisman2/firefighter"
-  magican1:
+  magician_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1457,7 +1441,7 @@ items:
       generate: false
       model_id: 2200179
       model_path: "slimefun/talisman1/magican"
-  magican2:
+  ender_magician_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1465,7 +1449,7 @@ items:
       generate: false
       model_id: 2200180
       model_path: "slimefun/talisman2/magican"
-  traveller1:
+  traveller_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1473,7 +1457,7 @@ items:
       generate: false
       model_id: 2200181
       model_path: "slimefun/talisman1/traveller"
-  traveller2:
+  ender_traveller_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1481,7 +1465,7 @@ items:
       generate: false
       model_id: 2200182
       model_path: "slimefun/talisman2/traveller"
-  warrior1:
+  warrior_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1489,7 +1473,7 @@ items:
       generate: false
       model_id: 2200183
       model_path: "slimefun/talisman1/warrior"
-  warrior2:
+  ender_warrior_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1497,7 +1481,7 @@ items:
       generate: false
       model_id: 2200184
       model_path: "slimefun/talisman2/warrior"
-  knight1:
+  knight_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1505,7 +1489,7 @@ items:
       generate: false
       model_id: 2200185
       model_path: "slimefun/talisman1/knight"
-  knight2:
+  ender_knight_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1529,39 +1513,7 @@ items:
       generate: false
       model_id: 2200188
       model_path: "slimefun/resources/valuables/synthetic_emerald"
-  # chain_helmet:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200189
-  #     model_path: "slimefun/none"
-  # chain_chestplate:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200190
-  #     model_path: "slimefun/none"
-  # chain_leggings:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200191
-  #     model_path: "slimefun/none"
-  # chain_boots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200192
-  #     model_path: "slimefun/none"
-  whirlwind1:
+  whirlwind_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1569,7 +1521,7 @@ items:
       generate: false
       model_id: 2200193
       model_path: "slimefun/talisman1/whirlwind"
-  whirlwind2:
+  ender_whirlwind_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1577,7 +1529,7 @@ items:
       generate: false
       model_id: 2200194
       model_path: "slimefun/talisman2/whirlwind"
-  wizard1:
+  wizard_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1585,7 +1537,7 @@ items:
       generate: false
       model_id: 2200195
       model_path: "slimefun/talisman1/wizard"
-  wizard2:
+  ender_wizard_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -1729,22 +1681,22 @@ items:
       generate: false
       model_id: 2200213
       model_path: "slimefun/miscellaneous/pure_ore_cluster"
-  tiny_pile_of_uranium:
+  tiny_uranium:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200214
-      model_path: "slimefun/miscellaneous/tiny_pile_of_uranium"
-  small_chunk_of_uranium:
+      model_path: "slimefun/miscellaneous/tiny_uranium"
+  small_uranium:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200215
-      model_path: "slimefun/miscellaneous/small_chunk_of_uranium"
+      model_path: "slimefun/miscellaneous/small_uranium"
   uranium:
     display_name: slimefun
     permission: slimefun
@@ -1753,46 +1705,14 @@ items:
       generate: false
       model_id: 2200216
       model_path: "slimefun/resources/radioactive_materials/uranium"
-  redstone_alloy_ingot:
+  redstone_alloy:
     display_name: slimefun
     permission: slimefun
     resource:
       material: BRICK
       generate: false
       model_id: 2200217
-      model_path: "slimefun/resources/ingots/redstone_alloy_ingot"
-  # gold_12k_helmet:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200218
-  #     model_path: "slimefun/none"
-  # gold_12k_chestplate:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200219
-  #     model_path: "slimefun/none"
-  # gold_12k_leggings:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200220
-  #     model_path: "slimefun/none"
-  # gold_12k_boots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200221
-  #     model_path: "slimefun/none"
+      model_path: "slimefun/resources/ingots/redstone_alloy"
   cloth:
     display_name: slimefun
     permission: slimefun
@@ -1825,14 +1745,14 @@ items:
       generate: false
       model_id: 2200225
       model_path: "slimefun/items/splint"
-  tin_can:
+  can:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200226
-      model_path: "slimefun/miscellaneous/tin_can"
+      model_path: "slimefun/miscellaneous/can"
   vitamins:
     display_name: slimefun
     permission: slimefun
@@ -1913,14 +1833,14 @@ items:
       generate: false
       model_id: 2200236
       model_path: "slimefun/magical_armor/slime_armor_steel/boots"
-  gold_block_carat_24:
+  gold_24k_block:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_BLOCK
       generate: false
       model_id: 2200238
-      model_path: "slimefun/miscellaneous/gold_block_carat_24"
+      model_path: "slimefun/miscellaneous/gold_24k_block"
   composter:
     display_name: slimefun
     permission: slimefun
@@ -1985,38 +1905,38 @@ items:
       generate: false
       model_id: 2200246
       model_path: "slimefun/magical_armor/stomper_armor/boots"
-  seeker_pickaxe:
+  pickaxe_of_the_seeker:
     display_name: slimefun
     permission: slimefun
     resource:
       material: DIAMOND_PICKAXE
       generate: false
       model_id: 2200247
-      model_path: "slimefun/tools/seeker_pickaxe"
-  backpack_small:
+      model_path: "slimefun/tools/pickaxe_of_the_seeker"
+  small_backpack:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200248
-      model_path: "slimefun/items/backpack_small"
-  backpack_large:
+      model_path: "slimefun/items/small_backpack"
+  large_backpack:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200250
-      model_path: "slimefun/items/backpack_large"
-  backpack_woven:
+      model_path: "slimefun/items/large_backpack"
+  woven_backpack:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200251
-      model_path: "slimefun/items/backpack_woven"
+      model_path: "slimefun/items/woven_backpack"
   crucible:
     display_name: slimefun
     permission: slimefun
@@ -2025,22 +1945,22 @@ items:
       generate: false
       model_id: 2200252
       model_path: "slimefun/basic_machines/crucible"
-  backpack_gilded:
+  gilded_backpack:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200253
-      model_path: "slimefun/items/backpack_gilded"
-  backpack_radiant:
+      model_path: "slimefun/items/gilded_backpack"
+  radiant_backpack:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200254
-      model_path: "slimefun/items/backpack_radiant"
+      model_path: "slimefun/items/radiant_backpack"
   restored_backpack:
     display_name: slimefun
     permission: slimefun
@@ -2089,14 +2009,14 @@ items:
       generate: false
       model_id: 2200260
       model_path: "slimefun/magical_items/essence_of_afterlife"
-  backpack_soulbound:
+  bound_backpack:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200261
-      model_path: "slimefun/magical_gadgets/backpack_soulbound"
+      model_path: "slimefun/magical_gadgets/bound_backpack"
   duralumin_jetboots:
     display_name: slimefun
     permission: slimefun
@@ -2104,7 +2024,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200262
-      model_path: "slimefun/technical_gadgets/duralumin_jetboots" # NONE
+      model_path: "slimefun/technical_gadgets/duralumin_jetboots"
   solder_jetboots:
     display_name: slimefun
     permission: slimefun
@@ -2112,7 +2032,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200263
-      model_path: "slimefun/technical_gadgets/solder_jetboots" # NONE
+      model_path: "slimefun/technical_gadgets/solder_jetboots"
   billon_jetboots:
     display_name: slimefun
     permission: slimefun
@@ -2120,7 +2040,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200264
-      model_path: "slimefun/technical_gadgets/billon_jetboots" # NONE
+      model_path: "slimefun/technical_gadgets/billon_jetboots"
   steel_jetboots:
     display_name: slimefun
     permission: slimefun
@@ -2128,7 +2048,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200265
-      model_path: "slimefun/technical_gadgets/steel_jetboots" # NONE
+      model_path: "slimefun/technical_gadgets/steel_jetboots"
   damascus_steel_jetboots:
     display_name: slimefun
     permission: slimefun
@@ -2136,7 +2056,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200266
-      model_path: "slimefun/technical_gadgets/damascus_steel_jetboots" # NONE
+      model_path: "slimefun/technical_gadgets/damascus_steel_jetboots"
   reinforced_alloy_jetboots:
     display_name: slimefun
     permission: slimefun
@@ -2144,7 +2064,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200267
-      model_path: "slimefun/technical_gadgets/reinforced_alloy_jetboots" # NONE
+      model_path: "slimefun/technical_gadgets/reinforced_alloy_jetboots"
   carbonado_jetboots:
     display_name: slimefun
     permission: slimefun
@@ -2152,7 +2072,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200268
-      model_path: "slimefun/technical_gadgets/carbonado_jetboots" # NONE
+      model_path: "slimefun/technical_gadgets/carbonado_jetboots"
   armored_jetboots:
     display_name: slimefun
     permission: slimefun
@@ -2169,14 +2089,14 @@ items:
       generate: false
       model_id: 2200270
       model_path: "slimefun/weapons/seismic_axe"
-  vein_pickaxe:
+  pickaxe_of_vein_mining:
     display_name: slimefun
     permission: slimefun
     resource:
       material: DIAMOND_PICKAXE
       generate: false
       model_id: 2200271
-      model_path: "slimefun/tools/vein_pickaxe"
+      model_path: "slimefun/tools/pickaxe_of_vein_mining"
   soulbound_sword:
     display_name: slimefun
     permission: slimefun
@@ -2337,14 +2257,14 @@ items:
       generate: false
       model_id: 2200291
       model_path: "slimefun/magical_items/reinforced_spawner"
-  enhanced_furnace_1:
+  enhanced_furnace:
     display_name: slimefun
     permission: slimefun
     resource:
       material: FURNACE
       generate: false
       model_id: 2200292
-      model_path: "slimefun/basic_machines/enhanced_furnace_1"
+      model_path: "slimefun/basic_machines/enhanced_furnace"
   enhanced_furnace_2:
     display_name: slimefun
     permission: slimefun
@@ -2441,14 +2361,14 @@ items:
       generate: false
       model_id: 2200304
       model_path: "slimefun/basic_machines/carbonado_edged_furnace"
-  electromagnet:
+  electro_magnet:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200305
-      model_path: "slimefun/technical_components/electromagnet"
+      model_path: "slimefun/technical_components/electro_magnet"
   electric_motor:
     display_name: slimefun
     permission: slimefun
@@ -2481,14 +2401,14 @@ items:
       generate: false
       model_id: 2200309
       model_path: "slimefun/basic_machines/block_placer"
-  dimensional_scroll:
+  scroll_of_dimensional_teleposition:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PAPER
       generate: false
       model_id: 2200310
-      model_path: "slimefun/magical_gadgets/dimensional_scroll"
+      model_path: "slimefun/magical_gadgets/scroll_of_dimensional_teleposition"
   explosive_bow:
     display_name: slimefun
     permission: slimefun
@@ -2505,30 +2425,22 @@ items:
       generate: false
       model_id: 2200312
       model_path: "slimefun/weapons/icy_bow/icy_bow"
-  knowledge_tome:
+  tome_of_knowledge_sharing:
     display_name: slimefun
     permission: slimefun
     resource:
       material: ENCHANTED_BOOK
       generate: false
       model_id: 2200313
-      model_path: "slimefun/magical_gadgets/knowledge_tome"
-  knowledge_flask:
+      model_path: "slimefun/magical_gadgets/tome_of_knowledge_sharing"
+  flask_of_knowledge:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GLASS_BOTTLE
       generate: false
       model_id: 2200314
-      model_path: "slimefun/magical_gadgets/knowledge_flask"
-  # birthday_cake:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200315
-  #     model_path: "slimefun/none"
+      model_path: "slimefun/magical_gadgets/flask_of_knowledge"
   christmas_milk:
     display_name: slimefun
     permission: slimefun
@@ -2561,30 +2473,6 @@ items:
       generate: false
       model_id: 2200319
       model_path: "slimefun/seasonal/christmas/christmas_apple_cider"
-  # christmas_cookie:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200320
-  #     model_path: "slimefun/none"
-  # christmas_fruit_cake:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200321
-  #     model_path: "slimefun/none"
-  # christmas_apple_pie:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200322
-  #     model_path: "slimefun/none"
   christmas_hot_chocolate:
     display_name: slimefun
     permission: slimefun
@@ -2593,38 +2481,6 @@ items:
       generate: false
       model_id: 2200323
       model_path: "slimefun/seasonal/christmas/christmas_hot_chocolate"
-  # christmas_cake:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200324
-  #     model_path: "slimefun/none"
-  # christmas_caramel:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200325
-  #     model_path: "slimefun/none"
-  # christmas_caramel_apple:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200326
-  #     model_path: "slimefun/none"
-  # christmas_chocolate_apple:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200327
-  #     model_path: "slimefun/none"
   christmas_present:
     display_name: slimefun
     permission: slimefun
@@ -2633,22 +2489,6 @@ items:
       generate: false
       model_id: 2200328
       model_path: "slimefun/seasonal/christmas/christmas_present"
-  # carrot_pie:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200329
-  #     model_path: "slimefun/none"
-  # easter_apple_pie:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200330
-  #     model_path: "slimefun/none"
   easter_egg:
     display_name: slimefun
     permission: slimefun
@@ -2729,78 +2569,46 @@ items:
       generate: false
       model_id: 2200340
       model_path: "slimefun/miscellaneous/duct_tape"
-  small_energy_capacitor:
+  small_capacitor:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200341
-      model_path: "slimefun/energy/small_energy_capacitor"
-  medium_energy_capacitor:
+      model_path: "slimefun/energy/small_capacitor"
+  medium_capacitor:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200342
-      model_path: "slimefun/energy/medium_energy_capacitor"
-  big_energy_capacitor:
+      model_path: "slimefun/energy/medium_capacitor"
+  big_capacitor:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200343
-      model_path: "slimefun/energy/big_energy_capacitor"
-  large_energy_capacitor:
+      model_path: "slimefun/energy/big_capacitor"
+  large_capacitor:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200344
-      model_path: "slimefun/energy/large_energy_capacitor"
-  carbonado_edged_energy_capacitor:
+      model_path: "slimefun/energy/large_capacitor"
+  carbonado_edged_capacitor:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200345
-      model_path: "slimefun/energy/carbonado_edged_energy_capacitor"
-  # solar_generator:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: DAYLIGHT_DETECTOR
-  #     generate: false
-  #     model_id: 2200346
-  #     model_path: "slimefun/none"
-  # solar_generator_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: DAYLIGHT_DETECTOR
-  #     generate: false
-  #     model_id: 2200347
-  #     model_path: "slimefun/none"
-  # solar_generator_3:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: DAYLIGHT_DETECTOR
-  #     generate: false
-  #     model_id: 2200348
-  #     model_path: "slimefun/none"
-  # solar_generator_4:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: DAYLIGHT_DETECTOR
-  #     generate: false
-  #     model_id: 2200349
-  #     model_path: "slimefun/none"
+      model_path: "slimefun/energy/carbonado_edged_capacitor"
   charging_bench:
     display_name: slimefun
     permission: slimefun
@@ -2817,22 +2625,22 @@ items:
       generate: false
       model_id: 2200351
       model_path: "slimefun/energy/electric_furnace"
-  electric_furnace2:
+  electric_furnace_2:
     display_name: slimefun
     permission: slimefun
     resource:
       material: FURNACE
       generate: false
       model_id: 2200352
-      model_path: "slimefun/energy/electric_furnace2"
-  electric_furnace3:
+      model_path: "slimefun/energy/electric_furnace_2"
+  electric_furnace_3:
     display_name: slimefun
     permission: slimefun
     resource:
       material: FURNACE
       generate: false
       model_id: 2200353
-      model_path: "slimefun/energy/electric_furnace3"
+      model_path: "slimefun/energy/electric_furnace_3"
   electric_gold_pan:
     display_name: slimefun
     permission: slimefun
@@ -2857,30 +2665,6 @@ items:
       generate: false
       model_id: 2200356
       model_path: "slimefun/energy/electric_gold_pan3"
-  # electric_dust_washer:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200357
-  #     model_path: "slimefun/none"
-  # electric_dust_washer_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200358
-  #     model_path: "slimefun/none"
-  # electric_dust_washer_3:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200359
-  #     model_path: "slimefun/none"
   electric_ingot_factory:
     display_name: slimefun
     permission: slimefun
@@ -2937,14 +2721,14 @@ items:
       generate: false
       model_id: 2200366
       model_path: "slimefun/energy/electric_ore_grinder"
-  electric_ore_grinder2:
+  electric_ore_grinder_2:
     display_name: slimefun
     permission: slimefun
     resource:
       material: FURNACE
       generate: false
       model_id: 2200367
-      model_path: "slimefun/energy/electric_ore_grinder2"
+      model_path: "slimefun/energy/electric_ore_grinder_2"
   heated_pressure_chamber:
     display_name: slimefun
     permission: slimefun
@@ -2953,14 +2737,14 @@ items:
       generate: false
       model_id: 2200368
       model_path: "slimefun/energy/heated_pressure_chamber"
-  heated_pressure_chamber2:
+  heated_pressure_chamber_2:
     display_name: slimefun
     permission: slimefun
     resource:
       material: LIGHT_GRAY_STAINED_GLASS
       generate: false
       model_id: 2200369
-      model_path: "slimefun/energy/heated_pressure_chamber2"
+      model_path: "slimefun/energy/heated_pressure_chamber_2"
   electric_ingot_pulverizer:
     display_name: slimefun
     permission: slimefun
@@ -2977,38 +2761,14 @@ items:
       generate: false
       model_id: 2200371
       model_path: "slimefun/energy/coal_generator"
-  coal_generator2:
+  coal_generator_2:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200372
-      model_path: "slimefun/energy/coal_generator2"
-  # bio_reactor:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200373
-  #     model_path: "slimefun/none"
-  # auto_drier:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200374
-  #     model_path: "slimefun/none"
-  # auto_brewer:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200375
-  #     model_path: "slimefun/none"
+      model_path: "slimefun/energy/coal_generator_2"
   electric_press:
     display_name: slimefun
     permission: slimefun
@@ -3017,14 +2777,14 @@ items:
       generate: false
       model_id: 2200376
       model_path: "slimefun/energy/electric_press"
-  electric_press2:
+  electric_press_2:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200377
-      model_path: "slimefun/energy/electric_press2"
+      model_path: "slimefun/energy/electric_press_2"
   magnesium_salt:
     display_name: slimefun
     permission: slimefun
@@ -3057,22 +2817,6 @@ items:
       generate: false
       model_id: 2200381
       model_path: "slimefun/energy/auto_disenchanter"
-  # auto_anvil:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200382
-  #     model_path: "slimefun/none"
-  # auto_anvil_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200383
-  #     model_path: "slimefun/none"
   multimeter:
     display_name: slimefun
     permission: slimefun
@@ -3105,30 +2849,30 @@ items:
       generate: false
       model_id: 2200387
       model_path: "slimefun/gps/gps_transmitter"
-  gps_transmitter_advanced:
+  gps_transmitter_2:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200388
-      model_path: "slimefun/gps/gps_transmitter_advanced"
-  gps_transmitter_carbonado:
+      model_path: "slimefun/gps/gps_transmitter_2"
+  gps_transmitter_3:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200389
-      model_path: "slimefun/gps/gps_transmitter_carbonado"
-  gps_transmitter_energized:
+      model_path: "slimefun/gps/gps_transmitter_3"
+  gps_transmitter_4:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200390
-      model_path: "slimefun/gps/gps_transmitter_energized"
+      model_path: "slimefun/gps/gps_transmitter_4"
   gps_control_panel:
     display_name: slimefun
     permission: slimefun
@@ -3137,14 +2881,14 @@ items:
       generate: false
       model_id: 2200391
       model_path: "slimefun/gps/gps_control_panel"
-  gps_marker:
+  gps_marker_tool:
     display_name: slimefun
     permission: slimefun
     resource:
       material: REDSTONE_TORCH
       generate: false
       model_id: 2200392
-      model_path: "slimefun/gps/gps_marker"
+      model_path: "slimefun/gps/gps_marker_tool"
   gps_emergency_transmitter:
     display_name: slimefun
     permission: slimefun
@@ -3153,23 +2897,23 @@ items:
       generate: false
       model_id: 2200393
       model_path: "slimefun/gps/gps_emergency_transmitter"
-  interface_items:
+  android_interface_items:
     display_name: slimefun
     permission: slimefun
     resource:
       material: DISPENSER
       generate: false
       model_id: 2200394
-      model_path: "slimefun/androids/interface_items"
-  interface_fuel:
+      model_path: "slimefun/androids/android_interface_items"
+  android_interface_fuel:
     display_name: slimefun
     permission: slimefun
     resource:
       material: DISPENSER
       generate: false
       model_id: 2200395
-      model_path: "slimefun/androids/interface_fuel"
-  normal1:
+      model_path: "slimefun/androids/android_interface_fuel"
+  programmable_android:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3177,15 +2921,15 @@ items:
       generate: false
       model_id: 2200396
       model_path: "slimefun/androids/android/normal"
-  miner:
+  programmable_android_miner:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200397
-      model_path: "slimefun/androids/android/miner"
-  farmer1:
+      model_path: "slimefun/androids/android/programmable_android_miner"
+  programmable_android_farmer:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3193,15 +2937,15 @@ items:
       generate: false
       model_id: 2200398
       model_path: "slimefun/androids/android/farmer"
-  woodcutter:
+  programmable_android_woodcutter:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200399
-      model_path: "slimefun/androids/android/woodcutter"
-  fisherman1:
+      model_path: "slimefun/androids/android/programmable_android_woodcutter"
+  programmable_android_fisherman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3209,7 +2953,7 @@ items:
       generate: false
       model_id: 2200400
       model_path: "slimefun/androids/android/fisherman"
-  butcher1:
+  programmable_android_butcher:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3217,7 +2961,7 @@ items:
       generate: false
       model_id: 2200401
       model_path: "slimefun/androids/android/butcher"
-  normal2:
+  programmable_android_2:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3225,7 +2969,7 @@ items:
       generate: false
       model_id: 2200402
       model_path: "slimefun/androids/android2/normal"
-  fisherman2:
+  programmable_android_2_fisherman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3233,7 +2977,7 @@ items:
       generate: false
       model_id: 2200403
       model_path: "slimefun/androids/android2/fisherman"
-  butcher2:
+  programmable_android_2_butcher:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3241,7 +2985,7 @@ items:
       generate: false
       model_id: 2200404
       model_path: "slimefun/androids/android2/butcher"
-  farmer2:
+  programmable_android_2_farmer:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3249,7 +2993,7 @@ items:
       generate: false
       model_id: 2200405
       model_path: "slimefun/androids/android2/farmer"
-  normal3:
+  programmable_android_3:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3257,7 +3001,7 @@ items:
       generate: false
       model_id: 2200406
       model_path: "slimefun/androids/android3/normal"
-  fisherman3:
+  programmable_android_3_fisherman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3265,7 +3009,7 @@ items:
       generate: false
       model_id: 2200407
       model_path: "slimefun/androids/android3/fisherman"
-  butcher3:
+  programmable_android_3_butcher:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3273,86 +3017,86 @@ items:
       generate: false
       model_id: 2200408
       model_path: "slimefun/androids/android3/butcher"
-  rune_blank:
+  blank_rune:
     display_name: slimefun
     permission: slimefun
     resource:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200409
-      model_path: "slimefun/magical_items/rune_blank"
-  rune_air:
+      model_path: "slimefun/magical_items/blank_rune"
+  ancient_rune_air:
     display_name: slimefun
     permission: slimefun
     resource:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200410
-      model_path: "slimefun/magical_items/rune_air"
-  rune_earth:
+      model_path: "slimefun/magical_items/ancient_rune_air"
+  ancient_rune_earth:
     display_name: slimefun
     permission: slimefun
     resource:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200411
-      model_path: "slimefun/magical_items/rune_earth"
-  rune_fire:
+      model_path: "slimefun/magical_items/ancient_rune_earth"
+  ancient_rune_fire:
     display_name: slimefun
     permission: slimefun
     resource:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200412
-      model_path: "slimefun/magical_items/rune_fire"
-  rune_water:
+      model_path: "slimefun/magical_items/ancient_rune_fire"
+  ancient_rune_water:
     display_name: slimefun
     permission: slimefun
     resource:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200413
-      model_path: "slimefun/magical_items/rune_water"
-  rune_ender:
+      model_path: "slimefun/magical_items/ancient_rune_water"
+  ancient_rune_ender:
     display_name: slimefun
     permission: slimefun
     resource:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200414
-      model_path: "slimefun/magical_items/rune_ender"
-  rune_lightning:
+      model_path: "slimefun/magical_items/ancient_rune_ender"
+  ancient_rune_lightning:
     display_name: slimefun
     permission: slimefun
     resource:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200415
-      model_path: "slimefun/magical_items/rune_lightning"
-  rune_rainbow:
+      model_path: "slimefun/magical_items/ancient_rune_lightning"
+  ancient_rune_rainbow:
     display_name: slimefun
     permission: slimefun
     resource:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200416
-      model_path: "slimefun/magical_items/rune_rainbow"
-  rune_soulbound:
+      model_path: "slimefun/magical_items/ancient_rune_rainbow"
+  ancient_rune_soulbound:
     display_name: slimefun
     permission: slimefun
     resource:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200417
-      model_path: "slimefun/magical_items/rune_soulbound"
-  rune_enchantment:
+      model_path: "slimefun/magical_items/ancient_rune_soulbound"
+  ancient_rune_enchantment:
     display_name: slimefun
     permission: slimefun
     resource:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200418
-      model_path: "slimefun/magical_items/rune_enchantment"
+      model_path: "slimefun/magical_items/ancient_rune_enchantment"
   infernal_bonemeal:
     display_name: slimefun
     permission: slimefun
@@ -3369,14 +3113,6 @@ items:
       generate: false
       model_id: 2200420
       model_path: "slimefun/magical_gadgets/elytra_scale"
-  # elytra:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200421
-  #     model_path: "slimefun/none"
   infused_elytra:
     display_name: slimefun
     permission: slimefun
@@ -3393,14 +3129,6 @@ items:
       generate: false
       model_id: 2200423
       model_path: "slimefun/magical_gadgets/elytra/soulbound_elytra"
-  # totem_of_undying:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200424
-  #     model_path: "slimefun/none"
   rainbow_wool:
     display_name: slimefun
     permission: slimefun
@@ -3449,150 +3177,6 @@ items:
       generate: false
       model_id: 2200430
       model_path: "slimefun/magical_gadgets/rainbow_glazed_terracotta"
-  # rainbow_wool_xmas:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200431
-  #     model_path: "slimefun/none"
-  # rainbow_glass_xmas:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200432
-  #     model_path: "slimefun/none"
-  # rainbow_glass_pane_xmas:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200433
-  #     model_path: "slimefun/none"
-  # rainbow_clay_xmas:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200434
-  #     model_path: "slimefun/none"
-  # rainbow_concrete_xmas:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200435
-  #     model_path: "slimefun/none"
-  # rainbow_glazed_terracotta_xmas:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200436
-  #     model_path: "slimefun/none"
-  # rainbow_wool_valentine:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200437
-  #     model_path: "slimefun/none"
-  # rainbow_glass_valentine:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200438
-  #     model_path: "slimefun/none"
-  # rainbow_glass_pane_valentine:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200439
-  #     model_path: "slimefun/none"
-  # rainbow_clay_valentine:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200440
-  #     model_path: "slimefun/none"
-  # rainbow_concrete_valentine:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200441
-  #     model_path: "slimefun/none"
-  # rainbow_glazed_terracotta_valentine:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200442
-  #     model_path: "slimefun/none"
-  # rainbow_wool_halloween:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200443
-  #     model_path: "slimefun/none"
-  # rainbow_glass_halloween:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200444
-  #     model_path: "slimefun/none"
-  # rainbow_glass_pane_halloween:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200445
-  #     model_path: "slimefun/none"
-  # rainbow_clay_halloween:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200446
-  #     model_path: "slimefun/none"
-  # rainbow_concrete_halloween:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200447
-  #     model_path: "slimefun/none"
-  # rainbow_glazed_terracotta_halloween:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200448
-  #     model_path: "slimefun/none"
   wither_proof_glass:
     display_name: slimefun
     permission: slimefun
@@ -3609,14 +3193,6 @@ items:
       generate: false
       model_id: 2200450
       model_path: "slimefun/gps/gps_geo_scanner"
-  # portable_geo_scanner:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200451
-  #     model_path: "slimefun/none"
   oil_pump:
     display_name: slimefun
     permission: slimefun
@@ -3633,22 +3209,22 @@ items:
       generate: false
       model_id: 2200453
       model_path: "slimefun/gps/geo_miner"
-  oil:
+  bucket_of_oil:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200454
-      model_path: "slimefun/resources/fuel/oil"
-  fuel:
+      model_path: "slimefun/resources/fuel/bucket_of_oil"
+  bucket_of_fuel:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200455
-      model_path: "slimefun/resources/fuel/fuel"
+      model_path: "slimefun/resources/bucket_of_fuel/bucket_of_fuel"
   nether_ice:
     display_name: slimefun
     permission: slimefun
@@ -3673,14 +3249,14 @@ items:
       generate: false
       model_id: 2200458
       model_path: "slimefun/energy/lava_generator"
-  lava_generator2:
+  lava_generator_2:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200459
-      model_path: "slimefun/energy/lava_generator2"
+      model_path: "slimefun/energy/lava_generator_2"
   combustion_reactor:
     display_name: slimefun
     permission: slimefun
@@ -3689,22 +3265,22 @@ items:
       generate: false
       model_id: 2200460
       model_path: "slimefun/energy/combustion_reactor"
-  teleporter_pylon:
+  gps_teleporter_pylon:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PURPLE_STAINED_GLASS
       generate: false
       model_id: 2200461
-      model_path: "slimefun/gps/teleporter_pylon"
-  teleporter_matrix:
+      model_path: "slimefun/gps/gps_teleporter_pylon"
+  gps_teleportation_matrix:
     display_name: slimefun
     permission: slimefun
     resource:
       material: IRON_BLOCK
       generate: false
       model_id: 2200462
-      model_path: "slimefun/gps/teleporter_matrix"
+      model_path: "slimefun/gps/gps_teleportation_matrix"
   gps_activation_device_shared:
     display_name: slimefun
     permission: slimefun
@@ -3729,30 +3305,30 @@ items:
       generate: false
       model_id: 2200465
       model_path: "slimefun/magical_gadgets/infused_hopper"
-  blistering_ingot_33:
+  blistering_ingot:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_INGOT
       generate: false
       model_id: 2200466
-      model_path: "slimefun/resources/radioactive_materials/blistering_ingot_33"
-  blistering_ingot_66:
+      model_path: "slimefun/resources/radioactive_materials/blistering_ingot"
+  blistering_ingot_2:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_INGOT
       generate: false
       model_id: 2200467
-      model_path: "slimefun/resources/radioactive_materials/blistering_ingot_66"
-  blistering_ingot_100:
+      model_path: "slimefun/resources/radioactive_materials/blistering_ingot_2"
+  blistering_ingot_3:
     display_name: slimefun
     permission: slimefun
     resource:
       material: GOLD_INGOT
       generate: false
       model_id: 2200468
-      model_path: "slimefun/resources/radioactive_materials/blistering_ingot_100"
+      model_path: "slimefun/resources/radioactive_materials/blistering_ingot_3"
   enriched_nether_ice:
     display_name: slimefun
     permission: slimefun
@@ -3785,102 +3361,86 @@ items:
       generate: false
       model_id: 2200472
       model_path: "slimefun/energy/food_fabricator_2"
-  wheat:
+  organic_food_wheat:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200473
-      model_path: "slimefun/miscellaneous/organic_food/wheat"
-  carrots:
+      model_path: "slimefun/miscellaneous/organic_food/organic_food_wheat"
+  organic_food_carrot:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200474
-      model_path: "slimefun/miscellaneous/organic_food/carrots"
-  potatoes:
+      model_path: "slimefun/miscellaneous/organic_food/organic_food_carrot"
+  organic_food_potato:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200475
-      model_path: "slimefun/miscellaneous/organic_food/potatoes"
-  seeds:
+      model_path: "slimefun/miscellaneous/organic_food/organic_food_potato"
+  organic_food_seeds:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200476
-      model_path: "slimefun/miscellaneous/organic_food/seeds"
-  beetroot:
+      model_path: "slimefun/miscellaneous/organic_food/organic_food_seeds"
+  organic_food_beetroot:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200477
-      model_path: "slimefun/miscellaneous/organic_food/beetroot"
-  melon:
+      model_path: "slimefun/miscellaneous/organic_food/organic_food_beetroot"
+  organic_food_melon:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200478
-      model_path: "slimefun/miscellaneous/organic_food/melon"
-  apple:
+      model_path: "slimefun/miscellaneous/organic_food/organic_food_melon"
+  organic_food_apple:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200479
-      model_path: "slimefun/miscellaneous/organic_food/apple"
-  sweet_berries:
+      model_path: "slimefun/miscellaneous/organic_food/organic_food_apple"
+  organic_food_sweet_berries:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200480
-      model_path: "slimefun/miscellaneous/organic_food/sweet_berries"
-  dried_kelp:
+      model_path: "slimefun/miscellaneous/organic_food/organic_food_sweet_berries"
+  organic_food_kelp:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200481
-      model_path: "slimefun/miscellaneous/organic_food/dried_kelp"
-  cocoa_beans:
+      model_path: "slimefun/miscellaneous/organic_food/organic_food_kelp"
+  organic_food_cocoa:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200482
-      model_path: "slimefun/miscellaneous/organic_food/cocoa_beans"
-  # auto_breeder:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200483
-  #     model_path: "slimefun/none"
-  # animal_growth_accelerator:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200484
-  #     model_path: "slimefun/none"
+      model_path: "slimefun/miscellaneous/organic_food/organic_food_cocoa"
   tree_growth_accelerator:
     display_name: slimefun
     permission: slimefun
@@ -3889,31 +3449,15 @@ items:
       generate: false
       model_id: 2200485
       model_path: "slimefun/energy/tree_growth_accelerator"
-  exp_collector:
+  xp_collector:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200486
-      model_path: "slimefun/energy/exp_collector"
-  # food_composter:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200487
-  #     model_path: "slimefun/none"
-  # food_composter_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200488
-  #     model_path: "slimefun/none"
-  wheat1:
+      model_path: "slimefun/energy/xp_collector"
+  fertilizer_wheat:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3921,7 +3465,7 @@ items:
       generate: false
       model_id: 2200489
       model_path: "slimefun/miscellaneous/organic_fertilizer/wheat"
-  carrots1:
+  fertilizer_carrot:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3929,7 +3473,7 @@ items:
       generate: false
       model_id: 2200490
       model_path: "slimefun/miscellaneous/organic_fertilizer/carrots"
-  potatoes1:
+  fertilizer_potato:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3937,7 +3481,7 @@ items:
       generate: false
       model_id: 2200491
       model_path: "slimefun/miscellaneous/organic_fertilizer/potatoes"
-  seeds1:
+  fertilizer_seeds:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3945,7 +3489,7 @@ items:
       generate: false
       model_id: 2200492
       model_path: "slimefun/miscellaneous/organic_fertilizer/seeds"
-  beetroot1:
+  fertilizer_beetroot:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3953,7 +3497,7 @@ items:
       generate: false
       model_id: 2200493
       model_path: "slimefun/miscellaneous/organic_fertilizer/beetroot"
-  melon1:
+  fertilizer_melon:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3961,7 +3505,7 @@ items:
       generate: false
       model_id: 2200494
       model_path: "slimefun/miscellaneous/organic_fertilizer/melon"
-  apple1:
+  fertilizer_apple:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3969,7 +3513,7 @@ items:
       generate: false
       model_id: 2200495
       model_path: "slimefun/miscellaneous/organic_fertilizer/apple"
-  sweet_berries1:
+  fertilizer_sweet_berries:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3977,7 +3521,7 @@ items:
       generate: false
       model_id: 2200496
       model_path: "slimefun/miscellaneous/organic_fertilizer/sweet_berries"
-  dried_kelp1:
+  fertilizer_kelp:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -3985,7 +3529,7 @@ items:
       generate: false
       model_id: 2200497
       model_path: "slimefun/miscellaneous/organic_fertilizer/dried_kelp"
-  cocoa_beans1:
+  fertilizer_cocoa:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -4009,30 +3553,14 @@ items:
       generate: false
       model_id: 2200500
       model_path: "slimefun/energy/crop_growth_accelerator_2"
-  # freezer:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200501
-  #     model_path: "slimefun/none"
-  # freezer_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200502
-  #     model_path: "slimefun/none"
-  reactor_coolant_cell:
+  reactor_collant_cell:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200503
-      model_path: "slimefun/technical_components/reactor_coolant_cell"
+      model_path: "slimefun/technical_components/reactor_collant_cell"
   nether_ice_coolant_cell:
     display_name: slimefun
     permission: slimefun
@@ -4073,62 +3601,62 @@ items:
       generate: false
       model_id: 2200508
       model_path: "slimefun/energy/nuclear_reactor"
-  nether_star_reactor:
+  netherstar_reactor:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200509
-      model_path: "slimefun/energy/nether_star_reactor"
-  motor:
+      model_path: "slimefun/energy/netherstar_reactor"
+  cargo_motor:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200510
-      model_path: "slimefun/cargo/motor"
-  manager:
+      model_path: "slimefun/cargo/cargo_motor"
+  cargo_manager:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200511
-      model_path: "slimefun/cargo/manager"
-  connector:
+      model_path: "slimefun/cargo/cargo_manager"
+  cargo_node:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200512
-      model_path: "slimefun/cargo/connector"
-  input:
+      model_path: "slimefun/cargo/cargo_node"
+  cargo_node_input:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200513
-      model_path: "slimefun/cargo/input"
-  output:
+      model_path: "slimefun/cargo/cargo_node_input"
+  cargo_node_output:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200514
-      model_path: "slimefun/cargo/output"
-  output2:
+      model_path: "slimefun/cargo/cargo_node_output"
+  cargo_node_output_advanced:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200515
-      model_path: "slimefun/cargo/output2"
+      model_path: "slimefun/cargo/cargo_node_output_advanced"
   automated_crafting_chamber:
     display_name: slimefun
     permission: slimefun
@@ -4145,46 +3673,14 @@ items:
       generate: false
       model_id: 2200517
       model_path: "slimefun/cargo/reactor_access_port"
-  # fluid_pump:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200518
-  #     model_path: "slimefun/none"
-  trash:
+  trash_can_block:
     display_name: slimefun
     permission: slimefun
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200519
-      model_path: "slimefun/cargo/trash"
-  # carbon_press:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: BLACK_STAINED_GLASS
-  #     generate: false
-  #     model_id: 2200520
-  #     model_path: "slimefun/none"
-  # carbon_press_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: BLACK_STAINED_GLASS
-  #     generate: false
-  #     model_id: 2200521
-  #     model_path: "slimefun/none"
-  # carbon_press_3:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: BLACK_STAINED_GLASS
-  #     generate: false
-  #     model_id: 2200522
-  #     model_path: "slimefun/none"
+      model_path: "slimefun/cargo/trash_can_block"
   electric_smeltery:
     display_name: slimefun
     permission: slimefun
@@ -4193,22 +3689,14 @@ items:
       generate: false
       model_id: 2200523
       model_path: "slimefun/energy/electric_smeltery"
-  electric_smeltery2:
+  electric_smeltery_2:
     display_name: slimefun
     permission: slimefun
     resource:
       material: FURNACE
       generate: false
       model_id: 2200524
-      model_path: "slimefun/energy/electric_smeltery2"
-  # iron_golem_assembler:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200525
-  #     model_path: "slimefun/none"
+      model_path: "slimefun/energy/electric_smeltery_2"
   wither_assembler:
     display_name: slimefun
     permission: slimefun
@@ -4225,17 +3713,15 @@ items:
       generate: false
       model_id: 2200527
       model_path: "slimefun/items/tape_measure"
-
-# New Slimefun Textures
-  electric_ore_grinder3:
+  electric_ore_grinder_3:
     display_name: slimefun
     permission: slimefun
     resource:
       material: FURNACE
       generate: false
       model_id: 2200528
-      model_path: "slimefun/energy/electric_ore_grinder3"
-  caveman1:
+      model_path: "slimefun/energy/electric_ore_grinder_3"
+  caveman_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -4243,7 +3729,7 @@ items:
       generate: false
       model_id: 2200529
       model_path: "slimefun/talisman1/caveman"
-  caveman2:
+  ender_caveman_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -4251,7 +3737,7 @@ items:
       generate: false
       model_id: 2200530
       model_path: "slimefun/talisman2/caveman"
-  wise1:
+  wise_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -4259,7 +3745,7 @@ items:
       generate: false
       model_id: 2200531
       model_path: "slimefun/talisman1/wise"
-  wise2:
+  ender_wise_talisman:
     display_name: slimefun
     permission: slimefun
     resource:
@@ -4347,22 +3833,22 @@ items:
       generate: false
       model_id: 2200542
       model_path: "slimefun/cargo/armor_auto_crafter"
-  rune_villagers:
+  ancient_rune_villagers:
     display_name: slimefun
     permission: slimefun
     resource:
       material: FIREWORK_STAR
       generate: false
       model_id: 2200543
-      model_path: "slimefun/magical_items/rune_villagers"
-  synthetic_shulker:
+      model_path: "slimefun/magical_items/ancient_rune_villagers"
+  synthetic_shulker_shell:
     display_name: slimefun
     permission: slimefun
     resource:
       material: SHULKER_SHELL
       generate: false
       model_id: 2200544
-      model_path: "slimefun/magical_items/synthetic_shulker"
+      model_path: "slimefun/magical_items/synthetic_shulker_shell"
   farmer_talisman:
     display_name: slimefun
     permission: slimefun

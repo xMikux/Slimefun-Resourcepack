@@ -9,7 +9,7 @@ items:
       generate: false
       model_id: 2201352
       model_path: "weapons/acri_arcum/acri_arcum"
-  elucidator: 
+  elucidator:
     display_name: foxymachines
     permission: foxymachines
     resource:

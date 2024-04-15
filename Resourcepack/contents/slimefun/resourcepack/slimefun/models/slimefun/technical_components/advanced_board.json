@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "author": "RaulH22",
-  "textures": {
-    "layer0": "slimefun:slimefun/technical_components/advanced_board"
-  }
-}

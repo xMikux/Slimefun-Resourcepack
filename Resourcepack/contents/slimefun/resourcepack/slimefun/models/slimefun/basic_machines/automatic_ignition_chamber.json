@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "author": "RaulH22",
-  "textures": {
-    "layer0": "slimefun:slimefun/basic_machines/automatic_ignition_chamber"
-  }
-}

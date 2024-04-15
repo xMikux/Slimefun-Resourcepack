@@ -177,14 +177,14 @@ items:
       generate: false
       model_id: 2201422
       model_path: "magical_weapons/light_bow/light_bow"
-  witherskull_row:
+  witherskull_bow:
     display_name: bump
     permission: bump
     resource:
       material: BOW
       generate: false
       model_id: 2201423
-      model_path: "magical_weapons/witherskull_row/witherskull_row"
+      model_path: "magical_weapons/witherskull_bow/witherskull_bow"
   emer_sword:
     display_name: bump
     permission: bump

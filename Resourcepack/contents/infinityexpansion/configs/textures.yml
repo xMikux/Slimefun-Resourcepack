@@ -17,14 +17,14 @@ items:
       generate: false
       model_id: 2200602
       model_path: "materials/earth_singularity"
-  ender_essence:
+  end_essence:
     display_name: infinityexpansion
     permission: infinityexpansion
     resource:
       material: BLAZE_POWDER
       generate: false
       model_id: 2200603
-      model_path: "materials/ender_essence"
+      model_path: "materials/end_essence"
   ender_flame:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -41,14 +41,14 @@ items:
       generate: false
       model_id: 2200605
       model_path: "materials/fortune_singularity"
-  infinity_ingot:
+  infinite_ingot:
     display_name: infinityexpansion
     permission: infinityexpansion
     resource:
       material: IRON_INGOT
       generate: false
       model_id: 2200606
-      model_path: "materials/infinity_ingot"
+      model_path: "materials/infinite_ingot"
   infinity_matrix:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -185,14 +185,14 @@ items:
       generate: false
       model_id: 2200623
       model_path: "materials/materials2/diamond_singularity"
-  double_compressed_cobblestone:
+  compressed_cobblestone_2:
     display_name: infinityexpansion
     permission: infinityexpansion
     resource:
       material: ANDESITE
       generate: false
       model_id: 2200624
-      model_path: "materials/materials2/double_compressed_cobblestone"
+      model_path: "materials/materials2/compressed_cobblestone_2"
   emerald_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -265,14 +265,14 @@ items:
       generate: false
       model_id: 2200633
       model_path: "materials/materials2/netherite_singularity"
-  quadruple_compressed_cobblestone:
+  compressed_cobblestone_4:
     display_name: infinityexpansion
     permission: infinityexpansion
     resource:
       material: STONE
       generate: false
       model_id: 2200634
-      model_path: "materials/materials2/quadruple_compressed_cobblestone"
+      model_path: "materials/materials2/compressed_cobblestone_4"
   quartz_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -281,14 +281,14 @@ items:
       generate: false
       model_id: 2200635
       model_path: "materials/materials2/quartz_singularity"
-  quintuple_compressed_cobblestone:
+  compressed_cobblestone_5:
     display_name: infinityexpansion
     permission: infinityexpansion
     resource:
       material: POLISHED_ANDESITE
       generate: false
       model_id: 2200636
-      model_path: "materials/materials2/quintuple_compressed_cobblestone"
+      model_path: "materials/materials2/compressed_cobblestone_5"
   redstone_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -305,14 +305,14 @@ items:
       generate: false
       model_id: 2200638
       model_path: "materials/materials2/silver_singularity"
-  single_compressed_cobblestone:
+  compressed_cobblestone_1:
     display_name: infinityexpansion
     permission: infinityexpansion
     resource:
       material: ANDESITE
       generate: false
       model_id: 2200639
-      model_path: "materials/materials2/single_compressed_cobblestone"
+      model_path: "materials/materials2/compressed_cobblestone_1"
   tin_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -321,14 +321,14 @@ items:
       generate: false
       model_id: 2200640
       model_path: "materials/materials2/tin_singularity"
-  triple_compressed_cobblestone:
+  compressed_cobblestone_3:
     display_name: infinityexpansion
     permission: infinityexpansion
     resource:
       material: STONE
       generate: false
       model_id: 2200641
-      model_path: "materials/materials2/triple_compressed_cobblestone"
+      model_path: "materials/materials2/compressed_cobblestone_3"
   zinc_singularity:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -337,14 +337,14 @@ items:
       generate: false
       model_id: 2200642
       model_path: "materials/materials2/zinc_singularity"
-  blade_of_the_cosmos:
+  infinity_blade:
     display_name: infinityexpansion
     permission: infinityexpansion
     resource:
       material: NETHERITE_SWORD
       generate: false
       model_id: 2200643
-      model_path: "tools/blade_of_the_cosmos"
+      model_path: "tools/infinity_blade"
   infinity_bow:
     display_name: infinityexpansion
     permission: infinityexpansion

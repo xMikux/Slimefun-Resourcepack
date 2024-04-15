@@ -1,7 +1,0 @@
-{
-  "parent": "item/handheld",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "infinityexpansion:tools/blade_of_the_cosmos"
-  }
-}

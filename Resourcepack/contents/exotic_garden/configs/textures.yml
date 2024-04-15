@@ -137,14 +137,14 @@ items:
       generate: false
       model_id: 2200846
       model_path: "drinks/hot_chocolate"
-  lemon_ice_tea:
+  lemon_iced_tea:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: POTION
       generate: false
       model_id: 2200847
-      model_path: "drinks/lemon_ice_tea"
+      model_path: "drinks/lemon_iced_tea"
   lemon_juice:
     display_name: exotic_garden
     permission: exotic_garden
@@ -401,14 +401,14 @@ items:
       generate: false
       model_id: 2200879
       model_path: "foods/biscuit"
-  biscuits_and_country_gravy:
+  biscuits_gravy:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200880
-      model_path: "foods/biscuits_and_country_gravy"
+      model_path: "foods/biscuits_gravy"
   blackberry_cobbler:
     display_name: exotic_garden
     permission: exotic_garden
@@ -433,14 +433,14 @@ items:
       generate: false
       model_id: 2200883
       model_path: "foods/blackberry_pie"
-  blt_sandwich:
+  blt:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200884
-      model_path: "foods/blt_sandwich"
+      model_path: "foods/blt"
   blueberry_cheesecake:
     display_name: exotic_garden
     permission: exotic_garden
@@ -577,14 +577,14 @@ items:
       generate: false
       model_id: 2200901
       model_path: "foods/chicken_sandwich"
-  chickenburger:
+  chicken_burger:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200902
-      model_path: "foods/chickenburger"
+      model_path: "foods/chicken_burger"
   chocolate_bar:
     display_name: exotic_garden
     permission: exotic_garden
@@ -825,30 +825,30 @@ items:
       generate: false
       model_id: 2200932
       model_path: "foods/hot_dog"
-  hot_dog_bacon_wrapped_cheese_filled:
+  bacon_wrapped_cheese_filled_hot_dog:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200933
-      model_path: "foods/hot_dog_bacon_wrapped_cheese_filled"
-  hot_dog_bbq_bacon_wrapped:
+      model_path: "foods/bacon_wrapped_cheese_filled_hot_dog"
+  bbq_bacon_wrapped_hot_dog:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200934
-      model_path: "foods/hot_dog_bbq_bacon_wrapped"
-  hot_dog_bbq_double_bacon_wrapped_in_a_tortilla_with_cheese:
+      model_path: "foods/bbq_bacon_wrapped_hot_dog"
+  bbq_double_bacon_wrapped_hot_dog_in_a_tortilla_with_cheese:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200935
-      model_path: "foods/hot_dog_bbq_double_bacon_wrapped_in_a_tortilla_with_cheese"
+      model_path: "foods/bbq_double_bacon_wrapped_hot_dog_in_a_tortilla_with_cheese"
   ice_cream:
     display_name: exotic_garden
     permission: exotic_garden
@@ -977,22 +977,22 @@ items:
       generate: false
       model_id: 2200951
       model_path: "foods/popcorn"
-  popcorn_salty:
+  salty_popcorn:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200952
-      model_path: "foods/popcorn_salty"
-  popcorn_sweet:
+      model_path: "foods/salty_popcorn"
+  sweet_popcorn:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200953
-      model_path: "foods/popcorn_sweet"
+      model_path: "foods/sweet_popcorn"
   potato_salad:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1153,22 +1153,22 @@ items:
       generate: false
       model_id: 2200973
       model_path: "foods/waffles"
-  apple:
+  oak_apple:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200974
-      model_path: "fruits/apple"
-  apple_oak_sapling:
+      model_path: "fruits/oak_apple"
+  oak_apple_sapling:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2200975
-      model_path: "fruits/apple_oak_sapling"
+      model_path: "fruits/oak_apple_sapling"
   black_pepper:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1177,14 +1177,14 @@ items:
       generate: false
       model_id: 2200976
       model_path: "fruits/black_pepper"
-  black_pepper_plant:
+  black_pepper_bush:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2200977
-      model_path: "fruits/black_pepper_plant"
+      model_path: "fruits/black_pepper_bush"
   blackberry:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1225,14 +1225,14 @@ items:
       generate: false
       model_id: 2200982
       model_path: "fruits/cabbage"
-  cabbage_plant:
+  cabbage_bush:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2200983
-      model_path: "fruits/cabbage_plant"
+      model_path: "fruits/cabbage_bush"
   cherry:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1257,14 +1257,14 @@ items:
       generate: false
       model_id: 2200986
       model_path: "fruits/cilantro"
-  cilantro_plant:
+  cilantro_bush:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2200987
-      model_path: "fruits/cilantro_plant"
+      model_path: "fruits/cilantro_bush"
   coconut:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1289,14 +1289,14 @@ items:
       generate: false
       model_id: 2200990
       model_path: "fruits/corn"
-  corn_plant:
+  corn_bush:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2200991
-      model_path: "fruits/corn_plant"
+      model_path: "fruits/corn_bush"
   cowberry:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1337,14 +1337,14 @@ items:
       generate: false
       model_id: 2200996
       model_path: "fruits/curry_leaf"
-  curry_leaf_plant:
+  curry_leaf_bush:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2200997
-      model_path: "fruits/curry_leaf_plant"
+      model_path: "fruits/curry_leaf_bush"
   dragon_fruit:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1353,14 +1353,14 @@ items:
       generate: false
       model_id: 2200998
       model_path: "fruits/dragon_fruit"
-  dragon_fruit_sappling:
+  dragon_fruit_sapling:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2200999
-      model_path: "fruits/dragon_fruit_sappling"
+      model_path: "fruits/dragon_fruit_sapling"
   elderberry:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1385,14 +1385,14 @@ items:
       generate: false
       model_id: 2201002
       model_path: "fruits/garlic"
-  garlic_plant:
+  garlic_bush:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2201003
-      model_path: "fruits/garlic_plant"
+      model_path: "fruits/garlic_bush"
   grape:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1441,14 +1441,14 @@ items:
       generate: false
       model_id: 2201009
       model_path: "fruits/lettuce"
-  lettuce_plant:
+  lettuce_bush:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2201010
-      model_path: "fruits/lettuce_plant"
+      model_path: "fruits/lettuce_bush"
   lime:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1473,14 +1473,14 @@ items:
       generate: false
       model_id: 2201013
       model_path: "fruits/mustard_seed"
-  mustard_seed_plant:
+  mustard_seed_bush:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2201014
-      model_path: "fruits/mustard_seed_plant"
+      model_path: "fruits/mustard_seed_bush"
   onion:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1489,14 +1489,14 @@ items:
       generate: false
       model_id: 2201015
       model_path: "fruits/onion"
-  onion_plant:
+  onion_bush:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2201016
-      model_path: "fruits/onion_plant"
+      model_path: "fruits/onion_bush"
   orange:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1553,14 +1553,14 @@ items:
       generate: false
       model_id: 2201023
       model_path: "fruits/pineapple"
-  pineapple_plant:
+  pineapple_bush:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2201024
-      model_path: "fruits/pineapple_plant"
+      model_path: "fruits/pineapple_bush"
   plum:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1633,14 +1633,14 @@ items:
       generate: false
       model_id: 2201033
       model_path: "fruits/sweet_potato"
-  sweet_potato_plant:
+  sweet_potato_bush:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2201034
-      model_path: "fruits/sweet_potato_plant"
+      model_path: "fruits/sweet_potato_bush"
   tea_leaf:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1649,14 +1649,14 @@ items:
       generate: false
       model_id: 2201035
       model_path: "fruits/tea_leaf"
-  tea_leaf_plant:
+  tea_leaf_bush:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2201036
-      model_path: "fruits/tea_leaf_plant"
+      model_path: "fruits/tea_leaf_bush"
   tomato:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1665,14 +1665,14 @@ items:
       generate: false
       model_id: 2201037
       model_path: "fruits/tomato"
-  tomato_plant:
+  tomato_bush:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2201038
-      model_path: "fruits/tomato_plant"
+      model_path: "fruits/tomato_bush"
   coal_essence:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1737,46 +1737,46 @@ items:
       generate: false
       model_id: 2201046
       model_path: "plants/ender_plant"
-  essence_aluminum:
+  aluminum_essence:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: BLAZE_POWDER
       generate: false
       model_id: 2201047
-      model_path: "plants/essence_aluminum"
-  essence_copper:
+      model_path: "plants/aluminum_essence"
+  copper_essence:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: BLAZE_POWDER
       generate: false
       model_id: 2201048
-      model_path: "plants/essence_copper"
-  essence_lead:
+      model_path: "plants/copper_essence"
+  lead_essence:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: BLAZE_POWDER
       generate: false
       model_id: 2201049
-      model_path: "plants/essence_lead"
-  essence_silver:
+      model_path: "plants/lead_essence"
+  silver_essence:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: BLAZE_POWDER
       generate: false
       model_id: 2201050
-      model_path: "plants/essence_silver"
-  essence_tin:
+      model_path: "plants/silver_essence"
+  tin_essence:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: BLAZE_POWDER
       generate: false
       model_id: 2201051
-      model_path: "plants/essence_tin"
+      model_path: "plants/tin_essence"
   glowstone_essence:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1857,46 +1857,46 @@ items:
       generate: false
       model_id: 2201061
       model_path: "plants/obsidian_plant"
-  plant_aluminum:
+  aluminum_plant:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2201062
-      model_path: "plants/plant_aluminum"
-  plant_copper:
+      model_path: "plants/aluminum_plant"
+  copper_plant:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2201063
-      model_path: "plants/plant_copper"
-  plant_lead:
+      model_path: "plants/copper_plant"
+  lead_plant:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2201064
-      model_path: "plants/plant_lead"
-  plant_silver:
+      model_path: "plants/lead_plant"
+  silver_plant:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2201065
-      model_path: "plants/plant_silver"
-  plant_tin:
+      model_path: "plants/silver_plant"
+  tin_plant:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: OAK_SAPLING
       generate: false
       model_id: 2201066
-      model_path: "plants/plant_tin"
+      model_path: "plants/tin_plant"
   quartz_essence:
     display_name: exotic_garden
     permission: exotic_garden

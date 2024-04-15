@@ -57,14 +57,14 @@ items:
       generate: false
       model_id: 2200816
       model_path: "materials/iridium_plate"
-  mag-thor:
+  mag_thor:
     display_name: litexpansion
     permission: litexpansion
     resource:
       material: IRON_INGOT
       generate: false
       model_id: 2200817
-      model_path: "materials/mag-thor"
+      model_path: "materials/mag_thor"
   mixed_metal_ingot:
     display_name: litexpansion
     permission: litexpansion
