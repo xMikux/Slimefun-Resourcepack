@@ -1,6 +1,7 @@
 info:
   namespace: supreme
 items:
+  # Components
   supreme_attribute_bomb:
     display_name: supreme
     permission: supreme
@@ -209,6 +210,7 @@ items:
       generate: false
       model_id: 2201550
       model_path: "components/supreme_supreme_nugget"
+  # Waepons
   supreme_axe_supreme:
     display_name: supreme
     permission: supreme
@@ -217,6 +219,14 @@ items:
       generate: false
       model_id: 2201915
       model_path: "weapons/supreme_axe_supreme"
+  # supreme_hoe:
+  #   display_name: supreme
+  #   permission: supreme
+  #   resource:
+  #     material: NETHERITE_HOE
+  #     generate: false
+  #     model_id: None
+  #     model_path: "weapons/supreme_hoe"
   supreme_pickaxe_supreme:
     display_name: supreme
     permission: supreme
@@ -241,6 +251,7 @@ items:
       generate: false
       model_id: 2201900
       model_path: "weapons/supreme_sword_supreme"
+  # Armor
   supreme_helmet_supreme:
     display_name: supreme
     permission: supreme
