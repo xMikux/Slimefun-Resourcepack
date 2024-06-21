@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "exotic_garden:fruits/apple_oak_sapling"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "author": "RelativoBR",
-  "textures": {
-    "layer0": "supreme:weapons/supreme_pickaxe"
-  }
-}

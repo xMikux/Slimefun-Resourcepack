@@ -1,8 +1,0 @@
-{
-  "parent": "item/generated",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "exotic_garden:drinks/lemon_ice_tea",
-    "layer1": "exotic_garden:drinks/lemon_ice_tea"
-  }
-}

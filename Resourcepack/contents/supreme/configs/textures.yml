@@ -211,14 +211,14 @@ items:
       model_id: 2201550
       model_path: "components/supreme_supreme_nugget"
   # Waepons
-  supreme_axe:
+  supreme_axe_supreme:
     display_name: supreme
     permission: supreme
     resource:
       material: NETHERITE_AXE
       generate: false
       model_id: 2201915
-      model_path: "weapons/supreme_axe"
+      model_path: "weapons/supreme_axe_supreme"
   # supreme_hoe:
   #   display_name: supreme
   #   permission: supreme
@@ -227,60 +227,60 @@ items:
   #     generate: false
   #     model_id: None
   #     model_path: "weapons/supreme_hoe"
-  supreme_pickaxe:
+  supreme_pickaxe_supreme:
     display_name: supreme
     permission: supreme
     resource:
       material: NETHERITE_PICKAXE
       generate: false
       model_id: 2201924
-      model_path: "weapons/supreme_pickaxe"
-  supreme_shovel:
+      model_path: "weapons/supreme_pickaxe_supreme"
+  supreme_shovel_supreme:
     display_name: supreme
     permission: supreme
     resource:
       material: NETHERITE_SHOVEL
       generate: false
       model_id: 2201933
-      model_path: "weapons/supreme_shovel"
-  supreme_sword:
+      model_path: "weapons/supreme_shovel_supreme"
+  supreme_sword_supreme:
     display_name: supreme
     permission: supreme
     resource:
       material: NETHERITE_SWORD
       generate: false
       model_id: 2201900
-      model_path: "weapons/supreme_sword"
+      model_path: "weapons/supreme_sword_supreme"
   # Armor
-  supreme_supreme_helmet:
+  supreme_helmet_supreme:
     display_name: supreme
     permission: supreme
     resource:
       material: NETHERITE_HELMET
       generate: false
       model_id: 2201945
-      model_path: "armor/helmet/supreme_supreme_helmet"
-  supreme_supreme_chestplate:
+      model_path: "armor/helmet/supreme_helmet_supreme"
+  supreme_chestplate_supreme:
     display_name: supreme
     permission: supreme
     resource:
       material: NETHERITE_CHESTPLATE
       generate: false
       model_id: 2201954
-      model_path: "armor/chestplate/supreme_supreme_chestplate"
-  supreme_supreme_leggings:
+      model_path: "armor/chestplate/supreme_chestplate_supreme"
+  supreme_leggings_supreme:
     display_name: supreme
     permission: supreme
     resource:
       material: NETHERITE_LEGGINGS
       generate: false
       model_id: 2201963
-      model_path: "armor/leggings/supreme_supreme_leggings"
-  supreme_supreme_boots:
+      model_path: "armor/leggings/supreme_leggings_supreme"
+  supreme_boots_supreme:
     display_name: supreme
     permission: supreme
     resource:
       material: NETHERITE_BOOTS
       generate: false
       model_id: 2201972
-      model_path: "armor/boots/supreme_supreme_boots"
+      model_path: "armor/boots/supreme_boots_supreme"

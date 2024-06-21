@@ -1,7 +1,0 @@
-{
-  "parent": "item/handheld",
-  "author": "RaulH22",
-  "textures": {
-    "layer0": "slimefun:slimefun/tools/vein_pickaxe"
-  }
-}
