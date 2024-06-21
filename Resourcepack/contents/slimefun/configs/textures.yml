@@ -3640,7 +3640,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200455
-      model_path: "slimefun/resources/bucket_of_fuel/bucket_of_fuel"
+      model_path: "slimefun/resources/fuel/bucket_of_fuel"
   nether_ice:
     display_name: slimefun
     permission: slimefun
@@ -3912,7 +3912,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200489
-      model_path: "slimefun/miscellaneous/organic_fertilizer/wheat"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/fertilizer_wheat"
   fertilizer_carrot:
     display_name: slimefun
     permission: slimefun
@@ -3920,7 +3920,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200490
-      model_path: "slimefun/miscellaneous/organic_fertilizer/carrots"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/fertilizer_carrot"
   fertilizer_potato:
     display_name: slimefun
     permission: slimefun
@@ -3928,7 +3928,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200491
-      model_path: "slimefun/miscellaneous/organic_fertilizer/potatoes"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/fertilizer_potato"
   fertilizer_seeds:
     display_name: slimefun
     permission: slimefun
@@ -3936,7 +3936,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200492
-      model_path: "slimefun/miscellaneous/organic_fertilizer/seeds"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/fertilizer_seeds"
   fertilizer_beetroot:
     display_name: slimefun
     permission: slimefun
@@ -3944,7 +3944,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200493
-      model_path: "slimefun/miscellaneous/organic_fertilizer/beetroot"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/fertilizer_beetroot"
   fertilizer_melon:
     display_name: slimefun
     permission: slimefun
@@ -3952,7 +3952,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200494
-      model_path: "slimefun/miscellaneous/organic_fertilizer/melon"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/fertilizer_melon"
   fertilizer_apple:
     display_name: slimefun
     permission: slimefun
@@ -3960,7 +3960,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200495
-      model_path: "slimefun/miscellaneous/organic_fertilizer/apple"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/fertilizer_apple"
   fertilizer_sweet_berries:
     display_name: slimefun
     permission: slimefun
@@ -3968,7 +3968,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200496
-      model_path: "slimefun/miscellaneous/organic_fertilizer/sweet_berries"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/fertilizer_sweet_berries"
   fertilizer_kelp:
     display_name: slimefun
     permission: slimefun
@@ -3976,7 +3976,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200497
-      model_path: "slimefun/miscellaneous/organic_fertilizer/dried_kelp"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/fertilizer_kelp"
   fertilizer_cocoa:
     display_name: slimefun
     permission: slimefun
@@ -3984,7 +3984,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200498
-      model_path: "slimefun/miscellaneous/organic_fertilizer/cocoa_beans"
+      model_path: "slimefun/miscellaneous/organic_fertilizer/fertilizer_cocoa"
   crop_growth_accelerator:
     display_name: slimefun
     permission: slimefun

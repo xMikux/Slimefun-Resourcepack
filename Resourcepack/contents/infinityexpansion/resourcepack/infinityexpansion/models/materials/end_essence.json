@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "author": "Caribax",
   "textures": {
-    "layer0": "infinityexpansion:materials/ender_essence"
+    "layer0": "infinityexpansion:materials/end_essence"
   }
 }
