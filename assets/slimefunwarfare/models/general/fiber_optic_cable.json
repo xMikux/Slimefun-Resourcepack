@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Filosofas154",
-  "textures": {
-    "layer0": "slimefunwarfare:general/fiber_optic_cable"
-  }
-}
+{"parent":"item/generated","author":"Filosofas154","textures":{"layer0":"slimefunwarfare:general/fiber_optic_cable"}}

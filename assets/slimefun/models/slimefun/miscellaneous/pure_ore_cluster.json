@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "RaulH22",
-  "textures": {
-    "layer0": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
-  }
-}
+{"parent":"item/generated","author":"RaulH22","textures":{"layer0":"slimefun:slimefun/miscellaneous/pure_ore_cluster"}}

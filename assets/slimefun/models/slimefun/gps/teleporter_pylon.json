@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "author": "RaulH22",
-  "textures": {
-    "all": "slimefun:slimefun/gps/teleporter_pylon"
-  }
-}

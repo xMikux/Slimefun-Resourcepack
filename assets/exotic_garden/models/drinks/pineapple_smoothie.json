@@ -1,8 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "exotic_garden:drinks/pineapple_smoothie",
-    "layer1": "exotic_garden:drinks/pineapple_smoothie"
-  }
-}
+{"parent":"item/generated","author":"Caribax","textures":{"layer0":"exotic_garden:drinks/pineapple_smoothie","layer1":"exotic_garden:drinks/pineapple_smoothie"}}

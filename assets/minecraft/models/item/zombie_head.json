@@ -1,17 +1,1 @@
-{
-  "parent": "minecraft:item/template_skull",
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 2201418
-      },
-      "model": "bump:magical_items/update_power"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2201419
-      },
-      "model": "item/zombie_head"
-    }
-  ]
-}
+{"parent":"minecraft:item/template_skull","overrides":[{"predicate":{"custom_model_data":2201418},"model":"bump:magical_items/update_power"},{"predicate":{"custom_model_data":2201419},"model":"item/zombie_head"}]}

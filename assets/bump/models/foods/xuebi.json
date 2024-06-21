@@ -1,8 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Haiman",
-  "textures": {
-    "layer0": "bump:foods/xuebi",
-    "layer1": "bump:foods/xuebi"
-  }
-}
+{"parent":"item/generated","author":"Haiman","textures":{"layer0":"bump:foods/xuebi","layer1":"bump:foods/xuebi"}}

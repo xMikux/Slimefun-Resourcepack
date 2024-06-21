@@ -1,17 +1,1 @@
-{
-  "parent": "minecraft:block/polished_andesite",
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 2200636
-      },
-      "model": "infinityexpansion:materials/materials2/quintuple_compressed_cobblestone"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2200637
-      },
-      "model": "item/polished_andesite"
-    }
-  ]
-}
+{"parent":"minecraft:block/polished_andesite","overrides":[{"predicate":{"custom_model_data":2200636},"model":"infinityexpansion:materials/materials2/compressed_cobblestone_5"},{"predicate":{"custom_model_data":2200637},"model":"item/polished_andesite"}]}

@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "author": "AnsonYK",
-  "textures": {
-    "layer0": "slimefun:slimefun/energy/electric_ore_grinder3"
-  }
-}

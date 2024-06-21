@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "RelativoBR",
-  "textures": {
-    "layer0": "supreme:components/supreme_cetrus_aqua"
-  }
-}
+{"parent":"item/generated","author":"RelativoBR","textures":{"layer0":"supreme:components/supreme_cetrus_aqua"}}

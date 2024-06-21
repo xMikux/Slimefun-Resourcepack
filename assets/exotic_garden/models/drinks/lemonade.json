@@ -1,8 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "exotic_garden:drinks/lemonade",
-    "layer1": "exotic_garden:drinks/lemonade"
-  }
-}
+{"parent":"item/generated","author":"Caribax","textures":{"layer0":"exotic_garden:drinks/lemonade","layer1":"exotic_garden:drinks/lemonade"}}

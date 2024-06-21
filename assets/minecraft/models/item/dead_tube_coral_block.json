@@ -1,17 +1,1 @@
-{
-  "parent": "minecraft:block/dead_tube_coral_block",
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 2201558
-      },
-      "model": "supreme:components/supreme_petrifier_machine"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2201559
-      },
-      "model": "item/dead_tube_coral_block"
-    }
-  ]
-}
+{"parent":"minecraft:block/dead_tube_coral_block","overrides":[{"predicate":{"custom_model_data":2201558},"model":"supreme:components/supreme_petrifier_machine"},{"predicate":{"custom_model_data":2201559},"model":"item/dead_tube_coral_block"}]}

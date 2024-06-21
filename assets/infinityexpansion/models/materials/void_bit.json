@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "infinityexpansion:materials/void_bit"
-  }
-}
+{"parent":"item/generated","author":"Caribax","textures":{"layer0":"infinityexpansion:materials/void_bit"}}

@@ -1,8 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "RaulH22",
-  "textures": {
-    "layer0": "slimefun:slimefun/food/golden_apple_juice",
-    "layer1": "slimefun:slimefun/food/golden_apple_juice"
-  }
-}
+{"parent":"item/generated","author":"RaulH22","textures":{"layer0":"slimefun:slimefun/food/golden_apple_juice","layer1":"slimefun:slimefun/food/golden_apple_juice"}}

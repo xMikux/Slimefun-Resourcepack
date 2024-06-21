@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Jerry",
-  "textures": {
-    "layer0": "slimefun:slimefun/cargo/enhanced_auto_crafter"
-  }
-}
+{"parent":"item/generated","author":"Jerry","textures":{"layer0":"slimefun:slimefun/cargo/enhanced_auto_crafter"}}

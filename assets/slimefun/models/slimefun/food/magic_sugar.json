@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "RaulH22",
-  "textures": {
-    "layer0": "slimefun:slimefun/food/magic_sugar"
-  }
-}
+{"parent":"item/generated","author":"RaulH22","textures":{"layer0":"slimefun:slimefun/food/magic_sugar"}}

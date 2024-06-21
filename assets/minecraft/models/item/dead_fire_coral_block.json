@@ -1,17 +1,1 @@
-{
-  "parent": "minecraft:block/dead_fire_coral_block",
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 2201552
-      },
-      "model": "supreme:components/supreme_inductive_machine"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2201553
-      },
-      "model": "item/dead_fire_coral_block"
-    }
-  ]
-}
+{"parent":"minecraft:block/dead_fire_coral_block","overrides":[{"predicate":{"custom_model_data":2201552},"model":"supreme:components/supreme_inductive_machine"},{"predicate":{"custom_model_data":2201553},"model":"item/dead_fire_coral_block"}]}

@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "RaulH22",
-  "textures": {
-    "layer0": "slimefun:slimefun/magical_items/lava_crystal"
-  }
-}
+{"parent":"item/generated","author":"RaulH22","textures":{"layer0":"slimefun:slimefun/magical_items/lava_crystal"}}

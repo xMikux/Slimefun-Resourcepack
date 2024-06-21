@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "extra_gear:armor/steel/steel_leggings"
-  }
-}
+{"parent":"item/generated","author":"Caribax","textures":{"layer0":"extra_gear:armor/steel/steel_leggings"}}

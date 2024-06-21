@@ -1,17 +1,1 @@
-{
-  "parent": "minecraft:block/tnt",
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 2202058
-      },
-      "model": "slimefunwarfare:explosives/nuclear_bomb"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2202059
-      },
-      "model": "item/tnt"
-    }
-  ]
-}
+{"parent":"minecraft:block/tnt","overrides":[{"predicate":{"custom_model_data":2202058},"model":"slimefunwarfare:explosives/nuclear_bomb"},{"predicate":{"custom_model_data":2202059},"model":"item/tnt"}]}

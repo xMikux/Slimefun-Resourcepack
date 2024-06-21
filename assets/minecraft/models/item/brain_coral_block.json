@@ -1,17 +1,1 @@
-{
-  "parent": "minecraft:block/brain_coral_block",
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 2201555
-      },
-      "model": "supreme:components/supreme_stainless_machine"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2201556
-      },
-      "model": "item/brain_coral_block"
-    }
-  ]
-}
+{"parent":"minecraft:block/brain_coral_block","overrides":[{"predicate":{"custom_model_data":2201555},"model":"supreme:components/supreme_stainless_machine"},{"predicate":{"custom_model_data":2201556},"model":"item/brain_coral_block"}]}

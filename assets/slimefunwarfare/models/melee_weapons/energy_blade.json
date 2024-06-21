@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Filosofas154",
-  "textures": {
-    "layer0": "slimefunwarfare:melee_weapons/energy_blade"
-  }
-}
+{"parent":"item/generated","author":"Filosofas154","textures":{"layer0":"slimefunwarfare:melee_weapons/energy_blade"}}

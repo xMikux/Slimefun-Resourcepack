@@ -1,7 +1,1 @@
-{
-  "parent": "item/handheld",
-  "author": "Haiman",
-  "textures": {
-    "layer0": "bump:magical_weapons/devil_sword"
-  }
-}
+{"parent":"item/handheld","author":"Haiman","textures":{"layer0":"bump:magical_weapons/devil_sword"}}

@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "ybw0014",
-  "textures": {
-    "layer0": "fluffymachines:watering_can"
-  }
-}
+{"parent":"item/generated","author":"ybw0014","textures":{"layer0":"fluffymachines:watering_can"}}

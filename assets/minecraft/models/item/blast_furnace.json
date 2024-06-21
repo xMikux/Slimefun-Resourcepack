@@ -1,17 +1,1 @@
-{
-  "parent": "minecraft:block/blast_furnace",
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 2200056
-      },
-      "model": "slimefun:slimefun/basic_machines/makeshift_smeltery"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2200057
-      },
-      "model": "item/blast_furnace"
-    }
-  ]
-}
+{"parent":"minecraft:block/blast_furnace","overrides":[{"predicate":{"custom_model_data":2200056},"model":"slimefun:slimefun/basic_machines/makeshift_smeltery"},{"predicate":{"custom_model_data":2200057},"model":"item/blast_furnace"}]}

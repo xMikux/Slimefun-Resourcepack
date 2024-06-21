@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "exotic_garden:foods/chocolate_pear_cake"
-  }
-}
+{"parent":"item/generated","author":"Caribax","textures":{"layer0":"exotic_garden:foods/chocolate_pear_cake"}}

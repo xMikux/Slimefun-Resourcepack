@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Filosofas154",
-  "textures": {
-    "layer0": "slimefunwarfare:resources/unpatentablium"
-  }
-}
+{"parent":"item/generated","author":"Filosofas154","textures":{"layer0":"slimefunwarfare:resources/unpatentablium"}}

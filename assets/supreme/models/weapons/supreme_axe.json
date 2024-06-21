@@ -1,7 +1,0 @@
-{
-  "parent": "item/handheld",
-  "author": "RelativoBR",
-  "textures": {
-    "layer0": "supreme:weapons/supreme_axe"
-  }
-}

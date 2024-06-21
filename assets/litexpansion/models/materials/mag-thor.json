@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "litexpansion:materials/mag-thor"
-  }
-}

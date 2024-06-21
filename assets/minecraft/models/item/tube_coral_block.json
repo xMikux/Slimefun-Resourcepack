@@ -1,17 +1,1 @@
-{
-  "parent": "minecraft:block/tube_coral_block",
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 2201559
-      },
-      "model": "supreme:components/supreme_crystallizer_machine"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2201560
-      },
-      "model": "item/tube_coral_block"
-    }
-  ]
-}
+{"parent":"minecraft:block/tube_coral_block","overrides":[{"predicate":{"custom_model_data":2201559},"model":"supreme:components/supreme_crystallizer_machine"},{"predicate":{"custom_model_data":2201560},"model":"item/tube_coral_block"}]}

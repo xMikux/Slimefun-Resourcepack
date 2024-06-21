@@ -1,8 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Efina(Temporary)",
-  "textures": {
-    "layer0": "minecraft:item/leather_boots",
-    "layer1": "minecraft:item/leather_boots_overlay"
-  }
-}
+{"parent":"item/generated","author":"Efina(Temporary)","textures":{"layer0":"minecraft:item/leather_boots","layer1":"minecraft:item/leather_boots_overlay"}}

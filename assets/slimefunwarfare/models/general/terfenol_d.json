@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Filosofas154",
-  "textures": {
-    "layer0": "slimefunwarfare:general/terfenol_d"
-  }
-}
+{"parent":"item/generated","author":"Filosofas154","textures":{"layer0":"slimefunwarfare:general/terfenol_d"}}

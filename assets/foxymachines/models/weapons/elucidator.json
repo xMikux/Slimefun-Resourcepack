@@ -1,7 +1,1 @@
-{
-  "parent": "item/handheld",
-  "author": "DragonMysterious",
-  "textures": {
-    "layer0": "foxymachines:weapons/elucidator"
-  }
-}
+{"parent":"item/handheld","author":"DragonMysterious","textures":{"layer0":"foxymachines:weapons/elucidator"}}

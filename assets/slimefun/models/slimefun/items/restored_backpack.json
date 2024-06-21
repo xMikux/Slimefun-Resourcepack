@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Den4enko",
-  "textures": {
-    "layer0": "slimefun:slimefun/items/restored_backpack"
-  }
-}
+{"parent":"item/generated","author":"Den4enko","textures":{"layer0":"slimefun:slimefun/items/restored_backpack"}}

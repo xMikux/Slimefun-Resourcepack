@@ -1,8 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Haiman",
-  "textures": {
-    "layer0": "bump:foods/kele",
-    "layer1": "bump:foods/kele"
-  }
-}
+{"parent":"item/generated","author":"Haiman","textures":{"layer0":"bump:foods/kele","layer1":"bump:foods/kele"}}

@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "RaulH22",
-  "textures": {
-    "layer0": "slimefun:slimefun/resources/dusts/copper_dust"
-  }
-}
+{"parent":"item/generated","author":"RaulH22","textures":{"layer0":"slimefun:slimefun/resources/dusts/copper_dust"}}

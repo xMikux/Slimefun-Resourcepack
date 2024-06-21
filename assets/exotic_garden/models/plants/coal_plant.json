@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "exotic_garden:plants/coal_plant"
-  }
-}
+{"parent":"item/generated","author":"Caribax","textures":{"layer0":"exotic_garden:plants/coal_plant"}}

@@ -1,17 +1,1 @@
-{
-  "parent": "minecraft:item/template_spawn_egg",
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 2202020
-      },
-      "model": "slimefunwarfare:general/dummy"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2202021
-      },
-      "model": "item/husk_spawn_egg"
-    }
-  ]
-}
+{"parent":"minecraft:item/template_spawn_egg","overrides":[{"predicate":{"custom_model_data":2202020},"model":"slimefunwarfare:general/dummy"},{"predicate":{"custom_model_data":2202021},"model":"item/husk_spawn_egg"}]}

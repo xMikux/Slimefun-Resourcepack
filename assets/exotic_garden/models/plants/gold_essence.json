@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "exotic_garden:plants/gold_essence"
-  }
-}
+{"parent":"item/generated","author":"Caribax","textures":{"layer0":"exotic_garden:plants/gold_essence"}}

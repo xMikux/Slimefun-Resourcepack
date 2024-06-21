@@ -1,17 +1,1 @@
-{
-  "parent": "minecraft:block/blue_stained_glass",
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 2202010
-      },
-      "model": "slimefunwarfare:general/fiber_optic_glass"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2202011
-      },
-      "model": "item/blue_stained_glass"
-    }
-  ]
-}
+{"parent":"minecraft:block/blue_stained_glass","overrides":[{"predicate":{"custom_model_data":2202010},"model":"slimefunwarfare:general/fiber_optic_glass"},{"predicate":{"custom_model_data":2202011},"model":"item/blue_stained_glass"}]}

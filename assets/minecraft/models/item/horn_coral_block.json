@@ -1,17 +1,1 @@
-{
-  "parent": "minecraft:block/horn_coral_block",
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 2201557
-      },
-      "model": "supreme:components/supreme_conveyance_machine"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2201558
-      },
-      "model": "item/horn_coral_block"
-    }
-  ]
-}
+{"parent":"minecraft:block/horn_coral_block","overrides":[{"predicate":{"custom_model_data":2201557},"model":"supreme:components/supreme_conveyance_machine"},{"predicate":{"custom_model_data":2201558},"model":"item/horn_coral_block"}]}

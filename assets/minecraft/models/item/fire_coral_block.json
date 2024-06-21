@@ -1,17 +1,1 @@
-{
-  "parent": "minecraft:block/fire_coral_block",
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 2201553
-      },
-      "model": "supreme:components/supreme_inductor_machine"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2201554
-      },
-      "model": "item/fire_coral_block"
-    }
-  ]
-}
+{"parent":"minecraft:block/fire_coral_block","overrides":[{"predicate":{"custom_model_data":2201553},"model":"supreme:components/supreme_inductor_machine"},{"predicate":{"custom_model_data":2201554},"model":"item/fire_coral_block"}]}

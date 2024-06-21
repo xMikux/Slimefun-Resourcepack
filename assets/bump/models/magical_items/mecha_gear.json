@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Haiman",
-  "textures": {
-    "layer0": "bump:magical_items/mecha_gear"
-  }
-}
+{"parent":"item/generated","author":"Haiman","textures":{"layer0":"bump:magical_items/mecha_gear"}}

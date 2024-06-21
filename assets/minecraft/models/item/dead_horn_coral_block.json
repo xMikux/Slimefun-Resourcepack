@@ -1,17 +1,1 @@
-{
-  "parent": "minecraft:block/dead_horn_coral_block",
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 2201556
-      },
-      "model": "supreme:components/supreme_carriage_machine"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2201557
-      },
-      "model": "item/dead_horn_coral_block"
-    }
-  ]
-}
+{"parent":"minecraft:block/dead_horn_coral_block","overrides":[{"predicate":{"custom_model_data":2201556},"model":"supreme:components/supreme_carriage_machine"},{"predicate":{"custom_model_data":2201557},"model":"item/dead_horn_coral_block"}]}

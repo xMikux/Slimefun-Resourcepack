@@ -1,7 +1,1 @@
-{
-  "parent": "item/handheld",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "infinityexpansion:tools/mountain_eater"
-  }
-}
+{"parent":"item/handheld","author":"Caribax","textures":{"layer0":"infinityexpansion:tools/mountain_eater"}}

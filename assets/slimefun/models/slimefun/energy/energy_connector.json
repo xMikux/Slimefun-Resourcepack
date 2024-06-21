@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Jerry",
-  "textures": {
-    "layer0": "slimefun:slimefun/energy/energy_connector"
-  }
-}
+{"parent":"item/generated","author":"Jerry","textures":{"layer0":"slimefun:slimefun/energy/energy_connector"}}

@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Filosofas154",
-  "textures": {
-    "layer0": "slimefunwarfare:melee_weapons/osmium_sword"
-  }
-}
+{"parent":"item/generated","author":"Filosofas154","textures":{"layer0":"slimefunwarfare:melee_weapons/osmium_sword"}}

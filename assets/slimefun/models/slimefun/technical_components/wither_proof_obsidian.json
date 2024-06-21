@@ -1,7 +1,1 @@
-{
-  "parent": "block/cube_all",
-  "author": "RaulH22",
-  "textures": {
-    "all": "slimefun:slimefun/technical_components/wither_proof_obsidian"
-  }
-}
+{"parent":"block/cube_all","author":"RaulH22","textures":{"all":"slimefun:slimefun/technical_components/wither_proof_obsidian"}}

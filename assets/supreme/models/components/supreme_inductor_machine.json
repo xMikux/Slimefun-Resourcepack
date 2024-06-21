@@ -1,7 +1,1 @@
-{
-  "parent": "block/cube_all",
-  "author": "RelativoBR",
-  "textures": {
-    "all": "supreme:components/supreme_inductor_machine"
-  }
-}
+{"parent":"block/cube_all","author":"RelativoBR","textures":{"all":"supreme:components/supreme_inductor_machine"}}

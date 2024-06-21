@@ -1,7 +1,1 @@
-{
-  "parent": "block/cube_all",
-  "author": "RaulH22",
-  "textures": {
-    "all": "slimefun:slimefun/magical_gadgets/rainbow_glazed_terracotta"
-  }
-}
+{"parent":"block/cube_all","author":"RaulH22","textures":{"all":"slimefun:slimefun/magical_gadgets/rainbow_glazed_terracotta"}}

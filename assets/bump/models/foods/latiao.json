@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Haiman",
-  "textures": {
-    "layer0": "bump:foods/latiao"
-  }
-}
+{"parent":"item/generated","author":"Haiman","textures":{"layer0":"bump:foods/latiao"}}

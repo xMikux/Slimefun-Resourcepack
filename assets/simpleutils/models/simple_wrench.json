@@ -1,7 +1,1 @@
-{
-  "parent": "item/handheld",
-  "author": "ybw0014",
-  "textures": {
-    "layer0": "simpleutils:simple_wrench"
-  }
-}
+{"parent":"item/handheld","author":"ybw0014","textures":{"layer0":"simpleutils:simple_wrench"}}

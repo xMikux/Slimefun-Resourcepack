@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Den4enko",
-  "textures": {
-    "layer0": "slimefun:slimefun/energy/energized_capacitor"
-  }
-}
+{"parent":"item/generated","author":"Den4enko","textures":{"layer0":"slimefun:slimefun/energy/energized_capacitor"}}

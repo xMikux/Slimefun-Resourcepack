@@ -1,7 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "DragonMysterious",
-  "textures": {
-    "layer0": "slimefun:slimefun/technical_gadgets/damascus_steel_multi_tool"
-  }
-}
+{"parent":"item/generated","author":"DragonMysterious","textures":{"layer0":"slimefun:slimefun/technical_gadgets/damascus_steel_multi_tool"}}

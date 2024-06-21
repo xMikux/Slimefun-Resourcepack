@@ -1,8 +1,1 @@
-{
-  "parent": "item/generated",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "exotic_garden:drinks/wine",
-    "layer1": "exotic_garden:drinks/wine"
-  }
-}
+{"parent":"item/generated","author":"Caribax","textures":{"layer0":"exotic_garden:drinks/wine","layer1":"exotic_garden:drinks/wine"}}
