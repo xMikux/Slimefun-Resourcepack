@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "author": "haiman233",
+  "textures": {
+    "layer0": "gastronomicon:ingredient/gn_quinoa"
+  }
+}
+
