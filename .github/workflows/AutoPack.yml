@@ -79,7 +79,7 @@ jobs:
           name: IAGenerated
 
       - name: 🗑️ Delete Artifact
-        uses: geekyeggo/delete-artifact@v2
+        uses: geekyeggo/delete-artifact@v5
         with:
           name: IAGenerated
 
@@ -159,7 +159,7 @@ jobs:
           path: ./
 
       - name: 🗑️ Delete Artifact
-        uses: geekyeggo/delete-artifact@v2
+        uses: geekyeggo/delete-artifact@v5
         with:
           name: |
             Slimefun-ResourcePack

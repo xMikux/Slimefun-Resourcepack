@@ -53,7 +53,7 @@ jobs:
           mv ./pack.zip Slimefun-ResourcePack.zip
 
       - name: 🗑️ Delete Artifact
-        uses: geekyeggo/delete-artifact@v2
+        uses: geekyeggo/delete-artifact@v5
         with:
           name: |
             Optimized pack
