@@ -5,6 +5,9 @@ on:
     paths:
     - Resourcepack/**
 
+permissions:
+  contents: read
+
 jobs:
   Validator:
     name: "🔎 Validator"
@@ -20,3 +23,4 @@ jobs:
         uses: GrantBirki/json-yaml-validate@v3.2.1
         with:
           exclude_file: .github/configs/validate-ignore.txt
+          use_gitignore: false
