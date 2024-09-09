@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: 📄 Checking Repostiory
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: ⚙️ Validate Files
         uses: GrantBirki/json-yaml-validate@v3.2.1

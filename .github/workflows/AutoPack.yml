@@ -26,7 +26,7 @@ jobs:
 
     steps:
       - name: 📄 Checking Repostiory
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: 🔒 Login to GitHub Container Registry
         uses: docker/login-action@v2
@@ -69,7 +69,7 @@ jobs:
 
     steps:
       - name: 📄 Checking Repostiory
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: pack
 
@@ -133,7 +133,7 @@ jobs:
 
     steps:
       - name: 📄 Checking Repostiory
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: pack
           fetch-depth: 0
