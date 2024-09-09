@@ -43,7 +43,7 @@ jobs:
           path: ./
 
       - name: ☁️ DownloadArtifact Optimized Pack
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: Optimized pack
           path: ./

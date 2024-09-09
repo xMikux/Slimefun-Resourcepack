@@ -51,13 +51,13 @@ jobs:
           fi
 
       - name: 📦 Upload IAGenerated Zip
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: IAGenerated
           path: IAGenerated.zip
 
       - name: 📦 Upload Item Models
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Item-Models
           path: Resourcepack/item-models.yml
@@ -74,7 +74,7 @@ jobs:
           ref: pack
 
       - name: ☁️ DownloadArtifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: IAGenerated
 
@@ -154,7 +154,7 @@ jobs:
 
     steps:
       - name: ☁️ DownloadArtifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           path: ./
 
