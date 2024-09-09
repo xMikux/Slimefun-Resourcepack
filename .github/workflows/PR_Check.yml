@@ -18,3 +18,5 @@ jobs:
 
       - name: ⚙️ Validate Files
         uses: GrantBirki/json-yaml-validate@v3.2.1
+        with:
+          exclude_file: .github/configs/validate-ignore.txt
