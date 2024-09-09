@@ -5,6 +5,9 @@ on:
     paths:
     - Resourcepack/**
 
+permissions:
+  contents: read
+
 jobs:
   Validator:
     name: "🔎 Validator"
@@ -14,9 +17,10 @@ jobs:
 
     steps:
       - name: 📄 Checking Repostiory
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: ⚙️ Validate Files
         uses: GrantBirki/json-yaml-validate@v3.2.1
         with:
           exclude_file: .github/configs/validate-ignore.txt
+          use_gitignore: false

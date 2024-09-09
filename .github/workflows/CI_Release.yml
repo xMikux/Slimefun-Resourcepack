@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: 📄 Checking Repostiory
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: pack
           fetch-depth: 0
@@ -43,7 +43,7 @@ jobs:
           path: ./
 
       - name: ☁️ DownloadArtifact Optimized Pack
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: Optimized pack
           path: ./
@@ -53,7 +53,7 @@ jobs:
           mv ./pack.zip Slimefun-ResourcePack.zip
 
       - name: 🗑️ Delete Artifact
-        uses: geekyeggo/delete-artifact@v2
+        uses: geekyeggo/delete-artifact@v5
         with:
           name: |
             Optimized pack
