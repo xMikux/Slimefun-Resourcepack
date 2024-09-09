@@ -5,74 +5,16 @@ on:
     paths:
     - Resourcepack/**
 
-env:
-  # Validator Config Path
-  config_json: .github/configs/schema.json
-  config_yaml: .github/configs/yaml-linter.yml
-
 jobs:
   Validator:
-    name: "🔎 Validator ${{ matrix.PackName }}"
+    name: "🔎 Validator"
     runs-on: ubuntu-latest
     if: |
       github.repository == 'xMikux/Slimefun-Resourcepack'
-
-    strategy:
-      matrix:
-        include:
-          - PackName: Minecraft
-            Path_Models: Resourcepack/contents/_iainternal/resourcepack/assets/minecraft/**/*.json
-          - PackName: Bump
-            Path_Models: Resourcepack/contents/bump/resourcepack/bump/models/**/*.json
-            Path_Pack: Resourcepack/contents/bump/configs/textures.yml
-          - PackName: ExoticGarden
-            Path_Models: Resourcepack/contents/exotic_garden/resourcepack/exotic_garden/models/**/*.json
-            Path_Pack: Resourcepack/contents/exotic_garden/configs/textures.yml
-          - PackName: ExtraGear
-            Path_Models: Resourcepack/contents/extra_gear/resourcepack/extra_gear/models/**/*.json
-            Path_Pack: Resourcepack/contents/extra_gear/configs/textures.yml
-          - PackName: FluffyMachines
-            Path_Models: Resourcepack/contents/fluffymachines/resourcepack/fluffymachines/models/**/*.json
-            Path_Pack: Resourcepack/contents/fluffymachines/configs/textures.yml
-          - PackName: FoxyMachines
-            Path_Models: Resourcepack/contents/foxymachines/resourcepack/foxymachines/models/**/*.json
-            Path_Pack: Resourcepack/contents/foxymachines/configs/textures.yml
-          - PackName: InfinityExpansion
-            Path_Models: Resourcepack/contents/infinityexpansion/resourcepack/infinityexpansion/models/**/*.json
-            Path_Pack: Resourcepack/contents/infinityexpansion/configs/textures.yml
-          - PackName: Litexpansion
-            Path_Models: Resourcepack/contents/litexpansion/resourcepack/litexpansion/models/**/*.json
-            Path_Pack: Resourcepack/contents/litexpansion/configs/textures.yml
-          - PackName: SimpleUtils
-            Path_Models: Resourcepack/contents/simpleutils/resourcepack/simpleutils/models/**/*.json
-            Path_Pack: Resourcepack/contents/simpleutils/configs/textures.yml
-          - PackName: Slimefun
-            Path_Models: Resourcepack/contents/slimefun/resourcepack/slimefun/models/**/*.json
-            Path_Pack: Resourcepack/contents/slimefun/configs/textures.yml
-          - PackName: SlimefunWarfare
-            Path_Models: Resourcepack/contents/slimefunwarfare/resourcepack/slimefunwarfare/models/**/*.json
-            Path_Pack: Resourcepack/contents/slimefunwarfare/configs/textures.yml
-          - PackName: SlimyTreeTaps
-            Path_Models: Resourcepack/contents/slimy_tree_taps/resourcepack/slimy_tree_taps/models/**/*.json
-            Path_Pack: Resourcepack/contents/slimy_tree_taps/configs/textures.yml
-          - PackName: Supreme
-            Path_Models: Resourcepack/contents/supreme/resourcepack/supreme/models/**/*.json
-            Path_Pack: Resourcepack/contents/supreme/configs/textures.yml
 
     steps:
       - name: 📄 Checking Repostiory
         uses: actions/checkout@v3
 
-      - name: ⚙️ Validate YAML Files (${{ matrix.PackName }})
-        if: "${{ matrix.Path_Pack != '' }}"
-        uses: ibiqlik/action-yamllint@v3
-        with:
-          file_or_dir: ${{ matrix.Path_Pack }}
-          config_file: ${{ env.config_yaml }}
-
-      - name: ⚙️ Validate JSON Files (${{ matrix.PackName }})
-        if: "${{ matrix.Path_Models != '' }}"
-        uses: nhalstead/validate-json-action@0.1.3
-        with:
-          schema: ${{ env.config_json }}
-          jsons: ${{ matrix.Path_Models }}
+      - name: ⚙️ Validate Files
+        uses: GrantBirki/json-yaml-validate@v3.2.1
