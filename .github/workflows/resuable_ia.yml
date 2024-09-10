@@ -6,10 +6,12 @@ on:
 jobs:
   ia_container:
     runs-on: ubuntu-latest
-    services:
-      ia_container:
-        image: ghcr.io/xmikux/itemsadder-image:latest
-        env:
-          RCON_ENV: ${{ secrets.RCON_PASSWORD }}
-        ports:
-          - 25575:25575
+    container:
+      image: ghcr.io/xmikux/itemsadder-image:latest
+      env:
+        RCON_ENV: ${{ secrets.RCON_PASSWORD }}
+      ports:
+        - 25575:25575
+    steps:
+      - name: Check for dockerenv file
+        run: (ls /.dockerenv && echo Found dockerenv) || (echo No dockerenv)
