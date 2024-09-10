@@ -1,0 +1,15 @@
+name: Makeup IA Resourcepack
+
+on:
+  workflow_call: {}
+
+jobs:
+  ia_container:
+    runs-on: ubuntu-latest
+    services:
+      ia_container:
+        image: ghcr.io/xmikux/itemsadder-image:latest
+        env:
+          RCON_ENV: ${{ secrets.RCON_PASSWORD }}
+        ports:
+          - 25575:25575

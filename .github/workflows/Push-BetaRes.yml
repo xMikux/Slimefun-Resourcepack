@@ -1,0 +1,10 @@
+name: Push Beta Resourcepack
+
+on:
+  push:
+    branches:
+      - "ci/new_packer"
+
+jobs:
+  iapacker:
+    uses: ./.github/workflows/resuable_ia.yml
