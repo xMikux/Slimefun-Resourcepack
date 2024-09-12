@@ -16,6 +16,13 @@ jobs:
       - name: Check for dockerenv file
         run: (ls /.dockerenv && echo Found dockerenv) || (echo No dockerenv)
 
-      - name: Check container ls
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Check container
         run: |
           ls -alh
+          pwd
+          ls -alh
+          docker -h
+          wget -h
