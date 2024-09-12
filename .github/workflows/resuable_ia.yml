@@ -15,3 +15,7 @@ jobs:
     steps:
       - name: Check for dockerenv file
         run: (ls /.dockerenv && echo Found dockerenv) || (echo No dockerenv)
+
+      - name: Check container ls
+        run: |
+          ls -alh
