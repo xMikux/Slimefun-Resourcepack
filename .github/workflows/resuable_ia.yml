@@ -46,7 +46,7 @@ jobs:
       - name: S3 - Download Plugins
         run: |
           mkdir external
-          s3cmd get s3://${{ secrets.S3_BUCKET_NAME }}/itemsadder/ItemsAdder.jar external/ItemsAdder.jar
+          s3cmd get s3://${{ secrets.S3_BUCKET_NAME }}/ItemsAdder.jar external/ItemsAdder.jar
 
       -
         name: Setup - IA Minecraft Server
