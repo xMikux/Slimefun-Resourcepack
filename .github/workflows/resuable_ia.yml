@@ -18,7 +18,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      -
+        name: Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -35,15 +36,22 @@ jobs:
       #   run: |
       #     s3cmd get s3://${{ secrets.S3_BUCKET_NAME }}/itemsaddres maps-cache-data.tar.xz
 
-      - name: Setup - IA Minecraft Server
+      -
+        name: Setup - IA Minecraft Server
         run: |
           mkdir output
           docker compose -f .github/compose/docker-compose.yml up -d
         env:
           RCON_ENV: ${{ secrets.RCON_PASSWORD }}
 
-      - name: Health - Check server is online
+      -
+        name: Health - Check server is online
         uses: raschmitt/wait-for-healthy-container/@master
         with:
           container-name: itemsadder_server
           timeout: 60
+      
+      - name: DEBUG - Get compose log
+        run: |
+          docker compose -f .github/compose/docker-compose.yml logs > .github/compose.log
+          cat .github/compose.log
