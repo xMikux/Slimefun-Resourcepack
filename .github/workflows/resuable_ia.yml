@@ -28,7 +28,7 @@ jobs:
       #     region: "sgp1"
       #     access_key: ${{ secrets.S3_ACCESS_KEY }}
       #     secret_key: ${{ secrets.S3_SECRET_KEY }}
-      
+
       # - name: S3 - Download Plugins
       #   run: |
       #     s3cmd get s3://${{ secrets.S3_BUCKET_NAME }}/itemsaddres maps-cache-data.tar.xz
@@ -40,9 +40,8 @@ jobs:
         env:
           RCON_ENV: ${{ secrets.RCON_PASSWORD }}
 
-      - name: Check services healthiness
-        uses: thegabriele97/dockercompose-health-action@main
+      - name: Health - Check server is online
+        uses: raschmitt/wait-for-healthy-container/@master
         with:
-          filename: ".github/compose/docker-compose.yml"
-          timeout: "60"
-          workdir: ".github/compose"
+          container-name: itemsadder_server
+          timeout: 60
