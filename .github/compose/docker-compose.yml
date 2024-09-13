@@ -3,9 +3,9 @@ services:
     container_name: itemsadder_server
     image: ghcr.io/xmikux/itemsadder-image:latest
     volumes:
-      # - type: bind
-      #   source: ${PWD}/external
-      #   target: /app/external
+      - type: bind
+        source: ${PWD}/external
+        target: /app/external
       - type: bind
         source: ${PWD}/Resourcepack/contents
         target: /app/plugins/ItemsAdder/contents
