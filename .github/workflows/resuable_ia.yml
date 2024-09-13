@@ -38,7 +38,7 @@ jobs:
       - name: Setup - IA Minecraft Server
         run: |
           mkdir output
-          docker compose -f .github/compose/docker-compose.yml up
+          docker compose -f .github/compose/docker-compose.yml up -d
         env:
           RCON_ENV: ${{ secrets.RCON_PASSWORD }}
 
