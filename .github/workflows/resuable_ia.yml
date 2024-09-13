@@ -66,7 +66,8 @@ jobs:
       -
         name: mcrcon - Run IA commands
         run: |
-          $GITHUB_WORKSPACE/.github/tools/mcrcon -w 10 "iareload" "iazip"
+          $GITHUB_WORKSPACE/.github/tools/mcrcon -w 12 "iareload"
+          $GITHUB_WORKSPACE/.github/tools/mcrcon -w 30 "iazip"
         env:
           MCRCON_PASS: ${{ secrets.RCON_PASSWORD }}
 
