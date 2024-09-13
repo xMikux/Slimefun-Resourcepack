@@ -8,3 +8,7 @@ on:
 jobs:
   iapacker:
     uses: ./.github/workflows/resuable_ia.yml
+    secrets:
+      S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
+      S3_SECRET_KEY: ${{ secrets.S3_SECRET_KEY }}
+      S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
