@@ -1,28 +1,48 @@
 name: Makeup IA Resourcepack
 
 on:
-  workflow_call: {}
+  workflow_call:
+    secrets:
+      S3_ACCESS_KEY:
+        required: true
+      S3_SECRET_KEY:
+        required: true
+      S3_BUCKET_NAME:
+        required: true
 
 jobs:
-  ia_container:
+  ia_resourcepack:
+    name: Generate IA Resourcepack
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/xmikux/itemsadder-image:latest
-      env:
-        RCON_ENV: ${{ secrets.RCON_PASSWORD }}
-      ports:
-        - 25575:25575
+
     steps:
-      - name: Check for dockerenv file
-        run: (ls /.dockerenv && echo Found dockerenv) || (echo No dockerenv)
-
-      - name: Checkout repo
+      - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Check container
+      # - name: Setup - S3cmd Cli Tool
+      #   uses: s3-actions/s3cmd@v1.7.0
+      #   with:
+      #     provider: "vultr"
+      #     region: "sgp1"
+      #     access_key: ${{ secrets.S3_ACCESS_KEY }}
+      #     secret_key: ${{ secrets.S3_SECRET_KEY }}
+      
+      # - name: S3 - Download Plugins
+      #   run: |
+      #     s3cmd get s3://${{ secrets.S3_BUCKET_NAME }}/itemsaddres maps-cache-data.tar.xz
+
+      - name: Setup - IA Minecraft Server
         run: |
-          ls -alh
-          pwd
-          ls -alh
-          docker -h
-          wget -h
+          mkdir output
+          docker compose -f .github/compose/docker-compose.yml up
+        env:
+          RCON_ENV: ${{ secrets.RCON_PASSWORD }}
+
+      - name: Check services healthiness
+        uses: thegabriele97/dockercompose-health-action@main
+        with:
+          filename: ".github/compose/docker-compose.yml"
+          timeout: "60"
+          workdir: ".github/compose"
