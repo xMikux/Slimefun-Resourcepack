@@ -34,6 +34,19 @@ jobs:
           mv assets pack.mcmeta pack.png ../pack
 
       -
+        name: Clean - Remove unnecessary files
+        run: |
+          rm -r assets/_iainternal
+          rm -r assets/minecraft/blockstates
+          rm -r assets/minecraft/font
+          rm -r assets/minecraft/lang
+          rm -r assets/minecraft/models/block
+          rm -r assets/minecraft/models/item/base
+          rm -r assets/minecraft/shaders
+          rm -r assets/minecraft/textures
+        working-directory: pack
+
+      -
         name: PackSquash - Optimize It!
         uses: ComunidadAylas/PackSquash-action@v4
         with:

@@ -10,7 +10,9 @@ on:
         type: boolean
   push:
     branches:
-      - "ci/new_packer"
+      - main
+    paths:
+      - Resourcepack/**
 
 jobs:
   iapacker:

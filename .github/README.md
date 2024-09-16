@@ -139,6 +139,17 @@ Slimefun & Addons Models ID Range List
 
 There are still a lot of textures missing! Welcome to contribute more textures!
 
+## Version Format
+
+We are using Semantic Versioning v2 format
+
+Only some differences, like *Major* version won't be changed.
+
+Format vMAJOR.MINOR.PATCH:
+- **Major**: Won't be changed (will be changed if I want to redo ID range list)
+- **Minor**: When changing or adding new textures
+- **Patch**: When fixing, update path, mc version, etc.
+
 ## ⭐ Credits
 
 <table>

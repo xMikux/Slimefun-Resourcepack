@@ -2,11 +2,6 @@ name: AutoPack
 
 on:
   workflow_dispatch: {}
-  push:
-    branches:
-    - main
-    paths:
-    - Resourcepack/**
 
 concurrency: 
   group: ${{ github.workflow }}-${{ github.ref }}
