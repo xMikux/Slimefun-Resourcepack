@@ -31,16 +31,7 @@ jobs:
           mkdir pack
           cd workdir
           unzip generated.zip
-          mv generated/* ../pack
-          ls -alh ../pack
-
-      -
-        name: Setup - Decompress and Move
-        run: |
-          mkdir pack
-          cd workdir
-          unzip generated.zip
-          mv generated/* ../pack
+          mv assets pack.mcmeta pack.png ../pack
 
       -
         name: PackSquash - Optimize It!
