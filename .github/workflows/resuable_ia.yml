@@ -1,4 +1,4 @@
-name: Makeup IA Resourcepack
+name: Resuable | Makeup IA Respack
 
 on:
   workflow_call:
@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -
-        name: Checkout Repository
+        name: Setup - Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -95,5 +95,5 @@ jobs:
         name: Artifact - Upload generated pack
         uses: actions/upload-artifact@v4
         with:
-          name: ia_generatedpack
+          name: ia-generatedpack
           path: output/generated.zip

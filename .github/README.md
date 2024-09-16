@@ -336,6 +336,23 @@ Format vMAJOR.MINOR.PATCH:
       </p>
       </a>
     </td>
+  </tr>
+  <!-- Next Line -->
+  <tr>
+    <!-- JustAHuman-xD -->
+    <td align="center">
+      <a href="https://github.com/JustAHuman-xD"
+        ><img
+          src="https://avatars.githubusercontent.com/u/65748158?v=4"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>JustAHuman-xD</b></sub></a
+      ><br />
+      <p>
+        SlimefunEssentials Mod Author
+      </p>
+      </a>
+    </td>
   <!-- The End Of Line -->
   </tr>
 </table>

@@ -15,7 +15,7 @@ on:
       - Resourcepack/**
 
 jobs:
-  iapacker:
+  ia-packer:
     name: IA Packer
     uses: ./.github/workflows/resuable_ia.yml
     if: |
@@ -28,7 +28,30 @@ jobs:
       S3_SECRET_KEY: ${{ secrets.S3_SECRET_KEY }}
       S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
 
-  makeres:
+  res-packer:
     name: Slimefun Packer
-    needs: iapacker
+    needs: ia-packer
     uses: ./.github/workflows/resuable_packer.yml
+
+  config-upload:
+    name: Upload Item Models
+    uses: ./.github/workflows/resuable_configs.yml
+
+  ia-cleaner:
+    name: Cleanup Artifact
+    needs: res-packer
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Artifact - Delete It!
+        uses: geekyeggo/delete-artifact@v5
+        with:
+          name: |
+              ia-generatedpack
+
+  res-publish-modrinth:
+    name: Publish Modrinth Beta
+    needs: [ config-upload, ia-cleaner ]
+    uses: ./.github/workflows/resuable_release_modrinth.yml
+    secrets:
+      MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}

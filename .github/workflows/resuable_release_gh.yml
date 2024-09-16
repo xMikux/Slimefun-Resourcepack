@@ -1,11 +1,12 @@
-name: GitHub Release
+name: Resuable | GitHub Release
 
 on:
   workflow_call:
     inputs:
-      release:
-        type: boolean
+      release_type:
+        type: string
         required: false
+        default: "beta"
 
 jobs:
   github_release:

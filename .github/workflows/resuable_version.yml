@@ -1,11 +1,11 @@
-name: Resuable | Makeup Slimefun Respack
+name: Resuable | Version Maker
 
 on:
   workflow_call: {}
 
 jobs:
-  sf_resourcepack:
-    name: Generate Slimefun Resourcepack
+  version_maker:
+    name: Make Version
     runs-on: ubuntu-latest
     steps:
       -
@@ -13,14 +13,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       -
-        name: Artifact - Download Pre Generate Pack
-        uses: actions/download-artifact@v4
-        with:
-          name: ia-generatedpack
-          path: workdir
-
+        name: Git Version - Current Version
+        id: git_version
+        run: |
+          echo "version=${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
       -
         name: Setup - Decompress and Move
         run: |
@@ -28,7 +25,6 @@ jobs:
           cd workdir
           unzip generated.zip
           mv assets pack.mcmeta pack.png ../pack
-
       -
         name: Clean - Remove unnecessary files
         run: |
@@ -41,7 +37,6 @@ jobs:
           rm -r assets/minecraft/shaders
           rm -r assets/minecraft/textures
         working-directory: pack
-
       -
         name: PackSquash - Optimize It!
         uses: ComunidadAylas/PackSquash-action@v4
