@@ -1,0 +1,17 @@
+name: Modrinth Release
+
+on:
+  workflow_call:
+    inputs:
+      debug:
+        type: boolean
+        required: false
+
+jobs:
+  modrinth_release:
+    name: Release Modrinth
+    runs-on: ubuntu-latest
+    steps:
+      - name: abc
+        run: |
+          abc

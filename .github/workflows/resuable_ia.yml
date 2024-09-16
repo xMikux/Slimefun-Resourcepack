@@ -1,0 +1,99 @@
+name: Makeup IA Resourcepack
+
+on:
+  workflow_call:
+    inputs:
+      debug:
+        type: boolean
+        required: false
+    secrets:
+      RCON_PASSWORD:
+        required: true
+      S3_ACCESS_KEY:
+        required: true
+      S3_SECRET_KEY:
+        required: true
+      S3_BUCKET_NAME:
+        required: true
+
+jobs:
+  ia_resourcepack:
+    name: Generate IA Resourcepack
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      -
+        name: Setup - S3cmd Cli Tool
+        uses: s3-actions/s3cmd@v1.7.0
+        with:
+          provider: "vultr"
+          region: "sgp1"
+          access_key: ${{ secrets.S3_ACCESS_KEY }}
+          secret_key: ${{ secrets.S3_SECRET_KEY }}
+
+      -
+        name: Setup - mcrcon
+        run: |
+          mkdir tools
+          cd tools || exit 1
+          wget -O mcrcon.tar.gz https://github.com/Tiiffi/mcrcon/releases/download/v0.7.2/mcrcon-0.7.2-linux-x86-64.tar.gz
+          tar xzvf mcrcon.tar.gz
+          rm LICENSE mcrcon.tar.gz
+        working-directory: .github
+
+      -
+        name: S3 - Download Plugins
+        run: |
+          mkdir external
+          s3cmd get s3://${{ secrets.S3_BUCKET_NAME }}/ItemsAdder.jar external/ItemsAdder.jar
+
+      -
+        name: Setup - IA Minecraft Server
+        run: |
+          mkdir output
+          docker compose -f .github/compose/docker-compose.yml up -d
+        env:
+          RCON_ENV: ${{ secrets.RCON_PASSWORD }}
+
+      -
+        name: Health - Check server is online
+        uses: raschmitt/wait-for-healthy-container/@master
+        with:
+          container-name: itemsadder_server
+          timeout: 60
+
+      -
+        name: mcrcon - Run IA commands
+        run: |
+          $GITHUB_WORKSPACE/.github/tools/mcrcon "iareload"
+          sleep 16
+          $GITHUB_WORKSPACE/.github/tools/mcrcon "iazip"
+          sleep 30
+        env:
+          MCRCON_PASS: ${{ secrets.RCON_PASSWORD }}
+
+      -
+        name: DEBUG - Get compose log
+        if: ${{ inputs.debug == true }}
+        run: |
+          docker compose -f .github/compose/docker-compose.yml logs > .github/compose.log
+
+      -
+        name: DEBUG - Upload compose log
+        if: ${{ inputs.debug == true }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: compose-log
+          path: .github/compose.log
+
+      -
+        name: Artifact - Upload generated pack
+        uses: actions/upload-artifact@v4
+        with:
+          name: ia_generatedpack
+          path: output/generated.zip

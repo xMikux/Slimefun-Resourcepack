@@ -1,0 +1,34 @@
+name: Push Beta Resourcepack
+
+on:
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: 'Enable Debug log generate'
+        required: false
+        default: false
+        type: boolean
+  push:
+    branches:
+      - main
+    paths:
+      - Resourcepack/**
+
+jobs:
+  iapacker:
+    name: IA Packer
+    uses: ./.github/workflows/resuable_ia.yml
+    if: |
+      github.repository == 'xMikux/Slimefun-Resourcepack'
+    with:
+      DEBUG: ${{ inputs.debug || false }}
+    secrets:
+      RCON_PASSWORD: ${{ secrets.RCON_PASSWORD }}
+      S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
+      S3_SECRET_KEY: ${{ secrets.S3_SECRET_KEY }}
+      S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
+
+  makeres:
+    name: Slimefun Packer
+    needs: iapacker
+    uses: ./.github/workflows/resuable_packer.yml
