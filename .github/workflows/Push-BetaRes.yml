@@ -19,7 +19,7 @@ jobs:
     if: |
       github.repository == 'xMikux/Slimefun-Resourcepack'
     with:
-      DEBUG: ${{ inputs.debug }}
+      DEBUG: ${{ inputs.debug || false }}
     secrets:
       RCON_PASSWORD: ${{ secrets.RCON_PASSWORD }}
       S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
@@ -31,4 +31,4 @@ jobs:
     needs: iapacker
     uses: ./.github/workflows/resuable_packer.yml
     with:
-      DEBUG: ${{ inputs.debug }}
+      DEBUG: ${{ inputs.debug || false }}
