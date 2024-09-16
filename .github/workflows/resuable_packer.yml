@@ -1,11 +1,7 @@
 name: Make Slimefun Resourcepack
 
 on:
-  workflow_call:
-    inputs:
-      debug:
-        type: boolean
-        required: false
+  workflow_call: {}
 
 jobs:
   sf_resourcepack:

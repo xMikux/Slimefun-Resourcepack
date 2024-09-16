@@ -32,5 +32,3 @@ jobs:
     name: Slimefun Packer
     needs: iapacker
     uses: ./.github/workflows/resuable_packer.yml
-    with:
-      DEBUG: ${{ inputs.debug || false }}
