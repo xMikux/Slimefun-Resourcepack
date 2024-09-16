@@ -1,0 +1,53 @@
+name: Make Slimefun Resourcepack
+
+on:
+  workflow_call:
+    inputs:
+      debug:
+        type: boolean
+        required: false
+
+jobs:
+  sf_resourcepack:
+    name: Generate Slimefun Resourcepack
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      -
+        name: Artifact - Download Pre Generate Pack
+        uses: actions/download-artifact@v4
+        with:
+          name: ia_generatedpack
+          path: workdir
+
+      -
+        name: Setup - Decompress and Move
+        run: |
+          mkdir pack
+          cd workdir
+          unzip generated.zip
+          mv generated/* ../pack
+          ls -alh ../pack
+
+      -
+        name: Setup - Decompress and Move
+        run: |
+          mkdir pack
+          cd workdir
+          unzip generated.zip
+          mv generated/* ../pack
+
+      -
+        name: PackSquash - Optimize It!
+        uses: ComunidadAylas/PackSquash-action@v4
+        with:
+          packsquash_version: latest-unstable
+          artifact_name: Slimefun-ResourcePack
+          options: |
+            pack_directory = 'pack'
+            allow_mods = [ 'OptiFine' ]

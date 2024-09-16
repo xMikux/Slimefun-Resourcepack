@@ -2,6 +2,10 @@ name: Makeup IA Resourcepack
 
 on:
   workflow_call:
+    inputs:
+      debug:
+        type: boolean
+        required: false
     secrets:
       RCON_PASSWORD:
         required: true
@@ -16,7 +20,6 @@ jobs:
   ia_resourcepack:
     name: Generate IA Resourcepack
     runs-on: ubuntu-latest
-
     steps:
       -
         name: Checkout Repository
@@ -24,7 +27,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup - S3cmd Cli Tool
+      -
+        name: Setup - S3cmd Cli Tool
         uses: s3-actions/s3cmd@v1.7.0
         with:
           provider: "vultr"
@@ -42,8 +46,8 @@ jobs:
           rm LICENSE mcrcon.tar.gz
         working-directory: .github
 
-
-      - name: S3 - Download Plugins
+      -
+        name: S3 - Download Plugins
         run: |
           mkdir external
           s3cmd get s3://${{ secrets.S3_BUCKET_NAME }}/ItemsAdder.jar external/ItemsAdder.jar
@@ -73,21 +77,23 @@ jobs:
         env:
           MCRCON_PASS: ${{ secrets.RCON_PASSWORD }}
 
-      - 
+      -
         name: DEBUG - Get compose log
+        if: ${{ inputs.debug == true }}
         run: |
           docker compose -f .github/compose/docker-compose.yml logs > .github/compose.log
 
       -
         name: DEBUG - Upload compose log
+        if: ${{ inputs.debug == true }}
         uses: actions/upload-artifact@v4
         with:
           name: compose-log
           path: .github/compose.log
 
       -
-        name: DEBUG - Upload generated pack
+        name: Artifact - Upload generated pack
         uses: actions/upload-artifact@v4
         with:
           name: ia_generatedpack
-          path: output/*.zip
+          path: output/generated.zip
