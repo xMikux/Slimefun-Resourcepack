@@ -1,48 +1,42 @@
 name: Resuable | Version Maker
 
 on:
-  workflow_call: {}
+  workflow_call:
+    inputs:
+      release_type:
+        type: string
+        required: false
+        default: "beta"
+    outputs:
+      version_name:
+        description: "The version name (ex: git-abcdef or v1.0.0 )"
+        value: ${{ jobs.version_maker.outputs.version_name }}
+      pack_version_name:
+        description: "The pack format will use name (ex: Beta git-abcdef or Release v1.0.0)"
+        value: ${{ jobs.version_maker.outputs.pack_version_name }}
 
 jobs:
   version_maker:
     name: Make Version
     runs-on: ubuntu-latest
+    outputs:
+      version_name: ${{ steps.git_version.outputs.short_sha }}
+      pack_version_name: ${{ steps.pack_version_name.outputs.version_name }}
     steps:
       -
         name: Setup - Checkout Repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       -
-        name: Git Version - Current Version
+        name: Version - Get Current Version
         id: git_version
         run: |
-          echo "version=${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+          echo "short_sha=git-${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
       -
-        name: Setup - Decompress and Move
+        name: Pack Format - Version Name
+        id: pack_version_name
         run: |
-          mkdir pack
-          cd workdir
-          unzip generated.zip
-          mv assets pack.mcmeta pack.png ../pack
-      -
-        name: Clean - Remove unnecessary files
-        run: |
-          rm -r assets/_iainternal
-          rm -r assets/minecraft/blockstates
-          rm -r assets/minecraft/font
-          rm -r assets/minecraft/lang
-          rm -r assets/minecraft/models/block
-          rm -r assets/minecraft/models/item/base
-          rm -r assets/minecraft/shaders
-          rm -r assets/minecraft/textures
-        working-directory: pack
-      -
-        name: PackSquash - Optimize It!
-        uses: ComunidadAylas/PackSquash-action@v4
-        with:
-          packsquash_version: latest-unstable
-          artifact_name: Slimefun-ResourcePack
-          options: |
-            pack_directory = 'pack'
-            allow_mods = [ 'OptiFine' ]
+          if [ "${{ inputs.release_type }}" == "beta" ]; then
+            echo "version_name=§dBeta §f${{ steps.git_version.outputs.short_sha }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ inputs.release_type }}" == "release" ]; then
+            echo "version_name=§bRelease §fvABC?" >> "$GITHUB_OUTPUT"
+          fi

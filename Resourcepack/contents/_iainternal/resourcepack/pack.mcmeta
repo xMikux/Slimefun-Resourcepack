@@ -3,7 +3,7 @@
       "pack_format":34,
       "description":[
          "§bSlimefun §aResourcepack §eRemake",
-         "§dVerison §2Beta v1.0.12"
+         "§dVerison ${VERSION_PLACEHOLDER}"
       ],
       "supported_formats":{
          "min_inclusive":9,
