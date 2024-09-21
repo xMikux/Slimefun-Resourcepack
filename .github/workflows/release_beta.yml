@@ -1,10 +1,10 @@
-name: Push Beta Resourcepack
+name: Release | Beta Pack
 
 on:
   workflow_dispatch:
     inputs:
       debug:
-        description: 'Enable Debug log generate'
+        description: "Generate debug log"
         required: false
         default: false
         type: boolean
