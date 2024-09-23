@@ -52,6 +52,6 @@ jobs:
     needs: [ version-gen, config-upload, res-packer ]
     uses: ./.github/workflows/resuable_release_modrinth.yml
     with:
-      version: ${{ needs.version-gen.outputs.version_name }}
+      version: ${{ needs.version-gen.outputs.version_sha_name }}
     secrets:
       MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
