@@ -8,9 +8,15 @@ on:
         required: false
         default: "beta"
     outputs:
-      version_name:
-        description: "The version name (ex: git-abcdef or v1.0.0 )"
-        value: ${{ jobs.version_maker.outputs.version_name }}
+      version_sha_name:
+        description: "The sha version name (ex: git-abcdef or v1.0.0 )"
+        value: ${{ jobs.version_maker.outputs.version_sha_name }}
+      version_semver_current_name:
+        description: "The semver current version name"
+        value: ${{ jobs.version_maker.outputs.version_semver_current_name }}
+      version_semver_next_name:
+        description: "The semver next version name"
+        value: ${{ jobs.version_maker.outputs.version_semver_next_name }}
       pack_version_name:
         description: "The pack format will use name (ex: Beta git-abcdef or Release v1.0.0)"
         value: ${{ jobs.version_maker.outputs.pack_version_name }}
@@ -20,23 +26,34 @@ jobs:
     name: Make Version
     runs-on: ubuntu-latest
     outputs:
-      version_name: ${{ steps.git_version.outputs.short_sha }}
+      version_sha_name: ${{ steps.version_list.outputs.sha_name }}
+      version_semver_current_name: ${{ steps.version_list.outputs.semver_current_name }}
+      version_semver_next_name: ${{ steps.version_list.outputs.semver_next_name }}
       pack_version_name: ${{ steps.pack_version_name.outputs.version_name }}
     steps:
       -
         name: Setup - Checkout Repository
         uses: actions/checkout@v4
       -
-        name: Version - Get Current Version
-        id: git_version
+        name: Get Next Version
+        id: semver
+        uses: ietf-tools/semver-action@v1
+        with:
+          token: ${{ github.token }}
+          branch: main
+      -
+        name: Version - Get Versions
+        id: version_list
         run: |
-          echo "short_sha=git-${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+          echo "sha_name=git-${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+          echo "semver_current_name=${{ steps.semver.outputs.current }}" >> "$GITHUB_OUTPUT"
+          echo "semver_next_name=${{ steps.semver.outputs.next }}" >> "$GITHUB_OUTPUT"
       -
         name: Pack Format - Version Name
         id: pack_version_name
         run: |
           if [ "${{ inputs.release_type }}" == "beta" ]; then
-            echo "version_name=§dBeta §f${{ steps.git_version.outputs.short_sha }}" >> "$GITHUB_OUTPUT"
+            echo "version_name=§dBeta §f${{ steps.version_list.outputs.sha_name }}" >> "$GITHUB_OUTPUT"
           elif [ "${{ inputs.release_type }}" == "release" ]; then
-            echo "version_name=§bRelease §fvABC?" >> "$GITHUB_OUTPUT"
+            echo "version_name=§bRelease §f${{ steps.version_list.outputs.semver_next_name }}" >> "$GITHUB_OUTPUT"
           fi
