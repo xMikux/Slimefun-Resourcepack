@@ -1,0 +1,55 @@
+name: Resuable | Makeup Slimefun Respack
+
+on:
+  workflow_call: {}
+
+jobs:
+  sf_resourcepack:
+    name: Generate Slimefun Resourcepack
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Setup - Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      -
+        name: Artifact - Download Pre Generate Pack
+        uses: actions/download-artifact@v4
+        with:
+          name: ia-generatedpack
+          path: workdir
+      -
+        name: Setup - Decompress and Move
+        run: |
+          mkdir pack
+          cd workdir
+          unzip generated.zip
+          mv assets pack.mcmeta pack.png ../pack
+      -
+        name: Clean - Remove unnecessary files
+        run: |
+          rm -r assets/_iainternal
+          rm -r assets/minecraft/blockstates
+          rm -r assets/minecraft/font
+          rm -r assets/minecraft/lang
+          rm -r assets/minecraft/models/block
+          rm -r assets/minecraft/models/item/base
+          rm -r assets/minecraft/shaders
+          rm -r assets/minecraft/textures
+        working-directory: pack
+      -
+        name: PackSquash - Optimize It!
+        uses: ComunidadAylas/PackSquash-action@v4
+        with:
+          packsquash_version: latest-unstable
+          artifact_name: Slimefun-ResourcePack
+          options: |
+            pack_directory = 'pack'
+            allow_mods = [ 'OptiFine' ]
+      -
+        name: Artifact - Clean IA Generate Pack
+        uses: geekyeggo/delete-artifact@v5
+        with:
+          name: |
+              ia-generatedpack

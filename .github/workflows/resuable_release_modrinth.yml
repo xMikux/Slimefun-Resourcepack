@@ -1,0 +1,67 @@
+name: Resuable | Modrinth Release
+
+on:
+  workflow_call:
+    inputs:
+      release_type:
+        type: string
+        required: false
+        default: "beta"
+      version:
+        type: string
+        required: true
+      changelog:
+        type: string
+        required: false
+        default: ""
+    secrets:
+      MODRINTH_TOKEN:
+        required: true
+
+jobs:
+  modrinth_release:
+    name: Release Modrinth
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Artifact - Download Slimefun Resourcepack
+        uses: actions/download-artifact@v4
+        with:
+          path: workdir
+          merge-multiple: true
+      -
+        name: Name - Fix naming
+        run: |
+          mv workdir/pack.zip Slimefun-ResourcePack.zip
+          mv workdir/*.zip .
+          ls -alh
+      -
+        name: Verify - Check Release Feature
+        id: verify
+        run: |
+          if [ "${{ inputs.release_type }}" == "beta" ]; then
+            released=false
+          elif [ "${{ inputs.release_type }}" == "release" ]; then
+            released=true
+          fi
+          echo "is_release=$released" >> "$GITHUB_OUTPUT"
+      -
+        name: Modrinth - Relase
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: TznkVJky
+          modrinth-featured: ${{ steps.verify.outputs.is_release }}
+          modrinth-unfeature-mode: subset
+          version: ${{ inputs.version }}
+          version-type: ${{ inputs.release_type }}
+          loaders: minecraft
+          game-versions: ">=1.19"
+          changelog: |
+            ${{ inputs.changelog }}
+          dependencies: |
+            otVJckYQ(recommended)
+          files: |
+            Slimefun-ResourcePack.zip
+            item-models.zip
+            ia-addons.zip
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}

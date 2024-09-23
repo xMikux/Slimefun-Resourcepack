@@ -1,0 +1,43 @@
+name: Resuable | Configs Upload
+
+on:
+  workflow_call: {}
+
+jobs:
+  item-models-upload:
+    name: Upload item models file
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Setup - Checkout Repository
+        uses: actions/checkout@v4
+      -
+        name: Compress - Item Models
+        run: |
+          zip -j9 item-models.zip Resourcepack/item-models.yml
+      -
+        name: Artifact - Upload Item Models
+        uses: actions/upload-artifact@v4
+        with:
+          name: config-item-models
+          path: item-models.zip
+  
+  ia-config-upload:
+    name: Upload ia config file
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Setup - Checkout Repository
+        uses: actions/checkout@v4
+      -
+        name: Compress - IA Config
+        run: |
+          zip -r9 ia-addons.zip contents/
+          mv ia-addons.zip ../
+        working-directory: Resourcepack
+      -
+        name: Artifact - Upload Item Models
+        uses: actions/upload-artifact@v4
+        with:
+          name: config-ia
+          path: ia-addons.zip

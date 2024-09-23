@@ -139,6 +139,17 @@ Slimefun & Addons Models ID Range List
 
 There are still a lot of textures missing! Welcome to contribute more textures!
 
+## Version Format
+
+We are using Semantic Versioning v2 format
+
+Only some differences, like *Major* version won't be changed.
+
+Format vMAJOR.MINOR.PATCH:
+- **Major**: Won't be changed (will be changed if I want to redo ID range list)
+- **Minor**: When changing or adding new textures
+- **Patch**: When fixing, update path, mc version, etc.
+
 ## ⭐ Credits
 
 <table>
@@ -322,6 +333,23 @@ There are still a lot of textures missing! Welcome to contribute more textures!
       ><br />
       <p>
         SlimefunWarfare addon texture contributor
+      </p>
+      </a>
+    </td>
+  </tr>
+  <!-- Next Line -->
+  <tr>
+    <!-- JustAHuman-xD -->
+    <td align="center">
+      <a href="https://github.com/JustAHuman-xD"
+        ><img
+          src="https://avatars.githubusercontent.com/u/65748158?v=4"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>JustAHuman-xD</b></sub></a
+      ><br />
+      <p>
+        SlimefunEssentials Mod Author
       </p>
       </a>
     </td>

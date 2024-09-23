@@ -1,0 +1,64 @@
+name: Release | Publish Pack
+
+on:
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: "Generate debug log"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  version-gen:
+    name: Version Generator
+    uses: ./.github/workflows/resuable_version.yml
+    if: |
+      github.repository == 'xMikux/Slimefun-Resourcepack'
+    with:
+      release_type: "release"
+
+  config-upload:
+    name: Upload Item Models
+    uses: ./.github/workflows/resuable_configs.yml
+    if: |
+      github.repository == 'xMikux/Slimefun-Resourcepack'
+
+  ia-packer:
+    name: IA Packer
+    needs: [ version-gen ]
+    uses: ./.github/workflows/resuable_ia.yml
+    with:
+      debug: ${{ inputs.debug || false }}
+      pack_format_version_str: ${{ needs.version-gen.outputs.pack_version_name }}
+    secrets:
+      RCON_PASSWORD: ${{ secrets.RCON_PASSWORD }}
+      S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
+      S3_SECRET_KEY: ${{ secrets.S3_SECRET_KEY }}
+      S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
+
+  res-packer:
+    name: Slimefun Packer
+    needs: [ ia-packer ]
+    uses: ./.github/workflows/resuable_packer.yml
+
+  res-publish-github:
+    name: Publish GitHub Release
+    needs: [ version-gen, config-upload, res-packer ]
+    uses: ./.github/workflows/resuable_release_gh.yml
+    with:
+      next_version: ${{ needs.version-gen.outputs.version_semver_next_name }}
+
+  res-publish-modrinth:
+    name: Publish Modrinth Release
+    needs: [ version-gen, res-publish-github ]
+    uses: ./.github/workflows/resuable_release_modrinth.yml
+    with:
+      version: ${{ needs.version-gen.outputs.version_semver_next_name }}
+      release_type: release
+      changelog: ${{ needs.res-publish-github.outputs.changelog }}
+    secrets:
+      MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
