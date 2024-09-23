@@ -10,6 +10,10 @@ on:
       version:
         type: string
         required: true
+      changelog:
+        type: string
+        required: false
+        default: ""
     secrets:
       MODRINTH_TOKEN:
         required: true
@@ -32,15 +36,28 @@ jobs:
           mv workdir/*.zip .
           ls -alh
       -
-        name: Modrinth - Relase Beta
+        name: Verify - Check Release Feature
+        id: verify
+        run: |
+          if [ "${{ inputs.release_type }}" == "beta" ]; then
+            released=false
+          elif [ "${{ inputs.release_type }}" == "release" ]; then
+            released=true
+          fi
+          echo "is_release=$released" >> "$GITHUB_OUTPUT"
+      -
+        name: Modrinth - Relase
         uses: Kir-Antipov/mc-publish@v3.3
         with:
           modrinth-id: TznkVJky
-          modrinth-featured: false
+          modrinth-featured: ${{ steps.verify.outputs.is_release }}
+          modrinth-unfeature-mode: subset
           version: ${{ inputs.version }}
-          version-type: beta
+          version-type: ${{ inputs.release_type }}
           loaders: minecraft
           game-versions: ">=1.19"
+          changelog: |
+            ${{ inputs.changelog }}
           dependencies: |
             otVJckYQ(recommended)
           files: |

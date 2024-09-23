@@ -2,7 +2,6 @@ name: Release | Version Test
 
 on:
   workflow_dispatch: {}
-  push:
 
 jobs:
   version-gen-beta:
@@ -27,8 +26,8 @@ jobs:
       - name: Act - Summary
         run: |
           echo "# Version Summary" >> $GITHUB_STEP_SUMMARY
-          echo "- Current Version: ${{ needs.version-gen-release.outputs.version_semver_current_name }}" >> $GITHUB_STEP_SUMMARY
-          echo "- Next Version: ${{ needs.version-gen-release.outputs.version_semver_next_name }}" >> $GITHUB_STEP_SUMMARY
-          echo "- SHA Version: ${{ needs.version-gen-release.outputs.version_sha_name }}" >> $GITHUB_STEP_SUMMARY
-          echo "- PackFormat - Beta: ${{ needs.version-gen-beta.outputs.pack_version_name }}" >> $GITHUB_STEP_SUMMARY
-          echo "- PackFormat - Release: ${{ needs.version-gen-release.outputs.pack_version_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Current Version: `${{ needs.version-gen-release.outputs.version_semver_current_name }}`" >> $GITHUB_STEP_SUMMARY
+          echo "- Next Version: `${{ needs.version-gen-release.outputs.version_semver_next_name }}`" >> $GITHUB_STEP_SUMMARY
+          echo "- SHA Version: `${{ needs.version-gen-release.outputs.version_sha_name }}`" >> $GITHUB_STEP_SUMMARY
+          echo "- PackFormat - Beta: `${{ needs.version-gen-beta.outputs.pack_version_name }}`" >> $GITHUB_STEP_SUMMARY
+          echo "- PackFormat - Release: `${{ needs.version-gen-release.outputs.pack_version_name }}`" >> $GITHUB_STEP_SUMMARY
