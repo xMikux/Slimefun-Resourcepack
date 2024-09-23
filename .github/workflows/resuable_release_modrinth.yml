@@ -7,6 +7,9 @@ on:
         type: string
         required: false
         default: "beta"
+      version:
+        type: string
+        required: true
     secrets:
       MODRINTH_TOKEN:
         required: true
@@ -29,18 +32,12 @@ jobs:
           mv workdir/*.zip .
           ls -alh
       -
-        name: DEBUG Git Version - Current Version
-        id: git_version
-        run: |
-          echo "version=git-${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
-          echo "git-${GITHUB_SHA::7}"
-      -
         name: Modrinth - Relase Beta
         uses: Kir-Antipov/mc-publish@v3.3
         with:
           modrinth-id: TznkVJky
           modrinth-featured: false
-          version: ${{ steps.git_version.outputs.version }}
+          version: ${{ inputs.version }}
           version-type: beta
           loaders: minecraft
           game-versions: ">=1.19"

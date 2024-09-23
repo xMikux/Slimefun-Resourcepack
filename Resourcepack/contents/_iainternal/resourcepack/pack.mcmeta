@@ -2,8 +2,8 @@
    "pack":{
       "pack_format":34,
       "description":[
-         "§bSlimefun §aResourcepack §eRemake",
-         "§dVerison §2Beta v1.0.12"
+         "§2Slimefun §9Resourcepack §6Remake",
+         "\n${VERSION_PLACEHOLDER}"
       ],
       "supported_formats":{
          "min_inclusive":9,

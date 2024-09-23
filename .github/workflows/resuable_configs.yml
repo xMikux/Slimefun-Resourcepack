@@ -23,7 +23,7 @@ jobs:
           path: item-models.zip
   
   ia-config-upload:
-    name: Upload item models file
+    name: Upload ia config file
     runs-on: ubuntu-latest
     steps:
       -
