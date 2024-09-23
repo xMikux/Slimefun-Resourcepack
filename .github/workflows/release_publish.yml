@@ -1,4 +1,4 @@
-name: Release | Beta Pack
+name: Release | Publish Pack
 
 on:
   workflow_dispatch:
@@ -8,11 +8,6 @@ on:
         required: false
         default: false
         type: boolean
-  push:
-    branches:
-      - main
-    paths:
-      - Resourcepack/**
 
 jobs:
   version-gen:
@@ -21,7 +16,7 @@ jobs:
     if: |
       github.repository == 'xMikux/Slimefun-Resourcepack'
     with:
-      release_type: "beta"
+      release_type: "release"
 
   config-upload:
     name: Upload Item Models
@@ -47,12 +42,20 @@ jobs:
     needs: [ ia-packer ]
     uses: ./.github/workflows/resuable_packer.yml
 
-  res-publish-modrinth:
-    name: Publish Modrinth Beta
+  res-publish-github:
+    name: Publish GitHub Release
     needs: [ version-gen, config-upload, res-packer ]
+    uses: ./.github/workflows/resuable_release_gh.yml
+    with:
+      next_version: ${{ needs.version-gen.outputs.version_semver_next_name }}
+
+  res-publish-modrinth:
+    name: Publish Modrinth Release
+    needs: [ version-gen, res-publish-github ]
     uses: ./.github/workflows/resuable_release_modrinth.yml
     with:
-      version: ${{ needs.version-gen.outputs.version_sha_name }}
-      release_type: beta
+      version: ${{ needs.version-gen.outputs.version_semver_next_name }}
+      release_type: release
+      changelog: ${{ needs.res-publish-github.outputs.changelog }}
     secrets:
       MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}

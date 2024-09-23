@@ -3,16 +3,60 @@ name: Resuable | GitHub Release
 on:
   workflow_call:
     inputs:
-      release_type:
+      next_version:
         type: string
-        required: false
-        default: "beta"
+        required: true
+    outputs:
+      changelog:
+        description: "Changelog markdown"
+        value: ${{ jobs.github_release.outputs.changelog }}
 
 jobs:
   github_release:
     name: Release GitHub
     runs-on: ubuntu-latest
+    outputs:
+      changelog: ${{ steps.changelog.outputs.changes }}
     steps:
-      - name: abc
+      -
+        name: Artifact - Download Slimefun Resourcepack
+        uses: actions/download-artifact@v4
+        with:
+          path: workdir
+          merge-multiple: true
+      -
+        name: Name - Fix naming
         run: |
-          abc
+          mv workdir/pack.zip Slimefun-ResourcePack.zip
+          mv workdir/*.zip .
+          ls -alh
+      -
+        name: GitHub - Create Draft Release
+        uses: ncipollo/release-action@v1.14.0
+        with:
+          prerelease: true
+          draft: false
+          commit: ${{ github.sha }}
+          tag: ${{ inputs.next_version }}
+          name: ${{ inputs.next_version }}
+          body: "*pending*"
+      - name: Changelog - Generate Changelog
+        id: changelog
+        uses: requarks/changelog-action@v1
+        with:
+          token: ${{ github.token }}
+          tag: ${{ inputs.next_version }}
+      -
+        name: GitHub - Update Release
+        uses: ncipollo/release-action@v1.14.0
+        with:
+          allowUpdates: true
+          draft: false
+          makeLatest: true
+          tag: ${{ inputs.next_version }}
+          name: ${{ inputs.next_version }}
+          body: ${{ steps.changelog.outputs.changes }}
+          artifacts: |
+            Slimefun-ResourcePack.zip
+            item-models.zip
+            ia-addons.zip
