@@ -1,0 +1,1028 @@
+info:
+  namespace: gastronomicon
+items:
+  gn_rice:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PUMPKIN_SEEDS
+      generate: false
+      model_id: 2203034
+      model_path: "ingredient/gn_rice"
+
+  gn_quinoa:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PUMPKIN_SEEDS
+      generate: false
+      model_id: 2203035
+      model_path: "ingredient/gn_quinoa"
+
+  gn_oats:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BEETROOT_SEEDS
+      generate: false
+      model_id: 2203036
+      model_path: "ingredient/gn_oats"
+
+  gn_soybeans:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BEETROOT_SEEDS
+      generate: false
+      model_id: 2203037
+      model_path: "ingredient/gn_soybeans"
+
+  gn_barley:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: WHEAT
+      generate: false
+      model_id: 2203038
+      model_path: "ingredient/gn_barley"
+
+  gn_barley_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: WHEAT_SEEDS
+      generate: false
+      model_id: 2203039
+      model_path: "ingredient/gn_barley_seeds"
+
+  gn_rye:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: WHEAT
+      generate: false
+      model_id: 2203040
+      model_path: "ingredient/gn_rye"
+
+  gn_rye_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PUMPKIN_SEEDS
+      generate: false
+      model_id: 2203041
+      model_path: "ingredient/gn_rye_seeds"
+
+  gn_sorghum:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: WHEAT
+      generate: false
+      model_id: 2203042
+      model_path: "ingredient/gn_sorghum"
+
+  gn_sorghum_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BEETROOT_SEEDS
+      generate: false
+      model_id: 2203043
+      model_path: "ingredient/gn_sorghum_seeds"
+
+  gn_turnip:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BEETROOT
+      generate: false
+      model_id: 2203044
+      model_path: "ingredient/gn_turnip"
+
+  gn_turnip_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: MELON_SEEDS
+      generate: false
+      model_id: 2203045
+      model_path: "ingredient/gn_turnip_seeds"
+
+  gn_squash:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: MELON
+      generate: false
+      model_id: 2203046
+      model_path: "ingredient/gn_squash"
+
+  gn_squash_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PUMPKIN_SEEDS
+      generate: false
+      model_id: 2203047
+      model_path: "ingredient/gn_squash_seeds"
+
+  gn_celery:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: SUGAR_CANE
+      generate: false
+      model_id: 2203048
+      model_path: "ingredient/gn_celery"
+
+  gn_bok_choy:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: MANGROVE_PROPAGULE
+      generate: false
+      model_id: 2203049
+      model_path: "ingredient/gn_bok_choy"
+
+  gn_bok_choy_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: MELON_SEEDS
+      generate: false
+      model_id: 2203050
+      model_path: "ingredient/gn_bok_choy_seeds"
+
+  gn_broccoli:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2203051
+      model_path: "ingredient/gn_broccoli"
+
+  gn_broccoli_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: MELON_SEEDS
+      generate: false
+      model_id: 2203052
+      model_path: "ingredient/gn_broccoli_seeds"
+
+  gn_cucumber:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: SEA_PICKLE
+      generate: false
+      model_id: 2203053
+      model_path: "ingredient/gn_cucumber"
+
+  gn_cucumber_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PUMPKIN_SEEDS
+      generate: false
+      model_id: 2203054
+      model_path: "ingredient/gn_cucumber_seeds"
+
+  gn_basil:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: KELP
+      generate: false
+      model_id: 2203055
+      model_path: "ingredient/gn_basil"
+
+  gn_basil_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: MELON_SEEDS
+      generate: false
+      model_id: 2203056
+      model_path: "ingredient/gn_basil_seeds"
+
+  gn_spinach:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BIG_DRIPLEAF
+      generate: false
+      model_id: 2203057
+      model_path: "ingredient/gn_spinach"
+
+  gn_spinach_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BEETROOT_SEEDS
+      generate: false
+      model_id: 2203058
+      model_path: "ingredient/gn_spinach_seeds"
+
+  gn_brussles_sprouts:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: SMALL_DRIPLEAF
+      generate: false
+      model_id: 2203059
+      model_path: "ingredient/gn_brussles_sprouts"
+
+  gn_mint:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: FERN
+      generate: false
+      model_id: 2203060
+      model_path: "ingredient/gn_mint"
+
+  gn_mint_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: MELON_SEEDS
+      generate: false
+      model_id: 2203061
+      model_path: "ingredient/gn_mint_seeds"
+
+  gn_chili_pepper:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: RED_CANDLE
+      generate: false
+      model_id: 2203062
+      model_path: "ingredient/gn_chili_pepper"
+
+  gn_chili_pepper_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PUMPKIN_SEEDS
+      generate: false
+      model_id: 2203063
+      model_path: "ingredient/gn_chili_pepper_seeds"
+
+  gn_parsley:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: SMALL_DRIPLEAF
+      generate: false
+      model_id: 2203064
+      model_path: "ingredient/gn_parsley"
+
+  gn_parsley_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: MELON_SEEDS
+      generate: false
+      model_id: 2203065
+      model_path: "ingredient/gn_parsley_seeds"
+
+  gn_cassava:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: CARROT
+      generate: false
+      model_id: 2203066
+      model_path: "ingredient/gn_cassava"
+
+  gn_lentils:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PUMPKIN_SEEDS
+      generate: false
+      model_id: 2203067
+      model_path: "ingredient/gn_lentils"
+
+  gn_peanuts:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PUMPKIN_SEEDS
+      generate: false
+      model_id: 2203068
+      model_path: "ingredient/gn_peanuts"
+
+  gn_beans:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BEETROOT_SEEDS
+      generate: false
+      model_id: 2203069
+      model_path: "ingredient/gn_beans"
+
+  gn_peas:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: WHEAT_SEEDS
+      generate: false
+      model_id: 2203070
+      model_path: "ingredient/gn_peas"
+
+  gn_asparagus:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BAMBOO
+      generate: false
+      model_id: 2203071
+      model_path: "ingredient/gn_asparagus"
+
+  gn_asparagus_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: MELON_SEEDS
+      generate: false
+      model_id: 2203072
+      model_path: "ingredient/gn_asparagus_seeds"
+
+  gn_green_onion:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: MANGROVE_PROPAGULE
+      generate: false
+      model_id: 2203073
+      model_path: "ingredient/gn_green_onion"
+
+  gn_green_onion_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: MELON_SEEDS
+      generate: false
+      model_id: 2203074
+      model_path: "ingredient/gn_green_onion_seeds"
+
+  gn_cauliflower:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BIRCH_SAPLING
+      generate: false
+      model_id: 2203075
+      model_path: "ingredient/gn_cauliflower"
+
+  gn_cauliflower_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PUMPKIN_SEEDS
+      generate: false
+      model_id: 2203076
+      model_path: "ingredient/gn_cauliflower_seeds"
+
+  gn_avocado:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: LIME_DYE
+      generate: false
+      model_id: 2203077
+      model_path: "ingredient/gn_avocado"
+
+  gn_avocado_pit:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: DARK_OAK_BUTTON
+      generate: false
+      model_id: 2203078
+      model_path: "ingredient/gn_avocado_pit"
+
+  gn_turmeric:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: POTATO
+      generate: false
+      model_id: 2203079
+      model_path: "ingredient/gn_turmeric"
+
+  gn_cumin_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PUMPKIN_SEEDS
+      generate: false
+      model_id: 2203080
+      model_path: "ingredient/gn_cumin_seeds"
+
+  gn_red_beans:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COCOA_BEANS
+      generate: false
+      model_id: 2203081
+      model_path: "ingredient/gn_red_beans"
+
+  gn_cantaloupe:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: MELON
+      generate: false
+      model_id: 2203082
+      model_path: "ingredient/gn_cantaloupe"
+
+  gn_cantaloupe_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PUMPKIN_SEEDS
+      generate: false
+      model_id: 2203083
+      model_path: "ingredient/gn_cantaloupe_seeds"
+
+  gn_honeydew_melon:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: MELON
+      generate: false
+      model_id: 2203084
+      model_path: "ingredient/gn_honeydew_melon"
+
+  gn_honeydew_melon_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PUMPKIN_SEEDS
+      generate: false
+      model_id: 2203085
+      model_path: "ingredient/gn_honeydew_melon_seeds"
+
+  gn_sesame_seeds:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PUMPKIN_SEEDS
+      generate: false
+      model_id: 2203086
+      model_path: "ingredient/gn_sesame_seeds"
+
+  gn_vanilla_beans:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2203087
+      model_path: "ingredient/gn_vanilla_beans"
+
+  gn_vanilla_plant:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: VINE
+      generate: false
+      model_id: 2203088
+      model_path: "ingredient/gn_vanilla_plant"
+
+  gn_lychee:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2203089
+      model_path: "ingredient/gn_lychee"
+
+  gn_lychee_sapling:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2203090
+      model_path: "ingredient/gn_lychee_sapling"
+
+  gn_banana:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2203091
+      model_path: "ingredient/gn_banana"
+
+  gn_banana_sapling:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2203092
+      model_path: "ingredient/gn_banana_sapling"
+
+  gn_fiddleheads:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: FERN
+      generate: false
+      model_id: 2203093
+      model_path: "ingredient/gn_fiddleheads"
+
+  gn_truffle:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BROWN_MUSHROOM
+      generate: false
+      model_id: 2203094
+      model_path: "ingredient/gn_truffle"
+
+  gn_enoki_mushrooms:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BROWN_MUSHROOM
+      generate: false
+      model_id: 2203095
+      model_path: "ingredient/gn_enoki_mushrooms"
+
+  gn_king_oyster_mushroom:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BROWN_MUSHROOM
+      generate: false
+      model_id: 2203096
+      model_path: "ingredient/gn_king_oyster_mushroom"
+
+  gn_button_mushroom:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BROWN_MUSHROOM
+      generate: false
+      model_id: 2203097
+      model_path: "ingredient/gn_button_mushroom"
+
+  gn_clam:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: NAUTILUS_SHELL
+      generate: false
+      model_id: 2203098
+      model_path: "ingredient/gn_clam"
+
+  gn_raw_chevon:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: MUTTON
+      generate: false
+      model_id: 2203099
+      model_path: "ingredient/gn_raw_chevon"
+
+  gn_cooked_chevon:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COOKED_MUTTON
+      generate: false
+      model_id: 2203100
+      model_path: "ingredient/gn_cooked_chevon"
+
+  gn_salmon_roe:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PUMPKIN_SEEDS
+      generate: false
+      model_id: 2203101
+      model_path: "ingredient/gn_salmon_roe"
+
+  gn_guardian_fin:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PRISMARINE_SHARD
+      generate: false
+      model_id: 2203102
+      model_path: "ingredient/gn_guardian_fin"
+
+  gn_raw_squid:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PORKCHOP
+      generate: false
+      model_id: 2203103
+      model_path: "ingredient/gn_raw_squid"
+
+  gn_cooked_squid:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COOKED_PORKCHOP
+      generate: false
+      model_id: 2203104
+      model_path: "ingredient/gn_cooked_squid"
+
+  gn_raw_mackerel:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COD
+      generate: false
+      model_id: 2203105
+      model_path: "ingredient/gn_raw_mackerel"
+
+  gn_cooked_mackerel:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COOKED_COD
+      generate: false
+      model_id: 2203106
+      model_path: "ingredient/gn_cooked_mackerel"
+
+  gn_raw_eel:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: SALMON
+      generate: false
+      model_id: 2203107
+      model_path: "ingredient/gn_raw_eel"
+
+  gn_cooked_eel:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COOKED_SALMON
+      generate: false
+      model_id: 2203108
+      model_path: "ingredient/gn_cooked_eel"
+
+  gn_raw_trout:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COD
+      generate: false
+      model_id: 2203109
+      model_path: "ingredient/gn_raw_trout"
+
+  gn_cooked_trout:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COOKED_COD
+      generate: false
+      model_id: 2203110
+      model_path: "ingredient/gn_cooked_trout"
+
+  gn_raw_bass:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COD
+      generate: false
+      model_id: 2203111
+      model_path: "ingredient/gn_raw_bass"
+
+  gn_cooked_bass:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COOKED_COD
+      generate: false
+      model_id: 2203112
+      model_path: "ingredient/gn_cooked_bass"
+
+  gn_raw_carp:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COD
+      generate: false
+      model_id: 2203113
+      model_path: "ingredient/gn_raw_carp"
+
+  gn_cooked_carp:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COOKED_COD
+      generate: false
+      model_id: 2203114
+      model_path: "ingredient/gn_cooked_carp"
+
+  gn_raw_pike:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COD
+      generate: false
+      model_id: 2203115
+      model_path: "ingredient/gn_raw_pike"
+
+  gn_cooked_pike:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COOKED_COD
+      generate: false
+      model_id: 2203116
+      model_path: "ingredient/gn_cooked_pike"
+
+  gn_raw_tuna:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COD
+      generate: false
+      model_id: 2203117
+      model_path: "ingredient/gn_raw_tuna"
+
+  gn_cooked_tuna:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COOKED_COD
+      generate: false
+      model_id: 2203118
+      model_path: "ingredient/gn_cooked_tuna"
+
+  gn_shrimp:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COD
+      generate: false
+      model_id: 2203119
+      model_path: "ingredient/gn_shrimp"
+
+  gn_crab:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: RED_DYE
+      generate: false
+      model_id: 2203120
+      model_path: "ingredient/gn_crab"
+
+  gn_raw_turkey:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: CHICKEN
+      generate: false
+      model_id: 2203121
+      model_path: "ingredient/gn_raw_turkey"
+
+  gn_cooked_turkey:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: COOKED_CHICKEN
+      generate: false
+      model_id: 2203122
+      model_path: "ingredient/gn_cooked_turkey"
+
+  gn_cooked_rice:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: SUGAR
+      generate: false
+      model_id: 2203123
+      model_path: "food/gn_cooked_rice"
+
+  gn_barley_flour:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: SUGAR
+      generate: false
+      model_id: 2203124
+      model_path: "food/gn_barley_flour"
+
+  gn_sorghum_flour:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: SUGAR
+      generate: false
+      model_id: 2203125
+      model_path: "food/gn_sorghum_flour"
+
+  gn_rye_flour:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: SUGAR
+      generate: false
+      model_id: 2203126
+      model_path: "food/gn_rye_flour"
+
+  gn_dough:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: POTATO
+      generate: false
+      model_id: 2203127
+      model_path: "food/gn_dough"
+
+  gn_toast:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BREAD
+      generate: false
+      model_id: 2203128
+      model_path: "food/gn_toast"
+
+  gn_naan_bread:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BREAD
+      generate: false
+      model_id: 2203129
+      model_path: "food/gn_naan_bread"
+
+  gn_peanut_butter:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2203130
+      model_path: "food/gn_peanut_butter"
+
+  gn_fried_egg:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: EGG
+      generate: false
+      model_id: 2203131
+      model_path: "food/gn_fried_egg"
+
+  gn_hard_boiled_egg:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: EGG
+      generate: false
+      model_id: 2203132
+      model_path: "food/gn_hard_boiled_egg"
+
+  gn_scrambled_eggs:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: YELLOW_DYE
+      generate: false
+      model_id: 2203133
+      model_path: "food/gn_scrambled_eggs"
+
+  gn_custard:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: YELLOW_DYE
+      generate: false
+      model_id: 2203134
+      model_path: "food/gn_custard"
+
+  gn_caramel:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BROWN_DYE
+      generate: false
+      model_id: 2203135
+      model_path: "food/gn_caramel"
+
+  gn_marmalade:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: HONEY_BOTTLE
+      generate: false
+      model_id: 2203136
+      model_path: "food/gn_marmalade"
+
+  gn_ketchup:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2203137
+      model_path: "food/gn_ketchup"
+
+  gn_pulled_pork:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BROWN_DYE
+      generate: false
+      model_id: 2203138
+      model_path: "food/gn_pulled_pork"
+
+  gn_ground_beef:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BROWN_DYE
+      generate: false
+      model_id: 2203139
+      model_path: "food/gn_ground_beef"
+
+  gn_baked_beans:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BEETROOT_SEEDS
+      generate: false
+      model_id: 2203140
+      model_path: "food/gn_baked_beans"
+
+  gn_miso:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: GLOWSTONE_DUST
+      generate: false
+      model_id: 2203141
+      model_path: "food/gn_miso"
+
+  gn_tofu:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BIRCH_BUTTON
+      generate: false
+      model_id: 2203142
+      model_path: "food/gn_tofu"
+
+  gn_soy_sauce:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: POTION
+      generate: false
+      model_id: 2203143
+      model_path: "food/gn_soy_sauce"
+
+  gn_turmeric_powder:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: GLOWSTONE_DUST
+      generate: false
+      model_id: 2203144
+      model_path: "food/gn_turmeric_powder"
+
+  gn_red_bean_paste:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: RED_DYE
+      generate: false
+      model_id: 2203145
+      model_path: "food/gn_red_bean_paste"
+
+  gn_tapioca_starch:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: SUGAR
+      generate: false
+      model_id: 2203146
+      model_path: "food/gn_tapioca_starch"
+
+  gn_tapioca_pearls:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PRISMARINE_CRYSTALS
+      generate: false
+      model_id: 2203147
+      model_path: "food/gn_tapioca_pearls"
