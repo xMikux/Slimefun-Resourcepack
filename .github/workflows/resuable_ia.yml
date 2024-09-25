@@ -31,7 +31,7 @@ jobs:
           fetch-depth: 0
       -
         name: Setup - S3cmd Cli Tool
-        uses: s3-actions/s3cmd@v1.7.0
+        uses: s3-actions/s3cmd@v1.8.0
         with:
           provider: "vultr"
           region: "sgp1"
