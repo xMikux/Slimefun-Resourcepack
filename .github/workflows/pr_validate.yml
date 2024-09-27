@@ -24,6 +24,5 @@ jobs:
         with:
           exclude_file: .github/configs/validate-ignore.txt
           json_extension: |
-            .json
             .mcmeta
           use_gitignore: false
