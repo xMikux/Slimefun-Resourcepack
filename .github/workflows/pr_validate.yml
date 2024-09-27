@@ -14,13 +14,36 @@ jobs:
     runs-on: ubuntu-latest
     if: |
       github.repository == 'xMikux/Slimefun-Resourcepack'
+    env:
+      base_dir: Resourcepack
 
     steps:
       - name: 📄 Checking Repostiory
         uses: actions/checkout@v4
 
-      - name: ⚙️ Validate Files
+      - name: ⚙️ Validate json
         uses: GrantBirki/json-yaml-validate@v3.2.1
         with:
-          exclude_file: .github/configs/validate-ignore.txt
+          base_dir: ${{ env.base_dir }}
+          json_extension: ".json"
+          yaml_extension: ".ignore-yaml"
+          yaml_extension_short: ".ignore-yml"
+          use_gitignore: false
+
+      - name: ⚙️ Validate mcmeta
+        uses: GrantBirki/json-yaml-validate@v3.2.1
+        with:
+          base_dir: ${{ env.base_dir }}
+          json_extension: ".mcmeta"
+          yaml_extension: ".ignore-yaml"
+          yaml_extension_short: ".ignore-yml"
+          use_gitignore: false
+
+      - name: ⚙️ Validate yaml
+        uses: GrantBirki/json-yaml-validate@v3.2.1
+        with:
+          base_dir: ${{ env.base_dir }}
+          json_extension: ".ignore-json"
+          yaml_extension: ".yaml"
+          yaml_extension_short: ".yml"
           use_gitignore: false
