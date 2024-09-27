@@ -25,21 +25,25 @@ jobs:
         uses: GrantBirki/json-yaml-validate@v3.2.1
         with:
           base_dir: ${{ env.base_dir }}
-          exclude_file: .github/configs/validate-ignore-yml.txt
-          json_extension: .json
+          json_extension: ".json"
+          yaml_extension: ".ignore-yaml"
+          yaml_extension_short: ".ignore-yml"
           use_gitignore: false
 
       - name: ⚙️ Validate mcmeta
         uses: GrantBirki/json-yaml-validate@v3.2.1
         with:
           base_dir: ${{ env.base_dir }}
-          exclude_file: .github/configs/validate-ignore-mcmeta.txt
-          json_extension: .mcmeta
+          json_extension: ".mcmeta"
+          yaml_extension: ".ignore-yaml"
+          yaml_extension_short: ".ignore-yml"
           use_gitignore: false
 
       - name: ⚙️ Validate yaml
         uses: GrantBirki/json-yaml-validate@v3.2.1
         with:
           base_dir: ${{ env.base_dir }}
-          exclude_file: .github/configs/validate-ignore-json.txt
+          json_extension: ".ignore-json"
+          yaml_extension: ".yaml"
+          yaml_extension_short: ".yml"
           use_gitignore: false
