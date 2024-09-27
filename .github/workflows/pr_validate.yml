@@ -23,4 +23,7 @@ jobs:
         uses: GrantBirki/json-yaml-validate@v3.2.1
         with:
           exclude_file: .github/configs/validate-ignore.txt
+          json_extension: |
+            .json
+            .mcmeta
           use_gitignore: false
