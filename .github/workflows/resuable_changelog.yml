@@ -3,9 +3,6 @@ name: Resuable | ChangeLog Generator
 on:
   workflow_call:
     inputs:
-      this_version:
-        type: string
-        required: true
       next_version:
         type: string
         required: true
@@ -21,16 +18,16 @@ jobs:
     outputs:
       changelog: ${{ steps.changelog_emoji.outputs.changelog }}
     steps:
-      # -
-      #   name: GitHub - Create Draft Release
-      #   uses: ncipollo/release-action@v1.14.0
-      #   with:
-      #     prerelease: true
-      #     draft: false
-      #     commit: ${{ github.sha }}
-      #     tag: ${{ inputs.next_version }}
-      #     name: ${{ inputs.next_version }}
-      #     body: "*pending*"
+      -
+        name: GitHub - Create Draft Release
+        uses: ncipollo/release-action@v1.14.0
+        with:
+          prerelease: true
+          draft: false
+          commit: ${{ github.sha }}
+          tag: ${{ inputs.next_version }}
+          name: ${{ inputs.next_version }}
+          body: "*pending*"
       -
         name: Changelog - Generate Changelog
         id: changelog
@@ -38,9 +35,7 @@ jobs:
         with:
           token: ${{ github.token }}
           writeToFile: false
-          # tag: ${{ inputs.next_version }}
-          fromTag: ${{ inputs.next_version }}
-          toTag: ${{ inputs.this_version }}
+          tag: ${{ inputs.next_version }}
       -
         name: Emoji - Fix emoji code
         id: changelog_emoji
@@ -48,7 +43,6 @@ jobs:
           cat <<'EOF' > changelog.md
           ${{ steps.changelog.outputs.changes }}
           EOF
-
           sed -i "s/:sparkles:/✨/" changelog.md
           sed -i "s/:bug:/🐛/" changelog.md
           sed -i "s/:zap:/⚡/" changelog.md
@@ -60,7 +54,6 @@ jobs:
           sed -i "s/:wrench:/🔧/" changelog.md
           sed -i "s/:flying_saucer:/🛸/" changelog.md
           sed -i "s/:arrow_lower_right:/↘️/" changelog.md
-
           {
             echo 'changelog<<EOF'
             cat changelog.md
