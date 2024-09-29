@@ -45,7 +45,7 @@ jobs:
         name: Emoji - Fix emoji code
         id: changelog_emoji
         run: |
-          cat <<EOF > changelog.md
+          cat <<'EOF' > changelog.md
           ${{ steps.changelog.outputs.changes }}
           EOF
 
