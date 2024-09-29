@@ -156,6 +156,7 @@ Thanks go to these wonderful people ([emoji key][all-contributors-emoji-key]):
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/RelativoBR"><img src="https://avatars.githubusercontent.com/u/36118424?v=4?s=100" width="100px;" alt="RelativoBR"/><br /><sub><b>RelativoBR</b></sub></a><br /><a href="#design-RelativoBR" title="Design">🎨</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Filosofas154"><img src="https://avatars.githubusercontent.com/u/60323197?v=4?s=100" width="100px;" alt="Filosofas154"/><br /><sub><b>Filosofas154</b></sub></a><br /><a href="#design-Filosofas154" title="Design">🎨</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://m.bilibili.com/space/628511814"><img src="https://avatars.githubusercontent.com/u/85825680?v=4?s=100" width="100px;" alt="lwj_666"/><br /><sub><b>lwj_666</b></sub></a><br /><a href="#bug-jiajia06403" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/XXY233"><img src="https://avatars.githubusercontent.com/u/46647646?v=4?s=100" width="100px;" alt="TheLittle_Yang"/><br /><sub><b>TheLittle_Yang</b></sub></a><br /><a href="#bug-XXY233" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>
