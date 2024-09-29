@@ -48,4 +48,4 @@ jobs:
     steps:
       - name: Output Changelog
         run: |
-          echo ${{ needs.test-changelog.changelog }}
+          echo ${{ needs.test-changelog.outputs.changelog }}

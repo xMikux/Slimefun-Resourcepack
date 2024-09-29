@@ -19,7 +19,7 @@ jobs:
     name: Generate Changelog
     runs-on: ubuntu-latest
     outputs:
-      changelog: ${{ steps.changelog.outputs.changes }}
+      changelog: ${{ steps.changelog_emoji.outputs.changelog }}
     steps:
       # -
       #   name: GitHub - Create Draft Release
@@ -41,3 +41,27 @@ jobs:
           # tag: ${{ inputs.next_version }}
           fromTag: ${{ inputs.next_version }}
           toTag: ${{ inputs.this_version }}
+      -
+        name: Emoji - Fix emoji code
+        id: changelog_emoji
+        run: |
+          cat <<EOF > changelog.md
+          ${{ steps.changelog.outputs.changes }}
+          EOF
+
+          sed -i "s/:sparkles:/✨/" changelog.md
+          sed -i "s/:bug:/🐛/" changelog.md
+          sed -i "s/:zap:/⚡/" changelog.md
+          sed -i "s/:recycle:/♻️/" changelog.md
+          sed -i "s/:white_check_mark:/✅/" changelog.md
+          sed -i "s/:construction_worker:/👷/" changelog.md
+          sed -i "s/:memo:/📝/" changelog.md
+          sed -i "s/:art:/🎨/" changelog.md
+          sed -i "s/:wrench:/🔧/" changelog.md
+          sed -i "s/:flying_saucer:/🛸/" changelog.md
+
+          {
+            echo 'changelog<<EOF'
+            cat changelog.md
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
