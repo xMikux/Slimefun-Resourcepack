@@ -141,12 +141,28 @@ Thanks go to these wonderful people ([emoji key][all-contributors-emoji-key]):
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/xMikux"><img src="https://avatars.githubusercontent.com/u/26039249?v=4?s=100" width="100px;" alt="Miku"/><br /><sub><b>Miku</b></sub></a><br /><a href="#code-xMikux" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.planetminecraft.com/member/raulh22/"><img src="https://static.planetminecraft.com/files/avatar/889296_5.png?s=100" width="100px;" alt="RaulH22"/><br /><sub><b>RaulH22</b></sub></a><br /><a href="#design-RaulH22" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Den4enko"><img src="https://avatars.githubusercontent.com/u/60628208?v=4?s=100" width="100px;" alt="Dmytro Denchenko"/><br /><sub><b>Dmytro Denchenko</b></sub></a><br /><a href="#design-Den4enko" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/LoneDev6"><img src="https://avatars.githubusercontent.com/u/27242001?v=4?s=100" width="100px;" alt="LoneDev"/><br /><sub><b>LoneDev</b></sub></a><br /><a href="#code-LoneDev6" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Mooy1/InfinityExpansion/releases/tag/v1"><img src="https://github.com/identicons/jasonlong.png?s=100" width="100px;" alt="Caribax"/><br /><sub><b>Caribax</b></sub></a><br /><a href="#design-Caribax" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ybw0014"><img src="https://avatars.githubusercontent.com/u/7105953?v=4?s=100" width="100px;" alt="ybw0014"/><br /><sub><b>ybw0014</b></sub></a><br /><a href="#design-ybw0014" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/"><img src="https://github.com/identicons/jasonlong.png?s=100" width="100px;" alt="DragonMysterious"/><br /><sub><b>DragonMysterious</b></sub></a><br /><a href="#design-DragonMysterious" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/"><img src="https://github.com/identicons/jasonlong.png?s=100" width="100px;" alt="AnsonYK"/><br /><sub><b>AnsonYK</b></sub></a><br /><a href="#design-AnsonYK" title="Design">🎨</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/SofiaRedmond"><img src="https://avatars.githubusercontent.com/u/86848962?v=4?s=100" width="100px;" alt="Sofia Redmond"/><br /><sub><b>Sofia Redmond</b></sub></a><br /><a href="#design-SofiaRedmond" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Keeywe"><img src="https://avatars.githubusercontent.com/u/92014243?v=4?s=100" width="100px;" alt="Keeywe"/><br /><sub><b>Keeywe</b></sub></a><br /><a href="#design-Keeywe" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/haiman233"><img src="https://avatars.githubusercontent.com/u/83174104?v=4?s=100" width="100px;" alt="haiman"/><br /><sub><b>haiman</b></sub></a><br /><a href="#design-haiman233" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/RelativoBR"><img src="https://avatars.githubusercontent.com/u/36118424?v=4?s=100" width="100px;" alt="RelativoBR"/><br /><sub><b>RelativoBR</b></sub></a><br /><a href="#design-RelativoBR" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Filosofas154"><img src="https://avatars.githubusercontent.com/u/60323197?v=4?s=100" width="100px;" alt="Filosofas154"/><br /><sub><b>Filosofas154</b></sub></a><br /><a href="#design-Filosofas154" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/xMikux"><img src="https://avatars.githubusercontent.com/u/26039249?v=4?s=100" width="100px;" alt="Miku"/><br /><sub><b>Miku</b></sub></a><br /><a href="#doc-xMikux" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
+
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors][all-contributors] specification.
