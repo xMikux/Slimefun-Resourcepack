@@ -60,7 +60,7 @@ Warning: Most of the textures are from the internet, all right reserved to the o
 
 Download resourecpack on [Modrinth][modrinth], and load it at minecraft.
 
-> [!NOTE]  
+> ℹ️ Note<br />
 > Server owner must install `item-models.yml` on server to match up the items.
 
 </details>
@@ -85,9 +85,9 @@ Download resourecpack on [Modrinth][modrinth], and load it at minecraft.
 
 </details>
 
-## Version Format
+## 🚩 Version Format
 
-We are using Semantic Versioning v2 format
+We are using Semantic Versioning v2 format.
 
 Only some differences, like *Major* version won't be changed.
 
@@ -131,212 +131,16 @@ There are still a lot of textures missing! Welcome to contribute more textures!
 
 </details>
 
-## ⭐ Credits
+## ✨ Contributors
 
-<table>
-  <tr>
-    <!-- RaulH22 -->
-    <td align="center">
-      <a href="https://www.planetminecraft.com/member/raulh22/"
-        ><img
-          src="https://static.planetminecraft.com/files/avatar/889296_5.png"
-          width="100px;"
-          alt=""
-        /><br /><sub><b>RaulH22</b></sub></a
-      ><br />
-      <p>
-        The base of all Slimefun Textures <br />
-        <a href="https://www.planetminecraft.com/texture-pack/slimefun-texture-by-raulh22/"
-        >Original Link</a>
-      </p>
-      </a>
-    </td>
-    <!-- Den4enko -->
-    <td align="center">
-      <a href="https://github.com/Den4enko"
-        ><img
-          src="https://avatars.githubusercontent.com/u/60628208?v=4?s=100"
-          width="100px;"
-          alt=""
-        /><br /><sub><b>Den4enko</b></sub></a
-      ><br />
-      <p>
-        Other Sleimfun Textures <br />
-        <a href="https://github.com/Den4enko/Slimefun-Resourcepack"
-        >Original Repo</a>
-      </p>
-      </a>
-    </td>
-    <!-- LoneDev6 -->
-    <td align="center">
-      <a href="https://github.com/LoneDev6"
-        ><img
-          src="https://avatars.githubusercontent.com/u/27242001?v=4?s=100"
-          width="100px;"
-          alt=""
-        /><br /><sub><b>LoneDev6</b></sub></a
-      ><br />
-      <p>
-        IA Addons of Slimefun Resourcepack <br />
-        Also author of ItemsAdder <br />
-        <a href="https://www.spigotmc.org/resources/83877/"
-        >Prototype of this project</a>
-      </p>
-      </a>
-    </td>
-    <!-- Caribax -->
-    <td align="center">
-      <a href="https://github.com/Mooy1/InfinityExpansion/releases/tag/v1"
-        ><img
-          src="https://github.com/identicons/jasonlong.png?s=100"
-          width="100px;"
-          alt=""
-        /><br /><sub><b>Caribax</b></sub></a
-      ><br />
-      <p>
-        InfinityExpansion Addon Textures <br />
-        <a href="https://github.com/Mooy1/InfinityExpansion/releases/tag/v1"
-        >Original Link</a>
-      </p>
-      </a>
-    </td>
-    <!-- ybw0014 -->
-    <td align="center">
-      <a href="https://github.com/ybw0014"
-        ><img
-          src="https://avatars.githubusercontent.com/u/7105953?v=4?s=100"
-          width="100px;"
-          alt=""
-        /><br /><sub><b>ybw0014</b></sub></a
-      ><br />
-      <p>
-        Bump and other textures part <br />
-        <a href="https://github.com/ybw0014/GuizhanCraft-resources"
-        >Original Repo</a>
-      </p>
-      </a>
-    </td>
-    <!-- DragonMysterious -->
-    <td align="center">
-      <a href=""
-        ><img
-          src="https://github.com/identicons/jasonlong.png?s=100"
-          width="100px;"
-          alt=""
-        /><br /><sub><b>DragonMysterious</b></sub></a
-      ><br />
-      <p>
-        Mysterious Contributor
-      </p>
-      </a>
-    </td>
-  </tr>
-  <!-- Next Line -->
-  <tr>
-    <!-- AnsonYK -->
-    <td align="center">
-      <a href=""
-        ><img
-          src="https://github.com/identicons/jasonlong.png?s=100"
-          width="100px;"
-          alt=""
-        /><br /><sub><b>AnsonYK</b></sub></a
-      ><br />
-      <p>
-        Mysterious Contributor
-      </p>
-      </a>
-    </td>
-    <!-- Sofia Redmond -->
-    <td align="center">
-      <a href="https://github.com/SofiaRedmond"
-        ><img
-          src="https://avatars.githubusercontent.com/u/86848962?v=4?s=100"
-          width="100px;"
-          alt=""
-        /><br /><sub><b>Sofia Redmond</b></sub></a
-      ><br />
-      <p>
-        The sexiest girl in this repo <br />
-        Slimefun Bedrock Resourcepack that she made:  
-        <a href="https://github.com/SofiaRedmond/Slimefun-Geyser"
-        >Repo</a>
-      </p>
-      </a>
-    </td>
-    <!-- Jerry -->
-    <td align="center">
-      <a href="https://github.com/Keeywe"
-        ><img
-          src="https://avatars.githubusercontent.com/u/92014243?v=4?s=100"
-          width="100px;"
-          alt=""
-        /><br /><sub><b>Jerry</b></sub></a
-      ><br />
-      <p>
-        The laziest tall(?) Jerry
-      </p>
-      </a>
-    <!-- haiman -->
-    <td align="center">
-      <a href="https://github.com/haiman233"
-        ><img
-          src="https://avatars.githubusercontent.com/u/83174104?v=4?s=100"
-          width="100px;"
-          alt=""
-        /><br /><sub><b>haiman</b></sub></a
-      ><br />
-      <p>
-        Credit of Bump Addon Textrues
-      </p>
-      </a>
-    <!-- RelativoBR -->
-    <td align="center">
-      <a href="https://github.com/RelativoBR"
-        ><img
-          src="https://avatars.githubusercontent.com/u/36118424?v=4s=100"
-          width="100px;"
-          alt=""
-        /><br /><sub><b>RelativoBR</b></sub></a
-      ><br />
-      <p>
-        Supreme addon texture contributor
-      </p>
-      </a>
-    <!-- Filosofas154 -->
-    <td align="center">
-      <a href="https://github.com/Filosofas154"
-        ><img
-          src="https://avatars.githubusercontent.com/u/60323197?v=4s=100"
-          width="100px;"
-          alt=""
-        /><br /><sub><b>Filosofas154</b></sub></a
-      ><br />
-      <p>
-        SlimefunWarfare addon texture contributor
-      </p>
-      </a>
-    </td>
-  </tr>
-  <!-- Next Line -->
-  <tr>
-    <!-- JustAHuman-xD -->
-    <td align="center">
-      <a href="https://github.com/JustAHuman-xD"
-        ><img
-          src="https://avatars.githubusercontent.com/u/65748158?v=4"
-          width="100px;"
-          alt=""
-        /><br /><sub><b>JustAHuman-xD</b></sub></a
-      ><br />
-      <p>
-        SlimefunEssentials Mod Author
-      </p>
-      </a>
-    </td>
-  <!-- The End Of Line -->
-  </tr>
-</table>
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 <!-- Modrinth -->
 [modrinth]: https://modrinth.com/resourcepack/slimefun-resourcepack
