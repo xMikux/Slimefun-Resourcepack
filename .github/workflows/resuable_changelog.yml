@@ -39,5 +39,5 @@ jobs:
           token: ${{ github.token }}
           writeToFile: false
           # tag: ${{ inputs.next_version }}
-          fromTag: ${{ inputs.this_version }}
-          toTag: ${{ inputs.next_version }}
+          fromTag: ${{ inputs.next_version }}
+          toTag: ${{ inputs.this_version }}
