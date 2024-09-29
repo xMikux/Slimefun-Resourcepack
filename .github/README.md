@@ -33,11 +33,11 @@ Warning: Most of the textures are from the internet, all right reserved to the o
 
 ------
 
-<h3 align="center">
+<div align="center">
+
+<h3>
   🌎 Language
 </h3>
-
-<div align="center">
 
 [![Lang-Readme-TW][tw-badge]][readme-tw]
 [![Lang-Readme-CN][cn-badge]][readme-cn]
