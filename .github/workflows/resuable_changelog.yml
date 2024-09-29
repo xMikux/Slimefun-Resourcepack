@@ -49,6 +49,10 @@ jobs:
           ${{ steps.changelog.outputs.changes }}
           EOF
 
+          cat changelog.md
+          echo "Before Change"
+          echo ""
+
           sed -i "s/:sparkles:/✨/" changelog.md
           sed -i "s/:bug:/🐛/" changelog.md
           sed -i "s/:zap:/⚡/" changelog.md
@@ -59,6 +63,10 @@ jobs:
           sed -i "s/:art:/🎨/" changelog.md
           sed -i "s/:wrench:/🔧/" changelog.md
           sed -i "s/:flying_saucer:/🛸/" changelog.md
+
+          echo "After change"
+          cat changelog.md
+          echo ""
 
           {
             echo 'changelog<<EOF'
