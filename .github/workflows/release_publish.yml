@@ -45,20 +45,28 @@ jobs:
     needs: [ ia-packer ]
     uses: ./.github/workflows/resuable_packer.yml
 
-  res-publish-github:
-    name: Publish GitHub Release
-    needs: [ version-gen, config-upload, res-packer ]
-    uses: ./.github/workflows/resuable_release_gh.yml
+  gen-changelog:
+    name: Generate Changelog
+    needs: [ version-gen ]
+    uses: ./.github/workflows/resuable_changelog.yml
     with:
       next_version: ${{ needs.version-gen.outputs.version_semver_next_name }}
 
+  res-publish-github:
+    name: Publish GitHub Release
+    needs: [ version-gen, config-upload, res-packer, gen-changelog ]
+    uses: ./.github/workflows/resuable_release_gh.yml
+    with:
+      next_version: ${{ needs.version-gen.outputs.version_semver_next_name }}
+      changelog: ${{ needs.gen-changelog.outputs.changelog }}
+
   res-publish-modrinth:
     name: Publish Modrinth Release
-    needs: [ version-gen, res-publish-github ]
+    needs: [ version-gen, config-upload, res-packer, gen-changelog ]
     uses: ./.github/workflows/resuable_release_modrinth.yml
     with:
       version: ${{ needs.version-gen.outputs.version_semver_next_name }}
       release_type: release
-      changelog: ${{ needs.res-publish-github.outputs.changelog }}
+      changelog: ${{ needs.gen-changelog.outputs.changelog }}
     secrets:
       MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
