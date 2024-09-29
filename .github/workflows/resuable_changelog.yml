@@ -1,24 +1,38 @@
 name: Resuable | ChangeLog Generator
 
 on:
-  workflow_call: {}
+  workflow_call:
+    inputs:
+      next_version:
+        type: string
+        required: true
+    outputs:
+      changelog:
+        description: "Changelog markdown"
+        value: ${{ jobs.changelog_generate.outputs.changelog }}
 
 jobs:
-  item-models-upload:
-    name: Upload item models file
+  changelog_generate:
+    name: Generate Changelog
     runs-on: ubuntu-latest
+    outputs:
+      changelog: ${{ steps.changelog.outputs.changes }}
     steps:
       -
-        name: Setup - Checkout Repository
-        uses: actions/checkout@v4
-      -
-        name: Compress - Item Models
-        run: |
-          zip -j9 item-models.zip Resourcepack/item-models.yml
-      -
-        name: Artifact - Upload Item Models
-        uses: actions/upload-artifact@v4
+        name: GitHub - Create Draft Release
+        uses: ncipollo/release-action@v1.14.0
         with:
-          name: config-item-models
-          path: item-models.zip
-  
+          prerelease: true
+          draft: false
+          commit: ${{ github.sha }}
+          tag: ${{ inputs.next_version }}
+          name: ${{ inputs.next_version }}
+          body: "*pending*"
+      -
+        name: Changelog - Generate Changelog
+        id: changelog
+        uses: requarks/changelog-action@v1
+        with:
+          token: ${{ github.token }}
+          writeToFile: false
+          tag: ${{ inputs.next_version }}
