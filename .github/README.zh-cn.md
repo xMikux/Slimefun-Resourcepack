@@ -1,13 +1,15 @@
 <!-- markdownlint-configure-file {
-  "MD033": false
+  "MD033": false,
+  "MD041": false
 } -->
 
-<h1 align="center" style="margin-top: 0px;">
+<div align="center">
+
+<h1>
   Slimefun Resourcepack
 </h1>
-<p>
 
-</p>
+</div>
 
 <div align="center">
 
