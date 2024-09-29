@@ -3,5 +3,19 @@
   "projectOwner": "xMikux",
   "files": [
     ".github/README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "xMikux",
+      "name": "Miku",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26039249?v=4",
+      "profile": "https://github.com/xMikux",
+      "contributions": [
+        "code"
+      ]
+    }
   ]
 }
