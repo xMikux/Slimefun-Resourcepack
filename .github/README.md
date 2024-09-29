@@ -189,9 +189,9 @@ Contributions of any kind are welcome!
 [spigot-itemsadder]: https://www.spigotmc.org/resources/73355
 
 <!-- ReadMe Links -->
-[readme-main]: .github/README.md
-[readme-tw]: .github/README.zh-tw.md
-[readme-cn]: .github/README.zh-cn.md
+[readme-main]: https://github.com/xMikux/Slimefun-Resourcepack/blob/main/.github/README.md
+[readme-tw]: https://github.com/xMikux/Slimefun-Resourcepack/blob/main/.github/README.zh-tw.md
+[readme-cn]: https://github.com/xMikux/Slimefun-Resourcepack/blob/main/.github/README.zh-cn.md
 
 <!-- All Contributors -->
 [all-contributors]: https://allcontributors.org

@@ -2,7 +2,9 @@
   "projectName": "Slimefun-Resourcepack",
   "projectOwner": "xMikux",
   "files": [
-    ".github/README.md"
+    ".github/README.md",
+    ".github/README.zh-cn.md",
+    ".github/README.zh-tw.md"
   ],
   "commitType": "docs",
   "commitConvention": "angular",
@@ -114,15 +116,6 @@
       "profile": "https://github.com/Filosofas154",
       "contributions": [
         "design"
-      ]
-    },
-    {
-      "login": "xMikux",
-      "name": "Miku",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26039249?v=4",
-      "profile": "https://github.com/xMikux",
-      "contributions": [
-        "doc"
       ]
     }
   ]
