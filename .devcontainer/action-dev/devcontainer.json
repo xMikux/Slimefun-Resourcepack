@@ -1,5 +1,5 @@
 {
-	"name": "Docker in Docker",
+	"name": "Action DEV",
 	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {
@@ -15,7 +15,8 @@
 		"vscode": {
 			"extensions": [
 				"github.vscode-github-actions",
-				"ms-azuretools.vscode-docker"
+				"ms-azuretools.vscode-docker",
+				"eamodio.gitlens"
 			]
 		}
 	}
