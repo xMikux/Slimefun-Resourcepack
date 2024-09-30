@@ -53,7 +53,7 @@ jobs:
           sed -i "s/:art:/🎨/" changelog.md
           sed -i "s/:wrench:/🔧/" changelog.md
           sed -i "s/:flying_saucer:/🛸/" changelog.md
-          sed -i "s/:arrow_lower_right:/↘️/" changelog.md
+          sed -i "s/:arrow_lower_right:/↘️/g" changelog.md
           {
             echo 'changelog<<EOF'
             cat changelog.md
