@@ -98,7 +98,7 @@ Format vMAJOR.MINOR.PATCH:
 
 - **Major**: Won't be changed (will be changed if I want to redo ID range list)
 - **Minor**: When changing or adding new textures
-- **Patch**: When fixing, update path, mc version, etc.
+- **Patch**: When fixing, update path, mc version, etc
 
 ## 📝 Content and Information
 
