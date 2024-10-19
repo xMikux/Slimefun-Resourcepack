@@ -41,6 +41,7 @@ jobs:
         with:
           token: ${{ github.token }}
           branch: main
+          noVersionBumpBehavior: warn
       -
         name: Version - Get Versions
         id: version_list
