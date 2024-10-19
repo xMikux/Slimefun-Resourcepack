@@ -417,3 +417,211 @@ items:
       generate: false
       model_id: 2200652
       model_path: "machines/infinity_capacitor"
+  empty_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: CHAINMAIL_CHESTPLATE
+      generate: false
+      model_id: 2200653
+      model_path: "mob_simulation/empty_data_card"
+  zombie_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: DIAMOND_CHESTPLATE
+      generate: false
+      model_id: 2200654
+      model_path: "mob_simulation/zombie_data_card"
+  slime_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200655
+      model_path: "mob_simulation/slime_data_card"
+  magma_cube_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200656
+      model_path: "mob_simulation/magma_cube_data_card"
+  cow_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200657
+      model_path: "mob_simulation/cow_data_card"
+  sheep_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200658
+      model_path: "mob_simulation/sheep_data_card"
+  spider_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: DIAMOND_CHESTPLATE
+      generate: false
+      model_id: 2200659
+      model_path: "mob_simulation/spider_data_card"
+  skeleton_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: DIAMOND_CHESTPLATE
+      generate: false
+      model_id: 2200660
+      model_path: "mob_simulation/skeleton_data_card"
+  wither_skeleton_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: DIAMOND_CHESTPLATE
+      generate: false
+      model_id: 2200661
+      model_path: "mob_simulation/wither_skeleton_data_card"
+  endermen_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: DIAMOND_CHESTPLATE
+      generate: false
+      model_id: 2200662
+      model_path: "mob_simulation/endermen_data_card"
+  creeper_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: DIAMOND_CHESTPLATE
+      generate: false
+      model_id: 2200663
+      model_path: "mob_simulation/creeper_data_card"
+  guardian_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: DIAMOND_CHESTPLATE
+      generate: false
+      model_id: 2200664
+      model_path: "mob_simulation/guardian_data_card"
+  chicken_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200665
+      model_path: "mob_simulation/chicken_data_card"
+  iron_golem_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: DIAMOND_CHESTPLATE
+      generate: false
+      model_id: 2200666
+      model_path: "mob_simulation/iron_golem_data_card"
+  blaze_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: DIAMOND_CHESTPLATE
+      generate: false
+      model_id: 2200667
+      model_path: "mob_simulation/blaze_data_card"
+  wither_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: NETHERITE_CHESTPLATE
+      generate: false
+      model_id: 2200668
+      model_path: "mob_simulation/wither_data_card"
+  ender_dragon_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: NETHERITE_CHESTPLATE
+      generate: false
+      model_id: 2200669
+      model_path: "mob_simulation/ender_dragon_data_card"
+  bee_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200670
+      model_path: "mob_simulation/bee_data_card"
+  villager_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200671
+      model_path: "mob_simulation/villager_data_card"
+  witch_data_card:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: DIAMOND_CHESTPLATE
+      generate: false
+      model_id: 2200672
+      model_path: "mob_simulation/witch_data_card"
+  quarry_oscillator_redstone:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: REDSTONE
+      generate: false
+      model_id: 2200673
+      model_path: "infinityexpansion:materials/quarry_oscillator_redstone"
+  quarry_oscillator_lapis_lazuli:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: LAPIS_LAZULI
+      generate: false
+      model_id: 2200674
+      model_path: "infinityexpansion:materials/quarry_oscillator_lapis_lazuli"
+  quarry_oscillator_emerald:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: EMERALD
+      generate: false
+      model_id: 2200675
+      model_path: "infinityexpansion:materials/quarry_oscillator_emerald"
+  quarry_oscillator_diamond:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: DIAMOND
+      generate: false
+      model_id: 2200676
+      model_path: "infinityexpansion:materials/quarry_oscillator_diamond"
+  quarry_oscillator_quartz:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: QUARTZ
+      generate: false
+      model_id: 2200677
+      model_path: "infinityexpansion:materials/quarry_oscillator_quartz"
+  vein_miner_rune:
+    display_name: infinityexpansion
+    permission: infinityexpansion
+    resource:
+      material: DIAMOND
+      generate: false
+      model_id: 2200678
+      model_path: "infinityexpansion:materials/vein_miner_rune"

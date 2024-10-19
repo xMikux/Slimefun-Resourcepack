@@ -19,6 +19,7 @@ A list of texture that in slimefun texture, but not used.
 * `ingredient/` folder from Slimefun miscellaneous/organic_food, look like is original organic fertilizer/food type.
 * `slimefun/gui/*` Backup of Slimefun GUI, has vanilla color fill, it removes to support other resourcepack (like dark theme)
 * `slimefun/gui/next.png` original gui icon of Next (On/Off) Pervious (On/Off)
+* `ghast_data_card.png` & `pig_data_card.png` extra mob data card on InfinityExpansion
 
 ## InfinityExpansion Releases
 
