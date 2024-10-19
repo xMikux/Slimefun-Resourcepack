@@ -161,6 +161,9 @@
       <td align="center" valign="top" width="14.28%"><a href="https://m.bilibili.com/space/628511814"><img src="https://avatars.githubusercontent.com/u/85825680?v=4?s=100" width="100px;" alt="lwj_666"/><br /><sub><b>lwj_666</b></sub></a><br /><a href="#bug-jiajia06403" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/XXY233"><img src="https://avatars.githubusercontent.com/u/46647646?v=4?s=100" width="100px;" alt="TheLittle_Yang"/><br /><sub><b>TheLittle_Yang</b></sub></a><br /><a href="#bug-XXY233" title="Bug reports">🐛</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/AlmostPanda"><img src="https://avatars.githubusercontent.com/u/141587317?v=4?s=100" width="100px;" alt="AlmostPanda"/><br /><sub><b>AlmostPanda</b></sub></a><br /><a href="#design-AlmostPanda" title="Design">🎨</a></td>
+    </tr>
   </tbody>
 </table>
 
