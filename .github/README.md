@@ -164,6 +164,7 @@ Thanks go to these wonderful people ([emoji key][all-contributors-emoji-key]):
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/AlmostPanda"><img src="https://avatars.githubusercontent.com/u/141587317?v=4?s=100" width="100px;" alt="AlmostPanda"/><br /><sub><b>AlmostPanda</b></sub></a><br /><a href="#design-AlmostPanda" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://renanmsv.github.io"><img src="https://avatars.githubusercontent.com/u/21311691?v=4?s=100" width="100px;" alt="Renan"/><br /><sub><b>Renan</b></sub></a><br /><a href="#design-RenanMsV" title="Design">🎨</a></td>
     </tr>
   </tbody>
 </table>
