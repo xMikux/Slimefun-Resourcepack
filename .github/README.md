@@ -131,6 +131,7 @@ There are still a lot of textures missing! Welcome to contribute more textures!
 | Supreme | 2201471 - 2202000 |
 | SlimefunWarfare | 2202001 - 2202200 |
 | Gastronomicon | 2203001 - 2203500 |
+| Liquid | 2204000 - 2204200 |
 
 </details>
 
