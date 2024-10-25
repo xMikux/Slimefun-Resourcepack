@@ -97,6 +97,22 @@ items:
       generate: false
       model_id: 2204018
       model_path: "molten_netherite"
+  molten_redstone_dust:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204019
+      model_path: "molten_redstone_alloy"
+  molten_redstone_ore:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204020
+      model_path: "molten_redstone_alloy"
   molten_aluminum:
     display_name: liquid
     permission: liquid
@@ -129,6 +145,14 @@ items:
       generate: false
       model_id: 2204024
       model_path: "molten_billon"
+  molten_boosted_unanium:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204025
+      model_path: "molten_uranium"
   molten_brass:
     display_name: liquid
     permission: liquid
@@ -145,6 +169,14 @@ items:
       generate: false
       model_id: 2204027
       model_path: "molten_bronze"
+  molten_carbon:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204028
+      model_path: "molten_steel"
   molten_cobalt:
     display_name: liquid
     permission: liquid
@@ -329,6 +361,14 @@ items:
       generate: false
       model_id: 2204051
       model_path: "molten_magnet"
+  molten_neptunium:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204052
+      model_path: "molten_steel"
   molten_nickel:
     display_name: liquid
     permission: liquid
