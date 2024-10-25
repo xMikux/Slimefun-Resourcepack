@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "author": "RenanMsV",
+  "textures": {
+    "layer0": "liquid:molten_magnet"
+  }
+}

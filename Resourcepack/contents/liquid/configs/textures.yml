@@ -1,0 +1,403 @@
+info:
+  namespace: liquid
+items:
+  molten_ancient_debris:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204007
+      model_path: liquid:molten_ancient_debris
+  molten_diamond:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204009
+      model_path: liquid:molten_diamond
+  molten_emerald:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204011
+      model_path: liquid:molten_emerald
+  molten_gold:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204012
+      model_path: liquid:molten_gold
+  molten_iron:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204014
+      model_path: liquid:molten_iron
+  molten_lapis_lazuli:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204017
+      model_path: liquid:molten_lapis_lazuli
+  molten_netherite:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204018
+      model_path: liquid:molten_netherite
+  molten_slag:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204021
+      model_path: liquid:molten_slag
+  molten_damascus_steel:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204022
+      model_path: liquid:molten_damascus_steel
+  molten_reinforced_alloy:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204023
+      model_path: liquid:molten_reinforced_alloy
+  molten_solder:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204024
+      model_path: liquid:molten_solder
+  molten_salt:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204025
+      model_path: liquid:molten_salt
+  molten_silicon:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204026
+      model_path: liquid:molten_silicon
+  molten_ferrosilicon:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204027
+      model_path: liquid:molten_ferrosilicon
+  molten_sulfate:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204028
+      model_path: liquid:molten_sulfate
+  molten_hardened_metal:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204029
+      model_path: liquid:molten_hardened_metal
+  molten_duralumin:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204030
+      model_path: liquid:molten_duralumin
+  molten_magnet:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204032
+      model_path: liquid:molten_magnet
+  molten_corinthian_bronze:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204033
+      model_path: liquid:molten_corinthian_bronze
+  molten_redstone_alloy:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204034
+      model_path: liquid:molten_redstone_alloy
+  molten_gold_10k:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204035
+      model_path: liquid:molten_gold_10k
+  molten_gold_12k:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204036
+      model_path: liquid:molten_gold_12k
+  molten_gold_14k:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204037
+      model_path: liquid:molten_gold_14k
+  molten_gold_16k:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204038
+      model_path: liquid:molten_gold_16k
+  molten_gold_18k:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204039
+      model_path: liquid:molten_gold_18k
+  molten_gold_20k:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204040
+      model_path: liquid:molten_gold_20k
+  molten_gold_22k:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204041
+      model_path: liquid:molten_gold_22k
+  molten_gold_24k:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204042
+      model_path: liquid:molten_gold_24k
+  molten_gold_4k:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204043
+      model_path: liquid:molten_gold_4k
+  molten_gold_6k:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204044
+      model_path: liquid:molten_gold_6k
+  molten_gold_8k:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204045
+      model_path: liquid:molten_gold_8k
+  molten_plutonium:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204046
+      model_path: liquid:molten_plutonium
+  molten_steel:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204048
+      model_path: liquid:molten_steel
+  molten_cobalt:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204049
+      model_path: liquid:molten_cobalt
+  molten_uranium:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204050
+      model_path: liquid:molten_uranium
+  molten_lead:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204051
+      model_path: liquid:molten_lead
+  molten_copper:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204052
+      model_path: liquid:molten_copper
+  molten_aluminum:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204053
+      model_path: liquid:molten_aluminum
+  molten_aluminum_bronze:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204054
+      model_path: liquid:molten_aluminum_bronze
+  molten_aluminum_brass:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204055
+      model_path: liquid:molten_aluminum_brass
+  molten_billon:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204056
+      model_path: liquid:molten_billon
+  molten_silver:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204057
+      model_path: liquid:molten_silver
+  molten_zinc:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204058
+      model_path: liquid:molten_zinc
+  molten_tin:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204059
+      model_path: liquid:molten_tin
+  molten_gilded_iron:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204060
+      model_path: liquid:molten_gilded_iron
+  molten_magnesium_salt:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204061
+      model_path: liquid:molten_magnesium_salt
+  molten_magnesium:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204062
+      model_path: liquid:molten_magnesium
+  molten_nickel:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204063
+      model_path: liquid:molten_nickel
+  molten_bronze:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204065
+      model_path: liquid:molten_bronze
+  molten_brass:
+    display_name: liquid
+    permission: liquid
+    resource:
+      material: LAVA_BUCKET
+      generate: false
+      model_id: 2204066
+      model_path: liquid:molten_brass
