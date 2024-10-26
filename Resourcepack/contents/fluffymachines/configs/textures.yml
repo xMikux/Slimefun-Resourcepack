@@ -137,11 +137,43 @@ items:
       generate: false
       model_id: 2201302
       model_path: "tools/paxel"
+  paxel_axe:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_id: 2201302
+      model_path: "tools/paxel"
+  paxel_shovel:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: false
+      model_id: 2201302
+      model_path: "tools/paxel"
   paxel_netherite:
     display_name: fluffymachines
     permission: fluffymachines
     resource:
       material: NETHERITE_PICKAXE
+      generate: false
+      model_id: 2201302
+      model_path: "tools/netherite_paxel"
+  paxel_netherite_axe:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_id: 2201302
+      model_path: "tools/netherite_paxel"
+  paxel_netherite_shovel:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: NETHERITE_SHOVEL
       generate: false
       model_id: 2201302
       model_path: "tools/netherite_paxel"
