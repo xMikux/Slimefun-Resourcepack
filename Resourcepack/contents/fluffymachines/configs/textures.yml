@@ -1,6 +1,70 @@
 info:
   namespace: fluffymachines
 items:
+  small_portable_charger:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 2201286
+      model_path: "portable_chargers/small_portable_charger"
+  medium_portable_charger:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2201287
+      model_path: "portable_chargers/medium_portable_charger"
+  big_portable_charger:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: GOLD_INGOT
+      generate: false
+      model_id: 2201288
+      model_path: "portable_chargers/big_portable_charger"
+  large_portable_charger:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: NETHER_BRICK
+      generate: false
+      model_id: 2201289
+      model_path: "portable_chargers/large_portable_charger"
+  carbonado_portable_charger:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: NETHERITE_INGOT
+      generate: false
+      model_id: 2201290
+      model_path: "portable_chargers/carbonado_portable_charger"
+  crank_generator:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: BLAST_FURNACE
+      generate: false
+      model_id: 2201291
+      model_path: "generators/crank_generator"
+  foundry:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: BLAST_FURNACE
+      generate: false
+      model_id: 2201292
+      model_path: "multiblocks/foundry"
+  exp_dispenser:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: DISPENSER
+      generate: false
+      model_id: 2201293
+      model_path: "multiblocks/exp_dispenser"
   watering_can:
     display_name: fluffymachines
     permission: fluffymachines
@@ -8,7 +72,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2201294
-      model_path: "watering_can"
+      model_path: "tools/watering_can"
   scythe:
     display_name: fluffymachines
     permission: fluffymachines
@@ -16,12 +80,157 @@ items:
       material: IRON_HOE
       generate: false
       model_id: 2201295
-      model_path: "scythe"
+      model_path: "tools/scythe"
+  fluffy_wrench:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: GOLDEN_AXE
+      generate: false
+      model_id: 2201296
+      model_path: "wrenches/fluffy_wrench"
+  reinforced_fluffy_wrench:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_id: 2201297
+      model_path: "wrenches/reinforced_fluffy_wrench"
+  carbonado_fluffy_wrench:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_id: 2201298
+      model_path: "wrenches/carbonado_fluffy_wrench"
+  upgraded_lumber_axe:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_id: 2201299
+      model_path: "tools/upgraded_lumber_axe"
+  upgraded_explosive_pickaxe:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: false
+      model_id: 2201300
+      model_path: "tools/upgraded_explosive_pickaxe"
+  upgraded_explosive_shovel:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: false
+      model_id: 2201301
+      model_path: "tools/upgraded_explosive_shovel"
   paxel:
     display_name: fluffymachines
     permission: fluffymachines
     resource:
       material: DIAMOND_PICKAXE
       generate: false
-      model_id: 2201281
-      model_path: "diamond_paxel"
+      model_id: 2201302
+      model_path: "tools/paxel"
+  generator_core:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: BLAST_FURNACE
+      generate: false
+      model_id: 2201312
+      model_path: "generators/generator_core"
+  superheated_furnace:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: BLAST_FURNACE
+      generate: false
+      model_id: 2201313
+      model_path: "multiblocks/superheated_furnace"
+  fireproof_rune:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: FIREWORK_STAR
+      generate: false
+      model_id: 2201315
+      model_path: "misc/fireproof_rune"
+  ender_chest_insertion_node:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201316
+      model_path: "cargo/ender_chest_insertion_node"
+  ender_chest_extraction_node:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201317
+      model_path: "cargo/ender_chest_extraction_node"
+  dolly:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: MINECART
+      generate: false
+      model_id: 2201318
+      model_path: "misc/dolly"
+  filled_dolly:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2201318
+      model_path: "misc/filled_dolly"
+  ancient_book:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: BOOK
+      generate: false
+      model_id: 2201319
+      model_path: "misc/ancient_book"
+  warp_pad:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: SMOKER
+      generate: false
+      model_id: 2201320
+      model_path: "misc/warp_pad"
+  warp_pad_configurator:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: BLAZE_ROD
+      generate: false
+      model_id: 2201321
+      model_path: "misc/warp_pad_configurator"
+  alternate_elevator_plate:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: POLISHED_BLACKSTONE_PRESSURE_PLATE
+      generate: false
+      model_id: 2201324
+      model_path: "misc/alternate_elevator_plate"
+  cargo_manipulator:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: SEA_PICKLE
+      generate: false
+      model_id: 2201327
+      model_path: "cargo/cargo_manipulator"
+
