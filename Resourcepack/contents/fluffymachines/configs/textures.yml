@@ -137,6 +137,14 @@ items:
       generate: false
       model_id: 2201302
       model_path: "tools/paxel"
+  paxel_netherite:
+    display_name: fluffymachines
+    permission: fluffymachines
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: false
+      model_id: 2201302
+      model_path: "tools/netherite_paxel"
   generator_core:
     display_name: fluffymachines
     permission: fluffymachines
