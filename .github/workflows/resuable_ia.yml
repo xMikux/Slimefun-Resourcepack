@@ -68,7 +68,7 @@ jobs:
         uses: raschmitt/wait-for-healthy-container/@master
         with:
           container-name: itemsadder_server
-          timeout: 60
+          timeout: 120
 
       -
         name: mcrcon - Run IA commands
