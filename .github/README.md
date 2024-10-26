@@ -125,13 +125,13 @@ There are still a lot of textures missing! Welcome to contribute more textures!
 | ExoticGarden | 2200830 - 2201200 |
 | ExtraGear | 2201201 - 2201270 |
 | SimpleUtils | 2201270 - 2201279 |
-| FluffyMachines | 2201280 - 2201300 |
-| FoxyMachines | 2201301 - 2201400 |
+| FluffyMachines | 2201280 - 2201400 |
 | Bump | 2201401 - 2201470 |
 | Supreme | 2201471 - 2202000 |
 | SlimefunWarfare | 2202001 - 2202200 |
 | Gastronomicon | 2203001 - 2203500 |
 | Liquid | 2204000 - 2204200 |
+| FoxyMachines* | 2201352 - 2201355 |
 
 </details>
 

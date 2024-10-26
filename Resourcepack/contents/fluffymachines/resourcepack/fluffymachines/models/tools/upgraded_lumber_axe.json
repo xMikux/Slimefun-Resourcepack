@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "author": "Pandicka",
+  "textures": {
+    "layer0": "fluffymachines:tools/upgraded_lumber_axe"
+  }
+}

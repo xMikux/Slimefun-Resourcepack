@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "author": "Pandicka",
+  "textures": {
+    "layer0": "fluffymachines:misc/warp_pad_configurator"
+  }
+}
