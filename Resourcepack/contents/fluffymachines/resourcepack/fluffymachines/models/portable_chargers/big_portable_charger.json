@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "author": "Pandicka",
+  "textures": {
+    "layer0": "fluffymachines:portable_chargers/big_portable_charger"
+  }
+}

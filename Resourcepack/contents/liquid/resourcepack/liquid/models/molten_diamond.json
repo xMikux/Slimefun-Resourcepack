@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "author": "RenanMsV",
+  "textures": {
+    "layer0": "liquid:molten_diamond"
+  }
+}

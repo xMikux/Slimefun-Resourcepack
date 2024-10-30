@@ -60,6 +60,7 @@ jobs:
             ${{ inputs.changelog }}
           dependencies: |
             otVJckYQ(recommended)
+            C0neDqXC(recommended)
           files: |
             Slimefun-ResourcePack.zip
             item-models.zip

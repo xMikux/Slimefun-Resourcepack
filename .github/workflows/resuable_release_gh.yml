@@ -6,17 +6,14 @@ on:
       next_version:
         type: string
         required: true
-    outputs:
       changelog:
-        description: "Changelog markdown"
-        value: ${{ jobs.github_release.outputs.changelog }}
+        type: string
+        required: true
 
 jobs:
   github_release:
     name: Release GitHub
     runs-on: ubuntu-latest
-    outputs:
-      changelog: ${{ steps.changelog.outputs.changes }}
     steps:
       -
         name: Artifact - Download Slimefun Resourcepack
@@ -31,22 +28,6 @@ jobs:
           mv workdir/*.zip .
           ls -alh
       -
-        name: GitHub - Create Draft Release
-        uses: ncipollo/release-action@v1.14.0
-        with:
-          prerelease: true
-          draft: false
-          commit: ${{ github.sha }}
-          tag: ${{ inputs.next_version }}
-          name: ${{ inputs.next_version }}
-          body: "*pending*"
-      - name: Changelog - Generate Changelog
-        id: changelog
-        uses: requarks/changelog-action@v1
-        with:
-          token: ${{ github.token }}
-          tag: ${{ inputs.next_version }}
-      -
         name: GitHub - Update Release
         uses: ncipollo/release-action@v1.14.0
         with:
@@ -55,7 +36,7 @@ jobs:
           makeLatest: true
           tag: ${{ inputs.next_version }}
           name: ${{ inputs.next_version }}
-          body: ${{ steps.changelog.outputs.changes }}
+          body: ${{ inputs.changelog }}
           artifacts: |
             Slimefun-ResourcePack.zip
             item-models.zip
