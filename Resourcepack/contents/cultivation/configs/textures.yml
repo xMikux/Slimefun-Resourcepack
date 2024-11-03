@@ -246,7 +246,7 @@ items:
     permission: cultivation
     resource:
       generate: false
-      material: GRASS
+      material: SHORT_GRASS
       model_id: 2300039
       model_path: products/clt_dill
   clt_fennel:
