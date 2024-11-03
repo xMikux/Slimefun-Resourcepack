@@ -1,0 +1,779 @@
+info:
+  namespace: cultivation
+items:
+  clt_apricot:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300007
+      model_path: products/clt_apricot
+  clt_artichoke:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300062
+      model_path: products/clt_artichoke
+  clt_asparagus:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300064
+      model_path: products/clt_asparagus
+  clt_aubergine:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300063
+      model_path: products/clt_aubergine
+  clt_avocado:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300094
+      model_path: products/clt_avocado
+  clt_banana:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300000
+      model_path: products/clt_banana
+  clt_basil:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: SMALL_DRIPLEAF
+      model_id: 2300030
+      model_path: products/clt_basil
+  clt_bay_leaf:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: LILY_PAD
+      model_id: 2300031
+      model_path: products/clt_bay_leaf
+  clt_bell_pepper:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300022
+      model_path: products/clt_bell_pepper
+  clt_black_beans:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: MELON_SEEDS
+      model_id: 2300071
+      model_path: products/clt_black_beans
+  clt_broccoli:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300028
+      model_path: products/clt_broccoli
+  clt_brussels_sprouts:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300065
+      model_path: products/clt_brussels_sprouts
+  clt_cabbage:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300066
+      model_path: products/clt_cabbage
+  clt_cauliflower:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300067
+      model_path: products/clt_cauliflower
+  clt_cayenne_pepper:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300020
+      model_path: products/clt_cayenne_pepper
+  clt_celeriac:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300084
+      model_path: products/clt_celeriac
+  clt_celery:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: BAMBOO
+      model_id: 2300068
+      model_path: products/clt_celery
+  clt_cherry:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300009
+      model_path: products/clt_cherry
+  clt_chestnut:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300012
+      model_path: products/clt_chestnut
+  clt_chickpeas:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: BEETROOT_SEEDS
+      model_id: 2300073
+      model_path: products/clt_chickpeas
+  clt_chicory:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: BLUE_ORCHID
+      model_id: 2300033
+      model_path: products/clt_chicory
+  clt_chilly_pepper:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300037
+      model_path: products/clt_chilly_pepper
+  clt_chives:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: SEAGRASS
+      model_id: 2300034
+      model_path: products/clt_chives
+  clt_cilantro:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: MANGROVE_LEAVES
+      model_id: 2300032
+      model_path: products/clt_cilantro
+  clt_cinnamon:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: STICK
+      model_id: 2300029
+      model_path: products/clt_cinnamon
+  clt_clove:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: POPPY
+      model_id: 2300035
+      model_path: products/clt_clove
+  clt_courgette:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: BAMBOO
+      model_id: 2300091
+      model_path: products/clt_courgette
+  clt_cucumber:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: BAMBOO
+      model_id: 2300092
+      model_path: products/clt_cucumber
+  clt_cumin:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: DANDELION
+      model_id: 2300036
+      model_path: products/clt_cumin
+  clt_curry_leaf:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: KELP
+      model_id: 2300038
+      model_path: products/clt_curry_leaf
+  clt_dill:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: GRASS
+      model_id: 2300039
+      model_path: products/clt_dill
+  clt_fennel:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: OXEYE_DAISY
+      model_id: 2300040
+      model_path: products/clt_fennel
+  clt_garlic:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300019
+      model_path: products/clt_garlic
+  clt_ginger:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: HANGING_ROOTS
+      model_id: 2300041
+      model_path: products/clt_ginger
+  clt_grape:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300015
+      model_path: products/clt_grape
+  clt_green_apple:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300003
+      model_path: products/clt_green_apple
+  clt_green_beans:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: FROGSPAWN
+      model_id: 2300072
+      model_path: products/clt_green_beans
+  clt_green_onion:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300095
+      model_path: products/clt_green_onion
+  clt_hazelnut:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300013
+      model_path: products/clt_hazelnut
+  clt_horseradish:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: HANGING_ROOTS
+      model_id: 2300042
+      model_path: products/clt_horseradish
+  clt_jalapeno:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300081
+      model_path: products/clt_jalapeno
+  clt_jasmine:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: WHITE_TULIP
+      model_id: 2300043
+      model_path: products/clt_jasmine
+  clt_juniper_berry:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: GLOW_BERRIES
+      model_id: 2300044
+      model_path: products/clt_juniper_berry
+  clt_kaffir_lime:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: KELP
+      model_id: 2300045
+      model_path: products/clt_kaffir_lime
+  clt_kale:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300069
+      model_path: products/clt_kale
+  clt_kiwi:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300010
+      model_path: products/clt_kiwi
+  clt_lavender:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PURPLE_DYE
+      model_id: 2300046
+      model_path: products/clt_lavender
+  clt_leek:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300079
+      model_path: products/clt_leek
+  clt_lemon:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300001
+      model_path: products/clt_lemon
+  clt_lettuce:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300026
+      model_path: products/clt_lettuce
+  clt_licorice:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: HANGING_ROOTS
+      model_id: 2300047
+      model_path: products/clt_licorice
+  clt_lime:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300011
+      model_path: products/clt_lime
+  clt_mace:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: RED_DYE
+      model_id: 2300048
+      model_path: products/clt_mace
+  clt_mango:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300005
+      model_path: products/clt_mango
+  clt_marjoram:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: DARK_OAK_LEAVES
+      model_id: 2300049
+      model_path: products/clt_marjoram
+  clt_marrow:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300093
+      model_path: products/clt_marrow
+  clt_mint:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: MANGROVE_LEAVES
+      model_id: 2300050
+      model_path: products/clt_mint
+  clt_mustard_seeds:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PUMPKIN_SEEDS
+      model_id: 2300027
+      model_path: products/clt_mustard_seeds
+  clt_nettles:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: AZALEA_LEAVES
+      model_id: 2300077
+      model_path: products/clt_nettles
+  clt_okra:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300078
+      model_path: products/clt_okra
+  clt_onion:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300023
+      model_path: products/clt_onion
+  clt_orange:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300002
+      model_path: products/clt_orange
+  clt_oregano:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: SPRUCE_LEAVES
+      model_id: 2300051
+      model_path: products/clt_oregano
+  clt_parsley:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: ACACIA_LEAVES
+      model_id: 2300052
+      model_path: products/clt_parsley
+  clt_parsnip:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300085
+      model_path: products/clt_parsnip
+  clt_pea:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300024
+      model_path: products/clt_pea
+  clt_peach:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300006
+      model_path: products/clt_peach
+  clt_peanut:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300017
+      model_path: products/clt_peanut
+  clt_pear:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300008
+      model_path: products/clt_pear
+  clt_pecan:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300014
+      model_path: products/clt_pecan
+  clt_pepper:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300096
+      model_path: products/clt_pepper
+  clt_pineapple:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300004
+      model_path: products/clt_pineapple
+  clt_pinto_beans:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: MELON_SEEDS
+      model_id: 2300075
+      model_path: products/clt_pinto_beans
+  clt_raddish:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300087
+      model_path: products/clt_raddish
+  clt_radicchio:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300082
+      model_path: products/clt_radicchio
+  clt_rapeseed:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: MELON_SEEDS
+      model_id: 2300025
+      model_path: products/clt_rapeseed
+  clt_rhubarb:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300083
+      model_path: products/clt_rhubarb
+  clt_rice:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300018
+      model_path: products/clt_rice
+  clt_rosemary:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: BIRCH_LEAVES
+      model_id: 2300053
+      model_path: products/clt_rosemary
+  clt_runner_beans:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: KELP
+      model_id: 2300076
+      model_path: products/clt_runner_beans
+  clt_rutabaga:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300086
+      model_path: products/clt_rutabaga
+  clt_sassafras:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: OAK_LEAVES
+      model_id: 2300054
+      model_path: products/clt_sassafras
+  clt_shallot:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300080
+      model_path: products/clt_shallot
+  clt_shiso:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: MANGROVE_LEAVES
+      model_id: 2300055
+      model_path: products/clt_shiso
+  clt_soy_beans:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: MELON_SEEDS
+      model_id: 2300074
+      model_path: products/clt_soy_beans
+  clt_spinach:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: KELP
+      model_id: 2300070
+      model_path: products/clt_spinach
+  clt_star_anise:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: NETHER_STAR
+      model_id: 2300056
+      model_path: products/clt_star_anise
+  clt_strawberry:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300016
+      model_path: products/clt_strawberry
+  clt_sweet_potato:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: BEETROOT
+      model_id: 2300088
+      model_path: products/clt_sweet_potato
+  clt_sweetcorn:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300090
+      model_path: products/clt_sweetcorn
+  clt_tarragon:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: JUNGLE_LEAVES
+      model_id: 2300057
+      model_path: products/clt_tarragon
+  clt_thyme:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: BIRCH_LEAVES
+      model_id: 2300058
+      model_path: products/clt_thyme
+  clt_tomato:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300021
+      model_path: products/clt_tomato
+  clt_turmeric:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: YELLOW_DYE
+      model_id: 2300059
+      model_path: products/clt_turmeric
+  clt_turnip:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: PLAYER_HEAD
+      model_id: 2300089
+      model_path: products/clt_turnip
+  clt_vanilla:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: BLACK_DYE
+      model_id: 2300060
+      model_path: products/clt_vanilla
+  clt_wasabi:
+    display_name: cultivation
+    permission: cultivation
+    resource:
+      generate: false
+      material: HANGING_ROOTS
+      model_id: 2300061
+      model_path: products/clt_wasabi
