@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "author": "Jerry",
-  "textures": {
-    "layer0": "slimefun:slimefun/technical_gadgets/duralumin_jetpack"
-  }
-}
