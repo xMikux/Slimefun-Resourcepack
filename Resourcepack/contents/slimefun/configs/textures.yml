@@ -368,7 +368,7 @@ items:
       material: LEATHER_HELMET
       generate: false
       model_id: 2200044
-      model_path: "slimefun/magical_armor/slime_armor/helmet"
+      model_path: "slimefun/magical_armor/slime_armor/slime_helmet"
   slime_chestplate:
     display_name: slimefun
     permission: slimefun
@@ -376,7 +376,7 @@ items:
       material: LEATHER_CHESTPLATE
       generate: false
       model_id: 2200045
-      model_path: "slimefun/magical_armor/slime_armor/chestplate"
+      model_path: "slimefun/magical_armor/slime_armor/slime_chestplate"
   slime_leggings:
     display_name: slimefun
     permission: slimefun
@@ -384,7 +384,7 @@ items:
       material: LEATHER_LEGGINGS
       generate: false
       model_id: 2200046
-      model_path: "slimefun/magical_armor/slime_armor/leggings"
+      model_path: "slimefun/magical_armor/slime_armor/slime_leggings"
   slime_boots:
     display_name: slimefun
     permission: slimefun
@@ -392,7 +392,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200047
-      model_path: "slimefun/magical_armor/slime_armor/boots"
+      model_path: "slimefun/magical_armor/slime_armor/slime_boots"
   sword_of_beheading:
     display_name: slimefun
     permission: slimefun
@@ -976,7 +976,7 @@ items:
       material: LEATHER_CHESTPLATE
       generate: false
       model_id: 2200120
-      model_path: "slimefun/technical_gadgets/duralumin_jetpack"
+      model_path: "slimefun/technical_gadgets/jetpack/duralumin_jetpack"
   solder_jetpack:
     display_name: slimefun
     permission: slimefun
@@ -984,7 +984,7 @@ items:
       material: LEATHER_CHESTPLATE
       generate: false
       model_id: 2200121
-      model_path: "slimefun/technical_gadgets/solder_jetpack"
+      model_path: "slimefun/technical_gadgets/jetpack/solder_jetpack"
   billon_jetpack:
     display_name: slimefun
     permission: slimefun
@@ -992,7 +992,7 @@ items:
       material: LEATHER_CHESTPLATE
       generate: false
       model_id: 2200122
-      model_path: "slimefun/technical_gadgets/billon_jetpack"
+      model_path: "slimefun/technical_gadgets/jetpack/billon_jetpack"
   steel_jetpack:
     display_name: slimefun
     permission: slimefun
@@ -1000,7 +1000,7 @@ items:
       material: LEATHER_CHESTPLATE
       generate: false
       model_id: 2200123
-      model_path: "slimefun/technical_gadgets/steel_jetpack"
+      model_path: "slimefun/technical_gadgets/jetpack/steel_jetpack"
   damascus_steel_jetpack:
     display_name: slimefun
     permission: slimefun
@@ -1008,7 +1008,7 @@ items:
       material: LEATHER_CHESTPLATE
       generate: false
       model_id: 2200124
-      model_path: "slimefun/technical_gadgets/damascus_steel_jetpack"
+      model_path: "slimefun/technical_gadgets/jetpack/damascus_steel_jetpack"
   reinforced_alloy_jetpack:
     display_name: slimefun
     permission: slimefun
@@ -1016,7 +1016,7 @@ items:
       material: LEATHER_CHESTPLATE
       generate: false
       model_id: 2200125
-      model_path: "slimefun/technical_gadgets/reinforced_alloy_jetpack"
+      model_path: "slimefun/technical_gadgets/jetpack/reinforced_alloy_jetpack"
   carbonado_jetpack:
     display_name: slimefun
     permission: slimefun
@@ -1024,7 +1024,7 @@ items:
       material: LEATHER_CHESTPLATE
       generate: false
       model_id: 2200126
-      model_path: "slimefun/technical_gadgets/carbonado_jetpack"
+      model_path: "slimefun/technical_gadgets/jetpack/carbonado_jetpack"
   parachute:
     display_name: slimefun
     permission: slimefun
@@ -1632,7 +1632,7 @@ items:
       material: GOLDEN_HELMET
       generate: false
       model_id: 2200202
-      model_path: "slimefun/armor/gilded_iron_armor/helmet"
+      model_path: "slimefun/armor/gilded_iron_armor/gilded_iron_helmet"
   gilded_iron_chestplate:
     display_name: slimefun
     permission: slimefun
@@ -1640,7 +1640,7 @@ items:
       material: GOLDEN_CHESTPLATE
       generate: false
       model_id: 2200203
-      model_path: "slimefun/armor/gilded_iron_armor/chestplate"
+      model_path: "slimefun/armor/gilded_iron_armor/gilded_iron_chestplate"
   gilded_iron_leggings:
     display_name: slimefun
     permission: slimefun
@@ -1648,7 +1648,7 @@ items:
       material: GOLDEN_LEGGINGS
       generate: false
       model_id: 2200204
-      model_path: "slimefun/armor/gilded_iron_armor/leggings"
+      model_path: "slimefun/armor/gilded_iron_armor/gilded_iron_leggings"
   gilded_iron_boots:
     display_name: slimefun
     permission: slimefun
@@ -1656,7 +1656,7 @@ items:
       material: GOLDEN_BOOTS
       generate: false
       model_id: 2200205
-      model_path: "slimefun/armor/gilded_iron_armor/boots"
+      model_path: "slimefun/armor/gilded_iron_armor/gilded_iron_boots"
   reinforced_cloth:
     display_name: slimefun
     permission: slimefun
@@ -2096,7 +2096,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200262
-      model_path: "slimefun/technical_gadgets/duralumin_jetboots"
+      model_path: "slimefun/technical_gadgets/jetboots/duralumin_jetboots"
   solder_jetboots:
     display_name: slimefun
     permission: slimefun
@@ -2104,7 +2104,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200263
-      model_path: "slimefun/technical_gadgets/solder_jetboots"
+      model_path: "slimefun/technical_gadgets/jetboots/solder_jetboots"
   billon_jetboots:
     display_name: slimefun
     permission: slimefun
@@ -2112,7 +2112,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200264
-      model_path: "slimefun/technical_gadgets/billon_jetboots"
+      model_path: "slimefun/technical_gadgets/jetboots/billon_jetboots"
   steel_jetboots:
     display_name: slimefun
     permission: slimefun
@@ -2120,7 +2120,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200265
-      model_path: "slimefun/technical_gadgets/steel_jetboots"
+      model_path: "slimefun/technical_gadgets/jetboots/steel_jetboots"
   damascus_steel_jetboots:
     display_name: slimefun
     permission: slimefun
@@ -2128,7 +2128,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200266
-      model_path: "slimefun/technical_gadgets/damascus_steel_jetboots"
+      model_path: "slimefun/technical_gadgets/jetboots/damascus_steel_jetboots"
   reinforced_alloy_jetboots:
     display_name: slimefun
     permission: slimefun
@@ -2136,7 +2136,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200267
-      model_path: "slimefun/technical_gadgets/reinforced_alloy_jetboots"
+      model_path: "slimefun/technical_gadgets/jetboots/reinforced_alloy_jetboots"
   carbonado_jetboots:
     display_name: slimefun
     permission: slimefun
@@ -2144,7 +2144,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200268
-      model_path: "slimefun/technical_gadgets/carbonado_jetboots"
+      model_path: "slimefun/technical_gadgets/jetboots/carbonado_jetboots"
   armored_jetboots:
     display_name: slimefun
     permission: slimefun
@@ -2152,7 +2152,7 @@ items:
       material: IRON_BOOTS
       generate: false
       model_id: 2200269
-      model_path: "slimefun/technical_gadgets/armored_jetboots"
+      model_path: "slimefun/technical_gadgets/jetboots/armored_jetboots"
   seismic_axe:
     display_name: slimefun
     permission: slimefun
@@ -4403,3 +4403,91 @@ items:
       generate: false
       model_id: 2200550
       model_path: "slimefun/food/glow_berry_juice"
+  bee_helmet:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: GOLDEN_HELMET
+      generate: false
+      model_id: 2200551
+      model_path: "slimefun/magical_armor/bee_armor/bee_helmet"
+  bee_wings:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: ELYTRA
+      generate: false
+      model_id: 2200552
+      model_path: "slimefun/magical_armor/bee_armor/elytra/bee_wings"
+  bee_leggings:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: GOLDEN_LEGGINGS
+      generate: false
+      model_id: 2200553
+      model_path: "slimefun/magical_armor/bee_armor/bee_leggings"
+  bee_boots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: GOLDEN_BOOTS
+      generate: false
+      model_id: 2200554
+      model_path: "slimefun/magical_armor/bee_armor/bee_boots"
+  elytra_cap:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_HELMET
+      generate: false
+      model_id: 2200555
+      model_path: "slimefun/magical_armor/elytra_cap/elytra_cap"
+  rainbow_helmet:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_HELMET
+      generate: false
+      model_id: 2200556
+      model_path: "slimefun/magical_armor/rainbow_armor/rainbow_helmet"
+  rainbow_chestplate:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2200557
+      model_path: "slimefun/magical_armor/rainbow_armor/rainbow_chestplate"
+  rainbow_leggings:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_LEGGINGS
+      generate: false
+      model_id: 2200558
+      model_path: "slimefun/magical_armor/rainbow_armor/rainbow_leggings"
+  rainbow_boots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LEATHER_BOOTS
+      generate: false
+      model_id: 2200559
+      model_path: "slimefun/magical_armor/rainbow_armor/rainbow_boots"
+  rainbow_leather:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: RABBIT_HIDE
+      generate: false
+      model_id: 2200560
+      model_path: "slimefun/magical_items/rainbow_leather"
+  armored_jetpack:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_id: 2200561
+      model_path: "slimefun/technical_gadgets/jetpack/armored_jetpack"

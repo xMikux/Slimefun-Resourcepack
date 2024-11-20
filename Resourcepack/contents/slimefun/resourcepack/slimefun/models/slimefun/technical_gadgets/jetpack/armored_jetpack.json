@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "author": "Pandicka",
+  "textures": {
+    "layer0": "slimefun:slimefun/technical_gadgets/jetpack/armored_jetpack"
+  }
+}
