@@ -1985,3 +1985,139 @@ items:
       generate: false
       model_id: 2201077
       model_path: "misc/mustard"
+  kitchen:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: CAULDRON
+      generate: false
+      model_id: 2201078
+      model_path: "misc/kitchen"
+  bbq_sauce:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201079
+      model_path: "misc/bbq_sauce"
+  vegetable_oil:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201080
+      model_path: "misc/vegetable_oil"
+  yeast:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201081
+      model_path: "misc/yeast"
+  molasses:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201082
+      model_path: "misc/molasses"
+  brown_sugar:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201083
+      model_path: "misc/brown_sugar"
+  country_gravy:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201084
+      model_path: "misc/country_gravy"
+  red_bell_pepper:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201085
+      model_path: "fruits/red_bell_pepper"
+  red_bell_pepper_bush:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201086
+      model_path: "fruits/red_bell_pepper_bush"
+  elderberry_jelly_sandwich:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201087
+      model_path: "foods/elderberry_jelly_sandwich"
+  street_taco:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201088
+      model_path: "foods/street_taco"
+  sweet_potato_pie:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201089
+      model_path: "foods/sweet_potato_pie"
+  stuffed_red_bell_pepper:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201090
+      model_path: "foods/stuffed_red_bell_pepper"
+  dirt_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201091
+      model_path: "plants/dirt_plant"
+  dirt_essence:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201092
+      model_path: "plants/dirt_essence"
+  netherite_plant:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201093
+      model_path: "plants/netherite_plant"
+  netherite_essence:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_id: 2201094
+      model_path: "plants/netherite_essence"
