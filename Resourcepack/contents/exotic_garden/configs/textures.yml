@@ -2041,22 +2041,22 @@ items:
       generate: false
       model_id: 2201084
       model_path: "misc/country_gravy"
+  red_bell_pepper_bush:
+    display_name: exotic_garden
+    permission: exotic_garden
+    resource:
+      material: OAK_SAPLING
+      generate: false
+      model_id: 2201085
+      model_path: "fruits/red_bell_pepper_bush"
   red_bell_pepper:
     display_name: exotic_garden
     permission: exotic_garden
     resource:
       material: PLAYER_HEAD
       generate: false
-      model_id: 2201085
-      model_path: "fruits/red_bell_pepper"
-  red_bell_pepper_bush:
-    display_name: exotic_garden
-    permission: exotic_garden
-    resource:
-      material: PLAYER_HEAD
-      generate: false
       model_id: 2201086
-      model_path: "fruits/red_bell_pepper_bush"
+      model_path: "fruits/red_bell_pepper"
   elderberry_jelly_sandwich:
     display_name: exotic_garden
     permission: exotic_garden
