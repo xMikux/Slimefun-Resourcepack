@@ -3472,7 +3472,7 @@ items:
       material: WHITE_TERRACOTTA
       generate: false
       model_id: 2200434
-      model_path: "slimefun/christmas/rainbow_terracotta_xmas"
+      model_path: "slimefun/christmas/rainbow_clay_xmas"
   rainbow_concrete_xmas:
     display_name: slimefun
     permission: slimefun
