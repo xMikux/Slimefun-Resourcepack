@@ -2,6 +2,7 @@
   "parent":"item/generated",
   "author":"Pandicka",
   "textures":{
-    "layer0":"slimefun:slimefun/christmas/christmas_milk"
+    "layer0":"slimefun:slimefun/christmas/christmas_milk",
+    "layer1":"slimefun:slimefun/christmas/christmas_milk"
   }
 }

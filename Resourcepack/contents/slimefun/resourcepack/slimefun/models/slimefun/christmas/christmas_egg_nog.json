@@ -2,6 +2,7 @@
   "parent":"item/generated",
   "author":"Pandicka",
   "textures":{
-    "layer0":"slimefun:slimefun/christmas/christmas_egg_nog"
+    "layer0":"slimefun:slimefun/christmas/christmas_egg_nog",
+    "layer1":"slimefun:slimefun/christmas/christmas_egg_nog"
   }
 }

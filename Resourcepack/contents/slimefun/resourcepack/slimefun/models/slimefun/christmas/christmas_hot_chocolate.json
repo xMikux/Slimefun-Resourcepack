@@ -2,6 +2,7 @@
   "parent":"item/generated",
   "author":"Pandicka",
   "textures":{
-    "layer0":"slimefun:slimefun/christmas/christmas_hot_chocolate"
+    "layer0":"slimefun:slimefun/christmas/christmas_hot_chocolate",
+    "layer1":"slimefun:slimefun/christmas/christmas_hot_chocolate"
   }
 }
