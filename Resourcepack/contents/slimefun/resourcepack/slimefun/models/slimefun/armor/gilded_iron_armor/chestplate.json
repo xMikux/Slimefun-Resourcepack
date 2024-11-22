@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "slimefun:slimefun/armor/gilded_iron_armor/chestplate"
-  }
-}

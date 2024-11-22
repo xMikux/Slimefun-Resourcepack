@@ -2,6 +2,7 @@
   "parent": "item/generated",
   "author": "Caribax",
   "textures": {
-    "layer0": "slimefun:slimefun/magical_armor/ender_amor/helmet"
+    "layer0": "slimefun:slimefun/magical_armor/ender_amor/helmet",
+    "layer1": "slimefun:slimefun/magical_armor/ender_amor/helmet"
   }
 }

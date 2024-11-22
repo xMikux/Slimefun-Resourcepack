@@ -23,6 +23,7 @@
 
 一個簡單的重新混合＆製作的黏液科技資源包<br />
 使用 [ItemsAdder][spigot-itemsadder] 產生<br />
+（不需要 ItemsAdder 即可運作！）<br />
 **現在可在 [Modrinth][modrinth] 上下載!**
 
 </h3>

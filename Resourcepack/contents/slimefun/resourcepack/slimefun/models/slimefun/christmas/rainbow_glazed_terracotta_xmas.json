@@ -1,0 +1,7 @@
+{
+  "parent":"block/cube_all",
+  "author":"Pandicka",
+  "textures":{
+    "all":"slimefun:slimefun/christmas/rainbow_glazed_terracotta_xmas"
+  }
+}
