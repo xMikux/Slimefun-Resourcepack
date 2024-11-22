@@ -2761,38 +2761,38 @@ items:
       generate: false
       model_id: 2200345
       model_path: "slimefun/energy/carbonado_edged_capacitor"
-  # solar_generator:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: DAYLIGHT_DETECTOR
-  #     generate: false
-  #     model_id: 2200346
-  #     model_path: "slimefun/none"
-  # solar_generator_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: DAYLIGHT_DETECTOR
-  #     generate: false
-  #     model_id: 2200347
-  #     model_path: "slimefun/none"
-  # solar_generator_3:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: DAYLIGHT_DETECTOR
-  #     generate: false
-  #     model_id: 2200348
-  #     model_path: "slimefun/none"
-  # solar_generator_4:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: DAYLIGHT_DETECTOR
-  #     generate: false
-  #     model_id: 2200349
-  #     model_path: "slimefun/none"
+  solar_generator:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: DAYLIGHT_DETECTOR
+      generate: false
+      model_id: 2200346
+      model_path: "slimefun/energy/solar_generator"
+  solar_generator_2:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: DAYLIGHT_DETECTOR
+      generate: false
+      model_id: 2200347
+      model_path: "slimefun/energy/solar_generator_2"
+  solar_generator_3:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: DAYLIGHT_DETECTOR
+      generate: false
+      model_id: 2200348
+      model_path: "slimefun/energy/solar_generator_3"
+  solar_generator_4:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: DAYLIGHT_DETECTOR
+      generate: false
+      model_id: 2200349
+      model_path: "slimefun/energy/solar_generator_4"
   charging_bench:
     display_name: slimefun
     permission: slimefun
@@ -2849,30 +2849,30 @@ items:
       generate: false
       model_id: 2200356
       model_path: "slimefun/energy/electric_gold_pan3"
-  # electric_dust_washer:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200357
-  #     model_path: "slimefun/none"
-  # electric_dust_washer_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200358
-  #     model_path: "slimefun/none"
-  # electric_dust_washer_3:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200359
-  #     model_path: "slimefun/none"
+  electric_dust_washer:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: BLUE_STAINED_GLASS
+      generate: false
+      model_id: 2200357
+      model_path: "slimefun/energy/electric_dust_washer"
+  electric_dust_washer_2:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: BLUE_STAINED_GLASS
+      generate: false
+      model_id: 2200358
+      model_path: "slimefun/energy/electric_dust_washer_2"
+  electric_dust_washer_3:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: BLUE_STAINED_GLASS
+      generate: false
+      model_id: 2200359
+      model_path: "slimefun/energy/electric_dust_washer_3"
   electric_ingot_factory:
     display_name: slimefun
     permission: slimefun
@@ -2977,30 +2977,30 @@ items:
       generate: false
       model_id: 2200372
       model_path: "slimefun/energy/coal_generator_2"
-  # bio_reactor:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200373
-  #     model_path: "slimefun/none"
-  # auto_drier:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200374
-  #     model_path: "slimefun/none"
-  # auto_brewer:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200375
-  #     model_path: "slimefun/none"
+  bio_reactor:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LIME_TERRACOTTA
+      generate: false
+      model_id: 2200373
+      model_path: "slimefun/energy/bio_reactor"
+  auto_drier:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: SMOKER
+      generate: false
+      model_id: 2200374
+      model_path: "slimefun/energy/auto_drier"
+  auto_brewer:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: SMOKER
+      generate: false
+      model_id: 2200375
+      model_path: "slimefun/energy/auto_brewer"
   electric_press:
     display_name: slimefun
     permission: slimefun
@@ -3049,22 +3049,22 @@ items:
       generate: false
       model_id: 2200381
       model_path: "slimefun/energy/auto_disenchanter"
-  # auto_anvil:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200382
-  #     model_path: "slimefun/none"
-  # auto_anvil_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200383
-  #     model_path: "slimefun/none"
+  auto_anvil:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2200382
+      model_path: "slimefun/energy/auto_anvil"
+  auto_anvil_2:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2200383
+      model_path: "slimefun/energy/auto_anvil_2"
   multimeter:
     display_name: slimefun
     permission: slimefun
@@ -3601,14 +3601,14 @@ items:
       generate: false
       model_id: 2200450
       model_path: "slimefun/gps/gps_geo_scanner"
-  # portable_geo_scanner:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200451
-  #     model_path: "slimefun/none"
+  portable_geo_scanner:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: CLOCK
+      generate: false
+      model_id: 2200451
+      model_path: "slimefun/gps/portable_geo_scanner"
   oil_pump:
     display_name: slimefun
     permission: slimefun
@@ -3857,22 +3857,22 @@ items:
       generate: false
       model_id: 2200482
       model_path: "slimefun/miscellaneous/organic_food/organic_food_cocoa"
-  # auto_breeder:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200483
-  #     model_path: "slimefun/none"
-  # animal_growth_accelerator:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200484
-  #     model_path: "slimefun/none"
+  auto_breeder:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: HAY_BLOCK
+      generate: false
+      model_id: 2200483
+      model_path: "slimefun/energy/auto_breeder"
+  animal_growth_accelerator:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: HAY_BLOCK
+      generate: false
+      model_id: 2200484
+      model_path: "slimefun/energy/auto_growth_accelerator"
   tree_growth_accelerator:
     display_name: slimefun
     permission: slimefun
@@ -3889,22 +3889,22 @@ items:
       generate: false
       model_id: 2200486
       model_path: "slimefun/energy/xp_collector"
-  # food_composter:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200487
-  #     model_path: "slimefun/none"
-  # food_composter_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200488
-  #     model_path: "slimefun/none"
+  food_composter:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: GREEN_TERRACOTTA
+      generate: false
+      model_id: 2200487
+      model_path: "slimefun/energy/food_composter"
+  food_composter_2:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: GREEN_TERRACOTTA
+      generate: false
+      model_id: 2200488
+      model_path: "slimefun/energy/food_composter_2"
   fertilizer_wheat:
     display_name: slimefun
     permission: slimefun
@@ -4001,22 +4001,22 @@ items:
       generate: false
       model_id: 2200500
       model_path: "slimefun/energy/crop_growth_accelerator_2"
-  # freezer:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200501
-  #     model_path: "slimefun/none"
-  # freezer_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200502
-  #     model_path: "slimefun/none"
+  freezer:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LIGHT_BLUE_STAINED_GLASS
+      generate: false
+      model_id: 2200501
+      model_path: "slimefun/energy/freezer"
+  freezer_2:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LIGHT_BLUE_STAINED_GLASS
+      generate: false
+      model_id: 2200502
+      model_path: "slimefun/energy/freezer_2"
   reactor_collant_cell:
     display_name: slimefun
     permission: slimefun
@@ -4137,14 +4137,14 @@ items:
       generate: false
       model_id: 2200517
       model_path: "slimefun/cargo/reactor_access_port"
-  # fluid_pump:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200518
-  #     model_path: "slimefun/none"
+  fluid_pump:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: BLUE_TERRACOTTA
+      generate: false
+      model_id: 2200518
+      model_path: "slimefun/energy/fluid_pump"
   trash_can_block:
     display_name: slimefun
     permission: slimefun
@@ -4153,30 +4153,30 @@ items:
       generate: false
       model_id: 2200519
       model_path: "slimefun/cargo/trash_can_block"
-  # carbon_press:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: BLACK_STAINED_GLASS
-  #     generate: false
-  #     model_id: 2200520
-  #     model_path: "slimefun/none"
-  # carbon_press_2:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: BLACK_STAINED_GLASS
-  #     generate: false
-  #     model_id: 2200521
-  #     model_path: "slimefun/none"
-  # carbon_press_3:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: BLACK_STAINED_GLASS
-  #     generate: false
-  #     model_id: 2200522
-  #     model_path: "slimefun/none"
+  carbon_press:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: BLACK_STAINED_GLASS
+      generate: false
+      model_id: 2200520
+      model_path: "slimefun/energy/carbon_press"
+  carbon_press_2:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: BLACK_STAINED_GLASS
+      generate: false
+      model_id: 2200521
+      model_path: "slimefun/energy/carbon_press_2"
+  carbon_press_3:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: BLACK_STAINED_GLASS
+      generate: false
+      model_id: 2200522
+      model_path: "slimefun/energy/carbon_press_3"
   electric_smeltery:
     display_name: slimefun
     permission: slimefun
@@ -4193,14 +4193,14 @@ items:
       generate: false
       model_id: 2200524
       model_path: "slimefun/energy/electric_smeltery_2"
-  # iron_golem_assembler:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200525
-  #     model_path: "slimefun/none"
+  iron_golem_assembler:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2200525
+      model_path: "slimefun/energy/iron_golem_assembler"
   wither_assembler:
     display_name: slimefun
     permission: slimefun
@@ -4491,3 +4491,35 @@ items:
       generate: false
       model_id: 2200561
       model_path: "slimefun/technical_gadgets/jetpack/armored_jetpack"
+  book_binder:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: BOOKSHELF
+      generate: false
+      model_id: 2200562
+      model_path: "slimefun/energy/book_binder"
+  freezer_3:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: LIGHT_BLUE_STAINED_GLASS
+      generate: false
+      model_id: 2200563
+      model_path: "slimefun/energy/freezer_3"
+  produce_collector:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: HAY_BLOCK
+      generate: false
+      model_id: 2200564
+      model_path: "slimefun/energy/produce_collector"
+  portable_teleporter:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: COMPASS
+      generate: false
+      model_id: 2200565
+      model_path: "slimefun/gps/portable_teleporter"
