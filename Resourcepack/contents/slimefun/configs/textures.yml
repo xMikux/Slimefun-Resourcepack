@@ -3872,7 +3872,7 @@ items:
       material: HAY_BLOCK
       generate: false
       model_id: 2200484
-      model_path: "slimefun/energy/auto_growth_accelerator"
+      model_path: "slimefun/energy/animal_growth_accelerator"
   tree_growth_accelerator:
     display_name: slimefun
     permission: slimefun
