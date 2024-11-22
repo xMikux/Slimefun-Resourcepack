@@ -1753,38 +1753,38 @@ items:
       generate: false
       model_id: 2200217
       model_path: "slimefun/resources/ingots/redstone_alloy"
-  # gold_12k_helmet:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200218
-  #     model_path: "slimefun/none"
-  # gold_12k_chestplate:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200219
-  #     model_path: "slimefun/none"
-  # gold_12k_leggings:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200220
-  #     model_path: "slimefun/none"
-  # gold_12k_boots:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200221
-  #     model_path: "slimefun/none"
+  gold_12k_helmet:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: GOLDEN_HELMET
+      generate: false
+      model_id: 2200218
+      model_path: "slimefun/armor/gold_12k_armor/gold_12k_helmet"
+  gold_12k_chestplate:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: GOLDEN_CHESTPLATE
+      generate: false
+      model_id: 2200219
+      model_path: "slimefun/armor/gold_12k_armor/gold_12k_chestplate"
+  gold_12k_leggings:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: GOLDEN_LEGGINGS
+      generate: false
+      model_id: 2200220
+      model_path: "slimefun/armor/gold_12k_armor/gold_12k_leggings"
+  gold_12k_boots:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: GOLDEN_BOOTS
+      generate: false
+      model_id: 2200221
+      model_path: "slimefun/armor/gold_12k_armor/gold_12k_boots"
   cloth:
     display_name: slimefun
     permission: slimefun
