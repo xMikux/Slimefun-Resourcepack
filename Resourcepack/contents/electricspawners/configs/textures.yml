@@ -1,217 +1,217 @@
 info:
-  namespace: electric_spawners
+  namespace: electricspawners
 items:
   electric_spawner_blaze:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300401
       model_path: "electric_spawner_blaze"
   electric_spawner_cave_spider:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300402
       model_path: "electric_spawner_cave_spider"
   electric_spawner_chicken:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300403
       model_path: "electric_spawner_chicken"
   electric_spawner_cow:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300404
       model_path: "electric_spawner_cow"
   electric_spawner_creeper:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300405
       model_path: "electric_spawner_creeper"
   electric_spawner_enderman:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300406
       model_path: "electric_spawner_enderman"
   electric_spawner_endermite:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300407
       model_path: "electric_spawner_endermite"
   electric_spawner_ghast:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300408
       model_path: "electric_spawner_ghast"
   electric_spawner_guardian:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300409
       model_path: "electric_spawner_guardian"
   electric_spawner_horse:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300410
       model_path: "electric_spawner_horse"
   electric_spawner_iron_golem:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300411
       model_path: "electric_spawner_iron_golem"
   electric_spawner_magma_cube:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300412
       model_path: "electric_spawner_magma_cube"
   electric_spawner_mushroom_cow:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300413
       model_path: "electric_spawner_mushroom_cow"
   electric_spawner_ocelot:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300414
       model_path: "electric_spawner_ocelot"
   electric_spawner_pig:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300415
       model_path: "electric_spawner_pig"
   electric_spawner_rabbit:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300416
       model_path: "electric_spawner_rabbit"
   electric_spawner_sheep:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300417
       model_path: "electric_spawner_sheep"
   electric_spawner_silverfish:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300418
       model_path: "electric_spawner_silverfish"
   electric_spawner_skeleton:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300419
       model_path: "electric_spawner_skeleton"
   electric_spawner_slime:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300420
       model_path: "electric_spawner_slime"
   electric_spawner_spider:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300421
       model_path: "electric_spawner_spider"
   electric_spawner_squid:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300422
       model_path: "electric_spawner_squid"
   electric_spawner_villager:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300423
       model_path: "electric_spawner_villager"
   electric_spawner_wither_skeleton:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300424
       model_path: "electric_spawner_wither_skeleton"
   electric_spawner_witch:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300425
       model_path: "electric_spawner_witch"
   electric_spawner_wolf:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300426
       model_path: "electric_spawner_wolf"
   electric_spawner_zombie:
-    display_name: eletric_spawners
-    permission: eletric_spawners
+    display_name: electricspawners
+    permission: electricspawners
     resource:
       material: PLAYER_HEAD
       generate: false
