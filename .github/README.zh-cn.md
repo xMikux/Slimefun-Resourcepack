@@ -133,6 +133,7 @@
 | Gastronomicon | 2203001 - 2203500 |
 | Liquid | 2204000 - 2204200 |
 | Cultivation | 2300000 - 2300300 |
+| Electric Spawners | 2300400 - 2300600 |
 | FoxyMachines* | 2201352 - 2201355 |
 
 </details>
