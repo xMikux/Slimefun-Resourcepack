@@ -2,6 +2,6 @@
   "author":"Pandicka",
   "parent": "item/generated",
 	"textures": {
-	  "layer0": "electricspawners:electric_spawner_ghast"
+	  "layer0": "electric_spawners:electric_spawner_ghast"
   }
 }
