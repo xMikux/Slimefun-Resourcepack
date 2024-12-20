@@ -2528,7 +2528,7 @@ items:
       material: POTION
       generate: false
       model_id: 2200316
-      model_path: "slimefun/seasonal/christmas/christmas_milk"
+      model_path: "slimefun/christmas/christmas_milk"
   christmas_chocolate_milk:
     display_name: slimefun
     permission: slimefun
@@ -2536,7 +2536,7 @@ items:
       material: POTION
       generate: false
       model_id: 2200317
-      model_path: "slimefun/seasonal/christmas/christmas_chocolate_milk"
+      model_path: "slimefun/christmas/christmas_chocolate_milk"
   christmas_egg_nog:
     display_name: slimefun
     permission: slimefun
@@ -2544,7 +2544,7 @@ items:
       material: POTION
       generate: false
       model_id: 2200318
-      model_path: "slimefun/seasonal/christmas/christmas_egg_nog"
+      model_path: "slimefun/christmas/christmas_egg_nog"
   christmas_apple_cider:
     display_name: slimefun
     permission: slimefun
@@ -2552,31 +2552,31 @@ items:
       material: POTION
       generate: false
       model_id: 2200319
-      model_path: "slimefun/seasonal/christmas/christmas_apple_cider"
-  # christmas_cookie:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200320
-  #     model_path: "slimefun/none"
-  # christmas_fruit_cake:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200321
-  #     model_path: "slimefun/none"
-  # christmas_apple_pie:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200322
-  #     model_path: "slimefun/none"
+      model_path: "slimefun/christmas/christmas_apple_cider"
+  christmas_cookie:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: COOKIE
+      generate: false
+      model_id: 2200320
+      model_path: "slimefun/christmas/christmas_cookie"
+  christmas_fruit_cake:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: PUMPKIN_PIE
+      generate: false
+      model_id: 2200321
+      model_path: "slimefun/christmas/christmas_fruit_cake"
+  christmas_apple_pie:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: PUMPKIN_PIE
+      generate: false
+      model_id: 2200322
+      model_path: "slimefun/christmas/christmas_apple_pie"
   christmas_hot_chocolate:
     display_name: slimefun
     permission: slimefun
@@ -2584,39 +2584,39 @@ items:
       material: POTION
       generate: false
       model_id: 2200323
-      model_path: "slimefun/seasonal/christmas/christmas_hot_chocolate"
-  # christmas_cake:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200324
-  #     model_path: "slimefun/none"
-  # christmas_caramel:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200325
-  #     model_path: "slimefun/none"
-  # christmas_caramel_apple:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200326
-  #     model_path: "slimefun/none"
-  # christmas_chocolate_apple:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200327
-  #     model_path: "slimefun/none"
+      model_path: "slimefun/christmas/christmas_hot_chocolate"
+  christmas_cake:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: PUMPKIN_PIE
+      generate: false
+      model_id: 2200324
+      model_path: "slimefun/christmas/christmas_cake"
+  christmas_caramel:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 2200325
+      model_path: "slimefun/christmas/christmas_caramel"
+  christmas_caramel_apple:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: APPLE
+      generate: false
+      model_id: 2200326
+      model_path: "slimefun/christmas/christmas_caramel_apple"
+  christmas_chocolate_apple:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: APPLE
+      generate: false
+      model_id: 2200327
+      model_path: "slimefun/christmas/christmas_chocolate_apple"
   christmas_present:
     display_name: slimefun
     permission: slimefun
@@ -3441,54 +3441,54 @@ items:
       generate: false
       model_id: 2200430
       model_path: "slimefun/magical_gadgets/rainbow_glazed_terracotta"
-  # rainbow_wool_xmas:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200431
-  #     model_path: "slimefun/none"
-  # rainbow_glass_xmas:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200432
-  #     model_path: "slimefun/none"
-  # rainbow_glass_pane_xmas:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200433
-  #     model_path: "slimefun/none"
-  # rainbow_clay_xmas:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200434
-  #     model_path: "slimefun/none"
-  # rainbow_concrete_xmas:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200435
-  #     model_path: "slimefun/none"
-  # rainbow_glazed_terracotta_xmas:
-  #   display_name: slimefun
-  #   permission: slimefun
-  #   resource:
-  #     material: PLAYER_HEAD
-  #     generate: false
-  #     model_id: 2200436
-  #     model_path: "slimefun/none"
+  rainbow_wool_xmas:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: WHITE_WOOL
+      generate: false
+      model_id: 2200431
+      model_path: "slimefun/christmas/rainbow_wool_xmas"
+  rainbow_glass_xmas:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: WHITE_STAINED_GLASS
+      generate: false
+      model_id: 2200432
+      model_path: "slimefun/christmas/rainbow_glass_xmas"
+  rainbow_glass_pane_xmas:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: WHITE_STAINED_GLASS_PANE
+      generate: false
+      model_id: 2200433
+      model_path: "slimefun/christmas/rainbow_glass_pane_xmas"
+  rainbow_clay_xmas:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: WHITE_TERRACOTTA
+      generate: false
+      model_id: 2200434
+      model_path: "slimefun/christmas/rainbow_terracotta_xmas"
+  rainbow_concrete_xmas:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: WHITE_CONCRETE
+      generate: false
+      model_id: 2200435
+      model_path: "slimefun/christmas/rainbow_concrete_xmas"
+  rainbow_glazed_terracotta_xmas:
+    display_name: slimefun
+    permission: slimefun
+    resource:
+      material: WHITE_GLAZED_TERRACOTTA
+      generate: false
+      model_id: 2200436
+      model_path: "slimefun/christmas/rainbow_glazed_terracotta_xmas"
   # rainbow_wool_valentine:
   #   display_name: slimefun
   #   permission: slimefun
