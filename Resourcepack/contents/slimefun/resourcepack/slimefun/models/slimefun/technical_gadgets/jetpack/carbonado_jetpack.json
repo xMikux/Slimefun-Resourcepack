@@ -2,7 +2,7 @@
   "parent": "item/generated",
   "author": "Pandicka",
   "textures": {
-    "layer0": "slimefun:slimefun/technical_gadgets/carbonado_jetpack",
-    "layer1": "slimefun:slimefun/technical_gadgets/carbonado_jetpack"
+    "layer0": "slimefun:slimefun/technical_gadgets/jetpack/carbonado_jetpack",
+    "layer1": "slimefun:slimefun/technical_gadgets/jetpack/carbonado_jetpack"
   }
 }

@@ -2,7 +2,7 @@
   "parent": "item/generated",
   "author": "Pandicka",
   "textures": {
-    "layer0": "slimefun:slimefun/technical_gadgets/duralumin_jetboots",
-    "layer1": "slimefun:slimefun/technical_gadgets/duralumin_jetboots"
+    "layer0": "slimefun:slimefun/technical_gadgets/jetboots/duralumin_jetboots",
+    "layer1": "slimefun:slimefun/technical_gadgets/jetboots/duralumin_jetboots"
   }
 }

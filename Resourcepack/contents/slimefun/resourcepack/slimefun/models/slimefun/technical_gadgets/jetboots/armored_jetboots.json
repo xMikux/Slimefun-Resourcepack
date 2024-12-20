@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "author": "Pandicka",
   "textures": {
-    "layer0": "slimefun:slimefun/technical_gadgets/armored_jetboots"
+    "layer0": "slimefun:slimefun/technical_gadgets/jetboots/armored_jetboots"
   }
 }
