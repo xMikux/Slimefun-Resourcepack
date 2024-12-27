@@ -2,6 +2,7 @@
   "parent": "item/generated",
   "author": "Caribax",
   "textures": {
-    "layer0": "slimefun:slimefun/technical_gadgets/night_vision_goggles"
+    "layer0": "slimefun:slimefun/technical_gadgets/night_vision_goggles",
+    "layer1": "slimefun:slimefun/technical_gadgets/night_vision_goggles"
   }
 }

@@ -1,0 +1,7 @@
+{
+  "parent":"item/generated",
+  "author":"Pandicka",
+  "textures":{
+    "layer0":"slimefun:slimefun/magical_armor/bee_armor/bee_leggings"
+  }
+}

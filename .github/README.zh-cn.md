@@ -23,6 +23,7 @@
 
 一个简单的重新混合＆制作的粘液科技资源包<br />
 使用 [ItemsAdder][spigot-itemsadder] 产生<br />
+（不需要 ItemsAdder 即可运作！）<br />
 **现在可在 [Modrinth][modrinth] 上下载!**
 
 </h3>
@@ -131,6 +132,8 @@
 | SlimefunWarfare | 2202001 - 2202200 |
 | Gastronomicon | 2203001 - 2203500 |
 | Liquid | 2204000 - 2204200 |
+| Cultivation | 2300000 - 2300300 |
+| Electric Spawners | 2300400 - 2300600 |
 | FoxyMachines* | 2201352 - 2201355 |
 
 </details>
