@@ -3,5 +3,6 @@
   "author": "Caribax",
   "textures": {
     "layer0": "infinityexpansion:tools/infinity_blade"
+    "layer1": "infinityexpansion:tools/infinity_blade_layer_1"
   }
 }
