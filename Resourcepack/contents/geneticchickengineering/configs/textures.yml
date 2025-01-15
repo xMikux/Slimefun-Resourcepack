@@ -1,0 +1,588 @@
+info:
+  namespace: geneticchickengineering
+items:
+  #pocket_chicken:
+  #  display_name: geneticchickengineering
+  #  permission: geneticchickengineering
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2300600
+  #    model_path: "chickens/feather_chicken"
+  chicken_net:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: COBWEB
+      generate: false
+      model_id: 2300601
+      model_path: "chicken_net"
+  #water_egg:
+  #  display_name: geneticchickengineering
+  #  permission: geneticchickengineering
+  #  resource:
+  #    material: 
+  #    generate: false
+  #    model_id: 2300602
+  #    model_path: " "  
+  #lave_egg:
+  #  display_name: geneticchickengineering
+  #  permission: geneticchickengineering
+  #  resource:
+  #    material: STRIDER_SPAWN_EGG
+  #    generate: false
+  #    model_id: 2300603
+  #    model_path: " "
+  genetic_sequencer:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: SMOKER
+      generate: false
+      model_id: 2300604
+      model_path: "genetic_sequencer"
+  excitation_chamber:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: BLAST_FURNACE
+      generate: false
+      model_id: 2300605
+      model_path: "excitation_chamber"
+  excitation_chamber_2:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: BLAST_FURNACE
+      generate: false
+      model_id: 2300606
+      model_path: "excitation_chamber_2"
+  excitation_chamber_3:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: BLAST_FURNACE
+      generate: false
+      model_id: 2300607
+      model_path: "excitation_chamber_3"
+  private_coop:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: BEEHIVE
+      generate: false
+      model_id: 2300608
+      model_path: "private_coop"
+  feather_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: FEATHER
+      generate: false
+      model_id: 2300609
+      model_path: "chickens/feather_chicken"
+  water_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: TURTLE_SPAWN_EGG
+      generate: false
+      model_id: 2300610
+      model_path: "chickens/water_chicken"
+  sand_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: SAND
+      generate: false
+      model_id: 2300611
+      model_path: "chickens/sand_chicken"
+  slime_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: SLIME_BALL
+      generate: false
+      model_id: 2300612
+      model_path: "chickens/slime_chicken"
+  flint_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: FLINT
+      generate: false
+      model_id: 2300613
+      model_path: "chickens/flint_chicken"
+  kelp_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: KELP
+      generate: false
+      model_id: 2300614
+      model_path: "chickens/kelp_chicken"
+  gunpowder_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: GUNPOWDER
+      generate: false
+      model_id: 2300615
+      model_path: "chickens/gunpowder_chicken"
+  lead_dust_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: GUNPOWDER
+      generate: false
+      model_id: 2300616
+      model_path: "chickens/lead_dust_chicken"
+  dirt_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: DIRT
+      generate: false
+      model_id: 2300617
+      model_path: "chickens/dirt_chicken"
+  oak_log_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: OAK_LOG
+      generate: false
+      model_id: 2300618
+      model_path: "chickens/oak_log_chicken"
+  clay_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: CLAY
+      generate: false
+      model_id: 2300619
+      model_path: "chickens/clay_chicken"
+  aluminum_dust_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: SUGAR
+      generate: false
+      model_id: 2300620
+      model_path: "chickens/aluminum_dust_chicken"
+  granite_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: GRANITE
+      generate: false
+      model_id: 2300621
+      model_path: "chickens/granite_chicken"
+  cactus_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: CACTUS
+      generate: false
+      model_id: 2300622
+      model_path: "chickens/cactus_chicken"
+  redstone_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: REDSTONE
+      generate: false
+      model_id: 2300623
+      model_path: "chickens/redstone_chicken"
+  glowstone_dust_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: GLOWSTONE_DUST
+      generate: false
+      model_id: 2300624
+      model_path: "chickens/glowstone_dust_chicken"
+  cobblestone_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: COBBLESTONE
+      generate: false
+      model_id: 2300625
+      model_path: "chickens/cobblestone_chicken"
+  ice_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: ICE
+      generate: false
+      model_id: 2300626
+      model_path: "chickens/ice_chicken"
+  gravel_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: GRAVEL
+      generate: false
+      model_id: 2300627
+      model_path: "chickens/gravel_chicken"
+  snowball_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: SNOWBALL
+      generate: false
+      model_id: 2300628
+      model_path: "chickens/snowball_chicken"
+  andesite_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: ANDESITE
+      generate: false
+      model_id: 2300629
+      model_path: "chickens/andesite_chicken"
+  tin_dust_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: SUGAR
+      generate: false
+      model_id: 2300630
+      model_path: "chickens/tin_dust_chicken"
+  lava_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: STRIDER_SPAWN_EGG
+      generate: false
+      model_id: 2300631
+      model_path: "chickens/lava_chicken"
+  magma_cream_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: MAGMA_CREAM
+      generate: false
+      model_id: 2300632
+      model_path: "chickens/magma_cream_chicken"
+  diorite_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: DIORITE
+      generate: false
+      model_id: 2300633
+      model_path: "chickens/diorite_chicken"
+  magnesium_dust_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: SUGAR
+      generate: false
+      model_id: 2300634
+      model_path: "chickens/magnesium_dust_chicken"
+  copper_dust_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: GLOWSTONE_DUST
+      generate: false
+      model_id: 2300635
+      model_path: "chickens/copper_dust_chicken"
+  nether_wart_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: NETHER_WART
+      generate: false
+      model_id: 2300636
+      model_path: "chickens/nether_wart_chicken"
+  obsidian_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: OBSIDIAN
+      generate: false
+      model_id: 2300637
+      model_path: "chickens/obsidian_chicken"
+  crying_obsidian_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: CRYING_OBSIDIAN
+      generate: false
+      model_id: 2300638
+      model_path: "chickens/crying_obsidian_chicken"
+  sulfate_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: GLOWSTONE_DUST
+      generate: false
+      model_id: 2300639
+      model_path: "chickens/sulfate_chicken"
+  emerald_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: EMERALD
+      generate: false
+      model_id: 2300640
+      model_path: "chickens/emerald_chicken"
+  bone_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: BONE
+      generate: false
+      model_id: 2300641
+      model_path: "chickens/bone_chicken"
+  sponge_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: SPONGE
+      generate: false
+      model_id: 2300642
+      model_path: "chickens/sponge_chicken"
+  sugar_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: SUGAR
+      generate: false
+      model_id: 2300643
+      model_path: "chickens/sugar_chicken"
+  cake_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: CAKE
+      generate: false
+      model_id: 2300644
+      model_path: "chickens/cake_chicken"
+  leather_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: LEATHER
+      generate: false
+      model_id: 2300645
+      model_path: "chickens/leather_chicken"
+  zinc_dust_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: SUGAR
+      generate: false
+      model_id: 2300646
+      model_path: "chickens/zinc_dust_chicken"
+  silver_dust_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: SUGAR
+      generate: false
+      model_id: 2300647
+      model_path: "chickens/silver_dust_chicken"
+  phantom_membrane_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: PHANTOM_MEMBRANE
+      generate: false
+      model_id: 2300648
+      model_path: "chickens/phantom_membrane_chicken"
+  string_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: STRING
+      generate: false
+      model_id: 2300649
+      model_path: "chickens/string_chicken"
+  gold_dust_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: GLOWSTONE_DUST
+      generate: false
+      model_id: 2300650
+      model_path: "chickens/gold_dust_chicken"
+  iron_dust_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: GUNPOWDER
+      generate: false
+      model_id: 2300651
+      model_path: "chickens/iron_dust_chicken"
+  ender_pearl_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: ENDER_PEARL
+      generate: false
+      model_id: 2300652
+      model_path: "chickens/ender_pearl_chicken"
+  iron_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2300653
+      model_path: "chickens/iron_chicken"
+  basalt_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: BASALT
+      generate: false
+      model_id: 2300654
+      model_path: "chickens/basalt_chicken"
+  ghast_tear_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: GHAST_SPAWN_EGG
+      generate: false
+      model_id: 2300655
+      model_path: "chickens/ghast_tear_chicken"
+  experience_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: EXPERIENCE_BOTTLE
+      generate: false
+      model_id: 2300656
+      model_path: "chickens/experience_chicken"
+  coal_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: COAL
+      generate: false
+      model_id: 2300657
+      model_path: "chickens/coal_chicken"
+  lapis_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: LAPIS_LAZULI
+      generate: false
+      model_id: 2300658
+      model_path: "chickens/lapis_chicken"
+  glass_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: GLASS
+      generate: false
+      model_id: 2300659
+      model_path: "chickens/glass_chicken"
+  soul_sand_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: SOUL_SAND
+      generate: false
+      model_id: 2300660
+      model_path: "chickens/soul_sand_chicken"
+  netherrack_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: NETHERRACK
+      generate: false
+      model_id: 2300661
+      model_path: "chickens/netherrack_chicken"
+  quartz_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: QUARTZ
+      generate: false
+      model_id: 2300662
+      model_path: "chickens/quartz_chicken"
+  blaze_rod_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: BLAZE_ROD
+      generate: false
+      model_id: 2300663
+      model_path: "chickens/blaze_rod_chicken"
+  prismarine_shard_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: PRISMARINE_SHARD
+      generate: false
+      model_id: 2300664
+      model_path: "chickens/prismarine_shard_chicken"
+  gold_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: GOLD_INGOT
+      generate: false
+      model_id: 2300665
+      model_path: "chickens/gold_chicken"
+  shroomlight_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: SHROOMLIGHT
+      generate: false
+      model_id: 2300666
+      model_path: "chickens/shroomlight_chicken"
+  soul_soil_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: SOUL_SOIL
+      generate: false
+      model_id: 2300667
+      model_path: "chickens/soul_soil_chicken"
+  prismarine_crystals_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: PRISMARINE_CRYSTALS
+      generate: false
+      model_id: 2300668
+      model_path: "chickens/prismarine_crystals_chicken"
+  blackstone_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: BLACKSTONE
+      generate: false
+      model_id: 2300669
+      model_path: "chickens/blackstone_chicken"
+  end_stone_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: END_STONE
+      generate: false
+      model_id: 2300670
+      model_path: "chickens/end_stone_chicken"
+  diamond_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: DIAMOND
+      generate: false
+      model_id: 2300671
+      model_path: "chickens/diamond_chicken"
+  netherite_chicken:
+    display_name: geneticchickengineering
+    permission: geneticchickengineering
+    resource:
+      material: NETHERITE_INGOT
+      generate: false
+      model_id: 2300672
+      model_path: "chickens/netherite_chicken"
+  
