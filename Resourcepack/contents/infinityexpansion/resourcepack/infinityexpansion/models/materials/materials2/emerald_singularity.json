@@ -1,7 +1,8 @@
 {
-  "parent": "block/cube_all",
+  "parent": "item/generated",
   "author": "Caribax",
   "textures": {
-    "all": "infinityexpansion:materials/materials2/emerald_singularity"
+    "layer0": "infinityexpansion:materials/materials2/emerald_singularity_layer_0",
+    "layer1": "infinityexpansion:materials/materials2/emerald_singularity_layer_1"
   }
 }
