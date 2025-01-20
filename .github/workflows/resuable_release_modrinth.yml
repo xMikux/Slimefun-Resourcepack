@@ -55,7 +55,7 @@ jobs:
           version: ${{ inputs.version }}
           version-type: ${{ inputs.release_type }}
           loaders: minecraft
-          game-versions: ">=1.19"
+          game-versions: ">=1.19 <1.21.4"
           changelog: |
             ${{ inputs.changelog }}
           dependencies: |
