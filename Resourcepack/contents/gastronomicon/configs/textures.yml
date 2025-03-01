@@ -1,6 +1,249 @@
 info:
   namespace: gastronomicon
 items:
+  gn_rolling_pin:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: STICK
+      generate: false
+      model_id: 2203001
+      model_path: "tools/gn_rolling_pin"
+  gn_kitchen_knife:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_id: 2203002
+      model_path: "tools/gn_kitchen_knife"
+  gn_blender:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BUCKET
+      generate: false
+      model_id: 2203003
+      model_path: "tools/gn_blender"
+  gn_mortar_and_pestle:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BOWL
+      generate: false
+      model_id: 2203004
+      model_path: "tools/gn_mortar_and_pestle"
+  gn_peeler:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: IRON_HOE
+      generate: false
+      model_id: 2203005
+      model_path: "tools/gn_peeler"
+  gn_whisk:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: IRON_SHOVEL
+      generate: false
+      model_id: 2203006
+      model_path: "tools/gn_whisk"
+  gn_baking_tray:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: LIGHT_GRAY_CARPET
+      generate: false
+      model_id: 2203007
+      model_path: "tools/gn_baking_tray"
+  gn_frying_pan:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: GRAY_CARPET
+      generate: false
+      model_id: 2203008
+      model_path: "tools/gn_frying_pan"
+  gn_steel_pot:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: CAULDRON
+      generate: false
+      model_id: 2203009
+      model_path: "tools/gn_steel_pot"
+  gn_distillation_chamber:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: CAULDRON
+      generate: false
+      model_id: 2203010
+      model_path: "tools/gn_distillation_chamber"
+  gn_steel_bowl:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BUCKET
+      generate: false
+      model_id: 2203011
+      model_path: "tools/gn_steel_bowl"
+  gn_steel_wire:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: STRING
+      generate: false
+      model_id: 2203012
+      model_path: "tools/gn_steel_wire"
+  gn_steel_spring:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: STRING
+      generate: false
+      model_id: 2203013
+      model_path: "tools/gn_steel_spring"
+  gn_hunting_trap:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: IRON_TRAPDOOR
+      generate: false
+      model_id: 2203014
+      model_path: "tools/gn_hunting_trap"
+  gn_crab_trap:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: OAK_TRAPDOOR
+      generate: false
+      model_id: 2203015
+      model_path: "tools/gn_crab_trap"
+  gn_chefs_hat:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: LEATHER_HELMET
+      generate: false
+      model_id: 2203016
+      model_path: "tools/gn_chefs_hat"
+  gn_wooden_sickle:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: WOODEN_HOE
+      generate: false
+      model_id: 2203017
+      model_path: "tools/gn_wooden_sickle"
+  gn_steel_sickle:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: IRON_HOE
+      generate: false
+      model_id: 2203018
+      model_path: "tools/gn_steel_sickle"
+  gn_reinforced_sickle:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: NETHERITE_HOE
+      generate: false
+      model_id: 2203019
+      model_path: "tools/gn_reinforced_sickle"
+
+  gn_culinary_workbench:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: CRAFTING_TABLE
+      generate: false
+      model_id: 2203020
+      model_path: "basic_machines/gn_culinary_workbench"
+  gn_multi_stove:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BLAST_FURNACE
+      generate: false
+      model_id: 2203021
+      model_path: "basic_machines/gn_multi_stove"
+  gn_refridgerator:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2203022
+      model_path: "basic_machines/gn_refridgerator"
+  gn_mill:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: CAULDRON
+      generate: false
+      model_id: 2203023
+      model_path: "basic_machines/gn_mill"
+  gn_fermenter:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BARREL
+      generate: false
+      model_id: 2203024
+      model_path: "basic_machines/gn_fermenter"
+  gn_large_fermenter:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: BARREL
+      generate: false
+      model_id: 2203025
+      model_path: "basic_machines/gn_large_fermenter"
+  gn_chef_android:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2203026
+      model_path: "basic_machines/gn_chef_android"
+  gn_chef_android_trainer:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: SMITHING_TABLE
+      generate: false
+      model_id: 2203027
+      model_path: "basic_machines/gn_chef_android_trainer"
+
+  gn_fishing_net_i:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: IRON_BARS
+      generate: false
+      model_id: 2203028
+      model_path: "electric_machines/gn_fishing_net_i"
+  gn_fishing_net_ii:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: IRON_BARS
+      generate: false
+      model_id: 2203029
+      model_path: "electric_machines/gn_fishing_net_ii"
+  gn_fishing_net_iii:
+    display_name: gastronomicon
+    permission: gastronomicon
+    resource:
+      material: IRON_BARS
+      generate: false
+      model_id: 2203030
+      model_path: "electric_machines/gn_fishing_net_iii"
+      
   gn_rice:
     display_name: gastronomicon
     permission: gastronomicon
