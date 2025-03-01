@@ -12,6 +12,8 @@ on:
     secrets:
       RCON_PASSWORD:
         required: true
+      S3_ACCOUNT_ID:
+        required: true
       S3_ACCESS_KEY:
         required: true
       S3_SECRET_KEY:
@@ -33,8 +35,8 @@ jobs:
         name: Setup - S3cmd Cli Tool
         uses: s3-actions/s3cmd@v1.9.0
         with:
-          provider: "vultr"
-          region: "sgp1"
+          provider: "cloudflare"
+          account_id: ${{ secrets.S3_ACCOUNT_ID }}
           access_key: ${{ secrets.S3_ACCESS_KEY }}
           secret_key: ${{ secrets.S3_SECRET_KEY }}
       -
@@ -50,7 +52,7 @@ jobs:
         name: S3 - Download Plugins
         run: |
           mkdir external
-          s3cmd get s3://${{ secrets.S3_BUCKET_NAME }}/ItemsAdder.jar external/ItemsAdder.jar
+          s3cmd get s3://${{ secrets.S3_BUCKET_NAME }}/Slimefun-Resourcepack/ItemsAdder.jar external/ItemsAdder.jar
       -
         name: Setup - Version Replace
         run: |
