@@ -1,0 +1,7 @@
+{
+  "author":"Pandicka",
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dyedbackpacks:medium/dyed_medium_backpack_brown"
+  }
+}
