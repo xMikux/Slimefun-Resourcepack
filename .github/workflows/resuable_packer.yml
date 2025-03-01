@@ -46,6 +46,8 @@ jobs:
           artifact_name: Slimefun-ResourcePack
           options: |
             pack_directory = 'pack'
+            ['assets/geneticchickengineering/models/*.properties']
+            force_include = true
             allow_mods = [ 'OptiFine' ]
       -
         name: Artifact - Clean IA Generate Pack
