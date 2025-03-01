@@ -133,7 +133,7 @@ items:
     display_name: gastronomicon
     permission: gastronomicon
     resource:
-      material: IRON_HOE
+      material: WOODEN_HOE
       generate: false
       model_id: 2203017
       model_path: "tools/gn_wooden_sickle"
