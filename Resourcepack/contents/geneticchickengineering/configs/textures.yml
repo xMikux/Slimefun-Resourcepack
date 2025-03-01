@@ -40,7 +40,7 @@ items:
       material: SMOKER
       generate: false
       model_id: 2300604
-      model_path: "genetic_sequencer"
+      model_path: "machines/genetic_sequencer"
   excitation_chamber:
     display_name: geneticchickengineering
     permission: geneticchickengineering
@@ -48,7 +48,7 @@ items:
       material: BLAST_FURNACE
       generate: false
       model_id: 2300605
-      model_path: "excitation_chamber"
+      model_path: "machines/excitation_chamber"
   excitation_chamber_2:
     display_name: geneticchickengineering
     permission: geneticchickengineering
@@ -56,7 +56,7 @@ items:
       material: BLAST_FURNACE
       generate: false
       model_id: 2300606
-      model_path: "excitation_chamber_2"
+      model_path: "machines/excitation_chamber_2"
   excitation_chamber_3:
     display_name: geneticchickengineering
     permission: geneticchickengineering
@@ -64,7 +64,7 @@ items:
       material: BLAST_FURNACE
       generate: false
       model_id: 2300607
-      model_path: "excitation_chamber_3"
+      model_path: "machines/excitation_chamber_3"
   private_coop:
     display_name: geneticchickengineering
     permission: geneticchickengineering
@@ -72,7 +72,7 @@ items:
       material: BEEHIVE
       generate: false
       model_id: 2300608
-      model_path: "private_coop"
+      model_path: "machines/private_coop"
   feather_chicken:
     display_name: geneticchickengineering
     permission: geneticchickengineering
