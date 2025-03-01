@@ -8,7 +8,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300801
-      model_path: "dyed_small_backpack_white"
+      model_path: "small/dyed_small_backpack_white"
   dyed_small_backpack_orange:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -16,7 +16,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300802
-      model_path: "dyed_small_backpack_orange"
+      model_path: "small/dyed_small_backpack_orange"
   dyed_small_backpack_magenta:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -24,7 +24,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300803
-      model_path: "dyed_small_backpack_magenta"
+      model_path: "small/dyed_small_backpack_magenta"
   dyed_small_backpack_light_blue:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -32,7 +32,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300804
-      model_path: "dyed_small_backpack_light_blue"
+      model_path: "small/dyed_small_backpack_light_blue"
   dyed_small_backpack_yellow:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -40,7 +40,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300805
-      model_path: "dyed_small_backpack_yellow"
+      model_path: "small/dyed_small_backpack_yellow"
   dyed_small_backpack_lime:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -48,7 +48,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300806
-      model_path: "dyed_small_backpack_lime"
+      model_path: "small/dyed_small_backpack_lime"
   dyed_small_backpack_pink:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -56,7 +56,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300807
-      model_path: "dyed_small_backpack_pink"
+      model_path: "small/dyed_small_backpack_pink"
   dyed_small_backpack_dark_gray:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -64,7 +64,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300808
-      model_path: "dyed_small_backpack_dark_gray"
+      model_path: "small/dyed_small_backpack_dark_gray"
   dyed_small_backpack_light_gray:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -72,7 +72,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300809
-      model_path: "dyed_small_backpack_light_gray"
+      model_path: "small/dyed_small_backpack_light_gray"
   dyed_small_backpack_cyan:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -80,7 +80,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300810
-      model_path: "dyed_small_backpack_cyan"
+      model_path: "small/dyed_small_backpack_cyan"
   dyed_small_backpack_purple:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -88,7 +88,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300811
-      model_path: "dyed_small_backpack_purple"
+      model_path: "small/dyed_small_backpack_purple"
   dyed_small_backpack_blue:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -96,7 +96,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300812
-      model_path: "dyed_small_backpack_blue"
+      model_path: "small/dyed_small_backpack_blue"
   dyed_small_backpack_brown:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -104,7 +104,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300813
-      model_path: "dyed_small_backpack_brown"
+      model_path: "small/dyed_small_backpack_brown"
   dyed_small_backpack_green:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -112,7 +112,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300814
-      model_path: "dyed_small_backpack_green"
+      model_path: "small/dyed_small_backpack_green"
   dyed_small_backpack_red:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -120,7 +120,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300815
-      model_path: "dyed_small_backpack_red"
+      model_path: "small/dyed_small_backpack_red"
   dyed_small_backpack_black:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -128,7 +128,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300816
-      model_path: "dyed_small_backpack_black"
+      model_path: "small/dyed_small_backpack_black"
   dyed_medium_backpack_white:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -136,7 +136,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300817
-      model_path: "dyed_medium_backpack_white"
+      model_path: "medium/dyed_medium_backpack_white"
   dyed_medium_backpack_orange:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -144,7 +144,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300818
-      model_path: "dyed_medium_backpack_orange"
+      model_path: "medium/dyed_medium_backpack_orange"
   dyed_medium_backpack_magenta:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -152,7 +152,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300819
-      model_path: "dyed_medium_backpack_magenta"
+      model_path: "medium/dyed_medium_backpack_magenta"
   dyed_medium_backpack_light_blue:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -160,7 +160,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300820
-      model_path: "dyed_medium_backpack_light_blue"
+      model_path: "medium/dyed_medium_backpack_light_blue"
   dyed_medium_backpack_yellow:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -168,7 +168,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300821
-      model_path: "dyed_medium_backpack_yellow"
+      model_path: "medium/dyed_medium_backpack_yellow"
   dyed_medium_backpack_lime:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -176,7 +176,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300822
-      model_path: "dyed_medium_backpack_lime"
+      model_path: "medium/dyed_medium_backpack_lime"
   dyed_medium_backpack_pink:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -184,7 +184,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300823
-      model_path: "dyed_medium_backpack_pink"
+      model_path: "medium/dyed_medium_backpack_pink"
   dyed_medium_backpack_dark_gray:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -192,7 +192,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300824
-      model_path: "dyed_medium_backpack_dark_gray"
+      model_path: "medium/dyed_medium_backpack_dark_gray"
   dyed_medium_backpack_light_gray:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -200,7 +200,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300825
-      model_path: "dyed_medium_backpack_light_gray"
+      model_path: "medium/dyed_medium_backpack_light_gray"
   dyed_medium_backpack_cyan:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -208,7 +208,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300826
-      model_path: "dyed_medium_backpack_cyan"
+      model_path: "medium/dyed_medium_backpack_cyan"
   dyed_medium_backpack_purple:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -216,7 +216,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300827
-      model_path: "dyed_medium_backpack_purple"
+      model_path: "medium/dyed_medium_backpack_purple"
   dyed_medium_backpack_blue:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -224,7 +224,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300828
-      model_path: "dyed_medium_backpack_blue"
+      model_path: "medium/dyed_medium_backpack_blue"
   dyed_medium_backpack_brown:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -232,7 +232,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300829
-      model_path: "dyed_medium_backpack_brown"
+      model_path: "medium/dyed_medium_backpack_brown"
   dyed_medium_backpack_green:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -240,7 +240,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300830
-      model_path: "dyed_medium_backpack_green"
+      model_path: "medium/dyed_medium_backpack_green"
   dyed_medium_backpack_red:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -248,7 +248,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300831
-      model_path: "dyed_medium_backpack_red"
+      model_path: "medium/dyed_medium_backpack_red"
   dyed_medium_backpack_black:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -256,7 +256,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300832
-      model_path: "dyed_medium_backpack_black"
+      model_path: "medium/dyed_medium_backpack_black"
   dyed_large_backpack_white:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -264,7 +264,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300833
-      model_path: "dyed_large_backpack_white"
+      model_path: "large/dyed_large_backpack_white"
   dyed_large_backpack_orange:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -272,7 +272,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300834
-      model_path: "dyed_large_backpack_orange"
+      model_path: "large/dyed_large_backpack_orange"
   dyed_large_backpack_magenta:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -280,7 +280,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300835
-      model_path: "dyed_large_backpack_magenta"
+      model_path: "large/dyed_large_backpack_magenta"
   dyed_large_backpack_light_blue:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -288,7 +288,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300836
-      model_path: "dyed_large_backpack_light_blue"
+      model_path: "large/dyed_large_backpack_light_blue"
   dyed_large_backpack_yellow:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -296,7 +296,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300837
-      model_path: "dyed_large_backpack_yellow"
+      model_path: "large/dyed_large_backpack_yellow"
   dyed_large_backpack_lime:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -304,7 +304,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300838
-      model_path: "dyed_large_backpack_lime"
+      model_path: "large/dyed_large_backpack_lime"
   dyed_large_backpack_pink:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -312,7 +312,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300839
-      model_path: "dyed_large_backpack_pink"
+      model_path: "large/dyed_large_backpack_pink"
   dyed_large_backpack_dark_gray:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -320,7 +320,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300840
-      model_path: "dyed_large_backpack_dark_gray"
+      model_path: "large/dyed_large_backpack_dark_gray"
   dyed_large_backpack_light_gray:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -328,7 +328,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300841
-      model_path: "dyed_large_backpack_light_gray"
+      model_path: "large/dyed_large_backpack_light_gray"
   dyed_large_backpack_cyan:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -336,7 +336,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300842
-      model_path: "dyed_large_backpack_cyan"
+      model_path: "large/dyed_large_backpack_cyan"
   dyed_large_backpack_purple:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -344,7 +344,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300843
-      model_path: "dyed_large_backpack_purple"
+      model_path: "large/dyed_large_backpack_purple"
   dyed_large_backpack_blue:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -352,7 +352,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300844
-      model_path: "dyed_large_backpack_blue"
+      model_path: "large/dyed_large_backpack_blue"
   dyed_large_backpack_brown:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -360,7 +360,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300845
-      model_path: "dyed_large_backpack_brown"
+      model_path: "large/dyed_large_backpack_brown"
   dyed_large_backpack_green:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -368,7 +368,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300846
-      model_path: "dyed_large_backpack_green"
+      model_path: "large/dyed_large_backpack_green"
   dyed_large_backpack_red:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -376,7 +376,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300847
-      model_path: "dyed_large_backpack_red"
+      model_path: "large/dyed_large_backpack_red"
   dyed_large_backpack_black:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -384,7 +384,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300848
-      model_path: "dyed_large_backpack_black"
+      model_path: "large/dyed_large_backpack_black"
   dyed_woven_backpack_white:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -392,7 +392,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300849
-      model_path: "dyed_woven_backpack_white"
+      model_path: "woven/dyed_woven_backpack_white"
   dyed_woven_backpack_orange:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -400,7 +400,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300850
-      model_path: "dyed_woven_backpack_orange"
+      model_path: "woven/dyed_woven_backpack_orange"
   dyed_woven_backpack_magenta:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -408,7 +408,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300851
-      model_path: "dyed_woven_backpack_magenta"
+      model_path: "woven/dyed_woven_backpack_magenta"
   dyed_woven_backpack_light_blue:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -416,7 +416,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300852
-      model_path: "dyed_woven_backpack_light_blue"
+      model_path: "woven/dyed_woven_backpack_light_blue"
   dyed_woven_backpack_yellow:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -424,7 +424,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300853
-      model_path: "dyed_woven_backpack_yellow"
+      model_path: "woven/dyed_woven_backpack_yellow"
   dyed_woven_backpack_lime:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -432,7 +432,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300854
-      model_path: "dyed_woven_backpack_lime"
+      model_path: "woven/dyed_woven_backpack_lime"
   dyed_woven_backpack_pink:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -440,7 +440,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300855
-      model_path: "dyed_woven_backpack_pink"
+      model_path: "woven/dyed_woven_backpack_pink"
   dyed_woven_backpack_dark_gray:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -448,7 +448,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300856
-      model_path: "dyed_woven_backpack_dark_gray"
+      model_path: "woven/dyed_woven_backpack_dark_gray"
   dyed_woven_backpack_light_gray:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -456,7 +456,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300857
-      model_path: "dyed_woven_backpack_light_gray"
+      model_path: "woven/dyed_woven_backpack_light_gray"
   dyed_woven_backpack_cyan:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -464,7 +464,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300858
-      model_path: "dyed_woven_backpack_cyan"
+      model_path: "woven/dyed_woven_backpack_cyan"
   dyed_woven_backpack_purple:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -472,7 +472,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300859
-      model_path: "dyed_woven_backpack_purple"
+      model_path: "woven/dyed_woven_backpack_purple"
   dyed_woven_backpack_blue:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -480,7 +480,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300860
-      model_path: "dyed_woven_backpack_blue"
+      model_path: "woven/dyed_woven_backpack_blue"
   dyed_woven_backpack_brown:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -488,7 +488,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300861
-      model_path: "dyed_woven_backpack_brown"
+      model_path: "woven/dyed_woven_backpack_brown"
   dyed_woven_backpack_green:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -496,7 +496,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300862
-      model_path: "dyed_woven_backpack_green"
+      model_path: "woven/dyed_woven_backpack_green"
   dyed_woven_backpack_red:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -504,7 +504,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300863
-      model_path: "dyed_woven_backpack_red"
+      model_path: "woven/dyed_woven_backpack_red"
   dyed_woven_backpack_black:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -512,7 +512,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300864
-      model_path: "dyed_woven_backpack_black"
+      model_path: "woven/dyed_woven_backpack_black"
   dyed_gilded_backpack_white:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -520,7 +520,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300865
-      model_path: "dyed_gilded_backpack_white"
+      model_path: "gilded/dyed_gilded_backpack_white"
   dyed_gilded_backpack_orange:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -528,7 +528,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300866
-      model_path: "dyed_gilded_backpack_orange"
+      model_path: "gilded/dyed_gilded_backpack_orange"
   dyed_gilded_backpack_magenta:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -536,7 +536,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300867
-      model_path: "dyed_gilded_backpack_magenta"
+      model_path: "gilded/dyed_gilded_backpack_magenta"
   dyed_gilded_backpack_light_blue:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -544,7 +544,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300868
-      model_path: "dyed_gilded_backpack_light_blue"
+      model_path: "gilded/dyed_gilded_backpack_light_blue"
   dyed_gilded_backpack_yellow:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -552,7 +552,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300869
-      model_path: "dyed_gilded_backpack_yellow"
+      model_path: "gilded/dyed_gilded_backpack_yellow"
   dyed_gilded_backpack_lime:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -560,7 +560,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300870
-      model_path: "dyed_gilded_backpack_lime"
+      model_path: "gilded/dyed_gilded_backpack_lime"
   dyed_gilded_backpack_pink:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -568,7 +568,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300871
-      model_path: "dyed_gilded_backpack_pink"
+      model_path: "gilded/dyed_gilded_backpack_pink"
   dyed_gilded_backpack_dark_gray:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -576,7 +576,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300872
-      model_path: "dyed_gilded_backpack_dark_gray"
+      model_path: "gilded/dyed_gilded_backpack_dark_gray"
   dyed_gilded_backpack_light_gray:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -584,7 +584,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300873
-      model_path: "dyed_gilded_backpack_light_gray"
+      model_path: "gilded/dyed_gilded_backpack_light_gray"
   dyed_gilded_backpack_cyan:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -592,7 +592,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300874
-      model_path: "dyed_gilded_backpack_cyan"
+      model_path: "gilded/dyed_gilded_backpack_cyan"
   dyed_gilded_backpack_purple:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -600,7 +600,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300875
-      model_path: "dyed_gilded_backpack_purple"
+      model_path: "gilded/dyed_gilded_backpack_purple"
   dyed_gilded_backpack_blue:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -608,7 +608,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300876
-      model_path: "dyed_gilded_backpack_blue"
+      model_path: "gilded/dyed_gilded_backpack_blue"
   dyed_gilded_backpack_brown:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -616,7 +616,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300877
-      model_path: "dyed_gilded_backpack_brown"
+      model_path: "gilded/dyed_gilded_backpack_brown"
   dyed_gilded_backpack_green:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -624,7 +624,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300878
-      model_path: "dyed_gilded_backpack_green"
+      model_path: "gilded/dyed_gilded_backpack_green"
   dyed_gilded_backpack_red:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -632,7 +632,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300879
-      model_path: "dyed_gilded_backpack_red"
+      model_path: "gilded/dyed_gilded_backpack_red"
   dyed_gilded_backpack_black:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -640,7 +640,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300880
-      model_path: "dyed_gilded_backpack_black"
+      model_path: "gilded/dyed_gilded_backpack_black"
   dyed_radiant_backpack_white:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -648,7 +648,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300881
-      model_path: "dyed_radiant_backpack_white"
+      model_path: "radiant/dyed_radiant_backpack_white"
   dyed_radiant_backpack_orange:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -656,7 +656,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300882
-      model_path: "dyed_radiant_backpack_orange"
+      model_path: "radiant/dyed_radiant_backpack_orange"
   dyed_radiant_backpack_magenta:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -664,7 +664,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300883
-      model_path: "dyed_radiant_backpack_magenta"
+      model_path: "radiant/dyed_radiant_backpack_magenta"
   dyed_radiant_backpack_light_blue:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -672,7 +672,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300884
-      model_path: "dyed_radiant_backpack_light_blue"
+      model_path: "radiant/dyed_radiant_backpack_light_blue"
   dyed_radiant_backpack_yellow:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -680,7 +680,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300885
-      model_path: "dyed_radiant_backpack_yellow"
+      model_path: "radiant/dyed_radiant_backpack_yellow"
   dyed_radiant_backpack_lime:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -688,7 +688,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300886
-      model_path: "dyed_radiant_backpack_lime"
+      model_path: "radiant/dyed_radiant_backpack_lime"
   dyed_radiant_backpack_pink:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -696,7 +696,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300887
-      model_path: "dyed_radiant_backpack_pink"
+      model_path: "radiant/dyed_radiant_backpack_pink"
   dyed_radiant_backpack_dark_gray:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -704,7 +704,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300888
-      model_path: "dyed_radiant_backpack_dark_gray"
+      model_path: "radiant/dyed_radiant_backpack_dark_gray"
   dyed_radiant_backpack_light_gray:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -712,7 +712,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300889
-      model_path: "dyed_radiant_backpack_light_gray"
+      model_path: "radiant/dyed_radiant_backpack_light_gray"
   dyed_radiant_backpack_cyan:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -720,7 +720,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300890
-      model_path: "dyed_radiant_backpack_cyan"
+      model_path: "radiant/dyed_radiant_backpack_cyan"
   dyed_radiant_backpack_purple:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -728,7 +728,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300891
-      model_path: "dyed_radiant_backpack_purple"
+      model_path: "radiant/dyed_radiant_backpack_purple"
   dyed_radiant_backpack_blue:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -736,7 +736,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300892
-      model_path: "dyed_radiant_backpack_blue"
+      model_path: "radiant/dyed_radiant_backpack_blue"
   dyed_radiant_backpack_brown:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -744,7 +744,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300893
-      model_path: "dyed_radiant_backpack_brown"
+      model_path: "radiant/dyed_radiant_backpack_brown"
   dyed_radiant_backpack_green:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -752,7 +752,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300894
-      model_path: "dyed_radiant_backpack_green"
+      model_path: "radiant/dyed_radiant_backpack_green"
   dyed_radiant_backpack_red:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -760,7 +760,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300895
-      model_path: "dyed_radiant_backpack_red"
+      model_path: "radiant/dyed_radiant_backpack_red"
   dyed_radiant_backpack_black:
     display_name: dyedbackpacks
     permission: dyedbackpacks
@@ -768,4 +768,4 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2300896
-      model_path: "dyed_radiant_backpack_black"
+      model_path: "radiant/dyed_radiant_backpack_black"
