@@ -1,0 +1,7 @@
+{
+  "author":"Pandicka",
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dyedbackpacks:large/dyed_large_backpack_lime"
+  }
+}
