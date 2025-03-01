@@ -584,7 +584,7 @@ items:
       material: REDSTONE
       generate: false
       model_id: 2200673
-      model_path: "infinityexpansion:materials/quarry_oscillator_redstone"
+      model_path: "materials/quarry_oscillator_redstone"
   quarry_oscillator_lapis_lazuli:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -592,7 +592,7 @@ items:
       material: LAPIS_LAZULI
       generate: false
       model_id: 2200674
-      model_path: "infinityexpansion:materials/quarry_oscillator_lapis_lazuli"
+      model_path: "materials/quarry_oscillator_lapis_lazuli"
   quarry_oscillator_emerald:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -600,7 +600,7 @@ items:
       material: EMERALD
       generate: false
       model_id: 2200675
-      model_path: "infinityexpansion:materials/quarry_oscillator_emerald"
+      model_path: "materials/quarry_oscillator_emerald"
   quarry_oscillator_diamond:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -608,7 +608,7 @@ items:
       material: DIAMOND
       generate: false
       model_id: 2200676
-      model_path: "infinityexpansion:materials/quarry_oscillator_diamond"
+      model_path: "materials/quarry_oscillator_diamond"
   quarry_oscillator_quartz:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -616,7 +616,7 @@ items:
       material: QUARTZ
       generate: false
       model_id: 2200677
-      model_path: "infinityexpansion:materials/quarry_oscillator_quartz"
+      model_path: "materials/quarry_oscillator_quartz"
   vein_miner_rune:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -624,4 +624,4 @@ items:
       material: DIAMOND
       generate: false
       model_id: 2200678
-      model_path: "infinityexpansion:materials/vein_miner_rune"
+      model_path: "materials/vein_miner_rune"
