@@ -47,7 +47,7 @@ jobs:
           options: |
             pack_directory = 'pack'
             allow_mods = [ 'OptiFine' ]
-            ['assets/geneticchickengineering/models/*.properties']
+            ['assets/geneticchickengineering/models/**/*.properties']
             force_include = true
       -
         name: Artifact - Clean IA Generate Pack
