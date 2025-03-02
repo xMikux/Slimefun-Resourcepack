@@ -1,0 +1,8 @@
+{
+  "parent":"item/generated",
+  "author":"Avaritia",
+  "textures":{
+    "layer0":"./zinc_singularity_0",
+    "layer1":"./zinc_singularity_1"
+  }
+}

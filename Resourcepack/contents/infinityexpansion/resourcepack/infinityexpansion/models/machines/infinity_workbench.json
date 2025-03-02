@@ -1,0 +1,12 @@
+{
+  "parent":"block/cube",
+  "author":"Avaritia",
+  "textures":{
+    "up":"./infinity_workbench_top",
+    "down":"./infinity_workbench_top",
+    "north":"./infinity_workbench_side",
+    "south":"./infinity_workbench_side",
+    "east":"./infinity_workbench_side",
+    "west":"./infinity_workbench_side"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent":"item/generated",
+  "author":"Avaritia",
+  "textures":{
+    "layer0":"./coal_singularity_0",
+    "layer1":"./coal_singularity_1"
+  }
+}

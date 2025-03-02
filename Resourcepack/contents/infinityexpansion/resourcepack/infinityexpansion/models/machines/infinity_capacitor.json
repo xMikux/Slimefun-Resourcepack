@@ -1,7 +1,7 @@
 {
-  "parent": "item/generated",
-  "author": "AnsonYK",
-  "textures": {
-    "layer0": "infinityexpansion:machines/infinity_capacitor"
+  "parent":"item/generated",
+  "author":"Pandicka",
+  "textures":{
+    "layer0":"./infinity_capacitor"
   }
 }
