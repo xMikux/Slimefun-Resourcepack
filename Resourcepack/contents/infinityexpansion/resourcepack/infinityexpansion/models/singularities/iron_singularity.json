@@ -2,7 +2,7 @@
   "parent":"item/generated",
   "author":"Avaritia",
   "textures":{
-    "layer0":"./iron_singularity_0",
-    "layer1":"./iron_singularity_1"
+    "layer0":"infinityexpansion:singularities/iron_singularity_0",
+    "layer1":"infinityexpansion:singularities/iron_singularity_1"
   }
 }

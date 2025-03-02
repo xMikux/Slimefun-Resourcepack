@@ -2,7 +2,7 @@
   "parent":"item/generated",
   "author":"Pandicka",
   "textures":{
-    "layer0":"./redstone_singularity_0",
-    "layer1":"./redstone_singularity_1"
+    "layer0":"infinityexpansion:singularities/redstone_singularity_0",
+    "layer1":"infinityexpansion:singularities/redstone_singularity_1"
   }
 }

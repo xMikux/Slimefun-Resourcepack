@@ -2,6 +2,6 @@
   "parent":"item/generated",
   "author":"Pandicka",
   "textures":{
-    "layer0":"./void_capacitor"
+    "layer0":"infinityexpansion:machines/void_capacitor"
   }
 }

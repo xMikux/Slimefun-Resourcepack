@@ -2,7 +2,7 @@
   "parent":"item/generated",
   "author":"Avaritia",
   "textures":{
-    "layer0":"./lapis_singularity_0",
-    "layer1":"./lapis_singularity_1"
+    "layer0":"infinityexpansion:singularities/lapis_singularity_0",
+    "layer1":"infinityexpansion:singularities/lapis_singularity_1"
   }
 }

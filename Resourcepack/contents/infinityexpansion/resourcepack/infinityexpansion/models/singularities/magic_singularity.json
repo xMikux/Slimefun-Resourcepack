@@ -1,1 +1,7 @@
-{"parent":"item/generated","author":"Caribax","textures":{"layer0":"./magic_singularity"}}
+{
+  "parent": "item/generated",
+  "author": "Caribax",
+  "textures": {
+    "layer0": "infinityexpansion:materials/magic_singularity"
+  }
+}

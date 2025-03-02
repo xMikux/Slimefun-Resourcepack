@@ -2,7 +2,7 @@
   "parent":"item/generated",
   "author":"Avaritia",
   "textures":{
-    "layer0":"./zinc_singularity_0",
-    "layer1":"./zinc_singularity_1"
+    "layer0":"infinityexpansion:singularities/zinc_singularity_0",
+    "layer1":"infinityexpansion:singularities/zinc_singularity_1"
   }
 }

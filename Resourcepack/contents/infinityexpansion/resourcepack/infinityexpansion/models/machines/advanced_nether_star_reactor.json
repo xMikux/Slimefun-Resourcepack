@@ -2,6 +2,6 @@
   "parent":"item/generated",
   "author":"Pandicka",
   "textures":{
-    "layer0":"./advanced_nether_star_reactor"
+    "layer0":"infinityexpansion:machines/advanced_nether_star_reactor"
   }
 }

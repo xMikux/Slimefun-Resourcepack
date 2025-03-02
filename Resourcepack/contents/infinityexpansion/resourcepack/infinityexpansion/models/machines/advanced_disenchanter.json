@@ -2,6 +2,6 @@
   "parent":"item/generated",
   "author":"Pandicka",
   "textures":{
-    "layer0":"./advanced_disenchanter"
+    "layer0":"infinityexpansion:machines/advanced_disenchanter"
   }
 }

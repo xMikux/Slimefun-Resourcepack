@@ -2,7 +2,7 @@
   "parent":"item/generated",
   "author":"Avaritia",
   "textures":{
-    "layer0":"./copper_singularity_0",
-    "layer1":"./copper_singularity_1"
+    "layer0":"infinityexpansion:singularities/copper_singularity_0",
+    "layer1":"infinityexpansion:singularities/copper_singularity_1"
   }
 }
