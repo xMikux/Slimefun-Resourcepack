@@ -1,7 +1,8 @@
 {
-  "parent": "item/handheld",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "infinityexpansion:tools/infinity_blade"
+  "parent":"item/handheld",
+  "author":"Avaritia",
+  "textures":{
+    "layer0":"infinityexpansion:tools/infinity_blade",
+    "layer1":"infinityexpansion:tools/infinity_blade_e"
   }
 }

@@ -1,7 +1,7 @@
 {
-  "parent": "item/handheld",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "infinityexpansion:tools/nature_ruin"
+  "parent":"item/handheld",
+  "author":"Avaritia",
+  "textures":{
+    "layer0":"infinityexpansion:tools/nature_ruin"
   }
 }

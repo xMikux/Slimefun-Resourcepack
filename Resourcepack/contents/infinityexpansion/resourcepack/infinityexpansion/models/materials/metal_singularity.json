@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "infinityexpansion:materials/metal_singularity"
-  }
-}

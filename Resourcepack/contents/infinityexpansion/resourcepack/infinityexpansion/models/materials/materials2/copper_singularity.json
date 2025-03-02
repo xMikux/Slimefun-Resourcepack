@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "author": "Caribax",
-  "textures": {
-    "all": "infinityexpansion:materials/materials2/copper_singularity"
-  }
-}

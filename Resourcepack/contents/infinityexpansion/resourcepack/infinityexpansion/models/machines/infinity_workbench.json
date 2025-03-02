@@ -1,0 +1,12 @@
+{
+  "parent":"block/cube",
+  "author":"Avaritia",
+  "textures":{
+    "up":"infinityexpansion:machines/infinity_workbench_top",
+    "down":"infinityexpansion:machines/infinity_workbench_top",
+    "north":"infinityexpansion:machines/infinity_workbench_side",
+    "south":"infinityexpansion:machines/infinity_workbench_side",
+    "east":"infinityexpansion:machines/infinity_workbench_side",
+    "west":"infinityexpansion:machines/infinity_workbench_side"
+  }
+}
