@@ -2,6 +2,6 @@
   "parent":"item/handheld",
   "author":"Avaritia",
   "textures":{
-    "layer0":"./mountain_eater"
+    "layer0":"infinityexpansion:tools/mountain_eater"
   }
 }

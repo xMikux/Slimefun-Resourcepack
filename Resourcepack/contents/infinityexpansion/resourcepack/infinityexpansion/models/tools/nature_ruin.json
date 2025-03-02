@@ -2,6 +2,6 @@
   "parent":"item/handheld",
   "author":"Avaritia",
   "textures":{
-    "layer0":"./nature_ruin"
+    "layer0":"infinityexpansion:tools/nature_ruin"
   }
 }

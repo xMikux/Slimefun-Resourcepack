@@ -2,8 +2,8 @@
 	"author": "Pandicka",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "./cosmic_aegis_blocking",
-		"particle": "./cosmic_aegis_blocking"
+		"0": "infinityexpansion:tools/cosmic_aegis/cosmic_aegis_blocking",
+		"particle": "infinityexpansion:tools/cosmic_aegis/cosmic_aegis_blocking"
 	},
 	"elements": [
 		{

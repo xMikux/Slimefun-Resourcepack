@@ -2,7 +2,7 @@
   "parent":"item/handheld",
   "author":"Avaritia",
   "textures":{
-    "layer0":"./infinity_blade",
-    "layer1":"./infinity_blade_e"
+    "layer0":"infinityexpansion:tools/infinity_blade",
+    "layer1":"infinityexpansion:tools/infinity_blade_e"
   }
 }
