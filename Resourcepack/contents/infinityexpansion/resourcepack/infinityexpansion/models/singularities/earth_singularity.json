@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "author": "Caribax",
   "textures": {
-    "layer0": "infinityexpansion:materials/earth_singularity"
+    "layer0": "infinityexpansion:singularities/earth_singularity"
   }
 }
