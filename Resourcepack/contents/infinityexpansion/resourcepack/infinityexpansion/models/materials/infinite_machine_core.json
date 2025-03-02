@@ -2,6 +2,6 @@
   "parent":"block/cube_all",
   "author":"Avaritia",
   "textures":{
-    "all":"./infinite_machine_core"
+    "all":"infinityexpansion:materials/infinite_machine_core"
   }
 }

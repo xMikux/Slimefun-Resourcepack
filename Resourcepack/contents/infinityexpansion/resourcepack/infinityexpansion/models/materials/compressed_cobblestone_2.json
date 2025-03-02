@@ -2,6 +2,6 @@
   "parent": "block/cube_all",
   "author": "Caribax",
   "textures": {
-    "all": "infinityexpansion:materials/materials2/compressed_cobblestone_2"
+    "all": "infinityexpansion:materials/compressed_cobblestone_2"
   }
 }

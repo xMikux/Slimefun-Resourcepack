@@ -2,6 +2,6 @@
   "parent": "block/cube_all",
   "author": "Caribax",
   "textures": {
-    "all": "infinityexpansion:materials/materials2/machine_core"
+    "all": "infinityexpansion:materials/machine_core"
   }
 }

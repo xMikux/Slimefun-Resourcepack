@@ -16,7 +16,7 @@ items:
       material: NETHER_STAR
       generate: false
       model_id: 2200602
-      model_path: "materials/earth_singularity"
+      model_path: "singularities/earth_singularity"
   end_essence:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -40,7 +40,7 @@ items:
       material: NETHER_STAR
       generate: false
       model_id: 2200605
-      model_path: "materials/fortune_singularity"
+      model_path: "singularities/fortune_singularity"
   infinite_ingot:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -80,7 +80,7 @@ items:
       material: NETHER_STAR
       generate: false
       model_id: 2200610
-      model_path: "materials/magic_singularity"
+      model_path: "singularities/magic_singularity"
   magnonium:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -112,7 +112,7 @@ items:
       material: NETHER_STAR
       generate: false
       model_id: 2200614
-      model_path: "materials/metal_singularity"
+      model_path: "singularities/metal_singularity"
   mythril:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -633,14 +633,14 @@ items:
       generate: false
       model_id: 2200679
       model_path: "machines/infinity_workbench"
-  infinite_machines_circuit:
+  infinite_machine_circuit:
     display_name: infinityexpansion
     permission: infinityexpansion
     resource:
       material: DIAMOND
       generate: false
       model_id: 2200680
-      model_path: "materials/infinite_machines_circuit"
+      model_path: "materials/infinite_machine_circuit"
   infinite_machine_core:
     display_name: infinityexpansion
     permission: infinityexpansion
