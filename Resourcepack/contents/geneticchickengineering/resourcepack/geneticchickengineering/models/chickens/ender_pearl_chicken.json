@@ -1,7 +1,0 @@
-{
-  "author":"Pandicka",
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "geneticchickengineering:chickens/ender_pearl_chicken"
-  }
-}
