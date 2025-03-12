@@ -112,7 +112,7 @@
 - Slimefun 盔甲
 - ExtraGear 盔甲
 - Gastronomicon 盔甲
-- GeneticChickengineering 雛雞
+- GeneticChickengineering 小雞
 
 </details>
 
