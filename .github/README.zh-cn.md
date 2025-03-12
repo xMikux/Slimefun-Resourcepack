@@ -111,6 +111,8 @@
 - InfinityExpansion 盔甲
 - Slimefun 盔甲
 - ExtraGear 盔甲
+- Gastronomicon 盔甲
+- GeneticChickengineering 鸡肉
 
 </details>
 
@@ -134,6 +136,7 @@
 | Liquid | 2204000 - 2204200 |
 | Cultivation | 2300000 - 2300300 |
 | Electric Spawners | 2300400 - 2300500 |
+| GeneticChickengineering | 2300600 - 2300700 |
 | DyedBackpacks | 2300800 - 2300900 |
 | FoxyMachines* | 2301000 - 2301200 |
 
