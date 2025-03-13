@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+	"author": "Tinker's Construct",
+  "textures": {
+		"up":"slimetinker:materials/seared_brick_block",
+    "down":"slimetinker:materials/seared_brick_block",
+    "north":"slimetinker:materials/smeltery_controller",
+    "south":"slimetinker:materials/seared_brick_block",
+    "east":"slimetinker:materials/seared_brick_block",
+    "west":"slimetinker:materials/seared_brick_block"
+  }
+}

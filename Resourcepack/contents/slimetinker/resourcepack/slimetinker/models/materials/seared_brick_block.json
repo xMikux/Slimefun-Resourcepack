@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+	"author": "Tinker's Construct",
+  "textures": {
+		"all":"slimetinker:materials/seared_brick_block"
+  }
+}

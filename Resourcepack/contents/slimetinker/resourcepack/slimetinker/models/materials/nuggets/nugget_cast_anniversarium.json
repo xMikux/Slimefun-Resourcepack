@@ -1,0 +1,7 @@
+{
+  "author":"Pandicka",
+  "parent": "item/generated",
+	"textures": {
+	  "layer0": "slimetinker:materials/nuggets/nugget_cast_anniversarium"
+  }
+}
