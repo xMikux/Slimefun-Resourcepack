@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "author": "Tinker's Construct",
+  "textures": {
+    "layer0": "slimetinker:materials/seared_brick"
+  }
+}

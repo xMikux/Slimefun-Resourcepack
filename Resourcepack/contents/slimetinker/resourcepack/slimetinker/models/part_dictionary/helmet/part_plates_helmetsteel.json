@@ -1,0 +1,7 @@
+{
+  "author":"Pandicka",
+  "parent": "item/generated",
+	"textures": {
+	  "layer0": "slimetinker:part_dictionary/helmet/part_plates_helmetsteel"
+  }
+}
