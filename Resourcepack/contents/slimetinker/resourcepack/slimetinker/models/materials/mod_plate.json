@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+	"author": "Pandicka",
+  "textures": {
+    "layer0": "slimetinker:materials/mod_plate"
+  }
+}

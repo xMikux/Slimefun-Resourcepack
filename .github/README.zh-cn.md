@@ -139,6 +139,7 @@
 | GeneticChickengineering | 2300600 - 2300700 |
 | DyedBackpacks | 2300800 - 2300900 |
 | FoxyMachines* | 2301000 - 2301200 |
+| SlimeTinker | 2301000 - 2304000 |
 
 </details>
 

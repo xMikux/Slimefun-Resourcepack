@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+	"author": "Tinker's Construct",
+  "textures": {
+		"up":"slimetinker:materials/seared_tank_top",
+    "down":"slimetinker:materials/seared_tank_top",
+    "north":"slimetinker:materials/seared_tank_side",
+    "south":"slimetinker:materials/seared_tank_side",
+    "east":"slimetinker:materials/seared_tank_side",
+    "west":"slimetinker:materials/seared_tank_side"
+  }
+}

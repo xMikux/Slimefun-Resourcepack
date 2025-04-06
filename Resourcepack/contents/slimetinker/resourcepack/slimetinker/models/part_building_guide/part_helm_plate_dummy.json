@@ -1,0 +1,7 @@
+{
+  "author":"Pandicka",
+  "parent": "item/generated",
+	"textures": {
+	  "layer0": "slimetinker:part_building_guide/part_helm_plate_dummy"
+  }
+}

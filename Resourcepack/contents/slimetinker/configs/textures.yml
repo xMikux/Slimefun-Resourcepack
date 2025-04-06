@@ -1,0 +1,5747 @@
+info:
+  namespace: slimetinker
+items:
+  grout:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: GRAVEL
+      generate: false
+      model_id: 2301001
+      model_path: "materials/grout"
+  seared_brick:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 2301002
+      model_path: "materials/seared_brick"
+  smeltery_controller:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHISELED_POLISHED_BLACKSTONE
+      generate: false
+      model_id: 2301003
+      model_path: "materials/smeltery_controller"
+  seared_tank:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: RED_NETHER_BRICK_WALL
+      generate: false
+      model_id: 2301004
+      model_path: "materials/seared_tank"
+  spout:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: POLISHED_BLACKSTONE_BRICK_WALL
+      generate: false
+      model_id: 2301005
+      model_path: "materials/spout"
+  seared_brick_block:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: POLISHED_BLACKSTONE_BRICKS
+      generate: false
+      model_id: 2301006
+      model_path: "materials/seared_brick_block"
+  mod_plate:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: OBSIDIAN
+      generate: false
+      model_id: 2301007
+      model_path: "materials/mod_plate"
+  nugget_cast_copper:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: ACACIA_BUTTON
+      generate: false
+      model_id: 2301008
+      model_path: "materials/nuggets/nugget_cast_copper"
+  block_cast_copper:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: TERRACOTTA
+      generate: false
+      model_id: 2301009
+      model_path: "materials/blocks/block_cast_copper"
+  nugget_cast_lead:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301010
+      model_path: "materials/nuggets/nugget_cast_lead"
+  block_cast_lead:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PURPLE_TERRACOTTA
+      generate: false
+      model_id: 2301011
+      model_path: "materials/blocks/block_cast_lead"
+  nugget_cast_silver:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301012
+      model_path: "materials/nuggets/nugget_cast_silver"
+  block_cast_silver:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301013
+      model_path: "materials/blocks/block_cast_silver"
+  nugget_cast_aluminum:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301014
+      model_path: "materials/nuggets/nugget_cast_aluminum"
+  block_cast_aluminum:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301015
+      model_path: "materials/blocks/block_cast_aluminum"
+  nugget_cast_magnesium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301016
+      model_path: "materials/nuggets/nugget_cast_magnesium"
+  block_cast_magnesium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PINK_TERRACOTTA
+      generate: false
+      model_id: 2301017
+      model_path: "materials/blocks/block_cast_magnesium"
+  nugget_cast_zinc:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301018
+      model_path: "materials/nuggets/nugget_cast_zinc"
+  block_cast_zinc:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301019
+      model_path: "materials/blocks/block_cast_zinc"
+  nugget_cast_tin:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301020
+      model_path: "materials/nuggets/nugget_cast_tin"
+  block_cast_tin:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301021
+      model_path: "materials/blocks/block_cast_tin"
+  nugget_cast_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301022
+      model_path: "materials/nuggets/nugget_cast_steel"
+  block_cast_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301023
+      model_path: "materials/blocks/block_cast_steel"
+  nugget_cast_damascus_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301024
+      model_path: "materials/nuggets/nugget_cast_damascus_steel"
+  block_cast_damascus_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301025
+      model_path: "materials/blocks/block_cast_damascus_steel"
+  nugget_cast_duralium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301026
+      model_path: "materials/nuggets/nugget_cast_duralium"
+  block_cast_duralium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301027
+      model_path: "materials/blocks/block_cast_duralium"
+  nugget_cast_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: ACACIA_BUTTON
+      generate: false
+      model_id: 2301028
+      model_path: "materials/nuggets/nugget_cast_bronze"
+  block_cast_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: TERRACOTTA
+      generate: false
+      model_id: 2301029
+      model_path: "materials/blocks/block_cast_bronze"
+  nugget_cast_alu_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: GOLD_NUGGET
+      generate: false
+      model_id: 2301030
+      model_path: "materials/nuggets/nugget_cast_alu_bronze"
+  block_cast_alu_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: TERRACOTTA
+      generate: false
+      model_id: 2301031
+      model_path: "materials/blocks/block_cast_alu_bronze"
+  nugget_cast_hard_metal:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301032
+      model_path: "materials/nuggets/nugget_cast_hard_metal"
+  block_cast_hard_metal:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301033
+      model_path: "materials/blocks/block_cast_hard_metal"
+  nugget_cast_cor_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: GOLD_NUGGET
+      generate: false
+      model_id: 2301034
+      model_path: "materials/nuggets/nugget_cast_cor_bronze"
+  block_cast_cor_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: TERRACOTTA
+      generate: false
+      model_id: 2301035
+      model_path: "materials/blocks/block_cast_cor_bronze"
+  nugget_cast_solder:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301036
+      model_path: "materials/nuggets/nugget_cast_solder"
+  block_cast_solder:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301037
+      model_path: "materials/blocks/block_cast_solder"
+  nugget_cast_billon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301038
+      model_path: "materials/nuggets/nugget_cast_billon"
+  block_cast_billon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301039
+      model_path: "materials/blocks/block_cast_billon"
+  nugget_cast_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: GOLD_NUGGET
+      generate: false
+      model_id: 2301040
+      model_path: "materials/nuggets/nugget_cast_brass"
+  block_cast_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301041
+      model_path: "materials/blocks/block_cast_brass"
+  nugget_cast_alu_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: GOLD_NUGGET
+      generate: false
+      model_id: 2301042
+      model_path: "materials/nuggets/nugget_cast_alu_brass"
+  block_cast_alu_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301043
+      model_path: "materials/blocks/block_cast_alu_brass"
+  nugget_cast_nickel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301044
+      model_path: "materials/nuggets/nugget_cast_nickel"
+  block_cast_nickel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301045
+      model_path: "materials/blocks/block_cast_nickel"
+  nugget_cast_cobalt:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301046
+      model_path: "materials/nuggets/nugget_cast_cobalt"
+  block_cast_cobalt:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301047
+      model_path: "materials/blocks/block_cast_cobalt"
+  nugget_cast_reinforced:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301048
+      model_path: "materials/nuggets/nugget_cast_reinforced"
+  block_cast_reinforced:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301049
+      model_path: "materials/blocks/block_cast_reinforced"
+  nugget_cast_ferrosilicon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301050
+      model_path: "materials/nuggets/nugget_cast_ferrosilicon"
+  block_cast_ferrosilicon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301051
+      model_path: "materials/blocks/block_cast_ferrosilicon"
+  nugget_cast_redstone_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: ACACIA_BUTTON
+      generate: false
+      model_id: 2301052
+      model_path: "materials/nuggets/nugget_cast_redstone_alloy"
+  block_cast_redstone_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: TERRACOTTA
+      generate: false
+      model_id: 2301053
+      model_path: "materials/blocks/block_cast_redstone_alloy"
+  nugget_cast_boomerite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: ACACIA_BUTTON
+      generate: false
+      model_id: 2301054
+      model_path: "materials/nuggets/nugget_cast_boomerite"
+  ingot_cast_boomerite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 2301055
+      model_path: "materials/ingots/ingot_cast_boomerite"
+  block_cast_boomerite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: TERRACOTTA
+      generate: false
+      model_id: 2301056
+      model_path: "materials/blocks/block_cast_boomerite"
+  nugget_cast_sefirite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301057
+      model_path: "materials/nuggets/nugget_cast_sefirite"
+  ingot_cast_sefirite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2301058
+      model_path: "materials/ingots/ingot_cast_sefirite"
+  block_cast_sefirite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301059
+      model_path: "materials/blocks/block_cast_sefirite"
+  nugget_cast_cringleium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301060
+      model_path: "materials/nuggets/nugget_cast_cringleium"
+  ingot_cast_cringleium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2301061
+      model_path: "materials/ingots/ingot_cast_cringleium"
+  block_cast_cringleium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301062
+      model_path: "materials/blocks/block_cast_cringleium"
+  nugget_cast_fondness:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PINK_DYE
+      generate: false
+      model_id: 2301063
+      model_path: "materials/nuggets/nugget_cast_fondness"
+  ingot_cast_fondness:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 2301064
+      model_path: "materials/ingots/ingot_cast_fondness"
+  nugget_cast_devotion:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PINK_DYE
+      generate: false
+      model_id: 2301065
+      model_path: "materials/nuggets/nugget_cast_devotion"
+  ingot_cast_devotion:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 2301066
+      model_path: "materials/ingots/ingot_cast_devotion"
+  nugget_cast_passion:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PINK_DYE
+      generate: false
+      model_id: 2301067
+      model_path: "materials/nuggets/nugget_cast_passion"
+  ingot_cast_passion:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 2301068
+      model_path: "materials/ingots/ingot_cast_passion"
+  nugget_cast_love:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PINK_DYE
+      generate: false
+      model_id: 2301069
+      model_path: "materials/nuggets/nugget_cast_love"
+  ingot_cast_love:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 2301070
+      model_path: "materials/ingots/ingot_cast_love"
+  block_cast_love:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PINK_DYE
+      generate: false
+      model_id: 2301071
+      model_path: "materials/blocks/block_cast_love"
+  nugget_cast_nice:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: GOLD_NUGGET
+      generate: false
+      model_id: 2301072
+      model_path: "materials/nuggets/nugget_cast_nice"
+  ingot_cast_nice:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: GOLD_INGOT
+      generate: false
+      model_id: 2301073
+      model_path: "materials/ingots/ingot_cast_nice"
+  block_cast_nice:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: GOLD_BLOCK
+      generate: false
+      model_id: 2301074
+      model_path: "materials/blocks/block_cast_nice"
+  nugget_cast_smithium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2301075
+      model_path: "materials/nuggets/nugget_cast_smithium"
+  ingot_cast_smithium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2301076
+      model_path: "materials/ingots/ingot_cast_smithium"
+  block_cast_smithium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2301077
+      model_path: "materials/blocks/block_cast_smithium"
+  nugget_cast_anniversarium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: GOLD_NUGGET
+      generate: false
+      model_id: 2301078
+      model_path: "materials/nuggets/nugget_cast_anniversarium"
+  ingot_cast_anniversarium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: GOLD_INGOT
+      generate: false
+      model_id: 2301079
+      model_path: "materials/ingots/ingot_cast_anniversarium"
+  block_cast_anniversarium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: GOLD_BLOCK
+      generate: false
+      model_id: 2301080
+      model_path: "materials/blocks/block_cast_anniversarium"
+  #nugget_cast_reinforced_draconium:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: CRIMSON_BUTTON
+  #    generate: false
+  #    model_id: 2301081
+  #    model_path: "materials/nuggets/nugget_cast_reinforced_draconium"
+  #ingot_cast_reinforced_draconium:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: BRICK
+  #    generate: false
+  #    model_id: 2301082
+  #    model_path: "materials/ingots/ingot_cast_reinforced_draconium"
+  #block_cast_reinforced_draconium:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: RED_CONCRETE
+  #    generate: false
+  #    model_id: 2301083
+  #    model_path: "materials/blocks/block_cast_reinforced_draconium"
+  nugget_cast_coal:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: POLISHED_BLACKSTONE_BUTTON
+      generate: false
+      model_id: 2301084
+      model_path: "materials/nuggets/nugget_cast_coal"
+  die_shovel_head:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301085
+      model_path: "casts/die_shovel_head"
+  die_pickaxe_head:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301086
+      model_path: "casts/die_pickaxe_head"
+  die_axe_head:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301087
+      model_path: "casts/die_axe_head"
+  die_hoe_head:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301088
+      model_path: "casts/die_hoe_head"
+  die_sword_blade:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301089
+      model_path: "casts/die_sword_blade"
+  die_tool_rod:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301090
+      model_path: "casts/die_tool_rod"
+  die_repair_kit:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: MINECART
+      generate: false
+      model_id: 2301091
+      model_path: "casts/die_repair_kit"
+  die_helm_plate:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301092
+      model_path: "casts/die_helm_plate"
+  die_chest_plate:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301093
+      model_path: "casts/die_chest_plate"
+  die_leg_plate:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301094
+      model_path: "casts/die_leg_plate"
+  die_boot_plate:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301095
+      model_path: "casts/die_boot_plate"
+  die_mail_link:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301096
+      model_path: "casts/die_mail_link"
+  cast_nugget:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: YELLOW_CARPET
+      generate: false
+      model_id: 2301097
+      model_path: "casts/cast_nugget"
+  cast_ingot:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: YELLOW_CARPET
+      generate: false
+      model_id: 2301098
+      model_path: "casts/cast_ingot"
+  cast_block:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: YELLOW_CARPET
+      generate: false
+      model_id: 2301099
+      model_path: "casts/cast_block"
+  cast_gem:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: YELLOW_CARPET
+      generate: false
+      model_id: 2301100
+      model_path: "casts/cast_gem"
+  cast_shovelhead:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: ORANGE_CARPET
+      generate: false
+      model_id: 2301101
+      model_path: "casts/cast_shovelhead"
+  cast_pickaxehead:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: ORANGE_CARPET
+      generate: false
+      model_id: 2301102
+      model_path: "casts/cast_pickaxehead"
+  cast_axe_head:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: ORANGE_CARPET
+      generate: false
+      model_id: 2301103
+      model_path: "casts/cast_axe_head"
+  cast_hoehead:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: ORANGE_CARPET
+      generate: false
+      model_id: 2301104
+      model_path: "casts/cast_hoehead"
+  cast_swordblade:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: ORANGE_CARPET
+      generate: false
+      model_id: 2301105
+      model_path: "casts/cast_swordblade"
+  cast_toolrod:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: ORANGE_CARPET
+      generate: false
+      model_id: 2301106
+      model_path: "casts/cast_toolrod"
+  cast_helm_plate:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: ORANGE_CARPET
+      generate: false
+      model_id: 2301107
+      model_path: "casts/cast_helm_plate"
+  cast_chest_plate:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: ORANGE_CARPET
+      generate: false
+      model_id: 2301108
+      model_path: "casts/cast_chest_plate"
+  cast_leg_plate:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: ORANGE_CARPET
+      generate: false
+      model_id: 2301109
+      model_path: "casts/cast_leg_plate"
+  cast_boot_plate:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: ORANGE_CARPET
+      generate: false
+      model_id: 2301110
+      model_path: "casts/cast_boot_plate"
+  cast_mail_link:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: ORANGE_CARPET
+      generate: false
+      model_id: 2301111
+      model_path: "casts/cast_mail_link"
+  cast_repairkit:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: YELLOW_CARPET
+      generate: false
+      model_id: 2301112
+      model_path: "casts/cast_repairkit"
+  part_shovel_head_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301113
+      model_path: "part_building_guide/part_shovel_head_dummy"
+  part_pickaxe_head_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301114
+      model_path: "part_building_guide/part_pickaxe_head_dummy"
+  part_axe_head_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301115
+      model_path: "part_building_guide/part_axe_head_dummy"
+  part_hoe_head_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301116
+      model_path: "part_building_guide/part_hoe_head_dummy"
+  part_sword_blade_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301117
+      model_path: "part_building_guide/part_sword_blade_dummy"
+  part_tool_rod_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301118
+      model_path: "part_building_guide/part_tool_rod_dummy"
+  part_binding_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301119
+      model_path: "part_building_guide/part_binding_dummy"
+  part_helm_plate_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301120
+      model_path: "part_building_guide/part_helm_plate_dummy"
+  part_chest_plate_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301121
+      model_path: "part_building_guide/part_chest_plate_dummy"
+  part_leg_plate_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301122
+      model_path: "part_building_guide/part_leg_plate_dummy"
+  part_boot_plate_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301123
+      model_path: "part_building_guide/part_boot_plate_dummy"
+  part_mail_links_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301124
+      model_path: "part_building_guide/part_mail_links_dummy"
+  part_gambeson_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301125
+      model_path: "part_building_guide/part_gambeson_dummy"
+  part_repair_kit_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301126
+      model_path: "part_building_guide/part_repair_kit_dummy"
+  #part_shovel_head:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301127
+  #    model_path: "part_dictionary/part_shovel_head"
+  #part_pickaxe_head:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301128
+  #    model_path: "part_dictionary/part_pickaxe_head"
+  #part_axe_head:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301129
+  #    model_path: "part_dictionary/part_axe_head"
+  #part_hoe_head:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301130
+  #    model_path: "part_dictionary/part_hoe_head"
+  #part_sword_blade:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301131
+  #    model_path: "part_dictionary/part_sword_blade"
+  #part_tool_rod:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301132
+  #    model_path: "part_dictionary/part_tool_rod"
+  #part_repair_kit:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: CHEST_MINECART
+  #    generate: false
+  #    model_id: 2301133
+  #    model_path: "part_dictionary/repair_kit/part_repair_kit"
+  #part_helm_plates:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301134
+  #    model_path: "part_dictionary/part_helm_plates"
+  #part_chest_plates:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301135
+  #    model_path: "part_dictionary/part_chest_plates"
+  #part_leg_plates:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301136
+  #    model_path: "part_dictionary/part_leg_plates"
+  #part_boots_plates:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301137
+  #    model_path: "part_dictionary/part_boots_plates"
+  #tool_info:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301138
+  #    model_path: "materials/tool_info"
+  tool_shovel_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: STONE_SHOVEL
+      generate: false
+      model_id: 2301139
+      model_path: "tool_building_guide/tool_shovel_dummy"
+  tool_pickaxe_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: STONE_PICKAXE
+      generate: false
+      model_id: 2301140
+      model_path: "tool_building_guide/tool_pickaxe_dummy"
+  tool_axe_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: STONE_AXE
+      generate: false
+      model_id: 2301141
+      model_path: "tool_building_guide/tool_axe_dummy"
+  tool_hoe_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: STONE_HOE
+      generate: false
+      model_id: 2301142
+      model_path: "tool_building_guide/tool_hoe_dummy"
+  tool_sword_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: STONE_SWORD
+      generate: false
+      model_id: 2301143
+      model_path: "tool_building_guide/tool_sword_dummy"
+  #armour_info:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301144
+  #    model_path: "materials/armour_info"
+  armour_helmet_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: LEATHER_HELMET
+      generate: false
+      model_id: 2301145
+      model_path: "armour_building_guide/armour_helmet_dummy"
+  armour_chestplate_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: false
+      model_id: 2301146
+      model_path: "armour_building_guide/armour_chestplate_dummy"
+  armour_leggings_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: LEATHER_LEGGINGS
+      generate: false
+      model_id: 2301147
+      model_path: "armour_building_guide/armour_leggings_dummy"
+  armour_boots_dummy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: LEATHER_BOOTS
+      generate: false
+      model_id: 2301148
+      model_path: "armour_building_guide/armour_boots_dummy"
+  #tool_shovel:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301149
+  #    model_path: "materials/tool_shovel"
+  #tool_pickaxe:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301150
+  #    model_path: "materials/tool_pickaxe"
+  #tool_axe:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301151
+  #    model_path: "materials/tool_axe"
+  #tool_hoe:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301152
+  #    model_path: "materials/tool_hoe"
+  #tool_sword:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301153
+  #    model_path: "materials/tool_sword"
+  #tool_shovel_exp:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301154
+  #    model_path: "materials/tool_shovel_exp"
+  #tool_pickaxe_exp:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301155
+  #    model_path: "materials/tool_pickaxe_exp"
+  #tool_axe_exp:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301156
+  #    model_path: "materials/tool_axe_exp"
+  #tool_hoe_exp:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301157
+  #    model_path: "materials/tool_hoe_exp"
+  #tool_sword_exp:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301158
+  #    model_path: "materials/tool_sword_exp"
+  #armour_helm:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301159
+  #    model_path: "materials/armour_helm"
+  #armour_chestplate:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301160
+  #    model_path: "materials/armour_chestplate"
+  #armour_leggings:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301161
+  #    model_path: "materials/armour_leggings"
+  #armour_boots:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301162
+  #    model_path: "materials/armour_boots"
+  #mod_redstone_dummy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301163
+  #    model_path: "materials/mod_redstone_dummy"
+  #mod_lapis_dummy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301164
+  #    model_path: "materials/mod_lapis_dummy"
+  #mod_quartz_dummy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301165
+  #    model_path: "materials/mod_quartz_dummy"
+  #mod_diamond_dummy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301166
+  #    model_path: "materials/mod_diamond_dummy"
+  #mod_emerald_dummy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301167
+  #    model_path: "materials/mod_emerald_dummy"
+  #mod_plate_dummy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301168
+  #    model_path: "materials/mod_plate_dummy"
+  tinkers_workbench:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: FLETCHING_TABLE
+      generate: false
+      model_id: 2301169
+      model_path: "workstations/tinkers_workbench"
+  tinkers_smeltery_core:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHISELED_POLISHED_BLACKSTONE
+      generate: false
+      model_id: 2301170
+      model_path: "workstations/tinkers_smeltery_core"
+  tinkers_table:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: SMITHING_TABLE
+      generate: false
+      model_id: 2301171
+      model_path: "workstations/tinkers_table"
+  tinkers_armour_table:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: SMITHING_TABLE
+      generate: false
+      model_id: 2301172
+      model_path: "workstations/tinkers_armour_table"
+  tinkers_repair_bench:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CARTOGRAPHY_TABLE
+      generate: false
+      model_id: 2301173
+      model_path: "workstations/tinkers_repair_bench"
+  tinkers_swapping_station:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: LOOM
+      generate: false
+      model_id: 2301174
+      model_path: "workstations/tinkers_swapping_station"
+  tinkers_mod_station:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: GRINDSTONE
+      generate: false
+      model_id: 2301175
+      model_path: "workstations/tinkers_mod_station"
+  #iron_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301176
+  #    model_path: "materials/iron_liquid"
+  #stability_trait_prop_head_iron_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301177
+  #    model_path: "materials/stability_trait_prop_head_iron_dust"
+  #sharp_1_trait_prop_rod_iron_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301178
+  #    model_path: "materials/sharp_1_trait_prop_rod_iron_dust"
+  #steadfast_trait_prop_plates_iron_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301179
+  #    model_path: "materials/steadfast_trait_prop_plates_iron_dust"
+  #rusty_trait_prop_links_iron_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: OBSIDIAN
+  #    generate: false
+  #    model_id: 2301180
+  #    model_path: "materials/rusty_trait_prop_links_iron_dust"
+  part_head_swordiron:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301181
+      model_path: "part_dictionary/sword/part_head_swordiron"
+  part_head_hoeiron:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301182
+      model_path: "part_dictionary/hoe/part_head_hoeiron"
+  part_head_axeiron:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301183
+      model_path: "part_dictionary/axe/part_head_axeiron"
+  part_head_pickiron:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301184
+      model_path: "part_dictionary/pickaxe/part_head_pickiron"
+  part_head_shoveliron:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301185
+      model_path: "part_dictionary/shovel/part_head_shoveliron"
+  part_rod_iron:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301186
+      model_path: "part_dictionary/rod/part_rod_iron"
+  part_plates_helmetiron:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301187
+      model_path: "part_dictionary/helmet/part_plates_helmetiron"
+  part_plates_chestplateiron:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301188
+      model_path: "part_dictionary/chestplate/part_plates_chestplateiron"
+  part_plates_leggingsiron:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301189
+      model_path: "part_dictionary/leggings/part_plates_leggingsiron"
+  part_plates_bootsiron:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301190
+      model_path: "part_dictionary/boots/part_plates_bootsiron"
+  part_links_iron:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301191
+      model_path: "part_dictionary/links/part_links_iron"
+  part_repair_kit_iron:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301192
+      model_path: "part_dictionary/repair_kit/part_repair_kit_iron"
+  #gold_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301193
+  #    model_path: "materials/gold_liquid"
+  #golden_veil_trait_prop_head_gold_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301194
+  #    model_path: "materials/golden_veil_trait_prop_head_gold_dust"
+  #all_that_glitters_trait_prop_rod_gold_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301195
+  #    model_path: "materials/all_that_glitters_trait_prop_rod_gold_dust"
+  #prosperous_trait_prop_plates_gold_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301196
+  #    model_path: "materials/prosperous_trait_prop_plates_gold_dust"
+  #barter_trait_prop_links_gold_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301197
+  #    model_path: "materials/barter_trait_prop_links_gold_dust"
+  part_head_swordgold:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301198
+      model_path: "part_dictionary/sword/part_head_swordgold"
+  part_head_hoegold:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301199
+      model_path: "part_dictionary/hoe/part_head_hoegold"
+  part_head_axegold:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301200
+      model_path: "part_dictionary/axe/part_head_axegold"
+  part_head_pickgold:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301201
+      model_path: "part_dictionary/pickaxe/part_head_pickgold"
+  part_head_shovelgold:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301202
+      model_path: "part_dictionary/shovel/part_head_shovelgold"
+  part_rod_gold:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301203
+      model_path: "part_dictionary/rod/part_rod_gold"
+  part_plates_helmetgold:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301204
+      model_path: "part_dictionary/helmet/part_plates_helmetgold"
+  part_plates_chestplategold:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301205
+      model_path: "part_dictionary/chestplate/part_plates_chestplategold"
+  part_plates_leggingsgold:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301206
+      model_path: "part_dictionary/leggings/part_plates_leggingsgold"
+  part_plates_bootsgold:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301207
+      model_path: "part_dictionary/boots/part_plates_bootsgold"
+  part_links_gold:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301208
+      model_path: "part_dictionary/links/part_links_gold"
+  part_repair_kit_gold:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301209
+      model_path: "part_dictionary/repair_kit/part_repair_kit_gold"
+  #copper_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301210
+  #    model_path: "materials/copper_liquid"
+  #brains_not_brawn_trait_prop_head_copper_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301211
+  #    model_path: "materials/brains_not_brawn_trait_prop_head_copper_dust"
+  #conductive_trait_prop_rod_copper_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301212
+  #    model_path: "materials/conductive_trait_prop_rod_copper_dust"
+  #beginner_trait_prop_plates_copper_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301213
+  #    model_path: "materials/beginner_trait_prop_plates_copper_dust"
+  #tarnished_trait_prop_links_copper_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301214
+  #    model_path: "materials/tarnished_trait_prop_links_copper_dust"
+  part_head_swordcopper:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301215
+      model_path: "part_dictionary/sword/part_head_swordcopper"
+  part_head_hoecopper:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301216
+      model_path: "part_dictionary/hoe/part_head_hoecopper"
+  part_head_axecopper:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301217
+      model_path: "part_dictionary/axe/part_head_axecopper"
+  part_head_pickcopper:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301218
+      model_path: "part_dictionary/pickaxe/part_head_pickcopper"
+  part_head_shovelcopper:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301219
+      model_path: "part_dictionary/shovel/part_head_shovelcopper"
+  part_rod_copper:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301220
+      model_path: "part_dictionary/rod/part_rod_copper"
+  part_plates_helmetcopper:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301221
+      model_path: "part_dictionary/helmet/part_plates_helmetcopper"
+  part_plates_chestplatecopper:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301222
+      model_path: "part_dictionary/chestplate/part_plates_chestplatecopper"
+  part_plates_leggingscopper:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301223
+      model_path: "part_dictionary/leggings/part_plates_leggingscopper"
+  part_plates_bootscopper:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301224
+      model_path: "part_dictionary/boots/part_plates_bootscopper"
+  part_links_copper:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301225
+      model_path: "part_dictionary/links/part_links_copper"
+  part_repair_kit_copper:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301226
+      model_path: "part_dictionary/repair_kit/part_repair_kit_copper"
+  #lead_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301227
+  #    model_path: "materials/lead_liquid"
+  #poisonous_trait_prop_head_lead_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301228
+  #    model_path: "materials/poisonous_trait_prop_head_lead_dust"
+  #leech_trait_prop_rod_lead_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301229
+  #    model_path: "materials/leech_trait_prop_rod_lead_dust"
+  #sickly_trait_prop_plates_lead_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301230
+  #    model_path: "materials/sickly_trait_prop_plates_lead_dust"
+  #sickly_trait_prop_links_lead_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301231
+  #    model_path: "materials/sickly_trait_prop_links_lead_dust"
+  part_head_swordlead:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301232
+      model_path: "part_dictionary/sword/part_head_swordlead"
+  part_head_hoelead:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301233
+      model_path: "part_dictionary/hoe/part_head_hoelead"
+  part_head_axelead:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301234
+      model_path: "part_dictionary/axe/part_head_axelead"
+  part_head_picklead:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301235
+      model_path: "part_dictionary/pickaxe/part_head_picklead"
+  part_head_shovellead:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301236
+      model_path: "part_dictionary/shovel/part_head_shovellead"
+  part_rod_lead:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301237
+      model_path: "part_dictionary/rod/part_rod_lead"
+  part_plates_helmetlead:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301238
+      model_path: "part_dictionary/helmet/part_plates_helmetlead"
+  part_plates_chestplatelead:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301239
+      model_path: "part_dictionary/chestplate/part_plates_chestplatelead"
+  part_plates_leggingslead:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301240
+      model_path: "part_dictionary/leggings/part_plates_leggingslead"
+  part_plates_bootslead:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301241
+      model_path: "part_dictionary/boots/part_plates_bootslead"
+  part_links_lead:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301242
+      model_path: "part_dictionary/links/part_links_lead"
+  part_repair_kit_lead:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301243
+      model_path: "part_dictionary/repair_kit/part_repair_kit_lead"
+  #silver_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301244
+  #    model_path: "materials/silver_liquid"
+  #enchanting_trait_prop_head_silver_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301245
+  #    model_path: "materials/enchanting_trait_prop_head_silver_dust"
+  #soft_touch_trait_prop_rod_silver_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301246
+  #    model_path: "materials/soft_touch_trait_prop_rod_silver_dust"
+  #conductivity_trait_prop_plates_silver_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301247
+  #    model_path: "materials/conductivity_trait_prop_plates_silver_dust"
+  #enchanting_trait_prop_links_silver_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301248
+  #    model_path: "materials/enchanting_trait_prop_links_silver_dust"
+  part_head_swordsilver:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301249
+      model_path: "part_dictionary/sword/part_head_swordsilver"
+  part_head_hoesilver:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301250
+      model_path: "part_dictionary/hoe/part_head_hoesilver"
+  part_head_axesilver:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301251
+      model_path: "part_dictionary/axe/part_head_axesilver"
+  part_head_picksilver:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301252
+      model_path: "part_dictionary/pickaxe/part_head_picksilver"
+  part_head_shovelsilver:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301253
+      model_path: "part_dictionary/shovel/part_head_shovelsilver"
+  part_rod_silver:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301254
+      model_path: "part_dictionary/rod/part_rod_silver"
+  part_plates_helmetsilver:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301255
+      model_path: "part_dictionary/helmet/part_plates_helmetsilver"
+  part_plates_chestplatesilver:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301256
+      model_path: "part_dictionary/chestplate/part_plates_chestplatesilver"
+  part_plates_leggingssilver:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301257
+      model_path: "part_dictionary/leggings/part_plates_leggingssilver"
+  part_plates_bootssilver:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301258
+      model_path: "part_dictionary/boots/part_plates_bootssilver"
+  part_links_silver:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301259
+      model_path: "part_dictionary/links/part_links_silver"
+  part_repair_kit_silver:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301260
+      model_path: "part_dictionary/repair_kit/part_repair_kit_silver"
+  #aluminum_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301261
+  #    model_path: "materials/aluminum_liquid"
+  #recyclable_trait_prop_head_aluminum_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301262
+  #    model_path: "materials/recyclable_trait_prop_head_aluminum_dust"
+  #soft_trait_prop_rod_aluminum_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301263
+  #    model_path: "materials/soft_trait_prop_rod_aluminum_dust"
+  #foil_trait_prop_plates_aluminum_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301264
+  #    model_path: "materials/foil_trait_prop_plates_aluminum_dust"
+  #easily_shaped_trait_prop_links_aluminum_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301265
+  #    model_path: "materials/easily_shaped_trait_prop_links_aluminum_dust"
+  part_head_swordaluminum:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301266
+      model_path: "part_dictionary/sword/part_head_swordaluminum"
+  part_head_hoealuminum:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301267
+      model_path: "part_dictionary/hoe/part_head_hoealuminum"
+  part_head_axealuminum:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301268
+      model_path: "part_dictionary/axe/part_head_axealuminum"
+  part_head_pickaluminum:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301269
+      model_path: "part_dictionary/pickaxe/part_head_pickaluminum"
+  part_head_shovelaluminum:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301270
+      model_path: "part_dictionary/shovel/part_head_shovelaluminum"
+  part_rod_aluminum:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301271
+      model_path: "part_dictionary/rod/part_rod_aluminum"
+  part_plates_helmetaluminum:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301272
+      model_path: "part_dictionary/helmet/part_plates_helmetaluminum"
+  part_plates_chestplatealuminum:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301273
+      model_path: "part_dictionary/chestplate/part_plates_chestplatealuminum"
+  part_plates_leggingsaluminum:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301274
+      model_path: "part_dictionary/leggings/part_plates_leggingsaluminum"
+  part_plates_bootsaluminum:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301275
+      model_path: "part_dictionary/boots/part_plates_bootsaluminum"
+  part_links_aluminum:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301276
+      model_path: "part_dictionary/links/part_links_aluminum"
+  part_repair_kit_aluminum:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301277
+      model_path: "part_dictionary/repair_kit/part_repair_kit_aluminum"
+  #tin_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301278
+  #    model_path: "materials/tin_liquid"
+  #malleable_trait_prop_head_tin_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301279
+  #    model_path: "materials/malleable_trait_prop_head_tin_dust"
+  #can_trait_prop_rod_tin_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301280
+  #    model_path: "materials/can_trait_prop_rod_tin_dust"
+  #non-corrosive_trait_prop_plates_tin_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301281
+  #    model_path: "materials/non-corrosive_trait_prop_plates_tin_dust"
+  #boost_trait_prop_links_tin_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301282
+  #    model_path: "materials/boost_trait_prop_links_tin_dust"
+  part_head_swordtin:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301283
+      model_path: "part_dictionary/sword/part_head_swordtin"
+  part_head_hoetin:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301284
+      model_path: "part_dictionary/hoe/part_head_hoetin"
+  part_head_axetin:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301285
+      model_path: "part_dictionary/axe/part_head_axetin"
+  part_head_picktin:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301286
+      model_path: "part_dictionary/pickaxe/part_head_picktin"
+  part_head_shoveltin:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301287
+      model_path: "part_dictionary/shovel/part_head_shoveltin"
+  part_rod_tin:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301288
+      model_path: "part_dictionary/rod/part_rod_tin"
+  part_plates_helmettin:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301289
+      model_path: "part_dictionary/helmet/part_plates_helmettin"
+  part_plates_chestplatetin:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301290
+      model_path: "part_dictionary/chestplate/part_plates_chestplatetin"
+  part_plates_leggingstin:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301291
+      model_path: "part_dictionary/leggings/part_plates_leggingstin"
+  part_plates_bootstin:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301292
+      model_path: "part_dictionary/boots/part_plates_bootstin"
+  part_links_tin:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301293
+      model_path: "part_dictionary/links/part_links_tin"
+  part_repair_kit_tin:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301294
+      model_path: "part_dictionary/repair_kit/part_repair_kit_tin"
+  #zinc_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301295
+  #    model_path: "materials/zinc_liquid"
+  #graceful_trait_prop_head_zinc_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301296
+  #    model_path: "materials/graceful_trait_prop_head_zinc_dust"
+  #super_lightweight_trait_prop_rod_zinc_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301297
+  #    model_path: "materials/super_lightweight_trait_prop_rod_zinc_dust"
+  #sneaky_trait_prop_plates_zinc_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301298
+  #    model_path: "materials/sneaky_trait_prop_plates_zinc_dust"
+  #acupuncture_trait_prop_links_zinc_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301299
+  #    model_path: "materials/acupuncture_trait_prop_links_zinc_dust"
+  part_head_swordzinc:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301300
+      model_path: "part_dictionary/sword/part_head_swordzinc"
+  part_head_hoezinc:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301301
+      model_path: "part_dictionary/hoe/part_head_hoezinc"
+  part_head_axezinc:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301302
+      model_path: "part_dictionary/axe/part_head_axezinc"
+  part_head_pickzinc:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301303
+      model_path: "part_dictionary/pickaxe/part_head_pickzinc"
+  part_head_shovelzinc:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301304
+      model_path: "part_dictionary/shovel/part_head_shovelzinc"
+  part_rod_zinc:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301305
+      model_path: "part_dictionary/rod/part_rod_zinc"
+  part_plates_helmetzinc:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301306
+      model_path: "part_dictionary/helmet/part_plates_helmetzinc"
+  part_plates_chestplatezinc:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301307
+      model_path: "part_dictionary/chestplate/part_plates_chestplatezinc"
+  part_plates_leggingszinc:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301308
+      model_path: "part_dictionary/leggings/part_plates_leggingszinc"
+  part_plates_bootszinc:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301309
+      model_path: "part_dictionary/boots/part_plates_bootszinc"
+  part_links_zinc:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301310
+      model_path: "part_dictionary/links/part_links_zinc"
+  part_repair_kit_zinc:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301311
+      model_path: "part_dictionary/repair_kit/part_repair_kit_zinc"
+  #magnesium_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301312
+  #    model_path: "materials/magnesium_liquid"
+  #flammable_trait_prop_head_magnesium_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301313
+  #    model_path: "materials/flammable_trait_prop_head_magnesium_dust"
+  #magnetesium_trait_prop_rod_magnesium_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301314
+  #    model_path: "materials/magnetesium_trait_prop_rod_magnesium_dust"
+  #light_trait_prop_plates_magnesium_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301315
+  #    model_path: "materials/light_trait_prop_plates_magnesium_dust"
+  #magnesight™_trait_prop_links_magnesium_dust:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301316
+  #    model_path: "materials/magnesight™_trait_prop_links_magnesium_dust"
+  part_head_swordmagnesium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301317
+      model_path: "part_dictionary/sword/part_head_swordmagnesium"
+  part_head_hoemagnesium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301318
+      model_path: "part_dictionary/hoe/part_head_hoemagnesium"
+  part_head_axemagnesium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301319
+      model_path: "part_dictionary/axe/part_head_axemagnesium"
+  part_head_pickmagnesium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301320
+      model_path: "part_dictionary/pickaxe/part_head_pickmagnesium"
+  part_head_shovelmagnesium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301321
+      model_path: "part_dictionary/shovel/part_head_shovelmagnesium"
+  part_rod_magnesium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301322
+      model_path: "part_dictionary/rod/part_rod_magnesium"
+  part_plates_helmetmagnesium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301323
+      model_path: "part_dictionary/helmet/part_plates_helmetmagnesium"
+  part_plates_chestplatemagnesium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301324
+      model_path: "part_dictionary/chestplate/part_plates_chestplatemagnesium"
+  part_plates_leggingsmagnesium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301325
+      model_path: "part_dictionary/leggings/part_plates_leggingsmagnesium"
+  part_plates_bootsmagnesium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301326
+      model_path: "part_dictionary/boots/part_plates_bootsmagnesium"
+  part_links_magnesium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301327
+      model_path: "part_dictionary/links/part_links_magnesium"
+  part_repair_kit_magnesium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301328
+      model_path: "part_dictionary/repair_kit/part_repair_kit_magnesium"
+  #coal_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301329
+  #    model_path: "materials/coal_liquid"
+  #steel_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301330
+  #    model_path: "materials/steel_liquid"
+  #steel_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301331
+  #    model_path: "materials/steel_alloy"
+  #stainless_trait_prop_head_steel_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301332
+  #    model_path: "materials/stainless_trait_prop_head_steel_ingot"
+  #lightweight_trait_prop_rod_steel_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301333
+  #    model_path: "materials/lightweight_trait_prop_rod_steel_ingot"
+  #hardy_trait_prop_plates_steel_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301334
+  #    model_path: "materials/hardy_trait_prop_plates_steel_ingot"
+  #strong_trait_prop_links_steel_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301335
+  #    model_path: "materials/strong_trait_prop_links_steel_ingot"
+  part_head_swordsteel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301336
+      model_path: "part_dictionary/sword/part_head_swordsteel"
+  part_head_hoesteel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301337
+      model_path: "part_dictionary/hoe/part_head_hoesteel"
+  part_head_axesteel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301338
+      model_path: "part_dictionary/axe/part_head_axesteel"
+  part_head_picksteel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301339
+      model_path: "part_dictionary/pickaxe/part_head_picksteel"
+  part_head_shovelsteel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301340
+      model_path: "part_dictionary/shovel/part_head_shovelsteel"
+  part_rod_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301341
+      model_path: "part_dictionary/rod/part_rod_steel"
+  part_plates_helmetsteel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301342
+      model_path: "part_dictionary/helmet/part_plates_helmetsteel"
+  part_plates_chestplatesteel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301343
+      model_path: "part_dictionary/chestplate/part_plates_chestplatesteel"
+  part_plates_leggingssteel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301344
+      model_path: "part_dictionary/leggings/part_plates_leggingssteel"
+  part_plates_bootssteel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301345
+      model_path: "part_dictionary/boots/part_plates_bootssteel"
+  part_links_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301346
+      model_path: "part_dictionary/links/part_links_steel"
+  part_repair_kit_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301347
+      model_path: "part_dictionary/repair_kit/part_repair_kit_steel"
+  #damascus_steel_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301348
+  #    model_path: "materials/damascus_steel_liquid"
+  #damascus_steel_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301349
+  #    model_path: "materials/damascus_steel_alloy"
+  #vampirism_trait_prop_head_damascus_steel_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301350
+  #    model_path: "materials/vampirism_trait_prop_head_damascus_steel_ingot"
+  #nightstalker_trait_prop_rod_damascus_steel_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301351
+  #    model_path: "materials/nightstalker_trait_prop_rod_damascus_steel_ingot"
+  #compounding_trait_prop_plates_damascus_steel_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301352
+  #    model_path: "materials/compounding_trait_prop_plates_damascus_steel_ingot"
+  #snroht_trait_prop_links_damascus_steel_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301353
+  #    model_path: "materials/snroht_trait_prop_links_damascus_steel_ingot"
+  part_head_sworddamascus_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301354
+      model_path: "part_dictionary/sword/part_head_sworddamascus_steel"
+  part_head_hoedamascus_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301355
+      model_path: "part_dictionary/hoe/part_head_hoedamascus_steel"
+  part_head_axedamascus_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301356
+      model_path: "part_dictionary/axe/part_head_axedamascus_steel"
+  part_head_pickdamascus_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301357
+      model_path: "part_dictionary/pickaxe/part_head_pickdamascus_steel"
+  part_head_shoveldamascus_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301358
+      model_path: "part_dictionary/shovel/part_head_shoveldamascus_steel"
+  part_rod_damascus_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301359
+      model_path: "part_dictionary/rod/part_rod_damascus_steel"
+  part_plates_helmetdamascus_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301360
+      model_path: "part_dictionary/helmet/part_plates_helmetdamascus_steel"
+  part_plates_chestplatedamascus_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301361
+      model_path: "part_dictionary/chestplate/part_plates_chestplatedamascus_steel"
+  part_plates_leggingsdamascus_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301362
+      model_path: "part_dictionary/leggings/part_plates_leggingsdamascus_steel"
+  part_plates_bootsdamascus_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301363
+      model_path: "part_dictionary/boots/part_plates_bootsdamascus_steel"
+  part_links_damascus_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301364
+      model_path: "part_dictionary/links/part_links_damascus_steel"
+  part_repair_kit_damascus_steel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301365
+      model_path: "part_dictionary/repair_kit/part_repair_kit_damascus_steel"
+  #duralium_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301366
+  #    model_path: "materials/duralium_liquid"
+  #duralium_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301367
+  #    model_path: "materials/duralium_alloy"
+  #durable_trait_prop_head_duralumin_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301368
+  #    model_path: "materials/durable_trait_prop_head_duralumin_ingot"
+  #easy_fix_trait_prop_rod_duralumin_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301369
+  #    model_path: "materials/easy_fix_trait_prop_rod_duralumin_ingot"
+  #durable_trait_prop_plates_duralumin_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301370
+  #    model_path: "materials/durable_trait_prop_plates_duralumin_ingot"
+  #shock_absorbant_trait_prop_links_duralumin_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301371
+  #    model_path: "materials/shock_absorbant_trait_prop_links_duralumin_ingot"
+  part_head_swordduralium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301372
+      model_path: "part_dictionary/sword/part_head_swordduralium"
+  part_head_hoeduralium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301373
+      model_path: "part_dictionary/hoe/part_head_hoeduralium"
+  part_head_axeduralium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301374
+      model_path: "part_dictionary/axe/part_head_axeduralium"
+  part_head_pickduralium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301375
+      model_path: "part_dictionary/pickaxe/part_head_pickduralium"
+  part_head_shovelduralium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301376
+      model_path: "part_dictionary/shovel/part_head_shovelduralium"
+  part_rod_duralium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301377
+      model_path: "part_dictionary/rod/part_rod_duralium"
+  part_plates_helmetduralium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301378
+      model_path: "part_dictionary/helmet/part_plates_helmetduralium"
+  part_plates_chestplateduralium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301379
+      model_path: "part_dictionary/chestplate/part_plates_chestplateduralium"
+  part_plates_leggingsduralium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301380
+      model_path: "part_dictionary/leggings/part_plates_leggingsduralium"
+  part_plates_bootsduralium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301381
+      model_path: "part_dictionary/boots/part_plates_bootsduralium"
+  part_links_duralium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301382
+      model_path: "part_dictionary/links/part_links_duralium"
+  part_repair_kit_duralium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301383
+      model_path: "part_dictionary/repair_kit/part_repair_kit_duralium"
+  #bronze_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301384
+  #    model_path: "materials/bronze_liquid"
+  #bronze_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301385
+  #    model_path: "materials/bronze_alloy"
+  #resistance_trait_prop_head_bronze_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301386
+  #    model_path: "materials/resistance_trait_prop_head_bronze_ingot"
+  #ingheights_trait_prop_rod_bronze_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301387
+  #    model_path: "materials/ingheights_trait_prop_rod_bronze_ingot"
+  #farmer_trait_prop_plates_bronze_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301388
+  #    model_path: "materials/farmer_trait_prop_plates_bronze_ingot"
+  #brittle_trait_prop_links_bronze_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301389
+  #    model_path: "materials/brittle_trait_prop_links_bronze_ingot"
+  part_head_swordbronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301390
+      model_path: "part_dictionary/sword/part_head_swordbronze"
+  part_head_hoebronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301391
+      model_path: "part_dictionary/hoe/part_head_hoebronze"
+  part_head_axebronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301392
+      model_path: "part_dictionary/axe/part_head_axebronze"
+  part_head_pickbronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301393
+      model_path: "part_dictionary/pickaxe/part_head_pickbronze"
+  part_head_shovelbronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301394
+      model_path: "part_dictionary/shovel/part_head_shovelbronze"
+  part_rod_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301395
+      model_path: "part_dictionary/rod/part_rod_bronze"
+  part_plates_helmetbronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301396
+      model_path: "part_dictionary/helmet/part_plates_helmetbronze"
+  part_plates_chestplatebronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301397
+      model_path: "part_dictionary/chestplate/part_plates_chestplatebronze"
+  part_plates_leggingsbronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301398
+      model_path: "part_dictionary/leggings/part_plates_leggingsbronze"
+  part_plates_bootsbronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301399
+      model_path: "part_dictionary/boots/part_plates_bootsbronze"
+  part_links_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301400
+      model_path: "part_dictionary/links/part_links_bronze"
+  part_repair_kit_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301401
+      model_path: "part_dictionary/repair_kit/part_repair_kit_bronze"
+  #aluminum_bronze_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301402
+  #    model_path: "materials/aluminum_bronze_liquid"
+  #aluminum_bronze_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301403
+  #    model_path: "materials/aluminum_bronze_alloy"
+  #sharp_2_trait_prop_head_aluminum_bronze_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301404
+  #    model_path: "materials/sharp_2_trait_prop_head_aluminum_bronze_ingot"
+  #brittle_trait_prop_rod_aluminum_bronze_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301405
+  #    model_path: "materials/brittle_trait_prop_rod_aluminum_bronze_ingot"
+  #beautiful_trait_prop_plates_aluminum_bronze_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301406
+  #    model_path: "materials/beautiful_trait_prop_plates_aluminum_bronze_ingot"
+  #eject!_trait_prop_links_aluminum_bronze_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301407
+  #    model_path: "materials/eject!_trait_prop_links_aluminum_bronze_ingot"
+  part_head_swordaluminum_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301408
+      model_path: "part_dictionary/sword/part_head_swordaluminum_bronze"
+  part_head_hoealuminum_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301409
+      model_path: "part_dictionary/hoe/part_head_hoealuminum_bronze"
+  part_head_axealuminum_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301410
+      model_path: "part_dictionary/axe/part_head_axealuminum_bronze"
+  part_head_pickaluminum_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301411
+      model_path: "part_dictionary/pickaxe/part_head_pickaluminum_bronze"
+  part_head_shovelaluminum_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301412
+      model_path: "part_dictionary/shovel/part_head_shovelaluminum_bronze"
+  part_rod_aluminum_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301413
+      model_path: "part_dictionary/rod/part_rod_aluminum_bronze"
+  part_plates_helmetaluminum_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301414
+      model_path: "part_dictionary/helmet/part_plates_helmetaluminum_bronze"
+  part_plates_chestplatealuminum_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301415
+      model_path: "part_dictionary/chestplate/part_plates_chestplatealuminum_bronze"
+  part_plates_leggingsaluminum_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301416
+      model_path: "part_dictionary/leggings/part_plates_leggingsaluminum_bronze"
+  part_plates_bootsaluminum_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301417
+      model_path: "part_dictionary/boots/part_plates_bootsaluminum_bronze"
+  part_links_aluminum_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301418
+      model_path: "part_dictionary/links/part_links_aluminum_bronze"
+  part_repair_kit_aluminum_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301419
+      model_path: "part_dictionary/repair_kit/part_repair_kit_aluminum_bronze"
+  #hardened_metal_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301420
+  #    model_path: "materials/hardened_metal_liquid"
+  #hardened_metal_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301421
+  #    model_path: "materials/hardened_metal_alloy"
+  #tuff_stuff_trait_prop_head_hardened_metal_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301422
+  #    model_path: "materials/tuff_stuff_trait_prop_head_hardened_metal_ingot"
+  #heavy_trait_prop_rod_hardened_metal_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301423
+  #    model_path: "materials/heavy_trait_prop_rod_hardened_metal_ingot"
+  #toughened_trait_prop_plates_hardened_metal_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301424
+  #    model_path: "materials/toughened_trait_prop_plates_hardened_metal_ingot"
+  #dwarven_skills_trait_prop_links_hardened_metal_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301425
+  #    model_path: "materials/dwarven_skills_trait_prop_links_hardened_metal_ingot"
+  part_head_swordhardened_metal:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301426
+      model_path: "part_dictionary/sword/part_head_swordhardened_metal"
+  part_head_hoehardened_metal:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301427
+      model_path: "part_dictionary/hoe/part_head_hoehardened_metal"
+  part_head_axehardened_metal:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301428
+      model_path: "part_dictionary/axe/part_head_axehardened_metal"
+  part_head_pickhardened_metal:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301429
+      model_path: "part_dictionary/pickaxe/part_head_pickhardened_metal"
+  part_head_shovelhardened_metal:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301430
+      model_path: "part_dictionary/shovel/part_head_shovelhardened_metal"
+  part_rod_hardened_metal:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301431
+      model_path: "part_dictionary/rod/part_rod_hardened_metal"
+  part_plates_helmethardened_metal:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301432
+      model_path: "part_dictionary/helmet/part_plates_helmethardened_metal"
+  part_plates_chestplatehardened_metal:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301433
+      model_path: "part_dictionary/chestplate/part_plates_chestplatehardened_metal"
+  part_plates_leggingshardened_metal:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301434
+      model_path: "part_dictionary/leggings/part_plates_leggingshardened_metal"
+  part_plates_bootshardened_metal:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301435
+      model_path: "part_dictionary/boots/part_plates_bootshardened_metal"
+  part_links_hardened_metal:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301436
+      model_path: "part_dictionary/links/part_links_hardened_metal"
+  part_repair_kit_hardened_metal:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301437
+      model_path: "part_dictionary/repair_kit/part_repair_kit_hardened_metal"
+  #corinthian_bronze_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301438
+  #    model_path: "materials/corinthian_bronze_liquid"
+  #corinthian_bronze_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301439
+  #    model_path: "materials/corinthian_bronze_alloy"
+  #flaming_hot_trait_prop_head_corinthian_bronze_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301440
+  #    model_path: "materials/flaming_hot_trait_prop_head_corinthian_bronze_ingot"
+  #too_hot_to_handle_trait_prop_rod_corinthian_bronze_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301441
+  #    model_path: "materials/too_hot_to_handle_trait_prop_rod_corinthian_bronze_ingot"
+  #superhot_trait_prop_plates_corinthian_bronze_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301442
+  #    model_path: "materials/superhot_trait_prop_plates_corinthian_bronze_ingot"
+  #warm_blooded_trait_prop_links_corinthian_bronze_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301443
+  #    model_path: "materials/warm_blooded_trait_prop_links_corinthian_bronze_ingot"
+  part_head_swordcorinthian_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301444
+      model_path: "part_dictionary/sword/part_head_swordcorinthian_bronze"
+  part_head_hoecorinthian_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301445
+      model_path: "part_dictionary/hoe/part_head_hoecorinthian_bronze"
+  part_head_axecorinthian_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301446
+      model_path: "part_dictionary/axe/part_head_axecorinthian_bronze"
+  part_head_pickcorinthian_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301447
+      model_path: "part_dictionary/pickaxe/part_head_pickcorinthian_bronze"
+  part_head_shovelcorinthian_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301448
+      model_path: "part_dictionary/shovel/part_head_shovelcorinthian_bronze"
+  part_rod_corinthian_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301449
+      model_path: "part_dictionary/rod/part_rod_corinthian_bronze"
+  part_plates_helmetcorinthian_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301450
+      model_path: "part_dictionary/helmet/part_plates_helmetcorinthian_bronze"
+  part_plates_chestplatecorinthian_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301451
+      model_path: "part_dictionary/chestplate/part_plates_chestplatecorinthian_bronze"
+  part_plates_leggingscorinthian_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301452
+      model_path: "part_dictionary/leggings/part_plates_leggingscorinthian_bronze"
+  part_plates_bootscorinthian_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301453
+      model_path: "part_dictionary/boots/part_plates_bootscorinthian_bronze"
+  part_links_corinthian_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301454
+      model_path: "part_dictionary/links/part_links_corinthian_bronze"
+  part_repair_kit_corinthian_bronze:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301455
+      model_path: "part_dictionary/repair_kit/part_repair_kit_corinthian_bronze"
+  #solder_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301456
+  #    model_path: "materials/solder_liquid"
+  #solder_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301457
+  #    model_path: "materials/solder_alloy"
+  #hidden_trait_prop_head_solder_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301458
+  #    model_path: "materials/hidden_trait_prop_head_solder_ingot"
+  #fused_trait_prop_rod_solder_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301459
+  #    model_path: "materials/fused_trait_prop_rod_solder_ingot"
+  #soft_landing_trait_prop_plates_solder_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301460
+  #    model_path: "materials/soft_landing_trait_prop_plates_solder_ingot"
+  #fused_trait_prop_links_solder_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301461
+  #    model_path: "materials/fused_trait_prop_links_solder_ingot"
+  part_head_swordsolder:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301462
+      model_path: "part_dictionary/sword/part_head_swordsolder"
+  part_head_hoesolder:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301463
+      model_path: "part_dictionary/hoe/part_head_hoesolder"
+  part_head_axesolder:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301464
+      model_path: "part_dictionary/axe/part_head_axesolder"
+  part_head_picksolder:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301465
+      model_path: "part_dictionary/pickaxe/part_head_picksolder"
+  part_head_shovelsolder:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301466
+      model_path: "part_dictionary/shovel/part_head_shovelsolder"
+  part_rod_solder:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301467
+      model_path: "part_dictionary/rod/part_rod_solder"
+  part_plates_helmetsolder:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301468
+      model_path: "part_dictionary/helmet/part_plates_helmetsolder"
+  part_plates_chestplatesolder:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301469
+      model_path: "part_dictionary/chestplate/part_plates_chestplatesolder"
+  part_plates_leggingssolder:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301470
+      model_path: "part_dictionary/leggings/part_plates_leggingssolder"
+  part_plates_bootssolder:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301471
+      model_path: "part_dictionary/boots/part_plates_bootssolder"
+  part_links_solder:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301472
+      model_path: "part_dictionary/links/part_links_solder"
+  part_repair_kit_solder:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301473
+      model_path: "part_dictionary/repair_kit/part_repair_kit_solder"
+  #billon_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301474
+  #    model_path: "materials/billon_liquid"
+  #billon_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301475
+  #    model_path: "materials/billon_alloy"
+  #fast_trait_prop_head_billon_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301476
+  #    model_path: "materials/fast_trait_prop_head_billon_ingot"
+  #springs_trait_prop_rod_billon_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301477
+  #    model_path: "materials/springs_trait_prop_rod_billon_ingot"
+  #whm_trait_prop_plates_billon_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301478
+  #    model_path: "materials/whm_trait_prop_plates_billon_ingot"
+  #heat_conductor_trait_prop_links_billon_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301479
+  #    model_path: "materials/heat_conductor_trait_prop_links_billon_ingot"
+  part_head_swordbillon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301480
+      model_path: "part_dictionary/sword/part_head_swordbillon"
+  part_head_hoebillon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301481
+      model_path: "part_dictionary/hoe/part_head_hoebillon"
+  part_head_axebillon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301482
+      model_path: "part_dictionary/axe/part_head_axebillon"
+  part_head_pickbillon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301483
+      model_path: "part_dictionary/pickaxe/part_head_pickbillon"
+  part_head_shovelbillon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301484
+      model_path: "part_dictionary/shovel/part_head_shovelbillon"
+  part_rod_billon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301485
+      model_path: "part_dictionary/rod/part_rod_billon"
+  part_plates_helmetbillon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301486
+      model_path: "part_dictionary/helmet/part_plates_helmetbillon"
+  part_plates_chestplatebillon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301487
+      model_path: "part_dictionary/chestplate/part_plates_chestplatebillon"
+  part_plates_leggingsbillon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301488
+      model_path: "part_dictionary/leggings/part_plates_leggingsbillon"
+  part_plates_bootsbillon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301489
+      model_path: "part_dictionary/boots/part_plates_bootsbillon"
+  part_links_billon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301490
+      model_path: "part_dictionary/links/part_links_billon"
+  part_repair_kit_billon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301491
+      model_path: "part_dictionary/repair_kit/part_repair_kit_billon"
+  #brass_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301492
+  #    model_path: "materials/brass_liquid"
+  #brass_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301493
+  #    model_path: "materials/brass_alloy"
+  #stiff_trait_prop_head_brass_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301494
+  #    model_path: "materials/stiff_trait_prop_head_brass_ingot"
+  #oxygenated_trait_prop_rod_brass_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301495
+  #    model_path: "materials/oxygenated_trait_prop_rod_brass_ingot"
+  #band_trait_prop_plates_brass_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301496
+  #    model_path: "materials/band_trait_prop_plates_brass_ingot"
+  #scarpaaarr!_trait_prop_links_brass_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301497
+  #    model_path: "materials/scarpaaarr!_trait_prop_links_brass_ingot"
+  part_head_swordbrass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301498
+      model_path: "part_dictionary/sword/part_head_swordbrass"
+  part_head_hoebrass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301499
+      model_path: "part_dictionary/hoe/part_head_hoebrass"
+  part_head_axebrass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301500
+      model_path: "part_dictionary/axe/part_head_axebrass"
+  part_head_pickbrass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301501
+      model_path: "part_dictionary/pickaxe/part_head_pickbrass"
+  part_head_shovelbrass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301502
+      model_path: "part_dictionary/shovel/part_head_shovelbrass"
+  part_rod_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301503
+      model_path: "part_dictionary/rod/part_rod_brass"
+  part_plates_helmetbrass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301504
+      model_path: "part_dictionary/helmet/part_plates_helmetbrass"
+  part_plates_chestplatebrass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301505
+      model_path: "part_dictionary/chestplate/part_plates_chestplatebrass"
+  part_plates_leggingsbrass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301506
+      model_path: "part_dictionary/leggings/part_plates_leggingsbrass"
+  part_plates_bootsbrass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301507
+      model_path: "part_dictionary/boots/part_plates_bootsbrass"
+  part_links_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301508
+      model_path: "part_dictionary/links/part_links_brass"
+  part_repair_kit_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301509
+      model_path: "part_dictionary/repair_kit/part_repair_kit_brass"
+  #aluminum_brass_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301510
+  #    model_path: "materials/aluminum_brass_liquid"
+  #aluminum_brass_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301511
+  #    model_path: "materials/aluminum_brass_alloy"
+  #abra_trait_prop_head_aluminum_brass_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301512
+  #    model_path: "materials/abra_trait_prop_head_aluminum_brass_ingot"
+  #studious_trait_prop_rod_aluminum_brass_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301513
+  #    model_path: "materials/studious_trait_prop_rod_aluminum_brass_ingot"
+  #magus_trait_prop_plates_aluminum_brass_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301514
+  #    model_path: "materials/magus_trait_prop_plates_aluminum_brass_ingot"
+  #escape_trait_prop_links_aluminum_brass_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301515
+  #    model_path: "materials/escape_trait_prop_links_aluminum_brass_ingot"
+  part_head_swordaluminum_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301516
+      model_path: "part_dictionary/sword/part_head_swordaluminum_brass"
+  part_head_hoealuminum_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301517
+      model_path: "part_dictionary/hoe/part_head_hoealuminum_brass"
+  part_head_axealuminum_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301518
+      model_path: "part_dictionary/axe/part_head_axealuminum_brass"
+  part_head_pickaluminum_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301519
+      model_path: "part_dictionary/pickaxe/part_head_pickaluminum_brass"
+  part_head_shovelaluminum_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301520
+      model_path: "part_dictionary/shovel/part_head_shovelaluminum_brass"
+  part_rod_aluminum_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301521
+      model_path: "part_dictionary/rod/part_rod_aluminum_brass"
+  part_plates_helmetaluminum_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301522
+      model_path: "part_dictionary/helmet/part_plates_helmetaluminum_brass"
+  part_plates_chestplatealuminum_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301523
+      model_path: "part_dictionary/chestplate/part_plates_chestplatealuminum_brass"
+  part_plates_leggingsaluminum_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301524
+      model_path: "part_dictionary/leggings/part_plates_leggingsaluminum_brass"
+  part_plates_bootsaluminum_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301525
+      model_path: "part_dictionary/boots/part_plates_bootsaluminum_brass"
+  part_links_aluminum_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301526
+      model_path: "part_dictionary/links/part_links_aluminum_brass"
+  part_repair_kit_aluminum_brass:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301527
+      model_path: "part_dictionary/repair_kit/part_repair_kit_aluminum_brass"
+  #nickel_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301528
+  #    model_path: "part_dictionary/nickel_liquid"
+  #nickel_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301529
+  #    model_path: "part_dictionary/nickel_alloy"
+  #charged_head_-_trait_prop_head_nickel_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301530
+  #    model_path: "part_dictionary/charged_head_-_trait_prop_head_nickel_ingot"
+  #charged_rod_-_trait_prop_rod_nickel_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301531
+  #    model_path: "part_dictionary/charged_rod_-_trait_prop_rod_nickel_ingot"
+  #magnetic_-_trait_prop_plates_nickel_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301532
+  #    model_path: "part_dictionary/magnetic_-_trait_prop_plates_nickel_ingot"
+  #magnetic_-_trait_prop_links_nickel_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301533
+  #    model_path: "part_dictionary/magnetic_-_trait_prop_links_nickel_ingot"
+  part_head_swordnickel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301534
+      model_path: "part_dictionary/sword/part_head_swordnickel"
+  part_head_hoenickel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301535
+      model_path: "part_dictionary/hoe/part_head_hoenickel"
+  part_head_axenickel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301536
+      model_path: "part_dictionary/axe/part_head_axenickel"
+  part_head_picknickel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301537
+      model_path: "part_dictionary/pickaxe/part_head_picknickel"
+  part_head_shovelnickel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301538
+      model_path: "part_dictionary/shovel/part_head_shovelnickel"
+  part_rod_nickel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301539
+      model_path: "part_dictionary/rod/part_rod_nickel"
+  part_plates_helmetnickel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301540
+      model_path: "part_dictionary/helmet/part_plates_helmetnickel"
+  part_plates_chestplatenickel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301541
+      model_path: "part_dictionary/chestplate/part_plates_chestplatenickel"
+  part_plates_leggingsnickel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301542
+      model_path: "part_dictionary/leggings/part_plates_leggingsnickel"
+  part_plates_bootsnickel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301543
+      model_path: "part_dictionary/boots/part_plates_bootsnickel"  
+  part_links_nickel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301544
+      model_path: "part_dictionary/links/part_links_nickel"
+  part_repair_kit_nickel:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301545
+      model_path: "part_dictionary/repair_kit/part_repair_kit_nickel"
+  #cobalt_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301546
+  #    model_path: "part_dictionary/cobalt_liquid"
+  #cobalt_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301547
+  #    model_path: "part_dictionary/cobalt_alloy"
+  #charged_head_+_trait_prop_head_cobalt_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301548
+  #    model_path: "part_dictionary/charged_head_+_trait_prop_head_cobalt_ingot"
+  #charged_rod_+_trait_prop_rod_cobalt_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301549
+  #    model_path: "part_dictionary/charged_rod_+_trait_prop_rod_cobalt_ingot"
+  #magnetic_+_trait_prop_plates_cobalt_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301550
+  #    model_path: "part_dictionary/magnetic_+_trait_prop_plates_cobalt_ingot"
+  #magnetic_+_trait_prop_links_cobalt_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301551
+  #    model_path: "part_dictionary/magnetic_+_trait_prop_links_cobalt_ingot"
+  part_head_swordcobalt:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301552
+      model_path: "part_dictionary/sword/part_head_swordcobalt"
+  part_head_hoecobalt:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301553
+      model_path: "part_dictionary/hoe/part_head_hoecobalt"
+  part_head_axecobalt:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301554
+      model_path: "part_dictionary/axe/part_head_axecobalt"
+  part_head_pickcobalt:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301555
+      model_path: "part_dictionary/pickaxe/part_head_pickcobalt"
+  part_head_shovelcobalt:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301556
+      model_path: "part_dictionary/shovel/part_head_shovelcobalt"
+  part_rod_cobalt:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301557
+      model_path: "part_dictionary/rod/part_rod_cobalt"
+  part_plates_helmetcobalt:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301558
+      model_path: "part_dictionary/helmet/part_plates_helmetcobalt"
+  part_plates_chestplatecobalt:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301559
+      model_path: "part_dictionary/chestplate/part_plates_chestplatecobalt"
+  part_plates_leggingscobalt:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301560
+      model_path: "part_dictionary/leggings/part_plates_leggingscobalt"
+  part_plates_bootscobalt:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301561
+      model_path: "part_dictionary/boots/part_plates_bootscobalt"
+  part_links_cobalt:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301562
+      model_path: "part_dictionary/links/part_links_cobalt"
+  part_repair_kit_cobalt:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301563
+      model_path: "part_dictionary/repair_kit/part_repair_kit_cobalt"
+  #reinforced_alloy_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301564
+  #    model_path: "part_dictionary/reinforced_alloy_liquid"
+  #reinforced_alloy_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301565
+  #    model_path: "part_dictionary/reinforced_alloy_alloy"
+  #bulky_trait_prop_head_reinforced_alloy_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301566
+  #    model_path: "part_dictionary/bulky_trait_prop_head_reinforced_alloy_ingot"
+  #reinforced_trait_prop_rod_reinforced_alloy_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301567
+  #    model_path: "part_dictionary/reinforced_trait_prop_rod_reinforced_alloy_ingot"
+  #reinforceable_trait_prop_plates_reinforced_alloy_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301568
+  #    model_path: "part_dictionary/reinforceable_trait_prop_plates_reinforced_alloy_ingot"
+  #witherproof_trait_prop_links_reinforced_alloy_ingot:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301569
+  #    model_path: "part_dictionary/witherproof_trait_prop_links_reinforced_alloy_ingot"
+  part_head_swordreinforced_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301570
+      model_path: "part_dictionary/sword/part_head_swordreinforced_alloy"
+  part_head_hoereinforced_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301571
+      model_path: "part_dictionary/hoe/part_head_hoereinforced_alloy"
+  part_head_axereinforced_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301572
+      model_path: "part_dictionary/axe/part_head_axereinforced_alloy"
+  part_head_pickreinforced_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301573
+      model_path: "part_dictionary/pickaxe/part_head_pickreinforced_alloy"
+  part_head_shovelreinforced_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301574
+      model_path: "part_dictionary/shovel/part_head_shovelreinforced_alloy"
+  part_rod_reinforced_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301575
+      model_path: "part_dictionary/rod/part_rod_reinforced_alloy"
+  part_plates_helmetreinforced_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301576
+      model_path: "part_dictionary/helmet/part_plates_helmetreinforced_alloy"
+  part_plates_chestplatereinforced_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301577
+      model_path: "part_dictionary/chestplate/part_plates_chestplatereinforced_alloy"
+  part_plates_leggingsreinforced_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301578
+      model_path: "part_dictionary/leggings/part_plates_leggingsreinforced_alloy"
+  part_plates_bootsreinforced_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301579
+      model_path: "part_dictionary/boots/part_plates_bootsreinforced_alloy"
+  part_links_reinforced_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301580
+      model_path: "part_dictionary/links/part_links_reinforced_alloy"
+  part_repair_kit_reinforced_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301581
+      model_path: "part_dictionary/repair_kit/part_repair_kit_reinforced_alloy"
+  #works_trait_prop_binding_string:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301582
+  #    model_path: "part_dictionary/works_trait_prop_binding_string"
+  #works_trait_prop_gambeson_string:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301583
+  #    model_path: "part_dictionary/works_trait_prop_gambeson_string"
+  part_binding_string:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301584
+      model_path: "part_dictionary/binding/part_binding_string"
+  part_gambeson_string:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301585
+      model_path: "part_dictionary/gambeson/part_gambeson_string"
+  #growth_trait_prop_binding_vine:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301586
+  #    model_path: "part_dictionary/growth_trait_prop_binding_vine"
+  #growth_trait_prop_gambeson_vine:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301587
+  #    model_path: "part_dictionary/growth_trait_prop_gambeson_vine"
+  part_binding_vine:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301588
+      model_path: "part_dictionary/binding/part_binding_vine"
+  part_gambeson_vine:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301589
+      model_path: "part_dictionary/gambeson/part_gambeson_vine"
+  #decay_trait_prop_binding_crimson_roots:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301590
+  #    model_path: "part_dictionary/decay_trait_prop_binding_crimson_roots"
+  #decay_trait_prop_gambeson_crimson_roots:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301591
+  #    model_path: "part_dictionary/decay_trait_prop_gambeson_crimson_roots"
+  part_binding_crimson_root:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301592
+      model_path: "part_dictionary/binding/part_binding_crimson_root"
+  part_gambeson_crimson_root:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301593
+      model_path: "part_dictionary/gambeson/part_gambeson_crimson_root"
+  #refreshing_trait_prop_binding_warped_roots:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301594
+  #    model_path: "part_dictionary/refreshing_trait_prop_binding_warped_roots"
+  #refreshing_trait_prop_gambeson_warped_roots:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301595
+  #    model_path: "part_dictionary/refreshing_trait_prop_gambeson_warped_roots"
+  part_binding_warped_root:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301596
+      model_path: "part_dictionary/binding/part_binding_warped_root"
+  part_gambeson_warped_root:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301597
+      model_path: "part_dictionary/gambeson/part_gambeson_warped_root"
+  #doom_trait_prop_binding_weeping_vines:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301598
+  #    model_path: "part_dictionary/doom_trait_prop_binding_weeping_vines"
+  #doom_trait_prop_gambeson_weeping_vines:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301599
+  #    model_path: "part_dictionary/doom_trait_prop_gambeson_weeping_vines"
+  part_binding_weeping_vine:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301600
+      model_path: "part_dictionary/binding/part_binding_weeping_vine"
+  part_gambeson_weeping_vine:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301601
+      model_path: "part_dictionary/gambeson/part_gambeson_weeping_vine"
+  #attraction_trait_prop_binding_twisting_vines:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301602
+  #    model_path: "part_dictionary/attraction_trait_prop_binding_twisting_vines"
+  #attraction_trait_prop_gambeson_twisting_vines:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301603
+  #    model_path: "part_dictionary/attraction_trait_prop_gambeson_twisting_vines"
+  part_binding_twisted_vine:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301604
+      model_path: "part_dictionary/binding/part_binding_twisted_vine"
+  part_gambeson_twisted_vine:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301605
+      model_path: "part_dictionary/gambeson/part_gambeson_twisted_vine"
+  #slime_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301606
+  #    model_path: "part_dictionary/slime_liquid"
+  #bouncy_trait_prop_binding_slime_ball:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301607
+  #    model_path: "part_dictionary/bouncy_trait_prop_binding_slime_ball"
+  #bouncy_trait_prop_gambeson_slime_ball:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301608
+  #    model_path: "part_dictionary/bouncy_trait_prop_gambeson_slime_ball"
+  part_binding_slime:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301609
+      model_path: "part_dictionary/binding/part_binding_slime"
+  part_gambeson_slime:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301610
+      model_path: "part_dictionary/gambeson/part_gambeson_slime"
+  #redstone_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301611
+  #    model_path: "part_dictionary/redstone_liquid"
+  #silicon_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301612
+  #    model_path: "part_dictionary/silicon_liquid"
+  #slow_learner_trait_prop_binding_silicon:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301613
+  #    model_path: "part_dictionary/slow_learner_trait_prop_binding_silicon"
+  #slow_learner_trait_prop_gambeson_silicon:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301614
+  #    model_path: "part_dictionary/slow_learner_trait_prop_gambeson_silicon"
+  part_binding_silicon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301615
+      model_path: "part_dictionary/binding/part_binding_silicon"
+  part_gambeson_silicon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301616
+      model_path: "part_dictionary/gambeson/part_gambeson_silicon"
+  #thick_trait_prop_binding_leather:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301617
+  #    model_path: "part_dictionary/thick_trait_prop_binding_leather"
+  #thick_trait_prop_gambeson_leather:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301618
+  #    model_path: "part_dictionary/thick_trait_prop_gambeson_leather"
+  part_binding_leather:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301619
+      model_path: "part_dictionary/binding/part_binding_leather"
+  part_gambeson_leather:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301620
+      model_path: "part_dictionary/gambeson/part_gambeson_leather"
+  #ferrosilicon_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301621
+  #    model_path: "part_dictionary/ferrosilicon_liquid"
+  #ferrosilicon_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301622
+  #    model_path: "part_dictionary/ferrosilicon_alloy"
+  #hydrogen_trait_prop_head_ferrosilicon:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301623
+  #    model_path: "part_dictionary/hydrogen_trait_prop_head_ferrosilicon"
+  #solar_powered_trait_prop_plates_ferrosilicon:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301624
+  #    model_path: "part_dictionary/solar_powered_trait_prop_plates_ferrosilicon"
+  #brightburn_trait_prop_links_ferrosilicon:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301625
+  #    model_path: "part_dictionary/brightburn_trait_prop_links_ferrosilicon"
+  part_head_swordferrosilicon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301626
+      model_path: "part_dictionary/sword/part_head_swordferrosilicon"
+  part_head_hoeferrosilicon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301627
+      model_path: "part_dictionary/hoe/part_head_hoeferrosilicon"
+  part_head_axeferrosilicon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301628
+      model_path: "part_dictionary/axe/part_head_axeferrosilicon"
+  part_head_pickferrosilicon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301629
+      model_path: "part_dictionary/pickaxe/part_head_pickferrosilicon"
+  part_head_shovelferrosilicon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301630
+      model_path: "part_dictionary/shovel/part_head_shovelferrosilicon"
+  part_plates_helmetferrosilicon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301631
+      model_path: "part_dictionary/helmet/part_plates_helmetferrosilicon"
+  part_plates_chestplateferrosilicon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301632
+      model_path: "part_dictionary/chestplate/part_plates_chestplateferrosilicon"
+  part_plates_leggingsferrosilicon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301633
+      model_path: "part_dictionary/leggings/part_plates_leggingsferrosilicon"
+  part_plates_bootsferrosilicon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301634
+      model_path: "part_dictionary/boots/part_plates_bootsferrosilicon"
+  part_links_ferrosilicon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301635
+      model_path: "part_dictionary/links/part_links_ferrosilicon"
+  part_repair_kit_ferrosilicon:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301636
+      model_path: "part_dictionary/repair_kit/part_repair_kit_ferrosilicon"
+  #redstone_alloy_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301637
+  #    model_path: "part_dictionary/redstone_alloy_liquid"
+  #redstone_alloy_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301638
+  #    model_path: "part_dictionary/redstone_alloy_alloy"
+  #lightning_rod_trait_prop_rod_redstone_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301639
+  #    model_path: "part_dictionary/lightning_rod_trait_prop_rod_redstone_alloy"
+  #powered_on_trait_prop_plates_redstone_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301640
+  #    model_path: "part_dictionary/powered_on_trait_prop_plates_redstone_alloy"
+  #who_needs_pressure_plates?_trait_prop_links_redstone_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301641
+  #    model_path: "slimetink#er:part_dictionary/who_needs_pressure_plates?_trait_prop_links_redstone_alloy"
+  part_rod_redstone_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301642
+      model_path: "part_dictionary/rod/part_rod_redstone_alloy"
+  part_plates_helmetredstone_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301643
+      model_path: "part_dictionary/helmet/part_plates_helmetredstone_alloy"
+  part_plates_chestplateredstone_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301644
+      model_path: "part_dictionary/chestplate/part_plates_chestplateredstone_alloy"
+  part_plates_leggingsredstone_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301645
+      model_path: "part_dictionary/leggings/part_plates_leggingsredstone_alloy"
+  part_plates_bootsredstone_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301646
+      model_path: "part_dictionary/boots/part_plates_bootsredstone_alloy"
+  part_links_redstone_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301647
+      model_path: "part_dictionary/links/part_links_redstone_alloy"
+  part_repair_kit_redstone_alloy:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301648
+      model_path: "part_dictionary/repair_kit/part_repair_kit_redstone_alloy"
+  #diamond_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301649
+  #    model_path: "part_dictionary/diamond_liquid"
+  #draconic_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301650
+  #    model_path: "part_dictionary/draconic_liquid"
+  #boomerite_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301651
+  #    model_path: "part_dictionary/boomerite_liquid"
+  #boomerite_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301652
+  #    model_path: "part_dictionary/boomerite_alloy"
+  #ladder_simulator™_trait_prop_head_ingot_cast_boomerite:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301653
+  #    model_path: "part_dictionary/ladder_simulator™_trait_prop_head_ingot_cast_boomerite"
+  #go_boomer_trait_prop_plates_ingot_cast_boomerite:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301654
+  #    model_path: "part_dictionary/go_boomer_trait_prop_plates_ingot_cast_boomerite"
+  part_head_swordboomerite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301655
+      model_path: "part_dictionary/sword/part_head_swordboomerite"
+  part_head_hoeboomerite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301656
+      model_path: "part_dictionary/hoe/part_head_hoeboomerite"
+  part_head_axeboomerite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301657
+      model_path: "part_dictionary/axe/part_head_axeboomerite"
+  part_head_pickboomerite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301658
+      model_path: "part_dictionary/pickaxe/part_head_pickboomerite"
+  part_head_shovelboomerite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301659
+      model_path: "part_dictionary/shovel/part_head_shovelboomerite"
+  part_plates_helmetboomerite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301660
+      model_path: "part_dictionary/helmet/part_plates_helmetboomerite"
+  part_plates_chestplateboomerite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301661
+      model_path: "part_dictionary/chestplate/part_plates_chestplateboomerite"
+  part_plates_leggingsboomerite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301662
+      model_path: "part_dictionary/leggings/part_plates_leggingsboomerite"
+  part_plates_bootsboomerite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301663
+      model_path: "part_dictionary/boots/part_plates_bootsboomerite"
+  part_repair_kit_boomerite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301664
+      model_path: "part_dictionary/repair_kit/part_repair_kit_boomerite"
+  #sefirite_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301665
+  #    model_path: "part_dictionary/sefirite_liquid"
+  #celebrate_trait_prop_head_ingot_cast_sefirite:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301666
+  #    model_path: "part_dictionary/celebrate_trait_prop_head_ingot_cast_sefirite"
+  part_plates_helmetsefirite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301667
+      model_path: "part_dictionary/helmet/part_plates_helmetsefirite"
+  part_plates_chestplatesefirite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301668
+      model_path: "part_dictionary/chestplate/part_plates_chestplatesefirite"
+  part_plates_leggingssefirite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301669
+      model_path: "part_dictionary/leggings/part_plates_leggingssefirite"
+  part_plates_bootssefirite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301670
+      model_path: "part_dictionary/boots/part_plates_bootssefirite"
+  part_repair_kit_sefirite:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301671
+      model_path: "part_dictionary/repair_kit/part_repair_kit_sefirite"
+  #liquid_christmas_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301672
+  #    model_path: "part_dictionary/liquid_christmas_liquid"
+  #cringleium_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301673
+  #    model_path: "part_dictionary/cringleium_liquid"
+  #cringleium_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301674
+  #    model_path: "part_dictionary/cringleium_alloy"
+  #feeling_festive_trait_prop_links_ingot_cast_cringleium:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301675
+  #    model_path: "part_dictionary/feeling_festive_trait_prop_links_ingot_cast_cringleium"
+  part_links_cringleium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301676
+      model_path: "part_dictionary/links/part_links_cringleium"
+  #flowing_fondness_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301677
+  #    model_path: "part_dictionary/flowing_fondness_liquid"
+  #detailed_devotion_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301678
+  #    model_path: "part_dictionary/detailed_devotion_liquid"
+  #purified_passion_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301679
+  #    model_path: "part_dictionary/purified_passion_liquid"
+  #liquid_love_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301680
+  #    model_path: "part_dictionary/liquid_love_liquid"
+  #liquid_love_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301681
+  #    model_path: "part_dictionary/liquid_love_alloy"
+  #it's_all_you_need_trait_prop_links_ingot_cast_love:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301682
+  #    model_path: "part_dictionary/it's_all_you_need_trait_prop_links_ingot_cast_love"
+  part_links_liquid_love:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301683
+      model_path: "part_dictionary/links/part_links_liquid_love"
+  #niceinium_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301684
+  #    model_path: "part_dictionary/niceinium_liquid"
+  #niceinium_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301685
+  #    model_path: "part_dictionary/niceinium_alloy"
+  #nice_trait_prop_head_ingot_cast_nice:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301686
+  #    model_path: "part_dictionary/nice_trait_prop_head_ingot_cast_nice"
+  part_head_swordniceinium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301687
+      model_path: "part_dictionary/sword/part_head_swordniceinium"
+  part_head_hoeniceinium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301688
+      model_path: "part_dictionary/hoe/part_head_hoeniceinium"
+  part_head_axeniceinium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301689
+      model_path: "part_dictionary/axe/part_head_axeniceinium"
+  part_head_pickniceinium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301690
+      model_path: "part_dictionary/pickaxe/part_head_pickniceinium"
+  part_head_shovelniceinium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301691
+      model_path: "part_dictionary/shovel/part_head_shovelniceinium"
+  part_repair_kit_niceinium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301692
+      model_path: "part_dictionary/repair_kit/part_repair_kit_niceinium"
+  #smithium_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301693
+  #    model_path: "part_dictionary/smithium_liquid"
+  #smithium_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301694
+  #    model_path: "part_dictionary/smithium_alloy"
+  #hardy_trait_prop_head_ingot_cast_smithium:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301695
+  #    model_path: "part_dictionary/hardy_trait_prop_head_ingot_cast_smithium"
+  #industrious_trait_prop_rod_ingot_cast_smithium:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301696
+  #    model_path: "part_dictionary/industrious_trait_prop_rod_ingot_cast_smithium"
+  #heat_resistance_trait_prop_plates_ingot_cast_smithium:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301697
+  #    model_path: "part_dictionary/heat_resistance_trait_prop_plates_ingot_cast_smithium"
+  #craftsmanship_trait_prop_links_ingot_cast_smithium:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301698
+  #    model_path: "part_dictionary/craftsmanship_trait_prop_links_ingot_cast_smithium"
+  part_head_swordsmithium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301699
+      model_path: "part_dictionary/sword/part_head_swordsmithium"
+  part_head_hoesmithium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301700
+      model_path: "part_dictionary/hoe/part_head_hoesmithium"
+  part_head_axesmithium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301701
+      model_path: "part_dictionary/axe/part_head_axesmithium"
+  part_head_picksmithium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301702
+      model_path: "part_dictionary/pickaxe/part_head_picksmithium"
+  part_head_shovelsmithium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301703
+      model_path: "part_dictionary/shovel/part_head_shovelsmithium"
+  part_rod_smithium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301704
+      model_path: "part_dictionary/rod/part_rod_smithium"
+  part_plates_helmetsmithium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301705
+      model_path: "part_dictionary/helmet/part_plates_helmetsmithium"
+  part_plates_chestplatesmithium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301706
+      model_path: "part_dictionary/chestplate/part_plates_chestplatesmithium"
+  part_plates_leggingssmithium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301707
+      model_path: "part_dictionary/leggings/part_plates_leggingssmithium"
+  part_plates_bootssmithium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301708
+      model_path: "part_dictionary/boots/part_plates_bootssmithium"
+  part_links_smithium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301709
+      model_path: "part_dictionary/links/part_links_smithium"
+  part_repair_kit_smithium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301710
+      model_path: "part_dictionary/repair_kit/part_repair_kit_smithium"
+  #anniversarium_liquid:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301711
+  #    model_path: "part_dictionary/anniversarium_liquid"
+  #anniversarium_alloy:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301712
+  #    model_path: "part_dictionary/anniversarium_alloy"
+  #10_years_of_(slime)fun!_trait_prop_plates_ingot_cast_anniversarium:
+  #  display_name: slimetinker
+  #  permission: slimetinker
+  #  resource:
+  #    material: PLAYER_HEAD
+  #    generate: false
+  #    model_id: 2301713
+  #    model_path: "part_dictionary/10_years_of_(slime)fun!_trait_prop_plates_ingot_cast_anniversarium"
+  part_plates_helmetanniversarium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301714
+      model_path: "part_dictionary/helmet/part_plates_helmetanniversarium"
+  part_plates_chestplateanniversarium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301715
+      model_path: "part_dictionary/chestplate/part_plates_chestplateanniversarium"
+  part_plates_leggingsanniversarium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301716
+      model_path: "part_dictionary/leggings/part_plates_leggingsanniversarium"
+  part_plates_bootsanniversarium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2301717
+      model_path: "part_dictionary/boots/part_plates_bootsanniversarium"
+  part_repair_kit_anniversarium:
+    display_name: slimetinker
+    permission: slimetinker
+    resource:
+      material: CHEST_MINECART
+      generate: false
+      model_id: 2301718
+      model_path: "part_dictionary/repair_kit/part_repair_kit_anniversarium"
