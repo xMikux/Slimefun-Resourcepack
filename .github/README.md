@@ -136,6 +136,7 @@ There are still a lot of textures missing! Welcome to contribute more textures!
 | Electric Spawners | 2300400 - 2300500 |
 | DyedBackpacks | 2300800 - 2300900 |
 | FoxyMachines* | 2301000 - 2301200 |
+| SlimeTinker | 2301000 - 2304000 |
 
 </details>
 
