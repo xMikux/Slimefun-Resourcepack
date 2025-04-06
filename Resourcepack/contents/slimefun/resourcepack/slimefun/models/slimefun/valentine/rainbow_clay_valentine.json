@@ -1,0 +1,7 @@
+{
+  "parent":"block/cube_all",
+  "author":"Pandicka",
+  "textures":{
+    "all":"slimefun:valentine/rainbow_clay_valentine"
+  }
+}

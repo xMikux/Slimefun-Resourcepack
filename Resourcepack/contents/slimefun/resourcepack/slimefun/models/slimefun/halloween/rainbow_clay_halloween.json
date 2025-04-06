@@ -1,0 +1,7 @@
+{
+  "parent":"block/cube_all",
+  "author":"Pandicka",
+  "textures":{
+    "all":"slimefun:halloween/rainbow_clay_halloween"
+  }
+}
