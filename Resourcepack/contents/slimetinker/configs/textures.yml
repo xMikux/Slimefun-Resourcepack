@@ -952,7 +952,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2301119
-      model_path: "part_building_guide/binding/part_binding_dummy"
+      model_path: "part_building_guide/part_binding_dummy"
   part_helm_plate_dummy:
     display_name: slimetinker
     permission: slimetinker
