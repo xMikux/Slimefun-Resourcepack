@@ -1661,7 +1661,7 @@ items:
     display_name: slimefun
     permission: slimefun
     resource:
-      material: PLAYER_HEAD
+      material: PAPER
       generate: false
       model_id: 2200206
       model_path: "slimefun/technical_components/reinforced_cloth"
