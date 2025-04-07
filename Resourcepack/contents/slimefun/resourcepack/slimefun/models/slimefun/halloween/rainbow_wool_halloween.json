@@ -2,6 +2,6 @@
   "parent":"block/cube_all",
   "author":"Pandicka",
   "textures":{
-    "all":"slimefun:halloween/rainbow_wool_halloween"
+    "all":"slimefun:slimefun/halloween/rainbow_wool_halloween"
   }
 }

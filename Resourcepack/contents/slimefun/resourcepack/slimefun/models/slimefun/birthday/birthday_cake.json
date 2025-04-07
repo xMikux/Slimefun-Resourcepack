@@ -2,6 +2,6 @@
   "parent":"item/generated",
   "author":"Pandicka",
   "textures":{
-    "layer0":"slimefun:birthday/birthday_cake"
+    "layer0":"slimefun:slimefun/birthday/birthday_cake"
   }
 }

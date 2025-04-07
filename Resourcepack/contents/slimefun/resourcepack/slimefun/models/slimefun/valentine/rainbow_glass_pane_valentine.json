@@ -2,6 +2,6 @@
   "parent":"item/generated",
   "author":"Pandicka",
   "textures":{
-    "layer0":"slimefun:valentine/rainbow_glass_pane_valentine"
+    "layer0":"slimefun:slimefun/valentine/rainbow_glass_pane_valentine"
   }
 }

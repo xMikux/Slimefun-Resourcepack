@@ -2,6 +2,6 @@
   "parent":"block/cube_all",
   "author":"Pandicka",
   "textures":{
-    "all":"slimefun:valentine/rainbow_glazed_terracotta_valentine"
+    "all":"slimefun:slimefun/valentine/rainbow_glazed_terracotta_valentine"
   }
 }
