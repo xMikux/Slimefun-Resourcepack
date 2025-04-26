@@ -1,8 +1,0 @@
-{
-  "parent": "item/generated",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "slimefun:slimefun/magical_armor/ender_amor/boots",
-    "layer1": "slimefun:slimefun/magical_armor/ender_amor/boots"
-  }
-}

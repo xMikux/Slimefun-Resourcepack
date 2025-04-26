@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "author": "Caribax",
+  "textures": {
+    "layer0": "slimefun:slimefun/armor/damascus_armor/damascus_boots"
+  }
+}

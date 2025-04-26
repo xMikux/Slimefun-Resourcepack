@@ -1,7 +1,0 @@
-{
-  "parent": "item/template_skull",
-  "author": "Efina(Temporary)",
-  "textures": {
-    "layer0": "minecraft:item/player_head"
-  }
-}

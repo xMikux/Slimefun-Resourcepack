@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "author": "Caribax",
+  "textures": {
+    "layer0": "slimefun:slimefun/armor/cactus_armor/cactus_boots",
+    "layer1": "slimefun:slimefun/armor/cactus_armor/cactus_boots"
+  }
+}
