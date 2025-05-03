@@ -312,7 +312,7 @@ items:
       material: LEATHER_HELMET
       generate: false
       model_id: 2200037
-      model_path: "slimefun/magical_armor/ender_amor/helmet"
+      model_path: "slimefun/magical_armor/ender_armor/ender_helmet"
   ender_chestplate:
     display_name: slimefun
     permission: slimefun
@@ -320,7 +320,7 @@ items:
       material: LEATHER_CHESTPLATE
       generate: false
       model_id: 2200038
-      model_path: "slimefun/magical_armor/ender_amor/chestplate"
+      model_path: "slimefun/magical_armor/ender_armor/ender_chestplate"
   ender_leggings:
     display_name: slimefun
     permission: slimefun
@@ -328,7 +328,7 @@ items:
       material: LEATHER_LEGGINGS
       generate: false
       model_id: 2200039
-      model_path: "slimefun/magical_armor/ender_amor/leggings"
+      model_path: "slimefun/magical_armor/ender_armor/ender_leggings"
   ender_boots:
     display_name: slimefun
     permission: slimefun
@@ -336,7 +336,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200040
-      model_path: "slimefun/magical_armor/ender_amor/boots"
+      model_path: "slimefun/magical_armor/ender_armor/ender_boots"
   magic_eye_of_ender:
     display_name: slimefun
     permission: slimefun
@@ -504,7 +504,7 @@ items:
       material: LEATHER_HELMET
       generate: false
       model_id: 2200061
-      model_path: "slimefun/magical_armor/glowstone_armor/helmet"
+      model_path: "slimefun/magical_armor/glowstone_armor/glowstone_helmet"
   glowstone_chestplate:
     display_name: slimefun
     permission: slimefun
@@ -512,7 +512,7 @@ items:
       material: LEATHER_CHESTPLATE
       generate: false
       model_id: 2200062
-      model_path: "slimefun/magical_armor/glowstone_armor/chestplate"
+      model_path: "slimefun/magical_armor/glowstone_armor/glowstone_chestplate"
   glowstone_leggings:
     display_name: slimefun
     permission: slimefun
@@ -520,7 +520,7 @@ items:
       material: LEATHER_LEGGINGS
       generate: false
       model_id: 2200063
-      model_path: "slimefun/magical_armor/glowstone_armor/leggings"
+      model_path: "slimefun/magical_armor/glowstone_armor/glowstone_leggings"
   glowstone_boots:
     display_name: slimefun
     permission: slimefun
@@ -528,7 +528,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200064
-      model_path: "slimefun/magical_armor/glowstone_armor/boots"
+      model_path: "slimefun/magical_armor/glowstone_armor/glowstone_boots"
   damascus_steel_helmet:
     display_name: slimefun
     permission: slimefun
@@ -536,7 +536,7 @@ items:
       material: IRON_HELMET
       generate: false
       model_id: 2200065
-      model_path: "slimefun/armor/damascus_armor/helmet"
+      model_path: "slimefun/armor/damascus_armor/damascus_helmet"
   damascus_steel_chestplate:
     display_name: slimefun
     permission: slimefun
@@ -544,7 +544,7 @@ items:
       material: IRON_CHESTPLATE
       generate: false
       model_id: 2200066
-      model_path: "slimefun/armor/damascus_armor/chestplate"
+      model_path: "slimefun/armor/damascus_armor/damascus_chestplate"
   damascus_steel_leggings:
     display_name: slimefun
     permission: slimefun
@@ -552,7 +552,7 @@ items:
       material: IRON_LEGGINGS
       generate: false
       model_id: 2200067
-      model_path: "slimefun/armor/damascus_armor/leggings"
+      model_path: "slimefun/armor/damascus_armor/damascus_leggings"
   damascus_steel_boots:
     display_name: slimefun
     permission: slimefun
@@ -560,7 +560,7 @@ items:
       material: IRON_BOOTS
       generate: false
       model_id: 2200068
-      model_path: "slimefun/armor/damascus_armor/boots"
+      model_path: "slimefun/armor/damascus_armor/damascus_boots"
   reinforced_alloy_helmet:
     display_name: slimefun
     permission: slimefun
@@ -568,7 +568,7 @@ items:
       material: IRON_HELMET
       generate: false
       model_id: 2200069
-      model_path: "slimefun/armor/reinforced_armor/helmet"
+      model_path: "slimefun/armor/reinforced_armor/reinforced_helmet"
   reinforced_alloy_chestplate:
     display_name: slimefun
     permission: slimefun
@@ -576,7 +576,7 @@ items:
       material: IRON_CHESTPLATE
       generate: false
       model_id: 2200070
-      model_path: "slimefun/armor/reinforced_armor/chestplate"
+      model_path: "slimefun/armor/reinforced_armor/reinforced_chestplate"
   reinforced_alloy_leggings:
     display_name: slimefun
     permission: slimefun
@@ -584,7 +584,7 @@ items:
       material: IRON_LEGGINGS
       generate: false
       model_id: 2200071
-      model_path: "slimefun/armor/reinforced_armor/leggings"
+      model_path: "slimefun/armor/reinforced_armor/reinforced_leggings"
   reinforced_alloy_boots:
     display_name: slimefun
     permission: slimefun
@@ -592,7 +592,7 @@ items:
       material: IRON_BOOTS
       generate: false
       model_id: 2200072
-      model_path: "slimefun/armor/reinforced_armor/boots"
+      model_path: "slimefun/armor/reinforced_armor/reinforced_boots"
   cactus_helmet:
     display_name: slimefun
     permission: slimefun
@@ -600,7 +600,7 @@ items:
       material: LEATHER_HELMET
       generate: false
       model_id: 2200073
-      model_path: "slimefun/armor/cactus_armor/helmet"
+      model_path: "slimefun/armor/cactus_armor/cactus_helmet"
   cactus_chestplate:
     display_name: slimefun
     permission: slimefun
@@ -608,7 +608,7 @@ items:
       material: LEATHER_CHESTPLATE
       generate: false
       model_id: 2200074
-      model_path: "slimefun/armor/cactus_armor/chestplate"
+      model_path: "slimefun/armor/cactus_armor/cactus_chestplate"
   cactus_leggings:
     display_name: slimefun
     permission: slimefun
@@ -616,7 +616,7 @@ items:
       material: LEATHER_LEGGINGS
       generate: false
       model_id: 2200075
-      model_path: "slimefun/armor/cactus_armor/leggings"
+      model_path: "slimefun/armor/cactus_armor/cactus_leggings"
   cactus_boots:
     display_name: slimefun
     permission: slimefun
@@ -624,7 +624,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200076
-      model_path: "slimefun/armor/cactus_armor/boots"
+      model_path: "slimefun/armor/cactus_armor/cactus_boots"
   reinforced_alloy_ingot:
     display_name: slimefun
     permission: slimefun
@@ -1672,7 +1672,7 @@ items:
       material: LEATHER_HELMET
       generate: false
       model_id: 2200207
-      model_path: "slimefun/armor/hazmat_suit/helmet"
+      model_path: "slimefun/armor/hazmat_suit/hazmat_helmet"
   hazmat_chestplate:
     display_name: slimefun
     permission: slimefun
@@ -1680,7 +1680,7 @@ items:
       material: LEATHER_CHESTPLATE
       generate: false
       model_id: 2200208
-      model_path: "slimefun/armor/hazmat_suit/chestplate"
+      model_path: "slimefun/armor/hazmat_suit/hazmat_chestplate"
   hazmat_leggings:
     display_name: slimefun
     permission: slimefun
@@ -1688,7 +1688,7 @@ items:
       material: LEATHER_LEGGINGS
       generate: false
       model_id: 2200209
-      model_path: "slimefun/armor/hazmat_suit/leggings"
+      model_path: "slimefun/armor/hazmat_suit/hazmat_leggings"
   rubber_boots:
     display_name: slimefun
     permission: slimefun
@@ -1696,7 +1696,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200210
-      model_path: "slimefun/armor/hazmat_suit/boots"
+      model_path: "slimefun/armor/hazmat_suit/hazmat_boots"
   crushed_ore:
     display_name: slimefun
     permission: slimefun
@@ -1880,7 +1880,7 @@ items:
       material: IRON_HELMET
       generate: false
       model_id: 2200233
-      model_path: "slimefun/magical_armor/slime_armor_steel/helmet"
+      model_path: "slimefun/magical_armor/slime_armor_steel/slime_steel_helmet"
   slime_steel_chestplate:
     display_name: slimefun
     permission: slimefun
@@ -1888,7 +1888,7 @@ items:
       material: IRON_CHESTPLATE
       generate: false
       model_id: 2200234
-      model_path: "slimefun/magical_armor/slime_armor_steel/chestplate"
+      model_path: "slimefun/magical_armor/slime_armor_steel/slime_steel_chestplate"
   slime_steel_leggings:
     display_name: slimefun
     permission: slimefun
@@ -1896,7 +1896,7 @@ items:
       material: IRON_LEGGINGS
       generate: false
       model_id: 2200235
-      model_path: "slimefun/magical_armor/slime_armor_steel/leggings"
+      model_path: "slimefun/magical_armor/slime_armor_steel/slime_steel_leggings"
   slime_steel_boots:
     display_name: slimefun
     permission: slimefun
@@ -1904,7 +1904,7 @@ items:
       material: IRON_BOOTS
       generate: false
       model_id: 2200236
-      model_path: "slimefun/magical_armor/slime_armor_steel/boots"
+      model_path: "slimefun/magical_armor/slime_armor_steel/slime_steel_boots"
   gold_24k_block:
     display_name: slimefun
     permission: slimefun
@@ -1928,7 +1928,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200240
-      model_path: "slimefun/magical_armor/farmer_armor/boots"
+      model_path: "slimefun/magical_armor/farmer_armor/farmer_boots"
   explosive_pickaxe:
     display_name: slimefun
     permission: slimefun
@@ -1976,7 +1976,7 @@ items:
       material: LEATHER_BOOTS
       generate: false
       model_id: 2200246
-      model_path: "slimefun/magical_armor/stomper_armor/boots"
+      model_path: "slimefun/magical_armor/stomper_armor/stomper_boots"
   pickaxe_of_the_seeker:
     display_name: slimefun
     permission: slimefun
@@ -2232,7 +2232,7 @@ items:
       material: DIAMOND_HELMET
       generate: false
       model_id: 2200279
-      model_path: "slimefun/magical_armor/soulbound_armor/helmet"
+      model_path: "slimefun/magical_armor/soulbound_armor/soulbound_helmet"
   soulbound_chestplate:
     display_name: slimefun
     permission: slimefun
@@ -2240,7 +2240,7 @@ items:
       material: DIAMOND_CHESTPLATE
       generate: false
       model_id: 2200280
-      model_path: "slimefun/magical_armor/soulbound_armor/chestplate"
+      model_path: "slimefun/magical_armor/soulbound_armor/soulbound_chestplate"
   soulbound_leggings:
     display_name: slimefun
     permission: slimefun
@@ -2248,7 +2248,7 @@ items:
       material: DIAMOND_LEGGINGS
       generate: false
       model_id: 2200281
-      model_path: "slimefun/magical_armor/soulbound_armor/leggings"
+      model_path: "slimefun/magical_armor/soulbound_armor/soulbound_leggings"
   soulbound_boots:
     display_name: slimefun
     permission: slimefun
@@ -2256,7 +2256,7 @@ items:
       material: DIAMOND_BOOTS
       generate: false
       model_id: 2200282
-      model_path: "slimefun/magical_armor/soulbound_armor/boots"
+      model_path: "slimefun/magical_armor/soulbound_armor/soulbound_boots"
   juicer:
     display_name: slimefun
     permission: slimefun
@@ -2624,7 +2624,7 @@ items:
       material: PLAYER_HEAD
       generate: false
       model_id: 2200328
-      model_path: "slimefun/seasonal/christmas/christmas_present"
+      model_path: "slimefun/christmas/christmas_present"
   carrot_pie:
     display_name: slimefun
     permission: slimefun

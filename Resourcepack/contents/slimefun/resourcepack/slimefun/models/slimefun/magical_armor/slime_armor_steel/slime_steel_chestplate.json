@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "author": "Caribax",
+  "textures": {
+    "layer0": "slimefun:slimefun/magical_armor/slime_armor_steel/slime_steel_chestplate"
+  }
+}

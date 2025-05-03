@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "author": "Pandicka (Temporary)",
   "textures": {
-    "layer0": "minecraft:item/golden_helmet"
+    "layer0": "slimefun:slimefun/armor/gold_12k_armor/gold_12k_helmet"
   }
 }

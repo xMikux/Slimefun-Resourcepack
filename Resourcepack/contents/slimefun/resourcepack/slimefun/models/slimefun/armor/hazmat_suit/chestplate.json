@@ -1,8 +1,0 @@
-{
-  "parent": "item/generated",
-  "author": "Caribax",
-  "textures": {
-    "layer0": "slimefun:slimefun/armor/hazmat_suit/chestplate",
-    "layer1": "slimefun:slimefun/armor/hazmat_suit/chestplate"
-  }
-}
