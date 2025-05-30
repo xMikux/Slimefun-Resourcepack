@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: ⚙️ Validate json
-        uses: GrantBirki/json-yaml-validate@v3.3.0
+        uses: GrantBirki/json-yaml-validate@v3.3.2
         with:
           base_dir: ${{ env.base_dir }}
           json_extension: ".json"
@@ -31,7 +31,7 @@ jobs:
           use_gitignore: false
 
       - name: ⚙️ Validate mcmeta
-        uses: GrantBirki/json-yaml-validate@v3.3.0
+        uses: GrantBirki/json-yaml-validate@v3.3.2
         with:
           base_dir: ${{ env.base_dir }}
           json_extension: ".mcmeta"
@@ -40,7 +40,7 @@ jobs:
           use_gitignore: false
 
       - name: ⚙️ Validate yaml
-        uses: GrantBirki/json-yaml-validate@v3.3.0
+        uses: GrantBirki/json-yaml-validate@v3.3.2
         with:
           base_dir: ${{ env.base_dir }}
           json_extension: ".ignore-json"
