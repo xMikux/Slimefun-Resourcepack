@@ -29,7 +29,7 @@ jobs:
           ls -alh
       -
         name: GitHub - Update Release
-        uses: ncipollo/release-action@v1.16.0
+        uses: ncipollo/release-action@v1.18.0
         with:
           allowUpdates: true
           draft: false
