@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_all",
+	"author": "Pandicka",
+	"textures": {
+		"all": "infinityexpansion2:materials/void_glass"
+	}
+}

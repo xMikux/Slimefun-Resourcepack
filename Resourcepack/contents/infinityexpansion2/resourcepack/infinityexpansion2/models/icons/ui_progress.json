@@ -1,0 +1,7 @@
+{
+  "parent":"item/generated",
+  "author":"Pandicka (Temporary)",
+  "textures":{
+    "layer0":"minecraft:block/yellow_stained_glass_pane"
+  }
+}

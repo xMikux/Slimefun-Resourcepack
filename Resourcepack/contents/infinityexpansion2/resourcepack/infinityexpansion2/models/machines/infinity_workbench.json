@@ -1,0 +1,12 @@
+{
+  "parent":"block/cube",
+  "author":"Pandicka",
+  "textures":{
+    "up":"infinityexpansion2:machines/infinity_workbench_top",
+    "down":"infinityexpansion2:machines/infinity_workbench_top",
+    "north":"infinityexpansion2:machines/infinity_workbench_side",
+    "south":"infinityexpansion2:machines/infinity_workbench_side",
+    "east":"infinityexpansion2:machines/infinity_workbench_side",
+    "west":"infinityexpansion2:machines/infinity_workbench_side"
+  }
+}

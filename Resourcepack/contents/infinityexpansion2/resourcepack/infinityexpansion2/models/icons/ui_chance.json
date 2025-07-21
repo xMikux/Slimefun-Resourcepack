@@ -1,0 +1,12 @@
+{
+    "parent":"item/generated",
+    "author":"Pandicka",
+    "textures":{
+        "layer0":"infinityexpansion2:icons/ui_chance"
+    },
+	"display": {
+		"gui": {
+			"translation": [0, -0.25, 0]
+		}
+	}
+}

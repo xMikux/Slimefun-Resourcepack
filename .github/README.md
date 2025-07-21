@@ -109,6 +109,7 @@ There are still a lot of textures missing! Welcome to contribute more textures!
 <summary>CIT Support List</summary>
 
 - InfinityExpansion Armor
+- InfinityExpansion2 Armor
 - Slimefun Armor
 - ExtraGear Armor
 - Gastronomicon Armor
@@ -140,6 +141,7 @@ There are still a lot of textures missing! Welcome to contribute more textures!
 | DyedBackpacks | 2300800 - 2300900 |
 | FoxyMachines* | 2301000 - 2301200 |
 | SlimeTinker | 2301000 - 2304000 |
+| InfinityExpnasion2 | 2305000 - 2306000 |
 
 </details>
 
