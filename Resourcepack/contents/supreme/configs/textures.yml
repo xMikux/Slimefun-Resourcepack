@@ -10,6 +10,7 @@ items:
       generate: false
       model_id: 2201573
       model_path: "components/supreme_attribute_bomb"
+      icon: "components/supreme_attribute_bomb"
   supreme_attribute_fortune:
     display_name: supreme
     permission: supreme
@@ -18,6 +19,7 @@ items:
       generate: false
       model_id: 2201574
       model_path: "components/supreme_attribute_fortune"
+      icon: "components/supreme_attribute_fortune"
   supreme_attribute_impetus:
     display_name: supreme
     permission: supreme
@@ -26,6 +28,7 @@ items:
       generate: false
       model_id: 2201575
       model_path: "components/supreme_attribute_impetus"
+      icon: "components/supreme_attribute_impetus"
   supreme_attribute_magic:
     display_name: supreme
     permission: supreme
@@ -34,6 +37,7 @@ items:
       generate: false
       model_id: 2201572
       model_path: "components/supreme_attribute_magic"
+      icon: "components/supreme_attribute_magic"
   supreme_blend_machine:
     display_name: supreme
     permission: supreme
@@ -58,6 +62,7 @@ items:
       generate: false
       model_id: 2201570
       model_path: "components/supreme_cetrus_aqua"
+      icon: "components/supreme_cetrus_aqua"
   supreme_cetrus_ignis:
     display_name: supreme
     permission: supreme
@@ -66,6 +71,7 @@ items:
       generate: false
       model_id: 2201571
       model_path: "components/supreme_cetrus_ignis"
+      icon: "components/supreme_cetrus_ignis"
   supreme_cetrus_lumium:
     display_name: supreme
     permission: supreme
@@ -74,6 +80,7 @@ items:
       generate: false
       model_id: 2201567
       model_path: "components/supreme_cetrus_lumium"
+      icon: "components/supreme_cetrus_lumium"
   supreme_cetrus_lux:
     display_name: supreme
     permission: supreme
@@ -82,6 +89,7 @@ items:
       generate: false
       model_id: 2201568
       model_path: "components/supreme_cetrus_lux"
+      icon: "components/supreme_cetrus_lux"
   supreme_cetrus_ventus:
     display_name: supreme
     permission: supreme
@@ -90,6 +98,7 @@ items:
       generate: false
       model_id: 2201569
       model_path: "components/supreme_cetrus_ventus"
+      icon: "components/supreme_cetrus_ventus"
   supreme_conveyance_machine:
     display_name: supreme
     permission: supreme
@@ -106,6 +115,7 @@ items:
       generate: false
       model_id: 2201566
       model_path: "components/supreme_core_of_alloy"
+      icon: "components/supreme_core_of_alloy"
   supreme_core_of_block:
     display_name: supreme
     permission: supreme
@@ -114,6 +124,7 @@ items:
       generate: false
       model_id: 2201561
       model_path: "components/supreme_core_of_block"
+      icon: "components/supreme_core_of_block"
   supreme_core_of_color:
     display_name: supreme
     permission: supreme
@@ -122,6 +133,7 @@ items:
       generate: false
       model_id: 2201564
       model_path: "components/supreme_core_of_color"
+      icon: "components/supreme_core_of_color"
   supreme_core_of_death:
     display_name: supreme
     permission: supreme
@@ -130,6 +142,7 @@ items:
       generate: false
       model_id: 2201562
       model_path: "components/supreme_core_of_death"
+      icon: "components/supreme_core_of_death"
   supreme_core_of_life:
     display_name: supreme
     permission: supreme
@@ -138,6 +151,7 @@ items:
       generate: false
       model_id: 2201563
       model_path: "components/supreme_core_of_life"
+      icon: "components/supreme_core_of_life"
   supreme_core_of_nature:
     display_name: supreme
     permission: supreme
@@ -146,6 +160,7 @@ items:
       generate: false
       model_id: 2201565
       model_path: "components/supreme_core_of_nature"
+      icon: "components/supreme_core_of_nature"
   supreme_crystallizer_machine:
     display_name: supreme
     permission: supreme
@@ -202,6 +217,7 @@ items:
       generate: false
       model_id: 2201551
       model_path: "components/supreme_supreme"
+      icon: "components/supreme_supreme"
   supreme_supreme_nugget:
     display_name: supreme
     permission: supreme
@@ -210,6 +226,7 @@ items:
       generate: false
       model_id: 2201550
       model_path: "components/supreme_supreme_nugget"
+      icon: "components/supreme_supreme_nugget"
   # Waepons
   supreme_axe_supreme:
     display_name: supreme

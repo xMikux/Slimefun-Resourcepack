@@ -210,6 +210,7 @@ items:
       generate: false
       model_id: 2203026
       model_path: "basic_machines/gn_chef_android"
+      icon: "basic_machines/gn_chef_android"
   gn_chef_android_trainer:
     display_name: gastronomicon
     permission: gastronomicon
@@ -729,6 +730,7 @@ items:
       generate: false
       model_id: 2203087
       model_path: "ingredient/gn_vanilla_beans"
+      icon: "ingredient/gn_vanilla_beans"
 
   gn_vanilla_plant:
     display_name: gastronomicon
@@ -747,6 +749,7 @@ items:
       generate: false
       model_id: 2203089
       model_path: "ingredient/gn_lychee"
+      icon: "ingredient/gn_lychee"
 
   gn_lychee_sapling:
     display_name: gastronomicon
@@ -765,6 +768,7 @@ items:
       generate: false
       model_id: 2203091
       model_path: "ingredient/gn_banana"
+      icon: "ingredient/gn_banana"
 
   gn_banana_sapling:
     display_name: gastronomicon
@@ -783,6 +787,7 @@ items:
       generate: false
       model_id: 2203093
       model_path: "ingredient/gn_fiddleheads"
+      icon: "ingredient/gn_fiddleheads"
 
   gn_truffle:
     display_name: gastronomicon

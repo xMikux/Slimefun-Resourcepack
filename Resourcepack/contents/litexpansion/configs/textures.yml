@@ -113,6 +113,7 @@ items:
       generate: false
       model_id: 2200823
       model_path: "materials/thorium"
+      icon: "materials/thorium"
   uninsulated_copper_cable:
     display_name: litexpansion
     permission: litexpansion

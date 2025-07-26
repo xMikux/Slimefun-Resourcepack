@@ -145,6 +145,7 @@ items:
       generate: false
       model_id: 2201418
       model_path: "magical_items/update_power"
+      icon: "magical_items/update_power"
   getgold_spade:
     display_name: bump
     permission: bump
