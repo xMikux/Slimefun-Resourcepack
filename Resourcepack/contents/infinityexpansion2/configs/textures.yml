@@ -64,7 +64,7 @@ items:
       material: DIAMOND_CHESTPLATE
       generate: false
       model_id: 2305007
-      model_path: "minecraft:item/diamond_chestplate"
+      model_path: "icons/diamond_chestplate"
   ig_machines:
     display_name: infinityexpansion2
     permission: infinityexpansion2
@@ -1158,17 +1158,17 @@ items:
     permission: infinityexpansion2
     resource:
       material: BOW
-      generate: true
+      generate: false
       model_id: 2305144
-      texture: "gear/sky_piercer/infinity_bow"
+      model_path: "gear/sky_piercer/infinity_bow"
   infinity_crossbow:
     display_name: infinityexpansion2
     permission: infinityexpansion2
     resource:
       material: CROSSBOW
-      generate: true
+      generate: false
       model_id: 2305145
-      texture: "gear/star_shooter/infinity_crossbow"
+      model_path: "gear/star_shooter/infinity_crossbow"
   cobblestone_generator:
     display_name: infinityexpansion2
     permission: infinityexpansion2
@@ -1856,7 +1856,7 @@ items:
       material: BEEHIVE
       generate: false
       model_id: 2305231
-      model_path: "minecraft:block/beehive_empty"
+      model_path: "minecraft:block/beehive"
   storage_unit_1:
     display_name: infinityexpansion2
     permission: infinityexpansion2
