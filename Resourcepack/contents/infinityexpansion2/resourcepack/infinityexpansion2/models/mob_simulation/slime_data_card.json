@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "author": "Pandicka",
+  "textures": {
+    "layer0": "infinityexpansion2:mob_simulation/slime_data_card"
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"parent": "item/generated",
+	"author": "Pandicka",
+	"textures": {
+		"layer0": "infinityexpansion2:tools/strainer_1"
+	},
+	"display": {
+		"gui": {
+			"translation": [0.5, -0.5, 0]
+		}
+	}
+}

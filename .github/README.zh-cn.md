@@ -109,6 +109,7 @@
 <summary>CIT 支援清单</summary>
 
 - InfinityExpansion 盔甲
+- InfinityExpansion2 盔甲
 - Slimefun 盔甲
 - ExtraGear 盔甲
 - Gastronomicon 盔甲
@@ -140,6 +141,7 @@
 | DyedBackpacks | 2300800 - 2300900 |
 | FoxyMachines* | 2301000 - 2301200 |
 | SlimeTinker | 2301000 - 2304000 |
+| InfinityExpnasion2 | 2305000 - 2306000 |
 
 </details>
 

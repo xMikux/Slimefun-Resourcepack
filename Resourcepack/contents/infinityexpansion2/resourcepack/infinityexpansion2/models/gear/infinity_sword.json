@@ -1,0 +1,7 @@
+{
+  "parent":"item/handheld",
+  "author":"Caribax",
+  "textures":{
+    "layer0":"infinityexpansion2:gear/infinity_sword"
+  }
+}
