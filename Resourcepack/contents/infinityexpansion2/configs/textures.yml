@@ -96,7 +96,7 @@ items:
       material: BEEHIVE
       generate: false
       model_id: 230511
-      model_path: "minecraft:block/beehive_empty"
+      model_path: "minecraft:block/beehive"
   ui_tickrate:
     display_name: infinityexpansion2
     permission: infinityexpansion2
