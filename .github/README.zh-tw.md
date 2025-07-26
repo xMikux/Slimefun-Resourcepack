@@ -109,6 +109,7 @@
 <summary>CIT 支援清單</summary>
 
 - InfinityExpansion 盔甲
+- InfinityExpansion2 盔甲
 - Slimefun 盔甲
 - ExtraGear 盔甲
 - Gastronomicon 盔甲
