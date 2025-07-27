@@ -54,8 +54,6 @@ jobs:
             force_include = true
             ['assets/infinityexpansion2/textures/sf_expansion/void_capacitor.properties']
             force_include = true
-            ['assets/infinityexpansion2/textures/sf_expansion/void_capacitor.properties']
-            force_include = true
             ['ia_overlay_1_21_4_to_5/**']
             force_include = true
             ['ia_overlay_1_21_6_plus/**']
