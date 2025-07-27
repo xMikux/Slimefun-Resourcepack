@@ -1,13 +1,13 @@
 {
    "pack":{
-      "pack_format":34,
+      "pack_format":64,
       "description":[
          "§2Slimefun §9Resourcepack §6Remake",
          "\n${VERSION_PLACEHOLDER}"
       ],
       "supported_formats":{
          "min_inclusive":9,
-         "max_inclusive":42
+         "max_inclusive":64
       }
    },
    "Credits":{
