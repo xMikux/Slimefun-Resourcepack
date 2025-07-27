@@ -164,6 +164,7 @@ items:
       generate: false
       model_id: 2200018
       model_path: "slimefun/items/portable_dustbin"
+      icon: "slimefun/items/portable_dustbin"
   beef_jerky:
     display_name: slimefun
     permission: slimefun
@@ -980,6 +981,7 @@ items:
       generate: false
       model_id: 2200119
       model_path: "slimefun/technical_components/power_crystal"
+      icon: "slimefun/technical_components/power_crystal"
   duralumin_jetpack:
     display_name: slimefun
     permission: slimefun
@@ -1301,6 +1303,7 @@ items:
       generate: false
       model_id: 2200159
       model_path: "slimefun/magical_items/lava_crystal"
+      icon: "slimefun/magical_items/lava_crystal"
   staff_elemental_fire:
     display_name: slimefun
     permission: slimefun
