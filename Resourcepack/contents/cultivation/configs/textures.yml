@@ -9,7 +9,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300007
       model_path: "products/clt_apricot"
-      icon: "products/clt_apricot"
+      icon: "item/clt_apricot"
   clt_artichoke:
     display_name: cultivation
     permission: cultivation
@@ -18,7 +18,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300062
       model_path: "products/clt_artichoke"
-      icon: "products/clt_artichoke"
+      icon: "item/clt_artichoke"
   clt_asparagus:
     display_name: cultivation
     permission: cultivation
@@ -27,7 +27,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300064
       model_path: "products/clt_asparagus"
-      icon: "products/clt_asparagus"
+      icon: "item/clt_asparagus"
   clt_aubergine:
     display_name: cultivation
     permission: cultivation
@@ -36,7 +36,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300063
       model_path: "products/clt_aubergine"
-      icon: "products/clt_aubergine"
+      icon: "item/clt_aubergine"
   clt_avocado:
     display_name: cultivation
     permission: cultivation
@@ -45,7 +45,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300094
       model_path: "products/clt_avocado"
-      icon: "products/clt_avocado"
+      icon: "item/clt_avocado"
   clt_banana:
     display_name: cultivation
     permission: cultivation
@@ -54,7 +54,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300000
       model_path: "products/clt_banana"
-      icon: "products/clt_banana"
+      icon: "item/clt_banana"
   clt_basil:
     display_name: cultivation
     permission: cultivation
@@ -79,7 +79,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300022
       model_path: "products/clt_bell_pepper"
-      icon: "products/clt_bell_pepper"
+      icon: "item/clt_bell_pepper"
   clt_black_beans:
     display_name: cultivation
     permission: cultivation
@@ -96,7 +96,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300028
       model_path: "products/clt_broccoli"
-      icon: "products/clt_broccoli"
+      icon: "item/clt_broccoli"
   clt_brussels_sprouts:
     display_name: cultivation
     permission: cultivation
@@ -105,7 +105,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300065
       model_path: "products/clt_brussels_sprouts"
-      icon: "products/clt_brussels_sprouts"
+      icon: "item/clt_brussels_sprouts"
   clt_cabbage:
     display_name: cultivation
     permission: cultivation
@@ -114,7 +114,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300066
       model_path: "products/clt_cabbage"
-      icon: "products/clt_cabbage"
+      icon: "item/clt_cabbage"
   clt_cauliflower:
     display_name: cultivation
     permission: cultivation
@@ -123,7 +123,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300067
       model_path: "products/clt_cauliflower"
-      icon: "products/clt_cauliflower"
+      icon: "item/clt_cauliflower"
   clt_cayenne_pepper:
     display_name: cultivation
     permission: cultivation
@@ -132,7 +132,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300020
       model_path: "products/clt_cayenne_pepper"
-      icon: "products/clt_cayenne_pepper"
+      icon: "item/clt_cayenne_pepper"
   clt_celeriac:
     display_name: cultivation
     permission: cultivation
@@ -141,7 +141,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300084
       model_path: "products/clt_celeriac"
-      icon: "products/clt_celeriac"
+      icon: "item/clt_celeriac"
   clt_celery:
     display_name: cultivation
     permission: cultivation
@@ -158,7 +158,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300009
       model_path: "products/clt_cherry"
-      icon: "products/clt_cherry"
+      icon: "item/clt_cherry"
   clt_chestnut:
     display_name: cultivation
     permission: cultivation
@@ -167,7 +167,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300012
       model_path: "products/clt_chestnut"
-      icon: "products/clt_chestnut"
+      icon: "item/clt_chestnut"
   clt_chickpeas:
     display_name: cultivation
     permission: cultivation
@@ -192,7 +192,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300037
       model_path: "products/clt_chilly_pepper"
-      icon: "products/clt_chilly_pepper"
+      icon: "item/clt_chilly_pepper"
   clt_chives:
     display_name: cultivation
     permission: cultivation
@@ -281,7 +281,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300019
       model_path: "products/clt_garlic"
-      icon: "products/clt_garlic"
+      icon: "item/clt_garlic"
   clt_ginger:
     display_name: cultivation
     permission: cultivation
@@ -298,7 +298,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300015
       model_path: "products/clt_grape"
-      icon: "products/clt_grape"
+      icon: "item/clt_grape"
   clt_green_apple:
     display_name: cultivation
     permission: cultivation
@@ -307,7 +307,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300003
       model_path: "products/clt_green_apple"
-      icon: "products/clt_green_apple"
+      icon: "item/clt_green_apple"
   clt_green_beans:
     display_name: cultivation
     permission: cultivation
@@ -324,7 +324,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300095
       model_path: "products/clt_green_onion"
-      icon: "products/clt_green_onion"
+      icon: "item/clt_green_onion"
   clt_hazelnut:
     display_name: cultivation
     permission: cultivation
@@ -333,7 +333,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300013
       model_path: "products/clt_hazelnut"
-      icon: "products/clt_hazelnut"
+      icon: "item/clt_hazelnut"
   clt_horseradish:
     display_name: cultivation
     permission: cultivation
@@ -350,7 +350,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300081
       model_path: "products/clt_jalapeno"
-      icon: "products/clt_jalapeno"
+      icon: "item/clt_jalapeno"
   clt_jasmine:
     display_name: cultivation
     permission: cultivation
@@ -383,7 +383,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300069
       model_path: "products/clt_kale"
-      icon: "products/clt_kale"
+      icon: "item/clt_kale"
   clt_kiwi:
     display_name: cultivation
     permission: cultivation
@@ -392,7 +392,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300010
       model_path: "products/clt_kiwi"
-      icon: "products/clt_kiwi"
+      icon: "item/clt_kiwi"
   clt_lavender:
     display_name: cultivation
     permission: cultivation
@@ -409,7 +409,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300079
       model_path: "products/clt_leek"
-      icon: "products/clt_leek"
+      icon: "item/clt_leek"
   clt_lemon:
     display_name: cultivation
     permission: cultivation
@@ -418,7 +418,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300001
       model_path: "products/clt_lemon"
-      icon: "products/clt_lemon"
+      icon: "item/clt_lemon"
   clt_lettuce:
     display_name: cultivation
     permission: cultivation
@@ -427,7 +427,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300026
       model_path: "products/clt_lettuce"
-      icon: "products/clt_lettuce"
+      icon: "item/clt_lettuce"
   clt_licorice:
     display_name: cultivation
     permission: cultivation
@@ -444,7 +444,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300011
       model_path: "products/clt_lime"
-      icon: "products/clt_lime"
+      icon: "item/clt_lime"
   clt_mace:
     display_name: cultivation
     permission: cultivation
@@ -461,7 +461,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300005
       model_path: "products/clt_mango"
-      icon: "products/clt_mango"
+      icon: "item/clt_mango"
   clt_marjoram:
     display_name: cultivation
     permission: cultivation
@@ -478,7 +478,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300093
       model_path: "products/clt_marrow"
-      icon: "products/clt_marrow"
+      icon: "item/clt_marrow"
   clt_mint:
     display_name: cultivation
     permission: cultivation
@@ -511,7 +511,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300078
       model_path: "products/clt_okra"
-      icon: "products/clt_okra"
+      icon: "item/clt_okra"
   clt_onion:
     display_name: cultivation
     permission: cultivation
@@ -520,7 +520,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300023
       model_path: "products/clt_onion"
-      icon: "products/clt_onion"
+      icon: "item/clt_onion"
   clt_orange:
     display_name: cultivation
     permission: cultivation
@@ -529,7 +529,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300002
       model_path: "products/clt_orange"
-      icon: "products/clt_orange"
+      icon: "item/clt_orange"
   clt_oregano:
     display_name: cultivation
     permission: cultivation
@@ -554,7 +554,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300085
       model_path: "products/clt_parsnip"
-      icon: "products/clt_parsnip"
+      icon: "item/clt_parsnip"
   clt_pea:
     display_name: cultivation
     permission: cultivation
@@ -563,7 +563,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300024
       model_path: "products/clt_pea"
-      icon: "products/clt_pea"
+      icon: "item/clt_pea"
   clt_peach:
     display_name: cultivation
     permission: cultivation
@@ -572,7 +572,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300006
       model_path: "products/clt_peach"
-      icon: "products/clt_peach"
+      icon: "item/clt_peach"
   clt_peanut:
     display_name: cultivation
     permission: cultivation
@@ -581,7 +581,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300017
       model_path: "products/clt_peanut"
-      icon: "products/clt_peanut"
+      icon: "item/clt_peanut"
   clt_pear:
     display_name: cultivation
     permission: cultivation
@@ -590,7 +590,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300008
       model_path: "products/clt_pear"
-      icon: "products/clt_pear"
+      icon: "item/clt_pear"
   clt_pecan:
     display_name: cultivation
     permission: cultivation
@@ -599,7 +599,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300014
       model_path: "products/clt_pecan"
-      icon: "products/clt_pecan"
+      icon: "item/clt_pecan"
   clt_pepper:
     display_name: cultivation
     permission: cultivation
@@ -608,7 +608,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300096
       model_path: "products/clt_pepper"
-      icon: "products/clt_pepper"
+      icon: "item/clt_pepper"
   clt_pineapple:
     display_name: cultivation
     permission: cultivation
@@ -617,7 +617,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300004
       model_path: "products/clt_pineapple"
-      icon: "products/clt_pineapple"
+      icon: "item/clt_pineapple"
   clt_pinto_beans:
     display_name: cultivation
     permission: cultivation
@@ -634,7 +634,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300087
       model_path: "products/clt_raddish"
-      icon: "products/clt_raddish"
+      icon: "item/clt_raddish"
   clt_radicchio:
     display_name: cultivation
     permission: cultivation
@@ -643,7 +643,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300082
       model_path: "products/clt_radicchio"
-      icon: "products/clt_radicchio"
+      icon: "item/clt_radicchio"
   clt_rapeseed:
     display_name: cultivation
     permission: cultivation
@@ -660,7 +660,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300083
       model_path: "products/clt_rhubarb"
-      icon: "products/clt_rhubarb"
+      icon: "item/clt_rhubarb"
   clt_rice:
     display_name: cultivation
     permission: cultivation
@@ -669,7 +669,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300018
       model_path: "products/clt_rice"
-      icon: "products/clt_rice"
+      icon: "item/clt_rice"
   clt_rosemary:
     display_name: cultivation
     permission: cultivation
@@ -694,7 +694,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300086
       model_path: "products/clt_rutabaga"
-      icon: "products/clt_rutabaga"
+      icon: "item/clt_rutabaga"
   clt_sassafras:
     display_name: cultivation
     permission: cultivation
@@ -711,7 +711,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300080
       model_path: "products/clt_shallot"
-      icon: "products/clt_shallot"
+      icon: "item/clt_shallot"
   clt_shiso:
     display_name: cultivation
     permission: cultivation
@@ -752,7 +752,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300016
       model_path: "products/clt_strawberry"
-      icon: "products/clt_strawberry"
+      icon: "item/clt_strawberry"
   clt_sweet_potato:
     display_name: cultivation
     permission: cultivation
@@ -769,7 +769,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300090
       model_path: "products/clt_sweetcorn"
-      icon: "products/clt_sweetcorn"
+      icon: "item/clt_sweetcorn"
   clt_tarragon:
     display_name: cultivation
     permission: cultivation
@@ -794,7 +794,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300021
       model_path: "products/clt_tomato"
-      icon: "products/clt_tomato"
+      icon: "item/clt_tomato"
   clt_turmeric:
     display_name: cultivation
     permission: cultivation
@@ -811,7 +811,7 @@ items:
       material: PLAYER_HEAD
       model_id: 2300089
       model_path: "products/clt_turnip"
-      icon: "products/clt_turnip"
+      icon: "item/clt_turnip"
   clt_vanilla:
     display_name: cultivation
     permission: cultivation
