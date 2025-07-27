@@ -25,7 +25,7 @@ jobs:
           mkdir pack
           cd workdir
           unzip generated.zip
-          mv assets pack.mcmeta pack.png ../pack
+          mv assets ia_* pack.mcmeta pack.png ../pack
       -
         name: Clean - Remove unnecessary files
         continue-on-error: true
