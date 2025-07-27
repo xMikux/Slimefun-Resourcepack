@@ -28,6 +28,7 @@ jobs:
           mv assets pack.mcmeta pack.png ../pack
       -
         name: Clean - Remove unnecessary files
+        continue-on-error: true
         run: |
           rm -r assets/_iainternal
           rm -r assets/minecraft/blockstates
@@ -50,6 +51,14 @@ jobs:
             ['assets/geneticchickengineering/models/**/*.properties']
             force_include = true
             ['assets/infinityexpansion/models/tools/cosmic_aegis/cosmic_aegis.properties']
+            force_include = true
+            ['assets/infinityexpansion2/textures/sf_expansion/void_capacitor.properties]
+            force_include = true
+            ['assets/infinityexpansion2/textures/sf_expansion/void_capacitor.properties]
+            force_include = true
+            ['ia_overlay_1_21_4_to_5/**']
+            force_include = true
+            ['ia_overlay_1_21_6_plus/**']
             force_include = true
       -
         name: Artifact - Clean IA Generate Pack
