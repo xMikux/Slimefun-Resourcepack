@@ -681,6 +681,7 @@ items:
       generate: false
       model_id: 2301085
       model_path: "casts/die_shovel_head"
+      icon: "casts/die_shovel_head"
   die_pickaxe_head:
     display_name: slimetinker
     permission: slimetinker
@@ -689,6 +690,7 @@ items:
       generate: false
       model_id: 2301086
       model_path: "casts/die_pickaxe_head"
+      icon: "casts/die_pickaxe_head"
   die_axe_head:
     display_name: slimetinker
     permission: slimetinker
@@ -697,6 +699,7 @@ items:
       generate: false
       model_id: 2301087
       model_path: "casts/die_axe_head"
+      icon: "casts/die_axe_head"
   die_hoe_head:
     display_name: slimetinker
     permission: slimetinker
@@ -705,6 +708,7 @@ items:
       generate: false
       model_id: 2301088
       model_path: "casts/die_hoe_head"
+      icon: "casts/die_hoe_head"
   die_sword_blade:
     display_name: slimetinker
     permission: slimetinker
@@ -713,6 +717,7 @@ items:
       generate: false
       model_id: 2301089
       model_path: "casts/die_sword_blade"
+      icon: "casts/die_sword_blade"
   die_tool_rod:
     display_name: slimetinker
     permission: slimetinker
@@ -721,6 +726,7 @@ items:
       generate: false
       model_id: 2301090
       model_path: "casts/die_tool_rod"
+      icon: "casts/die_tool_rod"
   die_repair_kit:
     display_name: slimetinker
     permission: slimetinker
@@ -737,6 +743,7 @@ items:
       generate: false
       model_id: 2301092
       model_path: "casts/die_helm_plate"
+      icon: "casts/die_helm_plate"
   die_chest_plate:
     display_name: slimetinker
     permission: slimetinker
@@ -745,6 +752,7 @@ items:
       generate: false
       model_id: 2301093
       model_path: "casts/die_chest_plate"
+      icon: "casts/die_chest_plate"
   die_leg_plate:
     display_name: slimetinker
     permission: slimetinker
@@ -753,6 +761,7 @@ items:
       generate: false
       model_id: 2301094
       model_path: "casts/die_leg_plate"
+      icon: "casts/die_leg_plate"
   die_boot_plate:
     display_name: slimetinker
     permission: slimetinker
@@ -761,6 +770,7 @@ items:
       generate: false
       model_id: 2301095
       model_path: "casts/die_boot_plate"
+      icon: "casts/die_boot_plate"
   die_mail_link:
     display_name: slimetinker
     permission: slimetinker
@@ -769,6 +779,7 @@ items:
       generate: false
       model_id: 2301096
       model_path: "casts/die_mail_link"
+      icon: "casts/die_mail_link"
   cast_nugget:
     display_name: slimetinker
     permission: slimetinker
@@ -905,6 +916,7 @@ items:
       generate: false
       model_id: 2301113
       model_path: "part_building_guide/part_shovel_head_dummy"
+      icon: "part_building_guide/part_shovel_head_dummy"
   part_pickaxe_head_dummy:
     display_name: slimetinker
     permission: slimetinker
@@ -913,6 +925,7 @@ items:
       generate: false
       model_id: 2301114
       model_path: "part_building_guide/part_pickaxe_head_dummy"
+      icon: "part_building_guide/part_pickaxe_head_dummy"
   part_axe_head_dummy:
     display_name: slimetinker
     permission: slimetinker
@@ -921,6 +934,7 @@ items:
       generate: false
       model_id: 2301115
       model_path: "part_building_guide/part_axe_head_dummy"
+      icon: "part_building_guide/part_axe_head_dummy"
   part_hoe_head_dummy:
     display_name: slimetinker
     permission: slimetinker
@@ -929,6 +943,7 @@ items:
       generate: false
       model_id: 2301116
       model_path: "part_building_guide/part_hoe_head_dummy"
+      icon: "part_building_guide/part_hoe_head_dummy"
   part_sword_blade_dummy:
     display_name: slimetinker
     permission: slimetinker
@@ -937,6 +952,7 @@ items:
       generate: false
       model_id: 2301117
       model_path: "part_building_guide/part_sword_blade_dummy"
+      icon: "part_building_guide/part_sword_blade_dummy"
   part_tool_rod_dummy:
     display_name: slimetinker
     permission: slimetinker
@@ -945,6 +961,7 @@ items:
       generate: false
       model_id: 2301118
       model_path: "part_building_guide/part_tool_rod_dummy"
+      icon: "part_building_guide/part_tool_rod_dummy"
   part_binding_dummy:
     display_name: slimetinker
     permission: slimetinker
@@ -953,6 +970,7 @@ items:
       generate: false
       model_id: 2301119
       model_path: "part_building_guide/part_binding_dummy"
+      icon: "part_building_guide/part_binding_dummy"
   part_helm_plate_dummy:
     display_name: slimetinker
     permission: slimetinker
@@ -961,6 +979,7 @@ items:
       generate: false
       model_id: 2301120
       model_path: "part_building_guide/part_helm_plate_dummy"
+      icon: "part_building_guide/part_helm_plate_dummy"
   part_chest_plate_dummy:
     display_name: slimetinker
     permission: slimetinker
@@ -969,6 +988,7 @@ items:
       generate: false
       model_id: 2301121
       model_path: "part_building_guide/part_chest_plate_dummy"
+      icon: "part_building_guide/part_chest_plate_dummy"
   part_leg_plate_dummy:
     display_name: slimetinker
     permission: slimetinker
@@ -977,6 +997,7 @@ items:
       generate: false
       model_id: 2301122
       model_path: "part_building_guide/part_leg_plate_dummy"
+      icon: "part_building_guide/part_leg_plate_dummy"
   part_boot_plate_dummy:
     display_name: slimetinker
     permission: slimetinker
@@ -985,6 +1006,7 @@ items:
       generate: false
       model_id: 2301123
       model_path: "part_building_guide/part_boot_plate_dummy"
+      icon: "part_building_guide/part_boot_plate_dummy"
   part_mail_links_dummy:
     display_name: slimetinker
     permission: slimetinker
@@ -993,6 +1015,7 @@ items:
       generate: false
       model_id: 2301124
       model_path: "part_building_guide/part_mail_links_dummy"
+      icon: "part_building_guide/part_mail_links_dummy"
   part_gambeson_dummy:
     display_name: slimetinker
     permission: slimetinker
@@ -1001,6 +1024,7 @@ items:
       generate: false
       model_id: 2301125
       model_path: "part_building_guide/part_gambeson_dummy"
+      icon: "part_building_guide/part_gambeson_dummy"
   part_repair_kit_dummy:
     display_name: slimetinker
     permission: slimetinker
@@ -1449,6 +1473,7 @@ items:
       generate: false
       model_id: 2301181
       model_path: "part_dictionary/sword/part_head_swordiron"
+      icon: "part_dictionary/sword/part_head_swordiron"
   part_head_hoeiron:
     display_name: slimetinker
     permission: slimetinker
@@ -1457,6 +1482,7 @@ items:
       generate: false
       model_id: 2301182
       model_path: "part_dictionary/hoe/part_head_hoeiron"
+      icon: "part_dictionary/hoe/part_head_hoeiron"
   part_head_axeiron:
     display_name: slimetinker
     permission: slimetinker
@@ -1465,6 +1491,7 @@ items:
       generate: false
       model_id: 2301183
       model_path: "part_dictionary/axe/part_head_axeiron"
+      icon: "part_dictionary/axe/part_head_axeiron"
   part_head_pickiron:
     display_name: slimetinker
     permission: slimetinker
@@ -1473,6 +1500,7 @@ items:
       generate: false
       model_id: 2301184
       model_path: "part_dictionary/pickaxe/part_head_pickiron"
+      icon: "part_dictionary/pickaxe/part_head_pickiron"
   part_head_shoveliron:
     display_name: slimetinker
     permission: slimetinker
@@ -1481,6 +1509,7 @@ items:
       generate: false
       model_id: 2301185
       model_path: "part_dictionary/shovel/part_head_shoveliron"
+      icon: "part_dictionary/shovel/part_head_shoveliron"
   part_rod_iron:
     display_name: slimetinker
     permission: slimetinker
@@ -1489,6 +1518,7 @@ items:
       generate: false
       model_id: 2301186
       model_path: "part_dictionary/rod/part_rod_iron"
+      icon: "part_dictionary/rod/part_rod_iron"
   part_plates_helmetiron:
     display_name: slimetinker
     permission: slimetinker
@@ -1497,6 +1527,7 @@ items:
       generate: false
       model_id: 2301187
       model_path: "part_dictionary/helmet/part_plates_helmetiron"
+      icon: "part_dictionary/helmet/part_plates_helmetiron"
   part_plates_chestplateiron:
     display_name: slimetinker
     permission: slimetinker
@@ -1505,6 +1536,7 @@ items:
       generate: false
       model_id: 2301188
       model_path: "part_dictionary/chestplate/part_plates_chestplateiron"
+      icon: "part_dictionary/chestplate/part_plates_chestplateiron"
   part_plates_leggingsiron:
     display_name: slimetinker
     permission: slimetinker
@@ -1513,6 +1545,7 @@ items:
       generate: false
       model_id: 2301189
       model_path: "part_dictionary/leggings/part_plates_leggingsiron"
+      icon: "part_dictionary/leggings/part_plates_leggingsiron"
   part_plates_bootsiron:
     display_name: slimetinker
     permission: slimetinker
@@ -1521,6 +1554,7 @@ items:
       generate: false
       model_id: 2301190
       model_path: "part_dictionary/boots/part_plates_bootsiron"
+      icon: "part_dictionary/boots/part_plates_bootsiron"
   part_links_iron:
     display_name: slimetinker
     permission: slimetinker
@@ -1529,6 +1563,7 @@ items:
       generate: false
       model_id: 2301191
       model_path: "part_dictionary/links/part_links_iron"
+      icon: "part_dictionary/links/part_links_iron"
   part_repair_kit_iron:
     display_name: slimetinker
     permission: slimetinker
@@ -1585,6 +1620,7 @@ items:
       generate: false
       model_id: 2301198
       model_path: "part_dictionary/sword/part_head_swordgold"
+      icon: "part_dictionary/sword/part_head_swordgold"
   part_head_hoegold:
     display_name: slimetinker
     permission: slimetinker
@@ -1593,6 +1629,7 @@ items:
       generate: false
       model_id: 2301199
       model_path: "part_dictionary/hoe/part_head_hoegold"
+      icon: "part_dictionary/hoe/part_head_hoegold"
   part_head_axegold:
     display_name: slimetinker
     permission: slimetinker
@@ -1601,6 +1638,7 @@ items:
       generate: false
       model_id: 2301200
       model_path: "part_dictionary/axe/part_head_axegold"
+      icon: "part_dictionary/axe/part_head_axegold"
   part_head_pickgold:
     display_name: slimetinker
     permission: slimetinker
@@ -1609,6 +1647,7 @@ items:
       generate: false
       model_id: 2301201
       model_path: "part_dictionary/pickaxe/part_head_pickgold"
+      icon: "part_dictionary/pickaxe/part_head_pickgold"
   part_head_shovelgold:
     display_name: slimetinker
     permission: slimetinker
@@ -1617,6 +1656,7 @@ items:
       generate: false
       model_id: 2301202
       model_path: "part_dictionary/shovel/part_head_shovelgold"
+      icon: "part_dictionary/shovel/part_head_shovelgold"
   part_rod_gold:
     display_name: slimetinker
     permission: slimetinker
@@ -1625,6 +1665,7 @@ items:
       generate: false
       model_id: 2301203
       model_path: "part_dictionary/rod/part_rod_gold"
+      icon: "part_dictionary/rod/part_rod_gold"
   part_plates_helmetgold:
     display_name: slimetinker
     permission: slimetinker
@@ -1633,6 +1674,7 @@ items:
       generate: false
       model_id: 2301204
       model_path: "part_dictionary/helmet/part_plates_helmetgold"
+      icon: "part_dictionary/helmet/part_plates_helmetgold"
   part_plates_chestplategold:
     display_name: slimetinker
     permission: slimetinker
@@ -1641,6 +1683,7 @@ items:
       generate: false
       model_id: 2301205
       model_path: "part_dictionary/chestplate/part_plates_chestplategold"
+      icon: "part_dictionary/chestplate/part_plates_chestplategold"
   part_plates_leggingsgold:
     display_name: slimetinker
     permission: slimetinker
@@ -1649,6 +1692,7 @@ items:
       generate: false
       model_id: 2301206
       model_path: "part_dictionary/leggings/part_plates_leggingsgold"
+      icon: "part_dictionary/leggings/part_plates_leggingsgold"
   part_plates_bootsgold:
     display_name: slimetinker
     permission: slimetinker
@@ -1657,6 +1701,7 @@ items:
       generate: false
       model_id: 2301207
       model_path: "part_dictionary/boots/part_plates_bootsgold"
+      icon: "part_dictionary/boots/part_plates_bootsgold"
   part_links_gold:
     display_name: slimetinker
     permission: slimetinker
@@ -1665,6 +1710,7 @@ items:
       generate: false
       model_id: 2301208
       model_path: "part_dictionary/links/part_links_gold"
+      icon: "part_dictionary/links/part_links_gold"
   part_repair_kit_gold:
     display_name: slimetinker
     permission: slimetinker
@@ -1721,6 +1767,7 @@ items:
       generate: false
       model_id: 2301215
       model_path: "part_dictionary/sword/part_head_swordcopper"
+      icon: "part_dictionary/sword/part_head_swordcopper"
   part_head_hoecopper:
     display_name: slimetinker
     permission: slimetinker
@@ -1729,6 +1776,7 @@ items:
       generate: false
       model_id: 2301216
       model_path: "part_dictionary/hoe/part_head_hoecopper"
+      icon: "part_dictionary/hoe/part_head_hoecopper"
   part_head_axecopper:
     display_name: slimetinker
     permission: slimetinker
@@ -1737,6 +1785,7 @@ items:
       generate: false
       model_id: 2301217
       model_path: "part_dictionary/axe/part_head_axecopper"
+      icon: "part_dictionary/axe/part_head_axecopper"
   part_head_pickcopper:
     display_name: slimetinker
     permission: slimetinker
@@ -1745,6 +1794,7 @@ items:
       generate: false
       model_id: 2301218
       model_path: "part_dictionary/pickaxe/part_head_pickcopper"
+      icon: "part_dictionary/pickaxe/part_head_pickcopper"
   part_head_shovelcopper:
     display_name: slimetinker
     permission: slimetinker
@@ -1753,6 +1803,7 @@ items:
       generate: false
       model_id: 2301219
       model_path: "part_dictionary/shovel/part_head_shovelcopper"
+      icon: "part_dictionary/shovel/part_head_shovelcopper"
   part_rod_copper:
     display_name: slimetinker
     permission: slimetinker
@@ -1761,6 +1812,7 @@ items:
       generate: false
       model_id: 2301220
       model_path: "part_dictionary/rod/part_rod_copper"
+      icon: "part_dictionary/rod/part_rod_copper"
   part_plates_helmetcopper:
     display_name: slimetinker
     permission: slimetinker
@@ -1769,6 +1821,7 @@ items:
       generate: false
       model_id: 2301221
       model_path: "part_dictionary/helmet/part_plates_helmetcopper"
+      icon: "part_dictionary/helmet/part_plates_helmetcopper"
   part_plates_chestplatecopper:
     display_name: slimetinker
     permission: slimetinker
@@ -1777,6 +1830,7 @@ items:
       generate: false
       model_id: 2301222
       model_path: "part_dictionary/chestplate/part_plates_chestplatecopper"
+      icon: "part_dictionary/chestplate/part_plates_chestplatecopper"
   part_plates_leggingscopper:
     display_name: slimetinker
     permission: slimetinker
@@ -1785,6 +1839,7 @@ items:
       generate: false
       model_id: 2301223
       model_path: "part_dictionary/leggings/part_plates_leggingscopper"
+      icon: "part_dictionary/leggings/part_plates_leggingscopper"
   part_plates_bootscopper:
     display_name: slimetinker
     permission: slimetinker
@@ -1793,6 +1848,7 @@ items:
       generate: false
       model_id: 2301224
       model_path: "part_dictionary/boots/part_plates_bootscopper"
+      icon: "part_dictionary/boots/part_plates_bootscopper"
   part_links_copper:
     display_name: slimetinker
     permission: slimetinker
@@ -1801,6 +1857,7 @@ items:
       generate: false
       model_id: 2301225
       model_path: "part_dictionary/links/part_links_copper"
+      icon: "part_dictionary/links/part_links_copper"
   part_repair_kit_copper:
     display_name: slimetinker
     permission: slimetinker
@@ -1857,6 +1914,7 @@ items:
       generate: false
       model_id: 2301232
       model_path: "part_dictionary/sword/part_head_swordlead"
+      icon: "part_dictionary/sword/part_head_swordlead"
   part_head_hoelead:
     display_name: slimetinker
     permission: slimetinker
@@ -1865,6 +1923,7 @@ items:
       generate: false
       model_id: 2301233
       model_path: "part_dictionary/hoe/part_head_hoelead"
+      icon: "part_dictionary/hoe/part_head_hoelead"
   part_head_axelead:
     display_name: slimetinker
     permission: slimetinker
@@ -1873,6 +1932,7 @@ items:
       generate: false
       model_id: 2301234
       model_path: "part_dictionary/axe/part_head_axelead"
+      icon: "part_dictionary/axe/part_head_axelead"
   part_head_picklead:
     display_name: slimetinker
     permission: slimetinker
@@ -1881,6 +1941,7 @@ items:
       generate: false
       model_id: 2301235
       model_path: "part_dictionary/pickaxe/part_head_picklead"
+      icon: "part_dictionary/pickaxe/part_head_picklead"
   part_head_shovellead:
     display_name: slimetinker
     permission: slimetinker
@@ -1889,6 +1950,7 @@ items:
       generate: false
       model_id: 2301236
       model_path: "part_dictionary/shovel/part_head_shovellead"
+      icon: "part_dictionary/shovel/part_head_shovellead"
   part_rod_lead:
     display_name: slimetinker
     permission: slimetinker
@@ -1897,6 +1959,7 @@ items:
       generate: false
       model_id: 2301237
       model_path: "part_dictionary/rod/part_rod_lead"
+      icon: "part_dictionary/rod/part_rod_lead"
   part_plates_helmetlead:
     display_name: slimetinker
     permission: slimetinker
@@ -1905,6 +1968,7 @@ items:
       generate: false
       model_id: 2301238
       model_path: "part_dictionary/helmet/part_plates_helmetlead"
+      icon: "part_dictionary/helmet/part_plates_helmetlead"
   part_plates_chestplatelead:
     display_name: slimetinker
     permission: slimetinker
@@ -1913,6 +1977,7 @@ items:
       generate: false
       model_id: 2301239
       model_path: "part_dictionary/chestplate/part_plates_chestplatelead"
+      icon: "part_dictionary/chestplate/part_plates_chestplatelead"
   part_plates_leggingslead:
     display_name: slimetinker
     permission: slimetinker
@@ -1921,6 +1986,7 @@ items:
       generate: false
       model_id: 2301240
       model_path: "part_dictionary/leggings/part_plates_leggingslead"
+      icon: "part_dictionary/leggings/part_plates_leggingslead"
   part_plates_bootslead:
     display_name: slimetinker
     permission: slimetinker
@@ -1929,6 +1995,7 @@ items:
       generate: false
       model_id: 2301241
       model_path: "part_dictionary/boots/part_plates_bootslead"
+      icon: "part_dictionary/boots/part_plates_bootslead"
   part_links_lead:
     display_name: slimetinker
     permission: slimetinker
@@ -1937,6 +2004,7 @@ items:
       generate: false
       model_id: 2301242
       model_path: "part_dictionary/links/part_links_lead"
+      icon: "part_dictionary/links/part_links_lead"
   part_repair_kit_lead:
     display_name: slimetinker
     permission: slimetinker
@@ -1993,6 +2061,7 @@ items:
       generate: false
       model_id: 2301249
       model_path: "part_dictionary/sword/part_head_swordsilver"
+      icon: "part_dictionary/sword/part_head_swordsilver"
   part_head_hoesilver:
     display_name: slimetinker
     permission: slimetinker
@@ -2001,6 +2070,7 @@ items:
       generate: false
       model_id: 2301250
       model_path: "part_dictionary/hoe/part_head_hoesilver"
+      icon: "part_dictionary/hoe/part_head_hoesilver"
   part_head_axesilver:
     display_name: slimetinker
     permission: slimetinker
@@ -2009,6 +2079,7 @@ items:
       generate: false
       model_id: 2301251
       model_path: "part_dictionary/axe/part_head_axesilver"
+      icon: "part_dictionary/axe/part_head_axesilver"
   part_head_picksilver:
     display_name: slimetinker
     permission: slimetinker
@@ -2017,6 +2088,7 @@ items:
       generate: false
       model_id: 2301252
       model_path: "part_dictionary/pickaxe/part_head_picksilver"
+      icon: "part_dictionary/pickaxe/part_head_picksilver"
   part_head_shovelsilver:
     display_name: slimetinker
     permission: slimetinker
@@ -2025,6 +2097,7 @@ items:
       generate: false
       model_id: 2301253
       model_path: "part_dictionary/shovel/part_head_shovelsilver"
+      icon: "part_dictionary/shovel/part_head_shovelsilver"
   part_rod_silver:
     display_name: slimetinker
     permission: slimetinker
@@ -2033,6 +2106,7 @@ items:
       generate: false
       model_id: 2301254
       model_path: "part_dictionary/rod/part_rod_silver"
+      icon: "part_dictionary/rod/part_rod_silver"
   part_plates_helmetsilver:
     display_name: slimetinker
     permission: slimetinker
@@ -2041,6 +2115,7 @@ items:
       generate: false
       model_id: 2301255
       model_path: "part_dictionary/helmet/part_plates_helmetsilver"
+      icon: "part_dictionary/helmet/part_plates_helmetsilver"
   part_plates_chestplatesilver:
     display_name: slimetinker
     permission: slimetinker
@@ -2049,6 +2124,7 @@ items:
       generate: false
       model_id: 2301256
       model_path: "part_dictionary/chestplate/part_plates_chestplatesilver"
+      icon: "part_dictionary/chestplate/part_plates_chestplatesilver"
   part_plates_leggingssilver:
     display_name: slimetinker
     permission: slimetinker
@@ -2057,6 +2133,7 @@ items:
       generate: false
       model_id: 2301257
       model_path: "part_dictionary/leggings/part_plates_leggingssilver"
+      icon: "part_dictionary/leggings/part_plates_leggingssilver"
   part_plates_bootssilver:
     display_name: slimetinker
     permission: slimetinker
@@ -2065,6 +2142,7 @@ items:
       generate: false
       model_id: 2301258
       model_path: "part_dictionary/boots/part_plates_bootssilver"
+      icon: "part_dictionary/boots/part_plates_bootssilver"
   part_links_silver:
     display_name: slimetinker
     permission: slimetinker
@@ -2073,6 +2151,7 @@ items:
       generate: false
       model_id: 2301259
       model_path: "part_dictionary/links/part_links_silver"
+      icon: "part_dictionary/links/part_links_silver"
   part_repair_kit_silver:
     display_name: slimetinker
     permission: slimetinker
@@ -2129,6 +2208,7 @@ items:
       generate: false
       model_id: 2301266
       model_path: "part_dictionary/sword/part_head_swordaluminum"
+      icon: "part_dictionary/sword/part_head_swordaluminum"
   part_head_hoealuminum:
     display_name: slimetinker
     permission: slimetinker
@@ -2137,6 +2217,7 @@ items:
       generate: false
       model_id: 2301267
       model_path: "part_dictionary/hoe/part_head_hoealuminum"
+      icon: "part_dictionary/hoe/part_head_hoealuminum"
   part_head_axealuminum:
     display_name: slimetinker
     permission: slimetinker
@@ -2145,6 +2226,7 @@ items:
       generate: false
       model_id: 2301268
       model_path: "part_dictionary/axe/part_head_axealuminum"
+      icon: "part_dictionary/axe/part_head_axealuminum"
   part_head_pickaluminum:
     display_name: slimetinker
     permission: slimetinker
@@ -2153,6 +2235,7 @@ items:
       generate: false
       model_id: 2301269
       model_path: "part_dictionary/pickaxe/part_head_pickaluminum"
+      icon: "part_dictionary/pickaxe/part_head_pickaluminum"
   part_head_shovelaluminum:
     display_name: slimetinker
     permission: slimetinker
@@ -2161,6 +2244,7 @@ items:
       generate: false
       model_id: 2301270
       model_path: "part_dictionary/shovel/part_head_shovelaluminum"
+      icon: "part_dictionary/shovel/part_head_shovelaluminum"
   part_rod_aluminum:
     display_name: slimetinker
     permission: slimetinker
@@ -2169,6 +2253,7 @@ items:
       generate: false
       model_id: 2301271
       model_path: "part_dictionary/rod/part_rod_aluminum"
+      icon: "part_dictionary/rod/part_rod_aluminum"
   part_plates_helmetaluminum:
     display_name: slimetinker
     permission: slimetinker
@@ -2177,6 +2262,7 @@ items:
       generate: false
       model_id: 2301272
       model_path: "part_dictionary/helmet/part_plates_helmetaluminum"
+      icon: "part_dictionary/helmet/part_plates_helmetaluminum"
   part_plates_chestplatealuminum:
     display_name: slimetinker
     permission: slimetinker
@@ -2185,6 +2271,7 @@ items:
       generate: false
       model_id: 2301273
       model_path: "part_dictionary/chestplate/part_plates_chestplatealuminum"
+      icon: "part_dictionary/chestplate/part_plates_chestplatealuminum"
   part_plates_leggingsaluminum:
     display_name: slimetinker
     permission: slimetinker
@@ -2193,6 +2280,7 @@ items:
       generate: false
       model_id: 2301274
       model_path: "part_dictionary/leggings/part_plates_leggingsaluminum"
+      icon: "part_dictionary/leggings/part_plates_leggingsaluminum"
   part_plates_bootsaluminum:
     display_name: slimetinker
     permission: slimetinker
@@ -2201,6 +2289,7 @@ items:
       generate: false
       model_id: 2301275
       model_path: "part_dictionary/boots/part_plates_bootsaluminum"
+      icon: "part_dictionary/boots/part_plates_bootsaluminum"
   part_links_aluminum:
     display_name: slimetinker
     permission: slimetinker
@@ -2209,6 +2298,7 @@ items:
       generate: false
       model_id: 2301276
       model_path: "part_dictionary/links/part_links_aluminum"
+      icon: "part_dictionary/links/part_links_aluminum"
   part_repair_kit_aluminum:
     display_name: slimetinker
     permission: slimetinker
@@ -2265,6 +2355,7 @@ items:
       generate: false
       model_id: 2301283
       model_path: "part_dictionary/sword/part_head_swordtin"
+      icon: "part_dictionary/sword/part_head_swordtin"
   part_head_hoetin:
     display_name: slimetinker
     permission: slimetinker
@@ -2273,6 +2364,7 @@ items:
       generate: false
       model_id: 2301284
       model_path: "part_dictionary/hoe/part_head_hoetin"
+      icon: "part_dictionary/hoe/part_head_hoetin"
   part_head_axetin:
     display_name: slimetinker
     permission: slimetinker
@@ -2281,6 +2373,7 @@ items:
       generate: false
       model_id: 2301285
       model_path: "part_dictionary/axe/part_head_axetin"
+      icon: "part_dictionary/axe/part_head_axetin"
   part_head_picktin:
     display_name: slimetinker
     permission: slimetinker
@@ -2289,6 +2382,7 @@ items:
       generate: false
       model_id: 2301286
       model_path: "part_dictionary/pickaxe/part_head_picktin"
+      icon: "part_dictionary/pickaxe/part_head_picktin"
   part_head_shoveltin:
     display_name: slimetinker
     permission: slimetinker
@@ -2297,6 +2391,7 @@ items:
       generate: false
       model_id: 2301287
       model_path: "part_dictionary/shovel/part_head_shoveltin"
+      icon: "part_dictionary/shovel/part_head_shoveltin"
   part_rod_tin:
     display_name: slimetinker
     permission: slimetinker
@@ -2305,6 +2400,7 @@ items:
       generate: false
       model_id: 2301288
       model_path: "part_dictionary/rod/part_rod_tin"
+      icon: "part_dictionary/rod/part_rod_tin"
   part_plates_helmettin:
     display_name: slimetinker
     permission: slimetinker
@@ -2313,6 +2409,7 @@ items:
       generate: false
       model_id: 2301289
       model_path: "part_dictionary/helmet/part_plates_helmettin"
+      icon: "part_dictionary/helmet/part_plates_helmettin"
   part_plates_chestplatetin:
     display_name: slimetinker
     permission: slimetinker
@@ -2321,6 +2418,7 @@ items:
       generate: false
       model_id: 2301290
       model_path: "part_dictionary/chestplate/part_plates_chestplatetin"
+      icon: "part_dictionary/chestplate/part_plates_chestplatetin"
   part_plates_leggingstin:
     display_name: slimetinker
     permission: slimetinker
@@ -2329,6 +2427,7 @@ items:
       generate: false
       model_id: 2301291
       model_path: "part_dictionary/leggings/part_plates_leggingstin"
+      icon: "part_dictionary/leggings/part_plates_leggingstin"
   part_plates_bootstin:
     display_name: slimetinker
     permission: slimetinker
@@ -2337,6 +2436,7 @@ items:
       generate: false
       model_id: 2301292
       model_path: "part_dictionary/boots/part_plates_bootstin"
+      icon: "part_dictionary/boots/part_plates_bootstin"
   part_links_tin:
     display_name: slimetinker
     permission: slimetinker
@@ -2345,6 +2445,7 @@ items:
       generate: false
       model_id: 2301293
       model_path: "part_dictionary/links/part_links_tin"
+      icon: "part_dictionary/links/part_links_tin"
   part_repair_kit_tin:
     display_name: slimetinker
     permission: slimetinker
@@ -2401,6 +2502,7 @@ items:
       generate: false
       model_id: 2301300
       model_path: "part_dictionary/sword/part_head_swordzinc"
+      icon: "part_dictionary/sword/part_head_swordzinc"
   part_head_hoezinc:
     display_name: slimetinker
     permission: slimetinker
@@ -2409,6 +2511,7 @@ items:
       generate: false
       model_id: 2301301
       model_path: "part_dictionary/hoe/part_head_hoezinc"
+      icon: "part_dictionary/hoe/part_head_hoezinc"
   part_head_axezinc:
     display_name: slimetinker
     permission: slimetinker
@@ -2417,6 +2520,7 @@ items:
       generate: false
       model_id: 2301302
       model_path: "part_dictionary/axe/part_head_axezinc"
+      icon: "part_dictionary/axe/part_head_axezinc"
   part_head_pickzinc:
     display_name: slimetinker
     permission: slimetinker
@@ -2425,6 +2529,7 @@ items:
       generate: false
       model_id: 2301303
       model_path: "part_dictionary/pickaxe/part_head_pickzinc"
+      icon: "part_dictionary/pickaxe/part_head_pickzinc"
   part_head_shovelzinc:
     display_name: slimetinker
     permission: slimetinker
@@ -2433,6 +2538,7 @@ items:
       generate: false
       model_id: 2301304
       model_path: "part_dictionary/shovel/part_head_shovelzinc"
+      icon: "part_dictionary/shovel/part_head_shovelzinc"
   part_rod_zinc:
     display_name: slimetinker
     permission: slimetinker
@@ -2441,6 +2547,7 @@ items:
       generate: false
       model_id: 2301305
       model_path: "part_dictionary/rod/part_rod_zinc"
+      icon: "part_dictionary/rod/part_rod_zinc"
   part_plates_helmetzinc:
     display_name: slimetinker
     permission: slimetinker
@@ -2449,6 +2556,7 @@ items:
       generate: false
       model_id: 2301306
       model_path: "part_dictionary/helmet/part_plates_helmetzinc"
+      icon: "part_dictionary/helmet/part_plates_helmetzinc"
   part_plates_chestplatezinc:
     display_name: slimetinker
     permission: slimetinker
@@ -2457,6 +2565,7 @@ items:
       generate: false
       model_id: 2301307
       model_path: "part_dictionary/chestplate/part_plates_chestplatezinc"
+      icon: "part_dictionary/chestplate/part_plates_chestplatezinc"
   part_plates_leggingszinc:
     display_name: slimetinker
     permission: slimetinker
@@ -2465,6 +2574,7 @@ items:
       generate: false
       model_id: 2301308
       model_path: "part_dictionary/leggings/part_plates_leggingszinc"
+      icon: "part_dictionary/leggings/part_plates_leggingszinc"
   part_plates_bootszinc:
     display_name: slimetinker
     permission: slimetinker
@@ -2473,6 +2583,7 @@ items:
       generate: false
       model_id: 2301309
       model_path: "part_dictionary/boots/part_plates_bootszinc"
+      icon: "part_dictionary/boots/part_plates_bootszinc"
   part_links_zinc:
     display_name: slimetinker
     permission: slimetinker
@@ -2481,6 +2592,7 @@ items:
       generate: false
       model_id: 2301310
       model_path: "part_dictionary/links/part_links_zinc"
+      icon: "part_dictionary/links/part_links_zinc"
   part_repair_kit_zinc:
     display_name: slimetinker
     permission: slimetinker
@@ -2537,6 +2649,7 @@ items:
       generate: false
       model_id: 2301317
       model_path: "part_dictionary/sword/part_head_swordmagnesium"
+      icon: "part_dictionary/sword/part_head_swordmagnesium"
   part_head_hoemagnesium:
     display_name: slimetinker
     permission: slimetinker
@@ -2545,6 +2658,7 @@ items:
       generate: false
       model_id: 2301318
       model_path: "part_dictionary/hoe/part_head_hoemagnesium"
+      icon: "part_dictionary/hoe/part_head_hoemagnesium"
   part_head_axemagnesium:
     display_name: slimetinker
     permission: slimetinker
@@ -2553,6 +2667,7 @@ items:
       generate: false
       model_id: 2301319
       model_path: "part_dictionary/axe/part_head_axemagnesium"
+      icon: "part_dictionary/axe/part_head_axemagnesium"
   part_head_pickmagnesium:
     display_name: slimetinker
     permission: slimetinker
@@ -2561,6 +2676,7 @@ items:
       generate: false
       model_id: 2301320
       model_path: "part_dictionary/pickaxe/part_head_pickmagnesium"
+      icon: "part_dictionary/pickaxe/part_head_pickmagnesium"
   part_head_shovelmagnesium:
     display_name: slimetinker
     permission: slimetinker
@@ -2569,6 +2685,7 @@ items:
       generate: false
       model_id: 2301321
       model_path: "part_dictionary/shovel/part_head_shovelmagnesium"
+      icon: "part_dictionary/shovel/part_head_shovelmagnesium"
   part_rod_magnesium:
     display_name: slimetinker
     permission: slimetinker
@@ -2577,6 +2694,7 @@ items:
       generate: false
       model_id: 2301322
       model_path: "part_dictionary/rod/part_rod_magnesium"
+      icon: "part_dictionary/rod/part_rod_magnesium"
   part_plates_helmetmagnesium:
     display_name: slimetinker
     permission: slimetinker
@@ -2585,6 +2703,7 @@ items:
       generate: false
       model_id: 2301323
       model_path: "part_dictionary/helmet/part_plates_helmetmagnesium"
+      icon: "part_dictionary/helmet/part_plates_helmetmagnesium"
   part_plates_chestplatemagnesium:
     display_name: slimetinker
     permission: slimetinker
@@ -2593,6 +2712,7 @@ items:
       generate: false
       model_id: 2301324
       model_path: "part_dictionary/chestplate/part_plates_chestplatemagnesium"
+      icon: "part_dictionary/chestplate/part_plates_chestplatemagnesium"
   part_plates_leggingsmagnesium:
     display_name: slimetinker
     permission: slimetinker
@@ -2601,6 +2721,7 @@ items:
       generate: false
       model_id: 2301325
       model_path: "part_dictionary/leggings/part_plates_leggingsmagnesium"
+      icon: "part_dictionary/leggings/part_plates_leggingsmagnesium"
   part_plates_bootsmagnesium:
     display_name: slimetinker
     permission: slimetinker
@@ -2609,6 +2730,7 @@ items:
       generate: false
       model_id: 2301326
       model_path: "part_dictionary/boots/part_plates_bootsmagnesium"
+      icon: "part_dictionary/boots/part_plates_bootsmagnesium"
   part_links_magnesium:
     display_name: slimetinker
     permission: slimetinker
@@ -2617,6 +2739,7 @@ items:
       generate: false
       model_id: 2301327
       model_path: "part_dictionary/links/part_links_magnesium"
+      icon: "part_dictionary/links/part_links_magnesium"
   part_repair_kit_magnesium:
     display_name: slimetinker
     permission: slimetinker
@@ -2689,6 +2812,7 @@ items:
       generate: false
       model_id: 2301336
       model_path: "part_dictionary/sword/part_head_swordsteel"
+      icon: "part_dictionary/sword/part_head_swordsteel"
   part_head_hoesteel:
     display_name: slimetinker
     permission: slimetinker
@@ -2697,6 +2821,7 @@ items:
       generate: false
       model_id: 2301337
       model_path: "part_dictionary/hoe/part_head_hoesteel"
+      icon: "part_dictionary/hoe/part_head_hoesteel"
   part_head_axesteel:
     display_name: slimetinker
     permission: slimetinker
@@ -2705,6 +2830,7 @@ items:
       generate: false
       model_id: 2301338
       model_path: "part_dictionary/axe/part_head_axesteel"
+      icon: "part_dictionary/axe/part_head_axesteel"
   part_head_picksteel:
     display_name: slimetinker
     permission: slimetinker
@@ -2713,6 +2839,7 @@ items:
       generate: false
       model_id: 2301339
       model_path: "part_dictionary/pickaxe/part_head_picksteel"
+      icon: "part_dictionary/pickaxe/part_head_picksteel"
   part_head_shovelsteel:
     display_name: slimetinker
     permission: slimetinker
@@ -2721,6 +2848,7 @@ items:
       generate: false
       model_id: 2301340
       model_path: "part_dictionary/shovel/part_head_shovelsteel"
+      icon: "part_dictionary/shovel/part_head_shovelsteel"
   part_rod_steel:
     display_name: slimetinker
     permission: slimetinker
@@ -2729,6 +2857,7 @@ items:
       generate: false
       model_id: 2301341
       model_path: "part_dictionary/rod/part_rod_steel"
+      icon: "part_dictionary/rod/part_rod_steel"
   part_plates_helmetsteel:
     display_name: slimetinker
     permission: slimetinker
@@ -2737,6 +2866,7 @@ items:
       generate: false
       model_id: 2301342
       model_path: "part_dictionary/helmet/part_plates_helmetsteel"
+      icon: "part_dictionary/helmet/part_plates_helmetsteel"
   part_plates_chestplatesteel:
     display_name: slimetinker
     permission: slimetinker
@@ -2745,6 +2875,7 @@ items:
       generate: false
       model_id: 2301343
       model_path: "part_dictionary/chestplate/part_plates_chestplatesteel"
+      icon: "part_dictionary/chestplate/part_plates_chestplatesteel"
   part_plates_leggingssteel:
     display_name: slimetinker
     permission: slimetinker
@@ -2753,6 +2884,7 @@ items:
       generate: false
       model_id: 2301344
       model_path: "part_dictionary/leggings/part_plates_leggingssteel"
+      icon: "part_dictionary/leggings/part_plates_leggingssteel"
   part_plates_bootssteel:
     display_name: slimetinker
     permission: slimetinker
@@ -2761,6 +2893,7 @@ items:
       generate: false
       model_id: 2301345
       model_path: "part_dictionary/boots/part_plates_bootssteel"
+      icon: "part_dictionary/boots/part_plates_bootssteel"
   part_links_steel:
     display_name: slimetinker
     permission: slimetinker
@@ -2769,6 +2902,7 @@ items:
       generate: false
       model_id: 2301346
       model_path: "part_dictionary/links/part_links_steel"
+      icon: "part_dictionary/links/part_links_steel"
   part_repair_kit_steel:
     display_name: slimetinker
     permission: slimetinker
@@ -2833,6 +2967,7 @@ items:
       generate: false
       model_id: 2301354
       model_path: "part_dictionary/sword/part_head_sworddamascus_steel"
+      icon: "part_dictionary/sword/part_head_sworddamascus_steel"
   part_head_hoedamascus_steel:
     display_name: slimetinker
     permission: slimetinker
@@ -2841,6 +2976,7 @@ items:
       generate: false
       model_id: 2301355
       model_path: "part_dictionary/hoe/part_head_hoedamascus_steel"
+      icon: "part_dictionary/hoe/part_head_hoedamascus_steel"
   part_head_axedamascus_steel:
     display_name: slimetinker
     permission: slimetinker
@@ -2849,6 +2985,7 @@ items:
       generate: false
       model_id: 2301356
       model_path: "part_dictionary/axe/part_head_axedamascus_steel"
+      icon: "part_dictionary/axe/part_head_axedamascus_steel"
   part_head_pickdamascus_steel:
     display_name: slimetinker
     permission: slimetinker
@@ -2857,6 +2994,7 @@ items:
       generate: false
       model_id: 2301357
       model_path: "part_dictionary/pickaxe/part_head_pickdamascus_steel"
+      icon: "part_dictionary/pickaxe/part_head_pickdamascus_steel"
   part_head_shoveldamascus_steel:
     display_name: slimetinker
     permission: slimetinker
@@ -2865,6 +3003,7 @@ items:
       generate: false
       model_id: 2301358
       model_path: "part_dictionary/shovel/part_head_shoveldamascus_steel"
+      icon: "part_dictionary/shovel/part_head_shoveldamascus_steel"
   part_rod_damascus_steel:
     display_name: slimetinker
     permission: slimetinker
@@ -2873,6 +3012,7 @@ items:
       generate: false
       model_id: 2301359
       model_path: "part_dictionary/rod/part_rod_damascus_steel"
+      icon: "part_dictionary/rod/part_rod_damascus_steel"
   part_plates_helmetdamascus_steel:
     display_name: slimetinker
     permission: slimetinker
@@ -2881,6 +3021,7 @@ items:
       generate: false
       model_id: 2301360
       model_path: "part_dictionary/helmet/part_plates_helmetdamascus_steel"
+      icon: "part_dictionary/helmet/part_plates_helmetdamascus_steel"
   part_plates_chestplatedamascus_steel:
     display_name: slimetinker
     permission: slimetinker
@@ -2889,6 +3030,7 @@ items:
       generate: false
       model_id: 2301361
       model_path: "part_dictionary/chestplate/part_plates_chestplatedamascus_steel"
+      icon: "part_dictionary/chestplate/part_plates_chestplatedamascus_steel"
   part_plates_leggingsdamascus_steel:
     display_name: slimetinker
     permission: slimetinker
@@ -2897,6 +3039,7 @@ items:
       generate: false
       model_id: 2301362
       model_path: "part_dictionary/leggings/part_plates_leggingsdamascus_steel"
+      icon: "part_dictionary/leggings/part_plates_leggingsdamascus_steel"
   part_plates_bootsdamascus_steel:
     display_name: slimetinker
     permission: slimetinker
@@ -2905,6 +3048,7 @@ items:
       generate: false
       model_id: 2301363
       model_path: "part_dictionary/boots/part_plates_bootsdamascus_steel"
+      icon: "part_dictionary/boots/part_plates_bootsdamascus_steel"
   part_links_damascus_steel:
     display_name: slimetinker
     permission: slimetinker
@@ -2913,6 +3057,7 @@ items:
       generate: false
       model_id: 2301364
       model_path: "part_dictionary/links/part_links_damascus_steel"
+      icon: "part_dictionary/links/part_links_damascus_steel"
   part_repair_kit_damascus_steel:
     display_name: slimetinker
     permission: slimetinker
@@ -2977,6 +3122,7 @@ items:
       generate: false
       model_id: 2301372
       model_path: "part_dictionary/sword/part_head_swordduralium"
+      icon: "part_dictionary/sword/part_head_swordduralium"
   part_head_hoeduralium:
     display_name: slimetinker
     permission: slimetinker
@@ -2985,6 +3131,7 @@ items:
       generate: false
       model_id: 2301373
       model_path: "part_dictionary/hoe/part_head_hoeduralium"
+      icon: "part_dictionary/hoe/part_head_hoeduralium"
   part_head_axeduralium:
     display_name: slimetinker
     permission: slimetinker
@@ -2993,6 +3140,7 @@ items:
       generate: false
       model_id: 2301374
       model_path: "part_dictionary/axe/part_head_axeduralium"
+      icon: "part_dictionary/axe/part_head_axeduralium"
   part_head_pickduralium:
     display_name: slimetinker
     permission: slimetinker
@@ -3001,6 +3149,7 @@ items:
       generate: false
       model_id: 2301375
       model_path: "part_dictionary/pickaxe/part_head_pickduralium"
+      icon: "part_dictionary/pickaxe/part_head_pickduralium"
   part_head_shovelduralium:
     display_name: slimetinker
     permission: slimetinker
@@ -3009,6 +3158,7 @@ items:
       generate: false
       model_id: 2301376
       model_path: "part_dictionary/shovel/part_head_shovelduralium"
+      icon: "part_dictionary/shovel/part_head_shovelduralium"
   part_rod_duralium:
     display_name: slimetinker
     permission: slimetinker
@@ -3017,6 +3167,7 @@ items:
       generate: false
       model_id: 2301377
       model_path: "part_dictionary/rod/part_rod_duralium"
+      icon: "part_dictionary/rod/part_rod_duralium"
   part_plates_helmetduralium:
     display_name: slimetinker
     permission: slimetinker
@@ -3025,6 +3176,7 @@ items:
       generate: false
       model_id: 2301378
       model_path: "part_dictionary/helmet/part_plates_helmetduralium"
+      icon: "part_dictionary/helmet/part_plates_helmetduralium"
   part_plates_chestplateduralium:
     display_name: slimetinker
     permission: slimetinker
@@ -3033,6 +3185,7 @@ items:
       generate: false
       model_id: 2301379
       model_path: "part_dictionary/chestplate/part_plates_chestplateduralium"
+      icon: "part_dictionary/chestplate/part_plates_chestplateduralium"
   part_plates_leggingsduralium:
     display_name: slimetinker
     permission: slimetinker
@@ -3041,6 +3194,7 @@ items:
       generate: false
       model_id: 2301380
       model_path: "part_dictionary/leggings/part_plates_leggingsduralium"
+      icon: "part_dictionary/leggings/part_plates_leggingsduralium"
   part_plates_bootsduralium:
     display_name: slimetinker
     permission: slimetinker
@@ -3049,6 +3203,7 @@ items:
       generate: false
       model_id: 2301381
       model_path: "part_dictionary/boots/part_plates_bootsduralium"
+      icon: "part_dictionary/boots/part_plates_bootsduralium"
   part_links_duralium:
     display_name: slimetinker
     permission: slimetinker
@@ -3057,6 +3212,7 @@ items:
       generate: false
       model_id: 2301382
       model_path: "part_dictionary/links/part_links_duralium"
+      icon: "part_dictionary/links/part_links_duralium"
   part_repair_kit_duralium:
     display_name: slimetinker
     permission: slimetinker
@@ -3121,6 +3277,7 @@ items:
       generate: false
       model_id: 2301390
       model_path: "part_dictionary/sword/part_head_swordbronze"
+      icon: "part_dictionary/sword/part_head_swordbronze"
   part_head_hoebronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3129,6 +3286,7 @@ items:
       generate: false
       model_id: 2301391
       model_path: "part_dictionary/hoe/part_head_hoebronze"
+      icon: "part_dictionary/hoe/part_head_hoebronze"
   part_head_axebronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3137,6 +3295,7 @@ items:
       generate: false
       model_id: 2301392
       model_path: "part_dictionary/axe/part_head_axebronze"
+      icon: "part_dictionary/axe/part_head_axebronze"
   part_head_pickbronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3145,6 +3304,7 @@ items:
       generate: false
       model_id: 2301393
       model_path: "part_dictionary/pickaxe/part_head_pickbronze"
+      icon: "part_dictionary/pickaxe/part_head_pickbronze"
   part_head_shovelbronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3153,6 +3313,7 @@ items:
       generate: false
       model_id: 2301394
       model_path: "part_dictionary/shovel/part_head_shovelbronze"
+      icon: "part_dictionary/shovel/part_head_shovelbronze"
   part_rod_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3161,6 +3322,7 @@ items:
       generate: false
       model_id: 2301395
       model_path: "part_dictionary/rod/part_rod_bronze"
+      icon: "part_dictionary/rod/part_rod_bronze"
   part_plates_helmetbronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3169,6 +3331,7 @@ items:
       generate: false
       model_id: 2301396
       model_path: "part_dictionary/helmet/part_plates_helmetbronze"
+      icon: "part_dictionary/helmet/part_plates_helmetbronze"
   part_plates_chestplatebronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3177,6 +3340,7 @@ items:
       generate: false
       model_id: 2301397
       model_path: "part_dictionary/chestplate/part_plates_chestplatebronze"
+      icon: "part_dictionary/chestplate/part_plates_chestplatebronze"
   part_plates_leggingsbronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3185,6 +3349,7 @@ items:
       generate: false
       model_id: 2301398
       model_path: "part_dictionary/leggings/part_plates_leggingsbronze"
+      icon: "part_dictionary/leggings/part_plates_leggingsbronze"
   part_plates_bootsbronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3193,6 +3358,7 @@ items:
       generate: false
       model_id: 2301399
       model_path: "part_dictionary/boots/part_plates_bootsbronze"
+      icon: "part_dictionary/boots/part_plates_bootsbronze"
   part_links_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3201,6 +3367,7 @@ items:
       generate: false
       model_id: 2301400
       model_path: "part_dictionary/links/part_links_bronze"
+      icon: "part_dictionary/links/part_links_bronze"
   part_repair_kit_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3265,6 +3432,7 @@ items:
       generate: false
       model_id: 2301408
       model_path: "part_dictionary/sword/part_head_swordaluminum_bronze"
+      icon: "part_dictionary/sword/part_head_swordaluminum_bronze"
   part_head_hoealuminum_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3273,6 +3441,7 @@ items:
       generate: false
       model_id: 2301409
       model_path: "part_dictionary/hoe/part_head_hoealuminum_bronze"
+      icon: "part_dictionary/hoe/part_head_hoealuminum_bronze"
   part_head_axealuminum_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3281,6 +3450,7 @@ items:
       generate: false
       model_id: 2301410
       model_path: "part_dictionary/axe/part_head_axealuminum_bronze"
+      icon: "part_dictionary/axe/part_head_axealuminum_bronze"
   part_head_pickaluminum_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3289,6 +3459,7 @@ items:
       generate: false
       model_id: 2301411
       model_path: "part_dictionary/pickaxe/part_head_pickaluminum_bronze"
+      icon: "part_dictionary/pickaxe/part_head_pickaluminum_bronze"
   part_head_shovelaluminum_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3297,6 +3468,7 @@ items:
       generate: false
       model_id: 2301412
       model_path: "part_dictionary/shovel/part_head_shovelaluminum_bronze"
+      icon: "part_dictionary/shovel/part_head_shovelaluminum_bronze"
   part_rod_aluminum_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3305,6 +3477,7 @@ items:
       generate: false
       model_id: 2301413
       model_path: "part_dictionary/rod/part_rod_aluminum_bronze"
+      icon: "part_dictionary/rod/part_rod_aluminum_bronze"
   part_plates_helmetaluminum_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3313,6 +3486,7 @@ items:
       generate: false
       model_id: 2301414
       model_path: "part_dictionary/helmet/part_plates_helmetaluminum_bronze"
+      icon: "part_dictionary/helmet/part_plates_helmetaluminum_bronze"
   part_plates_chestplatealuminum_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3321,6 +3495,7 @@ items:
       generate: false
       model_id: 2301415
       model_path: "part_dictionary/chestplate/part_plates_chestplatealuminum_bronze"
+      icon: "part_dictionary/chestplate/part_plates_chestplatealuminum_bronze"
   part_plates_leggingsaluminum_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3329,6 +3504,7 @@ items:
       generate: false
       model_id: 2301416
       model_path: "part_dictionary/leggings/part_plates_leggingsaluminum_bronze"
+      icon: "part_dictionary/leggings/part_plates_leggingsaluminum_bronze"
   part_plates_bootsaluminum_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3337,6 +3513,7 @@ items:
       generate: false
       model_id: 2301417
       model_path: "part_dictionary/boots/part_plates_bootsaluminum_bronze"
+      icon: "part_dictionary/boots/part_plates_bootsaluminum_bronze"
   part_links_aluminum_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3345,6 +3522,7 @@ items:
       generate: false
       model_id: 2301418
       model_path: "part_dictionary/links/part_links_aluminum_bronze"
+      icon: "part_dictionary/links/part_links_aluminum_bronze"
   part_repair_kit_aluminum_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3409,6 +3587,7 @@ items:
       generate: false
       model_id: 2301426
       model_path: "part_dictionary/sword/part_head_swordhardened_metal"
+      icon: "part_dictionary/sword/part_head_swordhardened_metal"
   part_head_hoehardened_metal:
     display_name: slimetinker
     permission: slimetinker
@@ -3417,6 +3596,7 @@ items:
       generate: false
       model_id: 2301427
       model_path: "part_dictionary/hoe/part_head_hoehardened_metal"
+      icon: "part_dictionary/hoe/part_head_hoehardened_metal"
   part_head_axehardened_metal:
     display_name: slimetinker
     permission: slimetinker
@@ -3425,6 +3605,7 @@ items:
       generate: false
       model_id: 2301428
       model_path: "part_dictionary/axe/part_head_axehardened_metal"
+      icon: "part_dictionary/axe/part_head_axehardened_metal"
   part_head_pickhardened_metal:
     display_name: slimetinker
     permission: slimetinker
@@ -3433,6 +3614,7 @@ items:
       generate: false
       model_id: 2301429
       model_path: "part_dictionary/pickaxe/part_head_pickhardened_metal"
+      icon: "part_dictionary/pickaxe/part_head_pickhardened_metal"
   part_head_shovelhardened_metal:
     display_name: slimetinker
     permission: slimetinker
@@ -3441,6 +3623,7 @@ items:
       generate: false
       model_id: 2301430
       model_path: "part_dictionary/shovel/part_head_shovelhardened_metal"
+      icon: "part_dictionary/shovel/part_head_shovelhardened_metal"
   part_rod_hardened_metal:
     display_name: slimetinker
     permission: slimetinker
@@ -3449,6 +3632,7 @@ items:
       generate: false
       model_id: 2301431
       model_path: "part_dictionary/rod/part_rod_hardened_metal"
+      icon: "part_dictionary/rod/part_rod_hardened_metal"
   part_plates_helmethardened_metal:
     display_name: slimetinker
     permission: slimetinker
@@ -3457,6 +3641,7 @@ items:
       generate: false
       model_id: 2301432
       model_path: "part_dictionary/helmet/part_plates_helmethardened_metal"
+      icon: "part_dictionary/helmet/part_plates_helmethardened_metal"
   part_plates_chestplatehardened_metal:
     display_name: slimetinker
     permission: slimetinker
@@ -3465,6 +3650,7 @@ items:
       generate: false
       model_id: 2301433
       model_path: "part_dictionary/chestplate/part_plates_chestplatehardened_metal"
+      icon: "part_dictionary/chestplate/part_plates_chestplatehardened_metal"
   part_plates_leggingshardened_metal:
     display_name: slimetinker
     permission: slimetinker
@@ -3473,6 +3659,7 @@ items:
       generate: false
       model_id: 2301434
       model_path: "part_dictionary/leggings/part_plates_leggingshardened_metal"
+      icon: "part_dictionary/leggings/part_plates_leggingshardened_metal"
   part_plates_bootshardened_metal:
     display_name: slimetinker
     permission: slimetinker
@@ -3481,6 +3668,7 @@ items:
       generate: false
       model_id: 2301435
       model_path: "part_dictionary/boots/part_plates_bootshardened_metal"
+      icon: "part_dictionary/boots/part_plates_bootshardened_metal"
   part_links_hardened_metal:
     display_name: slimetinker
     permission: slimetinker
@@ -3489,6 +3677,7 @@ items:
       generate: false
       model_id: 2301436
       model_path: "part_dictionary/links/part_links_hardened_metal"
+      icon: "part_dictionary/links/part_links_hardened_metal"
   part_repair_kit_hardened_metal:
     display_name: slimetinker
     permission: slimetinker
@@ -3553,6 +3742,7 @@ items:
       generate: false
       model_id: 2301444
       model_path: "part_dictionary/sword/part_head_swordcorinthian_bronze"
+      icon: "part_dictionary/sword/part_head_swordcorinthian_bronze"
   part_head_hoecorinthian_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3561,6 +3751,7 @@ items:
       generate: false
       model_id: 2301445
       model_path: "part_dictionary/hoe/part_head_hoecorinthian_bronze"
+      icon: "part_dictionary/hoe/part_head_hoecorinthian_bronze"
   part_head_axecorinthian_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3569,6 +3760,7 @@ items:
       generate: false
       model_id: 2301446
       model_path: "part_dictionary/axe/part_head_axecorinthian_bronze"
+      icon: "part_dictionary/axe/part_head_axecorinthian_bronze"
   part_head_pickcorinthian_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3577,6 +3769,7 @@ items:
       generate: false
       model_id: 2301447
       model_path: "part_dictionary/pickaxe/part_head_pickcorinthian_bronze"
+      icon: "part_dictionary/pickaxe/part_head_pickcorinthian_bronze"
   part_head_shovelcorinthian_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3585,6 +3778,7 @@ items:
       generate: false
       model_id: 2301448
       model_path: "part_dictionary/shovel/part_head_shovelcorinthian_bronze"
+      icon: "part_dictionary/shovel/part_head_shovelcorinthian_bronze"
   part_rod_corinthian_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3593,6 +3787,7 @@ items:
       generate: false
       model_id: 2301449
       model_path: "part_dictionary/rod/part_rod_corinthian_bronze"
+      icon: "part_dictionary/rod/part_rod_corinthian_bronze"
   part_plates_helmetcorinthian_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3601,6 +3796,7 @@ items:
       generate: false
       model_id: 2301450
       model_path: "part_dictionary/helmet/part_plates_helmetcorinthian_bronze"
+      icon: "part_dictionary/helmet/part_plates_helmetcorinthian_bronze"
   part_plates_chestplatecorinthian_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3609,6 +3805,7 @@ items:
       generate: false
       model_id: 2301451
       model_path: "part_dictionary/chestplate/part_plates_chestplatecorinthian_bronze"
+      icon: "part_dictionary/chestplate/part_plates_chestplatecorinthian_bronze"
   part_plates_leggingscorinthian_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3617,6 +3814,7 @@ items:
       generate: false
       model_id: 2301452
       model_path: "part_dictionary/leggings/part_plates_leggingscorinthian_bronze"
+      icon: "part_dictionary/leggings/part_plates_leggingscorinthian_bronze"
   part_plates_bootscorinthian_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3625,6 +3823,7 @@ items:
       generate: false
       model_id: 2301453
       model_path: "part_dictionary/boots/part_plates_bootscorinthian_bronze"
+      icon: "part_dictionary/boots/part_plates_bootscorinthian_bronze"
   part_links_corinthian_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3633,6 +3832,7 @@ items:
       generate: false
       model_id: 2301454
       model_path: "part_dictionary/links/part_links_corinthian_bronze"
+      icon: "part_dictionary/links/part_links_corinthian_bronze"
   part_repair_kit_corinthian_bronze:
     display_name: slimetinker
     permission: slimetinker
@@ -3697,6 +3897,7 @@ items:
       generate: false
       model_id: 2301462
       model_path: "part_dictionary/sword/part_head_swordsolder"
+      icon: "part_dictionary/sword/part_head_swordsolder"
   part_head_hoesolder:
     display_name: slimetinker
     permission: slimetinker
@@ -3705,6 +3906,7 @@ items:
       generate: false
       model_id: 2301463
       model_path: "part_dictionary/hoe/part_head_hoesolder"
+      icon: "part_dictionary/hoe/part_head_hoesolder"
   part_head_axesolder:
     display_name: slimetinker
     permission: slimetinker
@@ -3713,6 +3915,7 @@ items:
       generate: false
       model_id: 2301464
       model_path: "part_dictionary/axe/part_head_axesolder"
+      icon: "part_dictionary/axe/part_head_axesolder"
   part_head_picksolder:
     display_name: slimetinker
     permission: slimetinker
@@ -3721,6 +3924,7 @@ items:
       generate: false
       model_id: 2301465
       model_path: "part_dictionary/pickaxe/part_head_picksolder"
+      icon: "part_dictionary/pickaxe/part_head_picksolder"
   part_head_shovelsolder:
     display_name: slimetinker
     permission: slimetinker
@@ -3729,6 +3933,7 @@ items:
       generate: false
       model_id: 2301466
       model_path: "part_dictionary/shovel/part_head_shovelsolder"
+      icon: "part_dictionary/shovel/part_head_shovelsolder"
   part_rod_solder:
     display_name: slimetinker
     permission: slimetinker
@@ -3737,6 +3942,7 @@ items:
       generate: false
       model_id: 2301467
       model_path: "part_dictionary/rod/part_rod_solder"
+      icon: "part_dictionary/rod/part_rod_solder"
   part_plates_helmetsolder:
     display_name: slimetinker
     permission: slimetinker
@@ -3745,6 +3951,7 @@ items:
       generate: false
       model_id: 2301468
       model_path: "part_dictionary/helmet/part_plates_helmetsolder"
+      icon: "part_dictionary/helmet/part_plates_helmetsolder"
   part_plates_chestplatesolder:
     display_name: slimetinker
     permission: slimetinker
@@ -3753,6 +3960,7 @@ items:
       generate: false
       model_id: 2301469
       model_path: "part_dictionary/chestplate/part_plates_chestplatesolder"
+      icon: "part_dictionary/chestplate/part_plates_chestplatesolder"
   part_plates_leggingssolder:
     display_name: slimetinker
     permission: slimetinker
@@ -3761,6 +3969,7 @@ items:
       generate: false
       model_id: 2301470
       model_path: "part_dictionary/leggings/part_plates_leggingssolder"
+      icon: "part_dictionary/leggings/part_plates_leggingssolder"
   part_plates_bootssolder:
     display_name: slimetinker
     permission: slimetinker
@@ -3769,6 +3978,7 @@ items:
       generate: false
       model_id: 2301471
       model_path: "part_dictionary/boots/part_plates_bootssolder"
+      icon: "part_dictionary/boots/part_plates_bootssolder"
   part_links_solder:
     display_name: slimetinker
     permission: slimetinker
@@ -3777,6 +3987,7 @@ items:
       generate: false
       model_id: 2301472
       model_path: "part_dictionary/links/part_links_solder"
+      icon: "part_dictionary/links/part_links_solder"
   part_repair_kit_solder:
     display_name: slimetinker
     permission: slimetinker
@@ -3841,6 +4052,7 @@ items:
       generate: false
       model_id: 2301480
       model_path: "part_dictionary/sword/part_head_swordbillon"
+      icon: "part_dictionary/sword/part_head_swordbillon"
   part_head_hoebillon:
     display_name: slimetinker
     permission: slimetinker
@@ -3849,6 +4061,7 @@ items:
       generate: false
       model_id: 2301481
       model_path: "part_dictionary/hoe/part_head_hoebillon"
+      icon: "part_dictionary/hoe/part_head_hoebillon"
   part_head_axebillon:
     display_name: slimetinker
     permission: slimetinker
@@ -3857,6 +4070,7 @@ items:
       generate: false
       model_id: 2301482
       model_path: "part_dictionary/axe/part_head_axebillon"
+      icon: "part_dictionary/axe/part_head_axebillon"
   part_head_pickbillon:
     display_name: slimetinker
     permission: slimetinker
@@ -3865,6 +4079,7 @@ items:
       generate: false
       model_id: 2301483
       model_path: "part_dictionary/pickaxe/part_head_pickbillon"
+      icon: "part_dictionary/pickaxe/part_head_pickbillon"
   part_head_shovelbillon:
     display_name: slimetinker
     permission: slimetinker
@@ -3873,6 +4088,7 @@ items:
       generate: false
       model_id: 2301484
       model_path: "part_dictionary/shovel/part_head_shovelbillon"
+      icon: "part_dictionary/shovel/part_head_shovelbillon"
   part_rod_billon:
     display_name: slimetinker
     permission: slimetinker
@@ -3881,6 +4097,7 @@ items:
       generate: false
       model_id: 2301485
       model_path: "part_dictionary/rod/part_rod_billon"
+      icon: "part_dictionary/rod/part_rod_billon"
   part_plates_helmetbillon:
     display_name: slimetinker
     permission: slimetinker
@@ -3889,6 +4106,7 @@ items:
       generate: false
       model_id: 2301486
       model_path: "part_dictionary/helmet/part_plates_helmetbillon"
+      icon: "part_dictionary/helmet/part_plates_helmetbillon"
   part_plates_chestplatebillon:
     display_name: slimetinker
     permission: slimetinker
@@ -3897,6 +4115,7 @@ items:
       generate: false
       model_id: 2301487
       model_path: "part_dictionary/chestplate/part_plates_chestplatebillon"
+      icon: "part_dictionary/chestplate/part_plates_chestplatebillon"
   part_plates_leggingsbillon:
     display_name: slimetinker
     permission: slimetinker
@@ -3905,6 +4124,7 @@ items:
       generate: false
       model_id: 2301488
       model_path: "part_dictionary/leggings/part_plates_leggingsbillon"
+      icon: "part_dictionary/leggings/part_plates_leggingsbillon"
   part_plates_bootsbillon:
     display_name: slimetinker
     permission: slimetinker
@@ -3913,6 +4133,7 @@ items:
       generate: false
       model_id: 2301489
       model_path: "part_dictionary/boots/part_plates_bootsbillon"
+      icon: "part_dictionary/boots/part_plates_bootsbillon"
   part_links_billon:
     display_name: slimetinker
     permission: slimetinker
@@ -3921,6 +4142,7 @@ items:
       generate: false
       model_id: 2301490
       model_path: "part_dictionary/links/part_links_billon"
+      icon: "part_dictionary/links/part_links_billon"
   part_repair_kit_billon:
     display_name: slimetinker
     permission: slimetinker
@@ -3985,6 +4207,7 @@ items:
       generate: false
       model_id: 2301498
       model_path: "part_dictionary/sword/part_head_swordbrass"
+      icon: "part_dictionary/sword/part_head_swordbrass"
   part_head_hoebrass:
     display_name: slimetinker
     permission: slimetinker
@@ -3993,6 +4216,7 @@ items:
       generate: false
       model_id: 2301499
       model_path: "part_dictionary/hoe/part_head_hoebrass"
+      icon: "part_dictionary/hoe/part_head_hoebrass"
   part_head_axebrass:
     display_name: slimetinker
     permission: slimetinker
@@ -4001,6 +4225,7 @@ items:
       generate: false
       model_id: 2301500
       model_path: "part_dictionary/axe/part_head_axebrass"
+      icon: "part_dictionary/axe/part_head_axebrass"
   part_head_pickbrass:
     display_name: slimetinker
     permission: slimetinker
@@ -4009,6 +4234,7 @@ items:
       generate: false
       model_id: 2301501
       model_path: "part_dictionary/pickaxe/part_head_pickbrass"
+      icon: "part_dictionary/pickaxe/part_head_pickbrass"
   part_head_shovelbrass:
     display_name: slimetinker
     permission: slimetinker
@@ -4017,6 +4243,7 @@ items:
       generate: false
       model_id: 2301502
       model_path: "part_dictionary/shovel/part_head_shovelbrass"
+      icon: "part_dictionary/shovel/part_head_shovelbrass"
   part_rod_brass:
     display_name: slimetinker
     permission: slimetinker
@@ -4025,6 +4252,7 @@ items:
       generate: false
       model_id: 2301503
       model_path: "part_dictionary/rod/part_rod_brass"
+      icon: "part_dictionary/rod/part_rod_brass"
   part_plates_helmetbrass:
     display_name: slimetinker
     permission: slimetinker
@@ -4033,6 +4261,7 @@ items:
       generate: false
       model_id: 2301504
       model_path: "part_dictionary/helmet/part_plates_helmetbrass"
+      icon: "part_dictionary/helmet/part_plates_helmetbrass"
   part_plates_chestplatebrass:
     display_name: slimetinker
     permission: slimetinker
@@ -4041,6 +4270,7 @@ items:
       generate: false
       model_id: 2301505
       model_path: "part_dictionary/chestplate/part_plates_chestplatebrass"
+      icon: "part_dictionary/chestplate/part_plates_chestplatebrass"
   part_plates_leggingsbrass:
     display_name: slimetinker
     permission: slimetinker
@@ -4049,6 +4279,7 @@ items:
       generate: false
       model_id: 2301506
       model_path: "part_dictionary/leggings/part_plates_leggingsbrass"
+      icon: "part_dictionary/leggings/part_plates_leggingsbrass"
   part_plates_bootsbrass:
     display_name: slimetinker
     permission: slimetinker
@@ -4057,6 +4288,7 @@ items:
       generate: false
       model_id: 2301507
       model_path: "part_dictionary/boots/part_plates_bootsbrass"
+      icon: "part_dictionary/boots/part_plates_bootsbrass"
   part_links_brass:
     display_name: slimetinker
     permission: slimetinker
@@ -4065,6 +4297,7 @@ items:
       generate: false
       model_id: 2301508
       model_path: "part_dictionary/links/part_links_brass"
+      icon: "part_dictionary/links/part_links_brass"
   part_repair_kit_brass:
     display_name: slimetinker
     permission: slimetinker
@@ -4129,6 +4362,7 @@ items:
       generate: false
       model_id: 2301516
       model_path: "part_dictionary/sword/part_head_swordaluminum_brass"
+      icon: "part_dictionary/sword/part_head_swordaluminum_brass"
   part_head_hoealuminum_brass:
     display_name: slimetinker
     permission: slimetinker
@@ -4137,6 +4371,7 @@ items:
       generate: false
       model_id: 2301517
       model_path: "part_dictionary/hoe/part_head_hoealuminum_brass"
+      icon: "part_dictionary/hoe/part_head_hoealuminum_brass"
   part_head_axealuminum_brass:
     display_name: slimetinker
     permission: slimetinker
@@ -4145,6 +4380,7 @@ items:
       generate: false
       model_id: 2301518
       model_path: "part_dictionary/axe/part_head_axealuminum_brass"
+      icon: "part_dictionary/axe/part_head_axealuminum_brass"
   part_head_pickaluminum_brass:
     display_name: slimetinker
     permission: slimetinker
@@ -4153,6 +4389,7 @@ items:
       generate: false
       model_id: 2301519
       model_path: "part_dictionary/pickaxe/part_head_pickaluminum_brass"
+      icon: "part_dictionary/pickaxe/part_head_pickaluminum_brass"
   part_head_shovelaluminum_brass:
     display_name: slimetinker
     permission: slimetinker
@@ -4161,6 +4398,7 @@ items:
       generate: false
       model_id: 2301520
       model_path: "part_dictionary/shovel/part_head_shovelaluminum_brass"
+      icon: "part_dictionary/shovel/part_head_shovelaluminum_brass"
   part_rod_aluminum_brass:
     display_name: slimetinker
     permission: slimetinker
@@ -4169,6 +4407,7 @@ items:
       generate: false
       model_id: 2301521
       model_path: "part_dictionary/rod/part_rod_aluminum_brass"
+      icon: "part_dictionary/rod/part_rod_aluminum_brass"
   part_plates_helmetaluminum_brass:
     display_name: slimetinker
     permission: slimetinker
@@ -4177,6 +4416,7 @@ items:
       generate: false
       model_id: 2301522
       model_path: "part_dictionary/helmet/part_plates_helmetaluminum_brass"
+      icon: "part_dictionary/helmet/part_plates_helmetaluminum_brass"
   part_plates_chestplatealuminum_brass:
     display_name: slimetinker
     permission: slimetinker
@@ -4185,6 +4425,7 @@ items:
       generate: false
       model_id: 2301523
       model_path: "part_dictionary/chestplate/part_plates_chestplatealuminum_brass"
+      icon: "part_dictionary/chestplate/part_plates_chestplatealuminum_brass"
   part_plates_leggingsaluminum_brass:
     display_name: slimetinker
     permission: slimetinker
@@ -4193,6 +4434,7 @@ items:
       generate: false
       model_id: 2301524
       model_path: "part_dictionary/leggings/part_plates_leggingsaluminum_brass"
+      icon: "part_dictionary/leggings/part_plates_leggingsaluminum_brass"
   part_plates_bootsaluminum_brass:
     display_name: slimetinker
     permission: slimetinker
@@ -4201,6 +4443,7 @@ items:
       generate: false
       model_id: 2301525
       model_path: "part_dictionary/boots/part_plates_bootsaluminum_brass"
+      icon: "part_dictionary/boots/part_plates_bootsaluminum_brass"
   part_links_aluminum_brass:
     display_name: slimetinker
     permission: slimetinker
@@ -4209,6 +4452,7 @@ items:
       generate: false
       model_id: 2301526
       model_path: "part_dictionary/links/part_links_aluminum_brass"
+      icon: "part_dictionary/links/part_links_aluminum_brass"
   part_repair_kit_aluminum_brass:
     display_name: slimetinker
     permission: slimetinker
@@ -4273,6 +4517,7 @@ items:
       generate: false
       model_id: 2301534
       model_path: "part_dictionary/sword/part_head_swordnickel"
+      icon: "part_dictionary/sword/part_head_swordnickel"
   part_head_hoenickel:
     display_name: slimetinker
     permission: slimetinker
@@ -4281,6 +4526,7 @@ items:
       generate: false
       model_id: 2301535
       model_path: "part_dictionary/hoe/part_head_hoenickel"
+      icon: "part_dictionary/hoe/part_head_hoenickel"
   part_head_axenickel:
     display_name: slimetinker
     permission: slimetinker
@@ -4289,6 +4535,7 @@ items:
       generate: false
       model_id: 2301536
       model_path: "part_dictionary/axe/part_head_axenickel"
+      icon: "part_dictionary/axe/part_head_axenickel"
   part_head_picknickel:
     display_name: slimetinker
     permission: slimetinker
@@ -4297,6 +4544,7 @@ items:
       generate: false
       model_id: 2301537
       model_path: "part_dictionary/pickaxe/part_head_picknickel"
+      icon: "part_dictionary/pickaxe/part_head_picknickel"
   part_head_shovelnickel:
     display_name: slimetinker
     permission: slimetinker
@@ -4305,6 +4553,7 @@ items:
       generate: false
       model_id: 2301538
       model_path: "part_dictionary/shovel/part_head_shovelnickel"
+      icon: "part_dictionary/shovel/part_head_shovelnickel"
   part_rod_nickel:
     display_name: slimetinker
     permission: slimetinker
@@ -4313,6 +4562,7 @@ items:
       generate: false
       model_id: 2301539
       model_path: "part_dictionary/rod/part_rod_nickel"
+      icon: "part_dictionary/rod/part_rod_nickel"
   part_plates_helmetnickel:
     display_name: slimetinker
     permission: slimetinker
@@ -4321,6 +4571,7 @@ items:
       generate: false
       model_id: 2301540
       model_path: "part_dictionary/helmet/part_plates_helmetnickel"
+      icon: "part_dictionary/helmet/part_plates_helmetnickel"
   part_plates_chestplatenickel:
     display_name: slimetinker
     permission: slimetinker
@@ -4329,6 +4580,7 @@ items:
       generate: false
       model_id: 2301541
       model_path: "part_dictionary/chestplate/part_plates_chestplatenickel"
+      icon: "part_dictionary/chestplate/part_plates_chestplatenickel"
   part_plates_leggingsnickel:
     display_name: slimetinker
     permission: slimetinker
@@ -4337,6 +4589,7 @@ items:
       generate: false
       model_id: 2301542
       model_path: "part_dictionary/leggings/part_plates_leggingsnickel"
+      icon: "part_dictionary/leggings/part_plates_leggingsnickel"
   part_plates_bootsnickel:
     display_name: slimetinker
     permission: slimetinker
@@ -4345,6 +4598,7 @@ items:
       generate: false
       model_id: 2301543
       model_path: "part_dictionary/boots/part_plates_bootsnickel"  
+      icon: "part_dictionary/boots/part_plates_bootsnickel"  
   part_links_nickel:
     display_name: slimetinker
     permission: slimetinker
@@ -4353,6 +4607,7 @@ items:
       generate: false
       model_id: 2301544
       model_path: "part_dictionary/links/part_links_nickel"
+      icon: "part_dictionary/links/part_links_nickel"
   part_repair_kit_nickel:
     display_name: slimetinker
     permission: slimetinker
@@ -4417,6 +4672,7 @@ items:
       generate: false
       model_id: 2301552
       model_path: "part_dictionary/sword/part_head_swordcobalt"
+      icon: "part_dictionary/sword/part_head_swordcobalt"
   part_head_hoecobalt:
     display_name: slimetinker
     permission: slimetinker
@@ -4425,6 +4681,7 @@ items:
       generate: false
       model_id: 2301553
       model_path: "part_dictionary/hoe/part_head_hoecobalt"
+      icon: "part_dictionary/hoe/part_head_hoecobalt"
   part_head_axecobalt:
     display_name: slimetinker
     permission: slimetinker
@@ -4433,6 +4690,7 @@ items:
       generate: false
       model_id: 2301554
       model_path: "part_dictionary/axe/part_head_axecobalt"
+      icon: "part_dictionary/axe/part_head_axecobalt"
   part_head_pickcobalt:
     display_name: slimetinker
     permission: slimetinker
@@ -4441,6 +4699,7 @@ items:
       generate: false
       model_id: 2301555
       model_path: "part_dictionary/pickaxe/part_head_pickcobalt"
+      icon: "part_dictionary/pickaxe/part_head_pickcobalt"
   part_head_shovelcobalt:
     display_name: slimetinker
     permission: slimetinker
@@ -4449,6 +4708,7 @@ items:
       generate: false
       model_id: 2301556
       model_path: "part_dictionary/shovel/part_head_shovelcobalt"
+      icon: "part_dictionary/shovel/part_head_shovelcobalt"
   part_rod_cobalt:
     display_name: slimetinker
     permission: slimetinker
@@ -4457,6 +4717,7 @@ items:
       generate: false
       model_id: 2301557
       model_path: "part_dictionary/rod/part_rod_cobalt"
+      icon: "part_dictionary/rod/part_rod_cobalt"
   part_plates_helmetcobalt:
     display_name: slimetinker
     permission: slimetinker
@@ -4465,6 +4726,7 @@ items:
       generate: false
       model_id: 2301558
       model_path: "part_dictionary/helmet/part_plates_helmetcobalt"
+      icon: "part_dictionary/helmet/part_plates_helmetcobalt"
   part_plates_chestplatecobalt:
     display_name: slimetinker
     permission: slimetinker
@@ -4473,6 +4735,7 @@ items:
       generate: false
       model_id: 2301559
       model_path: "part_dictionary/chestplate/part_plates_chestplatecobalt"
+      icon: "part_dictionary/chestplate/part_plates_chestplatecobalt"
   part_plates_leggingscobalt:
     display_name: slimetinker
     permission: slimetinker
@@ -4481,6 +4744,7 @@ items:
       generate: false
       model_id: 2301560
       model_path: "part_dictionary/leggings/part_plates_leggingscobalt"
+      icon: "part_dictionary/leggings/part_plates_leggingscobalt"
   part_plates_bootscobalt:
     display_name: slimetinker
     permission: slimetinker
@@ -4489,6 +4753,7 @@ items:
       generate: false
       model_id: 2301561
       model_path: "part_dictionary/boots/part_plates_bootscobalt"
+      icon: "part_dictionary/boots/part_plates_bootscobalt"
   part_links_cobalt:
     display_name: slimetinker
     permission: slimetinker
@@ -4497,6 +4762,7 @@ items:
       generate: false
       model_id: 2301562
       model_path: "part_dictionary/links/part_links_cobalt"
+      icon: "part_dictionary/links/part_links_cobalt"
   part_repair_kit_cobalt:
     display_name: slimetinker
     permission: slimetinker
@@ -4561,6 +4827,7 @@ items:
       generate: false
       model_id: 2301570
       model_path: "part_dictionary/sword/part_head_swordreinforced_alloy"
+      icon: "part_dictionary/sword/part_head_swordreinforced_alloy"
   part_head_hoereinforced_alloy:
     display_name: slimetinker
     permission: slimetinker
@@ -4569,6 +4836,7 @@ items:
       generate: false
       model_id: 2301571
       model_path: "part_dictionary/hoe/part_head_hoereinforced_alloy"
+      icon: "part_dictionary/hoe/part_head_hoereinforced_alloy"
   part_head_axereinforced_alloy:
     display_name: slimetinker
     permission: slimetinker
@@ -4577,6 +4845,7 @@ items:
       generate: false
       model_id: 2301572
       model_path: "part_dictionary/axe/part_head_axereinforced_alloy"
+      icon: "part_dictionary/axe/part_head_axereinforced_alloy"
   part_head_pickreinforced_alloy:
     display_name: slimetinker
     permission: slimetinker
@@ -4585,6 +4854,7 @@ items:
       generate: false
       model_id: 2301573
       model_path: "part_dictionary/pickaxe/part_head_pickreinforced_alloy"
+      icon: "part_dictionary/pickaxe/part_head_pickreinforced_alloy"
   part_head_shovelreinforced_alloy:
     display_name: slimetinker
     permission: slimetinker
@@ -4593,6 +4863,7 @@ items:
       generate: false
       model_id: 2301574
       model_path: "part_dictionary/shovel/part_head_shovelreinforced_alloy"
+      icon: "part_dictionary/shovel/part_head_shovelreinforced_alloy"
   part_rod_reinforced_alloy:
     display_name: slimetinker
     permission: slimetinker
@@ -4601,6 +4872,7 @@ items:
       generate: false
       model_id: 2301575
       model_path: "part_dictionary/rod/part_rod_reinforced_alloy"
+      icon: "part_dictionary/rod/part_rod_reinforced_alloy"
   part_plates_helmetreinforced_alloy:
     display_name: slimetinker
     permission: slimetinker
@@ -4609,6 +4881,7 @@ items:
       generate: false
       model_id: 2301576
       model_path: "part_dictionary/helmet/part_plates_helmetreinforced_alloy"
+      icon: "part_dictionary/helmet/part_plates_helmetreinforced_alloy"
   part_plates_chestplatereinforced_alloy:
     display_name: slimetinker
     permission: slimetinker
@@ -4617,6 +4890,7 @@ items:
       generate: false
       model_id: 2301577
       model_path: "part_dictionary/chestplate/part_plates_chestplatereinforced_alloy"
+      icon: "part_dictionary/chestplate/part_plates_chestplatereinforced_alloy"
   part_plates_leggingsreinforced_alloy:
     display_name: slimetinker
     permission: slimetinker
@@ -4625,6 +4899,7 @@ items:
       generate: false
       model_id: 2301578
       model_path: "part_dictionary/leggings/part_plates_leggingsreinforced_alloy"
+      icon: "part_dictionary/leggings/part_plates_leggingsreinforced_alloy"
   part_plates_bootsreinforced_alloy:
     display_name: slimetinker
     permission: slimetinker
@@ -4633,6 +4908,7 @@ items:
       generate: false
       model_id: 2301579
       model_path: "part_dictionary/boots/part_plates_bootsreinforced_alloy"
+      icon: "part_dictionary/boots/part_plates_bootsreinforced_alloy"
   part_links_reinforced_alloy:
     display_name: slimetinker
     permission: slimetinker
@@ -4641,6 +4917,7 @@ items:
       generate: false
       model_id: 2301580
       model_path: "part_dictionary/links/part_links_reinforced_alloy"
+      icon: "part_dictionary/links/part_links_reinforced_alloy"
   part_repair_kit_reinforced_alloy:
     display_name: slimetinker
     permission: slimetinker
@@ -4673,6 +4950,7 @@ items:
       generate: false
       model_id: 2301584
       model_path: "part_dictionary/binding/part_binding_string"
+      icon: "part_dictionary/binding/part_binding_string"
   part_gambeson_string:
     display_name: slimetinker
     permission: slimetinker
@@ -4681,6 +4959,7 @@ items:
       generate: false
       model_id: 2301585
       model_path: "part_dictionary/gambeson/part_gambeson_string"
+      icon: "part_dictionary/gambeson/part_gambeson_string"
   #growth_trait_prop_binding_vine:
   #  display_name: slimetinker
   #  permission: slimetinker
@@ -4705,6 +4984,7 @@ items:
       generate: false
       model_id: 2301588
       model_path: "part_dictionary/binding/part_binding_vine"
+      icon: "part_dictionary/binding/part_binding_vine"
   part_gambeson_vine:
     display_name: slimetinker
     permission: slimetinker
@@ -4713,6 +4993,7 @@ items:
       generate: false
       model_id: 2301589
       model_path: "part_dictionary/gambeson/part_gambeson_vine"
+      icon: "part_dictionary/gambeson/part_gambeson_vine"
   #decay_trait_prop_binding_crimson_roots:
   #  display_name: slimetinker
   #  permission: slimetinker
@@ -4737,6 +5018,7 @@ items:
       generate: false
       model_id: 2301592
       model_path: "part_dictionary/binding/part_binding_crimson_root"
+      icon: "part_dictionary/binding/part_binding_crimson_root"
   part_gambeson_crimson_root:
     display_name: slimetinker
     permission: slimetinker
@@ -4745,6 +5027,7 @@ items:
       generate: false
       model_id: 2301593
       model_path: "part_dictionary/gambeson/part_gambeson_crimson_root"
+      icon: "part_dictionary/gambeson/part_gambeson_crimson_root"
   #refreshing_trait_prop_binding_warped_roots:
   #  display_name: slimetinker
   #  permission: slimetinker
@@ -4769,6 +5052,7 @@ items:
       generate: false
       model_id: 2301596
       model_path: "part_dictionary/binding/part_binding_warped_root"
+      icon: "part_dictionary/binding/part_binding_warped_root"
   part_gambeson_warped_root:
     display_name: slimetinker
     permission: slimetinker
@@ -4777,6 +5061,7 @@ items:
       generate: false
       model_id: 2301597
       model_path: "part_dictionary/gambeson/part_gambeson_warped_root"
+      icon: "part_dictionary/gambeson/part_gambeson_warped_root"
   #doom_trait_prop_binding_weeping_vines:
   #  display_name: slimetinker
   #  permission: slimetinker
@@ -4801,6 +5086,7 @@ items:
       generate: false
       model_id: 2301600
       model_path: "part_dictionary/binding/part_binding_weeping_vine"
+      icon: "part_dictionary/binding/part_binding_weeping_vine"
   part_gambeson_weeping_vine:
     display_name: slimetinker
     permission: slimetinker
@@ -4809,6 +5095,7 @@ items:
       generate: false
       model_id: 2301601
       model_path: "part_dictionary/gambeson/part_gambeson_weeping_vine"
+      icon: "part_dictionary/gambeson/part_gambeson_weeping_vine"
   #attraction_trait_prop_binding_twisting_vines:
   #  display_name: slimetinker
   #  permission: slimetinker
@@ -4833,6 +5120,7 @@ items:
       generate: false
       model_id: 2301604
       model_path: "part_dictionary/binding/part_binding_twisted_vine"
+      icon: "part_dictionary/binding/part_binding_twisted_vine"
   part_gambeson_twisted_vine:
     display_name: slimetinker
     permission: slimetinker
@@ -4841,6 +5129,7 @@ items:
       generate: false
       model_id: 2301605
       model_path: "part_dictionary/gambeson/part_gambeson_twisted_vine"
+      icon: "part_dictionary/gambeson/part_gambeson_twisted_vine"
   #slime_liquid:
   #  display_name: slimetinker
   #  permission: slimetinker
@@ -4873,6 +5162,7 @@ items:
       generate: false
       model_id: 2301609
       model_path: "part_dictionary/binding/part_binding_slime"
+      icon: "part_dictionary/binding/part_binding_slime"
   part_gambeson_slime:
     display_name: slimetinker
     permission: slimetinker
@@ -4881,6 +5171,7 @@ items:
       generate: false
       model_id: 2301610
       model_path: "part_dictionary/gambeson/part_gambeson_slime"
+      icon: "part_dictionary/gambeson/part_gambeson_slime"
   #redstone_liquid:
   #  display_name: slimetinker
   #  permission: slimetinker
@@ -4921,6 +5212,7 @@ items:
       generate: false
       model_id: 2301615
       model_path: "part_dictionary/binding/part_binding_silicon"
+      icon: "part_dictionary/binding/part_binding_silicon"
   part_gambeson_silicon:
     display_name: slimetinker
     permission: slimetinker
@@ -4929,6 +5221,7 @@ items:
       generate: false
       model_id: 2301616
       model_path: "part_dictionary/gambeson/part_gambeson_silicon"
+      icon: "part_dictionary/gambeson/part_gambeson_silicon"
   #thick_trait_prop_binding_leather:
   #  display_name: slimetinker
   #  permission: slimetinker
@@ -4953,6 +5246,7 @@ items:
       generate: false
       model_id: 2301619
       model_path: "part_dictionary/binding/part_binding_leather"
+      icon: "part_dictionary/binding/part_binding_leather"
   part_gambeson_leather:
     display_name: slimetinker
     permission: slimetinker
@@ -4961,6 +5255,7 @@ items:
       generate: false
       model_id: 2301620
       model_path: "part_dictionary/gambeson/part_gambeson_leather"
+      icon: "part_dictionary/gambeson/part_gambeson_leather"
   #ferrosilicon_liquid:
   #  display_name: slimetinker
   #  permission: slimetinker
@@ -5009,6 +5304,7 @@ items:
       generate: false
       model_id: 2301626
       model_path: "part_dictionary/sword/part_head_swordferrosilicon"
+      icon: "part_dictionary/sword/part_head_swordferrosilicon"
   part_head_hoeferrosilicon:
     display_name: slimetinker
     permission: slimetinker
@@ -5017,6 +5313,7 @@ items:
       generate: false
       model_id: 2301627
       model_path: "part_dictionary/hoe/part_head_hoeferrosilicon"
+      icon: "part_dictionary/hoe/part_head_hoeferrosilicon"
   part_head_axeferrosilicon:
     display_name: slimetinker
     permission: slimetinker
@@ -5025,6 +5322,7 @@ items:
       generate: false
       model_id: 2301628
       model_path: "part_dictionary/axe/part_head_axeferrosilicon"
+      icon: "part_dictionary/axe/part_head_axeferrosilicon"
   part_head_pickferrosilicon:
     display_name: slimetinker
     permission: slimetinker
@@ -5033,6 +5331,7 @@ items:
       generate: false
       model_id: 2301629
       model_path: "part_dictionary/pickaxe/part_head_pickferrosilicon"
+      icon: "part_dictionary/pickaxe/part_head_pickferrosilicon"
   part_head_shovelferrosilicon:
     display_name: slimetinker
     permission: slimetinker
@@ -5041,6 +5340,7 @@ items:
       generate: false
       model_id: 2301630
       model_path: "part_dictionary/shovel/part_head_shovelferrosilicon"
+      icon: "part_dictionary/shovel/part_head_shovelferrosilicon"
   part_plates_helmetferrosilicon:
     display_name: slimetinker
     permission: slimetinker
@@ -5049,6 +5349,7 @@ items:
       generate: false
       model_id: 2301631
       model_path: "part_dictionary/helmet/part_plates_helmetferrosilicon"
+      icon: "part_dictionary/helmet/part_plates_helmetferrosilicon"
   part_plates_chestplateferrosilicon:
     display_name: slimetinker
     permission: slimetinker
@@ -5057,6 +5358,7 @@ items:
       generate: false
       model_id: 2301632
       model_path: "part_dictionary/chestplate/part_plates_chestplateferrosilicon"
+      icon: "part_dictionary/chestplate/part_plates_chestplateferrosilicon"
   part_plates_leggingsferrosilicon:
     display_name: slimetinker
     permission: slimetinker
@@ -5065,6 +5367,7 @@ items:
       generate: false
       model_id: 2301633
       model_path: "part_dictionary/leggings/part_plates_leggingsferrosilicon"
+      icon: "part_dictionary/leggings/part_plates_leggingsferrosilicon"
   part_plates_bootsferrosilicon:
     display_name: slimetinker
     permission: slimetinker
@@ -5073,6 +5376,7 @@ items:
       generate: false
       model_id: 2301634
       model_path: "part_dictionary/boots/part_plates_bootsferrosilicon"
+      icon: "part_dictionary/boots/part_plates_bootsferrosilicon"
   part_links_ferrosilicon:
     display_name: slimetinker
     permission: slimetinker
@@ -5081,6 +5385,7 @@ items:
       generate: false
       model_id: 2301635
       model_path: "part_dictionary/links/part_links_ferrosilicon"
+      icon: "part_dictionary/links/part_links_ferrosilicon"
   part_repair_kit_ferrosilicon:
     display_name: slimetinker
     permission: slimetinker
@@ -5137,6 +5442,7 @@ items:
       generate: false
       model_id: 2301642
       model_path: "part_dictionary/rod/part_rod_redstone_alloy"
+      icon: "part_dictionary/rod/part_rod_redstone_alloy"
   part_plates_helmetredstone_alloy:
     display_name: slimetinker
     permission: slimetinker
@@ -5145,6 +5451,7 @@ items:
       generate: false
       model_id: 2301643
       model_path: "part_dictionary/helmet/part_plates_helmetredstone_alloy"
+      icon: "part_dictionary/helmet/part_plates_helmetredstone_alloy"
   part_plates_chestplateredstone_alloy:
     display_name: slimetinker
     permission: slimetinker
@@ -5153,6 +5460,7 @@ items:
       generate: false
       model_id: 2301644
       model_path: "part_dictionary/chestplate/part_plates_chestplateredstone_alloy"
+      icon: "part_dictionary/chestplate/part_plates_chestplateredstone_alloy"
   part_plates_leggingsredstone_alloy:
     display_name: slimetinker
     permission: slimetinker
@@ -5161,6 +5469,7 @@ items:
       generate: false
       model_id: 2301645
       model_path: "part_dictionary/leggings/part_plates_leggingsredstone_alloy"
+      icon: "part_dictionary/leggings/part_plates_leggingsredstone_alloy"
   part_plates_bootsredstone_alloy:
     display_name: slimetinker
     permission: slimetinker
@@ -5169,6 +5478,7 @@ items:
       generate: false
       model_id: 2301646
       model_path: "part_dictionary/boots/part_plates_bootsredstone_alloy"
+      icon: "part_dictionary/boots/part_plates_bootsredstone_alloy"
   part_links_redstone_alloy:
     display_name: slimetinker
     permission: slimetinker
@@ -5177,6 +5487,7 @@ items:
       generate: false
       model_id: 2301647
       model_path: "part_dictionary/links/part_links_redstone_alloy"
+      icon: "part_dictionary/links/part_links_redstone_alloy"
   part_repair_kit_redstone_alloy:
     display_name: slimetinker
     permission: slimetinker
@@ -5241,6 +5552,7 @@ items:
       generate: false
       model_id: 2301655
       model_path: "part_dictionary/sword/part_head_swordboomerite"
+      icon: "part_dictionary/sword/part_head_swordboomerite"
   part_head_hoeboomerite:
     display_name: slimetinker
     permission: slimetinker
@@ -5249,6 +5561,7 @@ items:
       generate: false
       model_id: 2301656
       model_path: "part_dictionary/hoe/part_head_hoeboomerite"
+      icon: "part_dictionary/hoe/part_head_hoeboomerite"
   part_head_axeboomerite:
     display_name: slimetinker
     permission: slimetinker
@@ -5257,6 +5570,7 @@ items:
       generate: false
       model_id: 2301657
       model_path: "part_dictionary/axe/part_head_axeboomerite"
+      icon: "part_dictionary/axe/part_head_axeboomerite"
   part_head_pickboomerite:
     display_name: slimetinker
     permission: slimetinker
@@ -5265,6 +5579,7 @@ items:
       generate: false
       model_id: 2301658
       model_path: "part_dictionary/pickaxe/part_head_pickboomerite"
+      icon: "part_dictionary/pickaxe/part_head_pickboomerite"
   part_head_shovelboomerite:
     display_name: slimetinker
     permission: slimetinker
@@ -5273,6 +5588,7 @@ items:
       generate: false
       model_id: 2301659
       model_path: "part_dictionary/shovel/part_head_shovelboomerite"
+      icon: "part_dictionary/shovel/part_head_shovelboomerite"
   part_plates_helmetboomerite:
     display_name: slimetinker
     permission: slimetinker
@@ -5281,6 +5597,7 @@ items:
       generate: false
       model_id: 2301660
       model_path: "part_dictionary/helmet/part_plates_helmetboomerite"
+      icon: "part_dictionary/helmet/part_plates_helmetboomerite"
   part_plates_chestplateboomerite:
     display_name: slimetinker
     permission: slimetinker
@@ -5289,6 +5606,7 @@ items:
       generate: false
       model_id: 2301661
       model_path: "part_dictionary/chestplate/part_plates_chestplateboomerite"
+      icon: "part_dictionary/chestplate/part_plates_chestplateboomerite"
   part_plates_leggingsboomerite:
     display_name: slimetinker
     permission: slimetinker
@@ -5297,6 +5615,7 @@ items:
       generate: false
       model_id: 2301662
       model_path: "part_dictionary/leggings/part_plates_leggingsboomerite"
+      icon: "part_dictionary/leggings/part_plates_leggingsboomerite"
   part_plates_bootsboomerite:
     display_name: slimetinker
     permission: slimetinker
@@ -5305,6 +5624,7 @@ items:
       generate: false
       model_id: 2301663
       model_path: "part_dictionary/boots/part_plates_bootsboomerite"
+      icon: "part_dictionary/boots/part_plates_bootsboomerite"
   part_repair_kit_boomerite:
     display_name: slimetinker
     permission: slimetinker
@@ -5337,6 +5657,7 @@ items:
       generate: false
       model_id: 2301667
       model_path: "part_dictionary/helmet/part_plates_helmetsefirite"
+      icon: "part_dictionary/helmet/part_plates_helmetsefirite"
   part_plates_chestplatesefirite:
     display_name: slimetinker
     permission: slimetinker
@@ -5345,6 +5666,7 @@ items:
       generate: false
       model_id: 2301668
       model_path: "part_dictionary/chestplate/part_plates_chestplatesefirite"
+      icon: "part_dictionary/chestplate/part_plates_chestplatesefirite"
   part_plates_leggingssefirite:
     display_name: slimetinker
     permission: slimetinker
@@ -5353,6 +5675,7 @@ items:
       generate: false
       model_id: 2301669
       model_path: "part_dictionary/leggings/part_plates_leggingssefirite"
+      icon: "part_dictionary/leggings/part_plates_leggingssefirite"
   part_plates_bootssefirite:
     display_name: slimetinker
     permission: slimetinker
@@ -5361,6 +5684,7 @@ items:
       generate: false
       model_id: 2301670
       model_path: "part_dictionary/boots/part_plates_bootssefirite"
+      icon: "part_dictionary/boots/part_plates_bootssefirite"
   part_repair_kit_sefirite:
     display_name: slimetinker
     permission: slimetinker
@@ -5409,6 +5733,7 @@ items:
       generate: false
       model_id: 2301676
       model_path: "part_dictionary/links/part_links_cringleium"
+      icon: "part_dictionary/links/part_links_cringleium"
   #flowing_fondness_liquid:
   #  display_name: slimetinker
   #  permission: slimetinker
@@ -5465,6 +5790,7 @@ items:
       generate: false
       model_id: 2301683
       model_path: "part_dictionary/links/part_links_liquid_love"
+      icon: "part_dictionary/links/part_links_liquid_love"
   #niceinium_liquid:
   #  display_name: slimetinker
   #  permission: slimetinker
@@ -5497,6 +5823,7 @@ items:
       generate: false
       model_id: 2301687
       model_path: "part_dictionary/sword/part_head_swordniceinium"
+      icon: "part_dictionary/sword/part_head_swordniceinium"
   part_head_hoeniceinium:
     display_name: slimetinker
     permission: slimetinker
@@ -5505,6 +5832,7 @@ items:
       generate: false
       model_id: 2301688
       model_path: "part_dictionary/hoe/part_head_hoeniceinium"
+      icon: "part_dictionary/hoe/part_head_hoeniceinium"
   part_head_axeniceinium:
     display_name: slimetinker
     permission: slimetinker
@@ -5513,6 +5841,7 @@ items:
       generate: false
       model_id: 2301689
       model_path: "part_dictionary/axe/part_head_axeniceinium"
+      icon: "part_dictionary/axe/part_head_axeniceinium"
   part_head_pickniceinium:
     display_name: slimetinker
     permission: slimetinker
@@ -5521,6 +5850,7 @@ items:
       generate: false
       model_id: 2301690
       model_path: "part_dictionary/pickaxe/part_head_pickniceinium"
+      icon: "part_dictionary/pickaxe/part_head_pickniceinium"
   part_head_shovelniceinium:
     display_name: slimetinker
     permission: slimetinker
@@ -5529,6 +5859,7 @@ items:
       generate: false
       model_id: 2301691
       model_path: "part_dictionary/shovel/part_head_shovelniceinium"
+      icon: "part_dictionary/shovel/part_head_shovelniceinium"
   part_repair_kit_niceinium:
     display_name: slimetinker
     permission: slimetinker
@@ -5593,6 +5924,7 @@ items:
       generate: false
       model_id: 2301699
       model_path: "part_dictionary/sword/part_head_swordsmithium"
+      icon: "part_dictionary/sword/part_head_swordsmithium"
   part_head_hoesmithium:
     display_name: slimetinker
     permission: slimetinker
@@ -5601,6 +5933,7 @@ items:
       generate: false
       model_id: 2301700
       model_path: "part_dictionary/hoe/part_head_hoesmithium"
+      icon: "part_dictionary/hoe/part_head_hoesmithium"
   part_head_axesmithium:
     display_name: slimetinker
     permission: slimetinker
@@ -5609,6 +5942,7 @@ items:
       generate: false
       model_id: 2301701
       model_path: "part_dictionary/axe/part_head_axesmithium"
+      icon: "part_dictionary/axe/part_head_axesmithium"
   part_head_picksmithium:
     display_name: slimetinker
     permission: slimetinker
@@ -5617,6 +5951,7 @@ items:
       generate: false
       model_id: 2301702
       model_path: "part_dictionary/pickaxe/part_head_picksmithium"
+      icon: "part_dictionary/pickaxe/part_head_picksmithium"
   part_head_shovelsmithium:
     display_name: slimetinker
     permission: slimetinker
@@ -5625,6 +5960,7 @@ items:
       generate: false
       model_id: 2301703
       model_path: "part_dictionary/shovel/part_head_shovelsmithium"
+      icon: "part_dictionary/shovel/part_head_shovelsmithium"
   part_rod_smithium:
     display_name: slimetinker
     permission: slimetinker
@@ -5633,6 +5969,7 @@ items:
       generate: false
       model_id: 2301704
       model_path: "part_dictionary/rod/part_rod_smithium"
+      icon: "part_dictionary/rod/part_rod_smithium"
   part_plates_helmetsmithium:
     display_name: slimetinker
     permission: slimetinker
@@ -5641,6 +5978,7 @@ items:
       generate: false
       model_id: 2301705
       model_path: "part_dictionary/helmet/part_plates_helmetsmithium"
+      icon: "part_dictionary/helmet/part_plates_helmetsmithium"
   part_plates_chestplatesmithium:
     display_name: slimetinker
     permission: slimetinker
@@ -5649,6 +5987,7 @@ items:
       generate: false
       model_id: 2301706
       model_path: "part_dictionary/chestplate/part_plates_chestplatesmithium"
+      icon: "part_dictionary/chestplate/part_plates_chestplatesmithium"
   part_plates_leggingssmithium:
     display_name: slimetinker
     permission: slimetinker
@@ -5657,6 +5996,7 @@ items:
       generate: false
       model_id: 2301707
       model_path: "part_dictionary/leggings/part_plates_leggingssmithium"
+      icon: "part_dictionary/leggings/part_plates_leggingssmithium"
   part_plates_bootssmithium:
     display_name: slimetinker
     permission: slimetinker
@@ -5665,6 +6005,7 @@ items:
       generate: false
       model_id: 2301708
       model_path: "part_dictionary/boots/part_plates_bootssmithium"
+      icon: "part_dictionary/boots/part_plates_bootssmithium"
   part_links_smithium:
     display_name: slimetinker
     permission: slimetinker
@@ -5673,6 +6014,7 @@ items:
       generate: false
       model_id: 2301709
       model_path: "part_dictionary/links/part_links_smithium"
+      icon: "part_dictionary/links/part_links_smithium"
   part_repair_kit_smithium:
     display_name: slimetinker
     permission: slimetinker
@@ -5713,6 +6055,7 @@ items:
       generate: false
       model_id: 2301714
       model_path: "part_dictionary/helmet/part_plates_helmetanniversarium"
+      icon: "part_dictionary/helmet/part_plates_helmetanniversarium"
   part_plates_chestplateanniversarium:
     display_name: slimetinker
     permission: slimetinker
@@ -5721,6 +6064,7 @@ items:
       generate: false
       model_id: 2301715
       model_path: "part_dictionary/chestplate/part_plates_chestplateanniversarium"
+      icon: "part_dictionary/chestplate/part_plates_chestplateanniversarium"
   part_plates_leggingsanniversarium:
     display_name: slimetinker
     permission: slimetinker
@@ -5729,6 +6073,7 @@ items:
       generate: false
       model_id: 2301716
       model_path: "part_dictionary/leggings/part_plates_leggingsanniversarium"
+      icon: "part_dictionary/leggings/part_plates_leggingsanniversarium"
   part_plates_bootsanniversarium:
     display_name: slimetinker
     permission: slimetinker
@@ -5737,6 +6082,7 @@ items:
       generate: false
       model_id: 2301717
       model_path: "part_dictionary/boots/part_plates_bootsanniversarium"
+      icon: "part_dictionary/boots/part_plates_bootsanniversarium"
   part_repair_kit_anniversarium:
     display_name: slimetinker
     permission: slimetinker

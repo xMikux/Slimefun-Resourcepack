@@ -73,6 +73,7 @@ items:
       generate: false
       model_id: 2201294
       model_path: "tools/watering_can"
+      icon: "tools/watering_can"
   scythe:
     display_name: fluffymachines
     permission: fluffymachines
@@ -209,6 +210,7 @@ items:
       generate: false
       model_id: 2201316
       model_path: "cargo/ender_chest_insertion_node"
+      icon: "cargo/ender_chest_insertion_node"
   ender_chest_extraction_node:
     display_name: fluffymachines
     permission: fluffymachines
@@ -217,6 +219,7 @@ items:
       generate: false
       model_id: 2201317
       model_path: "cargo/ender_chest_extraction_node"
+      icon: "cargo/ender_chest_extraction_node"
   dolly:
     display_name: fluffymachines
     permission: fluffymachines

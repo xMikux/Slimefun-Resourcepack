@@ -137,6 +137,7 @@ items:
       generate: false
       model_id: 2200846
       model_path: "drinks/hot_chocolate"
+      icon: "drinks/hot_chocolate"
   lemon_iced_tea:
     display_name: exotic_garden
     permission: exotic_garden
@@ -225,6 +226,7 @@ items:
       generate: false
       model_id: 2200857
       model_path: "drinks/pinacolada"
+      icon: "drinks/pinacolada"
   pineapple_juice:
     display_name: exotic_garden
     permission: exotic_garden
@@ -313,6 +315,7 @@ items:
       generate: false
       model_id: 2200868
       model_path: "drinks/sweetened_tea"
+      icon: "drinks/sweetened_tea"
   thai_tea:
     display_name: exotic_garden
     permission: exotic_garden
@@ -345,6 +348,7 @@ items:
       generate: false
       model_id: 2200872
       model_path: "foods/apple_pear_cake"
+      icon: "foods/apple_pear_cake"
   oak_apple_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -353,6 +357,7 @@ items:
       generate: false
       model_id: 2200873
       model_path: "foods/oak_apple_pie"
+      icon: "foods/oak_apple_pie"
   bacon:
     display_name: exotic_garden
     permission: exotic_garden
@@ -361,6 +366,7 @@ items:
       generate: false
       model_id: 2200874
       model_path: "foods/bacon"
+      icon: "foods/bacon"
   bacon_burger:
     display_name: exotic_garden
     permission: exotic_garden
@@ -369,6 +375,7 @@ items:
       generate: false
       model_id: 2200875
       model_path: "foods/bacon_burger"
+      icon: "foods/bacon_burger"
   bacon_cheeseburger:
     display_name: exotic_garden
     permission: exotic_garden
@@ -377,6 +384,7 @@ items:
       generate: false
       model_id: 2200876
       model_path: "foods/bacon_cheeseburger"
+      icon: "foods/bacon_cheeseburger"
   bacon_sandwich:
     display_name: exotic_garden
     permission: exotic_garden
@@ -385,6 +393,7 @@ items:
       generate: false
       model_id: 2200877
       model_path: "foods/bacon_sandwich"
+      icon: "foods/bacon_sandwich"
   bagel:
     display_name: exotic_garden
     permission: exotic_garden
@@ -393,6 +402,7 @@ items:
       generate: false
       model_id: 2200878
       model_path: "foods/bagel"
+      icon: "foods/bagel"
   biscuit:
     display_name: exotic_garden
     permission: exotic_garden
@@ -401,6 +411,7 @@ items:
       generate: false
       model_id: 2200879
       model_path: "foods/biscuit"
+      icon: "foods/biscuit"
   biscuits_gravy:
     display_name: exotic_garden
     permission: exotic_garden
@@ -409,6 +420,7 @@ items:
       generate: false
       model_id: 2200880
       model_path: "foods/biscuits_gravy"
+      icon: "foods/biscuits_gravy"
   blackberry_cobbler:
     display_name: exotic_garden
     permission: exotic_garden
@@ -417,6 +429,7 @@ items:
       generate: false
       model_id: 2200881
       model_path: "foods/blackberry_cobbler"
+      icon: "foods/blackberry_cobbler"
   blackberry_jelly_sandwich:
     display_name: exotic_garden
     permission: exotic_garden
@@ -425,6 +438,7 @@ items:
       generate: false
       model_id: 2200882
       model_path: "foods/blackberry_jelly_sandwich"
+      icon: "foods/blackberry_jelly_sandwich"
   blackberry_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -433,6 +447,7 @@ items:
       generate: false
       model_id: 2200883
       model_path: "foods/blackberry_pie"
+      icon: "foods/blackberry_pie"
   blt:
     display_name: exotic_garden
     permission: exotic_garden
@@ -441,6 +456,7 @@ items:
       generate: false
       model_id: 2200884
       model_path: "foods/blt"
+      icon: "foods/blt"
   blueberry_cheesecake:
     display_name: exotic_garden
     permission: exotic_garden
@@ -449,6 +465,7 @@ items:
       generate: false
       model_id: 2200885
       model_path: "foods/blueberry_cheesecake"
+      icon: "foods/blueberry_cheesecake"
   blueberry_jelly_sandwich:
     display_name: exotic_garden
     permission: exotic_garden
@@ -457,6 +474,7 @@ items:
       generate: false
       model_id: 2200886
       model_path: "foods/blueberry_jelly_sandwich"
+      icon: "foods/blueberry_jelly_sandwich"
   blueberry_muffin:
     display_name: exotic_garden
     permission: exotic_garden
@@ -465,6 +483,7 @@ items:
       generate: false
       model_id: 2200887
       model_path: "foods/blueberry_muffin"
+      icon: "foods/blueberry_muffin"
   blueberry_pancakes:
     display_name: exotic_garden
     permission: exotic_garden
@@ -473,6 +492,7 @@ items:
       generate: false
       model_id: 2200888
       model_path: "foods/blueberry_pancakes"
+      icon: "foods/blueberry_pancakes"
   blueberry_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -481,6 +501,7 @@ items:
       generate: false
       model_id: 2200889
       model_path: "foods/blueberry_pie"
+      icon: "foods/blueberry_pie"
   boston_cream_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -489,6 +510,7 @@ items:
       generate: false
       model_id: 2200890
       model_path: "foods/boston_cream_pie"
+      icon: "foods/boston_cream_pie"
   burrito:
     display_name: exotic_garden
     permission: exotic_garden
@@ -497,6 +519,7 @@ items:
       generate: false
       model_id: 2200891
       model_path: "foods/burrito"
+      icon: "foods/burrito"
   carrot_cake:
     display_name: exotic_garden
     permission: exotic_garden
@@ -505,6 +528,7 @@ items:
       generate: false
       model_id: 2200892
       model_path: "foods/carrot_cake"
+      icon: "foods/carrot_cake"
   cheeseburger:
     display_name: exotic_garden
     permission: exotic_garden
@@ -513,6 +537,7 @@ items:
       generate: false
       model_id: 2200893
       model_path: "foods/cheeseburger"
+      icon: "foods/cheeseburger"
   cheesecake:
     display_name: exotic_garden
     permission: exotic_garden
@@ -521,6 +546,7 @@ items:
       generate: false
       model_id: 2200894
       model_path: "foods/cheesecake"
+      icon: "foods/cheesecake"
   cherry_cheesecake:
     display_name: exotic_garden
     permission: exotic_garden
@@ -529,6 +555,7 @@ items:
       generate: false
       model_id: 2200895
       model_path: "foods/cherry_cheesecake"
+      icon: "foods/cherry_cheesecake"
   cherry_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -537,6 +564,7 @@ items:
       generate: false
       model_id: 2200896
       model_path: "foods/cherry_pie"
+      icon: "foods/cherry_pie"
   chicken_burrito:
     display_name: exotic_garden
     permission: exotic_garden
@@ -545,6 +573,7 @@ items:
       generate: false
       model_id: 2200897
       model_path: "foods/chicken_burrito"
+      icon: "foods/chicken_burrito"
   chicken_cheeseburger:
     display_name: exotic_garden
     permission: exotic_garden
@@ -553,6 +582,7 @@ items:
       generate: false
       model_id: 2200898
       model_path: "foods/chicken_cheeseburger"
+      icon: "foods/chicken_cheeseburger"
   chicken_curry:
     display_name: exotic_garden
     permission: exotic_garden
@@ -561,6 +591,7 @@ items:
       generate: false
       model_id: 2200899
       model_path: "foods/chicken_curry"
+      icon: "foods/chicken_curry"
   chicken_pot_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -569,6 +600,7 @@ items:
       generate: false
       model_id: 2200900
       model_path: "foods/chicken_pot_pie"
+      icon: "foods/chicken_pot_pie"
   chicken_sandwich:
     display_name: exotic_garden
     permission: exotic_garden
@@ -577,6 +609,7 @@ items:
       generate: false
       model_id: 2200901
       model_path: "foods/chicken_sandwich"
+      icon: "foods/chicken_sandwich"
   chicken_burger:
     display_name: exotic_garden
     permission: exotic_garden
@@ -585,6 +618,7 @@ items:
       generate: false
       model_id: 2200902
       model_path: "foods/chicken_burger"
+      icon: "foods/chicken_burger"
   chocolate_bar:
     display_name: exotic_garden
     permission: exotic_garden
@@ -593,6 +627,7 @@ items:
       generate: false
       model_id: 2200903
       model_path: "foods/chocolate_bar"
+      icon: "foods/chocolate_bar"
   chocolate_cake:
     display_name: exotic_garden
     permission: exotic_garden
@@ -601,6 +636,7 @@ items:
       generate: false
       model_id: 2200904
       model_path: "foods/chocolate_cake"
+      icon: "foods/chocolate_cake"
   chocolate_chip_muffin:
     display_name: exotic_garden
     permission: exotic_garden
@@ -609,6 +645,7 @@ items:
       generate: false
       model_id: 2200905
       model_path: "foods/chocolate_chip_muffin"
+      icon: "foods/chocolate_chip_muffin"
   chocolate_pear_cake:
     display_name: exotic_garden
     permission: exotic_garden
@@ -617,6 +654,7 @@ items:
       generate: false
       model_id: 2200906
       model_path: "foods/chocolate_pear_cake"
+      icon: "foods/chocolate_pear_cake"
   chocolate_strawberry:
     display_name: exotic_garden
     permission: exotic_garden
@@ -625,6 +663,7 @@ items:
       generate: false
       model_id: 2200907
       model_path: "foods/chocolate_strawberry"
+      icon: "foods/chocolate_strawberry"
   club_sandwich:
     display_name: exotic_garden
     permission: exotic_garden
@@ -633,6 +672,7 @@ items:
       generate: false
       model_id: 2200908
       model_path: "foods/club_sandwich"
+      icon: "foods/club_sandwich"
   coconut_chicken_curry:
     display_name: exotic_garden
     permission: exotic_garden
@@ -641,6 +681,7 @@ items:
       generate: false
       model_id: 2200909
       model_path: "foods/coconut_chicken_curry"
+      icon: "foods/coconut_chicken_curry"
   corn_on_the_cob:
     display_name: exotic_garden
     permission: exotic_garden
@@ -657,6 +698,7 @@ items:
       generate: false
       model_id: 2200911
       model_path: "foods/cowberry_jelly_sandwich"
+      icon: "foods/cowberry_jelly_sandwich"
   cowberry_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -665,6 +707,7 @@ items:
       generate: false
       model_id: 2200912
       model_path: "foods/cowberry_pie"
+      icon: "foods/cowberry_pie"
   cranberry_jelly_sandwich:
     display_name: exotic_garden
     permission: exotic_garden
@@ -673,6 +716,7 @@ items:
       generate: false
       model_id: 2200913
       model_path: "foods/cranberry_jelly_sandwich"
+      icon: "foods/cranberry_jelly_sandwich"
   cranberry_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -681,6 +725,7 @@ items:
       generate: false
       model_id: 2200914
       model_path: "foods/cranberry_pie"
+      icon: "foods/cranberry_pie"
   cream_cookie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -689,6 +734,7 @@ items:
       generate: false
       model_id: 2200915
       model_path: "foods/cream_cookie"
+      icon: "foods/cream_cookie"
   creamed_corn:
     display_name: exotic_garden
     permission: exotic_garden
@@ -697,6 +743,7 @@ items:
       generate: false
       model_id: 2200916
       model_path: "foods/creamed_corn"
+      icon: "foods/creamed_corn"
   deluxe_cheeseburger:
     display_name: exotic_garden
     permission: exotic_garden
@@ -705,6 +752,7 @@ items:
       generate: false
       model_id: 2200917
       model_path: "foods/deluxe_cheeseburger"
+      icon: "foods/deluxe_cheeseburger"
   dragon_fruit_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -713,6 +761,7 @@ items:
       generate: false
       model_id: 2200918
       model_path: "foods/dragon_fruit_pie"
+      icon: "foods/dragon_fruit_pie"
   egg_salad:
     display_name: exotic_garden
     permission: exotic_garden
@@ -721,6 +770,7 @@ items:
       generate: false
       model_id: 2200919
       model_path: "foods/egg_salad"
+      icon: "foods/egg_salad"
   elderberry_sandwich:
     display_name: exotic_garden
     permission: exotic_garden
@@ -729,6 +779,7 @@ items:
       generate: false
       model_id: 2200920
       model_path: "foods/elderberry_sandwich"
+      icon: "foods/elderberry_sandwich"
   elderberry_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -737,6 +788,7 @@ items:
       generate: false
       model_id: 2200921
       model_path: "foods/elderberry_pie"
+      icon: "foods/elderberry_pie"
   fish_sandwich:
     display_name: exotic_garden
     permission: exotic_garden
@@ -745,6 +797,7 @@ items:
       generate: false
       model_id: 2200922
       model_path: "foods/fish_sandwich"
+      icon: "foods/fish_sandwich"
   fish_taco:
     display_name: exotic_garden
     permission: exotic_garden
@@ -753,6 +806,7 @@ items:
       generate: false
       model_id: 2200923
       model_path: "foods/fish_taco"
+      icon: "foods/fish_taco"
   fries:
     display_name: exotic_garden
     permission: exotic_garden
@@ -761,6 +815,7 @@ items:
       generate: false
       model_id: 2200924
       model_path: "foods/fries"
+      icon: "foods/fries"
   garlic_bread:
     display_name: exotic_garden
     permission: exotic_garden
@@ -769,6 +824,7 @@ items:
       generate: false
       model_id: 2200925
       model_path: "foods/garlic_bread"
+      icon: "foods/garlic_bread"
   garlic_cheese_bread:
     display_name: exotic_garden
     permission: exotic_garden
@@ -777,6 +833,7 @@ items:
       generate: false
       model_id: 2200926
       model_path: "foods/garlic_cheese_bread"
+      icon: "foods/garlic_cheese_bread"
   grape_jelly_sandwich:
     display_name: exotic_garden
     permission: exotic_garden
@@ -785,6 +842,7 @@ items:
       generate: false
       model_id: 2200927
       model_path: "foods/grape_jelly_sandwich"
+      icon: "foods/grape_jelly_sandwich"
   grape_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -793,6 +851,7 @@ items:
       generate: false
       model_id: 2200928
       model_path: "foods/grape_pie"
+      icon: "foods/grape_pie"
   grape_salad:
     display_name: exotic_garden
     permission: exotic_garden
@@ -801,6 +860,7 @@ items:
       generate: false
       model_id: 2200929
       model_path: "foods/grape_salad"
+      icon: "foods/grape_salad"
   grilled_sandwich:
     display_name: exotic_garden
     permission: exotic_garden
@@ -809,6 +869,7 @@ items:
       generate: false
       model_id: 2200930
       model_path: "foods/grilled_sandwich"
+      icon: "foods/grilled_sandwich"
   hamburger:
     display_name: exotic_garden
     permission: exotic_garden
@@ -817,6 +878,7 @@ items:
       generate: false
       model_id: 2200931
       model_path: "foods/hamburger"
+      icon: "foods/hamburger"
   hot_dog:
     display_name: exotic_garden
     permission: exotic_garden
@@ -825,6 +887,7 @@ items:
       generate: false
       model_id: 2200932
       model_path: "foods/hot_dog"
+      icon: "foods/hot_dog"
   bacon_wrapped_cheese_filled_hot_dog:
     display_name: exotic_garden
     permission: exotic_garden
@@ -833,6 +896,7 @@ items:
       generate: false
       model_id: 2200933
       model_path: "foods/bacon_wrapped_cheese_filled_hot_dog"
+      icon: "foods/bacon_wrapped_cheese_filled_hot_dog"
   bbq_bacon_wrapped_hot_dog:
     display_name: exotic_garden
     permission: exotic_garden
@@ -841,6 +905,7 @@ items:
       generate: false
       model_id: 2200934
       model_path: "foods/bbq_bacon_wrapped_hot_dog"
+      icon: "foods/bbq_bacon_wrapped_hot_dog"
   bbq_double_bacon_wrapped_hot_dog_in_a_tortilla_with_cheese:
     display_name: exotic_garden
     permission: exotic_garden
@@ -849,6 +914,7 @@ items:
       generate: false
       model_id: 2200935
       model_path: "foods/bbq_double_bacon_wrapped_hot_dog_in_a_tortilla_with_cheese"
+      icon: "foods/bbq_double_bacon_wrapped_hot_dog_in_a_tortilla_with_cheese"
   ice_cream:
     display_name: exotic_garden
     permission: exotic_garden
@@ -857,6 +923,7 @@ items:
       generate: false
       model_id: 2200936
       model_path: "foods/ice_cream"
+      icon: "foods/ice_cream"
   jammy_dodger:
     display_name: exotic_garden
     permission: exotic_garden
@@ -865,6 +932,7 @@ items:
       generate: false
       model_id: 2200937
       model_path: "foods/jammy_dodger"
+      icon: "foods/jammy_dodger"
   lamington:
     display_name: exotic_garden
     permission: exotic_garden
@@ -873,6 +941,7 @@ items:
       generate: false
       model_id: 2200938
       model_path: "foods/lamington"
+      icon: "foods/lamington"
   lasagna:
     display_name: exotic_garden
     permission: exotic_garden
@@ -881,6 +950,7 @@ items:
       generate: false
       model_id: 2200939
       model_path: "foods/lasagna"
+      icon: "foods/lasagna"
   leafy_chicken_sandwich:
     display_name: exotic_garden
     permission: exotic_garden
@@ -889,6 +959,7 @@ items:
       generate: false
       model_id: 2200940
       model_path: "foods/leafy_chicken_sandwich"
+      icon: "foods/leafy_chicken_sandwich"
   leafy_fish_sandwich:
     display_name: exotic_garden
     permission: exotic_garden
@@ -897,6 +968,7 @@ items:
       generate: false
       model_id: 2200941
       model_path: "foods/leafy_fish_sandwich"
+      icon: "foods/leafy_fish_sandwich"
   lemon_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -905,6 +977,7 @@ items:
       generate: false
       model_id: 2200942
       model_path: "foods/lemon_pie"
+      icon: "foods/lemon_pie"
   lime_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -913,6 +986,7 @@ items:
       generate: false
       model_id: 2200943
       model_path: "foods/lime_pie"
+      icon: "foods/lime_pie"
   orange_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -921,6 +995,7 @@ items:
       generate: false
       model_id: 2200944
       model_path: "foods/orange_pie"
+      icon: "foods/orange_pie"
   pancakes:
     display_name: exotic_garden
     permission: exotic_garden
@@ -929,6 +1004,7 @@ items:
       generate: false
       model_id: 2200945
       model_path: "foods/pancakes"
+      icon: "foods/pancakes"
   pavlova:
     display_name: exotic_garden
     permission: exotic_garden
@@ -937,6 +1013,7 @@ items:
       generate: false
       model_id: 2200946
       model_path: "foods/pavlova"
+      icon: "foods/pavlova"
   peach_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -945,6 +1022,7 @@ items:
       generate: false
       model_id: 2200947
       model_path: "foods/peach_pie"
+      icon: "foods/peach_pie"
   pear_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -953,6 +1031,7 @@ items:
       generate: false
       model_id: 2200948
       model_path: "foods/pear_pie"
+      icon: "foods/pear_pie"
   plum_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -961,6 +1040,7 @@ items:
       generate: false
       model_id: 2200949
       model_path: "foods/plum_pie"
+      icon: "foods/plum_pie"
   pomegranate_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -969,6 +1049,7 @@ items:
       generate: false
       model_id: 2200950
       model_path: "foods/pomegranate_pie"
+      icon: "foods/pomegranate_pie"
   popcorn:
     display_name: exotic_garden
     permission: exotic_garden
@@ -977,6 +1058,7 @@ items:
       generate: false
       model_id: 2200951
       model_path: "foods/popcorn"
+      icon: "foods/popcorn"
   salty_popcorn:
     display_name: exotic_garden
     permission: exotic_garden
@@ -985,6 +1067,7 @@ items:
       generate: false
       model_id: 2200952
       model_path: "foods/salty_popcorn"
+      icon: "foods/salty_popcorn"
   sweet_popcorn:
     display_name: exotic_garden
     permission: exotic_garden
@@ -993,6 +1076,7 @@ items:
       generate: false
       model_id: 2200953
       model_path: "foods/sweet_popcorn"
+      icon: "foods/sweet_popcorn"
   potato_salad:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1001,6 +1085,7 @@ items:
       generate: false
       model_id: 2200954
       model_path: "foods/potato_salad"
+      icon: "foods/potato_salad"
   pumpkin_bread:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1009,6 +1094,7 @@ items:
       generate: false
       model_id: 2200955
       model_path: "foods/pumpkin_bread"
+      icon: "foods/pumpkin_bread"
   pumpkin_cheesecake:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1017,6 +1103,7 @@ items:
       generate: false
       model_id: 2200956
       model_path: "foods/pumpkin_cheesecake"
+      icon: "foods/pumpkin_cheesecake"
   pumpkin_muffin:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1025,6 +1112,7 @@ items:
       generate: false
       model_id: 2200957
       model_path: "foods/pumpkin_muffin"
+      icon: "foods/pumpkin_muffin"
   raspberry_jelly_sandwich:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1033,6 +1121,7 @@ items:
       generate: false
       model_id: 2200958
       model_path: "foods/raspberry_jelly_sandwich"
+      icon: "foods/raspberry_jelly_sandwich"
   raspberry_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1041,6 +1130,7 @@ items:
       generate: false
       model_id: 2200959
       model_path: "foods/raspberry_pie"
+      icon: "foods/raspberry_pie"
   sandwich:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1049,6 +1139,7 @@ items:
       generate: false
       model_id: 2200960
       model_path: "foods/sandwich"
+      icon: "foods/sandwich"
   shepards_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1057,6 +1148,7 @@ items:
       generate: false
       model_id: 2200961
       model_path: "foods/shepards_pie"
+      icon: "foods/shepards_pie"
   strawberry_jelly_sandwich:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1065,6 +1157,7 @@ items:
       generate: false
       model_id: 2200962
       model_path: "foods/strawberry_jelly_sandwich"
+      icon: "foods/strawberry_jelly_sandwich"
   strawberry_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1073,6 +1166,7 @@ items:
       generate: false
       model_id: 2200963
       model_path: "foods/strawberry_pie"
+      icon: "foods/strawberry_pie"
   strawberry_salad:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1081,6 +1175,7 @@ items:
       generate: false
       model_id: 2200964
       model_path: "foods/strawberry_salad"
+      icon: "foods/strawberry_salad"
   sweet_berry_pancakes:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1089,6 +1184,7 @@ items:
       generate: false
       model_id: 2200965
       model_path: "foods/sweet_berry_pancakes"
+      icon: "foods/sweet_berry_pancakes"
   sweetened_pear_cheesecake:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1097,6 +1193,7 @@ items:
       generate: false
       model_id: 2200966
       model_path: "foods/sweetened_pear_cheesecake"
+      icon: "foods/sweetened_pear_cheesecake"
   taco:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1105,6 +1202,7 @@ items:
       generate: false
       model_id: 2200967
       model_path: "foods/taco"
+      icon: "foods/taco"
   tiramisu:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1113,6 +1211,7 @@ items:
       generate: false
       model_id: 2200968
       model_path: "foods/tiramisu"
+      icon: "foods/tiramisu"
   tiramisu_with_blackberries:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1121,6 +1220,7 @@ items:
       generate: false
       model_id: 2200969
       model_path: "foods/tiramisu_with_blackberries"
+      icon: "foods/tiramisu_with_blackberries"
   tiramisu_with_raspberries:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1129,6 +1229,7 @@ items:
       generate: false
       model_id: 2200970
       model_path: "foods/tiramisu_with_raspberries"
+      icon: "foods/tiramisu_with_raspberries"
   tiramisu_with_strawberries:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1137,6 +1238,7 @@ items:
       generate: false
       model_id: 2200971
       model_path: "foods/tiramisu_with_strawberries"
+      icon: "foods/tiramisu_with_strawberries"
   tomato_soup:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1145,6 +1247,7 @@ items:
       generate: false
       model_id: 2200972
       model_path: "foods/tomato_soup"
+      icon: "foods/tomato_soup"
   waffles:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1153,6 +1256,7 @@ items:
       generate: false
       model_id: 2200973
       model_path: "foods/waffles"
+      icon: "foods/waffles"
   oak_apple:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1161,6 +1265,7 @@ items:
       generate: false
       model_id: 2200974
       model_path: "fruits/oak_apple"
+      icon: "fruits/oak_apple"
   oak_apple_sapling:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1177,6 +1282,7 @@ items:
       generate: false
       model_id: 2200976
       model_path: "fruits/black_pepper"
+      icon: "fruits/black_pepper"
   black_pepper_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1193,6 +1299,7 @@ items:
       generate: false
       model_id: 2200978
       model_path: "fruits/blackberry"
+      icon: "fruits/blackberry"
   blackberry_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1209,6 +1316,7 @@ items:
       generate: false
       model_id: 2200980
       model_path: "fruits/blueberry"
+      icon: "fruits/blueberry"
   blueberry_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1225,6 +1333,7 @@ items:
       generate: false
       model_id: 2200982
       model_path: "fruits/cabbage"
+      icon: "fruits/cabbage"
   cabbage_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1241,6 +1350,7 @@ items:
       generate: false
       model_id: 2200984
       model_path: "fruits/cherry"
+      icon: "fruits/cherry"
   cherry_sapling:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1257,6 +1367,7 @@ items:
       generate: false
       model_id: 2200986
       model_path: "fruits/cilantro"
+      icon: "fruits/cilantro"
   cilantro_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1273,6 +1384,7 @@ items:
       generate: false
       model_id: 2200988
       model_path: "fruits/coconut"
+      icon: "fruits/coconut"
   coconut_sapling:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1289,6 +1401,7 @@ items:
       generate: false
       model_id: 2200990
       model_path: "fruits/corn"
+      icon: "fruits/corn"
   corn_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1305,6 +1418,7 @@ items:
       generate: false
       model_id: 2200992
       model_path: "fruits/cowberry"
+      icon: "fruits/cowberry"
   cowberry_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1321,6 +1435,7 @@ items:
       generate: false
       model_id: 2200994
       model_path: "fruits/cranberry"
+      icon: "fruits/cranberry"
   cranberry_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1337,6 +1452,7 @@ items:
       generate: false
       model_id: 2200996
       model_path: "fruits/curry_leaf"
+      icon: "fruits/curry_leaf"
   curry_leaf_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1353,6 +1469,7 @@ items:
       generate: false
       model_id: 2200998
       model_path: "fruits/dragon_fruit"
+      icon: "fruits/dragon_fruit"
   dragon_fruit_sapling:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1369,6 +1486,7 @@ items:
       generate: false
       model_id: 2201000
       model_path: "fruits/elderberry"
+      icon: "fruits/elderberry"
   elderberry_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1385,6 +1503,7 @@ items:
       generate: false
       model_id: 2201002
       model_path: "fruits/garlic"
+      icon: "fruits/garlic"
   garlic_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1401,6 +1520,7 @@ items:
       generate: false
       model_id: 2201004
       model_path: "fruits/grape"
+      icon: "fruits/grape"
   grape_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1425,6 +1545,7 @@ items:
       generate: false
       model_id: 2201007
       model_path: "fruits/lemon"
+      icon: "fruits/lemon"
   lemon_sapling:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1441,6 +1562,7 @@ items:
       generate: false
       model_id: 2201009
       model_path: "fruits/lettuce"
+      icon: "fruits/lettuce"
   lettuce_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1457,6 +1579,7 @@ items:
       generate: false
       model_id: 2201011
       model_path: "fruits/lime"
+      icon: "fruits/lime"
   lime_sapling:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1473,6 +1596,7 @@ items:
       generate: false
       model_id: 2201013
       model_path: "fruits/mustard_seed"
+      icon: "fruits/mustard_seed"
   mustard_seed_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1489,6 +1613,7 @@ items:
       generate: false
       model_id: 2201015
       model_path: "fruits/onion"
+      icon: "fruits/onion"
   onion_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1505,6 +1630,7 @@ items:
       generate: false
       model_id: 2201017
       model_path: "fruits/orange"
+      icon: "fruits/orange"
   orange_sapling:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1521,6 +1647,7 @@ items:
       generate: false
       model_id: 2201019
       model_path: "fruits/peach"
+      icon: "fruits/peach"
   peach_sapling:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1537,6 +1664,7 @@ items:
       generate: false
       model_id: 2201021
       model_path: "fruits/pear"
+      icon: "fruits/pear"
   pear_sapling:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1553,6 +1681,7 @@ items:
       generate: false
       model_id: 2201023
       model_path: "fruits/pineapple"
+      icon: "fruits/pineapple"
   pineapple_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1569,6 +1698,7 @@ items:
       generate: false
       model_id: 2201025
       model_path: "fruits/plum"
+      icon: "fruits/plum"
   plum_sapling:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1585,6 +1715,7 @@ items:
       generate: false
       model_id: 2201027
       model_path: "fruits/pomegranate"
+      icon: "fruits/pomegranate"
   pomegranate_sapling:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1601,6 +1732,7 @@ items:
       generate: false
       model_id: 2201029
       model_path: "fruits/raspberry"
+      icon: "fruits/raspberry"
   raspberry_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1617,6 +1749,7 @@ items:
       generate: false
       model_id: 2201031
       model_path: "fruits/strawberry"
+      icon: "fruits/strawberry"
   strawberry_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1633,6 +1766,7 @@ items:
       generate: false
       model_id: 2201033
       model_path: "fruits/sweet_potato"
+      icon: "fruits/sweet_potato"
   sweet_potato_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1649,6 +1783,7 @@ items:
       generate: false
       model_id: 2201035
       model_path: "fruits/tea_leaf"
+      icon: "fruits/tea_leaf"
   tea_leaf_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1665,6 +1800,7 @@ items:
       generate: false
       model_id: 2201037
       model_path: "fruits/tomato"
+      icon: "fruits/tomato"
   tomato_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1969,6 +2105,7 @@ items:
       generate: false
       model_id: 2201075
       model_path: "misc/ice_cube"
+      icon: "misc/ice_cube"
   mayo:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1977,6 +2114,7 @@ items:
       generate: false
       model_id: 2201076
       model_path: "misc/mayo"
+      icon: "misc/mayo"
   mustard:
     display_name: exotic_garden
     permission: exotic_garden
@@ -1985,6 +2123,7 @@ items:
       generate: false
       model_id: 2201077
       model_path: "misc/mustard"
+      icon: "misc/mustard"
   kitchen:
     display_name: exotic_garden
     permission: exotic_garden
@@ -2001,6 +2140,7 @@ items:
       generate: false
       model_id: 2201079
       model_path: "misc/bbq_sauce"
+      icon: "misc/bbq_sauce"
   vegetable_oil:
     display_name: exotic_garden
     permission: exotic_garden
@@ -2009,6 +2149,7 @@ items:
       generate: false
       model_id: 2201080
       model_path: "misc/vegetable_oil"
+      icon: "misc/vegetable_oil"
   yeast:
     display_name: exotic_garden
     permission: exotic_garden
@@ -2017,6 +2158,7 @@ items:
       generate: false
       model_id: 2201081
       model_path: "misc/yeast"
+      icon: "misc/yeast"
   molasses:
     display_name: exotic_garden
     permission: exotic_garden
@@ -2025,6 +2167,7 @@ items:
       generate: false
       model_id: 2201082
       model_path: "misc/molasses"
+      icon: "misc/molasses"
   brown_sugar:
     display_name: exotic_garden
     permission: exotic_garden
@@ -2033,6 +2176,7 @@ items:
       generate: false
       model_id: 2201083
       model_path: "misc/brown_sugar"
+      icon: "misc/brown_sugar"
   country_gravy:
     display_name: exotic_garden
     permission: exotic_garden
@@ -2041,6 +2185,7 @@ items:
       generate: false
       model_id: 2201084
       model_path: "misc/country_gravy"
+      icon: "misc/country_gravy"
   red_bell_pepper_bush:
     display_name: exotic_garden
     permission: exotic_garden
@@ -2057,6 +2202,7 @@ items:
       generate: false
       model_id: 2201086
       model_path: "fruits/red_bell_pepper"
+      icon: "fruits/red_bell_pepper"
   elderberry_jelly_sandwich:
     display_name: exotic_garden
     permission: exotic_garden
@@ -2065,6 +2211,7 @@ items:
       generate: false
       model_id: 2201087
       model_path: "foods/elderberry_jelly_sandwich"
+      icon: "foods/elderberry_jelly_sandwich"
   street_taco:
     display_name: exotic_garden
     permission: exotic_garden
@@ -2073,6 +2220,7 @@ items:
       generate: false
       model_id: 2201088
       model_path: "foods/street_taco"
+      icon: "foods/street_taco"
   sweet_potato_pie:
     display_name: exotic_garden
     permission: exotic_garden
@@ -2081,6 +2229,7 @@ items:
       generate: false
       model_id: 2201089
       model_path: "foods/sweet_potato_pie"
+      icon: "foods/sweet_potato_pie"
   stuffed_red_bell_pepper:
     display_name: exotic_garden
     permission: exotic_garden
@@ -2089,6 +2238,7 @@ items:
       generate: false
       model_id: 2201090
       model_path: "foods/stuffed_red_bell_pepper"
+      icon: "foods/stuffed_red_bell_pepper"
   dirt_plant:
     display_name: exotic_garden
     permission: exotic_garden

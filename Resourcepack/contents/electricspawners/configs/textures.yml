@@ -9,6 +9,7 @@ items:
       generate: false
       model_id: 2300401
       model_path: "electric_spawner_blaze"
+      icon: "electric_spawner_blaze"
   electric_spawner_cave_spider:
     display_name: electricspawners
     permission: electricspawners
@@ -17,6 +18,7 @@ items:
       generate: false
       model_id: 2300402
       model_path: "electric_spawner_cave_spider"
+      icon: "electric_spawner_cave_spider"
   electric_spawner_chicken:
     display_name: electricspawners
     permission: electricspawners
@@ -25,6 +27,7 @@ items:
       generate: false
       model_id: 2300403
       model_path: "electric_spawner_chicken"
+      icon: "electric_spawner_chicken"
   electric_spawner_cow:
     display_name: electricspawners
     permission: electricspawners
@@ -33,6 +36,7 @@ items:
       generate: false
       model_id: 2300404
       model_path: "electric_spawner_cow"
+      icon: "electric_spawner_cow"
   electric_spawner_creeper:
     display_name: electricspawners
     permission: electricspawners
@@ -41,6 +45,7 @@ items:
       generate: false
       model_id: 2300405
       model_path: "electric_spawner_creeper"
+      icon: "electric_spawner_creeper"
   electric_spawner_enderman:
     display_name: electricspawners
     permission: electricspawners
@@ -49,6 +54,7 @@ items:
       generate: false
       model_id: 2300406
       model_path: "electric_spawner_enderman"
+      icon: "electric_spawner_enderman"
   electric_spawner_endermite:
     display_name: electricspawners
     permission: electricspawners
@@ -57,6 +63,7 @@ items:
       generate: false
       model_id: 2300407
       model_path: "electric_spawner_endermite"
+      icon: "electric_spawner_endermite"
   electric_spawner_ghast:
     display_name: electricspawners
     permission: electricspawners
@@ -65,6 +72,7 @@ items:
       generate: false
       model_id: 2300408
       model_path: "electric_spawner_ghast"
+      icon: "electric_spawner_ghast"
   electric_spawner_guardian:
     display_name: electricspawners
     permission: electricspawners
@@ -73,6 +81,7 @@ items:
       generate: false
       model_id: 2300409
       model_path: "electric_spawner_guardian"
+      icon: "electric_spawner_guardian"
   electric_spawner_horse:
     display_name: electricspawners
     permission: electricspawners
@@ -81,6 +90,7 @@ items:
       generate: false
       model_id: 2300410
       model_path: "electric_spawner_horse"
+      icon: "electric_spawner_horse"
   electric_spawner_iron_golem:
     display_name: electricspawners
     permission: electricspawners
@@ -89,6 +99,7 @@ items:
       generate: false
       model_id: 2300411
       model_path: "electric_spawner_iron_golem"
+      icon: "electric_spawner_iron_golem"
   electric_spawner_magma_cube:
     display_name: electricspawners
     permission: electricspawners
@@ -97,6 +108,7 @@ items:
       generate: false
       model_id: 2300412
       model_path: "electric_spawner_magma_cube"
+      icon: "electric_spawner_magma_cube"
   electric_spawner_mushroom_cow:
     display_name: electricspawners
     permission: electricspawners
@@ -105,6 +117,7 @@ items:
       generate: false
       model_id: 2300413
       model_path: "electric_spawner_mushroom_cow"
+      icon: "electric_spawner_mushroom_cow"
   electric_spawner_ocelot:
     display_name: electricspawners
     permission: electricspawners
@@ -113,6 +126,7 @@ items:
       generate: false
       model_id: 2300414
       model_path: "electric_spawner_ocelot"
+      icon: "electric_spawner_ocelot"
   electric_spawner_pig:
     display_name: electricspawners
     permission: electricspawners
@@ -121,6 +135,7 @@ items:
       generate: false
       model_id: 2300415
       model_path: "electric_spawner_pig"
+      icon: "electric_spawner_pig"
   electric_spawner_rabbit:
     display_name: electricspawners
     permission: electricspawners
@@ -129,6 +144,7 @@ items:
       generate: false
       model_id: 2300416
       model_path: "electric_spawner_rabbit"
+      icon: "electric_spawner_rabbit"
   electric_spawner_sheep:
     display_name: electricspawners
     permission: electricspawners
@@ -137,6 +153,7 @@ items:
       generate: false
       model_id: 2300417
       model_path: "electric_spawner_sheep"
+      icon: "electric_spawner_sheep"
   electric_spawner_silverfish:
     display_name: electricspawners
     permission: electricspawners
@@ -145,6 +162,7 @@ items:
       generate: false
       model_id: 2300418
       model_path: "electric_spawner_silverfish"
+      icon: "electric_spawner_silverfish"
   electric_spawner_skeleton:
     display_name: electricspawners
     permission: electricspawners
@@ -153,6 +171,7 @@ items:
       generate: false
       model_id: 2300419
       model_path: "electric_spawner_skeleton"
+      icon: "electric_spawner_skeleton"
   electric_spawner_slime:
     display_name: electricspawners
     permission: electricspawners
@@ -161,6 +180,7 @@ items:
       generate: false
       model_id: 2300420
       model_path: "electric_spawner_slime"
+      icon: "electric_spawner_slime"
   electric_spawner_spider:
     display_name: electricspawners
     permission: electricspawners
@@ -169,6 +189,7 @@ items:
       generate: false
       model_id: 2300421
       model_path: "electric_spawner_spider"
+      icon: "electric_spawner_spider"
   electric_spawner_squid:
     display_name: electricspawners
     permission: electricspawners
@@ -177,6 +198,7 @@ items:
       generate: false
       model_id: 2300422
       model_path: "electric_spawner_squid"
+      icon: "electric_spawner_squid"
   electric_spawner_villager:
     display_name: electricspawners
     permission: electricspawners
@@ -185,6 +207,7 @@ items:
       generate: false
       model_id: 2300423
       model_path: "electric_spawner_villager"
+      icon: "electric_spawner_villager"
   electric_spawner_wither_skeleton:
     display_name: electricspawners
     permission: electricspawners
@@ -193,6 +216,7 @@ items:
       generate: false
       model_id: 2300424
       model_path: "electric_spawner_wither_skeleton"
+      icon: "electric_spawner_wither_skeleton"
   electric_spawner_witch:
     display_name: electricspawners
     permission: electricspawners
@@ -201,6 +225,7 @@ items:
       generate: false
       model_id: 2300425
       model_path: "electric_spawner_witch"
+      icon: "electric_spawner_witch"
   electric_spawner_wolf:
     display_name: electricspawners
     permission: electricspawners
@@ -209,6 +234,7 @@ items:
       generate: false
       model_id: 2300426
       model_path: "electric_spawner_wolf"
+      icon: "electric_spawner_wolf"
   electric_spawner_zombie:
     display_name: electricspawners
     permission: electricspawners
@@ -217,3 +243,4 @@ items:
       generate: false
       model_id: 2300427
       model_path: "electric_spawner_zombie"
+      icon: "electric_spawner_zombie"

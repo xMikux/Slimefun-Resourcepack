@@ -857,6 +857,7 @@ items:
       generate: false
       model_id: 2305106
       model_path: "sf_expansion/void_capacitor"
+      icon: "sf_expansion/void_capacitor"
   infinity_capacitor:
     display_name: infinityexpansion2
     permission: infinityexpansion2
@@ -865,6 +866,7 @@ items:
       generate: false
       model_id: 2305107
       model_path: "sf_expansion/infinity_capacitor"
+      icon: "sf_expansion/infinity_capacitor"
   advanced_enchanter:
     display_name: infinityexpansion2
     permission: infinityexpansion2
@@ -921,6 +923,7 @@ items:
       generate: false
       model_id: 2305114
       model_path: "sf_expansion/advanced_geo_miner"
+      icon: "sf_expansion/advanced_geo_miner"
   advanced_smeltery:
     display_name: infinityexpansion2
     permission: infinityexpansion2
@@ -945,6 +948,7 @@ items:
       generate: false
       model_id: 2305117
       model_path: "sf_expansion/advanced_nether_star_reactor"
+      icon: "sf_expansion/advanced_nether_star_reactor"
   cosmic_meatballs:
     display_name: infinityexpansion2
     permission: infinityexpansion2

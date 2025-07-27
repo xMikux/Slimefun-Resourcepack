@@ -417,6 +417,7 @@ items:
       generate: false
       model_id: 2200652
       model_path: "machines/infinity_capacitor"
+      icon: "machines/infinity_capacitor"
   empty_data_card:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -657,6 +658,7 @@ items:
       generate: false
       model_id: 2200682
       model_path: "machines/void_capacitor"
+      icon: "machines/void_capacitor"
   advanced_enchanter:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -681,6 +683,7 @@ items:
       generate: false
       model_id: 2200685
       model_path: "machines/advanced_geo_miner"
+      icon: "machines/advanced_geo_miner"
   advanced_nether_star_reactor:
     display_name: infinityexpansion
     permission: infinityexpansion
@@ -689,6 +692,7 @@ items:
       generate: false
       model_id: 2200686
       model_path: "machines/advanced_nether_star_reactor"
+      icon: "machines/advanced_nether_star_reactor"
   infinity_enchanter:
     display_name: infinityexpansion
     permission: infinityexpansion
