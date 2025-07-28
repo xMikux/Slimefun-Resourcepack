@@ -1,29 +1,29 @@
 {
-   "pack":{
-      "pack_format":64,
-      "description":[
-         "§2Slimefun §9Resourcepack §6Remake",
-         "\n${VERSION_PLACEHOLDER}"
-      ],
-      "supported_formats":{
-         "min_inclusive":9,
-         "max_inclusive":64
-      }
-   },
-   "Credits":{
-      "Raulh22":"https://www.planetminecraft.com/texture-pack/slimefun-texture-by-raulh22/",
-      "Den4enko":"https://github.com/Den4enko/Slimefun-Resourcepack",
-      "LoneDev":" https://www.spigotmc.org/resources/addon-slimefun4-textures-for-itemsadder.83877/",
-      "Caribax":"https://github.com/Mooy1/InfinityExpansion/releases/tag/v1",
-      "ybw0014":"https://gzss.link/sf-texture",
-      "DragonMysterious":"On Discord",
-      "AnsonYK":"On Discord",
-      "Sofia Redmond":"https://github.com/SofiaRedmond",
-      "Jerry":"https://github.com/Keeywe",
-      "haiman":"https://github.com/haiman233",
-      "RelativoBR":"https://github.com/RelativoBR",
-      "Filosofas154":"https://github.com/Filosofas154",
-      "JustAHuman-xD":"https://github.com/JustAHuman-xD",https://github.com/AlmostPanda
-      "Pandicka":"https://github.com/AlmostPanda"
-   }
+  "pack":{
+    "pack_format":64,
+    "description":[
+      "§2Slimefun §9Resourcepack §6Remake",
+      "\n${VERSION_PLACEHOLDER}"
+    ],
+    "supported_formats":{
+      "min_inclusive":9,
+      "max_inclusive":64
+    }
+  },
+  "Credits":{
+    "Raulh22":"https://www.planetminecraft.com/texture-pack/slimefun-texture-by-raulh22/",
+    "Den4enko":"https://github.com/Den4enko/Slimefun-Resourcepack",
+    "LoneDev":" https://www.spigotmc.org/resources/addon-slimefun4-textures-for-itemsadder.83877/",
+    "Caribax":"https://github.com/Mooy1/InfinityExpansion/releases/tag/v1",
+    "ybw0014":"https://gzss.link/sf-texture",
+    "DragonMysterious":"On Discord",
+    "AnsonYK":"On Discord",
+    "Sofia Redmond":"https://github.com/SofiaRedmond",
+    "Jerry":"https://github.com/Keeywe",
+    "haiman":"https://github.com/haiman233",
+    "RelativoBR":"https://github.com/RelativoBR",
+    "Filosofas154":"https://github.com/Filosofas154",
+    "JustAHuman-xD":"https://github.com/JustAHuman-xD",
+    "Pandicka":"https://github.com/AlmostPanda"
+  }
 }
