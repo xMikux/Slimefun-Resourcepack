@@ -2,50 +2,256 @@ info:
   namespace: supreme
 items:
   # Components
-  supreme_attribute_bomb:
+  supreme_alloy_zirconium:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2201525
+      model_path: "components/supreme_alloy_zirconium"
+  supreme_alloy_titanium:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2201526
+      model_path: "components/supreme_alloy_titanium"
+  supreme_alloy_iridium:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2201527
+      model_path: "components/supreme_alloy_iridium"
+  supreme_alloy_aurum:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: GOLD_INGOT
+      generate: false
+      model_id: 2201528
+      model_path: "components/supreme_alloy_aurum"
+  supreme_alloy_manganese:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: GOLD_INGOT
+      generate: false
+      model_id: 2201529
+      model_path: "components/supreme_alloy_manganese"
+  supreme_alloy_platinum:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: GOLD_INGOT
+      generate: false
+      model_id: 2201530
+      model_path: "components/supreme_alloy_platinum"
+  supreme_alloy_adamantium:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_INGOT
+      generate: false
+      model_id: 2201531
+      model_path: "components/supreme_alloy_adamantium"
+  supreme_zirconium_plate:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2201532
+      model_path: "components/supreme_zirconium_plate"
+  supreme_titanium_plate:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2201533
+      model_path: "components/supreme_titanium_plate"
+  supreme_iridium_plate:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: IRON_BLOCK
+      generate: false
+      model_id: 2201534
+      model_path: "components/supreme_iridium_plate"
+  supreme_aurum_plate:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: GOLD_BLOCK
+      generate: false
+      model_id: 2201535
+      model_path: "components/supreme_aurum_plate"
+  supreme_manganese_plate:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: GOLD_BLOCK
+      generate: false
+      model_id: 2201536
+      model_path: "components/supreme_manganese_plate"
+  supreme_platinum_plate:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: GOLD_BLOCK
+      generate: false
+      model_id: 2201537
+      model_path: "components/supreme_platinum_plate"
+  supreme_adamantium_plate:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_BLOCK
+      generate: false
+      model_id: 2201538
+      model_path: "components/supreme_adamantium_plate"
+  supreme_synthetic_amethyst:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: PURPLE_DYE
+      generate: false
+      model_id: 2201539
+      model_path: "components/supreme_synthetic_amethyst"
+  supreme_synthetic_ruby:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: PINK_DYE
+      generate: false
+      model_id: 2201540
+      model_path: "components/supreme_synthetic_ruby"
+  supreme_thornium_bit:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: IRON_NUGGET
+      generate: false
+      model_id: 2201541
+      model_path: "components/supreme_thornium_bit"
+  supreme_thornium_dust:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: GUNPOWDER
+      generate: false
+      model_id: 2201542
+      model_path: "components/supreme_thornium_dust"
+  supreme_thornium_ingot:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: IRON_INGOT
+      generate: false
+      model_id: 2201543
+      model_path: "components/supreme_thornium_ingot"
+  supreme_thornium_bit_synthetic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: GOLD_NUGGET
+      generate: false
+      model_id: 2201544
+      model_path: "components/supreme_thornium_bit_synthetic"
+  supreme_thornium_dust_synthetic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: GLOWSTONE_DUST
+      generate: false
+      model_id: 2201545
+      model_path: "components/supreme_thornium_dust_synthetic"
+  supreme_thornium_ingot_synthetic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: GOLD_INGOT
+      generate: false
+      model_id: 2201546
+      model_path: "components/supreme_thornium_ingot_synthetic"
+  supreme_thornium_carbonado:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_INGOT
+      generate: false
+      model_id: 2201547
+      model_path: "components/supreme_thornium_carbonado"
+  supreme_thornium_energized:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_INGOT
+      generate: false
+      model_id: 2201548
+      model_path: "components/supreme_thornium_energized"
+  supreme_thornerite:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_INGOT
+      generate: false
+      model_id: 2201549
+      model_path: "components/supreme_thornerite"
+  supreme_supreme_nugget:
     display_name: supreme
     permission: supreme
     resource:
       material: PLAYER_HEAD
       generate: false
-      model_id: 2201573
-      model_path: "components/supreme_attribute_bomb"
-      icon: "components/supreme_attribute_bomb"
-  supreme_attribute_fortune:
+      model_id: 2201550
+      model_path: "components/supreme_supreme_nugget"
+      icon: "components/supreme_supreme_nugget"
+  supreme_supreme:
     display_name: supreme
     permission: supreme
     resource:
       material: PLAYER_HEAD
       generate: false
-      model_id: 2201574
-      model_path: "components/supreme_attribute_fortune"
-      icon: "components/supreme_attribute_fortune"
-  supreme_attribute_impetus:
+      model_id: 2201551
+      model_path: "components/supreme_supreme"
+      icon: "components/supreme_supreme"
+  supreme_inductive_machine:
     display_name: supreme
     permission: supreme
     resource:
-      material: PLAYER_HEAD
+      material: DEAD_FIRE_CORAL_BLOCK
       generate: false
-      model_id: 2201575
-      model_path: "components/supreme_attribute_impetus"
-      icon: "components/supreme_attribute_impetus"
-  supreme_attribute_magic:
+      model_id: 2201552
+      model_path: "components/supreme_inductive_machine"
+  supreme_inductor_machine:
     display_name: supreme
     permission: supreme
     resource:
-      material: PLAYER_HEAD
+      material: FIRE_CORAL_BLOCK
       generate: false
-      model_id: 2201572
-      model_path: "components/supreme_attribute_magic"
-      icon: "components/supreme_attribute_magic"
-  supreme_blend_machine:
+      model_id: 2201553
+      model_path: "components/supreme_inductor_machine"
+  supreme_rustless_machine:
     display_name: supreme
     permission: supreme
     resource:
-      material: BUBBLE_CORAL_BLOCK
+      material: DEAD_BRAIN_CORAL_BLOCK
       generate: false
-      model_id: 2201560
-      model_path: "components/supreme_blend_machine"
+      model_id: 2201554
+      model_path: "components/supreme_rustless_machine"
+  supreme_stainless_machine:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: BRAIN_CORAL_BLOCK
+      generate: false
+      model_id: 2201555
+      model_path: "components/supreme_stainless_machine"
   supreme_carriage_machine:
     display_name: supreme
     permission: supreme
@@ -54,24 +260,92 @@ items:
       generate: false
       model_id: 2201556
       model_path: "components/supreme_carriage_machine"
-  supreme_cetrus_aqua:
+  supreme_conveyance_machine:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: HORN_CORAL_BLOCK
+      generate: false
+      model_id: 2201557
+      model_path: "components/supreme_conveyance_machine"
+  supreme_petrifier_machine:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DEAD_TUBE_CORAL_BLOCK
+      generate: false
+      model_id: 2201558
+      model_path: "components/supreme_petrifier_machine"
+  supreme_crystallizer_machine:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: TUBE_CORAL_BLOCK
+      generate: false
+      model_id: 2201559
+      model_path: "components/supreme_crystallizer_machine"
+  supreme_blend_machine:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: BUBBLE_CORAL_BLOCK
+      generate: false
+      model_id: 2201560
+      model_path: "components/supreme_blend_machine"
+  supreme_core_of_block:
     display_name: supreme
     permission: supreme
     resource:
       material: PLAYER_HEAD
       generate: false
-      model_id: 2201570
-      model_path: "components/supreme_cetrus_aqua"
-      icon: "components/supreme_cetrus_aqua"
-  supreme_cetrus_ignis:
+      model_id: 2201561
+      model_path: "components/supreme_core_of_block"
+      icon: "components/supreme_core_of_block"
+  supreme_core_of_death:
     display_name: supreme
     permission: supreme
     resource:
       material: PLAYER_HEAD
       generate: false
-      model_id: 2201571
-      model_path: "components/supreme_cetrus_ignis"
-      icon: "components/supreme_cetrus_ignis"
+      model_id: 2201562
+      model_path: "components/supreme_core_of_death"
+      icon: "components/supreme_core_of_death"
+  supreme_core_of_life:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201563
+      model_path: "components/supreme_core_of_life"
+      icon: "components/supreme_core_of_life"
+  supreme_core_of_color:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201564
+      model_path: "components/supreme_core_of_color"
+      icon: "components/supreme_core_of_color"
+  supreme_core_of_nature:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201565
+      model_path: "components/supreme_core_of_nature"
+      icon: "components/supreme_core_of_nature"
+  supreme_core_of_alloy:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_id: 2201566
+      model_path: "components/supreme_core_of_alloy"
+      icon: "components/supreme_core_of_alloy"
   supreme_cetrus_lumium:
     display_name: supreme
     permission: supreme
@@ -99,135 +373,342 @@ items:
       model_id: 2201569
       model_path: "components/supreme_cetrus_ventus"
       icon: "components/supreme_cetrus_ventus"
-  supreme_conveyance_machine:
-    display_name: supreme
-    permission: supreme
-    resource:
-      material: HORN_CORAL_BLOCK
-      generate: false
-      model_id: 2201557
-      model_path: "components/supreme_conveyance_machine"
-  supreme_core_of_alloy:
+  supreme_cetrus_aqua:
     display_name: supreme
     permission: supreme
     resource:
       material: PLAYER_HEAD
       generate: false
-      model_id: 2201566
-      model_path: "components/supreme_core_of_alloy"
-      icon: "components/supreme_core_of_alloy"
-  supreme_core_of_block:
+      model_id: 2201570
+      model_path: "components/supreme_cetrus_aqua"
+      icon: "components/supreme_cetrus_aqua"
+  supreme_cetrus_ignis:
     display_name: supreme
     permission: supreme
     resource:
       material: PLAYER_HEAD
       generate: false
-      model_id: 2201561
-      model_path: "components/supreme_core_of_block"
-      icon: "components/supreme_core_of_block"
-  supreme_core_of_color:
+      model_id: 2201571
+      model_path: "components/supreme_cetrus_ignis"
+      icon: "components/supreme_cetrus_ignis"
+  supreme_attribute_magic:
     display_name: supreme
     permission: supreme
     resource:
       material: PLAYER_HEAD
       generate: false
-      model_id: 2201564
-      model_path: "components/supreme_core_of_color"
-      icon: "components/supreme_core_of_color"
-  supreme_core_of_death:
+      model_id: 2201572
+      model_path: "components/supreme_attribute_magic"
+      icon: "components/supreme_attribute_magic"
+  supreme_attribute_bomb:
     display_name: supreme
     permission: supreme
     resource:
       material: PLAYER_HEAD
       generate: false
-      model_id: 2201562
-      model_path: "components/supreme_core_of_death"
-      icon: "components/supreme_core_of_death"
-  supreme_core_of_life:
+      model_id: 2201573
+      model_path: "components/supreme_attribute_bomb"
+      icon: "components/supreme_attribute_bomb"
+  supreme_attribute_fortune:
     display_name: supreme
     permission: supreme
     resource:
       material: PLAYER_HEAD
       generate: false
-      model_id: 2201563
-      model_path: "components/supreme_core_of_life"
-      icon: "components/supreme_core_of_life"
-  supreme_core_of_nature:
+      model_id: 2201574
+      model_path: "components/supreme_attribute_fortune"
+      icon: "components/supreme_attribute_fortune"
+  supreme_attribute_impetus:
     display_name: supreme
     permission: supreme
     resource:
       material: PLAYER_HEAD
       generate: false
-      model_id: 2201565
-      model_path: "components/supreme_core_of_nature"
-      icon: "components/supreme_core_of_nature"
-  supreme_crystallizer_machine:
+      model_id: 2201575
+      model_path: "components/supreme_attribute_impetus"
+      icon: "components/supreme_attribute_impetus"
+  supreme_dust_netherite:
     display_name: supreme
     permission: supreme
     resource:
-      material: TUBE_CORAL_BLOCK
+      material: MELON_SEEDS
       generate: false
-      model_id: 2201559
-      model_path: "components/supreme_crystallizer_machine"
-  supreme_inductive_machine:
+      model_id: 2201579
+      model_path: "components/supreme_dust_netherite"
+  supreme_dust_glow_ink:
     display_name: supreme
     permission: supreme
     resource:
-      material: DEAD_FIRE_CORAL_BLOCK
+      material: PUMPKIN_SEEDS
       generate: false
-      model_id: 2201552
-      model_path: "components/supreme_inductive_machine"
-  supreme_inductor_machine:
+      model_id: 2201580
+      model_path: "components/supreme_dust_glow_ink"
+  supreme_dust_amethyst:
     display_name: supreme
     permission: supreme
     resource:
-      material: FIRE_CORAL_BLOCK
+      material: BEETROOT_SEEDS
       generate: false
-      model_id: 2201553
-      model_path: "components/supreme_inductor_machine"
-  supreme_petrifier_machine:
+      model_id: 2201581
+      model_path: "components/supreme_dust_amethyst"
+  #Machines
+  supreme_multiblock_core:
     display_name: supreme
     permission: supreme
     resource:
-      material: DEAD_TUBE_CORAL_BLOCK
+      material: SHROOMLIGHT
       generate: false
-      model_id: 2201558
-      model_path: "components/supreme_petrifier_machine"
-  supreme_rustless_machine:
+      model_id: 2201818
+      model_path: "machines/supreme_multiblock_core"
+  supreme_multiblock_magical:
     display_name: supreme
     permission: supreme
     resource:
-      material: DEAD_BRAIN_CORAL_BLOCK
+      material: CRYING_OBSIDIAN
       generate: false
-      model_id: 2201554
-      model_path: "components/supreme_rustless_machine"
-  supreme_stainless_machine:
+      model_id: 2201819
+      model_path: "machines/supreme_multiblock_magical"
+  supreme_multiblock_gear:
     display_name: supreme
     permission: supreme
     resource:
-      material: BRAIN_CORAL_BLOCK
+      material: SMITHING_TABLE
       generate: false
-      model_id: 2201555
-      model_path: "components/supreme_stainless_machine"
-  supreme_supreme:
+      model_id: 2201820
+      model_path: "machines/supreme_multiblock_gear"
+  # Weapons
+  supreme_bow_thornium:
     display_name: supreme
     permission: supreme
     resource:
-      material: PLAYER_HEAD
+      material: BOW
       generate: false
-      model_id: 2201551
-      model_path: "components/supreme_supreme"
-      icon: "components/supreme_supreme"
-  supreme_supreme_nugget:
+      model_id: 2201886
+      model_path: "weapons/bow/supreme_bow_thornium"
+  supreme_bow_magic:
     display_name: supreme
     permission: supreme
     resource:
-      material: PLAYER_HEAD
+      material: BOW
       generate: false
-      model_id: 2201550
-      model_path: "components/supreme_supreme_nugget"
-      icon: "components/supreme_supreme_nugget"
-  # Waepons
+      model_id: 2201887
+      model_path: "weapons/bow/supreme_bow_magic"
+  supreme_bow_rare:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: BOW
+      generate: false
+      model_id: 2201888
+      model_path: "weapons/bow/supreme_bow_rare"
+  supreme_bow_epic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: BOW
+      generate: false
+      model_id: 2201889
+      model_path: "weapons/bow/supreme_bow_epic"
+  supreme_bow_legendary:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: BOW
+      generate: false
+      model_id: 2201890
+      model_path: "weapons/bow/supreme_bow_legendary"
+  supreme_bow_supreme:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: BOW
+      generate: false
+      model_id: 2201891
+      model_path: "weapons/bow/supreme_bow_supreme"
+  supreme_titanium_sword:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_id: 2201892
+      model_path: "weapons/sword/supreme_titanium_sword"
+  supreme_aurum_sword:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_id: 2201893
+      model_path: "weapons/sword/supreme_aurum_sword"
+  supreme_adamantium_sword:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_id: 2201894
+      model_path: "weapons/sword/supreme_adamantium_sword"
+  supreme_sword_thornium:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_id: 2201895
+      model_path: "weapons/sword/supreme_sword_thornium"
+  supreme_sword_magic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_id: 2201896
+      model_path: "weapons/sword/supreme_sword_magic"
+  supreme_sword_rare:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_id: 2201897
+      model_path: "weapons/sword/supreme_sword_rare"
+  supreme_sword_epic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_id: 2201898
+      model_path: "weapons/sword/supreme_sword_epic"
+  supreme_sword_legendary:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_id: 2201899
+      model_path: "weapons/sword/supreme_sword_legendary"
+  supreme_sword_supreme:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_id: 2201900
+      model_path: "weapons/sword/supreme_sword_supreme"
+  supreme_shield_thornium:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: SHIELD
+      generate: false
+      model_id: 2201901
+      model_path: "weapons/shield/supreme_shield_thornium"
+  supreme_shield_magic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: SHIELD
+      generate: false
+      model_id: 2201902
+      model_path: "weapons/shield/supreme_shield_magic"
+  supreme_shield_rare:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: SHIELD
+      generate: false
+      model_id: 2201903
+      model_path: "weapons/shield/supreme_shield_rare"
+  supreme_shield_epic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: SHIELD
+      generate: false
+      model_id: 2201904
+      model_path: "weapons/shield/supreme_shield_epic"
+  supreme_shield_legendary:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: SHIELD
+      generate: false
+      model_id: 2201905
+      model_path: "weapons/shield/supreme_shield_legendary"
+  supreme_shield_supreme:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: SHIELD
+      generate: false
+      model_id: 2201906
+      model_path: "weapons/shield/supreme_shield_supreme"
+  supreme_titanium_axe:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_id: 2201907
+      model_path: "weapons/axe/supreme_titanium_axe"
+  supreme_aurum_axe:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_id: 2201908
+      model_path: "weapons/axe/supreme_aurum_axe"
+  supreme_adamantium_axe:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_id: 2201909
+      model_path: "weapons/axe/supreme_adamantium_axe"
+  supreme_axe_thornium:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_id: 2201910
+      model_path: "weapons/axe/supreme_axe_thornium"
+  supreme_axe_magic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_id: 2201911
+      model_path: "weapons/axe/supreme_axe_magic"
+  supreme_axe_rare:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_id: 2201912
+      model_path: "weapons/axe/supreme_axe_rare"
+  supreme_axe_epic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_id: 2201913
+      model_path: "weapons/axe/supreme_axe_epic"
+  supreme_axe_legendary:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_AXE
+      generate: false
+      model_id: 2201914
+      model_path: "weapons/axe/supreme_axe_legendary"
   supreme_axe_supreme:
     display_name: supreme
     permission: supreme
@@ -235,7 +716,7 @@ items:
       material: NETHERITE_AXE
       generate: false
       model_id: 2201915
-      model_path: "weapons/supreme_axe_supreme"
+      model_path: "weapons/axe/supreme_axe_supreme"
   # supreme_hoe:
   #   display_name: supreme
   #   permission: supreme
@@ -244,6 +725,70 @@ items:
   #     generate: false
   #     model_id: None
   #     model_path: "weapons/supreme_hoe"
+  supreme_titanium_pickaxe:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: false
+      model_id: 2201916
+      model_path: "weapons/pickaxe/supreme_titanium_pickaxe"
+  supreme_aurum_pickaxe:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: false
+      model_id: 2201917
+      model_path: "weapons/pickaxe/supreme_aurum_pickaxe"
+  supreme_adamantium_pickaxe:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: false
+      model_id: 2201918
+      model_path: "weapons/pickaxe/supreme_adamantium_pickaxe"
+  supreme_pickaxe_thornium:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: false
+      model_id: 2201919
+      model_path: "weapons/pickaxe/supreme_pickaxe_thornium"
+  supreme_pickaxe_magic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: false
+      model_id: 2201920
+      model_path: "weapons/pickaxe/supreme_pickaxe_magic"
+  supreme_pickaxe_rare:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: false
+      model_id: 2201921
+      model_path: "weapons/pickaxe/supreme_pickaxe_rare"
+  supreme_pickaxe_epic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: false
+      model_id: 2201922
+      model_path: "weapons/pickaxe/supreme_pickaxe_epic"
+  supreme_pickaxe_legendary:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: false
+      model_id: 2201923
+      model_path: "weapons/pickaxe/supreme_pickaxe_legendary"
   supreme_pickaxe_supreme:
     display_name: supreme
     permission: supreme
@@ -251,7 +796,71 @@ items:
       material: NETHERITE_PICKAXE
       generate: false
       model_id: 2201924
-      model_path: "weapons/supreme_pickaxe_supreme"
+      model_path: "weapons/pickaxe/supreme_pickaxe_supreme"
+  supreme_titanium_shovel:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: false
+      model_id: 2201925
+      model_path: "weapons/shovel/supreme_titanium_shovel"
+  supreme_aurum_shovel:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: false
+      model_id: 2201926
+      model_path: "weapons/shovel/supreme_aurum_shovel"
+  supreme_adamantium_shovel:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: false
+      model_id: 2201927
+      model_path: "weapons/shovel/supreme_adamantium_shovel"
+  supreme_shovel_thornium:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: false
+      model_id: 2201928
+      model_path: "weapons/shovel/supreme_shovel_thornium"
+  supreme_shovel_magic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: false
+      model_id: 2201929
+      model_path: "weapons/shovel/supreme_shovel_magic"
+  supreme_shovel_rare:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: false
+      model_id: 2201930
+      model_path: "weapons/shovel/supreme_shovel_rare"
+  supreme_shovel_epic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: false
+      model_id: 2201931
+      model_path: "weapons/shovel/supreme_shovel_epic"
+  supreme_shovel_legendary:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: false
+      model_id: 2201932
+      model_path: "weapons/shovel/supreme_shovel_legendary"
   supreme_shovel_supreme:
     display_name: supreme
     permission: supreme
@@ -259,16 +868,72 @@ items:
       material: NETHERITE_SHOVEL
       generate: false
       model_id: 2201933
-      model_path: "weapons/supreme_shovel_supreme"
-  supreme_sword_supreme:
+      model_path: "weapons/shovel/supreme_shovel_supreme"
+  # Armor
+  supreme_titanium_helmet:
     display_name: supreme
     permission: supreme
     resource:
-      material: NETHERITE_SWORD
+      material: DIAMOND_HELMET
       generate: false
-      model_id: 2201900
-      model_path: "weapons/supreme_sword_supreme"
-  # Armor
+      model_id: 2201937
+      model_path: "armor/helmet/supreme_titanium_helmet"
+  supreme_aurum_helmet:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_HELMET
+      generate: false
+      model_id: 2201938
+      model_path: "armor/helmet/supreme_aurum_helmet"
+  supreme_adamantium_helmet:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_HELMET
+      generate: false
+      model_id: 2201939
+      model_path: "armor/helmet/supreme_adamantium_helmet"
+  supreme_helmet_thornium:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_HELMET
+      generate: false
+      model_id: 2201940
+      model_path: "armor/helmet/supreme_helmet_thornium"
+  supreme_helmet_magic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_HELMET
+      generate: false
+      model_id: 2201941
+      model_path: "armor/helmet/supreme_helmet_magic"
+  supreme_helmet_rare:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_HELMET
+      generate: false
+      model_id: 2201942
+      model_path: "armor/helmet/supreme_helmet_rare"
+  supreme_helmet_epic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_HELMET
+      generate: false
+      model_id: 2201943
+      model_path: "armor/helmet/supreme_helmet_epic"
+  supreme_helmet_legendary:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_HELMET
+      generate: false
+      model_id: 2201944
+      model_path: "armor/helmet/supreme_helmet_legendary"
   supreme_helmet_supreme:
     display_name: supreme
     permission: supreme
@@ -277,6 +942,70 @@ items:
       generate: false
       model_id: 2201945
       model_path: "armor/helmet/supreme_helmet_supreme"
+  supreme_titanium_chestplate:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_CHESTPLATE
+      generate: false
+      model_id: 2201946
+      model_path: "armor/chestplate/supreme_titanium_chestplate"
+  supreme_aurum_chestplate:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_CHESTPLATE
+      generate: false
+      model_id: 2201947
+      model_path: "armor/chestplate/supreme_aurum_chestplate"
+  supreme_adamantium_chestplate:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_CHESTPLATE
+      generate: false
+      model_id: 2201948
+      model_path: "armor/chestplate/supreme_adamantium_chestplate"
+  supreme_chestplate_thornium:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_CHESTPLATE
+      generate: false
+      model_id: 2201949
+      model_path: "armor/chestplate/supreme_chestplate_thornium"
+  supreme_chestplate_magic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_CHESTPLATE
+      generate: false
+      model_id: 2201950
+      model_path: "armor/chestplate/supreme_chestplate_magic"
+  supreme_chestplate_rare:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_CHESTPLATE
+      generate: false
+      model_id: 2201951
+      model_path: "armor/chestplate/supreme_chestplate_rare"
+  supreme_chestplate_epic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_CHESTPLATE
+      generate: false
+      model_id: 2201952
+      model_path: "armor/chestplate/supreme_chestplate_epic"
+  supreme_chestplate_legendary:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_CHESTPLATE
+      generate: false
+      model_id: 2201953
+      model_path: "armor/chestplate/supreme_chestplate_legendary"
   supreme_chestplate_supreme:
     display_name: supreme
     permission: supreme
@@ -285,6 +1014,70 @@ items:
       generate: false
       model_id: 2201954
       model_path: "armor/chestplate/supreme_chestplate_supreme"
+  supreme_titanium_leggings:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_LEGGINGS
+      generate: false
+      model_id: 2201955
+      model_path: "armor/leggings/supreme_titanium_leggings"
+  supreme_aurum_leggings:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_LEGGINGS
+      generate: false
+      model_id: 2201956
+      model_path: "armor/leggings/supreme_aurum_leggings"
+  supreme_adamantium_leggings:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_LEGGINGS
+      generate: false
+      model_id: 2201957
+      model_path: "armor/leggings/supreme_adamantium_leggings"
+  supreme_leggings_thornium:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_LEGGINGS
+      generate: false
+      model_id: 2201958
+      model_path: "armor/leggings/supreme_leggings_thornium"
+  supreme_leggings_magic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_LEGGINGS
+      generate: false
+      model_id: 2201959
+      model_path: "armor/leggings/supreme_leggings_magic"
+  supreme_leggings_rare:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_LEGGINGS
+      generate: false
+      model_id: 2201960
+      model_path: "armor/leggings/supreme_leggings_rare"
+  supreme_leggings_epic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_LEGGINGS
+      generate: false
+      model_id: 2201961
+      model_path: "armor/leggings/supreme_leggings_epic"
+  supreme_leggings_legendary:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_LEGGINGS
+      generate: false
+      model_id: 2201962
+      model_path: "armor/leggings/supreme_leggings_legendary"
   supreme_leggings_supreme:
     display_name: supreme
     permission: supreme
@@ -293,6 +1086,70 @@ items:
       generate: false
       model_id: 2201963
       model_path: "armor/leggings/supreme_leggings_supreme"
+  supreme_titanium_boots:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_BOOTS
+      generate: false
+      model_id: 2201964
+      model_path: "armor/boots/supreme_titanium_boots"
+  supreme_aurum_boots:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_BOOTS
+      generate: false
+      model_id: 2201965
+      model_path: "armor/boots/supreme_aurum_boots"
+  supreme_adamantium_boots:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: DIAMOND_BOOTS
+      generate: false
+      model_id: 2201966
+      model_path: "armor/boots/supreme_adamantium_boots"
+  supreme_boots_thornium:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_BOOTS
+      generate: false
+      model_id: 2201967
+      model_path: "armor/boots/supreme_boots_thornium"
+  supreme_boots_magic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_BOOTS
+      generate: false
+      model_id: 2201968
+      model_path: "armor/boots/supreme_boots_magic"
+  supreme_boots_rare:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_BOOTS
+      generate: false
+      model_id: 2201969
+      model_path: "armor/boots/supreme_boots_rare"
+  supreme_boots_epic:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_BOOTS
+      generate: false
+      model_id: 2201970
+      model_path: "armor/boots/supreme_boots_epic"
+  supreme_boots_legendary:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: NETHERITE_BOOTS
+      generate: false
+      model_id: 2201971
+      model_path: "armor/boots/supreme_boots_legendary"
   supreme_boots_supreme:
     display_name: supreme
     permission: supreme

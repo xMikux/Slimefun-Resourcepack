@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+	"author": "MathMelo",
+  "textures": {
+    "layer0": "supreme:components/supreme_thornium_ingot_synthetic"
+  }
+}
