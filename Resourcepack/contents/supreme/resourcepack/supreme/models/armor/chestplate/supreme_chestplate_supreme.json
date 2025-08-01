@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
-  "author": "RelativoBR",
+  "parent": "item/handheld",
+  "author": "MathMelo",
   "textures": {
     "layer0": "supreme:armor/chestplate/supreme_chestplate_supreme"
   }
