@@ -427,6 +427,30 @@ items:
       model_id: 2201575
       model_path: "components/supreme_attribute_impetus"
       icon: "components/supreme_attribute_impetus"
+  supreme_center_card_simple:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_11
+      generate: false
+      model_id: 2201576
+      model_path: "components/supreme_center_card_simple"
+  supreme_center_card_advanced:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_PIGSTEP
+      generate: false
+      model_id: 2201577
+      model_path: "components/supreme_center_card_advanced"
+  supreme_center_card_ultimate:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_MALL
+      generate: false
+      model_id: 2201578
+      model_path: "components/supreme_center_card_ultimate"
   supreme_dust_netherite:
     display_name: supreme
     permission: supreme
@@ -451,6 +475,559 @@ items:
       generate: false
       model_id: 2201581
       model_path: "components/supreme_dust_amethyst"
+  #Machine Cards
+  supreme_card_stone:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STRAD
+      generate: false
+      model_id: 2201751
+      model_path: "machine_cards/supreme_card_stone"
+  supreme_card_granite:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STRAD
+      generate: false
+      model_id: 2201752
+      model_path: "machine_cards/supreme_card_granite"
+  supreme_card_diorite:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STRAD
+      generate: false
+      model_id: 2201753
+      model_path: "machine_cards/supreme_card_diorite"
+  supreme_card_andesite:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STRAD
+      generate: false
+      model_id: 2201754
+      model_path: "machine_cards/supreme_card_andesite"
+  supreme_card_gravel:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STRAD
+      generate: false
+      model_id: 2201755
+      model_path: "machine_cards/supreme_card_gravel"
+  supreme_card_sand:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STRAD
+      generate: false
+      model_id: 2201756
+      model_path: "machine_cards/supreme_card_sand"
+  supreme_card_endstone:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STRAD
+      generate: false
+      model_id: 2201757
+      model_path: "machine_cards/supreme_card_endstone"
+  supreme_card_clay:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STRAD
+      generate: false
+      model_id: 2201758
+      model_path: "machine_cards/supreme_card_clay"
+  supreme_card_snow:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STRAD
+      generate: false
+      model_id: 2201759
+      model_path: "machine_cards/supreme_card_snow"
+  supreme_card_nether_star:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STRAD
+      generate: false
+      model_id: 2201760
+      model_path: "machine_cards/supreme_card_nether_star"
+  supreme_card_wither_rose:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STRAD
+      generate: false
+      model_id: 2201761
+      model_path: "machine_cards/supreme_card_wither_rose"
+  supreme_card_slime_ball:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STRAD
+      generate: false
+      model_id: 2201762
+      model_path: "machine_cards/supreme_card_slime_ball"
+  supreme_card_ink_sac:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STRAD
+      generate: false
+      model_id: 2201763
+      model_path: "machine_cards/supreme_card_ink_sac"
+  supreme_card_glow_ink_sac:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STRAD
+      generate: false
+      model_id: 2201764
+      model_path: "machine_cards/supreme_card_glow_ink_sac"
+  supreme_card_honey_bottle:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STRAD
+      generate: false
+      model_id: 2201765
+      model_path: "machine_cards/supreme_card_honey_bottle"
+  supreme_card_coal:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_13
+      generate: false
+      model_id: 2201766
+      model_path: "machine_cards/supreme_card_coal"
+  supreme_card_iron:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_13
+      generate: false
+      model_id: 2201767
+      model_path: "machine_cards/supreme_card_iron"
+  supreme_card_copper:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_13
+      generate: false
+      model_id: 2201768
+      model_path: "machine_cards/supreme_card_copper"
+  supreme_card_gold:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_13
+      generate: false
+      model_id: 2201769
+      model_path: "machine_cards/supreme_card_gold"
+  supreme_card_quartz:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_13
+      generate: false
+      model_id: 2201770
+      model_path: "machine_cards/supreme_card_quartz"
+  supreme_card_quartz_block:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_13
+      generate: false
+      model_id: 2201771
+      model_path: "machine_cards/supreme_card_quartz_block"
+  supreme_card_lapis:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_13
+      generate: false
+      model_id: 2201772
+      model_path: "machine_cards/supreme_card_lapis"
+  supreme_card_redstone:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_13
+      generate: false
+      model_id: 2201773
+      model_path: "machine_cards/supreme_card_redstone"
+  supreme_card_diamond:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_FAR
+      generate: false
+      model_id: 2201774
+      model_path: "machine_cards/supreme_card_diamond"
+  supreme_card_emerald:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_FAR
+      generate: false
+      model_id: 2201775
+      model_path: "machine_cards/supreme_card_emerald"
+  supreme_card_netherite:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_FAR
+      generate: false
+      model_id: 2201776
+      model_path: "machine_cards/supreme_card_netherite"
+  supreme_card_amethyst:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_FAR
+      generate: false
+      model_id: 2201777
+      model_path: "machine_cards/supreme_card_amethyst"
+  supreme_card_iron_dust:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_MELLOHI
+      generate: false
+      model_id: 2201778
+      model_path: "machine_cards/supreme_card_iron_dust"
+  supreme_card_lead_dust:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_MELLOHI
+      generate: false
+      model_id: 2201779
+      model_path: "machine_cards/supreme_card_lead_dust"
+  supreme_card_gold_dust:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_MELLOHI
+      generate: false
+      model_id: 2201780
+      model_path: "machine_cards/supreme_card_gold_dust"
+  supreme_card_copper_dust:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_MELLOHI
+      generate: false
+      model_id: 2201781
+      model_path: "machine_cards/supreme_card_copper_dust"
+  supreme_card_magnesium_dust:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_MELLOHI
+      generate: false
+      model_id: 2201782
+      model_path: "machine_cards/supreme_card_magnesium_dust"
+  supreme_card_aluminum_dust:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_MELLOHI
+      generate: false
+      model_id: 2201783
+      model_path: "machine_cards/supreme_card_aluminum_dust"
+  supreme_card_silver_dust:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_MELLOHI
+      generate: false
+      model_id: 2201784
+      model_path: "machine_cards/supreme_card_silver_dust"
+  supreme_card_tin_dust:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_MELLOHI
+      generate: false
+      model_id: 2201785
+      model_path: "machine_cards/supreme_card_tin_dust"
+  supreme_card_zinc_dust:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_MELLOHI
+      generate: false
+      model_id: 2201786
+      model_path: "machine_cards/supreme_card_zinc_dust"
+  supreme_card_solder:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_BLOCKS
+      generate: false
+      model_id: 2201787
+      model_path: "machine_cards/supreme_card_solder"
+  supreme_card_billon:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_BLOCKS
+      generate: false
+      model_id: 2201788
+      model_path: "machine_cards/supreme_card_billon"
+  supreme_card_bronze:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_BLOCKS
+      generate: false
+      model_id: 2201789
+      model_path: "machine_cards/supreme_card_bronze"
+  supreme_card_brass:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_BLOCKS
+      generate: false
+      model_id: 2201790
+      model_path: "machine_cards/supreme_card_brass"
+  supreme_card_sulfate:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_BLOCKS
+      generate: false
+      model_id: 2201791
+      model_path: "machine_cards/supreme_card_sulfate"
+  supreme_card_carbon:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_BLOCKS
+      generate: false
+      model_id: 2201792
+      model_path: "machine_cards/supreme_card_carbon"
+  supreme_card_silicon:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_BLOCKS
+      generate: false
+      model_id: 2201793
+      model_path: "machine_cards/supreme_card_silicon"
+  supreme_card_steel:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_BLOCKS
+      generate: false
+      model_id: 2201794
+      model_path: "machine_cards/supreme_card_steel"
+  supreme_card_nickel:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_BLOCKS
+      generate: false
+      model_id: 2201795
+      model_path: "machine_cards/supreme_card_nickel"
+  supreme_card_duralumin:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_BLOCKS
+      generate: false
+      model_id: 2201796
+      model_path: "machine_cards/supreme_card_duralumin"
+  supreme_card_ferrosilicon:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_BLOCKS
+      generate: false
+      model_id: 2201797
+      model_path: "machine_cards/supreme_card_ferrosilicon"
+  supreme_card_damascus:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_BLOCKS
+      generate: false
+      model_id: 2201798
+      model_path: "machine_cards/supreme_card_damascus"
+  supreme_card_cobalt:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_BLOCKS
+      generate: false
+      model_id: 2201799
+      model_path: "machine_cards/supreme_card_cobalt"
+  supreme_card_aluminum_bronze:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_CHIRP
+      generate: false
+      model_id: 2201800
+      model_path: "machine_cards/supreme_card_aluminum_bronze"
+  supreme_card_aluminum_brass:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_CHIRP
+      generate: false
+      model_id: 2201801
+      model_path: "machine_cards/supreme_card_aluminum_brass"
+  supreme_card_corinthian_bronze:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_CHIRP
+      generate: false
+      model_id: 2201802
+      model_path: "machine_cards/supreme_card_corinthian_bronze"
+  supreme_card_gold24k:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_CHIRP
+      generate: false
+      model_id: 2201803
+      model_path: "machine_cards/supreme_card_gold24k"
+  supreme_card_carbon_press:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_CHIRP
+      generate: false
+      model_id: 2201804
+      model_path: "machine_cards/supreme_card_carbon_press"
+  supreme_card_synthetic_sapphire:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_MALL
+      generate: false
+      model_id: 2201805
+      model_path: "machine_cards/supreme_card_synthetic_sapphire"
+  supreme_card_synthetic_emerald:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_MALL
+      generate: false
+      model_id: 2201806
+      model_path: "machine_cards/supreme_card_synthetic_emerald"
+  supreme_card_battery:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_CHIRP
+      generate: false
+      model_id: 2201807
+      model_path: "machine_cards/supreme_card_battery"
+  supreme_card_magnet:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_CHIRP
+      generate: false
+      model_id: 2201808
+      model_path: "machine_cards/supreme_card_magnet"
+  supreme_card_plastic_sheet:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_CHIRP
+      generate: false
+      model_id: 2201809
+      model_path: "machine_cards/supreme_card_plastic_sheet"
+  supreme_card_hardened_metal:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_CHIRP
+      generate: false
+      model_id: 2201810
+      model_path: "machine_cards/supreme_card_hardened_metal"
+  supreme_card_redstone_alloy:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_CHIRP
+      generate: false
+      model_id: 2201811
+      model_path: "machine_cards/supreme_card_redstone_alloy"
+  supreme_card_electro_magnet:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_MALL
+      generate: false
+      model_id: 2201812
+      model_path: "machine_cards/supreme_card_electro_magnet"
+  supreme_card_electric_motor:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_MALL
+      generate: false
+      model_id: 2201813
+      model_path: "machine_cards/supreme_card_electric_motor"
+  supreme_card_heating_coil:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_MALL
+      generate: false
+      model_id: 2201814
+      model_path: "machine_cards/supreme_card_heating_coil"
+  supreme_card_synthetic_diamond:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_MALL
+      generate: false
+      model_id: 2201815
+      model_path: "machine_cards/supreme_card_synthetic_diamond"
+  supreme_card_carbonado:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STAL
+      generate: false
+      model_id: 2201816
+      model_path: "machine_cards/supreme_card_carbonado"
+  supreme_card_reinforced_alloy:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STAL
+      generate: false
+      model_id: 2201817
+      model_path: "machine_cards/supreme_card_reinforced_alloy"
+  supreme_card_apple:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_STRAD
+      generate: false
+      model_id: 2201980
+      model_path: "machine_cards/supreme_card_apple"
+  supreme_card_blaze_rod:
+    display_name: supreme
+    permission: supreme
+    resource:
+      material: MUSIC_DISC_FAR
+      generate: false
+      model_id: 2201981
+      model_path: "machine_cards/supreme_card_blaze_rod"
   #Machines
   supreme_multiblock_core:
     display_name: supreme
