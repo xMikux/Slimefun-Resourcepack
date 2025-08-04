@@ -1853,20 +1853,20 @@ items:
       generate: false
       model_id: 2305230
       model_path: "mob_simulation/ender_dragon_data_card"
-  storage_forge:
-    display_name: infinityexpansion2
-    permission: infinityexpansion2
-    resource:
-      material: BEEHIVE
-      generate: false
-      model_id: 2305231
-      model_path: "minecraft:block/beehive"
-  storage_unit_1:
-    display_name: infinityexpansion2
-    permission: infinityexpansion2
-    resource:
-      material: OAK_LOG
-      generate: false
-      model_id: 2305232
-      model_path: "minecraft:block/oak_log"
+  #storage_forge:
+  #  display_name: infinityexpansion2
+  #  permission: infinityexpansion2
+  #  resource:
+  #    material: BEEHIVE
+  #    generate: false
+  #    model_id: 2305231
+  #    model_path: "minecraft:block/beehive"
+  #storage_unit_1:
+  #  display_name: infinityexpansion2
+  #  permission: infinityexpansion2
+  #  resource:
+  #    material: OAK_LOG
+  #    generate: false
+  #    model_id: 2305232
+  #    model_path: "minecraft:block/oak_log"
       
