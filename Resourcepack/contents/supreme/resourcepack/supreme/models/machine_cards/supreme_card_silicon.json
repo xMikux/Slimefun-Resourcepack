@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+	"author": "Pandicka",
+    "textures": {
+      "layer0": "supreme:machine_cards/supreme_card_silicon"
+  }
+}

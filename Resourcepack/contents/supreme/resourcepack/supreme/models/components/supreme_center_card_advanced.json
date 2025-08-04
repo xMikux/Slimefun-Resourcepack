@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+	"author": "Pandicka",
+    "textures": {
+      "layer0": "supreme:components/supreme_center_card_advanced"
+  }
+}
