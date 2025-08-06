@@ -17,7 +17,7 @@ jobs:
     steps:
       -
         name: Artifact - Download Slimefun Resourcepack
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           path: workdir
           merge-multiple: true
