@@ -2216,6 +2216,7 @@ items:
       generate: false
       model_id: 2200273
       model_path: "slimefun/weapons/soulbound_trident"
+      icon: "slimefun/weapons/soulbound_trident_icon"
   soulbound_bow:
     display_name: slimefun
     permission: slimefun

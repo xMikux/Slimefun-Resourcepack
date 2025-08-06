@@ -1,7 +1,139 @@
 {
-  "parent": "item/handheld",
-  "author": "RaulH22",
-  "textures": {
-    "layer0": "slimefun:slimefun/weapons/soulbound_trident"
-  }
+	"format_version": "1.9.0",
+	"author": "RaulH22",
+	"textures": {
+		"0": "slimefun:slimefun/weapons/soulbound_trident",
+		"particle": "slimefun:slimefun/weapons/soulbound_trident"
+	},
+	"elements": [
+		{
+			"from": [6, 15, 8],
+			"to": [7, 17, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 16, 7]},
+			"faces": {
+				"north": {"uv": [11, 2.5, 11.5, 3.5], "texture": "#0"},
+				"east": {"uv": [11, 2.5, 11.5, 3.5], "texture": "#0"},
+				"south": {"uv": [11, 2.5, 11.5, 3.5], "texture": "#0"},
+				"west": {"uv": [11, 2.5, 11.5, 3.5], "texture": "#0"},
+				"up": {"uv": [11, 2.5, 11.5, 3], "texture": "#0"},
+				"down": {"uv": [11, 3, 11.5, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 16, 8],
+			"to": [6, 20, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 18, 7]},
+			"faces": {
+				"north": {"uv": [11.5, 1, 12, 3], "texture": "#0"},
+				"east": {"uv": [11.5, 1, 12, 3], "texture": "#0"},
+				"south": {"uv": [11.5, 1, 12, 3], "texture": "#0"},
+				"west": {"uv": [11.5, 1, 12, 3], "texture": "#0"},
+				"up": {"uv": [11.5, 1, 12, 1.5], "texture": "#0"},
+				"down": {"uv": [11.5, 2.5, 12, 3], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, -10, 8],
+			"to": [8, 21, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, -10, 9]},
+			"faces": {
+				"north": {"uv": [10.5, 0.5, 11, 16], "texture": "#0"},
+				"east": {"uv": [10.5, 0.5, 11, 16], "texture": "#0"},
+				"south": {"uv": [10.5, 0.5, 11, 16], "texture": "#0"},
+				"west": {"uv": [10.5, 0.5, 11, 16], "texture": "#0"},
+				"up": {"uv": [10.5, 0.5, 11, 1], "texture": "#0"},
+				"down": {"uv": [10.5, 15.5, 11, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 16, 8],
+			"to": [10, 20, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 18, 7]},
+			"faces": {
+				"north": {"uv": [9.5, 1, 10, 3], "texture": "#0"},
+				"east": {"uv": [9.5, 1, 10, 3], "texture": "#0"},
+				"south": {"uv": [9.5, 1, 10, 3], "texture": "#0"},
+				"west": {"uv": [9.5, 1, 10, 3], "texture": "#0"},
+				"up": {"uv": [9.5, 1, 10, 1.5], "texture": "#0"},
+				"down": {"uv": [9.5, 2.5, 10, 3], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 15, 8],
+			"to": [9, 17, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16, 7]},
+			"faces": {
+				"north": {"uv": [10, 2.5, 10.5, 3.5], "texture": "#0"},
+				"east": {"uv": [10, 2.5, 10.5, 3.5], "texture": "#0"},
+				"south": {"uv": [10, 2.5, 10.5, 3.5], "texture": "#0"},
+				"west": {"uv": [10, 2.5, 10.5, 3.5], "texture": "#0"},
+				"up": {"uv": [10, 2.5, 10.5, 3], "texture": "#0"},
+				"down": {"uv": [10, 3, 10.5, 3.5], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 55, 0],
+			"translation": [-0.15, 0, 0.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -180],
+			"translation": [8, -17, -7]
+		},
+		"firstperson_righthand": {
+			"rotation": [-25, 90, 0],
+			"translation": [4.6, -2, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [2.75, 0.75, 2.25]
+		},
+		"ground": {
+			"translation": [4, 4, 2],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [15, -25, -5],
+			"translation": [2, 3, 0],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"translation": [-2, 4, -5],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "trident",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"boneType": "",
+			"children": [
+				{
+					"name": "left",
+					"origin": [7, 17, 6],
+					"color": 0,
+					"boneType": "",
+					"children": [0, 1]
+				},
+				{
+					"name": "rod",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"boneType": "",
+					"children": [2]
+				},
+				{
+					"name": "right",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"boneType": "",
+					"children": [3, 4]
+				}
+			]
+		}
+	]
 }
