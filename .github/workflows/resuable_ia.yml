@@ -33,7 +33,7 @@ jobs:
           fetch-depth: 0
       -
         name: Setup - S3cmd Cli Tool
-        uses: s3-actions/s3cmd@v2.0.0
+        uses: s3-actions/s3cmd@v2.0.1
         with:
           provider: "cloudflare"
           account_id: ${{ secrets.S3_ACCOUNT_ID }}
