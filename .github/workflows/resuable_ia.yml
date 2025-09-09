@@ -53,6 +53,7 @@ jobs:
         run: |
           mkdir external
           s3cmd get s3://${{ secrets.S3_BUCKET_NAME }}/Slimefun-Resourcepack/ItemsAdder.jar external/ItemsAdder.jar
+          s3cmd get s3://${{ secrets.S3_BUCKET_NAME }}/Slimefun-Resourcepack/ProtocolLib.jar external/ProtocolLib.jar
       -
         name: Setup - Version Replace
         run: |
