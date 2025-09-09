@@ -70,13 +70,12 @@ jobs:
         uses: raschmitt/wait-for-healthy-container/@master
         with:
           container-name: itemsadder_server
-          timeout: 120
+          timeout: 240
 
       -
         name: mcrcon - Run IA commands
         run: |
-          $GITHUB_WORKSPACE/.github/tools/mcrcon "iareload"
-          sleep 16
+          sleep 60
           $GITHUB_WORKSPACE/.github/tools/mcrcon "iazip"
           sleep 30
         env:
