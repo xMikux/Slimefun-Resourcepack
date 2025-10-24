@@ -91,14 +91,14 @@ jobs:
       -
         name: DEBUG - Upload compose log
         if: ${{ inputs.debug == true }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: compose-log
           path: .github/compose.log
 
       -
         name: Artifact - Upload generated pack
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ia-generatedpack
           path: output/generated.zip

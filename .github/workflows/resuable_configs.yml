@@ -17,7 +17,7 @@ jobs:
           zip -j9 item-models.zip Resourcepack/item-models.yml
       -
         name: Artifact - Upload Item Models
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: config-item-models
           path: item-models.zip
@@ -37,7 +37,7 @@ jobs:
         working-directory: Resourcepack
       -
         name: Artifact - Upload Item Models
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: config-ia
           path: ia-addons.zip

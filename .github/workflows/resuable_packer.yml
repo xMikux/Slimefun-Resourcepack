@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0
       -
         name: Artifact - Download Pre Generate Pack
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v6
         with:
           name: ia-generatedpack
           path: workdir
